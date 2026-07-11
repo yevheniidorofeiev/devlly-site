@@ -638,5 +638,58 @@
   else init();
 })();
 </script>
+
+<!-- Contact form -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('contact-form');
+  if(!form) return;                       // form only exists on the homepage
+  var status = document.getElementById('contact-status');
+  var btn = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Дякуємо! Ми звʼяжемося з вами найближчим часом.', en: 'Thank you! We will get back to you shortly.' },
+    empty:   { uk: 'Будь ласка, заповніть усі поля.', en: 'Please fill in all fields.' },
+    fail:    { uk: 'Не вдалося надіслати. Спробуйте ще раз або напишіть нам у Telegram.', en: 'Could not send. Please try again or message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData(form);
+    var payload = {
+      name: String(fd.get('name') || '').trim(),
+      contact: String(fd.get('contact') || '').trim(),
+      message: String(fd.get('message') || '').trim()
+    };
+    if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#6c757d');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){ return r.ok && d.ok; });
+    })
+    .then(function(ok){
+      if(ok){ form.reset(); show('ok', '#198754'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
 </body>
 </html>

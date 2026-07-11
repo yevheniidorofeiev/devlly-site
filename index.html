@@ -1015,36 +1015,34 @@
                             <h3 class="tw-text-9 tw-mb-4" data-en="Message us">Напишіть нам</h3>
                             <p class="tw-text-lg text-heading" data-en="Briefly describe your task — we will propose a solution and rough timelines.">Коротко опишіть задачу — ми запропонуємо рішення та орієнтовні строки.</p>
                         </div>
-                        <form action="#">
+                        <form action="/api/contact" method="post" id="contact-form" novalidate>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="position-relative tw-mb-2">
-                                        <input type="text" class="contact-three-input form-control bg-transparent border-0 shadow-none text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Ім'я" data-en-ph="Name">
+                                        <input type="text" name="name" required maxlength="100" class="contact-three-input form-control bg-transparent border-0 shadow-none text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Ім'я" data-en-ph="Name">
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="position-relative tw-mb-2">
-                                        <input type="email" class="contact-three-input form-control bg-transparent border-0 shadow-none text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="position-relative tw-mb-2">
-                                        <input type="text" class="contact-three-input form-control bg-transparent border-0 shadow-none text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Тема" data-en-ph="Subject">
+                                        <input type="text" name="contact" required maxlength="200" class="contact-three-input form-control bg-transparent border-0 shadow-none text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 tw-h-18 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Контакт (email або Telegram)" data-en-ph="Contact (email or Telegram)">
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="position-relative tw-mb-6">
-                                        <textarea class="contact-three-input form-control bg-transparent border-0 shadow-none tw-h-30 text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Повідомлення" data-en-ph="Message"></textarea>
+                                        <textarea name="message" required maxlength="2000" class="contact-three-input form-control bg-transparent border-0 shadow-none tw-h-30 text-heading ps-0 tw-pe-13 tw-placeholder-text-neutral-900 focus-border-main-600 focus-tw-placeholder-text-hidden tw-placeholder-transition-2 rounded-0" placeholder="Опис завдання" data-en-ph="Describe your task"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="contact-three-button">
-                                        <button class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl">
+                                        <button type="submit" class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl">
                                             <span data-en="Send message">Надіслати</span>
                                             <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                                         </button>
                                     </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <p id="contact-status" class="tw-text-lg fw-medium tw-mt-6 mb-0" role="status" aria-live="polite" hidden></p>
                                 </div>
                             </div>
                         </form>
@@ -1534,6 +1532,59 @@
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
+})();
+</script>
+
+<!-- Contact form -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('contact-form');
+  if(!form) return;                       // form only exists on the homepage
+  var status = document.getElementById('contact-status');
+  var btn = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Дякуємо! Ми звʼяжемося з вами найближчим часом.', en: 'Thank you! We will get back to you shortly.' },
+    empty:   { uk: 'Будь ласка, заповніть усі поля.', en: 'Please fill in all fields.' },
+    fail:    { uk: 'Не вдалося надіслати. Спробуйте ще раз або напишіть нам у Telegram.', en: 'Could not send. Please try again or message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData(form);
+    var payload = {
+      name: String(fd.get('name') || '').trim(),
+      contact: String(fd.get('contact') || '').trim(),
+      message: String(fd.get('message') || '').trim()
+    };
+    if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#6c757d');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){ return r.ok && d.ok; });
+    })
+    .then(function(ok){
+      if(ok){ form.reset(); show('ok', '#198754'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
 })();
 </script>
 </body>
