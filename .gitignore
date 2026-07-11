@@ -1,0 +1,4 @@
+node_modules/
+.vercel/
+Session.txt
+_backup/
