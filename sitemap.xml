@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://devlly.dev/</loc><priority>1.0</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-or-sheets.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-saves-time.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-vs-erp.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/what-to-automate-first.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-mini-app.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/data-parsing.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/ai-bot-requests.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/automate-or-lose-money.html</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/privacy.html</loc><priority>0.3</priority></url>
-  <url><loc>https://devlly.dev/terms.html</loc><priority>0.3</priority></url>
-  <url><loc>https://devlly.dev/support.html</loc><priority>0.3</priority></url>
+  <url><loc>https://devlly.dev/blog/crm-or-sheets</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/telegram-bot-saves-time</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/crm-vs-erp</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/what-to-automate-first</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/telegram-mini-app</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/data-parsing</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/ai-bot-requests</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/blog/automate-or-lose-money</loc><priority>0.8</priority></url>
+  <url><loc>https://devlly.dev/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://devlly.dev/terms</loc><priority>0.3</priority></url>
+  <url><loc>https://devlly.dev/support</loc><priority>0.3</priority></url>
 </urlset>
