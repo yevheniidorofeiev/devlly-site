@@ -5,6 +5,36 @@
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+// Rate limit: per-IP, in-memory. Survives only as long as the function instance stays warm,
+// so it stops a burst from one source but is not a globally consistent limit.
+const RATE_MAX = 3;
+const RATE_WINDOW_MS = 10 * 60 * 1000; // 10 minutes
+const hits = new Map(); // ip -> [timestamps]
+
+function isRateLimited(ip) {
+  const now = Date.now();
+  const recent = (hits.get(ip) || []).filter((t) => now - t < RATE_WINDOW_MS);
+  if (recent.length >= RATE_MAX) {
+    hits.set(ip, recent);
+    return true;
+  }
+  recent.push(now);
+  hits.set(ip, recent);
+
+  if (hits.size > 500) {
+    for (const [key, times] of hits) {
+      if (!times.some((t) => now - t < RATE_WINDOW_MS)) hits.delete(key);
+    }
+  }
+  return false;
+}
+
+function clientIp(req) {
+  const fwd = req.headers['x-forwarded-for'];
+  if (typeof fwd === 'string' && fwd) return fwd.split(',')[0].trim();
+  return (req.socket && req.socket.remoteAddress) || 'unknown';
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
@@ -23,6 +53,19 @@ module.exports = async (req, res) => {
     try { body = JSON.parse(body); } catch (e) { body = {}; }
   }
   body = body || {};
+
+  // Honeypot: humans never see this field, so anything in it is a bot.
+  // Answer 200 so the bot believes it succeeded and does not retry.
+  if (String(body.website || '').trim()) {
+    console.warn('Honeypot triggered from', clientIp(req));
+    return res.status(200).json({ ok: true });
+  }
+
+  const ip = clientIp(req);
+  if (isRateLimited(ip)) {
+    console.warn('Rate limited:', ip);
+    return res.status(429).json({ ok: false, error: 'Забагато спроб. Спробуйте пізніше.' });
+  }
 
   const name = String(body.name || '').trim();
   const contact = String(body.contact || '').trim();
