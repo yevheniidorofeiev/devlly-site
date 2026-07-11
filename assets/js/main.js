@@ -210,13 +210,6 @@
 
 
 
-      ////////////////////////////////////////////////////
-      // 08. magnific Popup  Js
-      $('.open-popup').magnificPopup({
-          type: 'iframe',
-          removalDelay: 300,
-          mainClass: 'mfp-fade',
-      });
 
 
 
