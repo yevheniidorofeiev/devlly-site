@@ -101,6 +101,7 @@
                                 </div>
                             </form>
                         </div>
+                        <div id="search-results" class="search_results" style="max-height:58vh;overflow-y:auto;margin-top:2rem;"></div>
                     </div>
                 </div>
             </div>
@@ -598,6 +599,228 @@
     })
     .catch(function(){ show('fail', '#dc3545'); })
     .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
+<!-- Site search (magnifier in the header) -->
+<script>
+(function(){
+  var input = document.querySelector('.search-input-field');
+  var box   = document.getElementById('search-results');
+  if(!input || !box) return;
+
+  var INDEX = [
+  {
+    "t": "s",
+    "uk": "Автоматизація бізнесу · CRM / ERP",
+    "en": "Business automation · CRM / ERP",
+    "duk": "Проєктуємо системи керування клієнтами, продажами та бізнес-процесами під ваш бізнес.",
+    "den": "We design systems to manage clients, sales and business processes tailored to you.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Telegram-боти та Mini Apps",
+    "en": "Telegram bots & Mini Apps",
+    "duk": "Боти для продажів, підтримки й автоматизації та повноцінні застосунки всередині Telegram.",
+    "den": "Bots for sales, support and automation, plus full-featured apps inside Telegram.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Десктопні застосунки",
+    "en": "Desktop applications",
+    "duk": "Програми для Windows і macOS: облік, автоматизація робочих місць, робота з базами даних.",
+    "den": "Apps for Windows and macOS: accounting, workplace automation, database-driven tools.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Вебсервіси та SaaS",
+    "en": "Web services & SaaS",
+    "duk": "Вебдодатки, адмін-панелі та SaaS-продукти з нуля під ваші задачі.",
+    "den": "Web apps, admin panels and SaaS products built from scratch for your needs.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Парсинг даних і моніторинг",
+    "en": "Data parsing & monitoring",
+    "duk": "Збираємо й відстежуємо дані з сайтів і сервісів, сповіщаємо про зміни автоматично.",
+    "den": "We collect and track data from sites and services, alerting you to changes automatically.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "AI-інтеграції та чат-боти з GPT",
+    "en": "AI integrations & GPT chatbots",
+    "duk": "Впроваджуємо GPT у ваші процеси: розумні асистенти, обробка звернень і генерація контенту.",
+    "den": "We embed GPT into your workflows: smart assistants, request handling and content generation.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "HR-автоматизація",
+    "en": "HR automation",
+    "duk": "Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding — without manual routine.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Автоворонки і розсилки",
+    "en": "Sales funnels & mailouts",
+    "duk": "Налаштовуємо автоматичні воронки продажів і розсилки в месенджерах та пошті.",
+    "den": "We set up automated sales funnels and campaigns across messengers and email.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Інтеграції з CRM, API та Google Sheets",
+    "en": "Integrations with CRM, APIs & Google Sheets",
+    "duk": "Поєднуємо ваші сервіси в єдину систему: CRM, платіжки, API та Google-таблиці.",
+    "den": "We connect your services into one system: CRM, payments, APIs and Google Sheets.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Особисті кабінети клієнтів",
+    "en": "Client portals",
+    "duk": "Кабінети з авторизацією, оплатами й персональними даними для ваших клієнтів.",
+    "den": "Portals with authentication, payments and personal data for your clients.",
+    "url": "/#services"
+  },
+  {
+    "t": "c",
+    "uk": "SalesIntel AI",
+    "en": "SalesIntel AI",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "ShopBot UA",
+    "en": "ShopBot UA",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "HR-бот",
+    "en": "HR-бот",
+    "url": "/#projects"
+  },
+  {
+    "t": "b",
+    "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
+    "en": "When a business needs its own CRM — and when spreadsheets are enough",
+    "url": "/blog/crm-or-sheets"
+  },
+  {
+    "t": "b",
+    "uk": "Як Telegram-бот замінив 3 години ручної роботи менеджера на 10 хвилин",
+    "en": "How a Telegram bot replaced 3 hours of manual work with 10 minutes",
+    "url": "/blog/telegram-bot-saves-time"
+  },
+  {
+    "t": "b",
+    "uk": "CRM чи ERP: у чому різниця та що обрати для свого бізнесу",
+    "en": "CRM vs ERP: what’s the difference and which one to choose",
+    "url": "/blog/crm-vs-erp"
+  },
+  {
+    "t": "b",
+    "uk": "5 процесів, які варто автоматизувати першими",
+    "en": "5 processes you should automate first",
+    "url": "/blog/what-to-automate-first"
+  },
+  {
+    "t": "b",
+    "uk": "Mini App у Telegram: що це і навіщо вашому бізнесу",
+    "en": "Mini App in Telegram: what it is and why your business needs it",
+    "url": "/blog/telegram-mini-app"
+  },
+  {
+    "t": "b",
+    "uk": "Парсинг даних для бізнесу: як моніторити конкурентів автоматично",
+    "en": "Data parsing for business: how to monitor competitors automatically",
+    "url": "/blog/data-parsing"
+  },
+  {
+    "t": "b",
+    "uk": "Як AI-бот обробляє заявки замість менеджера",
+    "en": "How an AI bot handles client requests instead of a manager",
+    "url": "/blog/ai-bot-requests"
+  },
+  {
+    "t": "b",
+    "uk": "Чому ваш бізнес досі витрачає гроші на те, що можна автоматизувати",
+    "en": "Why your business is still spending money on things that can be automated",
+    "url": "/blog/automate-or-lose-money"
+  }
+];
+
+  var TYPE = { s:{uk:'Послуга',en:'Service'}, c:{uk:'Кейс',en:'Case'}, b:{uk:'Стаття',en:'Article'} };
+  var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
+  function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
+  function norm(v){ return (v||'').toLowerCase().trim(); }
+
+  function search(q){
+    q = norm(q);
+    if(q.length < 2) return [];
+    return INDEX.filter(function(it){
+      return norm(it.uk).indexOf(q) > -1 || norm(it.en).indexOf(q) > -1 ||
+             norm(it.duk).indexOf(q) > -1 || norm(it.den).indexOf(q) > -1;
+    }).slice(0, 8);
+  }
+
+  function render(q){
+    var L = lang(), res = search(q);
+    box.innerHTML = '';
+    if(norm(q).length < 2) return;
+    if(!res.length){
+      var p = document.createElement('p');
+      p.className = 'tw-text-lg text-heading';
+      p.style.opacity = '.7';
+      p.textContent = EMPTY[L];
+      box.appendChild(p);
+      return;
+    }
+    res.forEach(function(it){
+      var a = document.createElement('a');
+      a.href = it.url;
+      a.className = 'd-flex align-items-center justify-content-between tw-gap-4 cursor-small';
+      a.style.cssText = 'padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12);text-decoration:none;';
+      var title = document.createElement('span');
+      title.className = 'tw-text-xl fw-medium text-heading';
+      title.textContent = it[L];
+      var type = document.createElement('span');
+      type.className = 'tw-text-sm fw-semibold text-uppercase text-main-two-600';
+      type.style.whiteSpace = 'nowrap';
+      type.textContent = TYPE[it.t][L];
+      a.appendChild(title); a.appendChild(type);
+      a.addEventListener('click', function(e){ go(e, it.url); });
+      box.appendChild(a);
+    });
+  }
+
+  function go(e, url){
+    var hash = url.indexOf('/#') === 0 ? url.slice(1) : null;   // "/#services" -> "#services"
+    var target = hash ? document.querySelector(hash) : null;
+    if(!target) return;                       // sub-page: let the browser navigate to "/#..."
+    e.preventDefault();
+    var close = document.querySelector('.search_close_btn');
+    if(close) close.click();
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    setTimeout(function(){
+      if(sm){ sm.scrollTo(target, true, 'top 100px'); }
+      else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo({top:y, behavior:'smooth'}); }
+    }, 250);
+  }
+
+  input.addEventListener('input', function(){ render(input.value); });
+  var form = input.closest('form');
+  if(form) form.addEventListener('submit', function(e){ e.preventDefault(); render(input.value); });
+  document.addEventListener('click', function(e){
+    if(e.target.closest && e.target.closest('.search_close_btn')){ input.value=''; box.innerHTML=''; }
   });
 })();
 </script>
