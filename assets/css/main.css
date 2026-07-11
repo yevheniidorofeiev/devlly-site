@@ -108,8 +108,6 @@
 
    ================================== Css table of contents End======================================== */
 /* Font Family*/
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
-
 @font-face {
     font-family: "thunder";
   src: url("../fonts/Thunder-SemiBoldLC.woff2") format("woff2"), url("../fonts/Thunder-SemiBoldLC.woff") format("woff");
@@ -8632,14 +8630,14 @@ body.loaded {
     margin-bottom: 50px;
 }
 
-.tpoffcanvas__contact-title h5 {
+.tpoffcanvas__contact-title p {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 30px;
     display: inline-block;
 }
 
-.tpoffcanvas__input-title h4 {
+.tpoffcanvas__input-title p {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;

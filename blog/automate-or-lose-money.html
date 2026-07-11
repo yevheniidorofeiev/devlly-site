@@ -16,12 +16,20 @@
     <meta property="og:url" content="https://devlly.dev/blog/automate-or-lose-money">
     <meta property="og:image" content="https://devlly.dev/assets/images/thumbs/feature-three-thumb.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="../assets/images/logo/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/Thunder-SemiBoldLC.woff2" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo/favicon.svg">
+    <link rel="icon" href="../assets/images/logo/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="../assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/images/logo/apple-touch-icon.png">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="../assets/css/swiper-bundle.css"><link rel="stylesheet" href="../assets/css/magnific-popup.css"></noscript>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -142,7 +150,7 @@
                                 </a>
                             </div>
                             <div class="search_close">
-                                <button type="button" class="search_close_btn">
+                                <button type="button" class="search_close_btn" aria-label="Закрити пошук">
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -155,7 +163,7 @@
                                 <div class="search_input">
                                     <input class="search-input-field focus-tw-placeholder-text-hidden" type="text" placeholder="Пошук..." data-en-ph="Search...">
                                     <span class="search-focus-border"></span>
-                                    <button type="submit">
+                                    <button type="submit" aria-label="Шукати">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -189,7 +197,7 @@
     
     <!-- ==================== Scroll to Top End Here ==================== -->
     <div class="back-to-top-wrapper">
-        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small">
+        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small" aria-label="Вгору">
             <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
@@ -206,7 +214,7 @@
 <div class="tpoffcanvas-area">
     <div class="tpoffcanvas">
         <div class="tpoffcanvas__close-btn">
-            <button class="close-btn"><i class="ph ph-x"></i></button>
+            <button class="close-btn" aria-label="Закрити меню"><i class="ph ph-x"></i></button>
         </div>
         <div class="tpoffcanvas__logo">
             <a href="/">
@@ -219,7 +227,7 @@
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
             <div class="tpoffcanvas__contact-title">
-                <h5 data-en="Contact us">Контакти</h5>
+                <p data-en="Contact us">Контакти</p>
             </div>
             <ul>
                 <li>
@@ -234,12 +242,12 @@
         </div>
         <div class="tpoffcanvas__input">
             <div class="tpoffcanvas__input-title">
-                <h4 data-en="Get updates">Розсилка</h4>
+                <p data-en="Get updates">Розсилка</p>
             </div>
             <form action="#">
                 <div class="position-relative">
                     <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Ваш email" data-en-ph="Your email">
-                    <button>
+                    <button aria-label="Підписатися">
                         <i class="ph ph-paper-plane-tilt"></i>
                     </button>
                 </div>
@@ -247,7 +255,7 @@
         </div>
         <div class="tpoffcanvas__social">
             <div class="social-icon">
-                <a href="https://t.me/yevhenii50" target="_blank"><i class="ph ph-telegram-logo"></i></a>
+                <a href="https://t.me/yevhenii50" target="_blank" aria-label="Telegram"><i class="ph ph-telegram-logo"></i></a>
             </div>
         </div>
     </div>
@@ -308,7 +316,7 @@
                     <div class="header-button d-none d-sm-block">
                         <a class="tw-hover-btn bg-main-two-600 text-white cursor-small justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/#contact">
                             <span data-en="Get in touch">Обговорити проєкт</span>
-                            <span><img src="../assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img width="36" height="12" src="../assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -316,8 +324,8 @@
     
     
                     <!-- Mobile Button Start  -->
-                    <button type="button" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
-                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img src="../assets/images/icons/menu.svg" alt="menu"></span>
+                    <button type="button" aria-label="Відкрити меню" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
+                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img width="32" height="8" src="../assets/images/icons/menu.svg" alt="menu"></span>
                     </button>
                     <!-- Mobile Button End  -->
                 </div>
@@ -427,22 +435,22 @@
                             <div class="footer-three-col footer-three-col-1 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <ul class="d-flex flex-column tw-gap-6">
                                     <li>
-                                        <a href="/" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Home">Головна</span></a>
+                                        <a href="/" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Home">Головна</span></a>
                                     </li>
                                     <li>
-                                        <a href="/#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="About Us">Про нас</span></a>
+                                        <a href="/#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="About Us">Про нас</span></a>
                                     </li>
                                     <li>
-                                        <a href="/#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Work">Кейси</span></a>
+                                        <a href="/#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Work">Кейси</span></a>
                                     </li>
                                     <li>
-                                        <a href="/#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Services">Послуги</span></a>
+                                        <a href="/#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Services">Послуги</span></a>
                                     </li>
                                     <li>
-                                        <a href="/#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Blog">Блог</span></a>
+                                        <a href="/#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Blog">Блог</span></a>
                                     </li>
                                     <li>
-                                        <a href="/#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Contact">Контакти</span></a>
+                                        <a href="/#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Contact">Контакти</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -451,16 +459,16 @@
                             <div class="footer-three-col footer-three-col-2 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                 <ul class="d-flex flex-column tw-gap-6">
                                     <li>
-                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Privacy Policy">Політика конфіденційності</span></a>
+                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Privacy Policy">Політика конфіденційності</span></a>
                                     </li>
                                     <li>
-                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span><span data-en="Terms &amp; Conditions">Умови використання</span></a>
+                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span><span data-en="Terms &amp; Conditions">Умови використання</span></a>
                                     </li>
                                     <li>
-                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Support">Підтримка</span></a>
+                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Support">Підтримка</span></a>
                                     </li>
                                     <li>
-                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="../assets/images/icons/service-tag.svg" alt=""></span> 404<span data-en=" Page"></span></a>
+                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> 404<span data-en=" Page"></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -504,56 +512,56 @@
         </div>
     </div>       
 <!-- Jquery js -->
-<script src="../assets/js/jquery-3.7.1.min.js"></script>
+<script defer src="../assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
-<script src="../assets/js/phosphor-icon.js"></script>
+<script defer src="../assets/js/phosphor-icon.js"></script>
 <!-- Bootstrap Bundle Js -->
-<script src="../assets/js/boostrap.bundle.min.js"></script>
+<script defer src="../assets/js/boostrap.bundle.min.js"></script>
 <!-- aos -->
-<script src="../assets/js/aos.js"></script>
+<script defer src="../assets/js/aos.js"></script>
 <!-- appear -->
-<script src="../assets/js/appear.min.js"></script>
+<script defer src="../assets/js/appear.min.js"></script>
 <!-- magnific popup js -->
-<script src="../assets/js/magnific-popup.min.js"></script>
+<script defer src="../assets/js/magnific-popup.min.js"></script>
 <!-- marquee -->
-<script src="../assets/js/jquery.marquee.min.js"></script>
+<script defer src="../assets/js/jquery.marquee.min.js"></script>
 <!-- counterup js -->
-<script src="../assets/js/purecounter.js"></script>
+<script defer src="../assets/js/purecounter.js"></script>
 <!-- swiper bundle js -->
-<script src="../assets/js/swiper-bundle.min.js"></script>
+<script defer src="../assets/js/swiper-bundle.min.js"></script>
 <!-- ripple-2 js -->
-<script src="../assets/js/ripple-2.js"></script>
+<script defer src="../assets/js/ripple-2.js"></script>
 <!-- knob js -->
-<script src="../assets/js/jquery-knob.js"></script>
+<script defer src="../assets/js/jquery-knob.js"></script>
 
 <!-- gsap js -->
-<script src="../assets/js/gsap/gsap.js"></script>
+<script defer src="../assets/js/gsap/gsap.js"></script>
 <!-- Scroll plugin -->
-<script src="../assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+<script defer src="../assets/js/gsap/gsap-scroll-to-plugin.js"></script>
 <!-- Scroll smoother -->
-<script src="../assets/js/gsap/gsap-scroll-smoother.js"></script>
+<script defer src="../assets/js/gsap/gsap-scroll-smoother.js"></script>
 <!-- Scroll Trigger -->
-<script src="../assets/js/gsap/gsap-scroll-trigger.js"></script>
+<script defer src="../assets/js/gsap/gsap-scroll-trigger.js"></script>
 <!-- split text -->
-<script src="../assets/js/gsap/gsap-split-text.js"></script>
+<script defer src="../assets/js/gsap/gsap-split-text.js"></script>
 <!-- matter -->
-<script src="../assets/js/matter.js"></script>
+<script defer src="../assets/js/matter.js"></script>
 <!-- throwable -->
-<script src="../assets/js/throwable.js"></script>
+<script defer src="../assets/js/throwable.js"></script>
 <!-- imagesloaded -->
-<script src="../assets/js/imagesloaded-pkgd.js"></script>
+<script defer src="../assets/js/imagesloaded-pkgd.js"></script>
 
 
 
 
 <!-- custom GSAP -->
-<script src="../assets/js/slider-active.js"></script>
+<script defer src="../assets/js/slider-active.js"></script>
 <!-- custom GSAP -->
-<script src="../assets/js/custom-gsap.js"></script>
+<script defer src="../assets/js/custom-gsap.js"></script>
 <!-- main js -->
-<script src="../assets/js/main.js"></script>
+<script defer src="../assets/js/main.js"></script>
 <!-- cursor js -->
-<script src="../assets/js/tw-cursor.js"></script>
+<script defer src="../assets/js/tw-cursor.js"></script>
 <!-- img-revel -->
 <script type="module" src="../assets/js/img-revel/index.js"></script>
 <script>

@@ -48,6 +48,12 @@
       ]
     }
     </script>
+    <!-- Preconnect / preload: fonts and the hero image -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/Thunder-SemiBoldLC.woff2" crossorigin>
+    <link rel="preload" as="image" href="assets/images/shapes/banner-three-hand.png" fetchpriority="high">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/logo/favicon.svg">
     <link rel="icon" href="assets/images/logo/favicon.ico" sizes="any">
@@ -55,14 +61,17 @@
     <link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Swiper Bundle -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <!-- magnific popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- aos -->
-    <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- aos (kept blocking: it hides [data-aos] elements, deferring it makes them flash) -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- Non-critical: loaded without blocking the first render -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    </noscript>
 </head>
 
 <body class="home-three tw-magic-cursor noise-bg loaded">
@@ -130,7 +139,7 @@
                                 </a>
                             </div>
                             <div class="search_close">
-                                <button type="button" class="search_close_btn">
+                                <button type="button" class="search_close_btn" aria-label="Закрити пошук">
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                         <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -143,7 +152,7 @@
                                 <div class="search_input">
                                     <input class="search-input-field focus-tw-placeholder-text-hidden" type="text" placeholder="Пошук..." data-en-ph="Search...">
                                     <span class="search-focus-border"></span>
-                                    <button type="submit">
+                                    <button type="submit" aria-label="Шукати">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                             <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -177,7 +186,7 @@
     
     <!-- ==================== Scroll to Top End Here ==================== -->
     <div class="back-to-top-wrapper">
-        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small">
+        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small" aria-label="Вгору">
             <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
@@ -194,7 +203,7 @@
 <div class="tpoffcanvas-area">
     <div class="tpoffcanvas">
         <div class="tpoffcanvas__close-btn">
-            <button class="close-btn"><i class="ph ph-x"></i></button>
+            <button class="close-btn" aria-label="Закрити меню"><i class="ph ph-x"></i></button>
         </div>
         <div class="tpoffcanvas__logo">
             <a href="/">
@@ -207,7 +216,7 @@
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
             <div class="tpoffcanvas__contact-title">
-                <h5 data-en="Contact us">Контакти</h5>
+                <p data-en="Contact us">Контакти</p>
             </div>
             <ul>
                 <li>
@@ -222,12 +231,12 @@
         </div>
         <div class="tpoffcanvas__input">
             <div class="tpoffcanvas__input-title">
-                <h4 data-en="Get updates">Розсилка</h4>
+                <p data-en="Get updates">Розсилка</p>
             </div>
             <form action="#">
                 <div class="position-relative">
                     <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Ваш email" data-en-ph="Your email">
-                    <button>
+                    <button aria-label="Підписатися">
                         <i class="ph ph-paper-plane-tilt"></i>
                     </button>
                 </div>
@@ -235,7 +244,7 @@
         </div>
         <div class="tpoffcanvas__social">
             <div class="social-icon">
-                <a href="https://t.me/yevhenii50" target="_blank"><i class="ph ph-telegram-logo"></i></a>
+                <a href="https://t.me/yevhenii50" target="_blank" aria-label="Telegram"><i class="ph ph-telegram-logo"></i></a>
             </div>
         </div>
     </div>
@@ -296,7 +305,7 @@
                     <div class="header-button d-none d-sm-block">
                         <a class="tw-hover-btn bg-main-two-600 text-white cursor-small justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Get in touch">Обговорити проєкт</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -304,8 +313,8 @@
     
     
                     <!-- Mobile Button Start  -->
-                    <button type="button" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
-                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img src="assets/images/icons/menu.svg" alt="menu"></span>
+                    <button type="button" aria-label="Відкрити меню" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
+                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img width="32" height="8" src="assets/images/icons/menu.svg" alt="menu"></span>
                     </button>
                     <!-- Mobile Button End  -->
                 </div>
@@ -340,7 +349,7 @@
                                         </text>
                                     </svg>                                                  
                                      <div class="banner-circle-button position-absolute top-50 start-50 translate-middle lh-1 d-inline-flex justify-content-center align-items-center rounded-circle">
-                                         <span><img class="banner-three-union" src="assets/images/icons/banner-three-union.svg" alt="union"></span>
+                                         <span><img width="52" height="61" class="banner-three-union" src="assets/images/icons/banner-three-union.svg" alt="union"></span>
                                      </div>
                                 </div>
                             </div>
@@ -351,7 +360,7 @@
                                 <div class="banner-three-button">
                                     <a class="tw-hover-btn cursor-small bg-main-two-600 text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                                         <span data-en="Discuss your project">Обговорити проєкт</span>
-                                        <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                                        <span><img width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                                         <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                                     </a>
                                 </div>
@@ -369,7 +378,7 @@
         </div>
     </div>
     <div>
-        <img class="banner-three-hand-shape position-absolute start-0 z-n1" src="assets/images/shapes/banner-three-hand.png" alt="hand">
+        <img fetchpriority="high" width="281" height="307" class="banner-three-hand-shape position-absolute start-0 z-n1" src="assets/images/shapes/banner-three-hand.png" alt="hand">
     </div>
 </section>
             <section class="feature-three-area">
@@ -380,8 +389,8 @@
                     <div class="feature-three-left tw-ps-11 tw-pe-20 tw-py-222 tw-rounded-2xl position-relative z-1 overflow-hidden bg-img" data-background-image="assets/images/shapes/feature-three-bg.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="service-two-tag feature-three-tag tw-mb-10">
                             <ul class="d-flex tw-gap-205">
-                                <li><a class="text-white fw-semibold tw-text-sm d-inline-flex align-items-center tw-gap-205 hover-text-white cursor-small" href="#"><span class="lh-1 d-inline-block"><img src="assets/images/icons/section-subtitle.svg" alt="tag"></span> <span data-en="Development">Розробка</span></a></li>
-                                <li><a class="text-white fw-semibold tw-text-sm d-inline-flex align-items-center tw-gap-205 hover-text-white cursor-small" href="#"><span class="lh-1 d-inline-block"><img src="assets/images/icons/section-subtitle.svg" alt="tag"></span> <span data-en="Automation">Автоматизація</span></a></li>
+                                <li><a class="text-white fw-semibold tw-text-sm d-inline-flex align-items-center tw-gap-205 hover-text-white cursor-small" href="#"><span class="lh-1 d-inline-block"><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/section-subtitle.svg" alt="tag"></span> <span data-en="Development">Розробка</span></a></li>
+                                <li><a class="text-white fw-semibold tw-text-sm d-inline-flex align-items-center tw-gap-205 hover-text-white cursor-small" href="#"><span class="lh-1 d-inline-block"><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/section-subtitle.svg" alt="tag"></span> <span data-en="Automation">Автоматизація</span></a></li>
                             </ul>
                         </div>
                         <div class="feature-two-content tw-mb-10">
@@ -391,14 +400,14 @@
                         <div class="about-three-button">
                             <a class="tw-hover-btn bg-main-two-600 text-white cursor-small justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                                 <span data-en="Get in touch">Зв'язатися</span>
-                                <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                                <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                                 <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                             </a>
                         </div>
                     </div>
                     <div class="feature-three-right tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="feature-three-thumb tw-rounded-2xl position-relative z-1 h-100">
-                            <img class="tw-rounded-2xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/feature-three-thumb.png" alt="Devlly" style="min-height:440px;filter:grayscale(1) brightness(.5) contrast(1.1);">
+                            <img loading="lazy" decoding="async" width="1210" height="650" class="tw-rounded-2xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/feature-three-thumb.png" alt="Devlly" style="min-height:440px;filter:grayscale(1) brightness(.5) contrast(1.1);">
                         </div>
                     </div>
                 </div>
@@ -425,10 +434,10 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="about-three-list-thumb-wrap position-relative text-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div id="about-three-thumb" class="about-three-list-thumb-1">
-                            <img class="about-three-list-thumb-1 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb1.png" alt="thumb1" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
-                            <img class="about-three-list-thumb-2 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb2.png" alt="thumb2" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
-                            <img class="about-three-list-thumb-3 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb3.png" alt="thumb3" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
-                            <img class="about-three-list-thumb-4 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb4.png" alt="thumb4" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
+                            <img loading="lazy" decoding="async" width="803" height="684" class="about-three-list-thumb-1 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb1.png" alt="thumb1" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
+                            <img loading="lazy" decoding="async" width="803" height="684" class="about-three-list-thumb-2 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb2.png" alt="thumb2" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
+                            <img loading="lazy" decoding="async" width="803" height="684" class="about-three-list-thumb-3 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb3.png" alt="thumb3" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
+                            <img loading="lazy" decoding="async" width="803" height="684" class="about-three-list-thumb-4 tw-rounded-3xl" src="assets/images/thumbs/about-three-thumb4.png" alt="thumb4" style="filter:grayscale(1) brightness(.5) contrast(1.1);">
                         </div>
                     </div>
                 </div>
@@ -436,7 +445,7 @@
                     <div class="about-three-list-wrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="about-three-list-item d-flex align-items-center align-items-center tw-gap-705 tw-mb-705 cursor-pointer position-relative active" rel="about-three-list-thumb-1">
                             <div>
-                                <img src="assets/images/icons/about-three-icon1.svg" alt="icon">
+                                <img loading="lazy" decoding="async" width="80" height="80" src="assets/images/icons/about-three-icon1.svg" alt="icon">
                             </div>
                             <div>
                                 <h3 class="about-three-list-title text-heading tw-text-3xl fw-semibold tw-mb-4 position-relative z-1 tw-transition-3"><a class="tw-transition-3 cursor-small" href="#services" data-en="Full development cycle">Повний цикл розробки</a></h3>
@@ -445,7 +454,7 @@
                         </div>
                         <div class="about-three-list-item d-flex align-items-center align-items-center tw-gap-705 tw-mb-705 cursor-pointer position-relative" rel="about-three-list-thumb-2">
                             <div>
-                                <img src="assets/images/icons/about-three-icon2.svg" alt="icon">
+                                <img loading="lazy" decoding="async" width="80" height="80" src="assets/images/icons/about-three-icon2.svg" alt="icon">
                             </div>
                             <div>
                                 <h3 class="about-three-list-title text-heading tw-text-3xl fw-semibold tw-mb-4 position-relative z-1 tw-transition-3"><a class="tw-transition-3 cursor-small" href="#services" data-en="Process automation">Автоматизація процесів</a></h3>
@@ -454,7 +463,7 @@
                         </div>
                         <div class="about-three-list-item d-flex align-items-center align-items-center tw-gap-705 tw-mb-705 cursor-pointer position-relative" rel="about-three-list-thumb-3">
                             <div>
-                                <img src="assets/images/icons/about-three-icon3.svg" alt="icon">
+                                <img loading="lazy" decoding="async" width="80" height="80" src="assets/images/icons/about-three-icon3.svg" alt="icon">
                             </div>
                             <div>
                                 <h3 class="about-three-list-title text-heading tw-text-3xl fw-semibold tw-mb-4 position-relative z-1 tw-transition-3"><a class="tw-transition-3 cursor-small" href="#services" data-en="Integrations &amp; APIs">Інтеграції та API</a></h3>
@@ -463,7 +472,7 @@
                         </div>
                         <div class="about-three-list-item d-flex align-items-center align-items-center tw-gap-705 tw-mb-705 cursor-pointer position-relative" rel="about-three-list-thumb-4">
                             <div>
-                                <img src="assets/images/icons/about-three-icon4.svg" alt="icon">
+                                <img loading="lazy" decoding="async" width="80" height="80" src="assets/images/icons/about-three-icon4.svg" alt="icon">
                             </div>
                             <div>
                                 <h3 class="about-three-list-title text-heading tw-text-3xl fw-semibold tw-mb-4 position-relative z-1 tw-transition-3"><a class="tw-transition-3 cursor-small" href="#services" data-en="Support &amp; growth">Супровід і розвиток</a></h3>
@@ -502,172 +511,172 @@
         <div class="row justify-content-center">
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="60" height="60" src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Business automation · CRM / ERP">Автоматизація бізнесу · CRM / ERP</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We design systems to manage clients, sales and business processes tailored to you.">Проєктуємо системи керування клієнтами, продажами та бізнес-процесами під ваш бізнес.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Автоматизація бізнесу · CRM / ERP" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="75" height="60" src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Telegram bots &amp; Mini Apps">Telegram-боти та Mini Apps</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Bots for sales, support and automation, plus full-featured apps inside Telegram.">Боти для продажів, підтримки й автоматизації та повноцінні застосунки всередині Telegram.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Telegram-боти та Mini Apps" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon3.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="90" height="60" src="assets/images/icons/service-three-icon3.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Desktop applications">Десктопні застосунки</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Apps for Windows and macOS: accounting, workplace automation, database-driven tools.">Програми для Windows і macOS: облік, автоматизація робочих місць, робота з базами даних.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Десктопні застосунки" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon4.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="86" height="60" src="assets/images/icons/service-three-icon4.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Web services &amp; SaaS">Вебсервіси та SaaS</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Web apps, admin panels and SaaS products built from scratch for your needs.">Вебдодатки, адмін-панелі та SaaS-продукти з нуля під ваші задачі.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Вебсервіси та SaaS" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="60" height="60" src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Data parsing &amp; monitoring">Парсинг даних і моніторинг</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We collect and track data from sites and services, alerting you to changes automatically.">Збираємо й відстежуємо дані з сайтів і сервісів, сповіщаємо про зміни автоматично.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Парсинг даних і моніторинг" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="75" height="60" src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="AI integrations &amp; GPT chatbots">AI-інтеграції та чат-боти з GPT</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We embed GPT into your workflows: smart assistants, request handling and content generation.">Впроваджуємо GPT у ваші процеси: розумні асистенти, обробка звернень і генерація контенту.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: AI-інтеграції та чат-боти з GPT" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon3.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="90" height="60" src="assets/images/icons/service-three-icon3.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="HR automation">HR-автоматизація</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Collecting applications, screening candidates and onboarding — without manual routine.">Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: HR-автоматизація" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon4.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="86" height="60" src="assets/images/icons/service-three-icon4.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Sales funnels &amp; mailouts">Автоворонки і розсилки</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We set up automated sales funnels and campaigns across messengers and email.">Налаштовуємо автоматичні воронки продажів і розсилки в месенджерах та пошті.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Автоворонки і розсилки" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="60" height="60" src="assets/images/icons/service-three-icon1.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Integrations with CRM, APIs &amp; Google Sheets">Інтеграції з CRM, API та Google Sheets</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We connect your services into one system: CRM, payments, APIs and Google Sheets.">Поєднуємо ваші сервіси в єдину систему: CRM, платіжки, API та Google-таблиці.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Інтеграції з CRM, API та Google Sheets" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 <div class="col-xl-4 col-lg-6 col-md-6">
     <div class="service-three-wrapper bg-white tw-py-15 tw-px-110 tw-mb-705 tw-rounded-xl position-relative z-1 overflow-hidden" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-      <div class="service-three-icon tw-mb-6"><span><img src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
+      <div class="service-three-icon tw-mb-6"><span><img loading="lazy" decoding="async" width="75" height="60" src="assets/images/icons/service-three-icon2.svg" alt="icon"></span></div>
       <div class="service-three-content">
         <div>
           <h2 class="service-three-title tw-text-9 tw-mb-6"><a class="hover-text-main-two-600 cursor-small" href="#contact" data-en="Client portals">Особисті кабінети клієнтів</a></h2>
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Portals with authentication, payments and personal data for your clients.">Кабінети з авторизацією, оплатами й персональними даними для ваших клієнтів.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
         </ul></div>
       </div>
-      <div class="service-three-button"><a class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
+      <div class="service-three-button"><a aria-label="Обговорити: Особисті кабінети клієнтів" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
     </div>
   </div>
 </div>
@@ -675,7 +684,7 @@
             <div class="col-12 text-center tw-mt-10">
                 <a class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#services">
                     <span data-en="All services">Усі послуги</span>
-                    <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                    <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                     <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                 </a>
             </div>
@@ -719,7 +728,7 @@
                 </div>
             </div>
             <div>
-                <img class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/counter-three-bg.png" alt="bg">
+                <img loading="lazy" decoding="async" width="1770" height="717" class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/counter-three-bg.png" alt="bg">
             </div>
         </div>
     </div>
@@ -749,9 +758,9 @@
                             <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Apify</span></li>
                     </ul>
                     <div class="tw-mt-auto">
-                        <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
+                        <a aria-label="Детальніше про SalesIntel AI" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Learn more">Детальніше</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -769,9 +778,9 @@
                             <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">React</span></li>
                     </ul>
                     <div class="tw-mt-auto">
-                        <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
+                        <a aria-label="Детальніше про ShopBot UA" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Learn more">Детальніше</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -787,9 +796,9 @@
                             <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Google Sheets</span></li>
                     </ul>
                     <div class="tw-mt-auto">
-                        <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
+                        <a aria-label="Детальніше про HR-бот" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Learn more">Детальніше</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -806,9 +815,9 @@
                             <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">React</span></li>
                     </ul>
                     <div class="tw-mt-auto">
-                        <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
+                        <a aria-label="Детальніше про CRM для інтернет-магазину одягу" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Learn more">Детальніше</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -906,7 +915,7 @@
                         <div class="d-flex align-items-center tw-gap-4">
                             <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#6C63FF;font-size:20px;" data-en="AK">ОК</span>
                             <div>
-                                <h4 class="tw-text-2xl tw-mb-1" data-en="Alex K.">Олександр К.</h4>
+                                <h3 class="tw-text-2xl tw-mb-1" data-en="Alex K.">Олександр К.</h3>
                                 <p class="tw-text-lg text-heading mb-0" data-en="Online store owner">Власник інтернет-магазину</p>
                             </div>
                         </div>
@@ -918,7 +927,7 @@
                         <div class="d-flex align-items-center tw-gap-4">
                             <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#FF6584;font-size:20px;" data-en="VK">ВК</span>
                             <div>
-                                <h4 class="tw-text-2xl tw-mb-1" data-en="Vadym K.">Вадим К.</h4>
+                                <h3 class="tw-text-2xl tw-mb-1" data-en="Vadym K.">Вадим К.</h3>
                                 <p class="tw-text-lg text-heading mb-0" data-en="Media founder">Засновник медіа</p>
                             </div>
                         </div>
@@ -930,7 +939,7 @@
                         <div class="d-flex align-items-center tw-gap-4">
                             <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#43B89C;font-size:20px;" data-en="IL">ІЛ</span>
                             <div>
-                                <h4 class="tw-text-2xl tw-mb-1" data-en="Iryna L.">Ірина Л.</h4>
+                                <h3 class="tw-text-2xl tw-mb-1" data-en="Iryna L.">Ірина Л.</h3>
                                 <p class="tw-text-lg text-heading mb-0" data-en="HR manager">HR-менеджер</p>
                             </div>
                         </div>
@@ -942,7 +951,7 @@
                         <div class="d-flex align-items-center tw-gap-4">
                             <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#4C8DFF;font-size:20px;" data-en="MS">МС</span>
                             <div>
-                                <h4 class="tw-text-2xl tw-mb-1" data-en="Maryna S.">Марина С.</h4>
+                                <h3 class="tw-text-2xl tw-mb-1" data-en="Maryna S.">Марина С.</h3>
                                 <p class="tw-text-lg text-heading mb-0" data-en="Head of sales">Керівниця відділу продажів</p>
                             </div>
                         </div>
@@ -954,7 +963,7 @@
                     <div class="text-center tw-mt-15" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <a class="tw-hover-btn cursor-small bg-main-two-600 text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                             <span data-en="Discover more">Дізнатися більше</span>
-                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                         </a>
                     </div>
@@ -1074,7 +1083,7 @@
                                     <div class="contact-three-button">
                                         <button type="submit" class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl">
                                             <span data-en="Send message">Надіслати</span>
-                                            <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                                         </button>
                                     </div>
@@ -1123,9 +1132,9 @@
                                 </div>
                             </div>
                             <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/blog-three-thumb.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/blog-three-thumb.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/crm-or-sheets"></a>
+                                <img loading="lazy" decoding="async" width="770" height="392" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/blog-three-thumb.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="770" height="392" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/blog-three-thumb.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/crm-or-sheets"></a>
                             </div>
                         </div>
                     </div>
@@ -1139,9 +1148,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="A real case: how automating request processing through a bot freed up an entire workday every week.">Реальний кейс: як автоматизація обробки заявок через бота звільнила цілий робочий день щотижня.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/telegram-bot-saves-time"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/telegram-bot-saves-time"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1164,9 +1173,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="We explain the difference between the two systems in plain language and help you figure out what you actually need.">Простими словами пояснюємо різницю між двома системами і допомагаємо зрозуміти, що потрібно саме вам.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/crm-vs-erp"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/crm-vs-erp"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1189,9 +1198,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="Where businesses lose the most time and money — and how to fix it with simple automation.">Де бізнес втрачає найбільше часу і грошей — і як це виправити за допомогою простої автоматизації.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/what-to-automate-first"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/what-to-automate-first"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1226,9 +1235,9 @@
                                 </div>
                             </div>
                             <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb1.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb1.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/telegram-mini-app"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb1.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb1.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/telegram-mini-app"></a>
                             </div>
                         </div>
                     </div>
@@ -1242,9 +1251,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="How to collect competitors’ prices, reviews and listings without manual work — and what to do with it next.">Як збирати ціни, відгуки та оголошення конкурентів без ручної роботи — і що з цим робити далі.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/data-parsing"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb2.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/data-parsing"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1267,9 +1276,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="Artificial intelligence in client work: responds, classifies, escalates — 24/7 with no days off.">Штучний інтелект у роботі з клієнтами: відповідає, класифікує, передає далі — цілодобово без вихідних.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/ai-bot-requests"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb3.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/ai-bot-requests"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1292,9 +1301,9 @@
                                     <p class="tw-text-lg text-heading tw-mt-4 tw-mb-0" data-en="Typical processes that small and medium businesses still do manually — and what that really costs.">Типові процеси, які малий і середній бізнес досі робить вручну — і скільки це реально коштує.</p>
                                 </div>
                                 <div class="blog-two-main-thumb blog-three-thumb position-relative overflow-hidden tw-rounded-2xl tw-mb-8">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
-                                <img class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
-                                <a class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/automate-or-lose-money"></a>
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
+                                <img loading="lazy" decoding="async" width="785" height="500" class="w-img w-100 tw-rounded-xl tw-transition-5" src="assets/images/thumbs/project-three-thumb4.jpg" alt="blog">
+                                <a aria-hidden="true" tabindex="-1" class="blog-two-card-image-link d-flex align-items-center justify-content-center w-100 h-100 position-absolute z-1 top-0 start-0" href="blog/automate-or-lose-money"></a>
                                 </div>
                                 <div>
                                     <div class="blog-three-meta">
@@ -1313,7 +1322,7 @@
                 <div class="col-12 text-center tw-mt-15">
                     <a class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
                         <span data-en="Get in touch">Написати нам</span>
-                        <span><img src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                        <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                         <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                     </a>
                 </div>
@@ -1360,22 +1369,22 @@
                             <div class="footer-three-col footer-three-col-1 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                                 <ul class="d-flex flex-column tw-gap-6">
                                     <li>
-                                        <a href="/" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Home">Головна</span></a>
+                                        <a href="/" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Home">Головна</span></a>
                                     </li>
                                     <li>
-                                        <a href="#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="About Us">Про нас</span></a>
+                                        <a href="#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="About Us">Про нас</span></a>
                                     </li>
                                     <li>
-                                        <a href="#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Work">Кейси</span></a>
+                                        <a href="#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Work">Кейси</span></a>
                                     </li>
                                     <li>
-                                        <a href="#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Services">Послуги</span></a>
+                                        <a href="#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Services">Послуги</span></a>
                                     </li>
                                     <li>
-                                        <a href="#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Blog">Блог</span></a>
+                                        <a href="#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Blog">Блог</span></a>
                                     </li>
                                     <li>
-                                        <a href="#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Contact">Контакти</span></a>
+                                        <a href="#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Contact">Контакти</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1384,16 +1393,16 @@
                             <div class="footer-three-col footer-three-col-2 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                                 <ul class="d-flex flex-column tw-gap-6">
                                     <li>
-                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Privacy Policy">Політика конфіденційності</span></a>
+                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Privacy Policy">Політика конфіденційності</span></a>
                                     </li>
                                     <li>
-                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span><span data-en="Terms &amp; Conditions">Умови використання</span></a>
+                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span><span data-en="Terms &amp; Conditions">Умови використання</span></a>
                                     </li>
                                     <li>
-                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Support">Підтримка</span></a>
+                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Support">Підтримка</span></a>
                                     </li>
                                     <li>
-                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img src="assets/images/icons/service-tag.svg" alt=""></span> 404<span data-en=" Page"></span></a>
+                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="assets/images/icons/service-tag.svg" alt=""></span> 404<span data-en=" Page"></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1437,56 +1446,56 @@
         </div>
     </div>       
 <!-- Jquery js -->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script defer src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
-<script src="assets/js/phosphor-icon.js"></script>
+<script defer src="assets/js/phosphor-icon.js"></script>
 <!-- Bootstrap Bundle Js -->
-<script src="assets/js/boostrap.bundle.min.js"></script>
+<script defer src="assets/js/boostrap.bundle.min.js"></script>
 <!-- aos -->
-<script src="assets/js/aos.js"></script>
+<script defer src="assets/js/aos.js"></script>
 <!-- appear -->
-<script src="assets/js/appear.min.js"></script>
+<script defer src="assets/js/appear.min.js"></script>
 <!-- magnific popup js -->
-<script src="assets/js/magnific-popup.min.js"></script>
+<script defer src="assets/js/magnific-popup.min.js"></script>
 <!-- marquee -->
-<script src="assets/js/jquery.marquee.min.js"></script>
+<script defer src="assets/js/jquery.marquee.min.js"></script>
 <!-- counterup js -->
-<script src="assets/js/purecounter.js"></script>
+<script defer src="assets/js/purecounter.js"></script>
 <!-- swiper bundle js -->
-<script src="assets/js/swiper-bundle.min.js"></script>
+<script defer src="assets/js/swiper-bundle.min.js"></script>
 <!-- ripple-2 js -->
-<script src="assets/js/ripple-2.js"></script>
+<script defer src="assets/js/ripple-2.js"></script>
 <!-- knob js -->
-<script src="assets/js/jquery-knob.js"></script>
+<script defer src="assets/js/jquery-knob.js"></script>
 
 <!-- gsap js -->
-<script src="assets/js/gsap/gsap.js"></script>
+<script defer src="assets/js/gsap/gsap.js"></script>
 <!-- Scroll plugin -->
-<script src="assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+<script defer src="assets/js/gsap/gsap-scroll-to-plugin.js"></script>
 <!-- Scroll smoother -->
-<script src="assets/js/gsap/gsap-scroll-smoother.js"></script>
+<script defer src="assets/js/gsap/gsap-scroll-smoother.js"></script>
 <!-- Scroll Trigger -->
-<script src="assets/js/gsap/gsap-scroll-trigger.js"></script>
+<script defer src="assets/js/gsap/gsap-scroll-trigger.js"></script>
 <!-- split text -->
-<script src="assets/js/gsap/gsap-split-text.js"></script>
+<script defer src="assets/js/gsap/gsap-split-text.js"></script>
 <!-- matter -->
-<script src="assets/js/matter.js"></script>
+<script defer src="assets/js/matter.js"></script>
 <!-- throwable -->
-<script src="assets/js/throwable.js"></script>
+<script defer src="assets/js/throwable.js"></script>
 <!-- imagesloaded -->
-<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script defer src="assets/js/imagesloaded-pkgd.js"></script>
 
 
 
 
 <!-- custom GSAP -->
-<script src="assets/js/slider-active.js"></script>
+<script defer src="assets/js/slider-active.js"></script>
 <!-- custom GSAP -->
-<script src="assets/js/custom-gsap.js"></script>
+<script defer src="assets/js/custom-gsap.js"></script>
 <!-- main js -->
-<script src="assets/js/main.js"></script>
+<script defer src="assets/js/main.js"></script>
 <!-- cursor js -->
-<script src="assets/js/tw-cursor.js"></script>
+<script defer src="assets/js/tw-cursor.js"></script>
 <!-- img-revel -->
 <script type="module" src="assets/js/img-revel/index.js"></script>
 <script>
