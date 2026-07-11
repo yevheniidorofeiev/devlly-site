@@ -209,7 +209,7 @@
                     <!-- Nav menu Start -->
 <div class="main-menu">
     <nav class="tw-main-menu-content">
-        <ul>
+        <ul class="tw-onepage-menu">
             <li><a class="cursor-small" href="/" data-en="Home">Головна</a></li>
             <li><a class="cursor-small" href="/#about" data-en="About">Про нас</a></li>
             <li><a class="cursor-small" href="/#services" data-en="Services">Послуги</a></li>
@@ -829,6 +829,51 @@
   document.addEventListener('click', function(e){
     if(e.target.closest && e.target.closest('.search_close_btn')){ input.value=''; box.innerHTML=''; }
   });
+})();
+</script>
+<!-- Scrollspy: highlight the menu item for the section currently in view -->
+<script>
+(function(){
+  var IDS = ['home','about','services','projects','blog','contact'];
+  var OFFSET = 150;                       // a section counts as "current" once it passes this line
+
+  var sections = IDS.map(function(id){ return document.getElementById(id); })
+                    .filter(Boolean)
+                    .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
+  if(!sections.length) return;            // sub-pages have no sections — nothing to spy on
+
+  function linkId(a){
+    var h = a.getAttribute('href') || '';
+    if(h === '/') return 'home';          // logo / "Home" point to the clean root
+    return h.charAt(0) === '#' ? h.slice(1) : null;
+  }
+
+  function update(){
+    var active = sections[0].id;
+    for(var i = 0; i < sections.length; i++){
+      if(sections[i].getBoundingClientRect().top - OFFSET <= 0) active = sections[i].id;
+    }
+    // bottom of the page: the last section can never reach the offset line, so force it
+    if(window.innerHeight + Math.ceil(window.pageYOffset) >= document.documentElement.scrollHeight - 2){
+      active = sections[sections.length - 1].id;
+    }
+    // querying each time keeps the JS-cloned mobile menu in sync
+    document.querySelectorAll('.tw-onepage-menu li a').forEach(function(a){
+      var id = linkId(a);
+      if(id) a.classList.toggle('active', id === active);
+    });
+  }
+
+  var ticking = false;
+  function onScroll(){
+    if(ticking) return;
+    ticking = true;
+    requestAnimationFrame(function(){ update(); ticking = false; });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('load', update);
+  update();
 })();
 </script>
 </body>
