@@ -324,6 +324,13 @@
 
    <div id="smooth-wrapper">
         <div id="smooth-content">
+            <!-- Пропозиція англомовним відвідувачам. Показується скриптом lang-banner:
+                 не редирект, тому Google бачить обидві версії. -->
+            <div id="lang-banner" class="lang-banner" hidden>
+                <span class="lang-banner__text" data-en="This site is available in English">Цей сайт доступний англійською</span>
+                <a class="lang-banner__link" href="/en" hreflang="en" data-en="Switch to English">Switch to English &rarr;</a>
+                <button type="button" class="lang-banner__close" id="lang-banner-close" aria-label="Close">&times;</button>
+            </div>
             <section id="home" class="banner-three-area position-relative z-1">
     <div class="container tw-container-1800-px">
         <div class="row">
@@ -2122,6 +2129,27 @@
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
+})();
+</script>
+
+<!-- Пропозиція перейти на EN. Саме банер, а не редирект: автоматичний редирект за
+     Accept-Language сховав би українську версію від краулерів, які приходять з en. -->
+<script>
+(function(){
+  var el = document.getElementById('lang-banner');
+  if(!el) return;                                   // є лише на головній
+  if(document.documentElement.lang === 'en') return; // на /en він безглуздий
+  if((navigator.language || '').slice(0,2) !== 'en') return;
+  try { if(localStorage.getItem('langBannerClosed') === '1') return; } catch(e){}
+
+  el.hidden = false;
+  var close = document.getElementById('lang-banner-close');
+  if(close) close.addEventListener('click', function(){
+    el.hidden = true;
+    try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
+    // висота сторінки змінилась — ScrollSmoother кешує її
+    if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+  });
 })();
 </script>
 

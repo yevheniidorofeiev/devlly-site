@@ -14233,3 +14233,59 @@ body.tw-magic-cursor #magic-cursor {
         animation: none;
     }
 }
+
+/* Language banner — пропозиція англомовним відвідувачам перейти на /en */
+.lang-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px 44px 10px 20px;
+    position: relative;
+    background: var(--main-two-600);
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.lang-banner[hidden] {
+    display: none;
+}
+
+.lang-banner__text {
+    opacity: 0.9;
+}
+
+.lang-banner__link {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+}
+
+.lang-banner__link:hover {
+    color: #fff;
+    opacity: 0.85;
+}
+
+.lang-banner__close {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+    padding: 0 6px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.lang-banner__close:hover {
+    opacity: 1;
+}
