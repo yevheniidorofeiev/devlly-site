@@ -1,35 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://devlly.dev/</loc><priority>1.0</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-or-sheets</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-saves-time</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-vs-erp</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/what-to-automate-first</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-mini-app</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/data-parsing</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/ai-bot-requests</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/automate-or-lose-money</loc><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-salon</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-delivery</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-fitness</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-realty</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-shop</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/telegram-bot-dental</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/mini-app-shop</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/mini-app-taxi</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/mini-app-booking</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-realty</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-salon</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-construction</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/crm-legal</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/hr-automation</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/shop-automation</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/accounting-automation</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/support-automation</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/ai-chatbot-shop</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/price-parsing</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/blog/b2b-leads</loc><lastmod>2026-07-12</lastmod><priority>0.8</priority></url>
-  <url><loc>https://devlly.dev/privacy</loc><priority>0.3</priority></url>
-  <url><loc>https://devlly.dev/terms</loc><priority>0.3</priority></url>
-  <url><loc>https://devlly.dev/support</loc><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://devlly.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/accounting-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/accounting-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/accounting-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/accounting-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/accounting-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/accounting-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/accounting-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/accounting-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/ai-bot-requests</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/ai-bot-requests"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/ai-bot-requests"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/ai-bot-requests"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/ai-bot-requests</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/ai-bot-requests"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/ai-bot-requests"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/ai-bot-requests"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/ai-chatbot-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/ai-chatbot-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/ai-chatbot-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/ai-chatbot-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/ai-chatbot-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/ai-chatbot-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/ai-chatbot-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/ai-chatbot-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/automate-or-lose-money</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/automate-or-lose-money"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/automate-or-lose-money"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/automate-or-lose-money"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/automate-or-lose-money</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/automate-or-lose-money"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/automate-or-lose-money"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/automate-or-lose-money"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/b2b-leads</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/b2b-leads"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/b2b-leads"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/b2b-leads"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/b2b-leads</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/b2b-leads"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/b2b-leads"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/b2b-leads"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-construction</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-construction"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-construction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-construction"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-construction</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-construction"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-construction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-construction"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-legal</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-legal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-legal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-legal"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-legal</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-legal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-legal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-legal"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-or-sheets</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-or-sheets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-or-sheets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-or-sheets"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-or-sheets</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-or-sheets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-or-sheets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-or-sheets"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-realty</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-realty"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-realty"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-realty"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-realty</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-realty"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-realty"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-realty"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-salon</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-salon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-salon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-salon"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-salon</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-salon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-salon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-salon"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-vs-erp</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-erp"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-erp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-erp"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-vs-erp</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-erp"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-erp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-erp"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/data-parsing</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/data-parsing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/data-parsing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/data-parsing"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/data-parsing</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/data-parsing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/data-parsing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/data-parsing"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/hr-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/hr-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/hr-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/hr-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/hr-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/hr-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/hr-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/hr-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/mini-app-booking</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-booking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-booking"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/mini-app-booking</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-booking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-booking"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/mini-app-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/mini-app-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/mini-app-taxi</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-taxi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-taxi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-taxi"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/mini-app-taxi</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/mini-app-taxi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/mini-app-taxi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/mini-app-taxi"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/price-parsing</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/price-parsing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/price-parsing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/price-parsing"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/price-parsing</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/price-parsing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/price-parsing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/price-parsing"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/shop-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/shop-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/shop-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/shop-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/shop-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/shop-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/shop-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/shop-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/support-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/support-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/support-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/support-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/support-automation</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/support-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/support-automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/support-automation"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-delivery</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-delivery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-delivery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-delivery"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-delivery</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-delivery"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-delivery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-delivery"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-dental</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-dental"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-dental"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-dental"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-dental</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-dental"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-dental"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-dental"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-fitness</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-fitness"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-fitness"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-fitness"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-fitness</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-fitness"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-fitness"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-fitness"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-realty</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-realty"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-realty"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-realty"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-realty</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-realty"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-realty"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-realty"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-salon</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-salon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-salon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-salon"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-salon</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-salon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-salon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-salon"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-saves-time</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-saves-time"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-saves-time"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-saves-time"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-saves-time</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-saves-time"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-saves-time"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-saves-time"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-shop</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-shop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-shop"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-shop"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-mini-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-mini-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-mini-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-mini-app"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-mini-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-mini-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-mini-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-mini-app"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/what-to-automate-first</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/what-to-automate-first"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/what-to-automate-first"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/what-to-automate-first"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/what-to-automate-first</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/what-to-automate-first"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/what-to-automate-first"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/what-to-automate-first"/>
+    <lastmod>2026-07-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/privacy</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/terms</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/support</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>

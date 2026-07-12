@@ -9,12 +9,16 @@
     <meta name="keywords" content="CRM, ERP, різниця CRM і ERP, CRM чи ERP, система для бізнесу">
     <meta name="robots" content="INDEX,FOLLOW">
     <link rel="canonical" href="https://devlly.dev/blog/crm-vs-erp">
+    <link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-erp">
+    <link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-erp">
+    <link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-erp">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Devlly">
     <meta property="og:title" content="CRM чи ERP: у чому різниця та що обрати для бізнесу | Devlly">
     <meta property="og:description" content="Простими словами пояснюємо різницю між CRM і ERP системами. Допоможемо зрозуміти що потрібно саме вашому бізнесу.">
     <meta property="og:url" content="https://devlly.dev/blog/crm-vs-erp">
     <meta property="og:image" content="https://devlly.dev/assets/images/thumbs/feature-three-thumb.png">
+    <meta property="og:locale" content="uk_UA">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,6 +41,7 @@
   "image": "https://devlly.dev/assets/images/thumbs/feature-three-thumb.png",
   "datePublished": "2025-04-15",
   "dateModified": "2025-04-15",
+  "inLanguage": "uk",
   "author": {
     "@type": "Organization",
     "name": "Devlly Team"
@@ -295,9 +300,9 @@
                 <!-- Header Right start -->
                 <div class="header-right d-flex align-items-center tw-gap-4">
                     <div class="d-none d-md-flex align-items-center tw-gap-2 tw-me-2">
-                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="#">UA</a>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="/blog/crm-vs-erp" hreflang="uk">UA</a>
                         <span class="text-heading">/</span>
-                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="#">EN</a>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="/en/blog/crm-vs-erp" hreflang="en">EN</a>
                     </div>
     
     
@@ -578,13 +583,15 @@
   // Logo / "Home" links point to "/". On the homepage, smooth-scroll to top and strip the
   // hash so the URL becomes a clean "/". On sub-pages, let the browser navigate home.
   document.addEventListener('click', function(e){
-    var a = e.target.closest && e.target.closest('a[href="/"]');
-    if(!a || location.pathname !== '/') return;
+    var a = e.target.closest && e.target.closest('a[href="/"], a[href="/en"]');
+    if(!a) return;
+    var home = a.getAttribute('href');          // "/" на UA, "/en" на EN
+    if(location.pathname !== home) return;
     e.preventDefault();
     if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
     var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
     if(sm){ sm.scrollTo(0, true); } else { window.scrollTo({top:0, behavior:'smooth'}); }
-    history.replaceState(null, '', '/');
+    history.replaceState(null, '', home);
   }, false);
 
   // On landing with a #hash (e.g. arriving from a blog article, or a menu link
@@ -605,39 +612,16 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) -->
+<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+     Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
-  function apply(lang){
-    var en = lang === 'en';
-    document.documentElement.lang = en ? 'en' : 'uk';
-    // Text content + meta tags (data-en)
-    document.querySelectorAll('[data-en]').forEach(function(el){
-      var isMeta = el.tagName === 'META';
-      if(el.dataset.uk === undefined)
-        el.dataset.uk = isMeta ? el.getAttribute('content') : el.textContent;
-      var val = en ? el.getAttribute('data-en') : el.dataset.uk;
-      if(isMeta) el.setAttribute('content', val); else el.textContent = val;
-    });
-    // Placeholders (data-en-ph)
-    document.querySelectorAll('[data-en-ph]').forEach(function(el){
-      if(el.dataset.ukPh === undefined) el.dataset.ukPh = el.getAttribute('placeholder') || '';
-      el.setAttribute('placeholder', en ? el.getAttribute('data-en-ph') : el.dataset.ukPh);
-    });
-    // Active state of the switcher
+  var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+  function init(){
     document.querySelectorAll('.lang-switch').forEach(function(x){
       var on = x.dataset.lang === lang;
       x.className = 'tw-text-lg cursor-small lang-switch ' +
         (on ? 'fw-bold text-main-two-600' : 'fw-semibold text-heading hover-text-main-two-600');
-    });
-    try { localStorage.setItem('lang', lang); } catch(e){}
-  }
-  var saved; try { saved = localStorage.getItem('lang'); } catch(e){}
-  var lang = saved || ((navigator.language || '').slice(0,2) === 'en' ? 'en' : 'uk');
-  function init(){
-    apply(lang);
-    document.querySelectorAll('.lang-switch').forEach(function(x){
-      x.addEventListener('click', function(e){ e.preventDefault(); apply(x.dataset.lang); });
     });
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
@@ -805,7 +789,7 @@
   {
     "t": "c",
     "uk": "HR-бот",
-    "en": "HR-бот",
+    "en": "HR bot",
     "url": "/#projects"
   },
   {
@@ -987,6 +971,12 @@
   var TYPE = { s:{uk:'Послуга',en:'Service'}, c:{uk:'Кейс',en:'Case'}, b:{uk:'Стаття',en:'Article'} };
   var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
   function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
+  // INDEX хранит украинские URL; на /en/* их надо префиксовать.
+  // "/#services" -> "/en#services", "/blog/x" -> "/en/blog/x"
+  function urlFor(u){
+    if(lang() !== 'en') return u;
+    return u.indexOf('/#') === 0 ? '/en' + u.slice(1) : '/en' + u;
+  }
   function norm(v){ return (v||'').toLowerCase().trim(); }
 
   function search(q){
@@ -1012,7 +1002,7 @@
     }
     res.forEach(function(it){
       var a = document.createElement('a');
-      a.href = it.url;
+      a.href = urlFor(it.url);
       a.className = 'd-flex align-items-center justify-content-between tw-gap-4 cursor-small';
       a.style.cssText = 'padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12);text-decoration:none;';
       var title = document.createElement('span');
@@ -1095,5 +1085,44 @@
   update();
 })();
 </script>
+    <!-- Blog pagination -->
+    <script>
+    (function () {
+        var INITIAL = 8, CHUNK = 6;
+        var btn = document.getElementById('blog-load-more');
+        var counter = document.getElementById('blog-more-count');
+        var cards = document.querySelectorAll('#blog .blog-card');
+        if (!btn || !cards.length) return;
+
+        var shown = INITIAL;
+
+        function left() { return cards.length - shown; }
+
+        function sync() {
+            if (left() <= 0) { btn.style.display = 'none'; return; }
+            counter.textContent = '(' + left() + ')';
+        }
+
+        btn.addEventListener('click', function () {
+            var take = CHUNK;
+            // не оставляем «хвост» меньше половины ряда — добираем его этим же кликом
+            if (left() - take < 3) take = left();
+
+            for (var i = 0; i < take; i++) {
+                var card = cards[shown + i];
+                card.style.display = '';
+                card.style.animationDelay = (i * 70) + 'ms';
+                card.classList.add('blog-card--in');
+            }
+            shown += take;
+            sync();
+
+            // ScrollSmoother кеширует высоту страницы — без этого скролл упрётся в старую
+            if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+        });
+
+        sync();
+    })();
+    </script>
 </body>
 </html>

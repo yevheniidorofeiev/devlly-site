@@ -12,6 +12,9 @@
     <title data-en="Devlly — Business Automation: CRM/ERP, Telegram bots, desktop &amp; web apps">Devlly — Автоматизація бізнесу: CRM/ERP, Telegram-боти, десктоп та вебдодатки</title>
     <!-- Canonical & Open Graph -->
     <link rel="canonical" href="https://devlly.dev/">
+    <link rel="alternate" hreflang="uk" href="https://devlly.dev/">
+    <link rel="alternate" hreflang="en" href="https://devlly.dev/en">
+    <link rel="alternate" hreflang="x-default" href="https://devlly.dev/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Devlly">
     <meta property="og:title" content="Devlly — Автоматизація бізнесу: CRM/ERP, Telegram-боти, десктоп та вебдодатки">
@@ -279,9 +282,9 @@
                 <!-- Header Right start -->
                 <div class="header-right d-flex align-items-center tw-gap-4">
                     <div class="d-none d-md-flex align-items-center tw-gap-2 tw-me-2">
-                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="#">UA</a>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="/" hreflang="uk">UA</a>
                         <span class="text-heading">/</span>
-                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="#">EN</a>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="/en" hreflang="en">EN</a>
                     </div>
     
     
@@ -721,7 +724,7 @@
                 </div>
             </div>
             <div>
-                <img loading="lazy" decoding="async" width="1770" height="717" class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/counter-three-bg.png" alt="bg">
+                <img srcset="assets/images/shapes/counter-three-bg-800w.webp 800w, assets/images/shapes/counter-three-bg-1200w.webp 1200w, assets/images/shapes/counter-three-bg-1770w.webp 1770w" sizes="100vw" loading="lazy" decoding="async" width="1770" height="717" class="position-absolute top-0 start-0 z-n1" src="assets/images/shapes/counter-three-bg-1770w.webp" alt="">
             </div>
         </div>
     </div>
@@ -781,7 +784,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 tw-mb-705 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <h3 class="tw-text-3xl tw-mb-5">HR-бот</h3>
+                    <h3 class="tw-text-3xl tw-mb-5" data-en="HR bot">HR-бот</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="Recruitment automation via Telegram — collecting applications, screening candidates and pushing data into Google Sheets with no manager involved.">Автоматизація найму через Telegram — збір анкет, відбір кандидатів і передача даних у Google Sheets без участі менеджера.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
                             <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">aiogram</span></li>
@@ -2076,13 +2079,15 @@
   // Logo / "Home" links point to "/". On the homepage, smooth-scroll to top and strip the
   // hash so the URL becomes a clean "/". On sub-pages, let the browser navigate home.
   document.addEventListener('click', function(e){
-    var a = e.target.closest && e.target.closest('a[href="/"]');
-    if(!a || location.pathname !== '/') return;
+    var a = e.target.closest && e.target.closest('a[href="/"], a[href="/en"]');
+    if(!a) return;
+    var home = a.getAttribute('href');          // "/" на UA, "/en" на EN
+    if(location.pathname !== home) return;
     e.preventDefault();
     if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
     var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
     if(sm){ sm.scrollTo(0, true); } else { window.scrollTo({top:0, behavior:'smooth'}); }
-    history.replaceState(null, '', '/');
+    history.replaceState(null, '', home);
   }, false);
 
   // On landing with a #hash (e.g. arriving from a blog article, or a menu link
@@ -2103,39 +2108,16 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) -->
+<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+     Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
-  function apply(lang){
-    var en = lang === 'en';
-    document.documentElement.lang = en ? 'en' : 'uk';
-    // Text content + meta tags (data-en)
-    document.querySelectorAll('[data-en]').forEach(function(el){
-      var isMeta = el.tagName === 'META';
-      if(el.dataset.uk === undefined)
-        el.dataset.uk = isMeta ? el.getAttribute('content') : el.textContent;
-      var val = en ? el.getAttribute('data-en') : el.dataset.uk;
-      if(isMeta) el.setAttribute('content', val); else el.textContent = val;
-    });
-    // Placeholders (data-en-ph)
-    document.querySelectorAll('[data-en-ph]').forEach(function(el){
-      if(el.dataset.ukPh === undefined) el.dataset.ukPh = el.getAttribute('placeholder') || '';
-      el.setAttribute('placeholder', en ? el.getAttribute('data-en-ph') : el.dataset.ukPh);
-    });
-    // Active state of the switcher
+  var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+  function init(){
     document.querySelectorAll('.lang-switch').forEach(function(x){
       var on = x.dataset.lang === lang;
       x.className = 'tw-text-lg cursor-small lang-switch ' +
         (on ? 'fw-bold text-main-two-600' : 'fw-semibold text-heading hover-text-main-two-600');
-    });
-    try { localStorage.setItem('lang', lang); } catch(e){}
-  }
-  var saved; try { saved = localStorage.getItem('lang'); } catch(e){}
-  var lang = saved || ((navigator.language || '').slice(0,2) === 'en' ? 'en' : 'uk');
-  function init(){
-    apply(lang);
-    document.querySelectorAll('.lang-switch').forEach(function(x){
-      x.addEventListener('click', function(e){ e.preventDefault(); apply(x.dataset.lang); });
     });
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
@@ -2303,7 +2285,7 @@
   {
     "t": "c",
     "uk": "HR-бот",
-    "en": "HR-бот",
+    "en": "HR bot",
     "url": "/#projects"
   },
   {
@@ -2485,6 +2467,12 @@
   var TYPE = { s:{uk:'Послуга',en:'Service'}, c:{uk:'Кейс',en:'Case'}, b:{uk:'Стаття',en:'Article'} };
   var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
   function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
+  // INDEX хранит украинские URL; на /en/* их надо префиксовать.
+  // "/#services" -> "/en#services", "/blog/x" -> "/en/blog/x"
+  function urlFor(u){
+    if(lang() !== 'en') return u;
+    return u.indexOf('/#') === 0 ? '/en' + u.slice(1) : '/en' + u;
+  }
   function norm(v){ return (v||'').toLowerCase().trim(); }
 
   function search(q){
@@ -2510,7 +2498,7 @@
     }
     res.forEach(function(it){
       var a = document.createElement('a');
-      a.href = it.url;
+      a.href = urlFor(it.url);
       a.className = 'd-flex align-items-center justify-content-between tw-gap-4 cursor-small';
       a.style.cssText = 'padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12);text-decoration:none;';
       var title = document.createElement('span');

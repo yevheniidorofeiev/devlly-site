@@ -1,6 +1,20 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "en.*"
+        }
+      ],
+      "destination": "/en",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
