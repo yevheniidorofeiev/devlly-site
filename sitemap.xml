@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://devlly.dev/</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/"/>
+    <lastmod>2026-07-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -13,6 +13,7 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/"/>
+    <lastmod>2026-07-12</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -465,14 +466,17 @@
   </url>
   <url>
     <loc>https://devlly.dev/privacy</loc>
+    <lastmod>2026-07-12</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://devlly.dev/terms</loc>
+    <lastmod>2026-07-12</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://devlly.dev/support</loc>
+    <lastmod>2026-07-12</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
