@@ -8494,7 +8494,7 @@ body.loaded {
 /* Mega menu mobile device End */
 /* One Page Menu Active Start */
 .tw-onepage-menu li a.active {
-    color: var(--main-two-600);
+    color: #b03318;   /* WCAG AA: 6.3:1 на белом (--main-two-600 давал 2.9:1) */
 }
 
 /* One Page Menu Active End */
@@ -14191,7 +14191,7 @@ body.tw-magic-cursor #magic-cursor {
     gap: 12px;
     padding: 10px 44px 10px 20px;
     position: relative;
-    background: var(--main-two-600);
+    background: #b03318;   /* білий текст на --main-two-600 давав лише 3.0:1 */
     color: #fff;
     font-size: 15px;
     line-height: 1.4;
@@ -14203,7 +14203,7 @@ body.tw-magic-cursor #magic-cursor {
 }
 
 .lang-banner__text {
-    opacity: 0.9;
+    opacity: 1;   /* прозорість зменшувала контраст без потреби */
 }
 
 .lang-banner__link {
@@ -14236,4 +14236,10 @@ body.tw-magic-cursor #magic-cursor {
 
 .lang-banner__close:hover {
     opacity: 1;
+}
+
+/* Переключатель мови: активний пункт. Той самий темніший відтінок,
+   що й активний пункт меню - #fd4b30 не проходив WCAG AA на білому. */
+.lang-switch--active {
+    color: #b03318;
 }

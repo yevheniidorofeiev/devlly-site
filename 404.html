@@ -275,6 +275,7 @@
 
    <div id="smooth-wrapper">
         <div id="smooth-content">
+            <main>
             <section class="py-120 tw-mt-15 d-flex align-items-center" style="min-height:68vh;">
                 <div class="container text-center">
                     <h1 class="fw-bold text-heading lh-1" style="font-size:clamp(120px,22vw,320px);">404</h1>
@@ -283,6 +284,7 @@
                     <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/"><span data-en="Back to home">Повернутись на головну</span></a>
                 </div>
             </section>
+            </main>
             <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer-three-area bg-img position-relative z-1 pt-120" data-background-image="/assets/images/shapes/footer-three-bg-1200w.webp">
     <div class="marquee marquee-two bg-transparent pb-120">
@@ -412,8 +414,6 @@
 <script defer src="/assets/js/purecounter.js"></script>
 <!-- ripple-2 js -->
 <script defer src="/assets/js/ripple-2.js"></script>
-<!-- knob js -->
-<script defer src="/assets/js/jquery-knob.js"></script>
 
 <!-- gsap js -->
 <script defer src="/assets/js/gsap/gsap.js"></script>
@@ -425,10 +425,6 @@
 <script defer src="/assets/js/gsap/gsap-scroll-trigger.js"></script>
 <!-- split text -->
 <script defer src="/assets/js/gsap/gsap-split-text.js"></script>
-<!-- matter -->
-<script defer src="/assets/js/matter.js"></script>
-<!-- throwable -->
-<script defer src="/assets/js/throwable.js"></script>
 <!-- imagesloaded -->
 <script defer src="/assets/js/imagesloaded-pkgd.js"></script>
 
@@ -501,7 +497,7 @@
     document.querySelectorAll('.lang-switch').forEach(function(x){
       var on = x.dataset.lang === lang;
       x.className = 'tw-text-lg cursor-small lang-switch ' +
-        (on ? 'fw-bold text-main-two-600' : 'fw-semibold text-heading hover-text-main-two-600');
+        (on ? 'fw-bold lang-switch--active' : 'fw-semibold text-heading hover-text-main-two-600');
     });
   }
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
