@@ -1,0 +1,55 @@
+/* Phosphor Icons - локальний сабсет.
+   Було: phosphor-icon.js тягнув з unpkg.com усі 6 накреслень
+   (6 CSS + woff2 по ~145 KB). Сайту потрібні лише regular і bold
+   та 7 іконок, тож шрифти урізані до цих гліфів. */
+
+@font-face {
+    font-family: "Phosphor";
+    src: url("../fonts/phosphor-regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Phosphor-Bold";
+    src: url("../fonts/phosphor-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.ph,
+.ph-bold {
+    display: inline-block;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ph:before {
+    font-family: "Phosphor";
+}
+
+.ph-bold:before {
+    font-family: "Phosphor-Bold";
+}
+
+.ph.ph-arrow-up-right:before { content: "\e092"; }
+.ph.ph-envelope-simple-open:before { content: "\e21a"; }
+.ph.ph-magnifying-glass:before { content: "\e30c"; }
+.ph.ph-paper-plane-tilt:before { content: "\e398"; }
+.ph.ph-play:before { content: "\e3d0"; }
+.ph.ph-telegram-logo:before { content: "\e5bc"; }
+.ph.ph-x:before { content: "\e4f6"; }
+.ph-bold.ph-arrow-up-right:before { content: "\e092"; }
+.ph-bold.ph-envelope-simple-open:before { content: "\e21a"; }
+.ph-bold.ph-magnifying-glass:before { content: "\e30c"; }
+.ph-bold.ph-paper-plane-tilt:before { content: "\e398"; }
+.ph-bold.ph-play:before { content: "\e3d0"; }
+.ph-bold.ph-telegram-logo:before { content: "\e5bc"; }
+.ph-bold.ph-x:before { content: "\e4f6"; }

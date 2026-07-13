@@ -20,17 +20,23 @@
 
 
 
-(function ($) {
+function initCustomGsap($) {
 	"use strict";
 
+    // На тачі кастомний курсор безглуздий (миші немає), а коштує дорого:
+    // 183 .cursor-small х 2 слухачі + GSAP-твін на кожен mousemove.
+    // ScrollSmoother і SplitText теж вимикаємо - це головні пожирачі
+    // головного потоку на мобільному.
+    var IS_TOUCH = window.matchMedia('(pointer: coarse)').matches || window.innerWidth < 992;
 
     ////////////////////////////////////////////////////
     // 0. Custom Cursor Js
     var body = document.body;
     var cursor = document.querySelector('.cursor');
     var dot = document.querySelector('.dot');
-    var cursorSmalls = document.querySelectorAll('.cursor-small');
-    var cursorBigs = document.querySelectorAll('.cursor-big');
+    var cursorSmalls = IS_TOUCH ? [] : document.querySelectorAll('.cursor-small');
+    var cursorBigs = IS_TOUCH ? [] : document.querySelectorAll('.cursor-big');
+    if (!IS_TOUCH) {
     body.addEventListener('mousemove', function (event) {
         gsap.to(cursor, {
             x: event.x,
@@ -96,6 +102,7 @@
         });
     });
     });
+    }   // !IS_TOUCH
 
 
     ////////////////////////////////////////////////////
@@ -114,25 +121,31 @@
 	smoothSctoll();
 	if($('#smooth-wrapper').length && $('#smooth-content').length){
 		gsap.registerPlugin(ScrollTrigger, ScrollSmoother, TweenMax, ScrollToPlugin);
-	
+
 		gsap.config({
 			nullTargetWarn: false,
 		});
-	
-		let smoother = ScrollSmoother.create({
-			smooth: 2,
-			effects: true,
-			smoothTouch: 0.1,
-			normalizeScroll: false,
-			ignoreMobileResize: true,
-		});
 
+		// На мобільному ScrollSmoother не створюємо: він тримає весь контент
+		// у трансформі й перераховує його щокадру. Нативний скрол там і швидший,
+		// і плавніший. Увесь код, що звертається до смузера, має фолбек
+		// (ScrollSmoother.get() поверне null -> window.scrollTo).
+		// effects вимкнено: data-speed у розмітці немає жодного, тобто анімувати нічого.
+		if (!IS_TOUCH) {
+			ScrollSmoother.create({
+				smooth: 2,
+				effects: false,
+				smoothTouch: 0,
+				normalizeScroll: false,
+				ignoreMobileResize: true,
+			});
+		}
 	}
 
 
     ////////////////////////////////////////////////////
     // 02. char splitText Js
-    if ($(window).width() > 576 && $(".tw-char-animation").length > 0) {
+    if (!IS_TOUCH && $(".tw-char-animation").length > 0) {   // SplitText ріже заголовок на сотні span'ів
         let char_come = gsap.utils.toArray(".tw-char-animation");
         char_come.forEach(splitTextLine => {
             const tl = gsap.timeline({
@@ -228,7 +241,7 @@
 
       });
     }
-    if($('.tw-itm-title').length) {
+    if(!IS_TOUCH && $('.tw-itm-title').length) {
 		var txtheading = $(".tw-itm-title");
 
     if(txtheading.length == 0) return; gsap.registerPlugin(SplitText); txtheading.each(function(index, el) {
@@ -790,4 +803,20 @@ function initCircle() {
 
 
 
-    })(jQuery);
+    }
+
+////////////////////////////////////////////////////
+// Важку GSAP-ініціалізацію прибираємо з критичного шляху.
+// Раніше вона виконувалась 4.6 с на мобільному і блокувала головний потік,
+// поки браузер мав відмальовувати сторінку. Тепер чекаємо повного load,
+// а далі - першу вільну мить (requestIdleCallback).
+(function () {
+    "use strict";
+    function run() { initCustomGsap(jQuery); }
+    function schedule() {
+        if (window.requestIdleCallback) requestIdleCallback(run, { timeout: 2000 });
+        else setTimeout(run, 1);
+    }
+    if (document.readyState === 'complete') schedule();
+    else window.addEventListener('load', schedule, { once: true });
+})();
