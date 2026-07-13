@@ -994,7 +994,7 @@ body {
     font-family: var(--body-font);
     color: hsl(var(--body-color));
     word-break: break-word;
-    background-color: hsl(var(--white));
+    background-color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -1495,58 +1495,6 @@ input:focus, input:focus-visible {
     background: #F3F5F2;
 }
 
-.noise-bg {
-    background: url("https://i.ibb.co/FgcVfGG/bg-noise-1.png"), #F4F4F4;
-    background-size: 800px 800px;
-  /* BIGGER noise */
-    animation: noise-animation 200ms steps(8) infinite;
-}
-
-@keyframes noise-animation {
-    0% {
-        background-position: 0 0;
-    }
-
-    10% {
-        background-position: -50px -50px;
-    }
-
-    20% {
-        background-position: 50px 100px;
-    }
-
-    30% {
-        background-position: -100px 50px;
-    }
-
-    40% {
-        background-position: 100px -100px;
-    }
-
-    50% {
-        background-position: -50px 100px;
-    }
-
-    60% {
-        background-position: 100px 50px;
-    }
-
-    70% {
-        background-position: 0px 100px;
-    }
-
-    80% {
-        background-position: -100px -50px;
-    }
-
-    90% {
-        background-position: 50px 50px;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
 /* hover bg class end */
 .border-main-50 {
     border-color: var(--main-50) !important;
@@ -10802,7 +10750,7 @@ body.tw-magic-cursor #magic-cursor {
     border-top-left-radius: 50%;
     transition: 1s ease 0.5s;
     padding-bottom: 1px;
-    background: url(https://i.ibb.co/FgcVfGG/bg-noise-1.png), #F4F4F4;
+    background: #ffffff;
 }
 
 .service-three-button::before {

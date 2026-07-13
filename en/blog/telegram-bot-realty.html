@@ -87,7 +87,7 @@
 }
     </script>
 </head>
-<body class="home-three tw-magic-cursor noise-bg loaded">
+<body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
     <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -224,7 +224,7 @@
             </a>
         </div>
         <div class="tpoffcanvas__title">
-            <p>Devlly — a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
+            <p>Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
         </div>
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
@@ -364,22 +364,22 @@
                                 <h1 class="tw-text-13 fw-bold text-heading">A Telegram bot for a real estate agency</h1>
                             </div>
                             <div class="blog-details-content">
-                            <p class="tw-text-xl text-heading fw-medium tw-mb-8">A realtor spends hours on identical calls: clarify the budget, the district, the number of rooms, the floor — only to discover the person was looking for a house outside the city, not a two-room flat downtown. Meanwhile a hot buyer who spent two weeks waiting for “something in my budget” saw a new listing at a competitor before your manager managed to ring them. A Telegram bot solves both problems: it collects the brief, matches properties to the criteria on its own, and notifies people within minutes of a new listing appearing in the database. Let’s break down what such a bot consists of, which scenarios actually produce deals, and which mistakes eat its effectiveness.</p>
+                            <p class="tw-text-xl text-heading fw-medium tw-mb-8">A realtor spends hours on identical calls: clarify the budget, the district, the number of rooms, the floor - only to discover the person was looking for a house outside the city, not a two-room flat downtown. Meanwhile a hot buyer who spent two weeks waiting for “something in my budget” saw a new listing at a competitor before your manager managed to ring them. A Telegram bot solves both problems: it collects the brief, matches properties to the criteria on its own, and notifies people within minutes of a new listing appearing in the database. Let’s break down what such a bot consists of, which scenarios actually produce deals, and which mistakes eat its effectiveness.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">The buyer brief: what a real estate agency’s Telegram bot must ask</h2>
-                            <p class="tw-text-lg tw-mb-6">The brief is the foundation of everything. The bot asks the buyer one criterion per step: deal type (purchase or rent), a budget range, a district or several districts, the number of rooms, the floor (and whether the ground and top floors are dealbreakers), the state of renovation, parking, readiness for a mortgage. There should be 7-9 steps, no more: every extra screen costs you part of your audience. Questions are asked with buttons rather than free text — tapping “Poznyaky,” “Obolon” or “Left Bank” is easier than typing them out. And it gives you structured data you can filter the database with, instead of a line reading “somewhere near the metro, cheap, and cosy.”</p>
-                            <p class="tw-text-lg tw-mb-6">The main mistake here is trying to collect everything at once. You ask for a phone number and a name not on the first step but after the bot has already shown the person 3-5 relevant properties: at that point they hand over the contact willingly, because there is something in it for them. The second mistake is a hard budget cap. If a buyer types “up to 80 thousand,” the bot should search up to roughly 88, because the real negotiation margin is 5-10 percent and the perfect flat at 82 must not silently vanish from the results. It is simply shown in a separate block marked “slightly above budget but worth a look” — the buyer decides, not the filter.</p>
+                            <p class="tw-text-lg tw-mb-6">The brief is the foundation of everything. The bot asks the buyer one criterion per step: deal type (purchase or rent), a budget range, a district or several districts, the number of rooms, the floor (and whether the ground and top floors are dealbreakers), the state of renovation, parking, readiness for a mortgage. There should be 7-9 steps, no more: every extra screen costs you part of your audience. Questions are asked with buttons rather than free text - tapping “Poznyaky,” “Obolon” or “Left Bank” is easier than typing them out. And it gives you structured data you can filter the database with, instead of a line reading “somewhere near the metro, cheap, and cosy.”</p>
+                            <p class="tw-text-lg tw-mb-6">The main mistake here is trying to collect everything at once. You ask for a phone number and a name not on the first step but after the bot has already shown the person 3-5 relevant properties: at that point they hand over the contact willingly, because there is something in it for them. The second mistake is a hard budget cap. If a buyer types “up to 80 thousand,” the bot should search up to roughly 88, because the real negotiation margin is 5-10 percent and the perfect flat at 82 must not silently vanish from the results. It is simply shown in a separate block marked “slightly above budget but worth a look” - the buyer decides, not the filter.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Automatic property matching against the client’s criteria</h2>
                             <p class="tw-text-lg tw-mb-6">Next the bot works as a smart filter over the property database. It takes the brief and returns options sorted by relevance: first the ones matching every criterion, then compromises with an explanation of why they made the list (“$300 above budget, but renovated and with parking”). Each property is a card: 5-8 photos, a floor plan, the area, the floor, the price, a one-line key advantage, and buttons for “More photos,” “Video,” “Book a viewing” and “Hide similar.” That last button is underrated: it teaches the matching engine and removes what clearly doesn’t suit the person, instead of annoying them with repeats.</p>
-                            <p class="tw-text-lg tw-mb-6">Video and floor plans are critical. A buyer who watched a two-minute walkthrough and saw the layout arrives at the viewing already warm — they filtered out the mismatches at home. That directly saves the realtor’s time: instead of five viewings, four of which are “not it,” you do two targeted ones. So the card should carry the full media package from the start, rather than a promise to “send the photos later.” One more thing: if a property is sold or withdrawn, the card must disappear from the results the same day. Showing a stale listing destroys trust faster than any other mistake a bot can make.</p>
+                            <p class="tw-text-lg tw-mb-6">Video and floor plans are critical. A buyer who watched a two-minute walkthrough and saw the layout arrives at the viewing already warm - they filtered out the mismatches at home. That directly saves the realtor’s time: instead of five viewings, four of which are “not it,” you do two targeted ones. So the card should carry the full media package from the start, rather than a promise to “send the photos later.” One more thing: if a property is sold or withdrawn, the card must disappear from the results the same day. Showing a stale listing destroys trust faster than any other mistake a bot can make.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">New-listing alerts: notified within 5 minutes</h2>
-                            <p class="tw-text-lg tw-mb-6">This is the bot’s strongest feature and the most direct way to outrun competitors. The client subscribes to their own criteria — “two rooms, Obolon, up to 95 thousand, not the ground floor.” The moment a realtor adds such a property to the database, the bot sends the card within 5 minutes to everyone it fits. In Kyiv or Lviv a liquid flat at market price is gone in a day or two, and the winner is whoever brought the buyer first. The difference between “notified in 5 minutes” and “a manager called tomorrow evening” is exactly your commission — the one someone else is collecting right now.</p>
+                            <p class="tw-text-lg tw-mb-6">This is the bot’s strongest feature and the most direct way to outrun competitors. The client subscribes to their own criteria - “two rooms, Obolon, up to 95 thousand, not the ground floor.” The moment a realtor adds such a property to the database, the bot sends the card within 5 minutes to everyone it fits. In Kyiv or Lviv a liquid flat at market price is gone in a day or two, and the winner is whoever brought the buyer first. The difference between “notified in 5 minutes” and “a manager called tomorrow evening” is exactly your commission - the one someone else is collecting right now.</p>
                             <p class="tw-text-lg tw-mb-6">There are two technical pitfalls here. The first is duplicates: if two agents enter the same property, the client gets two identical alerts and starts doubting the agency. So you need deduplication by address and area at the point of entry into the database. The second is frequency. If the criteria are too broad, the bot turns into a feed of a dozen messages a day and the person mutes it. The working solution is an alert cap (say, no more than three a day) plus a once-a-day digest instead of a separate message per property when there are too many matches. The subscription can always be narrowed right inside the bot, and a button should remind the user of that.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Lead qualification and handing the hot lead to the CRM</h2>
-                            <p class="tw-text-lg tw-mb-6">A realtor should call not everyone but the people who are ready. The bot scores this itself: a completed brief, more than five cards viewed, a tap on “Book a viewing,” use of the mortgage calculator, a phone number left — each of these is points. Cross the threshold and the lead is flagged as hot and flies straight into the CRM with the full history: budget, districts, exactly which flats they looked at, what they clicked, what they rejected. The manager picks up the phone already knowing the context and opens not with “hello, what are you looking for?” but with “I have two options in Obolon within your budget, when can you view them?”</p>
-                            <p class="tw-text-lg tw-mb-6">Viewing bookings live in the bot too: the client picks a property and a convenient slot, the realtor gets a notification, and a task with the time and address is created in the CRM. Three hours before the viewing the bot reminds both sides. This all but eliminates no-shows at viewings — the main way to waste half a day in this business. The mortgage calculator plays a double role: the client sees the real monthly payment and works out for themselves whether they can carry it, while you immediately know they are considering a loan — which changes the property selection, the script of the conversation, and which documents to prepare in advance.</p>
+                            <p class="tw-text-lg tw-mb-6">A realtor should call not everyone but the people who are ready. The bot scores this itself: a completed brief, more than five cards viewed, a tap on “Book a viewing,” use of the mortgage calculator, a phone number left - each of these is points. Cross the threshold and the lead is flagged as hot and flies straight into the CRM with the full history: budget, districts, exactly which flats they looked at, what they clicked, what they rejected. The manager picks up the phone already knowing the context and opens not with “hello, what are you looking for?” but with “I have two options in Obolon within your budget, when can you view them?”</p>
+                            <p class="tw-text-lg tw-mb-6">Viewing bookings live in the bot too: the client picks a property and a convenient slot, the realtor gets a notification, and a task with the time and address is created in the CRM. Three hours before the viewing the bot reminds both sides. This all but eliminates no-shows at viewings - the main way to waste half a day in this business. The mortgage calculator plays a double role: the client sees the real monthly payment and works out for themselves whether they can carry it, while you immediately know they are considering a loan - which changes the property selection, the script of the conversation, and which documents to prepare in advance.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">The property database, statuses and sales automation</h2>
                             <p class="tw-text-lg tw-mb-6">A bot is worth exactly as much as the database beneath it. Every property has a status: on sale, under deposit, sold, withdrawn, paused. The realtor changes the status with one tap from their interface, and the bot immediately stops showing what is no longer relevant. The same record holds who owns the listing, the viewing history, how many people looked at it in the bot and how many booked a viewing. That gives the agency owner the first honest number of their life: how many bot views it takes to produce one deposit, and which properties sit for weeks because the price is unrealistic rather than because “the market is slow.”</p>
-                            <p class="tw-text-lg tw-mb-6">Roll it out in stages: first the brief, the database and automatic matching; then new-listing subscriptions; then the CRM integration and the mortgage calculator. Trying to launch everything at once usually ends with a half-baked database and a bot the realtors themselves don’t trust. These are exactly the systems we build at Devlly — around a specific agency’s processes: your property statuses, your rules for distributing leads between managers, your CRM. A bot does not replace a realtor: it takes away the briefing, the cold calls and the resending of photos, leaving the human with what the client actually pays for — viewings, negotiation and closing the deal.</p>
+                            <p class="tw-text-lg tw-mb-6">Roll it out in stages: first the brief, the database and automatic matching; then new-listing subscriptions; then the CRM integration and the mortgage calculator. Trying to launch everything at once usually ends with a half-baked database and a bot the realtors themselves don’t trust. These are exactly the systems we build at Devlly - around a specific agency’s processes: your property statuses, your rules for distributing leads between managers, your CRM. A bot does not replace a realtor: it takes away the briefing, the cold calls and the resending of photos, leaving the human with what the client actually pays for - viewings, negotiation and closing the deal.</p>
                             <div class="tw-mt-15">
                                 <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6">Read also</h2>
                                 <ul class="d-flex flex-column tw-gap-4">
@@ -616,7 +616,7 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
      Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
@@ -648,7 +648,7 @@
   if(close) close.addEventListener('click', function(){
     el.hidden = true;
     try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
-    // висота сторінки змінилась — ScrollSmoother кешує її
+    // висота сторінки змінилась - ScrollSmoother кешує її
     if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
   });
 })();
@@ -684,7 +684,7 @@
       name: String(fd.get('name') || '').trim(),
       contact: String(fd.get('contact') || '').trim(),
       message: String(fd.get('message') || '').trim(),
-      website: String(fd.get('website') || '')   // honeypot — stays empty for real users
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
     };
     if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
 
@@ -771,8 +771,8 @@
     "t": "s",
     "uk": "HR-автоматизація",
     "en": "HR automation",
-    "duk": "Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.",
-    "den": "Collecting applications, screening candidates and onboarding — without manual routine.",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
     "url": "/#services"
   },
   {
@@ -826,7 +826,7 @@
   {
     "t": "b",
     "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
-    "en": "When a business needs its own CRM — and when spreadsheets are enough",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
     "url": "/blog/crm-or-sheets"
   },
   {
@@ -1074,7 +1074,7 @@
   var sections = IDS.map(function(id){ return document.getElementById(id); })
                     .filter(Boolean)
                     .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
-  if(!sections.length) return;            // sub-pages have no sections — nothing to spy on
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
 
   function linkId(a){
     var h = a.getAttribute('href') || '';
@@ -1130,7 +1130,7 @@
 
         btn.addEventListener('click', function () {
             var take = CHUNK;
-            // не оставляем «хвост» меньше половины ряда — добираем его этим же кликом
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
             if (left() - take < 3) take = left();
 
             for (var i = 0; i < take; i++) {
@@ -1142,7 +1142,7 @@
             shown += take;
             sync();
 
-            // ScrollSmoother кеширует высоту страницы — без этого скролл упрётся в старую
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
             if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
         });
 

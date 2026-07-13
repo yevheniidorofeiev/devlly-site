@@ -87,7 +87,7 @@
 }
     </script>
 </head>
-<body class="home-three tw-magic-cursor noise-bg loaded">
+<body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
     <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -224,7 +224,7 @@
             </a>
         </div>
         <div class="tpoffcanvas__title">
-            <p>Devlly — a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
+            <p>Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
         </div>
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
@@ -366,20 +366,20 @@
                             <div class="blog-details-content">
                             <p class="tw-text-xl text-heading fw-medium tw-mb-8">Price is the fastest lever you have on sales, and at the same time the easiest way to lose your margin. If you are 15% more expensive than the market, the buyer simply goes to the store next door. If you are 15% cheaper, you have handed yourself a loss where you could have earned. Finding out manually what the same product costs at your competitors is impossible: a hundred items across ten stores means a thousand checks every day. That is why companies build automated price collection: a robot walks through competitors’ websites, captures prices and stock status, matches them against your own price list and shows you where you are losing. Let’s look at how this works in practice, what traps await at every stage, and what the law actually allows.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Why a business needs competitor price parsing</h2>
-                            <p class="tw-text-lg tw-mb-6">The main reason is dynamic pricing. The market moves every day: a competitor launches a promo, clears out leftovers, raises prices because of the exchange rate, or drops an item from their range entirely. Without price monitoring you find out about it a week later — from the drop in orders. With monitoring you see the change the next morning and react deliberately: here you lower the price by 3% so you don’t lose traffic, there you actually raise it, because you are the only competitor with the item in stock. The main effect is not about “selling cheaper than everyone,” but about no longer undercutting blindly. Many stores keep a discount for years on items where competitors have long been more expensive: every such product is a few percent of margin lost in every single order.</p>
+                            <p class="tw-text-lg tw-mb-6">The main reason is dynamic pricing. The market moves every day: a competitor launches a promo, clears out leftovers, raises prices because of the exchange rate, or drops an item from their range entirely. Without price monitoring you find out about it a week later - from the drop in orders. With monitoring you see the change the next morning and react deliberately: here you lower the price by 3% so you don’t lose traffic, there you actually raise it, because you are the only competitor with the item in stock. The main effect is not about “selling cheaper than everyone,” but about no longer undercutting blindly. Many stores keep a discount for years on items where competitors have long been more expensive: every such product is a few percent of margin lost in every single order.</p>
                             <p class="tw-text-lg tw-mb-6">The second scenario is controlling your own range and your dealers’ prices. Manufacturers and distributors use automated price collection to check whether partners are breaking the recommended price and whether someone is undercutting everyone and spoiling the market for all. The third scenario is competitor analysis as strategy: which categories they are expanding, which items have vanished from their stock, how often they change prices, who is the discount leader in the niche. This data is needed not only to react, but to plan purchasing. Just answer one simple question upfront: what decision will I make once I see this number? If there is no answer, that number is not worth collecting.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Product matching is the hardest part of price monitoring</h2>
-                            <p class="tw-text-lg tw-mb-6">Capturing the number from the page is the easy part. The hard part is proving that the item on the competitor’s page is actually your product. The most reliable key is the EAN or GTIN barcode: if both catalogues have it, the match is unambiguous and there is no room for doubt. Next comes the manufacturer part number — also decent, but it gets written in different ways: “SM-A546E/DS”, “SM A546E”, “SMA546EDS”. The worst but most common option is matching by name, because in one store the product is called “Samsung Galaxy A54 5G 8/256GB Black” and in another “Samsung A54 smartphone 256 GB black.” Matching those strings head-on automatically is impossible.</p>
+                            <p class="tw-text-lg tw-mb-6">Capturing the number from the page is the easy part. The hard part is proving that the item on the competitor’s page is actually your product. The most reliable key is the EAN or GTIN barcode: if both catalogues have it, the match is unambiguous and there is no room for doubt. Next comes the manufacturer part number - also decent, but it gets written in different ways: “SM-A546E/DS”, “SM A546E”, “SMA546EDS”. The worst but most common option is matching by name, because in one store the product is called “Samsung Galaxy A54 5G 8/256GB Black” and in another “Samsung A54 smartphone 256 GB black.” Matching those strings head-on automatically is impossible.</p>
                             <p class="tw-text-lg tw-mb-6">So real matching is a pipeline: text normalisation (case, transliteration, units of measure), attribute extraction (storage size, colour, units per pack), fuzzy comparison of names, a brand check, and then a confidence threshold. Everything above the threshold is matched automatically; everything below it goes to manual review, where a human clicks “yes” or “no” in a couple of seconds. Always store those confirmations so the system never asks about the same product twice. A realistic result at launch is 60–80% automatic coverage, with the rest filled in by hand over a few weeks. And one separate trap: a 2-litre bottle and a 2×1-litre pack are different products, and comparing their prices as if they were the same is simply wrong.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">How often to run automated price collection and where to store the data</h2>
-                            <p class="tw-text-lg tw-mb-6">For most online stores a single pass per day is enough — at night, when competitors’ sites are least loaded. Retail prices rarely change more often than that, and hourly collection only increases the risk of being blocked and the size of your proxy bill. Hourly or even 15-minute frequency is justified where the price is genuinely alive: marketplaces with automatic repricers, electronics at launch, tickets, fuel. A sensible compromise is a two-speed schedule: capture the top 200 items that drive most of the revenue every hour, and the rest of the catalogue once a day. That cuts infrastructure cost several times over without losing any of the value.</p>
+                            <p class="tw-text-lg tw-mb-6">For most online stores a single pass per day is enough - at night, when competitors’ sites are least loaded. Retail prices rarely change more often than that, and hourly collection only increases the risk of being blocked and the size of your proxy bill. Hourly or even 15-minute frequency is justified where the price is genuinely alive: marketplaces with automatic repricers, electronics at launch, tickets, fuel. A sensible compromise is a two-speed schedule: capture the top 200 items that drive most of the revenue every hour, and the rest of the catalogue once a day. That cuts infrastructure cost several times over without losing any of the value.</p>
                             <p class="tw-text-lg tw-mb-6">Data must land in a database with history, not be overwritten. A single price is just a fact; a price history is already an asset: you can see seasonality, the depth of promotions and how a competitor reacts to your moves. On top of the database you build a dashboard: where we are more expensive than the market, where we are cheaper, which items are out of stock everywhere except at our store (there you can safely raise the price). And alerts are a must, because nobody opens a dashboard every day. A Telegram message like “Competitor X cut prices by 12% on eight items from your top range” reaches the category manager in a second and turns a report into an action. Without that last step, all your price collection stays a pretty but useless picture.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Technical barriers of website parsing and how to work around them properly</h2>
-                            <p class="tw-text-lg tw-mb-6">A simple site returns the price straight in the HTML — then a plain HTTP request is enough and collection costs pennies. The problems start after that. Many stores render prices with JavaScript, so you need a headless browser, and that is dozens of times more expensive in resources. Then come the defences: captchas, limits on the number of requests from one IP address, blocks on data-centre networks, anti-bot systems that analyse behaviour. On top of that, sites keep changing their markup, and a parser that worked yesterday quietly collects empty values today. That is why monitoring the parser itself is a mandatory part of the system: if coverage drops from 95% to 40%, you should learn about it from an alert, not from a wrong report a month later.</p>
-                            <p class="tw-text-lg tw-mb-6">Proper collection is above all about moderation. Throttle the pace: one request every few seconds, sensible parallelism, night-time runs, respect for robots.txt and for the other server’s resources. Proxy rotation and realistic headers are not there for “hacking” but so that a single robot does not look like a DDoS from one address. Cache whatever doesn’t change and don’t download images — you need the price, not gigabytes of graphics. If a competitor has an open API, a marketplace feed or a public price file, use exactly that: it is faster, cheaper and more honest. Aggressive parsing that takes someone else’s site down is no longer competitor analysis, it is damage, and there is no excuse for it.</p>
+                            <p class="tw-text-lg tw-mb-6">A simple site returns the price straight in the HTML - then a plain HTTP request is enough and collection costs pennies. The problems start after that. Many stores render prices with JavaScript, so you need a headless browser, and that is dozens of times more expensive in resources. Then come the defences: captchas, limits on the number of requests from one IP address, blocks on data-centre networks, anti-bot systems that analyse behaviour. On top of that, sites keep changing their markup, and a parser that worked yesterday quietly collects empty values today. That is why monitoring the parser itself is a mandatory part of the system: if coverage drops from 95% to 40%, you should learn about it from an alert, not from a wrong report a month later.</p>
+                            <p class="tw-text-lg tw-mb-6">Proper collection is above all about moderation. Throttle the pace: one request every few seconds, sensible parallelism, night-time runs, respect for robots.txt and for the other server’s resources. Proxy rotation and realistic headers are not there for “hacking” but so that a single robot does not look like a DDoS from one address. Cache whatever doesn’t change and don’t download images - you need the price, not gigabytes of graphics. If a competitor has an open API, a marketplace feed or a public price file, use exactly that: it is faster, cheaper and more honest. Aggressive parsing that takes someone else’s site down is no longer competitor analysis, it is damage, and there is no excuse for it.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">The legality of price monitoring and the main mistake</h2>
                             <p class="tw-text-lg tw-mb-6">Here we have to be honest. The price of a product in an open catalogue is public information, and the mere act of collecting it is usually not forbidden. But there are three boundaries worth keeping in mind. The first is personal data: names, phone numbers, reviews with user names. That already falls under data protection law and GDPR, and grabbing it “just because it was on the page” is not acceptable. The second is the site’s terms of use: many resources explicitly forbid automated collection, and although that is a contractual rather than a criminal matter, conflict and blocking are very real. The third is circumventing technical protection and creating excessive load: breaking captchas, guessing your way into closed sections or putting someone else’s service at risk of failure is never acceptable. The practical rule is simple: take only public, depersonalised data, at a moderate pace, for your own analysis, and never reuse someone else’s content, photos and descriptions as your own. For a large project, get a legal review in advance rather than after a letter from a competitor.</p>
-                            <p class="tw-text-lg tw-mb-6">And here is the mistake we see most often: a company spends its budget on website parsing, accumulates gigabytes of prices — and doesn’t change a single price. Data on its own brings no money; money comes from a rule that somebody acts on. So start from the end: pick the 100–300 items that generate most of the revenue, write down the decision logic (“if we are more than 5% above the market median, alert the category manager”), and only then build the collection. These are exactly the systems we build at Devlly: price collection, product matching, history in a database, a dashboard and Telegram alerts — so that price monitoring ends in a decision, not in yet another report nobody opens.</p>
+                            <p class="tw-text-lg tw-mb-6">And here is the mistake we see most often: a company spends its budget on website parsing, accumulates gigabytes of prices - and doesn’t change a single price. Data on its own brings no money; money comes from a rule that somebody acts on. So start from the end: pick the 100–300 items that generate most of the revenue, write down the decision logic (“if we are more than 5% above the market median, alert the category manager”), and only then build the collection. These are exactly the systems we build at Devlly: price collection, product matching, history in a database, a dashboard and Telegram alerts - so that price monitoring ends in a decision, not in yet another report nobody opens.</p>
                             <div class="tw-mt-15">
                                 <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6">Read also</h2>
                                 <ul class="d-flex flex-column tw-gap-4">
@@ -616,7 +616,7 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
      Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
@@ -648,7 +648,7 @@
   if(close) close.addEventListener('click', function(){
     el.hidden = true;
     try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
-    // висота сторінки змінилась — ScrollSmoother кешує її
+    // висота сторінки змінилась - ScrollSmoother кешує її
     if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
   });
 })();
@@ -684,7 +684,7 @@
       name: String(fd.get('name') || '').trim(),
       contact: String(fd.get('contact') || '').trim(),
       message: String(fd.get('message') || '').trim(),
-      website: String(fd.get('website') || '')   // honeypot — stays empty for real users
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
     };
     if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
 
@@ -771,8 +771,8 @@
     "t": "s",
     "uk": "HR-автоматизація",
     "en": "HR automation",
-    "duk": "Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.",
-    "den": "Collecting applications, screening candidates and onboarding — without manual routine.",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
     "url": "/#services"
   },
   {
@@ -826,7 +826,7 @@
   {
     "t": "b",
     "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
-    "en": "When a business needs its own CRM — and when spreadsheets are enough",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
     "url": "/blog/crm-or-sheets"
   },
   {
@@ -1074,7 +1074,7 @@
   var sections = IDS.map(function(id){ return document.getElementById(id); })
                     .filter(Boolean)
                     .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
-  if(!sections.length) return;            // sub-pages have no sections — nothing to spy on
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
 
   function linkId(a){
     var h = a.getAttribute('href') || '';
@@ -1130,7 +1130,7 @@
 
         btn.addEventListener('click', function () {
             var take = CHUNK;
-            // не оставляем «хвост» меньше половины ряда — добираем его этим же кликом
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
             if (left() - take < 3) take = left();
 
             for (var i = 0; i < take; i++) {
@@ -1142,7 +1142,7 @@
             shown += take;
             sync();
 
-            // ScrollSmoother кеширует высоту страницы — без этого скролл упрётся в старую
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
             if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
         });
 

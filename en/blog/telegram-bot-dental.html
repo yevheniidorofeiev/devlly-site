@@ -87,7 +87,7 @@
 }
     </script>
 </head>
-<body class="home-three tw-magic-cursor noise-bg loaded">
+<body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
     <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -224,7 +224,7 @@
             </a>
         </div>
         <div class="tpoffcanvas__title">
-            <p>Devlly — a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
+            <p>Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
         </div>
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
@@ -364,22 +364,22 @@
                                 <h1 class="tw-text-13 fw-bold text-heading">A Telegram bot for a dental clinic: booking, reminders, patient records</h1>
                             </div>
                             <div class="blog-details-content">
-                            <p class="tw-text-xl text-heading fw-medium tw-mb-8">In dentistry, money is lost where you don’t expect it. Not in advertising, not in the price of a filling, but in an empty chair: the patient didn’t show up, the receptionist couldn’t reach them, nobody reminded them about the six-month check-up. An idle hour for a dentist costs as much as a full appointment, only in the negative. A Telegram bot here isn’t a trendy toy but a very pragmatic tool: it holds the schedule, calls in the receptionist’s place — in text, brings patients back for prevention, and takes the “when should I come in?” calls off the front desk. Let’s go through what a Telegram bot for dentistry must be able to do, how to wire it into the schedule properly, and where the line runs with sensitive patient data.</p>
+                            <p class="tw-text-xl text-heading fw-medium tw-mb-8">In dentistry, money is lost where you don’t expect it. Not in advertising, not in the price of a filling, but in an empty chair: the patient didn’t show up, the receptionist couldn’t reach them, nobody reminded them about the six-month check-up. An idle hour for a dentist costs as much as a full appointment, only in the negative. A Telegram bot here isn’t a trendy toy but a very pragmatic tool: it holds the schedule, calls in the receptionist’s place - in text, brings patients back for prevention, and takes the “when should I come in?” calls off the front desk. Let’s go through what a Telegram bot for dentistry must be able to do, how to wire it into the schedule properly, and where the line runs with sensitive patient data.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">What a Telegram bot for dentistry changes in a clinic’s daily work</h2>
-                            <p class="tw-text-lg tw-mb-6">Start with simple arithmetic. In an average three-chair clinic the receptionist spends most of the shift on the phone: taking bookings, rescheduling, confirming tomorrow’s visit, answering questions about the price of a cleaning. Each call is three to five minutes, and while it lasts the next patient hears a busy tone and goes to a competitor. The bot takes over the simplest and most numerous of these requests: booking, rescheduling, cancellation, prices, address, opening hours, how to prepare for a visit. As a result the receptionist stops being a telephone answering machine and goes back to what they’re actually paid for — the people in the waiting room and the cases that need a real conversation.</p>
+                            <p class="tw-text-lg tw-mb-6">Start with simple arithmetic. In an average three-chair clinic the receptionist spends most of the shift on the phone: taking bookings, rescheduling, confirming tomorrow’s visit, answering questions about the price of a cleaning. Each call is three to five minutes, and while it lasts the next patient hears a busy tone and goes to a competitor. The bot takes over the simplest and most numerous of these requests: booking, rescheduling, cancellation, prices, address, opening hours, how to prepare for a visit. As a result the receptionist stops being a telephone answering machine and goes back to what they’re actually paid for - the people in the waiting room and the cases that need a real conversation.</p>
                             <p class="tw-text-lg tw-mb-6">The second change is that the clinic stops working “nine to seven.” A large share of bookings happen in the evening and on weekends, when a person finally remembers the tooth and has five free minutes. If at that moment they have to wait until Monday, they’ll simply open a map and book somewhere they can do it right now. A bot takes a booking at 23:40 on a Sunday just as calmly as at noon on a Tuesday. The third change is subtler but important: all communication stays in one chat. The patient sees their visit history, post-treatment instructions, and reminders in that same conversation, instead of hunting through SMS, email, and a half-remembered talk with the receptionist for what they were told three months ago.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Booking a dentist online: slots, procedure length and the real schedule</h2>
-                            <p class="tw-text-lg tw-mb-6">The most common mistake in medical bots is booking “by the hour.” In dentistry that doesn’t work: a consultation takes 20 minutes, a professional cleaning 60, root canal treatment 90 or 120, an implant even longer — plus time for cleaning and sterilization between patients. So online booking has to be built around the service: the patient first chooses what they need, then the dentist, and only then does the bot show free windows that physically fit that procedure. If there’s a 30-minute gap in the schedule, it simply won’t appear among the options for a two-hour treatment — and it won’t create a situation where the doctor is running two hours late and the waiting room is fuming.</p>
+                            <p class="tw-text-lg tw-mb-6">The most common mistake in medical bots is booking “by the hour.” In dentistry that doesn’t work: a consultation takes 20 minutes, a professional cleaning 60, root canal treatment 90 or 120, an implant even longer - plus time for cleaning and sterilization between patients. So online booking has to be built around the service: the patient first chooses what they need, then the dentist, and only then does the bot show free windows that physically fit that procedure. If there’s a 30-minute gap in the schedule, it simply won’t appear among the options for a two-hour treatment - and it won’t create a situation where the doctor is running two hours late and the waiting room is fuming.</p>
                             <p class="tw-text-lg tw-mb-6">The second essential element is choosing a specific doctor. Dentistry runs on trust: someone treated by the same therapist for a year doesn’t want to end up with a stranger, and an orthodontist, a surgeon, and a pediatric dentist aren’t interchangeable at all. The bot shows doctor cards with a photo, specialization, and experience, then pulls that particular doctor’s schedule, vacations, and surgery days. The schedule itself must not live inside the bot: the single source of truth stays your medical system or the clinic’s calendar, and the bot only reads free slots from it and writes new bookings back. Otherwise, sooner or later two patients will end up in the same chair at 3 p.m., and no script will fix that.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Reminders, no-shows and patient recalls: where a clinic bot brings direct money</h2>
-                            <p class="tw-text-lg tw-mb-6">No-shows are dentistry’s most expensive quiet problem. A patient books two weeks ahead, forgets, doesn’t come, the chair sits empty for an hour, the dentist earns nothing, and the clinic still pays rent and salaries. An automatic reminder a day before the visit with two buttons, “Confirm” and “Reschedule,” cuts no-shows several times over — and, just as importantly, frees the slot in advance. If someone taps “Reschedule” the evening before, the clinic has a whole evening to offer that window to people on the waiting list, and the bot can do it itself with a single message to the queue. A second reminder two hours before the appointment further insures against “stuck in traffic and forgot.”</p>
-                            <p class="tw-text-lg tw-mb-6">The work doesn’t end when the visit does. The bot sends post-op instructions tailored to the exact procedure performed: after an extraction — what not to eat or drink for the next few hours, when pain is normal and when to call; after an implant — the rinsing routine and when the stitches come out; after a cleaning — a couple of simple tips for two days. This takes the load off the dentist, who otherwise gets these questions in their personal messenger at night, and it markedly reduces complications. Then come the recalls: the bot remembers that a preventive check-up is due in six months and writes about it itself when the time comes. It’s this automatic wave of returning patients that usually pays for the bot: the clinic stops losing people who never went anywhere — they simply forgot. At the end of the chain is a short review request a day after the visit: happy patients are guided to Google Maps, unhappy ones quietly to the manager, before they post publicly.</p>
+                            <p class="tw-text-lg tw-mb-6">No-shows are dentistry’s most expensive quiet problem. A patient books two weeks ahead, forgets, doesn’t come, the chair sits empty for an hour, the dentist earns nothing, and the clinic still pays rent and salaries. An automatic reminder a day before the visit with two buttons, “Confirm” and “Reschedule,” cuts no-shows several times over - and, just as importantly, frees the slot in advance. If someone taps “Reschedule” the evening before, the clinic has a whole evening to offer that window to people on the waiting list, and the bot can do it itself with a single message to the queue. A second reminder two hours before the appointment further insures against “stuck in traffic and forgot.”</p>
+                            <p class="tw-text-lg tw-mb-6">The work doesn’t end when the visit does. The bot sends post-op instructions tailored to the exact procedure performed: after an extraction - what not to eat or drink for the next few hours, when pain is normal and when to call; after an implant - the rinsing routine and when the stitches come out; after a cleaning - a couple of simple tips for two days. This takes the load off the dentist, who otherwise gets these questions in their personal messenger at night, and it markedly reduces complications. Then come the recalls: the bot remembers that a preventive check-up is due in six months and writes about it itself when the time comes. It’s this automatic wave of returning patients that usually pays for the bot: the clinic stops losing people who never went anywhere - they simply forgot. At the end of the chain is a short review request a day after the visit: happy patients are guided to Google Maps, unhappy ones quietly to the manager, before they post publicly.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Patient records, treatment plans and estimates: clinic automation beyond booking</h2>
                             <p class="tw-text-lg tw-mb-6">Booking is only the front door. Real clinic automation starts when the bot becomes the patient’s personal account. There they see their past visits with dates and procedure names, which teeth have already been treated, when the next check-up is due, and how much they’ve already paid. Treatment history is pulled from the medical system, so the patient doesn’t have to call and ask whether a filling was placed on the upper-left six two years ago. It pays off for the clinic too: someone who can see their own history is far more likely to agree to finish a treatment plan already begun than someone for whom treatment is a set of random visits without structure.</p>
-                            <p class="tw-text-lg tw-mb-6">A separate flow is the treatment plan and estimate. After the diagnosis the dentist puts together a plan: how many visits, which stages, in what order, and how much it all costs. Instead of a printed sheet that gets lost on the way home, the patient receives it in the bot: stages with prices, the total, the option to pay stage by stage, and a “Book the next stage” button. They can calmly show the estimate to their family, ask questions in the chat, and come back to it a week later — the plan won’t disappear. In practice a transparent, itemized estimate removes most price objections: people aren’t scared by the number, they’re scared by uncertainty. These are exactly the kinds of solutions we build at Devlly: a bot wired into the clinic’s schedule and medical system, not another isolated island where data is carried across by hand.</p>
+                            <p class="tw-text-lg tw-mb-6">A separate flow is the treatment plan and estimate. After the diagnosis the dentist puts together a plan: how many visits, which stages, in what order, and how much it all costs. Instead of a printed sheet that gets lost on the way home, the patient receives it in the bot: stages with prices, the total, the option to pay stage by stage, and a “Book the next stage” button. They can calmly show the estimate to their family, ask questions in the chat, and come back to it a week later - the plan won’t disappear. In practice a transparent, itemized estimate removes most price objections: people aren’t scared by the number, they’re scared by uncertainty. These are exactly the kinds of solutions we build at Devlly: a bot wired into the clinic’s schedule and medical system, not another isolated island where data is carried across by hand.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Sensitive patient data: what is safe to store in a clinic’s Telegram bot</h2>
                             <p class="tw-text-lg tw-mb-6">The key rule here: the bot is an interface, not a medical archive. Diagnoses, X-rays, test results, and full medical records must stay in your medical system, on a protected server, with access control and an audit log. The bot stores the minimum needed to work: name, phone number, the patient’s ID in the system, visit dates, and booking statuses. Everything else the bot shows on the fly, fetching from the backend only what this specific user needs right now. And one more thing that’s often forgotten: don’t put diagnosis details into the text of a push notification. It appears on the lock screen, and anyone who picks the phone up off the table can read it. “A reminder about your visit tomorrow at 2 p.m.” is fine; “A reminder about your wisdom tooth extraction” is already too much.</p>
-                            <p class="tw-text-lg tw-mb-6">There’s an organizational minimum too. The patient must explicitly consent to the processing of personal data and to messaging on the bot’s first launch — with a single button and a link to the privacy policy. Staff access is separated by role: the front-desk user sees the schedule and contacts but should not see financial history or medical details. All actions on records are logged, and chat correspondence is not treated as a legal medical document. And most importantly in practice: if a patient’s question goes beyond booking and reminders, the bot must hand the conversation to a human immediately, not pretend to be a doctor. A bot is excellent at removing routine, but nobody diagnoses anyone in a chat.</p>
+                            <p class="tw-text-lg tw-mb-6">There’s an organizational minimum too. The patient must explicitly consent to the processing of personal data and to messaging on the bot’s first launch - with a single button and a link to the privacy policy. Staff access is separated by role: the front-desk user sees the schedule and contacts but should not see financial history or medical details. All actions on records are logged, and chat correspondence is not treated as a legal medical document. And most importantly in practice: if a patient’s question goes beyond booking and reminders, the bot must hand the conversation to a human immediately, not pretend to be a doctor. A bot is excellent at removing routine, but nobody diagnoses anyone in a chat.</p>
                             <div class="tw-mt-15">
                                 <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6">Read also</h2>
                                 <ul class="d-flex flex-column tw-gap-4">
@@ -616,7 +616,7 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
      Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
@@ -648,7 +648,7 @@
   if(close) close.addEventListener('click', function(){
     el.hidden = true;
     try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
-    // висота сторінки змінилась — ScrollSmoother кешує її
+    // висота сторінки змінилась - ScrollSmoother кешує її
     if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
   });
 })();
@@ -684,7 +684,7 @@
       name: String(fd.get('name') || '').trim(),
       contact: String(fd.get('contact') || '').trim(),
       message: String(fd.get('message') || '').trim(),
-      website: String(fd.get('website') || '')   // honeypot — stays empty for real users
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
     };
     if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
 
@@ -771,8 +771,8 @@
     "t": "s",
     "uk": "HR-автоматизація",
     "en": "HR automation",
-    "duk": "Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.",
-    "den": "Collecting applications, screening candidates and onboarding — without manual routine.",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
     "url": "/#services"
   },
   {
@@ -826,7 +826,7 @@
   {
     "t": "b",
     "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
-    "en": "When a business needs its own CRM — and when spreadsheets are enough",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
     "url": "/blog/crm-or-sheets"
   },
   {
@@ -1074,7 +1074,7 @@
   var sections = IDS.map(function(id){ return document.getElementById(id); })
                     .filter(Boolean)
                     .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
-  if(!sections.length) return;            // sub-pages have no sections — nothing to spy on
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
 
   function linkId(a){
     var h = a.getAttribute('href') || '';
@@ -1130,7 +1130,7 @@
 
         btn.addEventListener('click', function () {
             var take = CHUNK;
-            // не оставляем «хвост» меньше половины ряда — добираем его этим же кликом
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
             if (left() - take < 3) take = left();
 
             for (var i = 0; i < take; i++) {
@@ -1142,7 +1142,7 @@
             shown += take;
             sync();
 
-            // ScrollSmoother кеширует высоту страницы — без этого скролл упрётся в старую
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
             if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
         });
 

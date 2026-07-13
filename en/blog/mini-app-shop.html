@@ -87,7 +87,7 @@
 }
     </script>
 </head>
-<body class="home-three tw-magic-cursor noise-bg loaded">
+<body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
     <div class="loader-wrap">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -224,7 +224,7 @@
             </a>
         </div>
         <div class="tpoffcanvas__title">
-            <p>Devlly — a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
+            <p>Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
         </div>
         <div class="tw-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
@@ -366,14 +366,14 @@
                             <div class="blog-details-content">
                             <p class="tw-text-xl text-heading fw-medium tw-mb-8">Over the past two years, the question “do we need a website” has increasingly gotten an unexpected answer: no, you need a Telegram Mini App. Ukrainian audiences already spend several hours a day inside the messenger, and a store that opens right in the chat within a second beats one you first have to navigate to, wait for, and then register on. But a Mini App is no silver bullet: it has real limitations, and the biggest one costs you money in search traffic. Let’s honestly break down what a mini app instead of a website really is, what it actually gives a store, where it loses to the regular web, and how much all of this costs.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">How a Telegram Mini App for a store differs from an ordinary bot</h2>
-                            <p class="tw-text-lg tw-mb-6">An ordinary bot is a dialogue. You press a button, it sends a message, you press the next one. Showing a grid of two hundred products, a filter by size and color, a photo gallery, and a cart that recalculates on the fly is impossible in that paradigm: the chat turns into an endless feed of cards, and the user is already lost by the tenth item. A Mini App is a full web interface that Telegram opens in a built-in window on top of the chat. Technically it’s HTML, CSS, and JavaScript — the same front end you’d have on a website, but packed into the messenger and with access to its API.</p>
-                            <p class="tw-text-lg tw-mb-6">The difference is felt immediately: instead of “pick a category, send the item number,” the user sees a familiar store with swipes, search, product cards, and discount badges. The bot doesn’t disappear — it stays as the transport layer: it delivers order status messages, reminds about an abandoned cart, sends the tracking number. That’s the right architecture: the Mini App handles the interface and the purchase, the bot handles communication after it. Stores that try to get by with bot buttons alone almost always hit a ceiling at a range of thirty to fifty items — beyond that, button navigation becomes painful both for the customer and for whoever maintains it.</p>
+                            <p class="tw-text-lg tw-mb-6">An ordinary bot is a dialogue. You press a button, it sends a message, you press the next one. Showing a grid of two hundred products, a filter by size and color, a photo gallery, and a cart that recalculates on the fly is impossible in that paradigm: the chat turns into an endless feed of cards, and the user is already lost by the tenth item. A Mini App is a full web interface that Telegram opens in a built-in window on top of the chat. Technically it’s HTML, CSS, and JavaScript - the same front end you’d have on a website, but packed into the messenger and with access to its API.</p>
+                            <p class="tw-text-lg tw-mb-6">The difference is felt immediately: instead of “pick a category, send the item number,” the user sees a familiar store with swipes, search, product cards, and discount badges. The bot doesn’t disappear - it stays as the transport layer: it delivers order status messages, reminds about an abandoned cart, sends the tracking number. That’s the right architecture: the Mini App handles the interface and the purchase, the bot handles communication after it. Stores that try to get by with bot buttons alone almost always hit a ceiling at a range of thirty to fifty items - beyond that, button navigation becomes painful both for the customer and for whoever maintains it.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Zero friction: a mini app instead of a website needs no install and no sign-up</h2>
                             <p class="tw-text-lg tw-mb-6">The classic online-store funnel loses people at every step: follow the link, wait for the page to load, dismiss the cookie banner, find the product, hit “buy,” and then fill out a form with your name, phone, email, and invent a password. By various estimates, up to half of buyers drop off precisely at sign-up and checkout. A Mini App cuts nearly all of that away: the user taps a button in the chat and is in the catalog a second later. Nothing to install from the App Store, no forty-megabyte download to wait through, no need to invent yet another password you’ll forget anyway.</p>
-                            <p class="tw-text-lg tw-mb-6">Authorization happens through Telegram itself: the app receives a signed data package with the user’s ID, name, and language, your backend verifies the signature with the bot’s secret key — and the person is already authenticated. No passwords, no SMS codes, no login forms. The name, and with consent the phone number too, are pulled in automatically, so checkout genuinely shrinks to two fields: address and comment. For repeat purchases the friction is close to zero — a regular customer places an order in fifteen to twenty seconds. That is the strongest argument for a Mini App in businesses with a high repeat-purchase rate: food delivery, coffee, cosmetics, pet supplies, pharmacies.</p>
+                            <p class="tw-text-lg tw-mb-6">Authorization happens through Telegram itself: the app receives a signed data package with the user’s ID, name, and language, your backend verifies the signature with the bot’s secret key - and the person is already authenticated. No passwords, no SMS codes, no login forms. The name, and with consent the phone number too, are pulled in automatically, so checkout genuinely shrinks to two fields: address and comment. For repeat purchases the friction is close to zero - a regular customer places an order in fifteen to twenty seconds. That is the strongest argument for a Mini App in businesses with a high repeat-purchase rate: food delivery, coffee, cosmetics, pet supplies, pharmacies.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Catalog, cart, and payment: how sales in Telegram actually work</h2>
-                            <p class="tw-text-lg tw-mb-6">Inside the Mini App you build the very store everyone is used to: categories, search, filters by price, size, and brand, sorting, a product page with a gallery, specs, and reviews, a cart that recalculates the total and applies promo codes. The data is pulled from your database or from an existing system — 1C, Khoroshop, Prom, even Google Sheets — so stock levels and prices update automatically rather than by hand. Payment runs through Telegram Payments: the user taps “Pay,” sees the messenger’s native payment sheet, confirms — and the money reaches your account via the connected provider. There’s no need to re-enter the card every time.</p>
-                            <p class="tw-text-lg tw-mb-6">Then the most underrated advantage kicks in. After a purchase, the bot can send the customer any message for free: order accepted, handed to the courier, here’s your tracking number, the item you were waiting for is back in stock. The same scenario over SMS costs roughly one to two hryvnias per message — across thousands of orders that’s tens of thousands of hryvnias a year quietly disappearing. Telegram push notifications get opened many times more often than email. There is one typical mistake here: turning this channel into spam twice a day. People block the bot and you lose the contact forever — send what the customer expects, and ration the promos.</p>
+                            <p class="tw-text-lg tw-mb-6">Inside the Mini App you build the very store everyone is used to: categories, search, filters by price, size, and brand, sorting, a product page with a gallery, specs, and reviews, a cart that recalculates the total and applies promo codes. The data is pulled from your database or from an existing system - 1C, Khoroshop, Prom, even Google Sheets - so stock levels and prices update automatically rather than by hand. Payment runs through Telegram Payments: the user taps “Pay,” sees the messenger’s native payment sheet, confirms - and the money reaches your account via the connected provider. There’s no need to re-enter the card every time.</p>
+                            <p class="tw-text-lg tw-mb-6">Then the most underrated advantage kicks in. After a purchase, the bot can send the customer any message for free: order accepted, handed to the courier, here’s your tracking number, the item you were waiting for is back in stock. The same scenario over SMS costs roughly one to two hryvnias per message - across thousands of orders that’s tens of thousands of hryvnias a year quietly disappearing. Telegram push notifications get opened many times more often than email. There is one typical mistake here: turning this channel into spam twice a day. People block the bot and you lose the contact forever - send what the customer expects, and ration the promos.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">When a Mini App beats a website and when it doesn’t: an honest word about SEO</h2>
                             <p class="tw-text-lg tw-mb-6">The main limitation is simple: a Mini App is not indexed. Google doesn’t see your catalog, you won’t appear for a query like “buy sneakers Kyiv,” and there will be no organic traffic. A website solves that problem; a mini app does not, and no technical trick changes it. So a Mini App wins where the traffic is already yours: regular customers, a subscriber base, Telegram Ads, channel placements, a physical location with a QR code on the table, local delivery. And it loses where the business lives off search: building materials, car parts, rare items people look up by exact name or part number.</p>
                             <p class="tw-text-lg tw-mb-6">The second limitation is that the platform isn’t yours. Telegram’s rules, payment provider fees, and the very existence of the channel depend on a company you have no influence over. The third is trust: part of the audience, especially older customers, still considers buying inside a messenger unserious and wants to see a “proper website” with company details, reviews, and a returns policy. So the healthy approach is not to “replace the website” but to measure what share of sales comes from search. If it’s under fifteen to twenty percent, a Mini App can safely become your main storefront. If it’s more, keep the site and let the mini app serve as a fast channel for people already with you.</p>
@@ -616,7 +616,7 @@
 })();
 </script>
 
-<!-- Language switch (UA / EN) — язык теперь задаётся URL, не JS.
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
      Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
 <script>
 (function(){
@@ -648,7 +648,7 @@
   if(close) close.addEventListener('click', function(){
     el.hidden = true;
     try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
-    // висота сторінки змінилась — ScrollSmoother кешує її
+    // висота сторінки змінилась - ScrollSmoother кешує її
     if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
   });
 })();
@@ -684,7 +684,7 @@
       name: String(fd.get('name') || '').trim(),
       contact: String(fd.get('contact') || '').trim(),
       message: String(fd.get('message') || '').trim(),
-      website: String(fd.get('website') || '')   // honeypot — stays empty for real users
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
     };
     if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
 
@@ -771,8 +771,8 @@
     "t": "s",
     "uk": "HR-автоматизація",
     "en": "HR automation",
-    "duk": "Збір анкет, відбір кандидатів та онбординг — без ручної рутини для вашої команди.",
-    "den": "Collecting applications, screening candidates and onboarding — without manual routine.",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
     "url": "/#services"
   },
   {
@@ -826,7 +826,7 @@
   {
     "t": "b",
     "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
-    "en": "When a business needs its own CRM — and when spreadsheets are enough",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
     "url": "/blog/crm-or-sheets"
   },
   {
@@ -1074,7 +1074,7 @@
   var sections = IDS.map(function(id){ return document.getElementById(id); })
                     .filter(Boolean)
                     .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
-  if(!sections.length) return;            // sub-pages have no sections — nothing to spy on
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
 
   function linkId(a){
     var h = a.getAttribute('href') || '';
@@ -1130,7 +1130,7 @@
 
         btn.addEventListener('click', function () {
             var take = CHUNK;
-            // не оставляем «хвост» меньше половины ряда — добираем его этим же кликом
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
             if (left() - take < 3) take = left();
 
             for (var i = 0; i < take; i++) {
@@ -1142,7 +1142,7 @@
             shown += take;
             sync();
 
-            // ScrollSmoother кеширует высоту страницы — без этого скролл упрётся в старую
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
             if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
         });
 
