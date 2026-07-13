@@ -10580,8 +10580,8 @@ body.tw-magic-cursor #magic-cursor {
 }
 
 .marquee-four {
-    /* на мобільному 80px, на широкому екрані до 200px */
-    margin-top: clamp(80px, 12vw, 200px);
+    /* відступ ВСЕРЕДИНІ сірого блоку: теги були притиснуті до верхнього краю */
+    padding-block-start: 90px;
     padding-block-end: 146px;
 }
 
