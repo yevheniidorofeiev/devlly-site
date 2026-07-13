@@ -238,46 +238,6 @@
 
 
 
-      ////////////////////////////////////////////////////
-      // 11. Ripples  Js
-      $(document).ready(function () {
-        function initRipples() {
-          $(".ripple-image").each(function () {
-            var $container = $(this);
-            var $img = $container.find("img").first();
-
-            if ($img.length === 0) return;
-
-            var img = new Image();
-            img.src = $img.attr("src");
-
-            img.onload = function () {
-              var imgURL = img.src;
-
-              $container.css({
-                "background-image": "url(" + imgURL + ")",
-                "background-size": "cover",
-                "background-position": "center center"
-              });
-
-              // init ripples plugin
-              if (typeof $container.ripples === "function") {
-                $container.ripples({
-                  resolution: 400,
-                  perturbance: 0.03,
-                  imageUrl: imgURL
-                });
-              }
-
-              $img.hide();
-            };
-          });
-        }
-        initRipples();
-
-      });
-
-
       ///////////////////////
       // 12. Image Cliping Effect
       document.addEventListener("DOMContentLoaded", () => {
