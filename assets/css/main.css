@@ -10580,6 +10580,7 @@ body.tw-magic-cursor #magic-cursor {
 }
 
 .marquee-four {
+    margin-top: 60px;
     padding-block-end: 146px;
 }
 
