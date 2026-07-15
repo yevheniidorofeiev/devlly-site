@@ -14246,115 +14246,64 @@ body.tw-magic-cursor #magic-cursor {
     color: #b03318;
 }
 
-/* ==================== Lead popup (тільки десктоп) ==================== */
-.lead-popup {
+/* ==================== Lead toast (тільки десктоп) ==================== */
+.lead-toast {
     position: fixed;
-    inset: 0;
+    right: 24px;
+    bottom: 24px;
     z-index: 1100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-.lead-popup[hidden] { display: none; }
-
-.lead-popup__backdrop {
-    position: absolute;
-    inset: 0;
-    background: rgba(17, 17, 20, 0.55);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    opacity: 0;
-    transition: opacity .3s ease;
-}
-.lead-popup__card {
-    position: relative;
-    width: 100%;
-    max-width: 480px;
+    width: 320px;
+    max-width: calc(100vw - 48px);
     background: #ffffff;
-    border-radius: 24px;
-    padding: 48px 36px 36px;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, .28);
-    text-align: center;
-    /* fade-in + scale 0.9 -> 1.0 */
+    border-top: 3px solid #fd4b30;
+    border-radius: 12px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, .18);
+    padding: 20px 22px 22px;
+    /* виїзд знизу справа + плавне зникнення */
     opacity: 0;
-    transform: scale(.9);
-    transition: opacity .3s ease, transform .3s ease;
+    transform: translateY(24px);
+    transition: opacity .4s ease, transform .4s ease;
 }
-.lead-popup--open .lead-popup__backdrop { opacity: 1; }
-.lead-popup--open .lead-popup__card { opacity: 1; transform: scale(1); }
+.lead-toast[hidden] { display: none; }
+.lead-toast--open { opacity: 1; transform: translateY(0); }
 
-.lead-popup__badge {
-    width: 80px;
-    height: 80px;
-    margin: -84px auto 22px;              /* вылезает за верхний край карточки */
-    border-radius: 50%;
-    background: var(--main-two-600);
-    color: #ffffff;
-    font-size: 38px;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 12px 28px hsla(var(--main-two-h), var(--main-two-s), var(--main-two-l), .40);
-}
-.lead-popup__close {
+.lead-toast__close {
     position: absolute;
-    top: 14px;
-    right: 16px;
-    width: 36px;
-    height: 36px;
+    top: 8px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
     padding: 0;
     border: 0;
     background: transparent;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1;
     color: #9a9aa0;
     cursor: pointer;
     border-radius: 50%;
     transition: color .2s, background .2s;
 }
-.lead-popup__close:hover { color: #222; background: #f2f2f4; }
+.lead-toast__close:hover { color: #222; background: #f2f2f4; }
 
-.lead-popup__title {
-    font-size: 26px;
+.lead-toast__title {
+    font-size: 17px;
     font-weight: 700;
     color: #16161a;
-    margin: 0 0 12px;
+    margin: 0 0 6px;
+    padding-right: 24px;              /* щоб текст не заходив під хрестик */
 }
-.lead-popup__text {
-    font-size: 16px;
-    line-height: 1.6;
+.lead-toast__text {
+    font-size: 14px;
+    line-height: 1.5;
     color: #55555c;
-    margin: 0 0 28px;
+    margin: 0 0 14px;
 }
-.lead-popup__cta {
-    display: block;
-    width: 100%;
-    padding: 15px 20px;
-    background: var(--main-two-600);
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 14px;
-    text-decoration: none;
-    transition: background .2s, transform .2s;
-}
-.lead-popup__cta:hover {
-    background: #b03318;
-    color: #ffffff;
-    transform: translateY(-1px);
-}
-.lead-popup__dismiss {
-    display: block;
-    width: 100%;
-    margin-top: 12px;
-    padding: 10px;
-    border: 0;
-    background: transparent;
-    color: #8a8a90;
+.lead-toast__cta {
+    display: inline-block;
     font-size: 15px;
-    cursor: pointer;
+    font-weight: 600;
+    color: #fd4b30;
+    text-decoration: none;
     transition: color .2s;
 }
-.lead-popup__dismiss:hover { color: #16161a; }
+.lead-toast__cta:hover { color: #b03318; }
