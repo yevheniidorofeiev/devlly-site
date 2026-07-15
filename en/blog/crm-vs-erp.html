@@ -515,7 +515,17 @@
 
 
         </div>
-    </div>       
+    </div>
+
+<!-- Lead toast (тільки десктоп). Виїжджає знизу справа один раз через 30с на головній.
+     Тримаємо ПОЗА #smooth-content, бо ScrollSmoother трансформує його і ламає position:fixed. -->
+<div id="lead-toast" class="lead-toast" role="dialog" aria-labelledby="lead-toast-title" hidden>
+    <button type="button" class="lead-toast__close" data-toast-close aria-label="Close">&times;</button>
+    <p id="lead-toast-title" class="lead-toast__title">Tired of manual work?</p>
+    <p class="lead-toast__text">Tell us about your task - we'll suggest a solution</p>
+    <a class="lead-toast__cta" href="https://t.me/devllydev" target="_blank" rel="noopener">Write on Telegram →</a>
+</div>
+
 <!-- Jquery js -->
 <script defer src="/assets/js/jquery-3.7.1.min.js"></script>
 <!-- Bootstrap Bundle Js -->
@@ -1135,5 +1145,34 @@
         sync();
     })();
     </script>
+
+<!-- Lead toast: тільки десктоп (>1024px), виїжджає через 30с, один раз (localStorage 'toastClosed'). -->
+<script>
+(function(){
+  var toast = document.getElementById('lead-toast');
+  if(!toast) return;                                // є лише на головній
+  if(window.innerWidth <= 1024) return;             // тільки десктоп
+  try { if(localStorage.getItem('toastClosed') === '1') return; } catch(e){}
+
+  function open(){
+    if(window.innerWidth <= 1024) return;           // раптом ресайз до таймера
+    toast.hidden = false;
+    // наступний кадр - щоб спрацював transition (виїзд знизу справа)
+    requestAnimationFrame(function(){ toast.classList.add('lead-toast--open'); });
+  }
+
+  function close(){
+    toast.classList.remove('lead-toast--open');     // плавне зникнення
+    try { localStorage.setItem('toastClosed', '1'); } catch(e){}
+    setTimeout(function(){ toast.hidden = true; }, 400); // ховаємо після анімації
+  }
+
+  setTimeout(open, 30000);
+
+  toast.addEventListener('click', function(e){
+    if(e.target.closest('[data-toast-close]')) close();
+  });
+})();
+</script>
 </body>
 </html>
