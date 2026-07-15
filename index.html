@@ -2066,7 +2066,22 @@
 
 
         </div>
-    </div>       
+    </div>
+
+<!-- Lead popup (тільки десктоп). З'являється один раз через 30с на головній.
+     Тримаємо ПОЗА #smooth-content, бо ScrollSmoother трансформує його і ламає position:fixed. -->
+<div id="lead-popup" class="lead-popup" hidden>
+    <div class="lead-popup__backdrop" data-popup-close></div>
+    <div class="lead-popup__card" role="dialog" aria-modal="true" aria-labelledby="lead-popup-title">
+        <button type="button" class="lead-popup__close" data-popup-close aria-label="Close">&times;</button>
+        <div class="lead-popup__badge" aria-hidden="true">⚡</div>
+        <h2 id="lead-popup-title" class="lead-popup__title" data-en="Tired of manual work?">Втомились від ручної роботи?</h2>
+        <p class="lead-popup__text" data-en="We automate any process - from a Telegram bot to a full CRM. Tell us about your task - we'll suggest a solution 👇">Автоматизуємо будь-який процес - від Telegram-бота до повноцінної CRM. Розкажіть про задачу - запропонуємо рішення 👇</p>
+        <a class="lead-popup__cta" href="https://t.me/devllydev" target="_blank" rel="noopener" data-en="Write on Telegram">Написати в Telegram</a>
+        <button type="button" class="lead-popup__dismiss" data-popup-close data-en="Close">Закрити</button>
+    </div>
+</div>
+
 <!-- Jquery js -->
 <script defer src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- Bootstrap Bundle Js -->
@@ -2686,5 +2701,37 @@
         sync();
     })();
     </script>
+
+<!-- Lead popup: тільки десктоп (>=1024px), показ через 30с, один раз (localStorage 'popupClosed'). -->
+<script>
+(function(){
+  var pop = document.getElementById('lead-popup');
+  if(!pop) return;                                  // є лише на головній
+  if(window.innerWidth < 1024) return;              // тільки десктоп
+  try { if(localStorage.getItem('popupClosed') === '1') return; } catch(e){}
+
+  function open(){
+    if(window.innerWidth < 1024) return;            // раптом ресайз до таймера
+    pop.hidden = false;
+    // наступний кадр - щоб спрацював transition (fade-in + scale)
+    requestAnimationFrame(function(){ pop.classList.add('lead-popup--open'); });
+  }
+
+  function close(){
+    pop.classList.remove('lead-popup--open');       // плавне зникнення
+    try { localStorage.setItem('popupClosed', '1'); } catch(e){}
+    setTimeout(function(){ pop.hidden = true; }, 300); // ховаємо після анімації
+  }
+
+  setTimeout(open, 30000);
+
+  pop.addEventListener('click', function(e){
+    if(e.target.closest('[data-popup-close]')) close();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && !pop.hidden) close();
+  });
+})();
+</script>
 </body>
 </html>
