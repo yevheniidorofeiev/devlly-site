@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM for a law firm: selection and implementation | Devlly</title>
+    <meta name="description" content="How to choose and implement a CRM built for a law firm: case tracking, deadlines, clients and confidentiality. A practical guide.">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="canonical" href="https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy">
+    <link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-dlya-yuridychnoi-firmy">
+    <link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy">
+    <link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-dlya-yuridychnoi-firmy">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Devlly">
+    <meta property="og:title" content="CRM for a law firm: selection and implementation | Devlly">
+    <meta property="og:description" content="How to choose and implement a CRM built for a law firm: case tracking, deadlines, clients and confidentiality. A practical guide.">
+    <meta property="og:url" content="https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy">
+    <meta property="og:image" content="https://devlly.dev/assets/images/thumbs/feature-three-thumb.png">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Thunder-SemiBoldLC.woff2" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"></noscript>
+    <link rel="icon" type="image/svg+xml" href="/assets/images/logo/favicon.svg">
+    <link rel="icon" href="/assets/images/logo/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/logo/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <link rel="stylesheet" href="/assets/css/phosphor.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "CRM for a law firm: what to consider",
+  "description": "How to choose and implement a CRM built for a law firm: case tracking, deadlines, clients and confidentiality. A practical guide.",
+  "image": "https://devlly.dev/assets/images/thumbs/feature-three-thumb.png",
+  "datePublished": "2026-01-13",
+  "dateModified": "2026-01-13",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Organization",
+    "name": "Devlly Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Devlly",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://devlly.dev/assets/images/logo/favicon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy"
+  },
+  "url": "https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://devlly.dev/en"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://devlly.dev/en#blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "CRM for a law firm: what to consider",
+      "item": "https://devlly.dev/en/blog/crm-dlya-yuridychnoi-firmy"
+    }
+  ]
+}
+    </script>
+</head>
+<body class="home-three tw-magic-cursor loaded">
+    <!--==================== Preloader Start ====================-->
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="loader-wrap-heading">
+            <div class="load-text"><span>D</span><span>e</span><span>v</span><span>l</span><span>l</span><span>y</span></div>
+        </div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+
+    <!--==================== mouse cursor drag start ====================-->
+    <div class="mouseCursor cursor-outer d-none"></div>
+     <div class="mouseCursor cursor-inner">
+         <span class="inner-text-1 tw-text-lg fw-bold text-main-600">
+            <span>
+                <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6454 16.1088L15.7477 32.4423L14.3477 30.9082L32.2453 14.5746L33.6454 16.1088Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.4786 15.2755C27.8709 18.5679 27.8182 24.431 30.9057 27.8141L31.6057 28.5811L33.1398 27.1811L32.4398 26.414C30.0957 23.8454 30.1506 19.2992 32.8787 16.8096L33.6453 16.1099L32.2453 14.5758L31.4786 15.2755Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.8783 16.8088C29.2706 20.1012 23.4271 19.6189 20.3397 16.2358L19.6396 15.4688L21.1738 14.0687L21.8738 14.8358C24.218 17.4045 28.7502 17.7643 31.4783 15.2747L32.2449 14.575L33.645 16.1091L32.8783 16.8088Z" fill="#141616" />
+                </svg>
+            </span>
+            <br>
+            get in touch
+         </span>
+         <span class="inner-text-2">
+             <span>
+                 <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path
+                     d="M0.132374 56.2074L6.68723 62.776C6.98521 63.0747 8.773 63.0747 9.07084 62.776L47.2086 25.4537C47.8044 24.8564 48.4004 24.5578 49.2942 24.5578C49.5922 24.5578 50.1881 24.5578 50.486 24.8564C51.6778 25.155 52.2736 26.3494 52.2736 27.5437V46.3542V46.6529H61.8082C62.404 46.6529 62.7022 46.6529 63 46.6529V0.970426C63 0.970426 63 0.970427 62.4042 0.373196C61.8083 -0.224035 62.1063 0.0747274 61.5102 0.0747274H16.8176C16.8176 0.373196 16.8176 0.671811 16.8176 1.56766V10.8234C16.8176 11.4205 16.8176 12.0177 16.8176 12.0177H35.8865C37.0783 12.0177 38.2701 12.6148 38.5679 13.8091C39.1638 15.0034 38.8659 16.1978 37.9721 17.0936L0.728355 54.1174C0.430367 54.416 0.132374 54.7146 0.132374 55.3117C-0.16547 55.9088 0.132374 55.9088 0.132374 56.2074Z"
+                     fill="currentColor" />
+                 </svg>
+             </span>
+         </span>
+     </div>
+    <!--==================== mouse cursor drag end ====================-->
+
+
+    <!--==================== Begin Magic Cursor Start ====================-->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!--==================== Begin Magic Cursor End ====================-->
+
+
+    <!--==================== Search Popup Start ====================-->
+    <div class="search_popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search_wrapper">
+                        <div class="search_top d-flex justify-content-between align-items-center">
+                            <div class="search_logo">
+                                <a href="/en">
+                                    <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+                                </a>
+                            </div>
+                            <div class="search_close">
+                                <button type="button" class="search_close_btn" aria-label="Закрити пошук">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search_form">
+                            <form action="#">
+                                <div class="search_input">
+                                    <input class="search-input-field focus-tw-placeholder-text-hidden" type="text" placeholder="Search...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit" aria-label="Шукати">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="search-results" class="search_results" style="max-height:58vh;overflow-y:auto;margin-top:2rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-popup-overlay"></div>
+    <!--==================== Search Popup End ====================-->
+
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
+
+    
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="back-to-top-wrapper">
+        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small" aria-label="Вгору">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+    <!-- ==================== Offcanvus Mobile Menu Start Here ==================== -->
+<div class="tpoffcanvas-area">
+    <div class="tpoffcanvas">
+        <div class="tpoffcanvas__close-btn">
+            <button class="close-btn" aria-label="Закрити меню"><i class="ph ph-x"></i></button>
+        </div>
+        <div class="tpoffcanvas__logo">
+            <a href="/en">
+                <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+            </a>
+        </div>
+        <div class="tpoffcanvas__title">
+            <p>Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.</p>
+        </div>
+        <div class="tw-main-menu-mobile d-xl-none"></div>
+        <div class="tpoffcanvas__contact-info">
+            <div class="tpoffcanvas__contact-title">
+                <p>Contact us</p>
+            </div>
+            <ul>
+                <li>
+                    <i class="ph ph-telegram-logo"></i>
+                    <a href="https://t.me/devllydev" target="_blank">@devllydev</a>
+                </li>
+                <li>
+                    <i class="ph ph-envelope-simple-open"></i>
+                    <a href="mailto:devlly.official@gmail.com">devlly.official@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tpoffcanvas__input">
+            <div class="tpoffcanvas__input-title">
+                <p>Get updates</p>
+            </div>
+            <form action="#">
+                <div class="position-relative">
+                    <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Your email">
+                    <button aria-label="Підписатися">
+                        <i class="ph ph-paper-plane-tilt"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="tpoffcanvas__social">
+            <div class="social-icon">
+                <a href="https://t.me/devllydev" target="_blank" aria-label="Telegram"><i class="ph ph-telegram-logo"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-overlay"></div>
+<!-- ==================== Offcanvus Mobile Menu End Here ==================== -->
+<!-- ==================== Header Start Here ==================== -->
+<header class="header header-three tw-transition-all position-relative tw-z-99 tw-mt-705">
+    <div class="container tw-container-1820-px">
+        <div class="header-three-bg bg-white tw-px-705 tw-rounded-xl">
+            <nav class="d-flex align-items-center justify-content-between position-relative">
+                <!-- Logo Start -->
+                <div class="logo">
+                    <a href="/en" class="link cursor-small">
+                        <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+                    </a>
+                </div>
+                <!-- Logo End  -->
+    
+                <!-- Menu Start  -->
+                <div class="header-menu header-three-menu d-xl-block d-none">
+                    <!-- Nav menu Start -->
+<div class="main-menu">
+    <nav class="tw-main-menu-content">
+        <ul class="tw-onepage-menu">
+            <li><a class="cursor-small" href="/en">Home</a></li>
+            <li><a class="cursor-small" href="/en#about">About</a></li>
+            <li><a class="cursor-small" href="/en#services">Services</a></li>
+            <li><a class="cursor-small" href="/en#projects">Work</a></li>
+            <li><a class="cursor-small" href="/en#blog">Blog</a></li>
+            <li><a class="cursor-small" href="/en#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<!-- Nav menu End  -->
+                </div>
+                <!-- Menu End  -->
+    
+                <!-- Header Right start -->
+                <div class="header-right d-flex align-items-center tw-gap-4">
+                    <div class="d-none d-md-flex align-items-center tw-gap-2 tw-me-2">
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="/blog/crm-dlya-yuridychnoi-firmy" hreflang="uk">UA</a>
+                        <span class="text-heading">/</span>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="/en/blog/crm-dlya-yuridychnoi-firmy" hreflang="en">EN</a>
+                    </div>
+    
+    
+                    <!-- Search Button Start  -->
+                    <div class="header-search d-none d-lg-block">
+                        <button class="open-search text-heading tw-transition-3 cursor-small" aria-label="search products" title="open search box">
+                            <span class="tw-text-xl"><i class="ph-bold ph-magnifying-glass"></i></span>
+                        </button>
+                    </div>  
+                    <!-- Search Button End  -->
+    
+    
+                    <!-- Header Button Start  -->
+                    <div class="header-button d-none d-sm-block">
+                        <a class="tw-hover-btn bg-main-two-600 text-white cursor-small justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/en#contact">
+                            <span>Get in touch</span>
+                            <span><img width="36" height="12" src="/assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
+                        </a>
+                    </div>
+                    <!-- Header Button End  -->
+    
+    
+                    <!-- Mobile Button Start  -->
+                    <button type="button" aria-label="Відкрити меню" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
+                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img width="32" height="8" src="/assets/images/icons/menu.svg" alt="menu"></span>
+                    </button>
+                    <!-- Mobile Button End  -->
+                </div>
+    
+                <!-- Header Right End  -->
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+
+   <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+            <article class="blog-details-area py-120 tw-mt-15">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <nav class="tw-mb-8" aria-label="breadcrumb">
+                                <ul class="d-flex flex-wrap align-items-center justify-content-center tw-gap-2 tw-text-sm fw-medium">
+                                    <li><a class="text-heading hover-text-main-two-600 cursor-small" href="/en">Home</a></li>
+                                    <li class="text-heading">/</li>
+                                    <li><a class="text-heading hover-text-main-two-600 cursor-small" href="/en#blog">Blog</a></li>
+                                    <li class="text-heading">/</li>
+                                    <li class="text-main-two-600">CRM for a law firm: what to consider</li>
+                                </ul>
+                            </nav>
+                            <div class="tw-mb-10 text-center">
+                                <div class="blog-three-meta d-flex justify-content-center tw-mb-6">
+                                    <ul class="d-flex align-items-center justify-content-center tw-gap-305">
+                                        <li><a class="fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small" href="/en#blog">Article</a></li>
+                                        <li><a class="fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small" href="#">JAN 13, 2026</a></li>
+                                    </ul>
+                                </div>
+                                <h1 class="tw-text-13 fw-bold text-heading">CRM for a law firm: what to consider</h1>
+                            </div>
+                            <div class="blog-details-content">
+                            <p class="tw-text-xl text-heading fw-medium tw-mb-8">A CRM for a law firm is not a sales funnel with renamed fields, but a system that lives on the same entities as the firm itself: cases, hearings, procedural deadlines and documents. That is why trying to stretch a generic sales CRM over a legal practice usually ends with lawyers going back to Excel and paper diaries. In this guide we will look not at 'which CRM to buy' but at what exactly must be inside a system for a law firm and how to run the implementation so the team actually starts using it instead of sabotaging it from week one.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Case and court hearing tracking: the heart of a law firm CRM</h2>
+                            <p class="tw-text-lg tw-mb-6">The central entity of a legal CRM is not a 'deal' or a 'lead' but a case. A case card must hold the proceeding number, the court and instance, the stage of the process, the parties, the subject of the dispute, the responsible lawyer and the team. If the system cannot host these fields without workarounds, it does not fit, however popular it may be. For a firm of eight lawyers with 120 active cases, the case card becomes the single source of truth: anyone on the team opens it and within a minute understands what stage the process is at, what happened at the last hearing and what the next step is.</p>
+                            <p class="tw-text-lg tw-mb-6">The second mandatory part is a court hearing calendar linked to cases. Every hearing is entered with a date, time, court and courtroom, and the system itself shows a lawyer their week and shows the practice head the workload of the whole team. This removes the classic problem where two hearings for the same lawyer accidentally land on one morning at opposite ends of the city, and it only surfaces the evening before. An extra bonus: if the CRM pulls data from the court registry, a changed hearing date appears in the system without manual monitoring.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Procedural deadline control: the main risk the system must cover</h2>
+                            <p class="tw-text-lg tw-mb-6">A missed appeal deadline is not an annoyance but a lost case, a client claim and a reputation stain for years. That is why procedural deadline control is the most important function of a law firm CRM, more important than any analytics. The system must calculate deadlines automatically from the date of an event: once the full text of a ruling is received, the CRM itself creates a 'file an appeal' task with a deadline under the procedural code and reminds at seven, three and one day out. The lawyer does not keep twenty dates in their head or mark them in a paper calendar.</p>
+                            <p class="tw-text-lg tw-mb-6">Escalation deserves separate setup. A reminder the lawyer can simply dismiss and forget protects against nothing. The right logic is different: if a task is still not in progress 48 hours before the deadline, a notification automatically goes to the managing partner. The firm gets two layers of protection instead of one, and critical dates stop depending on the memory or discipline of a single person. In firms where this control is in place, missed deadlines disappear as a category, and professional liability insurance becomes easier to justify.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Confidentiality and access separation in a legal CRM</h2>
+                            <p class="tw-text-lg tw-mb-6">A law firm works with attorney-client privilege, so the 'everyone sees everything' principle familiar to sales teams is unacceptable here. Only a case's team should have access to it: the responsible lawyer, assistants and the partner supervising the practice. Roles should be designed before launch: a partner sees all cases in their practice, a lawyer only their own, an assistant a limited set of fields without financial terms and sensitive documents. A separate function that is often forgotten is the conflict of interest check: before taking on a new client, the system shows within seconds whether the opposing party has appeared in your cases before.</p>
+                            <p class="tw-text-lg tw-mb-6">The technical side of confidentiality matters too, especially when your clients are corporations with their own security requirements. Find out where the data is physically stored, whether it is encrypted, and whether there is an activity log showing who opened which card and when. An audit log is not bureaucracy: it is what lets you answer a client's question 'who had access to our materials' with facts rather than assurances. For firms that go through corporate client due diligence before signing, these points often decide whether you win the contract.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">Linking cases, clients and documents in one system</h2>
+                            <p class="tw-text-lg tw-mb-6">One client at a law firm often means several cases across different practices: a commercial dispute, an employment matter, contract support. The CRM must show a client card with all their cases, communication and financial history, so a partner can restore the full context of the relationship in five minutes before a meeting. Documents are attached not to the client in general but to a specific case: the statement of claim, rulings, powers of attorney, expert reports. When everything sits in the case structure, finding the right ruling takes ten seconds instead of twenty minutes of digging through email and server folders.</p>
+                            <p class="tw-text-lg tw-mb-6">The next level is integrations that remove double data entry. Email flows into the case card so that correspondence with the opposing side or the court does not live only in one lawyer's inbox. Time tracking is tied to the case and automatically turns into a client invoice at the end of the month: for firms with hourly billing this is exactly where 10-15 percent of billable time gets lost when hours are logged from memory on Friday evening. The fewer manual transfers between systems, the more complete the data and the more honest the invoices.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5">How not to fail the CRM implementation at a law firm</h2>
+                            <p class="tw-text-lg tw-mb-6">The most common cause of failure is trying to switch on everything for everyone at once. Lawyers are busy people with settled habits, and a system that demands forty fields from day one will be quietly ignored. A phased rollout works: first only cases, hearings and deadlines, because that covers the biggest pain. A month later, documents and templates. Another month later, time tracking and billing. The team has time to absorb each stage, and the system grows together with the habit of using it rather than against it.</p>
+                            <p class="tw-text-lg tw-mb-6">The second key is a pilot and an internal owner of the system. Launch the CRM first in one practice of three or four people, collect feedback over two weeks, fix the configuration and only then scale it to the whole firm. Appoint an owner - the person people go to with questions and who has the authority to change processes. Migrate data from old spreadsheets selectively: active cases in full, the archive only by key fields. And for the first two or three weeks keep parallel tracking of critical deadlines in the old format: it is cheap insurance that protects against the worst-case scenario.</p>
+                            <p class="tw-text-lg tw-mb-6">And finally: honestly assess whether an off-the-shelf system covers the specifics of your particular firm. If your processes are standard, a boxed solution with a legal module may be enough. But when you need automatic deadline calculation for your proceeding types, registry integrations, your own access model and billing tailored to your contracts, a custom system often turns out cheaper within a year. Devlly builds such CRMs to order - from an audit of the firm's processes to launch, team training and ongoing support.</p>
+                            <div class="tw-mt-15">
+                                <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6">Read also</h2>
+                                <ul class="d-flex flex-column tw-gap-4">
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="crm-dlya-yuristov"><span class="text-main-two-600">&rarr;</span> <span>CRM for Lawyers and Law Firms: What to Consider When Choosing</span></a></li>
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="crm-dlya-yuridychnykh-kompaniy"><span class="text-main-two-600">&rarr;</span> <span>CRM for Law Firms: Automating Client Work</span></a></li>
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="crm-legal"><span class="text-main-two-600">&rarr;</span> <span>CRM for a law firm: automating client work</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="gray--bg tw-rounded-2xl tw-p-10 tw-mt-15 text-center">
+                                <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-6">Need help? Get in touch</h3>
+                                <div class="d-flex align-items-center justify-content-center tw-gap-4 flex-wrap">
+                                    <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="mailto:devlly.official@gmail.com"><span>Email us</span></a>
+                                    <a class="tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl" href="https://t.me/devllydev" target="_blank"><span>Telegram</span></a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tw-mt-15 text-center">
+                                <a class="tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl" href="/en#blog">Back to all articles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            </main>
+            <!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-three-area bg-img position-relative z-1 pt-120" data-background-image="/assets/images/shapes/footer-three-bg-1200w.webp">
+    <div class="marquee marquee-two bg-transparent pb-120">
+        <div class="marquee_left d-flex align-items-center justify-content-between tw-gap-16 overflow-hidden">
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase">what we offer</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase">Our Services</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase">What We Deliver</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase">Our Offerings</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase">Services We Offer</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase">What We Bring</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase">Our Solutions</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase">What We Do</h2>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container tw-container-1800-px">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-1 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li>
+                                        <a href="/en" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Home</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/en#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>About Us</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/en#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Work</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/en#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Services</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/en#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Blog</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/en#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Contact</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-2 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li>
+                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Privacy Policy</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span><span>Terms &amp; Conditions</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> <span>Support</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="/assets/images/icons/service-tag.svg" alt=""></span> 404<span> Page</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-3 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li><a href="https://t.me/devllydev" target="_blank" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small">Telegram <span><i class="ph ph-arrow-up-right"></i></span></a></li>
+                                    <li><a href="mailto:devlly.official@gmail.com" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small">Gmail <span><i class="ph ph-arrow-up-right"></i></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="footer-three-col footer-three-col-4 tw-py-9 d-flex align-items-center justify-content-center tw-rounded-2xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <p class="tw-text-lg text--white text-line-1 fw-normal">© 2025–2026 <a href="/en" class="cursor-small fw-semibold text-main-600 hover-underline hover-text-white">Devlly,</a><span>All rights reserved</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <div class="footer-three-col footer-three-col-5 text-center tw-py-15 tw-px-9 footer-three-menu tw-rounded-2xl tw-mb-705" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <a class="text--white tw-text-2xl fw-semibold hover-text-main-two-600 cursor-small" href="mailto:devlly.official@gmail.com">devlly.official@gmail.com</a>
+                        </div>
+                        <div class="footer-three-col footer-three-col-5 text-center tw-py-15 tw-px-9 footer-three-menu tw-rounded-2xl tw-mb-705" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <a class="text--white hover-text-main-two-600 cursor-small tw-transition-3 d-inline-flex flex-column align-items-center tw-gap-3" href="https://t.me/devllydev" target="_blank" aria-label="Telegram">
+                                <span class="lh-1" style="font-size:48px;"><i class="ph ph-telegram-logo"></i></span>
+                                <span class="tw-text-2xl fw-semibold">Message us</span>
+                            </a>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+
+
+        </div>
+    </div>
+
+<!-- Lead toast (тільки десктоп). Виїжджає знизу справа один раз через 30с на головній.
+     Тримаємо ПОЗА #smooth-content, бо ScrollSmoother трансформує його і ламає position:fixed. -->
+<div id="lead-toast" class="lead-toast" role="dialog" aria-labelledby="lead-toast-title" hidden>
+    <button type="button" class="lead-toast__close" data-toast-close aria-label="Close">&times;</button>
+    <p id="lead-toast-title" class="lead-toast__title">Tired of manual work?</p>
+    <p class="lead-toast__text">Tell us about your task - we'll suggest a solution</p>
+    <a class="lead-toast__cta" href="https://t.me/devllydev" target="_blank" rel="noopener">Write on Telegram →</a>
+</div>
+
+<!-- Jquery js -->
+<script defer src="/assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Bundle Js -->
+<script defer src="/assets/js/boostrap.bundle.min.js"></script>
+<!-- aos -->
+<script defer src="/assets/js/aos.js"></script>
+<!-- appear -->
+<script defer src="/assets/js/appear.min.js"></script>
+<!-- marquee -->
+<script defer src="/assets/js/jquery.marquee.min.js"></script>
+<!-- counterup js -->
+<script defer src="/assets/js/purecounter.js"></script>
+
+<!-- gsap js -->
+<script defer src="/assets/js/gsap/gsap.js"></script>
+<!-- Scroll plugin -->
+<script defer src="/assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+<!-- Scroll smoother -->
+<script defer src="/assets/js/gsap/gsap-scroll-smoother.js"></script>
+<!-- Scroll Trigger -->
+<script defer src="/assets/js/gsap/gsap-scroll-trigger.js"></script>
+<!-- split text -->
+<script defer src="/assets/js/gsap/gsap-split-text.js"></script>
+<!-- imagesloaded -->
+<script defer src="/assets/js/imagesloaded-pkgd.js"></script>
+
+
+
+
+<!-- custom GSAP -->
+<script defer src="/assets/js/slider-active.js"></script>
+<!-- custom GSAP -->
+<script defer src="/assets/js/custom-gsap.js"></script>
+<!-- main js -->
+<script defer src="/assets/js/main.js"></script>
+<!-- cursor js -->
+<script defer src="/assets/js/tw-cursor.js"></script>
+<script>
+(function(){
+  function onClick(e){
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if(!a) return;
+    var href = a.getAttribute('href');
+    if(!href || href === '#' || href.length < 2) return;
+    var target = document.querySelector(href);
+    if(!target) return;
+    e.preventDefault();
+    if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    if(sm){ sm.scrollTo(target, true, 'top 100px'); }
+    else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo({top:y, behavior:'smooth'}); }
+  }
+  document.addEventListener('click', onClick, false);
+
+  // Logo / "Home" links point to "/". On the homepage, smooth-scroll to top and strip the
+  // hash so the URL becomes a clean "/". On sub-pages, let the browser navigate home.
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href="/"], a[href="/en"]');
+    if(!a) return;
+    var home = a.getAttribute('href');          // "/" на UA, "/en" на EN
+    if(location.pathname !== home) return;
+    e.preventDefault();
+    if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    if(sm){ sm.scrollTo(0, true); } else { window.scrollTo({top:0, behavior:'smooth'}); }
+    history.replaceState(null, '', home);
+  }, false);
+
+  // On landing with a #hash (e.g. arriving from a blog article, or a menu link
+  // from another page), scroll to the target section once ScrollSmoother is ready.
+  window.addEventListener('load', function(){
+    if(!location.hash || location.hash.length < 2) return;
+    var target;
+    try { target = document.querySelector(location.hash); } catch(e){ return; }
+    if(!target) return;
+    var tries = 0;
+    (function go(){
+      var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+      if(sm){ sm.scrollTo(target, false, 'top 100px'); }
+      else if(tries++ < 60){ setTimeout(go, 50); }
+      else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo(0, y); }
+    })();
+  });
+})();
+</script>
+
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
+     Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
+<script>
+(function(){
+  var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+  function init(){
+    document.querySelectorAll('.lang-switch').forEach(function(x){
+      var on = x.dataset.lang === lang;
+      x.className = 'tw-text-lg cursor-small lang-switch ' +
+        (on ? 'fw-bold lang-switch--active' : 'fw-semibold text-heading hover-text-main-two-600');
+    });
+  }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+
+<!-- Пропозиція перейти на EN. Саме банер, а не редирект: автоматичний редирект за
+     Accept-Language сховав би українську версію від краулерів, які приходять з en. -->
+<script>
+(function(){
+  var el = document.getElementById('lang-banner');
+  if(!el) return;                                   // є лише на головній
+  if(document.documentElement.lang === 'en') return; // на /en він безглуздий
+  if((navigator.language || '').slice(0,2) !== 'en') return;
+  try { if(localStorage.getItem('langBannerClosed') === '1') return; } catch(e){}
+
+  el.hidden = false;
+  var close = document.getElementById('lang-banner-close');
+  if(close) close.addEventListener('click', function(){
+    el.hidden = true;
+    try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
+    // висота сторінки змінилась - ScrollSmoother кешує її
+    if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+  });
+})();
+</script>
+
+<!-- Contact form -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('contact-form');
+  if(!form) return;                       // form only exists on the homepage
+  var status = document.getElementById('contact-status');
+  var btn = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Дякуємо! Ми звʼяжемося з вами найближчим часом.', en: 'Thank you! We will get back to you shortly.' },
+    empty:   { uk: 'Будь ласка, заповніть усі поля.', en: 'Please fill in all fields.' },
+    toomany: { uk: 'Забагато спроб. Спробуйте трохи пізніше або напишіть нам у Telegram.', en: 'Too many attempts. Please try again later or message us on Telegram.' },
+    fail:    { uk: 'Не вдалося надіслати. Спробуйте ще раз або напишіть нам у Telegram.', en: 'Could not send. Please try again or message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData(form);
+    var payload = {
+      name: String(fd.get('name') || '').trim(),
+      contact: String(fd.get('contact') || '').trim(),
+      message: String(fd.get('message') || '').trim(),
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
+    };
+    if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#6c757d');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){
+        return { status: r.status, ok: r.ok && d.ok };
+      });
+    })
+    .then(function(res){
+      if(res.ok){ form.reset(); show('ok', '#198754'); }
+      else if(res.status === 429){ show('toomany', '#dc3545'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
+<!-- Site search (magnifier in the header) -->
+<script>
+(function(){
+  var input = document.querySelector('.search-input-field');
+  var box   = document.getElementById('search-results');
+  if(!input || !box) return;
+
+  var INDEX = [
+  {
+    "t": "s",
+    "uk": "Автоматизація бізнесу · CRM / ERP",
+    "en": "Business automation · CRM / ERP",
+    "duk": "Проєктуємо системи керування клієнтами, продажами та бізнес-процесами під ваш бізнес.",
+    "den": "We design systems to manage clients, sales and business processes tailored to you.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Telegram-боти та Mini Apps",
+    "en": "Telegram bots & Mini Apps",
+    "duk": "Боти для продажів, підтримки й автоматизації та повноцінні застосунки всередині Telegram.",
+    "den": "Bots for sales, support and automation, plus full-featured apps inside Telegram.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Десктопні застосунки",
+    "en": "Desktop applications",
+    "duk": "Програми для Windows і macOS: облік, автоматизація робочих місць, робота з базами даних.",
+    "den": "Apps for Windows and macOS: accounting, workplace automation, database-driven tools.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Вебсервіси та SaaS",
+    "en": "Web services & SaaS",
+    "duk": "Вебдодатки, адмін-панелі та SaaS-продукти з нуля під ваші задачі.",
+    "den": "Web apps, admin panels and SaaS products built from scratch for your needs.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Парсинг даних і моніторинг",
+    "en": "Data parsing & monitoring",
+    "duk": "Збираємо й відстежуємо дані з сайтів і сервісів, сповіщаємо про зміни автоматично.",
+    "den": "We collect and track data from sites and services, alerting you to changes automatically.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "AI-інтеграції та чат-боти з GPT",
+    "en": "AI integrations & GPT chatbots",
+    "duk": "Впроваджуємо GPT у ваші процеси: розумні асистенти, обробка звернень і генерація контенту.",
+    "den": "We embed GPT into your workflows: smart assistants, request handling and content generation.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "HR-автоматизація",
+    "en": "HR automation",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Автоворонки і розсилки",
+    "en": "Sales funnels & mailouts",
+    "duk": "Налаштовуємо автоматичні воронки продажів і розсилки в месенджерах та пошті.",
+    "den": "We set up automated sales funnels and campaigns across messengers and email.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Інтеграції з CRM, API та Google Sheets",
+    "en": "Integrations with CRM, APIs & Google Sheets",
+    "duk": "Поєднуємо ваші сервіси в єдину систему: CRM, платіжки, API та Google-таблиці.",
+    "den": "We connect your services into one system: CRM, payments, APIs and Google Sheets.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Особисті кабінети клієнтів",
+    "en": "Client portals",
+    "duk": "Кабінети з авторизацією, оплатами й персональними даними для ваших клієнтів.",
+    "den": "Portals with authentication, payments and personal data for your clients.",
+    "url": "/#services"
+  },
+  {
+    "t": "c",
+    "uk": "SalesIntel AI",
+    "en": "SalesIntel AI",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "ShopBot UA",
+    "en": "ShopBot UA",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "HR-бот",
+    "en": "HR bot",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "CRM для інтернет-магазину одягу",
+    "en": "CRM for a clothing online store",
+    "url": "/#projects"
+  },
+  {
+    "t": "b",
+    "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
+    "url": "/blog/crm-or-sheets"
+  },
+  {
+    "t": "b",
+    "uk": "Як Telegram-бот замінив 3 години ручної роботи менеджера на 10 хвилин",
+    "en": "How a Telegram bot replaced 3 hours of manual work with 10 minutes",
+    "url": "/blog/telegram-bot-saves-time"
+  },
+  {
+    "t": "b",
+    "uk": "CRM чи ERP: у чому різниця та що обрати для свого бізнесу",
+    "en": "CRM vs ERP: what’s the difference and which one to choose",
+    "url": "/blog/crm-vs-erp"
+  },
+  {
+    "t": "b",
+    "uk": "5 процесів, які варто автоматизувати першими",
+    "en": "5 processes you should automate first",
+    "url": "/blog/what-to-automate-first"
+  },
+  {
+    "t": "b",
+    "uk": "Mini App у Telegram: що це і навіщо вашому бізнесу",
+    "en": "Mini App in Telegram: what it is and why your business needs it",
+    "url": "/blog/telegram-mini-app"
+  },
+  {
+    "t": "b",
+    "uk": "Парсинг даних для бізнесу: як моніторити конкурентів автоматично",
+    "en": "Data parsing for business: how to monitor competitors automatically",
+    "url": "/blog/data-parsing"
+  },
+  {
+    "t": "b",
+    "uk": "Як AI-бот обробляє заявки замість менеджера",
+    "en": "How an AI bot handles client requests instead of a manager",
+    "url": "/blog/ai-bot-requests"
+  },
+  {
+    "t": "b",
+    "uk": "Чому ваш бізнес досі витрачає гроші на те, що можна автоматизувати",
+    "en": "Why your business is still spending money on things that can be automated",
+    "url": "/blog/automate-or-lose-money"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для запису клієнтів у салон краси: як це працює",
+    "en": "A Telegram bot for beauty salon bookings: how it works",
+    "url": "/blog/telegram-bot-salon"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для служби доставки їжі: меню, оплата, кур’єри",
+    "en": "A Telegram bot for a food delivery service: menu, payment, couriers",
+    "url": "/blog/telegram-bot-delivery"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для фітнес-клубу та персональних тренерів",
+    "en": "A Telegram bot for gyms and personal trainers",
+    "url": "/blog/telegram-bot-fitness"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для агентства нерухомості",
+    "en": "A Telegram bot for a real estate agency",
+    "url": "/blog/telegram-bot-realty"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для інтернет-магазину одягу: як він продає замість сайту",
+    "en": "A Telegram bot for a clothing store: how it sells instead of your website",
+    "url": "/blog/telegram-bot-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для стоматологічної клініки: запис, нагадування, картка пацієнта",
+    "en": "A Telegram bot for a dental clinic: booking, reminders, patient records",
+    "url": "/blog/telegram-bot-dental"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для магазину: як замінити сайт месенджером",
+    "en": "A Telegram Mini App for your store: replacing the website with a messenger",
+    "url": "/blog/mini-app-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для служби таксі та замовлення поїздок",
+    "en": "A Telegram Mini App for a taxi service and ride ordering",
+    "url": "/blog/mini-app-taxi"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для запису на послуги без встановлення додатку",
+    "en": "A Telegram Mini App for service booking with no app to install",
+    "url": "/blog/mini-app-booking"
+  },
+  {
+    "t": "b",
+    "uk": "CRM система для агентства нерухомості: що врахувати",
+    "en": "A CRM for a real estate agency: what to take into account",
+    "url": "/blog/crm-realty"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для салону краси: облік клієнтів і записів",
+    "en": "CRM for a beauty salon: client records and bookings",
+    "url": "/blog/crm-salon"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для будівельної компанії: від заявки до здачі об'єкту",
+    "en": "CRM for a construction company: from lead to project handover",
+    "url": "/blog/crm-construction"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для юридичної фірми: автоматизація роботи з клієнтами",
+    "en": "CRM for a law firm: automating client work",
+    "url": "/blog/crm-legal"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація HR для малого бізнесу без дорогих систем",
+    "en": "HR automation for small business without expensive systems",
+    "url": "/blog/hr-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Як автоматизувати обробку замовлень для інтернет-магазину",
+    "en": "How to automate order processing for an online store",
+    "url": "/blog/shop-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація бухгалтерії для малого бізнесу через Telegram",
+    "en": "Accounting automation for small business through Telegram",
+    "url": "/blog/accounting-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація клієнтської підтримки: бот замість менеджера",
+    "en": "Customer support automation: a bot instead of a manager",
+    "url": "/blog/support-automation"
+  },
+  {
+    "t": "b",
+    "uk": "AI чат-бот для інтернет-магазину: відповідає замість менеджера",
+    "en": "An AI chatbot for an online store: it answers instead of a manager",
+    "url": "/blog/ai-chatbot-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Парсинг цін конкурентів: як моніторити ринок автоматично",
+    "en": "Competitor price parsing: how to monitor the market automatically",
+    "url": "/blog/price-parsing"
+  },
+  {
+    "t": "b",
+    "uk": "Як зібрати базу клієнтів автоматично для B2B продажів",
+    "en": "How to build a client database automatically for B2B sales",
+    "url": "/blog/b2b-leads"
+  }
+];
+
+  var TYPE = { s:{uk:'Послуга',en:'Service'}, c:{uk:'Кейс',en:'Case'}, b:{uk:'Стаття',en:'Article'} };
+  var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
+  function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
+  // INDEX хранит украинские URL; на /en/* их надо префиксовать.
+  // "/#services" -> "/en#services", "/blog/x" -> "/en/blog/x"
+  function urlFor(u){
+    if(lang() !== 'en') return u;
+    return u.indexOf('/#') === 0 ? '/en' + u.slice(1) : '/en' + u;
+  }
+  function norm(v){ return (v||'').toLowerCase().trim(); }
+
+  function search(q){
+    q = norm(q);
+    if(q.length < 2) return [];
+    return INDEX.filter(function(it){
+      return norm(it.uk).indexOf(q) > -1 || norm(it.en).indexOf(q) > -1 ||
+             norm(it.duk).indexOf(q) > -1 || norm(it.den).indexOf(q) > -1;
+    }).slice(0, 8);
+  }
+
+  function render(q){
+    var L = lang(), res = search(q);
+    box.innerHTML = '';
+    if(norm(q).length < 2) return;
+    if(!res.length){
+      var p = document.createElement('p');
+      p.className = 'tw-text-lg text-heading';
+      p.style.opacity = '.7';
+      p.textContent = EMPTY[L];
+      box.appendChild(p);
+      return;
+    }
+    res.forEach(function(it){
+      var a = document.createElement('a');
+      a.href = urlFor(it.url);
+      a.className = 'd-flex align-items-center justify-content-between tw-gap-4 cursor-small';
+      a.style.cssText = 'padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12);text-decoration:none;';
+      var title = document.createElement('span');
+      title.className = 'tw-text-xl fw-medium text-heading';
+      title.textContent = it[L];
+      var type = document.createElement('span');
+      type.className = 'tw-text-sm fw-semibold text-uppercase text-main-two-600';
+      type.style.whiteSpace = 'nowrap';
+      type.textContent = TYPE[it.t][L];
+      a.appendChild(title); a.appendChild(type);
+      a.addEventListener('click', function(e){ go(e, it.url); });
+      box.appendChild(a);
+    });
+  }
+
+  function go(e, url){
+    var hash = url.indexOf('/#') === 0 ? url.slice(1) : null;   // "/#services" -> "#services"
+    var target = hash ? document.querySelector(hash) : null;
+    if(!target) return;                       // sub-page: let the browser navigate to "/#..."
+    e.preventDefault();
+    var close = document.querySelector('.search_close_btn');
+    if(close) close.click();
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    setTimeout(function(){
+      if(sm){ sm.scrollTo(target, true, 'top 100px'); }
+      else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo({top:y, behavior:'smooth'}); }
+    }, 250);
+  }
+
+  input.addEventListener('input', function(){ render(input.value); });
+  var form = input.closest('form');
+  if(form) form.addEventListener('submit', function(e){ e.preventDefault(); render(input.value); });
+  document.addEventListener('click', function(e){
+    if(e.target.closest && e.target.closest('.search_close_btn')){ input.value=''; box.innerHTML=''; }
+  });
+})();
+</script>
+<!-- Scrollspy: highlight the menu item for the section currently in view -->
+<script>
+(function(){
+  var IDS = ['home','about','services','projects','blog','contact'];
+  var OFFSET = 150;                       // a section counts as "current" once it passes this line
+
+  var sections = IDS.map(function(id){ return document.getElementById(id); })
+                    .filter(Boolean)
+                    .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
+
+  function linkId(a){
+    var h = a.getAttribute('href') || '';
+    if(h === '/') return 'home';          // logo / "Home" point to the clean root
+    return h.charAt(0) === '#' ? h.slice(1) : null;
+  }
+
+  function update(){
+    var active = sections[0].id;
+    for(var i = 0; i < sections.length; i++){
+      if(sections[i].getBoundingClientRect().top - OFFSET <= 0) active = sections[i].id;
+    }
+    // bottom of the page: the last section can never reach the offset line, so force it
+    if(window.innerHeight + Math.ceil(window.pageYOffset) >= document.documentElement.scrollHeight - 2){
+      active = sections[sections.length - 1].id;
+    }
+    // querying each time keeps the JS-cloned mobile menu in sync
+    document.querySelectorAll('.tw-onepage-menu li a').forEach(function(a){
+      var id = linkId(a);
+      if(id) a.classList.toggle('active', id === active);
+    });
+  }
+
+  var ticking = false;
+  function onScroll(){
+    if(ticking) return;
+    ticking = true;
+    requestAnimationFrame(function(){ update(); ticking = false; });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('load', update);
+  update();
+})();
+</script>
+    <!-- Blog pagination -->
+    <script>
+    (function () {
+        var INITIAL = 8, CHUNK = 6;
+        var btn = document.getElementById('blog-load-more');
+        var counter = document.getElementById('blog-more-count');
+        var cards = document.querySelectorAll('#blog .blog-card');
+        if (!btn || !cards.length) return;
+
+        var shown = INITIAL;
+
+        function left() { return cards.length - shown; }
+
+        function sync() {
+            if (left() <= 0) { btn.style.display = 'none'; return; }
+            counter.textContent = '(' + left() + ')';
+        }
+
+        btn.addEventListener('click', function () {
+            var take = CHUNK;
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
+            if (left() - take < 3) take = left();
+
+            for (var i = 0; i < take; i++) {
+                var card = cards[shown + i];
+                card.style.display = '';
+                card.style.animationDelay = (i * 70) + 'ms';
+                card.classList.add('blog-card--in');
+            }
+            shown += take;
+            sync();
+
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
+            if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+        });
+
+        sync();
+    })();
+    </script>
+
+<!-- Lead toast: тільки десктоп (>1024px), виїжджає через 30с, один раз (localStorage 'toastClosed'). -->
+<script>
+(function(){
+  var toast = document.getElementById('lead-toast');
+  if(!toast) return;                                // є лише на головній
+  if(window.innerWidth <= 1024) return;             // тільки десктоп
+  try { if(localStorage.getItem('toastClosed') === '1') return; } catch(e){}
+
+  function open(){
+    if(window.innerWidth <= 1024) return;           // раптом ресайз до таймера
+    toast.hidden = false;
+    // наступний кадр - щоб спрацював transition (виїзд знизу справа)
+    requestAnimationFrame(function(){ toast.classList.add('lead-toast--open'); });
+  }
+
+  function close(){
+    toast.classList.remove('lead-toast--open');     // плавне зникнення
+    try { localStorage.setItem('toastClosed', '1'); } catch(e){}
+    setTimeout(function(){ toast.hidden = true; }, 400); // ховаємо після анімації
+  }
+
+  setTimeout(open, 30000);
+
+  toast.addEventListener('click', function(e){
+    if(e.target.closest('[data-toast-close]')) close();
+  });
+})();
+</script>
+</body>
+</html>

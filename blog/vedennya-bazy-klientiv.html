@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Client database management: how to organize and automate | Devlly">Ведення бази клієнтів: як організувати і автоматизувати | Devlly</title>
+    <meta name="description" content="Як правильно вести базу клієнтів: від простих таблиць до повноцінної CRM. Що враховувати і коли час переходити на автоматизацію." data-en="How to manage a client database properly: from simple spreadsheets to a full CRM. What to consider and when it is time to automate.">
+    <meta name="keywords" content="ведення бази клієнтів, база клієнтів у таблиці, перехід на crm, структура бази клієнтів, міграція в crm, облік клієнтів">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <link rel="canonical" href="https://devlly.dev/blog/vedennya-bazy-klientiv">
+    <link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/vedennya-bazy-klientiv">
+    <link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/vedennya-bazy-klientiv">
+    <link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/vedennya-bazy-klientiv">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Devlly">
+    <meta property="og:title" content="Ведення бази клієнтів: як організувати і автоматизувати | Devlly">
+    <meta property="og:description" content="Як правильно вести базу клієнтів: від простих таблиць до повноцінної CRM. Що враховувати і коли час переходити на автоматизацію.">
+    <meta property="og:url" content="https://devlly.dev/blog/vedennya-bazy-klientiv">
+    <meta property="og:image" content="https://devlly.dev/assets/images/thumbs/feature-three-thumb.png">
+    <meta property="og:locale" content="uk_UA">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/Thunder-SemiBoldLC.woff2" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"></noscript>
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo/favicon.svg">
+    <link rel="icon" href="../assets/images/logo/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="../assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/images/logo/apple-touch-icon.png">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/phosphor.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ведення бази клієнтів: від таблиць до CRM системи",
+  "description": "Як правильно вести базу клієнтів: від простих таблиць до повноцінної CRM. Що враховувати і коли час переходити на автоматизацію.",
+  "image": "https://devlly.dev/assets/images/thumbs/feature-three-thumb.png",
+  "datePublished": "2026-02-10",
+  "dateModified": "2026-02-10",
+  "inLanguage": "uk",
+  "author": {
+    "@type": "Organization",
+    "name": "Devlly Team"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Devlly",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://devlly.dev/assets/images/logo/favicon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://devlly.dev/blog/vedennya-bazy-klientiv"
+  },
+  "url": "https://devlly.dev/blog/vedennya-bazy-klientiv"
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Головна",
+      "item": "https://devlly.dev/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Блог",
+      "item": "https://devlly.dev/#blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ведення бази клієнтів: від таблиць до CRM системи",
+      "item": "https://devlly.dev/blog/vedennya-bazy-klientiv"
+    }
+  ]
+}
+    </script>
+</head>
+<body class="home-three tw-magic-cursor loaded">
+    <!--==================== Preloader Start ====================-->
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="loader-wrap-heading">
+            <div class="load-text"><span>D</span><span>e</span><span>v</span><span>l</span><span>l</span><span>y</span></div>
+        </div>
+    </div>
+    <!--==================== Preloader End ====================-->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+
+    <!--==================== mouse cursor drag start ====================-->
+    <div class="mouseCursor cursor-outer d-none"></div>
+     <div class="mouseCursor cursor-inner">
+         <span class="inner-text-1 tw-text-lg fw-bold text-main-600">
+            <span>
+                <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6454 16.1088L15.7477 32.4423L14.3477 30.9082L32.2453 14.5746L33.6454 16.1088Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.4786 15.2755C27.8709 18.5679 27.8182 24.431 30.9057 27.8141L31.6057 28.5811L33.1398 27.1811L32.4398 26.414C30.0957 23.8454 30.1506 19.2992 32.8787 16.8096L33.6453 16.1099L32.2453 14.5758L31.4786 15.2755Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.8783 16.8088C29.2706 20.1012 23.4271 19.6189 20.3397 16.2358L19.6396 15.4688L21.1738 14.0687L21.8738 14.8358C24.218 17.4045 28.7502 17.7643 31.4783 15.2747L32.2449 14.575L33.645 16.1091L32.8783 16.8088Z" fill="#141616" />
+                </svg>
+            </span>
+            <br>
+            get in touch
+         </span>
+         <span class="inner-text-2">
+             <span>
+                 <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path
+                     d="M0.132374 56.2074L6.68723 62.776C6.98521 63.0747 8.773 63.0747 9.07084 62.776L47.2086 25.4537C47.8044 24.8564 48.4004 24.5578 49.2942 24.5578C49.5922 24.5578 50.1881 24.5578 50.486 24.8564C51.6778 25.155 52.2736 26.3494 52.2736 27.5437V46.3542V46.6529H61.8082C62.404 46.6529 62.7022 46.6529 63 46.6529V0.970426C63 0.970426 63 0.970427 62.4042 0.373196C61.8083 -0.224035 62.1063 0.0747274 61.5102 0.0747274H16.8176C16.8176 0.373196 16.8176 0.671811 16.8176 1.56766V10.8234C16.8176 11.4205 16.8176 12.0177 16.8176 12.0177H35.8865C37.0783 12.0177 38.2701 12.6148 38.5679 13.8091C39.1638 15.0034 38.8659 16.1978 37.9721 17.0936L0.728355 54.1174C0.430367 54.416 0.132374 54.7146 0.132374 55.3117C-0.16547 55.9088 0.132374 55.9088 0.132374 56.2074Z"
+                     fill="currentColor" />
+                 </svg>
+             </span>
+         </span>
+     </div>
+    <!--==================== mouse cursor drag end ====================-->
+
+
+    <!--==================== Begin Magic Cursor Start ====================-->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!--==================== Begin Magic Cursor End ====================-->
+
+
+    <!--==================== Search Popup Start ====================-->
+    <div class="search_popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search_wrapper">
+                        <div class="search_top d-flex justify-content-between align-items-center">
+                            <div class="search_logo">
+                                <a href="/">
+                                    <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+                                </a>
+                            </div>
+                            <div class="search_close">
+                                <button type="button" class="search_close_btn" aria-label="Закрити пошук">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search_form">
+                            <form action="#">
+                                <div class="search_input">
+                                    <input class="search-input-field focus-tw-placeholder-text-hidden" type="text" placeholder="Пошук..." data-en-ph="Search...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit" aria-label="Шукати">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="search-results" class="search_results" style="max-height:58vh;overflow-y:auto;margin-top:2rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-popup-overlay"></div>
+    <!--==================== Search Popup End ====================-->
+
+
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
+
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
+
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
+
+    
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="back-to-top-wrapper">
+        <button id="back_to_top" type="button" class="back-to-top-btn cursor-small" aria-label="Вгору">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+    <!-- ==================== Offcanvus Mobile Menu Start Here ==================== -->
+<div class="tpoffcanvas-area">
+    <div class="tpoffcanvas">
+        <div class="tpoffcanvas__close-btn">
+            <button class="close-btn" aria-label="Закрити меню"><i class="ph ph-x"></i></button>
+        </div>
+        <div class="tpoffcanvas__logo">
+            <a href="/">
+                <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+            </a>
+        </div>
+        <div class="tpoffcanvas__title">
+            <p data-en="Devlly - a software studio. We automate business: from a Telegram bot to a full CRM/ERP system.">Devlly - студія розробки. Автоматизуємо бізнес: від Telegram-бота до повноцінної CRM/ERP-системи.</p>
+        </div>
+        <div class="tw-main-menu-mobile d-xl-none"></div>
+        <div class="tpoffcanvas__contact-info">
+            <div class="tpoffcanvas__contact-title">
+                <p data-en="Contact us">Контакти</p>
+            </div>
+            <ul>
+                <li>
+                    <i class="ph ph-telegram-logo"></i>
+                    <a href="https://t.me/devllydev" target="_blank">@devllydev</a>
+                </li>
+                <li>
+                    <i class="ph ph-envelope-simple-open"></i>
+                    <a href="mailto:devlly.official@gmail.com">devlly.official@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tpoffcanvas__input">
+            <div class="tpoffcanvas__input-title">
+                <p data-en="Get updates">Розсилка</p>
+            </div>
+            <form action="#">
+                <div class="position-relative">
+                    <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Ваш email" data-en-ph="Your email">
+                    <button aria-label="Підписатися">
+                        <i class="ph ph-paper-plane-tilt"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="tpoffcanvas__social">
+            <div class="social-icon">
+                <a href="https://t.me/devllydev" target="_blank" aria-label="Telegram"><i class="ph ph-telegram-logo"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-overlay"></div>
+<!-- ==================== Offcanvus Mobile Menu End Here ==================== -->
+<!-- ==================== Header Start Here ==================== -->
+<header class="header header-three tw-transition-all position-relative tw-z-99 tw-mt-705">
+    <div class="container tw-container-1820-px">
+        <div class="header-three-bg bg-white tw-px-705 tw-rounded-xl">
+            <nav class="d-flex align-items-center justify-content-between position-relative">
+                <!-- Logo Start -->
+                <div class="logo">
+                    <a href="/" class="link cursor-small">
+                        <span class="tw-text-4 fw-bold text-heading">Devlly</span>
+                    </a>
+                </div>
+                <!-- Logo End  -->
+    
+                <!-- Menu Start  -->
+                <div class="header-menu header-three-menu d-xl-block d-none">
+                    <!-- Nav menu Start -->
+<div class="main-menu">
+    <nav class="tw-main-menu-content">
+        <ul class="tw-onepage-menu">
+            <li><a class="cursor-small" href="/" data-en="Home">Головна</a></li>
+            <li><a class="cursor-small" href="/#about" data-en="About">Про нас</a></li>
+            <li><a class="cursor-small" href="/#services" data-en="Services">Послуги</a></li>
+            <li><a class="cursor-small" href="/#projects" data-en="Work">Кейси</a></li>
+            <li><a class="cursor-small" href="/#blog" data-en="Blog">Блог</a></li>
+            <li><a class="cursor-small" href="/#contact" data-en="Contact">Контакти</a></li>
+        </ul>
+    </nav>
+</div>
+<!-- Nav menu End  -->
+                </div>
+                <!-- Menu End  -->
+    
+                <!-- Header Right start -->
+                <div class="header-right d-flex align-items-center tw-gap-4">
+                    <div class="d-none d-md-flex align-items-center tw-gap-2 tw-me-2">
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="uk" href="/blog/vedennya-bazy-klientiv" hreflang="uk">UA</a>
+                        <span class="text-heading">/</span>
+                        <a class="tw-text-lg cursor-small lang-switch" data-lang="en" href="/en/blog/vedennya-bazy-klientiv" hreflang="en">EN</a>
+                    </div>
+    
+    
+                    <!-- Search Button Start  -->
+                    <div class="header-search d-none d-lg-block">
+                        <button class="open-search text-heading tw-transition-3 cursor-small" aria-label="search products" title="open search box">
+                            <span class="tw-text-xl"><i class="ph-bold ph-magnifying-glass"></i></span>
+                        </button>
+                    </div>  
+                    <!-- Search Button End  -->
+    
+    
+                    <!-- Header Button Start  -->
+                    <div class="header-button d-none d-sm-block">
+                        <a class="tw-hover-btn bg-main-two-600 text-white cursor-small justify-content-center text-capitalize fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/#contact">
+                            <span data-en="Get in touch">Обговорити проєкт</span>
+                            <span><img width="36" height="12" src="../assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
+                        </a>
+                    </div>
+                    <!-- Header Button End  -->
+    
+    
+                    <!-- Mobile Button Start  -->
+                    <button type="button" aria-label="Відкрити меню" class="tw-menu-bar text-white fw-semibold d-inline-flex align-items-center tw-gap-4 hover-text-main-600 tw-transition-3 d-xl-none cursor-small">
+                        <span class="tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center bg-white rounded-circle hover-bg-main-600 tw-transition-3"><img width="32" height="8" src="../assets/images/icons/menu.svg" alt="menu"></span>
+                    </button>
+                    <!-- Mobile Button End  -->
+                </div>
+    
+                <!-- Header Right End  -->
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+
+   <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+            <article class="blog-details-area py-120 tw-mt-15">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <nav class="tw-mb-8" aria-label="breadcrumb">
+                                <ul class="d-flex flex-wrap align-items-center justify-content-center tw-gap-2 tw-text-sm fw-medium">
+                                    <li><a class="text-heading hover-text-main-two-600 cursor-small" href="/" data-en="Home">Головна</a></li>
+                                    <li class="text-heading">/</li>
+                                    <li><a class="text-heading hover-text-main-two-600 cursor-small" href="/#blog" data-en="Blog">Блог</a></li>
+                                    <li class="text-heading">/</li>
+                                    <li class="text-main-two-600" data-en="Managing a client database: from spreadsheets to a CRM system">Ведення бази клієнтів: від таблиць до CRM системи</li>
+                                </ul>
+                            </nav>
+                            <div class="tw-mb-10 text-center">
+                                <div class="blog-three-meta d-flex justify-content-center tw-mb-6">
+                                    <ul class="d-flex align-items-center justify-content-center tw-gap-305">
+                                        <li><a class="fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small" href="/#blog" data-en="Article">Стаття</a></li>
+                                        <li><a class="fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small" href="#" data-en="FEB 10, 2026">10 ЛЮТ 2026</a></li>
+                                    </ul>
+                                </div>
+                                <h1 class="tw-text-13 fw-bold text-heading" data-en="Managing a client database: from spreadsheets to a CRM system">Ведення бази клієнтів: від таблиць до CRM системи</h1>
+                            </div>
+                            <div class="blog-details-content">
+                            <p class="tw-text-xl text-heading fw-medium tw-mb-8" data-en="Client database management in most companies starts the same way: someone creates a Google spreadsheet, adds the columns 'name', 'phone', 'comment' and considers the matter closed. For the first few months this genuinely works. But a year later the sheet has five hundred rows, there are three versions of the file named 'base', 'base new' and 'base final', and nobody can answer the simple question 'when did we last talk to this client'. In this article we will look at how to organize database management so it stays a working tool: what structure you need from day one, which hygiene rules save your data from chaos, and which signs tell you a spreadsheet is no longer enough and it is time to move to a CRM.">Ведення бази клієнтів у більшості компаній починається однаково: хтось створює таблицю в Google, додає колонки «імʼя», «телефон», «коментар» і на цьому вважає питання закритим. Перші місяці це справді працює. Але вже через рік у таблиці пʼятсот рядків, три версії файлу з назвами «база», «база нова» і «база фінал», а на просте питання «коли ми востаннє спілкувалися з цим клієнтом» ніхто не може відповісти. У цій статті розберемо, як організувати ведення бази так, щоб вона залишалася робочим інструментом: яка структура потрібна з першого дня, які правила гігієни рятують дані від хаосу і за якими ознаками зрозуміти, що таблиці вже недостатньо і пора переходити на CRM.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Client database structure: the minimal card that actually works">Структура бази клієнтів: мінімальна картка, яка справді працює</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="The main mistake at the start is treating the database as a free-form list of notes. For the data to be useful, every client must have an identical card with a fixed set of fields. The minimum looks like this: name and company, phone in a single format, email, source - where the client came from, date of first contact, current deal status and the responsible manager. That is seven fields covering ninety percent of everyday questions: who we are working with, at what stage, and who is accountable if a client goes quiet.">Головна помилка на старті - вести базу як довільний список нотаток. Щоб дані приносили користь, у кожного клієнта має бути однакова картка з фіксованим набором полів. Мінімум виглядає так: імʼя і компанія, телефон в єдиному форматі, email, джерело - звідки клієнт прийшов, дата першого контакту, поточний статус угоди й відповідальний менеджер. Це сім полів, які покривають девʼяносто відсотків робочих питань: кого ведемо, на якому етапі, хто винен, якщо клієнт «завис».</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="A separate field worth highlighting is 'next step' with a date. This is what turns the database from a contact warehouse into a sales tool: every active client should always have a note of what happens next and when - a call, sending a proposal, a payment reminder. If there is no next step, the deal is effectively dead, just nobody knows it yet. And the reverse is also true: do not add fields 'just in case'. Twenty columns of which four get filled in only create noise and teach the team to ignore the structure.">Окремо варто виділити поле «наступний крок» з датою. Саме воно перетворює базу зі складу контактів на інструмент продажів: у кожного активного клієнта завжди має бути записано, що і коли відбудеться далі - дзвінок, надсилання комерційної пропозиції, нагадування про рахунок. Якщо наступного кроку немає, угода фактично мертва, просто про це ще ніхто не знає. І навпаки: не додавайте поля «про запас». Двадцять колонок, з яких заповнюються чотири, лише створюють шум і привчають команду ігнорувати структуру.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Common mistakes when keeping a client database in spreadsheets">Типові помилки ведення бази клієнтів у таблицях</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="The first and most common problem is duplicates. A client calls, then messages from a different number, then leaves a request on the website - and now the sheet has three rows about the same person with different comments. One manager sees one row, a colleague sees another, and the client gets the same proposal twice or, worse, is quoted two different prices. A spreadsheet does not catch duplicates on its own: it does not compare phone numbers and does not warn that the contact already exists.">Перша і найпоширеніша проблема - дублі. Один клієнт зателефонував, потім написав з іншого номера, потім залишив заявку на сайті - і ось у таблиці вже три рядки про ту саму людину з різними коментарями. Менеджер бачить один рядок, колега - інший, і клієнту двічі надсилають ту саму пропозицію або, що гірше, називають різні ціни. Таблиця сама по собі дублі не ловить: вона не порівнює номери телефонів і не попереджає, що такий контакт уже є.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="The second problem is stale data and missing history. A spreadsheet usually holds only the current state: a 'comment' cell that everyone overwrites on top of the previous text. What the client was promised a month ago, why they declined last time, how many times they have already been called - all of it gets erased. When a manager leaves, all the informal memory about clients disappears with them. The third problem is access rights: in a spreadsheet either everyone sees everything, or you start painfully juggling separate files per manager that can never be merged back together.">Друга проблема - застарілі дані й відсутність історії. У таблиці зазвичай є лише поточний стан: комірка «коментар», яку кожен переписує поверх попереднього тексту. Що клієнту обіцяли місяць тому, чому він відмовився минулого разу, скільки разів йому вже дзвонили - усе це стирається. Коли менеджер звільняється, разом з ним зникає й уся неформальна памʼять про клієнтів. Третя проблема - права доступу: у таблиці або всі бачать усе, або починається болісне жонглювання окремими файлами для кожного менеджера, які потім неможливо звести докупи.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="Finally, a spreadsheet does nothing by itself. It will not remind you that a client was promised a call back on Thursday, will not pull in a request from the website, will not show that a deal has sat motionless for three weeks. All the discipline rests on human memory, and memory is the least reliable part of any process. While you have thirty clients, this is forgivable. When there are three hundred, every forgotten row means lost money.">Нарешті, таблиця нічого не робить сама. Вона не нагадає, що клієнту обіцяли передзвонити в четвер, не підтягне заявку з сайту, не покаже, що угода висить без руху три тижні. Уся дисципліна тримається на памʼяті людей, а памʼять - найненадійніша частина будь-якого процесу. Поки клієнтів тридцять, це прощається. Коли їх триста - кожен забутий рядок означає втрачені гроші.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Database hygiene: the rules that keep your data in order">Гігієна бази: правила, які тримають дані в порядку</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="Whatever tool you use, a few simple rules save the database. First - a single data format: phone numbers are recorded identically, for example +380 with no spaces or brackets, and statuses are picked from a fixed list rather than typed as free text. When one column contains 'thinking', 'Thinking...' and 'said he would think', nothing can be counted or filtered. The second rule is one person responsible for database cleanliness. Not 'everyone a little', but a specific person who reviews new records once a week, merges duplicates and closes records that have no next step.">Незалежно від інструменту, базу рятують кілька простих правил. Перше - єдиний формат даних: телефони записуються однаково, наприклад +380 без пробілів і дужок, статуси вибираються з фіксованого списку, а не пишуться вільним текстом. Коли в одній колонці живуть «думає», «Думає...» і «сказав подумає», порахувати чи відфільтрувати щось неможливо. Друге правило - один відповідальний за чистоту бази. Не «всі потроху», а конкретна людина, яка раз на тиждень переглядає нові записи, зливає дублі й закриває записи без наступного кроку.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="The third rule is regular upkeep instead of one-off cleanup marathons. Cleaning the base once a year does not work: in a year the data degrades so much that half of it is easier to throw away. A working rhythm is fifteen minutes a week: check the week's new leads, update statuses, flag clients with no contact for over three months. And fourth - record things immediately. An agreement written down two days later from memory is already half invented. The rule 'hang up the phone, update the card' sounds trivial, but it is exactly what separates a living database from a graveyard of contacts.">Третє правило - регулярне оновлення замість разових «суботників». Разове чищення бази раз на рік не працює: за рік дані встигають зіпсуватися настільки, що половину простіше викинути. Робочий ритм - пʼятнадцять хвилин на тиждень: перевірити заявки за тиждень, оновити статуси, позначити клієнтів, з якими не було контакту понад три місяці. І четверте - записуйте одразу. Домовленість, зафіксована через два дні по памʼяті, вже наполовину вигадана. Правило «поклав слухавку - оновив картку» звучить банально, але саме воно відрізняє живу базу від цвинтаря контактів.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="When a spreadsheet is no longer enough: signs it is time for a CRM">Коли таблиці вже мало: ознаки, що час переходити на CRM</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="There is no universal threshold, but practice gives fairly clear markers. The first is volume: once the base holds more than 200-300 active clients, manual control stops keeping up with the flow, and forgotten deals become the norm rather than the exception. The second is the team: as soon as two or three managers work with the base simultaneously, the spreadsheet turns into a conflict zone - someone overwrites other people's changes, someone sorts the sheet and breaks the row order, someone accidentally deletes a column. The third marker is channels: if requests arrive from the website, Instagram, phone and messengers at once, moving them into the sheet by hand without losses is no longer possible.">Універсального порогу немає, але практика дає доволі чіткі орієнтири. Перший - обсяг: коли в базі більше ніж 200-300 активних клієнтів, ручний контроль перестає встигати за потоком, і забуті угоди стають нормою, а не винятком. Другий - команда: щойно з базою працюють двоє чи троє менеджерів одночасно, таблиця перетворюється на поле конфліктів - хтось перезаписав чужі зміни, хтось відсортував і зламав порядок рядків, хтось випадково видалив колонку. Третій орієнтир - канали: якщо заявки приходять з сайту, Instagram, телефону й месенджерів одночасно, вручну переносити їх у таблицю без втрат уже не виходить.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="There is also a financial test: calculate what one lost deal costs and multiply it by the number of leads that slip away each month. If the average order is 8,000 hryvnias and the spreadsheet chaos loses even three or four leads a month, you are leaving 25-30 thousand on the table every month. In that case a CRM pays for itself within the first two or three months simply because leads stop disappearing. A CRM here is not about being fashionable, it is about basic accounting: every contact is recorded, every deal has a status and a reminder, and the communication history survives regardless of which manager is on shift today.">Є й фінансовий тест: порахуйте, скільки коштує одна втрачена угода, і помножте на кількість заявок, які губляться за місяць. Якщо середній чек - 8 000 гривень, а через хаос у таблиці губиться хоча б три-чотири заявки на місяць, ви щомісяця залишаєте на столі 25-30 тисяч. Впровадження CRM у такому разі окупається за перші два-три місяці лише за рахунок того, що заявки перестають зникати. CRM тут - це не про «модно», а про елементарний облік: кожен контакт зафіксований, кожна угода має статус і нагадування, історія спілкування зберігається незалежно від того, хто з менеджерів сьогодні працює.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Migrating from spreadsheets to a CRM without losing data">Міграція з таблиць у CRM без втрати даних</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="The move is what scares people most, although with the right approach it takes one to two weeks. Start not by choosing a system but by cleaning the spreadsheet: merge duplicates, bring phone numbers to a single format, delete clearly dead contacts with no communication for years. Carrying dirt into the new system is the worst thing you can do: a CRM with dirty data discredits itself in the team's eyes within the first week. Next comes a mapping: which spreadsheet column becomes which CRM field, where the comments go, how old text statuses translate into pipeline stages.">Переїзд лякає найбільше, хоча за правильного підходу він займає один-два тижні. Починати треба не з вибору системи, а з чищення таблиці: злити дублі, привести телефони до одного формату, видалити явно мертві контакти, з якими не було звʼязку кілька років. Переносити бруд у нову систему - найгірше, що можна зробити: CRM з брудними даними дискредитує себе в очах команди за перший же тиждень. Далі складається мапа відповідності: яка колонка таблиці стає яким полем у CRM, куди потрапляють коментарі, як старі текстові статуси перетворюються на етапи воронки.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="The import itself is technically simple - most systems accept a CSV file, and for unusual cases a small script does the job. Something else matters more: for the first two or three weeks the old spreadsheet is not deleted but frozen in read-only mode, so there is something to check against. In parallel, new leads are set to flow straight into the CRM - from website forms, messengers and telephony, so the spreadsheet stops growing. And the team needs a short training session: one hour in which managers walk through a typical scenario from a new lead to a closed deal. At Devlly we regularly run such migrations end to end: we clean and transfer the base, tailor the CRM to a specific company's processes and connect every lead source, so that managing the client database finally works for the business instead of the other way around.">Сам імпорт технічно нескладний - більшість систем приймають файл CSV, а для нестандартних випадків пишеться невеликий скрипт. Важливіше інше: перші два-три тижні стару таблицю не видаляють, а заморожують у режимі «тільки читання», щоб було з чим звіритися. Паралельно налаштовується автоматичне надходження нових заявок одразу в CRM - з форм сайту, месенджерів, телефонії, щоб таблиця більше не поповнювалася. І обовʼязково коротке навчання команди: одна година, на якій менеджери проходять типовий сценарій від нової заявки до закритої угоди. У Devlly ми регулярно проводимо такі міграції під ключ: чистимо й переносимо базу, налаштовуємо CRM під процеси конкретної компанії та підключаємо всі джерела заявок, щоб ведення бази клієнтів нарешті працювало на бізнес, а не навпаки.</p>
+                            <div class="tw-mt-15">
+                                <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="Read also">Читайте також</h2>
+                                <ul class="d-flex flex-column tw-gap-4">
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="baza-klientiv"><span class="text-main-two-600">&rarr;</span> <span data-en="A client base for your business: how to build and use it">База клієнтів для бізнесу: як зібрати і використовувати</span></a></li>
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="crm-or-sheets"><span class="text-main-two-600">&rarr;</span> <span data-en="When a business needs its own CRM - and when spreadsheets are enough">Коли бізнесу потрібна власна CRM, а коли достатньо таблиць</span></a></li>
+                                    <li><a class="tw-text-xl fw-medium text-heading hover-text-main-two-600 cursor-small d-inline-flex align-items-start tw-gap-3" href="crm-vs-erp"><span class="text-main-two-600">&rarr;</span> <span data-en="CRM vs ERP: what’s the difference and which one to choose">CRM чи ERP: у чому різниця та що обрати</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="gray--bg tw-rounded-2xl tw-p-10 tw-mt-15 text-center">
+                                <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-6" data-en="Need help? Get in touch">Потрібна допомога? Пишіть нам</h3>
+                                <div class="d-flex align-items-center justify-content-center tw-gap-4 flex-wrap">
+                                    <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="mailto:devlly.official@gmail.com"><span data-en="Email us">Написати на пошту</span></a>
+                                    <a class="tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl" href="https://t.me/devllydev" target="_blank"><span>Telegram</span></a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tw-mt-15 text-center">
+                                <a class="tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl" href="/#blog" data-en="Back to all articles">Усі статті</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            </main>
+            <!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-three-area bg-img position-relative z-1 pt-120" data-background-image="../assets/images/shapes/footer-three-bg-1200w.webp">
+    <div class="marquee marquee-two bg-transparent pb-120">
+        <div class="marquee_left d-flex align-items-center justify-content-between tw-gap-16 overflow-hidden">
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase" data-en="what we offer">що ми робимо</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase" data-en="Our Services">Наші послуги</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase" data-en="What We Deliver">Автоматизація</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase" data-en="Our Offerings">CRM та ERP</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase" data-en="Services We Offer">Telegram-боти</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase" data-en="What We Bring">Десктоп та веб</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder fw-bold text--white text-uppercase" data-en="Our Solutions">Наші рішення</h2>
+            </div>
+            <div>
+                <h2 class="marquee-two-title footer-three-title font-thunder text-transparent fw-bold text-uppercase" data-en="What We Do">Інтеграції</h2>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container tw-container-1800-px">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-1 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li>
+                                        <a href="/" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Home">Головна</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/#about" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="About Us">Про нас</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/#projects" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Work">Кейси</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/#services" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Services">Послуги</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/#blog" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Blog">Блог</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/#contact" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Contact">Контакти</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-2 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li>
+                                        <a href="/privacy" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Privacy Policy">Політика конфіденційності</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/terms" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span><span data-en="Terms &amp; Conditions">Умови використання</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/support" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> <span data-en="Support">Підтримка</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/404" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small"><span><img loading="lazy" decoding="async" width="16" height="16" src="../assets/images/icons/service-tag.svg" alt=""></span> 404<span data-en=" Page"></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 tw-mb-705">
+                            <div class="footer-three-col footer-three-col-3 tw-py-14 tw-px-9 footer-three-menu tw-rounded-2xl h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                <ul class="d-flex flex-column tw-gap-6">
+                                    <li><a href="https://t.me/devllydev" target="_blank" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small">Telegram <span><i class="ph ph-arrow-up-right"></i></span></a></li>
+                                    <li><a href="mailto:devlly.official@gmail.com" class="tw-text-2xl fw-semibold text-white hover-text-main-two-600 d-inline-flex align-items-center tw-gap-3 cursor-small">Gmail <span><i class="ph ph-arrow-up-right"></i></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="footer-three-col footer-three-col-4 tw-py-9 d-flex align-items-center justify-content-center tw-rounded-2xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                                <p class="tw-text-lg text--white text-line-1 fw-normal">© 2025–2026 <a href="/" class="cursor-small fw-semibold text-main-600 hover-underline hover-text-white">Devlly,</a><span data-en="All rights reserved">Усі права захищено</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <div class="footer-three-col footer-three-col-5 text-center tw-py-15 tw-px-9 footer-three-menu tw-rounded-2xl tw-mb-705" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <a class="text--white tw-text-2xl fw-semibold hover-text-main-two-600 cursor-small" href="mailto:devlly.official@gmail.com">devlly.official@gmail.com</a>
+                        </div>
+                        <div class="footer-three-col footer-three-col-5 text-center tw-py-15 tw-px-9 footer-three-menu tw-rounded-2xl tw-mb-705" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            <a class="text--white hover-text-main-two-600 cursor-small tw-transition-3 d-inline-flex flex-column align-items-center tw-gap-3" href="https://t.me/devllydev" target="_blank" aria-label="Telegram">
+                                <span class="lh-1" style="font-size:48px;"><i class="ph ph-telegram-logo"></i></span>
+                                <span class="tw-text-2xl fw-semibold" data-en="Message us">Написати нам</span>
+                            </a>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+
+
+        </div>
+    </div>
+
+<!-- Lead toast (тільки десктоп). Виїжджає знизу справа один раз через 30с на головній.
+     Тримаємо ПОЗА #smooth-content, бо ScrollSmoother трансформує його і ламає position:fixed. -->
+<div id="lead-toast" class="lead-toast" role="dialog" aria-labelledby="lead-toast-title" hidden>
+    <button type="button" class="lead-toast__close" data-toast-close aria-label="Close">&times;</button>
+    <p id="lead-toast-title" class="lead-toast__title" data-en="Tired of manual work?">Втомились від ручної роботи?</p>
+    <p class="lead-toast__text" data-en="Tell us about your task - we'll suggest a solution">Розкажіть про задачу - запропонуємо рішення</p>
+    <a class="lead-toast__cta" href="https://t.me/devllydev" target="_blank" rel="noopener" data-en="Write on Telegram &rarr;">Написати в Telegram &rarr;</a>
+</div>
+
+<!-- Jquery js -->
+<script defer src="../assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Bundle Js -->
+<script defer src="../assets/js/boostrap.bundle.min.js"></script>
+<!-- aos -->
+<script defer src="../assets/js/aos.js"></script>
+<!-- appear -->
+<script defer src="../assets/js/appear.min.js"></script>
+<!-- marquee -->
+<script defer src="../assets/js/jquery.marquee.min.js"></script>
+<!-- counterup js -->
+<script defer src="../assets/js/purecounter.js"></script>
+
+<!-- gsap js -->
+<script defer src="../assets/js/gsap/gsap.js"></script>
+<!-- Scroll plugin -->
+<script defer src="../assets/js/gsap/gsap-scroll-to-plugin.js"></script>
+<!-- Scroll smoother -->
+<script defer src="../assets/js/gsap/gsap-scroll-smoother.js"></script>
+<!-- Scroll Trigger -->
+<script defer src="../assets/js/gsap/gsap-scroll-trigger.js"></script>
+<!-- split text -->
+<script defer src="../assets/js/gsap/gsap-split-text.js"></script>
+<!-- imagesloaded -->
+<script defer src="../assets/js/imagesloaded-pkgd.js"></script>
+
+
+
+
+<!-- custom GSAP -->
+<script defer src="../assets/js/slider-active.js"></script>
+<!-- custom GSAP -->
+<script defer src="../assets/js/custom-gsap.js"></script>
+<!-- main js -->
+<script defer src="../assets/js/main.js"></script>
+<!-- cursor js -->
+<script defer src="../assets/js/tw-cursor.js"></script>
+<script>
+(function(){
+  function onClick(e){
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if(!a) return;
+    var href = a.getAttribute('href');
+    if(!href || href === '#' || href.length < 2) return;
+    var target = document.querySelector(href);
+    if(!target) return;
+    e.preventDefault();
+    if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    if(sm){ sm.scrollTo(target, true, 'top 100px'); }
+    else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo({top:y, behavior:'smooth'}); }
+  }
+  document.addEventListener('click', onClick, false);
+
+  // Logo / "Home" links point to "/". On the homepage, smooth-scroll to top and strip the
+  // hash so the URL becomes a clean "/". On sub-pages, let the browser navigate home.
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href="/"], a[href="/en"]');
+    if(!a) return;
+    var home = a.getAttribute('href');          // "/" на UA, "/en" на EN
+    if(location.pathname !== home) return;
+    e.preventDefault();
+    if(a.closest('.tpoffcanvas')){ var c = document.querySelector('.close-btn'); if(c) c.click(); }
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    if(sm){ sm.scrollTo(0, true); } else { window.scrollTo({top:0, behavior:'smooth'}); }
+    history.replaceState(null, '', home);
+  }, false);
+
+  // On landing with a #hash (e.g. arriving from a blog article, or a menu link
+  // from another page), scroll to the target section once ScrollSmoother is ready.
+  window.addEventListener('load', function(){
+    if(!location.hash || location.hash.length < 2) return;
+    var target;
+    try { target = document.querySelector(location.hash); } catch(e){ return; }
+    if(!target) return;
+    var tries = 0;
+    (function go(){
+      var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+      if(sm){ sm.scrollTo(target, false, 'top 100px'); }
+      else if(tries++ < 60){ setTimeout(go, 50); }
+      else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo(0, y); }
+    })();
+  });
+})();
+</script>
+
+<!-- Language switch (UA / EN) - язык теперь задаётся URL, не JS.
+     Скрипт только подсвечивает активный пункт; сам перевод статичен в /en/. -->
+<script>
+(function(){
+  var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+  function init(){
+    document.querySelectorAll('.lang-switch').forEach(function(x){
+      var on = x.dataset.lang === lang;
+      x.className = 'tw-text-lg cursor-small lang-switch ' +
+        (on ? 'fw-bold lang-switch--active' : 'fw-semibold text-heading hover-text-main-two-600');
+    });
+  }
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+
+<!-- Пропозиція перейти на EN. Саме банер, а не редирект: автоматичний редирект за
+     Accept-Language сховав би українську версію від краулерів, які приходять з en. -->
+<script>
+(function(){
+  var el = document.getElementById('lang-banner');
+  if(!el) return;                                   // є лише на головній
+  if(document.documentElement.lang === 'en') return; // на /en він безглуздий
+  if((navigator.language || '').slice(0,2) !== 'en') return;
+  try { if(localStorage.getItem('langBannerClosed') === '1') return; } catch(e){}
+
+  el.hidden = false;
+  var close = document.getElementById('lang-banner-close');
+  if(close) close.addEventListener('click', function(){
+    el.hidden = true;
+    try { localStorage.setItem('langBannerClosed', '1'); } catch(e){}
+    // висота сторінки змінилась - ScrollSmoother кешує її
+    if(window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+  });
+})();
+</script>
+
+<!-- Contact form -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('contact-form');
+  if(!form) return;                       // form only exists on the homepage
+  var status = document.getElementById('contact-status');
+  var btn = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Дякуємо! Ми звʼяжемося з вами найближчим часом.', en: 'Thank you! We will get back to you shortly.' },
+    empty:   { uk: 'Будь ласка, заповніть усі поля.', en: 'Please fill in all fields.' },
+    toomany: { uk: 'Забагато спроб. Спробуйте трохи пізніше або напишіть нам у Telegram.', en: 'Too many attempts. Please try again later or message us on Telegram.' },
+    fail:    { uk: 'Не вдалося надіслати. Спробуйте ще раз або напишіть нам у Telegram.', en: 'Could not send. Please try again or message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var fd = new FormData(form);
+    var payload = {
+      name: String(fd.get('name') || '').trim(),
+      contact: String(fd.get('contact') || '').trim(),
+      message: String(fd.get('message') || '').trim(),
+      website: String(fd.get('website') || '')   // honeypot - stays empty for real users
+    };
+    if(!payload.name || !payload.contact || !payload.message){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#6c757d');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){
+        return { status: r.status, ok: r.ok && d.ok };
+      });
+    })
+    .then(function(res){
+      if(res.ok){ form.reset(); show('ok', '#198754'); }
+      else if(res.status === 429){ show('toomany', '#dc3545'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
+<!-- Site search (magnifier in the header) -->
+<script>
+(function(){
+  var input = document.querySelector('.search-input-field');
+  var box   = document.getElementById('search-results');
+  if(!input || !box) return;
+
+  var INDEX = [
+  {
+    "t": "s",
+    "uk": "Автоматизація бізнесу · CRM / ERP",
+    "en": "Business automation · CRM / ERP",
+    "duk": "Проєктуємо системи керування клієнтами, продажами та бізнес-процесами під ваш бізнес.",
+    "den": "We design systems to manage clients, sales and business processes tailored to you.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Telegram-боти та Mini Apps",
+    "en": "Telegram bots & Mini Apps",
+    "duk": "Боти для продажів, підтримки й автоматизації та повноцінні застосунки всередині Telegram.",
+    "den": "Bots for sales, support and automation, plus full-featured apps inside Telegram.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Десктопні застосунки",
+    "en": "Desktop applications",
+    "duk": "Програми для Windows і macOS: облік, автоматизація робочих місць, робота з базами даних.",
+    "den": "Apps for Windows and macOS: accounting, workplace automation, database-driven tools.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Вебсервіси та SaaS",
+    "en": "Web services & SaaS",
+    "duk": "Вебдодатки, адмін-панелі та SaaS-продукти з нуля під ваші задачі.",
+    "den": "Web apps, admin panels and SaaS products built from scratch for your needs.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Парсинг даних і моніторинг",
+    "en": "Data parsing & monitoring",
+    "duk": "Збираємо й відстежуємо дані з сайтів і сервісів, сповіщаємо про зміни автоматично.",
+    "den": "We collect and track data from sites and services, alerting you to changes automatically.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "AI-інтеграції та чат-боти з GPT",
+    "en": "AI integrations & GPT chatbots",
+    "duk": "Впроваджуємо GPT у ваші процеси: розумні асистенти, обробка звернень і генерація контенту.",
+    "den": "We embed GPT into your workflows: smart assistants, request handling and content generation.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "HR-автоматизація",
+    "en": "HR automation",
+    "duk": "Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.",
+    "den": "Collecting applications, screening candidates and onboarding - without manual routine.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Автоворонки і розсилки",
+    "en": "Sales funnels & mailouts",
+    "duk": "Налаштовуємо автоматичні воронки продажів і розсилки в месенджерах та пошті.",
+    "den": "We set up automated sales funnels and campaigns across messengers and email.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Інтеграції з CRM, API та Google Sheets",
+    "en": "Integrations with CRM, APIs & Google Sheets",
+    "duk": "Поєднуємо ваші сервіси в єдину систему: CRM, платіжки, API та Google-таблиці.",
+    "den": "We connect your services into one system: CRM, payments, APIs and Google Sheets.",
+    "url": "/#services"
+  },
+  {
+    "t": "s",
+    "uk": "Особисті кабінети клієнтів",
+    "en": "Client portals",
+    "duk": "Кабінети з авторизацією, оплатами й персональними даними для ваших клієнтів.",
+    "den": "Portals with authentication, payments and personal data for your clients.",
+    "url": "/#services"
+  },
+  {
+    "t": "c",
+    "uk": "SalesIntel AI",
+    "en": "SalesIntel AI",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "ShopBot UA",
+    "en": "ShopBot UA",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "HR-бот",
+    "en": "HR bot",
+    "url": "/#projects"
+  },
+  {
+    "t": "c",
+    "uk": "CRM для інтернет-магазину одягу",
+    "en": "CRM for a clothing online store",
+    "url": "/#projects"
+  },
+  {
+    "t": "b",
+    "uk": "Коли бізнесу потрібна власна CRM, а коли достатньо таблиць",
+    "en": "When a business needs its own CRM - and when spreadsheets are enough",
+    "url": "/blog/crm-or-sheets"
+  },
+  {
+    "t": "b",
+    "uk": "Як Telegram-бот замінив 3 години ручної роботи менеджера на 10 хвилин",
+    "en": "How a Telegram bot replaced 3 hours of manual work with 10 minutes",
+    "url": "/blog/telegram-bot-saves-time"
+  },
+  {
+    "t": "b",
+    "uk": "CRM чи ERP: у чому різниця та що обрати для свого бізнесу",
+    "en": "CRM vs ERP: what’s the difference and which one to choose",
+    "url": "/blog/crm-vs-erp"
+  },
+  {
+    "t": "b",
+    "uk": "5 процесів, які варто автоматизувати першими",
+    "en": "5 processes you should automate first",
+    "url": "/blog/what-to-automate-first"
+  },
+  {
+    "t": "b",
+    "uk": "Mini App у Telegram: що це і навіщо вашому бізнесу",
+    "en": "Mini App in Telegram: what it is and why your business needs it",
+    "url": "/blog/telegram-mini-app"
+  },
+  {
+    "t": "b",
+    "uk": "Парсинг даних для бізнесу: як моніторити конкурентів автоматично",
+    "en": "Data parsing for business: how to monitor competitors automatically",
+    "url": "/blog/data-parsing"
+  },
+  {
+    "t": "b",
+    "uk": "Як AI-бот обробляє заявки замість менеджера",
+    "en": "How an AI bot handles client requests instead of a manager",
+    "url": "/blog/ai-bot-requests"
+  },
+  {
+    "t": "b",
+    "uk": "Чому ваш бізнес досі витрачає гроші на те, що можна автоматизувати",
+    "en": "Why your business is still spending money on things that can be automated",
+    "url": "/blog/automate-or-lose-money"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для запису клієнтів у салон краси: як це працює",
+    "en": "A Telegram bot for beauty salon bookings: how it works",
+    "url": "/blog/telegram-bot-salon"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для служби доставки їжі: меню, оплата, кур’єри",
+    "en": "A Telegram bot for a food delivery service: menu, payment, couriers",
+    "url": "/blog/telegram-bot-delivery"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для фітнес-клубу та персональних тренерів",
+    "en": "A Telegram bot for gyms and personal trainers",
+    "url": "/blog/telegram-bot-fitness"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для агентства нерухомості",
+    "en": "A Telegram bot for a real estate agency",
+    "url": "/blog/telegram-bot-realty"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для інтернет-магазину одягу: як він продає замість сайту",
+    "en": "A Telegram bot for a clothing store: how it sells instead of your website",
+    "url": "/blog/telegram-bot-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram-бот для стоматологічної клініки: запис, нагадування, картка пацієнта",
+    "en": "A Telegram bot for a dental clinic: booking, reminders, patient records",
+    "url": "/blog/telegram-bot-dental"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для магазину: як замінити сайт месенджером",
+    "en": "A Telegram Mini App for your store: replacing the website with a messenger",
+    "url": "/blog/mini-app-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для служби таксі та замовлення поїздок",
+    "en": "A Telegram Mini App for a taxi service and ride ordering",
+    "url": "/blog/mini-app-taxi"
+  },
+  {
+    "t": "b",
+    "uk": "Telegram Mini App для запису на послуги без встановлення додатку",
+    "en": "A Telegram Mini App for service booking with no app to install",
+    "url": "/blog/mini-app-booking"
+  },
+  {
+    "t": "b",
+    "uk": "CRM система для агентства нерухомості: що врахувати",
+    "en": "A CRM for a real estate agency: what to take into account",
+    "url": "/blog/crm-realty"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для салону краси: облік клієнтів і записів",
+    "en": "CRM for a beauty salon: client records and bookings",
+    "url": "/blog/crm-salon"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для будівельної компанії: від заявки до здачі об'єкту",
+    "en": "CRM for a construction company: from lead to project handover",
+    "url": "/blog/crm-construction"
+  },
+  {
+    "t": "b",
+    "uk": "CRM для юридичної фірми: автоматизація роботи з клієнтами",
+    "en": "CRM for a law firm: automating client work",
+    "url": "/blog/crm-legal"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація HR для малого бізнесу без дорогих систем",
+    "en": "HR automation for small business without expensive systems",
+    "url": "/blog/hr-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Як автоматизувати обробку замовлень для інтернет-магазину",
+    "en": "How to automate order processing for an online store",
+    "url": "/blog/shop-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація бухгалтерії для малого бізнесу через Telegram",
+    "en": "Accounting automation for small business through Telegram",
+    "url": "/blog/accounting-automation"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація клієнтської підтримки: бот замість менеджера",
+    "en": "Customer support automation: a bot instead of a manager",
+    "url": "/blog/support-automation"
+  },
+  {
+    "t": "b",
+    "uk": "AI чат-бот для інтернет-магазину: відповідає замість менеджера",
+    "en": "An AI chatbot for an online store: it answers instead of a manager",
+    "url": "/blog/ai-chatbot-shop"
+  },
+  {
+    "t": "b",
+    "uk": "Парсинг цін конкурентів: як моніторити ринок автоматично",
+    "en": "Competitor price parsing: how to monitor the market automatically",
+    "url": "/blog/price-parsing"
+  },
+  {
+    "t": "b",
+    "uk": "Як зібрати базу клієнтів автоматично для B2B продажів",
+    "en": "How to build a client database automatically for B2B sales",
+    "url": "/blog/b2b-leads"
+  }
+];
+
+  var TYPE = { s:{uk:'Послуга',en:'Service'}, c:{uk:'Кейс',en:'Case'}, b:{uk:'Стаття',en:'Article'} };
+  var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
+  function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
+  // INDEX хранит украинские URL; на /en/* их надо префиксовать.
+  // "/#services" -> "/en#services", "/blog/x" -> "/en/blog/x"
+  function urlFor(u){
+    if(lang() !== 'en') return u;
+    return u.indexOf('/#') === 0 ? '/en' + u.slice(1) : '/en' + u;
+  }
+  function norm(v){ return (v||'').toLowerCase().trim(); }
+
+  function search(q){
+    q = norm(q);
+    if(q.length < 2) return [];
+    return INDEX.filter(function(it){
+      return norm(it.uk).indexOf(q) > -1 || norm(it.en).indexOf(q) > -1 ||
+             norm(it.duk).indexOf(q) > -1 || norm(it.den).indexOf(q) > -1;
+    }).slice(0, 8);
+  }
+
+  function render(q){
+    var L = lang(), res = search(q);
+    box.innerHTML = '';
+    if(norm(q).length < 2) return;
+    if(!res.length){
+      var p = document.createElement('p');
+      p.className = 'tw-text-lg text-heading';
+      p.style.opacity = '.7';
+      p.textContent = EMPTY[L];
+      box.appendChild(p);
+      return;
+    }
+    res.forEach(function(it){
+      var a = document.createElement('a');
+      a.href = urlFor(it.url);
+      a.className = 'd-flex align-items-center justify-content-between tw-gap-4 cursor-small';
+      a.style.cssText = 'padding:14px 0;border-bottom:1px solid rgba(0,0,0,.12);text-decoration:none;';
+      var title = document.createElement('span');
+      title.className = 'tw-text-xl fw-medium text-heading';
+      title.textContent = it[L];
+      var type = document.createElement('span');
+      type.className = 'tw-text-sm fw-semibold text-uppercase text-main-two-600';
+      type.style.whiteSpace = 'nowrap';
+      type.textContent = TYPE[it.t][L];
+      a.appendChild(title); a.appendChild(type);
+      a.addEventListener('click', function(e){ go(e, it.url); });
+      box.appendChild(a);
+    });
+  }
+
+  function go(e, url){
+    var hash = url.indexOf('/#') === 0 ? url.slice(1) : null;   // "/#services" -> "#services"
+    var target = hash ? document.querySelector(hash) : null;
+    if(!target) return;                       // sub-page: let the browser navigate to "/#..."
+    e.preventDefault();
+    var close = document.querySelector('.search_close_btn');
+    if(close) close.click();
+    var sm = (window.ScrollSmoother && ScrollSmoother.get) ? ScrollSmoother.get() : null;
+    setTimeout(function(){
+      if(sm){ sm.scrollTo(target, true, 'top 100px'); }
+      else { var y = target.getBoundingClientRect().top + window.pageYOffset - 100; window.scrollTo({top:y, behavior:'smooth'}); }
+    }, 250);
+  }
+
+  input.addEventListener('input', function(){ render(input.value); });
+  var form = input.closest('form');
+  if(form) form.addEventListener('submit', function(e){ e.preventDefault(); render(input.value); });
+  document.addEventListener('click', function(e){
+    if(e.target.closest && e.target.closest('.search_close_btn')){ input.value=''; box.innerHTML=''; }
+  });
+})();
+</script>
+<!-- Scrollspy: highlight the menu item for the section currently in view -->
+<script>
+(function(){
+  var IDS = ['home','about','services','projects','blog','contact'];
+  var OFFSET = 150;                       // a section counts as "current" once it passes this line
+
+  var sections = IDS.map(function(id){ return document.getElementById(id); })
+                    .filter(Boolean)
+                    .sort(function(a,b){ return a.offsetTop - b.offsetTop; });   // page order, not menu order
+  if(!sections.length) return;            // sub-pages have no sections - nothing to spy on
+
+  function linkId(a){
+    var h = a.getAttribute('href') || '';
+    if(h === '/') return 'home';          // logo / "Home" point to the clean root
+    return h.charAt(0) === '#' ? h.slice(1) : null;
+  }
+
+  function update(){
+    var active = sections[0].id;
+    for(var i = 0; i < sections.length; i++){
+      if(sections[i].getBoundingClientRect().top - OFFSET <= 0) active = sections[i].id;
+    }
+    // bottom of the page: the last section can never reach the offset line, so force it
+    if(window.innerHeight + Math.ceil(window.pageYOffset) >= document.documentElement.scrollHeight - 2){
+      active = sections[sections.length - 1].id;
+    }
+    // querying each time keeps the JS-cloned mobile menu in sync
+    document.querySelectorAll('.tw-onepage-menu li a').forEach(function(a){
+      var id = linkId(a);
+      if(id) a.classList.toggle('active', id === active);
+    });
+  }
+
+  var ticking = false;
+  function onScroll(){
+    if(ticking) return;
+    ticking = true;
+    requestAnimationFrame(function(){ update(); ticking = false; });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('load', update);
+  update();
+})();
+</script>
+    <!-- Blog pagination -->
+    <script>
+    (function () {
+        var INITIAL = 8, CHUNK = 6;
+        var btn = document.getElementById('blog-load-more');
+        var counter = document.getElementById('blog-more-count');
+        var cards = document.querySelectorAll('#blog .blog-card');
+        if (!btn || !cards.length) return;
+
+        var shown = INITIAL;
+
+        function left() { return cards.length - shown; }
+
+        function sync() {
+            if (left() <= 0) { btn.style.display = 'none'; return; }
+            counter.textContent = '(' + left() + ')';
+        }
+
+        btn.addEventListener('click', function () {
+            var take = CHUNK;
+            // не оставляем «хвост» меньше половины ряда - добираем его этим же кликом
+            if (left() - take < 3) take = left();
+
+            for (var i = 0; i < take; i++) {
+                var card = cards[shown + i];
+                card.style.display = '';
+                card.style.animationDelay = (i * 70) + 'ms';
+                card.classList.add('blog-card--in');
+            }
+            shown += take;
+            sync();
+
+            // ScrollSmoother кеширует высоту страницы - без этого скролл упрётся в старую
+            if (window.ScrollTrigger && ScrollTrigger.refresh) ScrollTrigger.refresh();
+        });
+
+        sync();
+    })();
+    </script>
+
+<!-- Lead toast: тільки десктоп (>1024px), виїжджає через 30с, один раз (localStorage 'toastClosed'). -->
+<script>
+(function(){
+  var toast = document.getElementById('lead-toast');
+  if(!toast) return;                                // є лише на головній
+  if(window.innerWidth <= 1024) return;             // тільки десктоп
+  try { if(localStorage.getItem('toastClosed') === '1') return; } catch(e){}
+
+  function open(){
+    if(window.innerWidth <= 1024) return;           // раптом ресайз до таймера
+    toast.hidden = false;
+    // наступний кадр - щоб спрацював transition (виїзд знизу справа)
+    requestAnimationFrame(function(){ toast.classList.add('lead-toast--open'); });
+  }
+
+  function close(){
+    toast.classList.remove('lead-toast--open');     // плавне зникнення
+    try { localStorage.setItem('toastClosed', '1'); } catch(e){}
+    setTimeout(function(){ toast.hidden = true; }, 400); // ховаємо після анімації
+  }
+
+  setTimeout(open, 30000);
+
+  toast.addEventListener('click', function(e){
+    if(e.target.closest('[data-toast-close]')) close();
+  });
+})();
+</script>
+</body>
+</html>
