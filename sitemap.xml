@@ -751,4 +751,84 @@
     <lastmod>2026-07-16</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-vs-excel</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-excel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-excel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-excel"/>
+    <lastmod>2026-01-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-vs-excel</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-excel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-excel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-excel"/>
+    <lastmod>2026-01-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-vs-google-sheets</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-google-sheets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-google-sheets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-google-sheets"/>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-vs-google-sheets</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-google-sheets"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-google-sheets"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-google-sheets"/>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-vs-trello</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-trello"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-trello"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-trello"/>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-vs-trello</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-vs-trello"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-vs-trello"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-vs-trello"/>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-vs-mobile-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-vs-mobile-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-vs-mobile-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-vs-mobile-app"/>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-vs-mobile-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-vs-mobile-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-vs-mobile-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-vs-mobile-app"/>
+    <lastmod>2026-05-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/saas-vs-custom-crm</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/saas-vs-custom-crm"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/saas-vs-custom-crm"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/saas-vs-custom-crm"/>
+    <lastmod>2026-07-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/saas-vs-custom-crm</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/saas-vs-custom-crm"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/saas-vs-custom-crm"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/saas-vs-custom-crm"/>
+    <lastmod>2026-07-11</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
