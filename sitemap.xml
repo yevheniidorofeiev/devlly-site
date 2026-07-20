@@ -1215,4 +1215,68 @@
     <lastmod>2026-07-06</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://devlly.dev/blog/obrobka-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/obrobka-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/obrobka-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/obrobka-zayavok"/>
+    <lastmod>2026-01-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/obrobka-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/obrobka-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/obrobka-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/obrobka-zayavok"/>
+    <lastmod>2026-01-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/pryom-zayavok-vid-klientiv</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/pryom-zayavok-vid-klientiv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/pryom-zayavok-vid-klientiv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/pryom-zayavok-vid-klientiv"/>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/pryom-zayavok-vid-klientiv</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/pryom-zayavok-vid-klientiv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/pryom-zayavok-vid-klientiv"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/pryom-zayavok-vid-klientiv"/>
+    <lastmod>2026-03-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/avtomatyzatsiya-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/avtomatyzatsiya-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/avtomatyzatsiya-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/avtomatyzatsiya-zayavok"/>
+    <lastmod>2026-05-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/avtomatyzatsiya-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/avtomatyzatsiya-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/avtomatyzatsiya-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/avtomatyzatsiya-zayavok"/>
+    <lastmod>2026-05-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-dlya-obrobky-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-dlya-obrobky-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-dlya-obrobky-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-dlya-obrobky-zayavok"/>
+    <lastmod>2026-07-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-dlya-obrobky-zayavok</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-dlya-obrobky-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-dlya-obrobky-zayavok"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-dlya-obrobky-zayavok"/>
+    <lastmod>2026-07-13</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
