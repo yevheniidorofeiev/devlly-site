@@ -1,0 +1,122 @@
+{
+  "title_uk": "Команда за кордоном: автоматизація роботи і контролю",
+  "title_en": "Remote Team Abroad: Automating Work and Control",
+  "desc_uk": "Як організувати роботу розподіленої команди за кордоном: постановка задач, контроль виконання і звіти через Telegram, без нескінченних дзвінків.",
+  "desc_en": "How to organize a distributed team working abroad: task assignment, progress tracking and reports through Telegram, without endless calls.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація роботи команди за кордоном | Devlly",
+    "te": "Automating a Remote Team Abroad | Devlly",
+    "d": "Як організувати роботу розподіленої команди за кордоном: постановка задач, контроль виконання і звіти через Telegram, без нескінченних дзвінків.",
+    "de": "How to organize a distributed team working abroad: task assignment, progress tracking and reports through Telegram, without endless calls.",
+    "k": "команда за кордоном, розподілена команда, распределенная команда за границей, удаленная команда, remote team abroad automation, автоматизація команди, контроль виконання задач, telegram бот для команди, remote team management"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли частина людей працює з Варшави, частина з Лісабона, а хтось із Тбілісі чи Батумі, звичні офісні звички перестають працювати. Ранкові планерки перетворюються на боротьбу з часовими поясами, задачі губляться в особистих чатах, а керівник дізнається про зрив дедлайну вже постфактум. Проблему не вирішити ще одним дзвінком «для звірки», потрібна система, яка сама показує, хто чим займається і коли це буде готово.",
+      "en": "When part of the team works from Warsaw, part from Lisbon, and someone from Tbilisi or Batumi, familiar office habits stop working. Morning standups turn into a fight against time zones, tasks get lost in personal chats, and a manager finds out about a missed deadline only after the fact. The fix is not one more «sync up» call, it is a system that shows on its own who is doing what and when it will be ready."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому розподілена команда за кордоном живе за іншими правилами",
+      "en": "Why a remote team abroad plays by different rules"
+    },
+    {
+      "t": "p",
+      "uk": "Коли всі сидять в одному офісі, менеджер бачить процес фізично: хто працює, хто застряг, хто взагалі не почав. Розподілена команда за кордоном цю картинку забирає повністю. Люди в різних часових поясах, з різним темпом дня і різною культурою спілкування, тому усна домовленість «зробимо як завжди» перестає працювати вже на другому тижні. Якщо різниця між учасниками команди сягає шести чи семи годин, звичайний робочий день просто не перетинається, і поки одна людина ще спить, інша вже чекає на відповідь.",
+      "en": "When everyone sits in one office, a manager sees the process physically: who is working, who is stuck, who has not even started. A remote team abroad removes that picture completely. People are in different time zones, with a different daily rhythm and a different communication culture, so a verbal agreement to «do it as usual» stops working within the first two weeks. When the gap between team members reaches six or seven hours, a normal working day simply does not overlap, and while one person is still asleep, another is already waiting for a reply."
+    },
+    {
+      "t": "p",
+      "uk": "Без чіткої системи задачі живуть у трьох місцях одночасно: особистому чаті, груповому чаті і памʼяті людини, яка ставила задачу. Коли хтось іде у відпустку чи просто не виходить на звʼязок на день, невидима частина роботи взагалі зникає з поля зору, а знаходять це вже під час зриву дедлайну. У команді з восьми чи десяти людей, розкиданих по різних країнах, таких «зниклих» задач за місяць набирається достатньо, щоб зірвати ціле замовлення.",
+      "en": "Without a clear system, tasks live in three places at once: a private chat, a group chat and the memory of the person who assigned them. When someone goes on vacation or simply does not respond for a day, an invisible chunk of work disappears from view entirely, and it only surfaces once the deadline is already missed. In a team of eight or ten people spread across different countries, enough of these «lost» tasks pile up in a month to wreck an entire order."
+    },
+    {
+      "t": "p",
+      "uk": "Перехід до автоматизації тут не розкіш, а необхідність. Замість того щоб керівник вручну тримав у голові статус двадцяти задач по десяти людях у пʼяти країнах, цю роботу бере на себе бот і CRM. Людина займається рішеннями, а не збором інформації про те, хто що робить.",
+      "en": "Moving to automation here is not a luxury, it is a necessity. Instead of a manager manually keeping track of twenty tasks across ten people in five countries, that job goes to a bot and a CRM. The person makes decisions, not spends hours collecting status updates."
+    },
+    {
+      "t": "h2",
+      "uk": "Постановка і роздача задач без плутанини в чатах",
+      "en": "Assigning and distributing tasks without chat chaos"
+    },
+    {
+      "t": "p",
+      "uk": "Перший крок, це прибрати задачі з особистих переписок. Кожна задача має один запис: назва, відповідальний, дедлайн і критерій готовності. Коли постановка задачі відбувається через бота чи CRM, а не в чаті, вона більше не губиться і не переказується «своїми словами» через третіх осіб. Один запис бачать всі учасники процесу, тому суперечок на кшталт «а мені казали інше» стає в рази менше.",
+      "en": "The first step is to remove tasks from private conversations. Each task gets one record: title, owner, deadline and a clear definition of done. When a task is set through a bot or CRM instead of a chat, it no longer gets lost or retold in someone else's words through a third person. Every participant in the process sees the same record, so disputes like «I was told something different» happen far less often."
+    },
+    {
+      "t": "p",
+      "uk": "Готові шаблони задач пришвидшують цей процес. Замість того щоб щоразу описувати вручну, що саме потрібно зробити, керівник обирає шаблон, наприклад «підготувати звіт», «перевірити оплату», «звʼязатись з підрядником», а бот сам підставляє відповідального і формат здачі роботи. Це особливо зручно, коли задачі повторюються щотижня чи щодня.",
+      "en": "Ready made task templates speed this up further. Instead of describing from scratch what needs doing each time, a manager picks a template, such as «prepare a report», «check a payment», «contact a contractor», and the bot fills in the assignee and the delivery format on its own. This is especially handy for tasks that repeat weekly or daily."
+    },
+    {
+      "t": "p",
+      "uk": "Коли людина в іншому часовому поясі, важливо, щоб задача не чекала, поки менеджер прокинеться. Бот роздає задачі за розкладом, надсилає їх одразу після завершення попереднього етапу і фіксує підтвердження отримання, тому фраза «я не бачив, вибачте» перестає бути виправданням.",
+      "en": "When someone is in a different time zone, a task should not wait for the manager to wake up. The bot distributes tasks on schedule, sends them right after the previous stage is finished, and logs a confirmation of receipt, so «sorry, I did not see it» stops being an excuse."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль виконання і дедлайнів у реальному часі",
+      "en": "Tracking execution and deadlines in real time"
+    },
+    {
+      "t": "p",
+      "uk": "Контроль не означає мікроменеджмент і не означає постійні запитання «ну як, готово?». Це означає, що статус задачі видно без запитань: у роботі, на перевірці, готово, прострочено. CRM показує це одним поглядом по всій команді, а не по кожній людині окремо.",
+      "en": "Control does not mean micromanagement and does not mean constantly asking «so, is it done yet?». It means the status of a task is visible without asking: in progress, in review, done, overdue. A CRM shows this at a glance across the whole team, not person by person."
+    },
+    {
+      "t": "p",
+      "uk": "Автоматичні нагадування прибирають потребу «пінгувати» людей вручну. Якщо дедлайн наближається, а статус не змінився, бот сам надсилає нагадування виконавцю, а якщо термін минув, повідомляє відповідального керівника. Ескалація відбувається без емоцій і без незручного відчуття, що доводиться комусь «нагадувати».",
+      "en": "Automatic reminders remove the need to ping people manually. If a deadline is approaching and the status has not changed, the bot sends a reminder to the assignee, and if the deadline has passed, it notifies the responsible manager. Escalation happens without emotions and without the awkwardness of having to nag someone."
+    },
+    {
+      "t": "p",
+      "uk": "Особливо це важливо, коли керівник фізично не може бути на звʼязку двадцять чотири години. Замість того щоб перевіряти статуси вручну щоранку і щовечора, він отримує єдину зведену картину по всіх активних задачах: скільки в роботі, скільки прострочено, у кого найбільше навантаження цього тижня.",
+      "en": "This matters most when a manager cannot physically be reachable twenty four hours a day. Instead of checking statuses manually every morning and evening, they get one combined picture of all active tasks: how many are in progress, how many are overdue, who has the heaviest load this week."
+    },
+    {
+      "t": "h2",
+      "uk": "Звіти й чек-іни через Telegram-бота замість дзвінків",
+      "en": "Reports and check ins via a Telegram bot instead of calls"
+    },
+    {
+      "t": "p",
+      "uk": "Статус-мітинг, на який треба зібрати людей із трьох часових поясів, майже завжди означає, що комусь доведеться відповідати о сьомій ранку чи о десятій вечора. Щоденний чек-ін через Telegram-бота вирішує це без жодного дзвінка: бот у визначений час запитує коротко, що зроблено, що в роботі і чи є перешкоди. Для кожного члена команди цей час можна налаштувати окремо, під його реальний робочий день, а не під зручність керівника.",
+      "en": "A status meeting that requires people from three time zones to gather almost always means someone has to answer at seven in the morning or ten at night. A daily check in through a Telegram bot solves this without a single call: at a set time the bot briefly asks what was done, what is in progress and whether there are blockers. This time can be set individually for each team member, matching their real working day rather than the manager's convenience."
+    },
+    {
+      "t": "p",
+      "uk": "Відповіді збираються автоматично в один звіт, і керівник читає підсумок за пʼять хвилин замість години на мітингу. Кожен відповідає у зручний саме для нього час, тому чек-ін не ламає робочий графік людини, яка живе на кілька годин попереду чи позаду решти команди.",
+      "en": "Answers are collected automatically into one report, and a manager reads the summary in five minutes instead of spending an hour in a meeting. Everyone replies at a time convenient for them, so a check in does not disrupt the schedule of someone living several hours ahead or behind the rest of the team."
+    },
+    {
+      "t": "p",
+      "uk": "Тижневі та місячні звіти формуються так само автоматично, на основі накопичених даних із задач і чек-інів. Це дає керівнику картину без ручного зведення таблиць і без потреби писати кожному особисто із запитанням «а що там по проєкту».",
+      "en": "Weekly and monthly reports are generated the same way automatically, based on accumulated data from tasks and check ins. This gives a manager the full picture without manually compiling spreadsheets and without writing to each person asking «so where do things stand on the project»."
+    },
+    {
+      "t": "h2",
+      "uk": "Онбординг і прозорість, коли команда розкидана по країнах",
+      "en": "Onboarding and transparency when the team is scattered across countries"
+    },
+    {
+      "t": "p",
+      "uk": "Новий співробітник за кордоном не може просто підійти до колеги і запитати, як тут все влаштовано. Онбординг через бота розвʼязує це: покроковий сценарій видає доступи, посилання на документи і перший список задач без участі менеджера в кожному кроці. У перший тиждень людина сама проходить усі етапи в своєму темпі, а керівник підключається лише там, де потрібне живе рішення.",
+      "en": "A new employee abroad cannot simply walk up to a colleague and ask how things work here. Onboarding through a bot solves this: a step by step scenario delivers access, links to documents and a first list of tasks without a manager having to be involved at every single step. In the first week the person goes through every stage at their own pace, and the manager only steps in where a live decision is actually needed."
+    },
+    {
+      "t": "p",
+      "uk": "Прозорість тримається на тому, що кожен бачить не лише свої задачі, а й загальну картину команди: хто перевантажений, у кого є вільний час, де затримка. Це прибирає відчуття, що хтось «ховається» за різницею часових поясів, і одночасно знімає з керівника роль єдиного джерела інформації.",
+      "en": "Transparency rests on everyone seeing not just their own tasks but the overall picture of the team: who is overloaded, who has free capacity, where a delay is forming. This removes any sense that someone is «hiding» behind the time difference, and it also takes the manager out of being the only source of information."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly ми будуємо саме такі системи для команд, розкиданих по кількох країнах: Telegram-боти для постановки задач і чек-інів, CRM під ключ для контролю виконання і звітів, і інтеграції, які збирають усе в одному місці замість десятка чатів і таблиць. Налаштування під конкретну команду зазвичай займає від кількох днів до пари тижнів, залежно від кількості процесів, які потрібно перенести з ручного режиму в автоматичний.",
+      "en": "At Devlly we build exactly this kind of system for teams scattered across several countries: Telegram bots for task assignment and check ins, a turnkey CRM for tracking execution and reports, and integrations that bring everything into one place instead of a dozen chats and spreadsheets. Setup for a specific team usually takes anywhere from a few days to a couple of weeks, depending on how many processes need to move from manual to automated."
+    }
+  ]
+}

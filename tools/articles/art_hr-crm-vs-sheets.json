@@ -1,0 +1,82 @@
+{
+  "title_uk": "CRM для HR: коли таблиці вже не справляються",
+  "title_en": "CRM for HR: when spreadsheets can no longer cope",
+  "desc_uk": "Ознаки що ваш HR відділ переріс Google Таблиці і потребує CRM. Порівнюємо підходи і розповідаємо що обрати для малого та середнього бізнесу.",
+  "desc_en": "Signs that your HR team has outgrown Google Sheets and needs a CRM. We compare the approaches and explain what to choose for small and medium business.",
+  "cta_uk": "Потрібна HR автоматизація? Пишіть нам",
+  "cta_en": "Need HR automation? Get in touch",
+  "seo": {
+    "t": "CRM для HR відділу: коли переходити з таблиць | Devlly",
+    "te": "CRM for the HR team: when to move off spreadsheets | Devlly",
+    "d": "Ознаки що ваш HR відділ переріс Google Таблиці і потребує CRM. Порівнюємо підходи і розповідаємо що обрати для малого та середнього бізнесу.",
+    "de": "Signs that your HR team has outgrown Google Sheets and needs a CRM. We compare the approaches and explain what to choose for small and medium business.",
+    "k": "crm для hr, crm для hr відділу, автоматизація hr, google таблиці для найму, облік кандидатів, hr система, ats система, перехід з таблиць на crm, воронка найму, hr автоматизація для бізнесу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Майже кожен HR-відділ починає з Google Таблиць, і це нормально. Таблиця безкоштовна, зрозуміла і за десять хвилин перетворюється на список кандидатів зі статусами. Проблеми зʼявляються не одразу, а коли потік вакансій росте: два рекрутери правлять один файл, хтось випадково видаляє рядок, нагадування про дзвінки живуть у голові, а історія спілкування з кандидатом розкидана по чатах. У якийсь момент таблиця з інструмента перетворюється на джерело помилок. У цьому матеріалі чесно розберемо, за якими ознаками HR-відділ переростає Google Таблиці, чим CRM реально відрізняється, і коли таблиці ще цілком годяться - бо переходити «бо модно» не варто.",
+      "en": "Almost every HR team starts with Google Sheets, and that is fine. A spreadsheet is free, clear, and in ten minutes turns into a candidate list with statuses. Problems do not appear right away but when the flow of vacancies grows: two recruiters edit the same file, someone accidentally deletes a row, call reminders live in people's heads, and the history of communication with a candidate is scattered across chats. At some point the spreadsheet turns from a tool into a source of errors. In this article we honestly break down the signs that an HR team is outgrowing Google Sheets, how a CRM actually differs, and when spreadsheets are still perfectly fine - because switching just because it is trendy is not worth it."
+    },
+    {
+      "t": "h2",
+      "uk": "Ознаки що HR відділ переріс Google Таблиці",
+      "en": "Signs that the HR team has outgrown Google Sheets"
+    },
+    {
+      "t": "p",
+      "uk": "Перша ознака - над таблицею працює більше однієї людини. Щойу файлі зʼявляється два-три рекрутери, починаються перезаписи: один правив рядок, інший його затер, і ніхто не памʼятає, яка версія правильна. Друга ознака - ви губите кандидатів. Хтось написав тиждень тому, обіцяли передзвонити, але нагадування не було, і людина пішла до конкурента. Третя - вам дедалі частіше потрібна історія: коли спілкувались, що обіцяли, чому відмовили. У таблиці це один перевантажений коментар, який ніхто не веде акуратно. Якщо ви впізнаєте два з трьох пунктів, відділ уже впирається у стелю таблиць.",
+      "en": "The first sign is that more than one person works on the spreadsheet. As soon as two or three recruiters appear in the file, overwrites begin: one edited a row, another wiped it, and no one remembers which version is correct. The second sign is that you lose candidates. Someone messaged a week ago, you promised to call back, but there was no reminder, and the person went to a competitor. The third is that you increasingly need history: when you talked, what you promised, why you rejected them. In a spreadsheet this is a single overloaded comment that nobody maintains carefully. If you recognize two of these three points, the team is already hitting the ceiling of spreadsheets."
+    },
+    {
+      "t": "p",
+      "uk": "Є ще кілька червоних прапорців. Ви не можете швидко відповісти на просте запитання керівника: скільки кандидатів у роботі, на якому етапі вони застрягли, який рекрутер скільки закрив за місяць. Кожен такий звіт - це ручне копання у фільтрах і півдня часу. Або ще: доступ до таблиці має надто багато людей, зокрема ті, кому не варто бачити зарплатні очікування чи контакти. У Google Sheets тонко розмежувати права важко - або людина бачить весь файл, або нічого. Коли ці дрібниці починають зʼїдати години щотижня і множити помилки, це вже не зручність, а прихований податок на кожну вакансію.",
+      "en": "There are a few more red flags. You cannot quickly answer a manager's simple question: how many candidates are in progress, at which stage they are stuck, which recruiter closed how many this month. Every such report is manual digging through filters and half a day of time. Or another one: too many people have access to the spreadsheet, including those who should not see salary expectations or contacts. In Google Sheets it is hard to fine-tune permissions - either a person sees the whole file or nothing. When these little things start eating hours every week and multiplying errors, it is no longer convenience but a hidden tax on every vacancy."
+    },
+    {
+      "t": "h2",
+      "uk": "Чим CRM для HR відрізняється від таблиці на практиці",
+      "en": "How a CRM for HR differs from a spreadsheet in practice"
+    },
+    {
+      "t": "p",
+      "uk": "Головна різниця - у моделі даних. У таблиці кандидат це рядок, у CRM це картка з власною історією. Всередині картки видно всі дзвінки, коментарі, зміни етапів, прикріплене резюме і заплановані дії. Ви відкриваєте людину і за пʼять секунд розумієте контекст, а не гортаєте чати. Друге - воронка етапів. CRM показує кандидатів як рух по стадіях: новий, телефонне інтервʼю, співбесіда, тестове, офер. Видно, де застрягає потік і на якому кроці ви втрачаєте найбільше людей. У таблиці це теж можна імітувати колонкою статусу, але без наочності і без автоматичних переходів це радше ручна дисципліна, ніж система.",
+      "en": "The main difference is in the data model. In a spreadsheet a candidate is a row, in a CRM it is a card with its own history. Inside the card you see all calls, comments, stage changes, an attached resume, and planned actions. You open a person and grasp the context in five seconds instead of scrolling through chats. The second thing is the stage funnel. A CRM shows candidates as movement through stages: new, phone interview, interview, test task, offer. You can see where the flow gets stuck and at which step you lose the most people. In a spreadsheet you can imitate this with a status column too, but without visibility and automatic transitions it is more of a manual discipline than a system."
+    },
+    {
+      "t": "p",
+      "uk": "Третя відмінність - нагадування і автоматизація. CRM сама ставить задачу «передзвонити завтра о 14:00» і не дасть про неї забути, а частину дій виконує без людини: надсилає кандидату повідомлення при зміні етапу, призначає відповідального, підтягує анкету з бота. Четверте - права доступу. Рекрутер бачить своїх кандидатів, керівник - усіх і звіти, бухгалтерія не бачить нічого зайвого. Пʼяте - звітність у кілька кліків: скільки закрито вакансій, середній час найму, ефективність джерел трафіку. Те, що в таблиці збирається пів дня вручну, тут уже готове. Саме ці речі - історія, воронка, нагадування, права і звіти - відрізняють систему від файлу.",
+      "en": "The third difference is reminders and automation. A CRM sets a task like call back tomorrow at 2 pm by itself and will not let you forget it, and some actions it performs without a person: it sends the candidate a message on a stage change, assigns a responsible person, pulls the form from a bot. The fourth is access rights. A recruiter sees their candidates, a manager sees everyone and the reports, accounting sees nothing extra. The fifth is reporting in a few clicks: how many vacancies were closed, the average time to hire, the effectiveness of traffic sources. What takes half a day to compile manually in a spreadsheet is already prepared here. Exactly these things - history, funnel, reminders, permissions, and reports - separate a system from a file."
+    },
+    {
+      "t": "h2",
+      "uk": "Як перейти з таблиць на CRM для HR без болю",
+      "en": "How to move from spreadsheets to a CRM for HR painlessly"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільший страх перед переходом - «доведеться все ламати і вчити команду з нуля». Насправді робочий шлях еволюційний, а не революційний. Перший крок - вивантажити наявну таблицю: майже будь-яка CRM імпортує кандидатів із Google Sheets за кілька хвилин, зіставляючи колонки з полями картки. Другий крок - перенести не всю історію за пʼять років, а лише активних кандидатів у роботі, умовно останні 2-3 місяці. Старий архів лишіть у таблиці для довідки. Третій крок - описати свою воронку етапів так, як вона реально влаштована у вас, а не за чужим шаблоном. За тиждень команда працює в новому інструменті, а таблиця стає резервом.",
+      "en": "The biggest fear before switching is that you will have to break everything and retrain the team from scratch. In reality the working path is evolutionary, not revolutionary. The first step is to export the existing spreadsheet: almost any CRM imports candidates from Google Sheets in a few minutes, mapping columns to card fields. The second step is to move not the whole five-year history but only the active candidates in progress, roughly the last 2-3 months. Leave the old archive in the spreadsheet for reference. The third step is to describe your stage funnel the way it is actually arranged at your company, not by someone else's template. Within a week the team works in the new tool, and the spreadsheet becomes a backup."
+    },
+    {
+      "t": "p",
+      "uk": "Щоб перехід не забуксував, важливо не переносити в CRM хаос із таблиці. Якщо у вас було 15 колонок, половина з яких порожня, це привід почистити поля, а не тягнути їх далі. Домовтеся з командою про єдині назви етапів і обовʼязкові поля - імʼя, телефон, джерело, статус - і закладіть їх у систему одразу. Перші два тижні тримайте паралельно стару таблицю як підстраховку, але задайте дедлайн повного відключення, інакше люди звикнуть жити на два фронти. Практика показує: якщо процес описаний і в CRM веде хоча б один зацікавлений рекрутер, решта команди підтягується за 10-14 днів без спротиву.",
+      "en": "So the transition does not stall, it is important not to carry the spreadsheet's chaos into the CRM. If you had 15 columns, half of them empty, that is a reason to clean up the fields rather than drag them along. Agree with the team on unified stage names and mandatory fields - name, phone, source, status - and build them into the system right away. For the first two weeks keep the old spreadsheet in parallel as a safety net, but set a deadline for fully switching it off, otherwise people get used to living on two fronts. Practice shows: if the process is described and at least one motivated recruiter runs the CRM, the rest of the team catches up within 10-14 days without resistance."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли Google Таблиці для найму ще цілком достатньо",
+      "en": "When Google Sheets for hiring is still perfectly enough"
+    },
+    {
+      "t": "p",
+      "uk": "Будьмо чесні: не кожному бізнесу потрібна CRM, і продавати її всім поспіль - неправильно. Якщо ви наймаєте кілька людей на квартал, вакансії відкриваються рідко, а веде їх один рекрутер, таблиця робить свою роботу ідеально. Немає конфлікту версій, бо файл править одна людина. Немає проблеми звітів, бо і звітувати особливо нема про що. У такому режимі CRM стане зайвою складністю: її треба налаштувати, навчити команду, платити за неї. Google Таблиці виграють простотою і нульовою ціною, і поки потік малий, це рішення, а не компроміс. Перехід «на виріст» тут частіше шкодить, ніж допомагає.",
+      "en": "Let us be honest: not every business needs a CRM, and selling it to everyone across the board is wrong. If you hire a few people per quarter, vacancies open rarely, and one recruiter handles them, a spreadsheet does its job perfectly. There is no version conflict, because one person edits the file. There is no reporting problem, because there is not much to report on. In this mode a CRM becomes unnecessary complexity: it needs to be set up, the team trained, and paid for. Google Sheets win with simplicity and a zero price tag, and while the flow is small, this is a solution, not a compromise. Switching for future growth here more often harms than helps."
+    },
+    {
+      "t": "p",
+      "uk": "Проміжний варіант теж існує. Іноді достатньо не міняти інструмент, а трохи автоматизувати таблицю: підключити Telegram-бота, який сам додає анкети кандидатів рядками, і налаштувати прості нагадування. Це знімає найбільший біль - ручне перенесення даних - і продовжує життя Sheets ще на рік-два. Орієнтир простий: малому бізнесу з рідкісним наймом вистачає таблиці, можливо з ботом-збирачем анкет; середньому бізнесу з кількома рекрутерами і постійним потоком вакансій уже потрібна CRM, бо ціна помилок і втрачених кандидатів перевищує вартість системи. У Devlly ми допомагаємо тверезо оцінити цей момент і будуємо як ботів для таблиць, так і повноцінні HR-CRM під конкретний процес.",
+      "en": "An intermediate option exists too. Sometimes it is enough not to change the tool but to automate the spreadsheet a little: connect a Telegram bot that adds candidate forms as rows by itself, and set up simple reminders. This removes the biggest pain - manual data transfer - and extends the life of Sheets by another year or two. The guideline is simple: a small business with rare hiring gets by with a spreadsheet, possibly with a form-collecting bot; a medium business with several recruiters and a constant flow of vacancies already needs a CRM, because the cost of errors and lost candidates exceeds the price of the system. At Devlly we help you soberly assess this moment and build both bots for spreadsheets and full HR CRMs around a specific process."
+    }
+  ]
+}

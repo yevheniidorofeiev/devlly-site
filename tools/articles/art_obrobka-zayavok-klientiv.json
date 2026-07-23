@@ -1,0 +1,80 @@
+{
+  "title_uk": "Обробка заявок клієнтів: автоматизація замість менеджера",
+  "title_en": "Client Request Processing: Automation Instead of a Manager",
+  "desc_uk": "Покроковий розбір як налаштувати автоматичну обробку заявок клієнтів через бота. Без пропущених звернень і ручного введення даних.",
+  "desc_en": "A step-by-step breakdown of how to set up automatic client request processing through a bot. Without missed inquiries and manual data entry.",
+  "seo": {
+    "t": "Автоматична обробка заявок клієнтів | Devlly",
+    "te": "Automatic Client Request Processing | Devlly",
+    "d": "Покроковий розбір як налаштувати автоматичну обробку заявок клієнтів через бота. Без пропущених звернень і ручного введення даних.",
+    "de": "A step-by-step breakdown of how to set up automatic client request processing through a bot. Without missed inquiries and manual data entry.",
+    "k": "обробка заявок клієнтів, автоматична обробка заявок, telegram бот для заявок, кваліфікація лідів, розподіл заявок, заявки в crm, автоматизація звернень, бот для бізнесу, налаштування бота, воронка заявок"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Автоматична обробка заявок клієнтів - це не одна кнопка, а послідовність кроків, де кожен закриває конкретну дірку у воронці. Одна заявка проходить шлях від першого повідомлення до запису в CRM і нагадування менеджеру - і на кожному етапі щось може загубитися. У цьому матеріалі ми не будемо переконувати, що автоматизація корисна: це й так очевидно. Замість цього розберемо покроково, як саме її налаштувати, щоб жодне звернення не зникло, а менеджер не витрачав час на ручне переписування контактів. Пройдемося по всіх п'яти етапах - збір, автовідповідь, кваліфікація, розподіл і контроль - так, щоб ви могли скласти технічне завдання самі або хоча б розуміти, що вам будують.",
+      "en": "Automatic client request processing is not a single button but a sequence of steps, where each one closes a specific gap in the funnel. A single request travels from the first message to a CRM record and a manager reminder - and at every stage something can get lost. In this material we won't try to convince you that automation is useful: that's obvious already. Instead we'll break down step by step exactly how to set it up so that no inquiry disappears and the manager doesn't waste time manually retyping contacts. We'll walk through all five stages - collection, auto-reply, qualification, distribution, and control - so that you can draft the technical requirements yourself or at least understand what is being built for you."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 1: збір заявки з усіх каналів в одну точку",
+      "en": "Step 1: Collecting Requests from All Channels into One Point"
+    },
+    {
+      "t": "p",
+      "uk": "Почніть з простого питання: звідки взагалі приходять ваші клієнти? Зазвичай це 4-5 каналів одночасно - Instagram Direct, Telegram, форма на сайті, іноді пошта й дзвінки. Помилка більшості - обробляти кожен канал окремо, стрибаючи між вкладками. Перший крок автоматизації - звести всі точки входу в один бот або одну систему. На практиці це означає, що кнопка «Написати нам» у рекламі, віджет на сайті й посилання в шапці Instagram ведуть в один Telegram-бот. Так ви одразу прибираєте головну причину втрат: більше немає ситуації, коли заявка в одному месенджері бачиться, а в іншому - ні. Усе стікається в одне русло.",
+      "en": "Start with a simple question: where do your clients actually come from? Usually it's 4-5 channels at once - Instagram Direct, Telegram, a website form, sometimes email and calls. The mistake most make is handling each channel separately, jumping between tabs. The first step of automation is to funnel all entry points into one bot or one system. In practice this means the 'Message us' button in an ad, the widget on the site, and the link in the Instagram bio all lead to a single Telegram bot. This immediately removes the main cause of losses: there's no longer a situation where a request is visible in one messenger but not in another. Everything flows into one channel."
+    },
+    {
+      "t": "p",
+      "uk": "На цьому ж кроці варто продумати, яку мінімальну інформацію треба зібрати одразу. Не намагайтеся витягнути з людини все й відразу - це відлякує. Достатньо трьох речей: що цікавить, як звʼязатися і, за потреби, коли зручно. Бот ставить питання по черзі, короткими кроками, і людині легше відповісти на три простих запитання, ніж заповнювати довгу форму з десятьма полями. Важливо зробити так, щоб кожна відповідь одразу зберігалася: навіть якщо клієнт кине діалог на половині, у вас уже залишиться його контакт і початковий запит. Це база, на якій тримається вся подальша обробка заявок клієнтів - без якісного збору наступні кроки просто не спрацюють.",
+      "en": "At this same step it's worth thinking through the minimum information you need to collect right away. Don't try to extract everything from a person at once - that scares people off. Three things are enough: what they need, how to reach them, and, if necessary, when it's convenient. The bot asks questions in turn, in short steps, and it's easier for a person to answer three simple questions than to fill out a long form with ten fields. It's important to make sure every answer is saved immediately: even if the client abandons the dialog halfway, you'll still have their contact and initial query. This is the foundation the whole client request processing rests on - without quality collection the next steps simply won't work."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 2: автоматична відповідь і кваліфікація клієнта",
+      "en": "Step 2: Automatic Reply and Client Qualification"
+    },
+    {
+      "t": "p",
+      "uk": "Щойно заявка зайшла, клієнт має отримати реакцію протягом кількох секунд - це другий крок. Автовідповідь виконує дві задачі: підтверджує, що звернення прийнято («Дякуємо, ми вже дивимо ваш запит»), і одразу починає діалог, а не змушує чекати живого менеджера. Психологічно це знімає тривогу: людина бачить, що потрапила за адресою. Тут же бот може дати корисне ще до підключення менеджера - надіслати прайс, каталог, відповіді на 3-4 найчастіші питання. Часто цього достатньо, щоб клієнт сам дійшов до рішення, а менеджер узагалі не витрачав час на типові «скільки коштує» й «а ви працюєте в суботу».",
+      "en": "As soon as a request comes in, the client should get a reaction within a few seconds - that's the second step. The auto-reply does two jobs: it confirms the inquiry was received ('Thanks, we're already looking at your query') and immediately starts a dialog rather than making them wait for a live manager. Psychologically this removes anxiety: the person sees they've reached the right place. Right here the bot can be useful even before a manager joins - send a price list, a catalog, answers to the 3-4 most frequent questions. Often that's enough for the client to reach a decision on their own, and the manager doesn't waste time at all on typical 'how much is it' and 'are you open on Saturday'."
+    },
+    {
+      "t": "p",
+      "uk": "Паралельно бот тихо робить головне - кваліфікує клієнта. За відповідями він розуміє, наскільки заявка «гаряча»: чи готовий чоловік купувати зараз, чи просто прицінюється, який у нього бюджет, обсяг, регіон. На основі цього кожній заявці можна автоматично присвоїти статус або тег - наприклад, «гарячий», «теплий», «холодний». Це критично для наступного кроку: менеджер не витрачає однакову увагу на всіх, а бачить, кому дзвонити першим. Налаштуйте прості правила: якщо клієнт вибрав «хочу замовити сьогодні» - це пріоритет і миттєве сповіщення; якщо «просто цікавлюся» - заявка йде в окрему гілку для розсилки й прогріву. Так ви обробляєте не потік, а структуру.",
+      "en": "In parallel the bot quietly does the main thing - it qualifies the client. From the answers it understands how 'hot' the request is: whether the person is ready to buy now or just pricing things, what their budget, volume, and region are. Based on this each request can be automatically assigned a status or tag - for example, 'hot', 'warm', 'cold'. This is critical for the next step: the manager doesn't spend equal attention on everyone but sees who to call first. Set up simple rules: if the client chose 'I want to order today' - that's a priority and an instant notification; if 'just curious' - the request goes into a separate branch for a newsletter and nurturing. This way you process not a stream but a structure."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 3: розподіл між відповідальними і запис у CRM",
+      "en": "Step 3: Distribution Among Responsible People and Recording in the CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Кваліфікована заявка має потрапити до потрібної людини, а не в загальний чат, де її ніхто не візьме персонально. Третій крок - налаштувати розподіл. Логіка може бути будь-якою під ваш бізнес: за напрямком (опт - до одного менеджера, роздріб - до іншого), за регіоном, за завантаженістю (по черзі, щоб рівномірно), за часом доби (вночі - черговому). Бот бачить теги з попереднього кроку й сам вирішує, кому надіслати сповіщення з готовою карткою клієнта. Менеджер отримує не сирий діалог, а структуровану заявку: імʼя, контакт, суть запиту, статус. Йому лишається тільки взяти її в роботу й натиснути «прийняв», щоб інші бачили, що клієнт уже не безхазяйний.",
+      "en": "A qualified request should reach the right person, not a general chat where no one takes it personally. The third step is to set up distribution. The logic can be anything to fit your business: by area (wholesale to one manager, retail to another), by region, by workload (in rotation, for evenness), by time of day (at night to the person on duty). The bot sees the tags from the previous step and decides on its own who to send a notification with a ready client card to. The manager receives not a raw dialog but a structured request: name, contact, the essence of the query, status. All that's left is to take it into work and press 'accepted' so others see the client is no longer unclaimed."
+    },
+    {
+      "t": "p",
+      "uk": "Одночасно з розподілом заявка автоматично записується в CRM або таблицю - і це ключовий момент усієї автоматизації. Жодного ручного вводу: система сама створює картку чи рядок з усіма полями, які ви зібрали на кроці 1. Джерело, дата, канал, коментар, статус - усе проставляється без участі людини. Це прибирає одразу дві проблеми: менеджер не витрачає 5 хвилин на переписування даних і не робить помилок у номерах телефонів. До того ж уся історія звернень зберігається в одному місці, і коли клієнт повернеться через місяць, ви одразу побачите, про що говорили раніше. По суті, CRM стає єдиною памʼяттю бізнесу, яка наповнюється сама.",
+      "en": "Simultaneously with distribution, the request is automatically recorded in the CRM or spreadsheet - and this is the key moment of the whole automation. No manual entry: the system itself creates a card or row with all the fields you collected in step 1. Source, date, channel, comment, status - everything is filled in without human involvement. This removes two problems at once: the manager doesn't spend 5 minutes retyping data and doesn't make mistakes in phone numbers. On top of that, the whole history of inquiries is stored in one place, and when a client returns in a month, you'll immediately see what was discussed before. In essence, the CRM becomes the single memory of the business that fills itself."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 4: нагадування й контроль, щоб жодна заявка не загубилась",
+      "en": "Step 4: Reminders and Control So No Request Gets Lost"
+    },
+    {
+      "t": "p",
+      "uk": "Останній крок часто пропускають, а він рятує найбільше грошей - це контроль виконання. Мало передати заявку менеджеру, треба переконатися, що він її обробив. Налаштуйте прості нагадування: якщо менеджер не взяв заявку в роботу за 15 хвилин - бот пінгує його ще раз; якщо не передзвонив клієнту за годину - сповіщення йде керівнику. Так ви прибираєте класичну ситуацію, коли заявка «прийнята», але фактично забута. Додайте автоматичні нагадування й для самого клієнта: якщо він не завершив замовлення, бот через день делікатно нагадає про себе. Часто саме такий один дотик повертає 10-15% тих, хто просто відволікся і забув.",
+      "en": "The last step is often skipped, yet it saves the most money - it's execution control. It's not enough to pass a request to a manager, you have to make sure they processed it. Set up simple reminders: if the manager hasn't taken the request into work within 15 minutes - the bot pings them again; if they haven't called the client back within an hour - a notification goes to the owner. This removes the classic situation where a request is 'accepted' but actually forgotten. Add automatic reminders for the client too: if they didn't finish the order, the bot gently reminds them a day later. Often exactly this one touch brings back 10-15% of those who simply got distracted and forgot."
+    },
+    {
+      "t": "p",
+      "uk": "Поверх усіх кроків має бути видимість для керівника - дашборд або хоча б проста звітність. Скільки заявок зайшло за день, скільки в роботі, скільки закрито, який середній час відповіді, хто з менеджерів скільки взяв. Без цих цифр автоматизація працює наосліп, а з ними ви бачите вузькі місця й можете їх лагодити. Коли всі п'ять кроків зʼєднані в один ланцюг, заявка фізично не може загубитися: її ловлять на вході, підтверджують, кваліфікують, віддають відповідальному, записують і контролюють до результату. Саме такі наскрізні системи обробки заявок - бота, звʼязку з CRM і логіку нагадувань під конкретний бізнес - у Devlly ми проєктуємо й впроваджуємо під ключ.",
+      "en": "On top of all the steps there should be visibility for the owner - a dashboard or at least simple reporting. How many requests came in during the day, how many are in progress, how many are closed, what the average reply time is, which manager took how many. Without these numbers automation works blind, and with them you see the bottlenecks and can fix them. When all five steps are joined into one chain, a request physically cannot get lost: it's caught at the entrance, confirmed, qualified, handed to the responsible person, recorded, and controlled to the result. It is exactly these end-to-end request processing systems - a bot, a CRM connection, and reminder logic for a specific business - that we at Devlly design and implement turnkey."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title_uk": "СРМ для салону краси: облік клієнтів і запису",
+  "title_en": "CRM for a beauty salon: client records and booking",
+  "desc_uk": "Як СРМ для салону краси наводить лад у записі, зменшує неявки нагадуваннями, веде картку клієнта й показує реальну аналітику по майстрах.",
+  "desc_en": "How a beauty salon CRM brings order to booking, cuts no-shows with reminders, keeps a client card and shows real analytics per stylist.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "СРМ для салону краси: як вибрати і налаштувати | Devlly",
+    "te": "CRM for a beauty salon: how to choose and set up | Devlly",
+    "d": "Як СРМ для салону краси допомагає вести запис, нагадування, картку клієнта і аналітику. Розбираємо на прикладах.",
+    "de": "How a beauty salon CRM helps run booking, reminders, client cards and analytics. We break it down with examples.",
+    "k": "срм для салону краси, crm для салону краси, онлайн-запис у салон, нагадування клієнтам салону, картка клієнта салон, автоматизація салону краси"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "СРМ для салону краси вирішує дуже приземлені проблеми: адміністратор, який пів дня висить на телефоні, клієнти, що записалися й не прийшли, і зошит із записами, який знає лише одна людина. Салон на пʼять майстрів обслуговує 400-600 візитів на місяць, і без системи цей потік тримається на памʼяті адміністратора. Коли він у відпустці чи звільняється, разом з ним «іде» половина клієнтської бази. У цій статті розберемо, що саме має робити СРМ у салоні краси - від онлайн-запису й нагадувань до аналітики по майстрах - і як обрати між готовим сервісом та власною системою.",
+      "en": "A beauty salon CRM solves very down-to-earth problems: an administrator who spends half the day on the phone, clients who book and never show up, and a notebook of appointments that only one person understands. A salon with five stylists handles 400-600 visits a month, and without a system that flow rests on the administrator's memory. When they go on holiday or quit, half the client base 'leaves' with them. In this article we break down what a beauty salon CRM should actually do - from online booking and reminders to per-stylist analytics - and how to choose between a ready-made service and your own system."
+    },
+    {
+      "t": "h2",
+      "uk": "Онлайн-запис і журнал майстрів: база, з якої починається СРМ",
+      "en": "Online booking and the stylist schedule: the foundation of a salon CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Перше, що дає СРМ для салону краси, - це живий журнал замість зошита й телефону. У системі заведені майстри, їхні графіки, послуги з тривалістю й цінами. Адміністратор бачить день кожного майстра сіткою: де вікно, де запис, де перерва. Запис на «фарбування плюс стрижка» автоматично блокує потрібні дві з половиною години, і подвійне бронювання стає технічно неможливим. Для порівняння: у зошиті помилки накладок трапляються два-три рази на тиждень, і кожна з них - це або клієнт, що чекає сорок хвилин, або майстер, що працює без обіду.",
+      "en": "The first thing a beauty salon CRM gives you is a live schedule instead of a notebook and a phone. The system holds the stylists, their working hours, and services with durations and prices. The administrator sees each stylist's day as a grid: where there is a gap, where a booking, where a break. An appointment for 'coloring plus haircut' automatically blocks the required two and a half hours, and double booking becomes technically impossible. For comparison: in a notebook, overlap mistakes happen two or three times a week, and each one means either a client waiting forty minutes or a stylist working through lunch."
+    },
+    {
+      "t": "p",
+      "uk": "Другий крок - віддати запис самим клієнтам. Посилання на онлайн-запис в Instagram-профілі, на сайті чи в Telegram дозволяє клієнту самому обрати послугу, майстра й вільний час, зокрема о десятій вечора, коли салон уже зачинений. Практика показує, що 30-40 відсотків записів переходить в онлайн уже за перші два місяці, а телефон адміністратора розвантажується на годину-півтори на день. Важлива дрібниця: система має показувати лише реально вільні слоти конкретного майстра, інакше замість зручності ви отримаєте потік передзвонів «а можна перенести».",
+      "en": "The second step is handing booking over to the clients themselves. An online booking link in the Instagram profile, on the website or in Telegram lets a client pick a service, a stylist and a free slot on their own, including at ten in the evening when the salon is already closed. Practice shows that 30-40 percent of bookings move online within the first two months, and the administrator's phone frees up by an hour or an hour and a half a day. One important detail: the system must show only the genuinely free slots of a specific stylist, otherwise instead of convenience you get a stream of 'can we reschedule' callbacks."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування клієнтам і боротьба з неявками",
+      "en": "Client reminders and fighting no-shows"
+    },
+    {
+      "t": "p",
+      "uk": "Неявки - найдорожча проблема салону. Якщо з 500 візитів на місяць 10 відсотків клієнтів просто не приходить, салон втрачає 50 оплачених годин: майстер сидить без роботи, а оренда й зарплата йдуть. Левова частка неявок - це не злий намір, а звичайна забудькуватість, і саме тому автоматичні нагадування дають такий помітний ефект. Стандартна схема: підтвердження одразу після запису, нагадування за 24 години до візиту з проханням підтвердити й коротке повідомлення за дві години. СРМ надсилає їх сама через SMS, Viber чи Telegram, без участі адміністратора.",
+      "en": "No-shows are a salon's most expensive problem. If out of 500 visits a month 10 percent of clients simply do not turn up, the salon loses 50 paid hours: the stylist sits idle while rent and wages keep running. The lion's share of no-shows is not bad intent but plain forgetfulness, which is exactly why automatic reminders have such a visible effect. The standard scheme: a confirmation right after booking, a reminder 24 hours before the visit asking to confirm, and a short message two hours ahead. The CRM sends them itself via SMS, Viber or Telegram, with no administrator involved."
+    },
+    {
+      "t": "p",
+      "uk": "Ефект вимірюваний: салони, які вмикають дворівневі нагадування, зазвичай знижують неявки з 8-12 до 3-4 відсотків. Ще цінніша реакція на «не зможу прийти»: якщо клієнт скасовує запис за добу, слот повертається у вільні, і на нього встигає записатися хтось інший. Окремий сценарій - повернення «сплячих» клієнтів: система бачить, що клієнтка робила манікюр кожні три тижні, а потім зникла на два місяці, і сама надсилає делікатне нагадування з пропозицією записатись. Такі повідомлення повертають 15-20 відсотків клієнтів, про яких салон інакше просто забув би.",
+      "en": "The effect is measurable: salons that switch on two-level reminders usually cut no-shows from 8-12 down to 3-4 percent. Even more valuable is the reaction to 'I can't make it': if a client cancels a day ahead, the slot returns to availability and someone else has time to book it. A separate scenario is bringing back 'sleeping' clients: the system sees that a client had a manicure every three weeks and then disappeared for two months, and it sends a gentle reminder with an offer to book. Such messages bring back 15-20 percent of clients the salon would otherwise simply have forgotten."
+    },
+    {
+      "t": "h2",
+      "uk": "Картка клієнта: історія процедур, улюблений майстер, персональний сервіс",
+      "en": "The client card: procedure history, favorite stylist, personal service"
+    },
+    {
+      "t": "p",
+      "uk": "Картка клієнта - це те, що перетворює СРМ із журналу запису на інструмент сервісу. У ній зберігається вся історія: які процедури й коли робилися, який майстер, які матеріали використовувалися, скільки клієнт витратив за весь час. Для колориста критично бачити формулу минулого фарбування - номер фарби, пропорції, час витримки. Без системи ця інформація живе в нотатках майстра в телефоні, і коли майстер іде, клієнтки йдуть за ним, бо «тільки вона знає мій колір». З карткою в СРМ формула залишається в салоні, і новий майстер повторює результат з першого разу.",
+      "en": "The client card is what turns a CRM from a booking log into a service tool. It stores the whole history: which procedures were done and when, which stylist, which materials were used, how much the client has spent overall. For a colorist it is critical to see the formula of the previous coloring - the dye number, the proportions, the processing time. Without a system this information lives in the stylist's phone notes, and when the stylist leaves, the clients follow, because 'only she knows my color.' With a card in the CRM the formula stays with the salon, and a new stylist reproduces the result on the first try."
+    },
+    {
+      "t": "p",
+      "uk": "Картка також робить сервіс персональним без надзусиль. Адміністратор бачить, що клієнтка завжди записується до Олени, пʼє каву без цукру й востаннє була на ламінуванні вій, - і розмова одразу звучить інакше, ніж «як вас записати». Сюди ж лягають позначки про алергії та протипоказання, що для косметологічних процедур не побажання, а вимога безпеки. А ще історія візитів - основа програм лояльності: бонуси, накопичувальні знижки, подарунок на день народження. Усе це працює автоматично, якщо дані збираються в одному місці.",
+      "en": "The card also makes service personal without heroic effort. The administrator sees that a client always books with Olena, drinks her coffee without sugar and last came in for lash lamination - and the conversation immediately sounds different from 'how do I book you.' The same card holds notes on allergies and contraindications, which for cosmetology procedures is not a nice-to-have but a safety requirement. Visit history is also the basis of loyalty programs: bonuses, cumulative discounts, a birthday gift. All of it runs automatically if the data is collected in one place."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика салону: виторг по майстрах і повторні візити",
+      "en": "Salon analytics: revenue per stylist and repeat visits"
+    },
+    {
+      "t": "p",
+      "uk": "Коли запис і оплати проходять через СРМ, власник уперше бачить салон у цифрах, а не у відчуттях. Базовий набір звітів: виторг і завантаження по кожному майстру, середній чек, структура послуг, кількість нових і повторних клієнтів за місяць. Цифри часто дивують: майстер, який «завжди зайнятий», може приносити менше за колегу з вільнішим графіком, бо працює на дешевих послугах. А завантаження 55 відсотків у будні по обіді - це готовий аргумент для акції на денні години замість знижок на й так заповнені вихідні.",
+      "en": "Once booking and payments go through the CRM, the owner sees the salon in numbers for the first time, not in gut feelings. The basic report set: revenue and utilization per stylist, average ticket, service mix, the number of new and repeat clients per month. The numbers often surprise: the stylist who is 'always busy' may bring in less than a colleague with a lighter schedule because they work on cheap services. And 55 percent weekday afternoon utilization is a ready-made argument for a daytime promotion instead of discounts on already full weekends."
+    },
+    {
+      "t": "p",
+      "uk": "Найважливіший показник для салону - повторні візити. Залучити нового клієнта через рекламу коштує в рази дорожче, ніж утримати наявного, тож ключове питання звучить так: скільки відсотків клієнтів повертається протягом 60 днів після першого візиту. СРМ рахує це автоматично й у розрізі майстрів: якщо до одного повертається 70 відсотків новачків, а до іншого 30, це сигнал не про рекламу, а про якість роботи чи комунікації конкретної людини. Без системи таких висновків не зробити - у зошиті повторюваність візитів просто не видно.",
+      "en": "The most important metric for a salon is repeat visits. Acquiring a new client through advertising costs several times more than keeping an existing one, so the key question is: what percentage of clients returns within 60 days of their first visit. The CRM calculates this automatically and per stylist: if 70 percent of newcomers come back to one stylist and 30 percent to another, that is a signal not about advertising but about the quality of a specific person's work or communication. Without a system such conclusions are impossible - visit recurrence is simply invisible in a notebook."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова СРМ чи кастомна: як обрати для свого салону",
+      "en": "Ready-made or custom CRM: how to choose for your salon"
+    },
+    {
+      "t": "p",
+      "uk": "Для більшості салонів розумно почати з готового сервісу: підписка коштує від кількох сотень гривень на місяць, запуск займає день-два, а базові сценарії - журнал, онлайн-запис, нагадування - покриті з коробки. Обмеження зʼявляються з ростом: мережа з трьох філій з єдиною базою клієнтів, власна логіка бонусів, нестандартні послуги на кількох майстрів одночасно, глибші звіти чи інтеграція зі складом матеріалів. У готових сервісах ці речі або неможливі, або доступні в дорогих тарифах, які за пару років коштують як власна розробка.",
+      "en": "For most salons it is sensible to start with a ready-made service: the subscription costs from a few hundred hryvnias a month, launch takes a day or two, and the basic scenarios - the schedule, online booking, reminders - are covered out of the box. Limitations appear with growth: a chain of three locations with a shared client base, custom bonus logic, non-standard services involving several stylists at once, deeper reports or integration with materials inventory. In ready-made services these things are either impossible or locked behind expensive plans that over a couple of years cost as much as your own build."
+    },
+    {
+      "t": "p",
+      "uk": "Кастомна СРМ виправдана, коли процеси салону чи мережі вже не влазять у шаблон і ви точно знаєте, чого бракує. Вона робиться під ваші послуги, ваші правила запису й вашу програму лояльності, а дані клієнтів належать вам, а не сервісу з підпискою. Розумний шлях - не будувати все одразу, а почати з ядра: журнал, запис через Telegram-бот, нагадування й картка клієнта, - і нарощувати аналітику й інтеграції поступово. Devlly розробляє такі рішення під замовлення: від бота для запису, який доповнює вашу поточну систему, до повноцінної СРМ для салону чи мережі з нуля.",
+      "en": "A custom CRM is justified when the processes of a salon or chain no longer fit the template and you know exactly what is missing. It is built around your services, your booking rules and your loyalty program, and the client data belongs to you rather than to a subscription service. The smart path is not to build everything at once but to start with the core - the schedule, booking via a Telegram bot, reminders and the client card - and grow analytics and integrations step by step. Devlly builds such solutions to order: from a booking bot that complements your current system to a full salon or chain CRM from scratch."
+    }
+  ]
+}

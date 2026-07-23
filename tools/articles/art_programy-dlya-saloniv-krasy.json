@@ -1,0 +1,117 @@
+{
+ "title_uk": "Програми для салонів краси: порівняння і що краще",
+ "title_en": "Software for beauty salons: a comparison and what works better",
+ "desc_uk": "Порівнюємо популярні програми для салонів краси. Готові рішення або розробка під ключ - що краще для вашого салону.",
+ "desc_en": "We compare popular software categories for beauty salons. Ready-made solutions or custom development - what suits your salon better.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Програми для салонів краси: порівняння і що краще обрати",
+  "te": "Software for Beauty Salons: Comparison and How to Choose",
+  "d": "Порівнюємо програми для салонів краси: готові рішення або розробка під ключ. Що краще для вашого салону залежно від розміру і задач.",
+  "de": "Comparing beauty salon software: ready-made solutions vs custom development. What works best for your salon depending on size and needs.",
+  "k": "програми для салонів краси, CRM для салону краси, онлайн запис клієнтів, готові рішення, розробка під ключ, автоматизація салону, критерії вибору"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Салон на два крісла і мережа з вісьмома філіями потребують різного софту, хоча обидва шукають «програму для запису клієнтів». Різниця стає болючою через рік, коли база розрослась, а система не гнеться. Розберемо, які категорії рішень існують, за якими критеріями їх чесно порівнювати і в який момент дешевша підписка починає коштувати дорожче за власну розробку.",
+   "en": "A two-chair salon and a chain with eight locations need different software, even though both start by looking for «a client booking app». The difference becomes painful a year later, when the database has grown and the system will not bend. Let us look at what categories of solutions exist, what criteria give an honest comparison, and at what point a cheaper subscription starts costing more than your own development."
+  },
+  {
+   "t": "h2",
+   "uk": "Які бувають програми для салонів краси",
+   "en": "What types of software for beauty salons exist"
+  },
+  {
+   "t": "p",
+   "uk": "Перша категорія - спеціалізовані хмарні сервіси запису і обліку. Це підписка з готовим календарем майстрів, картками клієнтів, складом матеріалів і базовою аналітикою. Вони закривають типовий сценарій салону з коробки: запис, нагадування, каса, зарплата майстрів. Логіка в них уже зафіксована розробником, і ви працюєте так, як задумав вендор, а не так, як звикли у своєму салоні.",
+   "en": "The first category is specialised cloud booking and management services. This is a subscription with a ready calendar for stylists, client cards, a materials stock and basic analytics. They cover the typical salon scenario out of the box: booking, reminders, cash desk, stylist payroll. The logic inside is already fixed by the vendor, so you work the way the vendor imagined, not the way your salon actually works."
+  },
+  {
+   "t": "p",
+   "uk": "Друга категорія - універсальні CRM, не заточені під красу. Вони сильні у воронках продажів, розсилках і звітах, але поняття «майстер», «крісло», «тривалість процедури» доводиться складати з кастомних полів. Салон отримує гнучкість ціною налаштування: без інтегратора система залишається напівпорожньою, а з інтегратором вартість запуску наближається до невеликого проєкту розробки.",
+   "en": "The second category is universal CRMs not tailored to beauty. They are strong at sales funnels, mailings and reports, but concepts like «stylist», «chair» and «procedure duration» have to be assembled from custom fields. The salon gets flexibility at the price of configuration: without an integrator the system stays half empty, and with an integrator the launch cost approaches that of a small development project."
+  },
+  {
+   "t": "p",
+   "uk": "Третя категорія - системи на базі Telegram-бота. Клієнт записується в месенджері, який уже стоїть у нього на телефоні, адміністратор бачить заявки в тому самому інтерфейсі. Конверсія у запис тут зазвичай вища, ніж на окремому сайті, бо не треба нічого встановлювати. Четверта категорія - таблиці і зошит. Вони безкоштовні, працюють у перший рік і ламаються, щойно зʼявляється другий адміністратор.",
+   "en": "The third category is systems built around a Telegram bot. The client books inside a messenger already installed on their phone, and the administrator sees requests in the same interface. Booking conversion here is usually higher than on a separate website, because nothing has to be installed. The fourth category is spreadsheets and a paper notebook. They are free, they work through the first year, and they break the moment a second administrator appears."
+  },
+  {
+   "t": "h2",
+   "uk": "Критерії вибору: за чим порівнювати рішення",
+   "en": "Selection criteria: what to actually compare"
+  },
+  {
+   "t": "p",
+   "uk": "Ціна. Порівнюйте не місячну підписку, а вартість володіння за три роки. Тариф часто рахується за кожного майстра або філію, тож зростання команди з трьох до дванадцяти людей множить рахунок у чотири рази. Додайте платні модулі, SMS-пакети, комісію за онлайн-оплату і години на первинне налаштування. Разом виходить сума, яку варто класти поруч із кошторисом власної системи.",
+   "en": "Price. Compare not the monthly subscription but the total cost of ownership over three years. Tariffs are often counted per stylist or per location, so growing a team from three to twelve people multiplies the bill fourfold. Add paid modules, SMS packages, online payment fees and the hours spent on the initial setup. The result is a number worth placing next to the estimate for your own system."
+  },
+  {
+   "t": "p",
+   "uk": "Гнучкість. Питання просте: чи можна описати свій реальний процес без обхідних шляхів? Абонементи, депозити за бронювання, комбіновані послуги двох майстрів одночасно, різні схеми відсотків - усе це або є в готовому продукті, або немає. Якщо адміністратор веде паралельну таблицю «для себе», значить система не покриває процес, і ви платите двічі.",
+   "en": "Flexibility. The question is simple: can you describe your real process without workarounds? Membership packages, booking deposits, combined services performed by two stylists at once, different commission schemes - all of it either exists in the ready product or does not. If your administrator keeps a parallel spreadsheet «for myself», the system does not cover the process and you are paying twice."
+  },
+  {
+   "t": "p",
+   "uk": "Володіння даними, інтеграції і підтримка. Перевірте, чи можна вивантажити повну базу клієнтів з історією візитів у придатному форматі, а не сканом звіту. Уточніть, чи є API для звʼязку із сайтом, месенджерами і бухгалтерією. І окремо оцініть підтримку: відповідь за добу шаблонним листом і відповідь за годину від людини, яка знає ваш салон, - це різні продукти.",
+   "en": "Data ownership, integrations and support. Check whether you can export the full client base with visit history in a usable format, not as a scanned report. Clarify whether there is an API for connecting your website, messengers and accounting. And assess support separately: a templated reply within a day and a reply within an hour from someone who knows your salon are two different products."
+  },
+  {
+   "t": "h2",
+   "uk": "Порівняння категорій: сильні і слабкі місця",
+   "en": "Comparing the categories: strengths and weak spots"
+  },
+  {
+   "t": "p",
+   "uk": "Спеціалізовані SaaS виграють за швидкістю старту: запуск за кілька днів, зрозумілий інтерфейс, регулярні оновлення. Програють за гнучкістю і володінням даними: ваша база лежить на чужому сервері, а нестандартну логіку доводиться просити в загальній черзі побажань. Універсальні CRM дають протилежну картину: майже будь-яку схему можна зібрати, але салонні дрібниці на кшталт завантаженості крісел рахуються погано.",
+   "en": "Specialised SaaS wins on speed of launch: live in a few days, a clear interface, regular updates. It loses on flexibility and data ownership: your database sits on someone else's server, and non-standard logic has to be requested in a shared queue of feature wishes. Universal CRMs give the opposite picture: almost any scheme can be assembled, but salon details such as chair utilisation are calculated poorly."
+  },
+  {
+   "t": "p",
+   "uk": "Рішення на Telegram-боті виграють у точці контакту з клієнтом. Нагадування за добу і за дві години перед візитом реально зменшують неявки, а повернути клієнта повідомленням у месенджері дешевше, ніж дзвінком. Слабке місце - бот сам по собі не є обліковою системою. Без нормальної бази і прав доступу він швидко перетворюється на зручний канал заявок поверх хаосу.",
+   "en": "Telegram-bot solutions win at the point of contact with the client. Reminders a day and two hours before the visit genuinely reduce no-shows, and bringing a client back with a message costs less than a phone call. The weak spot is that a bot by itself is not an accounting system. Without a proper database and access rights it quickly becomes a convenient request channel sitting on top of chaos."
+  },
+  {
+   "t": "p",
+   "uk": "Таблиці виграють лише за ціною. Далі йдуть суцільні мінуси: немає нагадувань, немає прав доступу, історія правок губиться, а разом із адміністратором іноді йде і копія бази. Якщо салон робить понад двісті візитів на місяць або має більш ніж одну точку, таблиця вже коштує вам грошей у вигляді неявок і втрачених повторних записів.",
+   "en": "Spreadsheets win on price alone. After that it is a solid list of downsides: no reminders, no access rights, edit history disappears, and sometimes a copy of the database leaves together with the administrator. If a salon handles more than two hundred visits a month or has more than one location, the spreadsheet is already costing you money in no-shows and lost repeat bookings."
+  },
+  {
+   "t": "h2",
+   "uk": "Коли готові рішення - правильний вибір",
+   "en": "When ready-made solutions are the right choice"
+  },
+  {
+   "t": "p",
+   "uk": "Готові рішення виграють, якщо ваш процес типовий, команда невелика і головна мета - швидко піти від зошита. Один кабінет, два-три майстри, стандартний прайс, ніяких абонементів і складних розрахунків: тут підписка дає максимум користі за мінімум часу. Витрачати бюджет на власну систему, коли типовий продукт покриває девʼяносто відсотків потреб, немає сенсу.",
+   "en": "Ready-made solutions win when your process is typical, the team is small and the main goal is to move away from a notebook quickly. One room, two or three stylists, a standard price list, no memberships and no complex calculations: here a subscription gives maximum value for minimum time. Spending budget on your own system makes no sense when a standard product covers ninety percent of your needs."
+  },
+  {
+   "t": "p",
+   "uk": "Другий сценарій - перевірка гіпотези. Салон щойно відкрився і ще не знає, як виглядатиме його процес через рік. Розумно рік попрацювати на підписці, зібрати реальні дані про завантаження, повторні візити і структуру послуг, і лише потім вирішувати, що саме автоматизувати глибше. Головне - від самого початку переконатися, що базу можна забрати з собою, і одразу привчити адміністраторів вносити повні дані: телефон, джерело звернення, майстра і фактичну суму чека. Через рік саме ці поля покажуть, які послуги тримають виручку, а які просто займають крісло.",
+   "en": "The second scenario is testing a hypothesis. A salon has just opened and does not yet know what its process will look like in a year. It is reasonable to spend a year on a subscription, collect real data on utilisation, repeat visits and service structure, and only then decide what to automate more deeply. The key point is to make sure from day one that you can take the database with you, and to train administrators to enter complete data right away: phone number, lead source, stylist and the actual receipt amount. A year later those exact fields will show which services hold up revenue and which merely occupy a chair."
+  },
+  {
+   "t": "h2",
+   "uk": "Розробка під ключ: коли вона окупається",
+   "en": "Custom development: when it pays off"
+  },
+  {
+   "t": "p",
+   "uk": "Розробка під ключ виграє там, де процес перестає бути типовим. Мережа з кількома філіями і спільною базою клієнтів, власна програма лояльності, складні схеми винагороди майстрів, франшиза з окремою звітністю для партнерів, навчальний центр поруч із салоном - усе це в готових продуктах або відсутнє, або тримається на милицях, які ламаються після кожного оновлення вендора.",
+   "en": "Custom development wins where the process stops being typical. A chain of several locations with a shared client base, your own loyalty programme, complex stylist compensation schemes, a franchise with separate reporting for partners, a training centre next to the salon - in ready products all of this is either missing or held together by crutches that break after every vendor update."
+  },
+  {
+   "t": "p",
+   "uk": "Другий аргумент - економіка. Коли підписка за десяток робочих місць плюс модулі і SMS перевищує кілька сотень доларів на місяць, власна система з тим самим набором функцій часто окупається за два-три роки. При цьому ви отримуєте базу на своєму сервері, інтеграції саме з тими сервісами, якими користуєтесь, і зміни за тиждень, а не за голосуванням у роудмапі.",
+   "en": "The second argument is economics. When a subscription for a dozen seats plus modules and SMS exceeds several hundred dollars a month, your own system with the same feature set often pays for itself within two to three years. On top of that you get the database on your own server, integrations with exactly the services you use, and changes delivered in a week rather than through roadmap voting."
+  },
+  {
+   "t": "p",
+   "uk": "Практичний підхід виглядає так: почніть із готового рішення, зафіксуйте, які саме сценарії воно не закриває, і рахуйте вартість цих обхідних шляхів у годинах адміністратора та втрачених візитах. Коли ця сума стає відчутною, час говорити про власну систему. У Devlly ми будуємо такі рішення під ключ - CRM для салонів, онлайн запис через Telegram-бота і автоматизацію нагадувань під конкретний процес салону.",
+   "en": "A practical approach looks like this: start with a ready-made solution, record which scenarios it fails to cover, and count the cost of those workarounds in administrator hours and lost visits. When that sum becomes noticeable, it is time to talk about your own system. At Devlly we build exactly these solutions from scratch - salon CRMs, online booking through a Telegram bot and reminder automation shaped around a specific salon's process."
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація рекрутингу: як знайти кандидата швидше",
+  "title_en": "Recruiting Automation: How to Find a Candidate Faster",
+  "desc_uk": "Як автоматизувати пошук і відбір кандидатів: збір резюме, тестування, комунікація і фінальний відбір без ручної роботи.",
+  "desc_en": "How to automate candidate sourcing and selection: CV collection, screening, test tasks, communication and the final decision without manual work.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація рекрутингу через Telegram та CRM | Devlly",
+    "te": "Recruiting Automation with Telegram and CRM | Devlly",
+    "d": "Як автоматизувати пошук і відбір кандидатів: збір резюме, тестування, комунікація і фінальний відбір без ручної роботи.",
+    "de": "How to automate candidate sourcing and selection: CV collection, screening, test tasks, communication and the final decision without manual work.",
+    "k": "автоматизація рекрутингу, збір резюме, фільтрація кандидатів, телеграм бот для найму, CRM для рекрутингу, воронка найму, аналітика найму"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Найм часто гальмує не через брак кандидатів, а через ручну роботу: пошта, таблиці, нескінченні перепитування. Поки рекрутер вручну переносить дані з листів у документ, сильний кандидат уже прийняв інший офер. Нижче - як зібрати систему, де резюме, відбір, тестові й комунікація працюють самі.",
+      "en": "Hiring usually stalls not because there are too few candidates, but because of manual work: inboxes, spreadsheets, endless follow-up questions. While a recruiter copies data from emails into a document, a strong candidate has already accepted another offer. Below is how to build a system where CVs, screening, test tasks and communication run on their own."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому автоматизація рекрутингу починається зі структури, а не з інструментів",
+      "en": "Why recruiting automation starts with structure, not tools"
+    },
+    {
+      "t": "p",
+      "uk": "Перша помилка - купити систему й сподіватися, що вона наведе лад. Автоматизація рекрутингу працює тоді, коли ви заздалегідь описали етапи: заявка, первинна перевірка, тестове, співбесіда, офер. Кожен етап має чіткий критерій переходу далі й чіткий критерій відмови. Якщо цього немає, будь-який софт просто швидше створюватиме хаос, бо кандидати зависатимуть між статусами, а рекрутери сперечатимуться, хто за кого відповідає.",
+      "en": "The first mistake is buying a system and hoping it will create order. Recruiting automation works only when you have described the stages in advance: application, initial check, test task, interview, offer. Each stage needs a clear criterion for moving forward and a clear criterion for rejection. Without that, any software will simply produce chaos faster, because candidates get stuck between statuses and recruiters argue about who owns whom."
+    },
+    {
+      "t": "p",
+      "uk": "Друге - визначити, які дані ви взагалі збираєте. Для більшості вакансій достатньо восьми - дванадцяти полів: позиція, досвід, ключові технології або навички, місто, формат роботи, очікувана вилка, готовність вийти, посилання на профіль. Усе інше - розкіш, яка подовжує форму й знижує конверсію. Чим коротша анкета, тим більше людей доходить до кінця.",
+      "en": "The second step is deciding what data you actually collect. For most roles eight to twelve fields are enough: position, experience, key technologies or skills, city, work format, expected salary range, notice period, profile link. Everything else is a luxury that lengthens the form and lowers conversion. The shorter the questionnaire, the more people finish it."
+    },
+    {
+      "t": "p",
+      "uk": "І третє - домовтеся про терміни реакції. Наприклад: відповідь кандидату протягом двадцяти чотирьох годин, перевірка тестового - до трьох робочих днів. Ці цифри потім перетворюються на нагадування всередині системи. Без них автоматизація перетвориться на красиву базу даних, у якій нічого не рухається. Практика показує, що саме прострочені відповіді зʼїдають найбільше часу на закриття вакансії, бо кандидат за цей період встигає пройти два інших процеси.",
+      "en": "Third, agree on response times. For example: a reply to the candidate within twenty four hours, test task review within three business days. These numbers later turn into reminders inside the system. Without them, automation becomes a pretty database in which nothing actually moves. In practice, overdue replies eat the largest share of time to hire, because during that gap a candidate manages to go through two other processes."
+    },
+    {
+      "t": "h2",
+      "uk": "Збір резюме: одна точка входу замість пʼяти каналів",
+      "en": "CV collection: one entry point instead of five channels"
+    },
+    {
+      "t": "p",
+      "uk": "Типова компанія приймає резюме поштою, у месенджерах, через сайт, з джоб-бордів і від знайомих. Далі це все живе в різних місцях. Робочий підхід - зробити збір резюме через одну форму, а всі інші канали просто вести на неї. Telegram-бот тут зручний тим, що кандидат уже в застосунку, який відкриває щодня, і не мусить реєструватися на окремому порталі.",
+      "en": "A typical company receives CVs by email, in messengers, through the website, from job boards and from referrals. All of it then lives in different places. The working approach is to collect CVs through one form and simply point every other channel to it. A Telegram bot is convenient here because the candidate is already in an app they open daily and does not have to register on a separate portal."
+    },
+    {
+      "t": "p",
+      "uk": "Бот веде коротким сценарієм: вітання, вибір вакансії, кілька питань, завантаження файлу резюме. Відповіді одразу лягають у Google Sheets або в CRM у структурованому вигляді, файл зберігається в хмарі, а посилання прикріплюється до картки. Рекрутер більше не переносить нічого руками. За нашим досвідом, саме цей крок економить від пʼяти до восьми годин на тиждень на активній вакансії.",
+      "en": "The bot runs a short scenario: greeting, role selection, a few questions, CV file upload. Answers immediately land in Google Sheets or a CRM in structured form, the file is stored in the cloud, and the link is attached to the card. The recruiter no longer moves anything by hand. In our experience, this single step saves five to eight hours a week on an active vacancy."
+    },
+    {
+      "t": "p",
+      "uk": "Важлива деталь: кандидат має бачити підтвердження. Після відправки він отримує повідомлення, що заявку прийнято, і орієнтовний строк відповіді. Це прибирає половину питань «чи дійшло моє резюме» і помітно покращує враження від компанії ще до першої розмови. Якщо вакансій кілька, бот може одразу запропонувати кандидату суміжну позицію, яка більше відповідає його досвіду, і таким чином зберегти людину всередині воронки замість втрати контакту.",
+      "en": "One important detail: the candidate must see a confirmation. After submitting, they get a message saying the application was received, plus an expected response time. This removes half of the «did my CV arrive» questions and noticeably improves the impression of the company before the first conversation. If there are several openings, the bot can immediately suggest an adjacent role that better matches the candidate experience, keeping the person inside the funnel instead of losing contact."
+    },
+    {
+      "t": "h2",
+      "uk": "Фільтрація кандидатів: автоматичний скринінг і тестові завдання",
+      "en": "Candidate filtering: automatic screening and test tasks"
+    },
+    {
+      "t": "p",
+      "uk": "Фільтрація кандидатів - найдорожча за часом частина процесу, і водночас найлегша для автоматизації. Формальні критерії перевіряються без людини: досвід менший за потрібний, немає ключової навички, вилка вдвічі вища за бюджет, немає дозволу на роботу. Система ставить таким заявкам відповідну позначку й виводить їх з основного потоку, залишаючи рекрутеру лише релевантні картки.",
+      "en": "Candidate filtering is the most time consuming part of the process and at the same time the easiest to automate. Formal criteria are checked without a human: less experience than required, a missing key skill, a salary range twice the budget, no work permit. The system marks such applications accordingly and moves them out of the main flow, leaving the recruiter only relevant cards."
+    },
+    {
+      "t": "p",
+      "uk": "Далі йде скринінг за змістом. Найпростіший робочий варіант - три - пʼять питань з балами за відповіді просто в боті: коротка задача на логіку, питання за стеком, ситуативне питання. Система рахує бал і сортує кандидатів. Ті, хто набрав вище порогу, автоматично отримують тестове завдання й дедлайн, решта - ввічливу відмову з поясненням.",
+      "en": "Next comes content screening. The simplest working option is three to five scored questions right inside the bot: a short logic task, a stack specific question, a situational question. The system calculates a score and sorts candidates. Those above the threshold automatically receive a test task with a deadline, the rest get a polite rejection with an explanation."
+    },
+    {
+      "t": "p",
+      "uk": "Тестове теж варто закільцювати: бот видає умову, приймає результат, фіксує час виконання й повідомляє відповідальному. Автоматичне нагадування за день до дедлайну повертає частину кандидатів, які просто забули. Це дрібниця, але вона зазвичай додає десять - пʼятнадцять відсотків завершених тестових.",
+      "en": "The test task should be looped in as well: the bot sends the brief, accepts the result, records completion time and notifies the responsible person. An automatic reminder one day before the deadline brings back candidates who simply forgot. It is a small thing, but it usually adds ten to fifteen percent more completed test tasks."
+    },
+    {
+      "t": "h2",
+      "uk": "Комунікація з кандидатами: шаблони, нагадування, жодних забутих людей",
+      "en": "Communication with candidates: templates, reminders, nobody forgotten"
+    },
+    {
+      "t": "p",
+      "uk": "Комунікація - те, за що компанії найчастіше отримують погані відгуки. Людина пройшла три етапи й зникла в тиші. Виправляється це просто: кожна зміна статусу в CRM тригерить повідомлення кандидату. Запрошення на співбесіду, перенесення, відмова, офер - усе за готовими шаблонами з підстановкою імені, вакансії та дати.",
+      "en": "Communication is what companies most often get bad reviews for. A person goes through three stages and then disappears into silence. The fix is simple: every status change in the CRM triggers a message to the candidate. Interview invitation, rescheduling, rejection, offer - all from ready templates with the name, role and date filled in."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто автоматизувати погодження часу співбесіди. Бот показує вільні слоти з календаря наймаючого менеджера, кандидат обирає зручний, подія створюється автоматично з посиланням на дзвінок. Це прибирає класичне листування на шість повідомлень і зменшує кількість неявок, бо нагадування приходить за годину до зустрічі.",
+      "en": "Interview scheduling deserves separate automation. The bot shows free slots from the hiring manager calendar, the candidate picks a convenient one, and the event is created automatically with a call link. This removes the classic six message thread and reduces no shows, because a reminder arrives an hour before the meeting."
+    },
+    {
+      "t": "p",
+      "uk": "Відмови теж мають бути автоматичними, але людяними. Шаблон з однією фразою про причину працює краще за мовчання і зберігає кандидата для майбутніх вакансій. Тих, хто дійшов до фіналу, але не отримав офер, варто позначати окремим тегом - це готовий резерв на наступний схожий пошук.",
+      "en": "Rejections should be automatic too, but human. A template with one sentence about the reason works better than silence and keeps the candidate available for future roles. Those who reached the final stage without an offer deserve a separate tag - that is a ready reserve for the next similar search."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика найму: як воронка показує, де ви втрачаєте час",
+      "en": "Hiring analytics: how the funnel shows where you lose time"
+    },
+    {
+      "t": "p",
+      "uk": "Коли дані збираються автоматично, аналітика найму зʼявляється сама собою. Мінімальний набір метрик: кількість заявок за джерелом, конверсія між етапами, середній час на етапі, час від заявки до офера, відсоток прийнятих оферів. Цього достатньо, щоб побачити реальні вузькі місця замість здогадок.",
+      "en": "When data is collected automatically, hiring analytics appears on its own. The minimum metric set: applications by source, stage to stage conversion, average time in stage, time from application to offer, offer acceptance rate. That is enough to see real bottlenecks instead of guesses."
+    },
+    {
+      "t": "p",
+      "uk": "Воронка зазвичай викриває дві типові проблеми. Перша - найбільше заявок приходить з каналу, який дає найгіршу якість, і команда витрачає на нього більшість часу. Друга - кандидати застрягають на одному конкретному етапі, найчастіше на очікуванні фідбеку після технічної співбесіди. Обидві проблеми не видно в пошті, але очевидні на дашборді. Коли ви бачите, що з сорока заявок до співбесіди доходять двоє, розмова з командою одразу стає предметною: або критерії завищені, або опис вакансії описує не ту роль, яку ви насправді шукаєте.",
+      "en": "The funnel usually exposes two typical problems. First, the largest volume of applications comes from the channel with the worst quality, and the team spends most of its time there. Second, candidates get stuck at one specific stage, most often waiting for feedback after the technical interview. Neither is visible in an inbox, but both are obvious on a dashboard. When you see that out of forty applications only two reach an interview, the conversation with the team becomes concrete: either the criteria are too high, or the job description describes a different role than the one you actually need."
+    },
+    {
+      "t": "p",
+      "uk": "Стек для такої системи не мусить бути важким: Telegram-бот як точка входу, CRM або Google Sheets як база, календар для співбесід, проста панель з графіками. Складність зростає лише тоді, коли зростає обсяг найму. У Devlly ми збираємо такі рішення під конкретний процес компанії, а не намагаємося підігнати процес під готову коробку.",
+      "en": "The stack for such a system does not have to be heavy: a Telegram bot as the entry point, a CRM or Google Sheets as the database, a calendar for interviews, a simple dashboard with charts. Complexity grows only when hiring volume grows. At Devlly we build these solutions around a company specific process instead of bending the process to fit a boxed product."
+    }
+  ]
+}

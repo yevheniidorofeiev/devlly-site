@@ -1,0 +1,122 @@
+{
+  "title_uk": "CRM для кавʼярні: облік клієнтів і програма лояльності",
+  "title_en": "CRM for a Coffee Shop: Customer Records and a Loyalty Program",
+  "desc_uk": "Як CRM для кавʼярні допомагає вести програму лояльності, збирати базу клієнтів і збільшувати повторні візити.",
+  "desc_en": "How a CRM for a coffee shop helps you run a loyalty program, build a customer base and increase repeat visits.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для кавʼярні і кофейні: програма лояльності | Devlly",
+    "te": "CRM for a Coffee Shop: Loyalty Program and Analytics | Devlly",
+    "d": "Як CRM для кавʼярні допомагає вести програму лояльності, збирати базу клієнтів і збільшувати повторні візити.",
+    "de": "How a CRM for a coffee shop helps you run a loyalty program, build a customer base and increase repeat visits.",
+    "k": "CRM для кавʼярні, програма лояльності, база клієнтів, повторні візити, сегментація клієнтів, аналітика продажів, автоматизація кавʼярні"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "У кавʼярні середній чек невеликий, зате один постійний гість може приходити 15-20 разів на місяць. Тому втрата такого клієнта коштує дорожче, ніж здається на касі. CRM для кавʼярні перетворює потік випадкових покупок на керовану базу клієнтів із прогнозованими повторними візитами.",
+      "en": "In a coffee shop the average check is small, but one regular guest may come in 15-20 times a month. So losing that customer costs far more than it looks like at the till. A CRM for a coffee shop turns a stream of random purchases into a managed customer base with predictable repeat visits."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для кавʼярні замість паперових карток",
+      "en": "A CRM for a coffee shop instead of paper stamp cards"
+    },
+    {
+      "t": "p",
+      "uk": "Паперова картка на шість штампів працює рівно доти, доки гість її не загубив. За нашими спостереженнями, до фінального штампа доходить приблизно кожна пʼята видана картка, решта осідає в кишенях курток і гаманцях. Заклад платить за друк, віддає безкоштовну каву, але не отримує головного: він так і не знає, хто цей гість, як часто він приходить і що замовляє.",
+      "en": "A paper card with six stamps works exactly until the guest loses it. In our experience only about one in five cards issued ever reaches the final stamp; the rest end up forgotten in jacket pockets and wallets. The shop pays for printing and gives away free coffee, yet never gets the main thing: it still does not know who the guest is, how often they come or what they order."
+    },
+    {
+      "t": "p",
+      "uk": "CRM для кавʼярні закриває цю дірку. Клієнт ідентифікується за номером телефону, QR-кодом у застосунку або просто в Telegram-боті, і кожна покупка автоматично лягає в його картку. Бариста не рахує штампи вручну, а система сама бачить, що це вже девʼятий візит за тиждень і що людина завжди бере флет уайт на вівсяному.",
+      "en": "A CRM closes that gap. The customer is identified by phone number, by a QR code in an app or simply through a Telegram bot, and every purchase is written to their profile automatically. The barista does not count stamps by hand; the system itself sees this is the ninth visit this week and that the person always orders a flat white on oat milk."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо, що CRM не має гальмувати чергу. Ідентифікація гостя займає кілька секунд, а нарахування бонусів відбувається у момент оплати без зайвих кліків. Якщо система вимагає від баристи більше трьох дій, персонал перестане нею користуватися вже на другому тижні, і вся ідея розсиплеться.",
+      "en": "Crucially, the CRM must not slow the queue down. Identifying a guest takes a few seconds and bonuses are credited at the moment of payment with no extra clicks. If the system demands more than three actions from the barista, staff will stop using it by the second week and the whole idea falls apart."
+    },
+    {
+      "t": "h2",
+      "uk": "База клієнтів: що збирати і навіщо",
+      "en": "The customer base: what to collect and why"
+    },
+    {
+      "t": "p",
+      "uk": "База клієнтів у кавʼярні починається з мінімуму: імʼя, телефон або Telegram ID, дата першого візиту. Далі система накопичує історію: дати й час покупок, позиції з чеків, суму, точку продажу, спосіб оплати. Цього вже достатньо, щоб побачити реальні звички, а не здогадки власника про те, «хто до нас ходить».",
+      "en": "A coffee shop customer base starts with the minimum: name, phone number or Telegram ID, date of first visit. After that the system accumulates history: purchase dates and times, line items from receipts, amounts, the location and the payment method. That alone is enough to see real habits rather than the owner's guesses about «who comes to us»."
+    },
+    {
+      "t": "p",
+      "uk": "Не варто просити на касі анкету з десятьма полями. Чим менше даних ви питаєте на старті, тим вища конверсія в реєстрацію. Практика показує, що форма з двох полів дає 60-70 відсотків згод, а форма з пʼяти полів опускає цей показник до третини. Решту система дізнається сама з чеків.",
+      "en": "Do not hand out a ten-field form at the counter. The less data you ask for up front, the higher the sign-up conversion. In practice a two-field form gets 60-70 percent agreement, while a five-field form drops that to about a third. The system will learn the rest from the receipts on its own."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто передбачити згоду на комунікацію і можливість швидко відписатися. Це не лише вимога закону про персональні дані, а й питання довіри: гість, який знає, що може вимкнути розсилку одним натисканням, спокійніше залишає контакт. Корисно також одразу вирішити, де база живе технічно. Якщо контакти лежать тільки всередині чужого застосунку лояльності, ви фактично орендуєте власних клієнтів: при зміні постачальника історія покупок залишається в нього. Власна CRM з експортом даних знімає цей ризик і дозволяє підключити до неї касу, бота і сайт.",
+      "en": "You should also handle consent to communication and an easy way to unsubscribe. This is not only a personal data law requirement but a matter of trust: a guest who knows they can switch off the mailing with one tap leaves their contact details far more willingly. It is also worth deciding early where the base physically lives. If the contacts sit only inside someone else's loyalty app, you are effectively renting your own customers: change vendors and the purchase history stays with them. Your own CRM with data export removes that risk and lets you connect the till, the bot and the website to it."
+    },
+    {
+      "t": "h2",
+      "uk": "Програма лояльності: штампи, бонуси чи кешбек",
+      "en": "Loyalty program: stamps, bonuses or cashback"
+    },
+    {
+      "t": "p",
+      "uk": "Найпростіша механіка - цифрові штампи: шоста кава безкоштовно. Вона зрозуміла всім і добре працює для закладів біля офісів, де людина заходить щодня. Мінус у тому, що штамп не залежить від суми чека: гість, який бере еспресо за 45 гривень, і гість із чеком на 250 гривень отримують однакову винагороду.",
+      "en": "The simplest mechanic is digital stamps: every sixth coffee is free. It is easy to grasp and works well for shops near offices where people drop in daily. The downside is that a stamp ignores the size of the check: a guest buying a 45 hryvnia espresso and a guest with a 250 hryvnia check get exactly the same reward."
+    },
+    {
+      "t": "p",
+      "uk": "Бонусні бали і кешбек чутливі до суми. Стандартний орієнтир - 5-10 відсотків від чека повертається балами, які можна витратити на наступну покупку. Така програма лояльності мʼяко піднімає середній чек: щоб дійти до бажаної суми бонусів, гість частіше додає до кави десерт. Ще один робочий варіант - рівні: після 20 візитів людина отримує підвищений кешбек і сироп у подарунок.",
+      "en": "Bonus points and cashback react to the amount spent. A standard benchmark is 5-10 percent of the check returned as points that can be spent on the next purchase. Such a loyalty program gently lifts the average check: to reach the bonus amount they want, guests more often add a dessert to their coffee. Tiers work too: after 20 visits a person gets higher cashback and a free syrup."
+    },
+    {
+      "t": "p",
+      "uk": "Головна помилка - складні правила. Якщо гість не може за десять секунд пояснити, як працює ваша програма, вона не працює зовсім. Один зрозумілий принцип, одна валюта балів, один термін згорання, і про це чесно написано в боті чи застосунку. Друга помилка - надто щедрий старт: кешбек у 20 відсотків збирає базу швидко, але зʼїдає маржу, а зменшити його пізніше без обурення постійних гостей майже неможливо. Краще почати з помірних умов і додавати бонуси точково, наприклад у день народження або на позиції, які треба розпродати.",
+      "en": "The main mistake is complicated rules. If a guest cannot explain how your program works in ten seconds, it does not work at all. One clear principle, one point currency, one expiry period, all stated honestly in the bot or the app. The second mistake is being too generous at the start: 20 percent cashback builds a base quickly but eats the margin, and cutting it later without upsetting your regulars is nearly impossible. Better to start with moderate terms and add bonuses selectively, for instance on birthdays or on items you need to sell through."
+    },
+    {
+      "t": "h2",
+      "uk": "Сегментація і повторні візити: кому і коли писати",
+      "en": "Segmentation and repeat visits: who to message and when"
+    },
+    {
+      "t": "p",
+      "uk": "Коли база зібрана, зʼявляється сегментація. Мінімальний набір сегментів: новачки з одним візитом, стабільні гості з частотою від трьох разів на тиждень, ті, хто не приходив 14 днів, і ті, хто зник більш ніж на місяць. Кожному сегменту потрібне своє повідомлення, а не однакова розсилка на всю базу.",
+      "en": "Once the base is there, segmentation becomes possible. A minimal set of segments: newcomers with a single visit, steady guests coming three or more times a week, people who have not shown up for 14 days, and those gone for over a month. Each segment needs its own message, not one identical broadcast to the whole list."
+    },
+    {
+      "t": "p",
+      "uk": "Найцінніший сценарій для повторних візитів - автоматичне повернення тих, хто зник. Система сама бачить, що постійний гість не заходив два тижні, і надсилає в Telegram коротке повідомлення з невеликою пропозицією: безкоштовний апгрейд розміру або десерт до кави протягом трьох днів. Такі тригерні повідомлення повертають помітно більше людей, ніж загальна акція, бо приходять вчасно й адресно.",
+      "en": "The most valuable scenario for repeat visits is automatically bringing back people who disappeared. The system sees that a regular has not come in for two weeks and sends a short Telegram message with a small offer: a free size upgrade or a dessert with their coffee, valid for three days. Such triggered messages bring back noticeably more people than a general promotion because they arrive on time and are personal."
+    },
+    {
+      "t": "p",
+      "uk": "Не менш важливо не перестаратися. Одне-два повідомлення на місяць на сегмент - це нормальна частота для кавʼярні. Щоденні push-сповіщення про сезонний лате швидко перетворюють вашу розсилку на спам, і найактивніші гості відпишуться першими.",
+      "en": "It matters just as much not to overdo it. One or two messages a month per segment is a normal frequency for a coffee shop. Daily push notifications about a seasonal latte quickly turn your mailing into spam, and the most active guests will be the first to unsubscribe."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика: середній чек і частота повторних візитів",
+      "en": "Analytics: average check and repeat visit frequency"
+    },
+    {
+      "t": "p",
+      "uk": "Каса показує виручку за день, але не пояснює, звідки вона взялася. Аналітика в CRM дає інші цифри: частка повторних покупок у виручці, середня кількість візитів на клієнта за місяць, середній чек по сегментах, відтік постійних гостей. Саме ці показники говорять, чи росте заклад насправді, чи просто був вдалий тиждень із хорошою погодою.",
+      "en": "The till shows the day's revenue but does not explain where it came from. CRM analytics gives different numbers: the share of repeat purchases in revenue, the average number of visits per customer per month, the average check by segment, and the churn of regulars. These are the metrics that tell you whether the business is genuinely growing or simply had a good week of weather."
+    },
+    {
+      "t": "p",
+      "uk": "Практична користь очевидна вже за перший місяць. Видно, які позиції беруть разом із кавою, а які лише псують залишки. Видно, о котрій годині приходять найдорожчі чеки, і чи варто ставити другого баристу на ранкові години. Видно, скільки коштує повернути гостя знижкою і чи окупається ця знижка з наступних покупок.",
+      "en": "The practical value shows up within the first month. You can see which items are bought together with coffee and which only spoil your stock. You can see at what hour the biggest checks arrive and whether a second barista makes sense in the morning. You can see how much it costs to win a guest back with a discount and whether that discount pays off through their later purchases."
+    },
+    {
+      "t": "p",
+      "uk": "Коробкові рішення часто закривають половину задач: є штампи, але немає нормальної сегментації, або є розсилки, але немає інтеграції з вашою касою. У Devlly ми будуємо такі системи під конкретний заклад - CRM, бот лояльності та аналітику, які працюють разом і враховують ваші процеси, а не навпаки.",
+      "en": "Off-the-shelf tools often cover only half the job: there are stamps but no proper segmentation, or there are mailings but no integration with your point of sale. At Devlly we build systems like this for a specific business - CRM, a loyalty bot and analytics that work together and fit your processes rather than the other way round."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title_uk": "Віддалене управління бізнесом з України: як не втратити контроль",
+  "title_en": "Running a Business Remotely from Ukraine: How to Stay in Control",
+  "desc_uk": "Як керувати бізнесом дистанційно з України: контроль замовлень, команди і фінансів через CRM і Telegram. Все під рукою навіть за тисячі кілометрів.",
+  "desc_en": "How to run a business remotely from Ukraine: control orders, your team and finances through a CRM and Telegram. Everything at hand even thousands of kilometers away.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Віддалене управління бізнесом з України | Devlly",
+    "te": "Running a Business Remotely from Ukraine | Devlly",
+    "d": "Як керувати бізнесом дистанційно з України: контроль замовлень, команди і фінансів через CRM і Telegram. Все під рукою навіть за тисячі кілометрів.",
+    "de": "How to run a business remotely from Ukraine: control orders, your team and finances through a CRM and Telegram. Everything at hand even thousands of kilometers away.",
+    "k": "віддалене управління бізнесом, керувати бізнесом дистанційно, дистанційне управління компанією, удаленное управление бизнесом, управлять бизнесом дистанционно, контроль бизнеса онлайн, remote business management, run business remotely, CRM для бізнесу, звіти в Telegram"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Склад у Польщі, команда в Україні, клієнти в Німеччині і засновник, який фізично може бути будь-де з ноутбуком і телефоном. Це вже не виняток, а звичайна конфігурація малого й середнього бізнесу. Але коли частина компанії опиняється за тисячі кілометрів, старі методи контролю через дзвінки, чати і памʼять перестають працювати. Віддалене управління бізнесом вимагає не сили волі, а системи: живих даних, чітких статусів і інструментів, які показують реальну картину без потреби бути присутнім особисто.",
+      "en": "A warehouse in Poland, a team in Ukraine, customers in Germany, and a founder who could physically be anywhere with a laptop and a phone. This is no longer an exception but a common setup for small and medium businesses. Yet when part of a company ends up thousands of kilometers away, old control habits built on calls, chats and memory stop working. Managing a business remotely takes not willpower but a system: live data, clear statuses and tools that show the real picture without requiring your physical presence."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке віддалене управління бізнесом і чому старі звички більше не рятують",
+      "en": "What remote business management actually means and why old habits no longer save you"
+    },
+    {
+      "t": "p",
+      "uk": "Класична модель контролю виглядала так: підприємець фізично в офісі або на складі, бачить процеси на власні очі, вирішує питання на ходу. Коли частина бізнесу переїжджає за кордон, ця модель ламається. Замовлення обробляються без вас, товар відвантажується без вас, клієнт телефонує менеджеру, а не власнику. Виникає відчуття, що бізнес живе своїм життям, і єдиний спосіб дізнатися, що відбувається, це подзвонити і запитати.",
+      "en": "The classic control model looked like this: the owner is physically at the office or warehouse, sees the processes firsthand, and solves issues on the spot. When part of the business moves abroad, this model breaks down. Orders get processed without you, goods ship without you, customers call a manager instead of the owner. It starts to feel like the business has a life of its own, and the only way to know what is happening is to call and ask."
+    },
+    {
+      "t": "p",
+      "uk": "Віддалене управління бізнесом це не про постійні дзвінки і не про камери на складі. Це про заміну особистої присутності потоком даних, який оновлюється сам. Коли статус замовлення, залишок на складі і відповідь клієнта видно в одному екрані, потреба фізично бути поруч зникає. Контроль тримається не на нервах засновника, а на структурі, яка працює однаково вдень і вночі, у будні і у вихідні.",
+      "en": "Managing a business remotely is not about constant phone calls or warehouse cameras. It is about replacing personal presence with a data flow that updates itself. When order status, stock levels and customer replies appear on one screen, the need to be physically nearby disappears. Control no longer rests on the founder's nerves but on a structure that works the same way day and night, on weekdays and weekends."
+    },
+    {
+      "t": "p",
+      "uk": "Різниця між власником, який контролює бізнес дистанційно, і власником, який його втрачає, зазвичай не в кількості годин роботи, а в наявності системи. Перший бачить проблему за хвилини після того, як вона виникла. Другий дізнається про неї від розлюченого клієнта через тиждень. Саме тому перехід на дистанційне управління варто починати не з питання «як довіряти команді», а з питання «звідки я беру дані про бізнес прямо зараз».",
+      "en": "The difference between an owner who controls the business remotely and one who loses control usually is not the number of hours worked but whether a system exists. The first sees a problem minutes after it appears. The second hears about it from an angry customer a week later. That is why switching to remote management should start not with the question of trusting the team but with the question of where your business data comes from right now."
+    },
+    {
+      "t": "h2",
+      "uk": "Живий дашборд замість дзвінків: бачити бізнес у реальному часі",
+      "en": "A live dashboard instead of phone calls: seeing your business in real time"
+    },
+    {
+      "t": "p",
+      "uk": "Найпростіший спосіб зруйнувати дистанційний контроль це чекати на звіт наприкінці дня. За цей час встигають зникнути товари, зірватися доставки і піти незадоволені клієнти. Живий дашборд вирішує це інакше: кількість нових замовлень, сума за день, статус кожної позиції і завантаженість команди оновлюються автоматично, щойно щось змінюється в CRM. Не потрібно просити менеджера скласти таблицю, дані вже там.",
+      "en": "The easiest way to break remote control is waiting for a report at the end of the day. In that time products can run out, deliveries can fall through, and customers can walk away unhappy. A live dashboard solves this differently: new orders, daily revenue, the status of every item and team workload update automatically the moment something changes in the CRM. There is no need to ask a manager for a spreadsheet, the data is already there."
+    },
+    {
+      "t": "p",
+      "uk": "Для бізнесу зі складом за кордоном особливо важливо бачити залишки і рух товару без запиту. Коли система показує, що конкретна позиція закінчується у Варшаві, а нова партія ще в дорозі з Києва, рішення про перерозподіл можна ухвалити за хвилину, а не після скарги клієнта. Саме такі деталі перетворюють управління бізнесом дистанційно з постійної тривоги на звичайну щоденну роботу.",
+      "en": "For a business with a warehouse abroad, it is especially important to see stock and product movement without asking. When the system shows that a specific item is running low in Warsaw while a new batch is still on the way from Kyiv, a redistribution decision can be made within a minute, not after a customer complaint. Details like this turn remote business management from constant anxiety into ordinary daily work."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM у телефоні: контроль замовлень і клієнтів з будь-якої точки світу",
+      "en": "A CRM in your pocket: controlling orders and customers from anywhere"
+    },
+    {
+      "t": "p",
+      "uk": "Телефон в аеропорту, кафе чи потязі це, по суті, робоче місце власника, який керує бізнесом здалеку. CRM з мобільним доступом дозволяє за тридцять секунд перевірити нове замовлення, подивитися історію спілкування з клієнтом і поставити задачу менеджеру, не відкриваючи ноутбук. Важливо, щоб інтерфейс на телефоні показував не спрощену версію даних, а ту саму картину, що і на компʼютері в офісі.",
+      "en": "A phone at the airport, a cafe or a train is essentially the workplace of an owner running a business from afar. A CRM with mobile access lets you check a new order, review a customer's message history and assign a task to a manager in thirty seconds, without opening a laptop. It matters that the phone interface shows the same picture as the office computer, not a stripped down version of the data."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто налаштувати статуси замовлень так, щоб вони самі говорили про проблеми. Якщо позиція «в обробці» висить довше двох годин або доставка позначена як затримана, система має підсвітити це червоним ще до того, як власник почне шукати причину вручну. Такий підхід прибирає найбільший страх дистанційного керівника: пропустити момент, коли щось пішло не так.",
+      "en": "It is also worth setting up order statuses so they flag problems on their own. If an item stays marked as processing for more than two hours, or a delivery is flagged as delayed, the system should highlight it in red before the owner even starts looking for the cause manually. This approach removes the biggest fear of a remote leader, missing the moment when something goes wrong."
+    },
+    {
+      "t": "p",
+      "uk": "На практиці це виглядає так: клієнт з Берліна оформлює замовлення о десятій ранку, товар відправляється зі складу в Гданську, а власник, який у цей момент перебуває в Києві або взагалі в дорозі, бачить весь ланцюжок у CRM на телефоні без жодного дзвінка команді. Якщо доставка курʼєрською службою затримується на кордоні, статус змінюється автоматично, і саме власник, а не клієнт, дізнається про це першим.",
+      "en": "In practice this looks like: a customer in Berlin places an order at ten in the morning, the item ships from a warehouse in Gdansk, and the owner, who at that moment might be in Kyiv or traveling, sees the whole chain in the CRM on their phone without a single call to the team. If a courier delivery is delayed at the border, the status updates automatically, and the owner, not the customer, finds out about it first."
+    },
+    {
+      "t": "h2",
+      "uk": "Часові пояси і звіти в Telegram: як тримати ритм без нічних дзвінків",
+      "en": "Time zones and Telegram reports: keeping the rhythm without midnight calls"
+    },
+    {
+      "t": "p",
+      "uk": "Різниця в кілька годин між локацією власника і командою здається дрібницею, поки не стає причиною нервових нічних дзвінків. Рішення не в тому, щоб бути на звʼязку цілодобово, а в тому, щоб критична інформація сама доходила у зручний момент. Ранковий звіт у Telegram з підсумками за попередню добу, кількістю замовлень, виручкою і списком проблемних кейсів замінює десять уточнювальних повідомлень.",
+      "en": "A few hours' time difference between the owner's location and the team seems minor until it becomes a reason for stressful late-night calls. The solution is not staying reachable around the clock but making sure critical information arrives at a convenient moment on its own. A morning Telegram report summarizing the previous day, order counts, revenue and a list of problem cases replaces ten follow-up messages."
+    },
+    {
+      "t": "p",
+      "uk": "Бот, який щодня надсилає короткий підсумок, і окремо сповіщає про нестандартні ситуації, наприклад скасоване замовлення на велику суму або скаргу клієнта, дає власнику саме той рівень уваги, який потрібен: не постійний нагляд, а точкове втручання тоді, коли воно справді важливе. Це і є баланс між контролем і довірою до команди на відстані.",
+      "en": "A bot that sends a short daily summary and separately flags unusual situations, such as a canceled high-value order or a customer complaint, gives the owner exactly the right level of attention: not constant oversight but targeted intervention exactly when it matters. This is the balance between control and trust in a team working at a distance."
+    },
+    {
+      "t": "h2",
+      "uk": "Делегувати, не скочуючись у мікроменеджмент: права доступу і межі відповідальності",
+      "en": "Delegating without sliding into micromanagement: access rights and boundaries of responsibility"
+    },
+    {
+      "t": "p",
+      "uk": "Спокуса контролювати кожен крок команди зростає саме тоді, коли фізичний контроль неможливий. Але щоденні дзвінки з питанням «як там справи» вбивають довіру швидше, ніж будь-яка помилка менеджера. Правильний рівень делегування починається з чітких прав доступу в CRM: хто бачить фінанси, хто редагує замовлення, хто спілкується з постачальниками. Коли межі прописані в системі, а не тримаються в голові власника, зникає потреба перепитувати кожну дію.",
+      "en": "The temptation to control every step of the team grows strongest exactly when physical oversight is impossible. But daily calls asking how things are going kill trust faster than any manager's mistake. Proper delegation starts with clear access rights in the CRM: who sees finances, who edits orders, who talks to suppliers. When boundaries live in the system rather than in the owner's head, the need to double check every action disappears."
+    },
+    {
+      "t": "p",
+      "uk": "Другий елемент це прозорі показники успіху для кожного члена команди: кількість оброблених замовлень, швидкість відповіді клієнту, відсоток повторних покупок. Коли людина знає, за якими цифрами її оцінюють, вона не чекає на схвалення власника після кожного кроку. Дистанційне управління бізнесом стає стійким саме тоді, коли команда працює за зрозумілими правилами, а не за вказівками з іншого часового поясу.",
+      "en": "The second element is transparent success metrics for every team member: orders processed, response speed, repeat purchase rate. When people know exactly which numbers they are measured by, they stop waiting for the owner's approval after every step. Managing a business remotely becomes sustainable precisely when the team works by clear rules instead of instructions from another time zone."
+    },
+    {
+      "t": "p",
+      "uk": "Devlly налаштовує саме таку інфраструктуру під ключ: CRM з мобільним доступом, живий дашборд, Telegram-бота для щоденних звітів і чіткі права для команди. Підприємець отримує повну картину бізнесу на телефоні, а не набір розрізнених таблиць і повідомлень, і може керувати компанією з будь-якої точки світу, зберігаючи контроль, а не імітуючи його щоденними дзвінками.",
+      "en": "Devlly builds exactly this kind of infrastructure end to end: a CRM with mobile access, a live dashboard, a Telegram bot for daily reports and clear team permissions. The owner gets a full picture of the business on their phone instead of a pile of scattered spreadsheets and messages, and can run the company from anywhere while keeping real control instead of just imitating it with daily phone calls."
+    }
+  ]
+}

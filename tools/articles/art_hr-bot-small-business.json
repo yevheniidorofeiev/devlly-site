@@ -1,0 +1,82 @@
+{
+  "title_uk": "HR бот для малого бізнесу: що автоматизувати першим",
+  "title_en": "HR bot for small business: what to automate first",
+  "desc_uk": "Які HR процеси малого бізнесу автоматизувати першими і як Telegram-бот замінює рутину рекрутера без дорогих HRM систем.",
+  "desc_en": "Which small-business HR processes to automate first and how a Telegram bot replaces recruiter routine without expensive HRM systems.",
+  "cta_uk": "Потрібна HR автоматизація? Пишіть нам",
+  "cta_en": "Need HR automation? Get in touch",
+  "seo": {
+    "t": "HR бот для малого бізнесу: з чого почати автоматизацію | Devlly",
+    "te": "HR bot for small business: where to start automation | Devlly",
+    "d": "Які HR процеси малого бізнесу автоматизувати першими і як Telegram-бот замінює рутину рекрутера без дорогих HRM систем.",
+    "de": "Which small-business HR processes to automate first and how a Telegram bot replaces recruiter routine without expensive HRM systems.",
+    "k": "HR бот для малого бізнесу, HR автоматизація, Telegram бот для рекрутингу, автоматизація найму, HR процеси, скринінг кандидатів, онбординг співробітників, HRM для малого бізнесу, автоматизація відбору персоналу, чат-бот рекрутера"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли у компанії 10-15 людей, окремого HR відділу зазвичай немає. Наймом, документами і графіками займається власник або офіс-менеджер у вільні хвилини. Через це на просту вакансію витрачається два тижні, половина відгуків залишається без відповіді, а новий співробітник перший тиждень не розуміє, до кого йти з питаннями. Хороша новина: щоб це виправити, не потрібна дорога HRM система за кілька тисяч доларів на рік. Достатньо одного Telegram-бота, який забирає найбільш рутинні операції. Питання лише в тому, що автоматизувати першим, бо робити все одразу - помилка. Нижче розберемо правильний порядок: від скринінгу до графіків змін.",
+      "en": "When a company has 10-15 people, there is usually no dedicated HR department. Hiring, paperwork and schedules are handled by the owner or an office manager in spare minutes. Because of this a simple vacancy takes two weeks to fill, half of the applications go unanswered, and a new hire spends the first week not knowing who to ask. The good news: fixing this does not require an expensive HRM system costing several thousand dollars a year. A single Telegram bot that takes over the most routine operations is enough. The only question is what to automate first, because doing everything at once is a mistake. Below we break down the right order: from screening to shift schedules."
+    },
+    {
+      "t": "h2",
+      "uk": "Скринінг кандидатів: перше, що варто автоматизувати",
+      "en": "Candidate screening: the first thing worth automating"
+    },
+    {
+      "t": "p",
+      "uk": "Уявіть вакансію продавця-консультанта, на яку прийшло 40 відгуків. Половина людей не мають потрібного графіка, ще частина не готова на вашу зарплату, а хтось живе на іншому кінці міста. Щоб це зрозуміти, власник пише кожному вручну і чекає відповіді по дню. У підсумку три-чотири дні йдуть просто на те, щоб відсіяти явно нерелевантних. Саме тому скринінг - логічний перший крок. Telegram-бот ставить кандидату 5-7 базових питань одразу після відгуку: графік, район, досвід, очікування по оплаті, готовність вийти на пробний день. Людина відповідає за дві хвилини, а власник бачить готову анкету.",
+      "en": "Imagine a sales assistant vacancy that got 40 applications. Half of the people do not have the required schedule, some are not willing to work for your salary, and someone lives on the other side of the city. To find this out, the owner writes to each person manually and waits a day for a reply. In the end three or four days go simply into filtering out the clearly irrelevant candidates. That is why screening is the logical first step. A Telegram bot asks the candidate 5-7 basic questions right after they apply: schedule, district, experience, salary expectations, readiness to come for a trial day. The person answers in two minutes, and the owner sees a ready profile."
+    },
+    {
+      "t": "p",
+      "uk": "Ефект відчувається одразу. Замість 40 хаотичних переписок власник отримує таблицю з відповідями, де видно, хто підходить за формальними ознаками, а хто ні. З 40 людей після автоматичного скринінгу залишається умовно 12 релевантних, і саме з ними вже має сенс говорити голосом. Час на первинний відбір падає з кількох днів до пари годин. Важливо, що бот не приймає рішення за вас - він лише прибирає механічну частину: збір даних і фільтрацію за жорсткими критеріями. Живе спілкування, оцінка людини і фінальний вибір залишаються за вами, і саме на це тепер є час.",
+      "en": "The effect is felt immediately. Instead of 40 chaotic chats the owner gets a table of answers showing who fits by formal criteria and who does not. Out of 40 people, after automatic screening roughly 12 relevant ones remain, and those are the people worth talking to by voice. Time spent on the initial selection drops from several days to a couple of hours. Importantly, the bot does not make the decision for you - it only removes the mechanical part: data collection and filtering by hard criteria. Live communication, judging the person and the final choice stay with you, and now there is actually time for that."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування і комунікація: другий крок HR автоматизації",
+      "en": "Reminders and communication: the second step of HR automation"
+    },
+    {
+      "t": "p",
+      "uk": "Другий за важливістю блок - нагадування. У малому бізнесі найбільше зривів трапляється не через погані рішення, а через забуті домовленості. Кандидат мав вийти на пробний день і не прийшов, бо йому ніхто не нагадав. Співробітник забув про підписання договору. Стажеру не написали, коли і куди приходити. Кожен такий збій коштує грошей і нервів. Бот закриває цей пробіл: за день і за годину до співбесіди він сам надсилає нагадування з адресою, часом і контактом. Якщо людина не підтвердила - ви бачите це заздалегідь і встигаєте передзвонити наступному кандидату.",
+      "en": "The second most important block is reminders. In small businesses most failures happen not because of bad decisions but because of forgotten arrangements. A candidate was supposed to come for a trial day and did not, because nobody reminded them. An employee forgot about signing the contract. An intern was not told when and where to show up. Every such glitch costs money and nerves. The bot closes this gap: a day before and an hour before the interview it sends a reminder itself with the address, time and contact. If the person has not confirmed, you see it in advance and have time to call the next candidate."
+    },
+    {
+      "t": "p",
+      "uk": "Та сама логіка працює і всередині команди. Бот нагадує про завершення випробувального терміну, про дедлайн подачі документів, про планову співбесіду з керівником через три місяці роботи. Замість того щоб тримати десяток дат у голові або в розкиданих нотатках, власник має один канал, який спрацьовує вчасно. За відгуками, саме автоматичні нагадування дають найшвидший помітний ефект: кількість «забув, вибачте» падає майже до нуля вже в перший місяць. Це недорога функція, але вона напряму впливає на те, скільки домовленостей реально доходить до результату, а не губиться дорогою.",
+      "en": "The same logic works inside the team. The bot reminds about the end of the probation period, about a document submission deadline, about a planned review with the manager after three months of work. Instead of keeping a dozen dates in your head or in scattered notes, the owner has one channel that fires on time. According to feedback, automatic reminders give the fastest noticeable effect: the number of \"sorry, I forgot\" moments drops to almost zero within the first month. It is an inexpensive feature, but it directly affects how many arrangements actually reach a result instead of getting lost along the way."
+    },
+    {
+      "t": "h2",
+      "uk": "Онбординг новачка: як бот замінює рутину рекрутера",
+      "en": "Onboarding a newcomer: how a bot replaces recruiter routine"
+    },
+    {
+      "t": "p",
+      "uk": "Третій крок - онбординг, тобто перші дні нового співробітника. У компанії без HR це майже завжди хаос: новачок сидить і чекає, поки хтось звільниться, щоб показати, де лежать інструкції та як оформити доступи. Три години першого дня людина витрачає на те, що можна пройти за десять хвилин у структурованому вигляді. Бот дає новачку покроковий чек-лист: які документи принести, кому написати за доступом, де знайти правила і графік. Усе в одному чаті, доступне будь-коли, без потреби смикати колег кожні п'ять хвилин.",
+      "en": "The third step is onboarding, that is, the first days of a new employee. In a company without HR this is almost always chaos: the newcomer sits and waits for someone to be free to show where the instructions are and how to set up access. Three hours of the first day are spent on something that could take ten minutes in a structured form. The bot gives the newcomer a step-by-step checklist: which documents to bring, whom to message for access, where to find the rules and the schedule. Everything is in one chat, available anytime, without the need to pull colleagues away every five minutes."
+    },
+    {
+      "t": "p",
+      "uk": "Для власника головна вигода в тому, що онбординг перестає залежати від його особистої присутності. Раніше кожного новачка треба було особисто провести за руку, і якщо в цей день власник у відрядженні - старт зривався. Тепер сценарій однаковий для всіх: людина відкриває бота і йде за кроками, а керівник лише бачить, на якому етапі вона зараз. Це особливо важливо, коли ви наймаєте кількох людей поспіль, наприклад перед відкриттям нової точки. Замість того щоб повторювати одне й те саме десять разів, ви налаштовуєте сценарій один раз, і він працює на кожного наступного співробітника без вашої участі.",
+      "en": "For the owner the main benefit is that onboarding stops depending on their personal presence. Previously each newcomer had to be walked through by hand, and if the owner was away on a business trip that day, the start fell apart. Now the scenario is the same for everyone: the person opens the bot and follows the steps, while the manager just sees which stage they are at. This matters especially when you hire several people in a row, for example before opening a new location. Instead of repeating the same thing ten times, you set up the scenario once and it works for every next employee without your involvement."
+    },
+    {
+      "t": "h2",
+      "uk": "Відпустки і графіки змін: коли додавати цей рівень",
+      "en": "Leave and shift schedules: when to add this level"
+    },
+    {
+      "t": "p",
+      "uk": "Останній за пріоритетом, але не за важливістю блок - облік відпусток, лікарняних і графіків змін. Його варто автоматизувати тоді, коли базові процеси вже налагоджені, а команда виросла настільки, що узгодження вихідних у месенджері перетворюється на плутанину. Уявіть кав'ярню з дванадцятьма бариста і трьома змінами: хтось просить помінятися, хтось іде у відпустку, і все це живе в одному переповненому чаті. Бот дозволяє співробітнику подати заявку на відпустку чи обмін зміни в кілька натискань, а керівник підтверджує або відхиляє її одним дотиком, бачачи повний графік.",
+      "en": "The last in priority but not in importance block is tracking leave, sick days and shift schedules. It is worth automating once the basic processes are already in place and the team has grown enough that coordinating days off in a messenger turns into confusion. Imagine a coffee shop with twelve baristas and three shifts: someone asks to swap, someone goes on leave, and all of it lives in one overloaded chat. The bot lets an employee submit a leave request or a shift swap in a few taps, and the manager approves or rejects it with one touch while seeing the full schedule."
+    },
+    {
+      "t": "p",
+      "uk": "Головна помилка малого бізнесу - хапатися саме за цей рівень першим, бо він здається найскладнішим і найважливішим. Насправді без налагодженого скринінгу, нагадувань і онбордингу автоматизація графіків дає менший ефект, ніж могла б. Тому дотримуйтесь порядку: спершу відбір, потім комунікація, далі старт новачка і лише тоді змінний облік. Такий підхід дає результат уже на першому кроці й не вимагає великого бюджету наперед. Devlly якраз будує подібні Telegram-рішення під конкретний бізнес: ми починаємо з одного найболючішого процесу і нарощуємо решту поступово, коли команда до цього готова.",
+      "en": "The main mistake small businesses make is grabbing exactly this level first, because it seems the hardest and most important. In reality, without established screening, reminders and onboarding, automating schedules gives a smaller effect than it could. So follow the order: first selection, then communication, then the newcomer's start, and only then shift tracking. This approach delivers results already at the first step and does not require a large budget upfront. Devlly builds exactly this kind of Telegram solutions for a specific business: we start with the single most painful process and grow the rest gradually, when the team is ready for it."
+    }
+  ]
+}

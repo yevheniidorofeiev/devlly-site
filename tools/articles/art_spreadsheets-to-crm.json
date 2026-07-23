@@ -1,0 +1,122 @@
+{
+  "title_uk": "Коли переходити з таблиць на CRM: ознаки і покроковий план",
+  "title_en": "When to Move from Spreadsheets to a CRM: Signs and a Step by Step Plan",
+  "desc_uk": "5 чітких ознак що ваш бізнес переріс Google Таблиці. Покроковий план переходу на CRM без втрати даних і зупинки роботи.",
+  "desc_en": "5 clear signs your business has outgrown Google Sheets. A step by step plan for moving to a CRM without losing data or stopping work.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Коли переходити з таблиць на CRM систему | Devlly",
+    "te": "When to Move from Spreadsheets to a CRM System | Devlly",
+    "d": "5 чітких ознак що ваш бізнес переріс Google Таблиці. Покроковий план переходу на CRM без втрати даних і зупинки роботи.",
+    "de": "5 clear signs your business has outgrown Google Sheets. A step by step plan for moving to a CRM without losing data or stopping work.",
+    "k": "перехід з таблиць на CRM, ознаки що бізнес переріс Google Таблиці, покроковий план переходу на CRM, міграція даних у CRM, помилки при впровадженні CRM, CRM замість Google Таблиць, автоматизація обліку клієнтів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Google Таблиці - чудовий інструмент на старті: безкоштовно, швидко, зрозуміло всім. Але настає момент, коли файл із лідами перетворюється на джерело помилок, а не на робочий інструмент. Нижче - пʼять чітких ознак, що бізнес переріс таблиці, підрахунок того, що ви втрачаєте, і покроковий план переходу на CRM без зупинки роботи.",
+      "en": "Google Sheets is a great tool at the start: free, fast, understandable to everyone. But there comes a moment when the file with your leads turns into a source of errors rather than a working tool. Below are five clear signs that a business has outgrown spreadsheets, a calculation of what you are losing, and a step by step plan for moving to a CRM without stopping work."
+    },
+    {
+      "t": "h2",
+      "uk": "Пʼять ознак що ваш бізнес переріс Google Таблиці",
+      "en": "Five signs your business has outgrown Google Sheets"
+    },
+    {
+      "t": "p",
+      "uk": "Перша ознака - формули ламаються. Хтось вставив рядок не туди, хтось скопіював діапазон з іншого аркуша, і зведення показує неправильні суми. Якщо раз на тиждень хтось питає «чому тут інша цифра», ви вже платите за таблиці робочим часом команди. Друга ознака - немає розмежування доступу. У Таблицях доступ дається на весь файл: менеджер бачить усі угоди, маржу, контакти клієнтів інших продавців і закупівельні ціни. Обмежити це на рівні рядків неможливо, а приховані аркуші відкриваються за десять секунд.",
+      "en": "The first sign is broken formulas. Someone inserted a row in the wrong place, someone copied a range from another sheet, and the summary shows the wrong totals. If once a week someone asks why a number is different, you are already paying for spreadsheets with the working hours of your team. The second sign is no access control. In Sheets access is granted to the whole file: a manager sees every deal, the margin, client contacts belonging to other salespeople and purchase prices. You cannot limit this at row level, and hidden sheets can be unhidden in ten seconds."
+    },
+    {
+      "t": "p",
+      "uk": "Третя ознака - ліди губляться. Заявка з сайту, повідомлення в Telegram, дзвінок і лист на пошту приходять у різні місця, а в таблицю потрапляє лише частина. За нашим досвідом при ручному перенесенні втрачається від 10 до 20 відсотків звернень, і ніхто цього не помічає, бо немає з чим звіряти. Менеджер просто не бачить того, чого не записав.",
+      "en": "The third sign is lost leads. A form on the site, a Telegram message, a phone call and an email all arrive in different places, and only part of them makes it into the spreadsheet. In our experience manual transfer loses between 10 and 20 percent of enquiries, and nobody notices because there is nothing to compare against. A manager simply does not see what he never wrote down."
+    },
+    {
+      "t": "p",
+      "uk": "Четверта ознака - немає історії. Комірку перезаписали, і ви вже не знаєте, хто змінив статус угоди, коли і чому. Історія версій у Таблицях формально є, але шукати в ній конкретну правку по конкретному клієнту нереально. Пʼята ознака - немає нагадувань і аналітики. Таблиця не подзвонить менеджеру, не підніме забуту угоду через три дні і не покаже конверсію по етапах воронки чи середній цикл угоди без години ручної роботи.",
+      "en": "The fourth sign is no history. A cell gets overwritten and you no longer know who changed the deal status, when, or why. Sheets formally has version history, but finding a specific edit for a specific client in it is not realistic. The fifth sign is no reminders and no analytics. A spreadsheet will not call the manager, will not raise a forgotten deal after three days, and will not show funnel stage conversion or the average deal cycle without an hour of manual work."
+    },
+    {
+      "t": "h2",
+      "uk": "Що ви втрачаєте залишаючись у таблицях",
+      "en": "What you lose by staying in spreadsheets"
+    },
+    {
+      "t": "p",
+      "uk": "Найдорожче - це втрачені гроші на угодах, до яких не повернулися вчасно. Якщо у вас 200 звернень на місяць, середній чек 500 доларів і конверсія 15 відсотків, то навіть 10 відсотків загублених лідів - це близько 1500 доларів недоотриманого доходу щомісяця. За рік сума перевищує вартість розробки нормальної системи, і це без урахування повторних продажів, які теж не відбулися.",
+      "en": "The most expensive loss is money on deals nobody came back to in time. If you get 200 enquiries a month, an average order value of 500 dollars and a 15 percent conversion rate, then even 10 percent of lost leads is around 1500 dollars of missed revenue every month. Over a year that exceeds the cost of building a proper system, and that is before the repeat sales that also never happened."
+    },
+    {
+      "t": "p",
+      "uk": "Друга втрата - час керівника. Замість того щоб приймати рішення, він щотижня зводить дані вручну, звіряє вкладки і перепитує менеджерів, чому цифри не сходяться. Це легко перетворюється на пʼять-вісім годин на місяць. Третя втрата - ризик даних. Один файл із усією клієнтською базою вивантажується у CSV за секунду і йде разом зі звільненим співробітником, а довести це технічно майже неможливо.",
+      "en": "The second loss is management time. Instead of making decisions, they spend every week merging data by hand, cross checking tabs and asking the sales team why the numbers do not add up. That easily turns into five to eight hours a month. The third loss is data risk. One file with the entire client base exports to CSV in a second and walks out with a departing employee, and proving it technically is close to impossible."
+    },
+    {
+      "t": "p",
+      "uk": "Четверта втрата - масштабування. Таблиця з понад пʼятьма тисячами рядків і десятком важких формул починає відчутно гальмувати, а одночасна робота пʼяти людей у ній перетворюється на конфлікти правок і випадкові перезаписи. Ви фактично впираєтеся у стелю: додати нового менеджера, новий напрямок чи новий канал продажів стає дорожче і болючіше, ніж один раз побудувати систему під свій процес.",
+      "en": "The fourth loss is scale. A sheet with more than five thousand rows and a dozen heavy formulas starts to lag noticeably, and five people working in it at once turns into edit conflicts and accidental overwrites. You effectively hit a ceiling: adding a new manager, a new product line or a new sales channel becomes more expensive and more painful than building a system around your process once."
+    },
+    {
+      "t": "h2",
+      "uk": "Покроковий план переходу з таблиць на CRM",
+      "en": "A step by step plan for moving from spreadsheets to a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Крок перший - аудит полів. Випишіть, які колонки реально використовуються щодня, а які лишилися з минулого року і давно порожні. Зазвичай із сорока колонок робочими виявляються пʼятнадцять. Крок другий - чистка даних: дублі, порожні і невалідні телефони, різні формати дат, «Іван Петренко» та «іван петренко» як два різні клієнти. Чистити треба до імпорту, а не після, інакше ви перенесете безлад у нову систему і будете розбирати його вдвічі довше.",
+      "en": "Step one is a field audit. Write down which columns are actually used daily and which are left over from last year and long empty. Usually fifteen of forty columns turn out to be the working ones. Step two is cleaning the data: duplicates, empty and invalid phone numbers, different date formats, the same client written two different ways. Clean before the import, not after, otherwise you carry the mess into the new system and spend twice as long untangling it."
+    },
+    {
+      "t": "p",
+      "uk": "Крок третій - вибір моделі. Опишіть свої сутності: клієнт, угода, задача, документ, оплата. Визначте етапи воронки і правила переходу між ними, а також обовʼязкові поля на кожному етапі. Саме тут вирішується, чи буде система зручною, чи менеджери почнуть її обходити. Крок четвертий - імпорт. Спочатку тестовий, на пʼятдесяти записах, щоб перевірити відповідність полів і кодування, і лише потім повний.",
+      "en": "Step three is choosing the model. Describe your entities: client, deal, task, document, payment. Define the funnel stages and the rules for moving between them, plus the required fields at each stage. This is where it is decided whether the system will be convenient or whether the sales team will start working around it. Step four is the import. A test one first, on fifty records, to check field mapping and encoding, and only then the full one."
+    },
+    {
+      "t": "p",
+      "uk": "Крок пʼятий - паралельна робота. Один-два тижні команда веде дані і в таблиці, і в CRM. Це страховка: якщо щось не врахували, це стає видно одразу, а не через місяць. Крок шостий - навчання команди. Достатньо однієї години демонстрації на реальних угодах і короткої інструкції на два аркуші. Крок сьомий - вимкнути таблицю: закрити доступ на запис і залишити її тільки для читання як архів.",
+      "en": "Step five is running in parallel. For one or two weeks the team keeps data both in the spreadsheet and in the CRM. This is your insurance: if something was missed, it shows up immediately rather than a month later. Step six is training the team. One hour of demonstration on real deals plus a two page instruction sheet is enough. Step seven is switching the spreadsheet off: revoke write access and leave it read only as an archive."
+    },
+    {
+      "t": "h2",
+      "uk": "Міграція даних без зупинки роботи",
+      "en": "Data migration without stopping work"
+    },
+    {
+      "t": "p",
+      "uk": "Міграція даних - технічно найпростіший, але найризикованіший етап. Правило одне: таблиця залишається живою доти, доки CRM повністю не відтворює щоденні процеси. Ніколи не переносьте дані ввечері пʼятниці і не вмикайте систему в пік сезону, коли навантаження на менеджерів максимальне.",
+      "en": "Data migration is technically the simplest but the riskiest stage. There is one rule: the spreadsheet stays alive until the CRM fully reproduces the daily processes. Never migrate on a Friday evening and never switch the system on at peak season, when the load on the sales team is at its highest."
+    },
+    {
+      "t": "p",
+      "uk": "Перед імпортом зробіть копію файлу і зафіксуйте дату зрізу. Усі записи, створені після зрізу, переносьте окремою партією. Присвойте кожному запису унікальний ідентифікатор, щоб можна було звірити кількість до і після. Якщо в таблиці 3200 клієнтів, у CRM після імпорту має бути рівно 3200 плюс нові. Розбіжність навіть у пʼять записів означає, що щось відпало при мапінгу полів.",
+      "en": "Before the import, make a copy of the file and fix a cutoff date. Everything created after the cutoff is migrated as a separate batch. Give every record a unique identifier so you can compare counts before and after. If the spreadsheet has 3200 clients, the CRM after import must have exactly 3200 plus the new ones. A gap of even five records means something dropped during field mapping."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо продумайте інтеграції: форма на сайті, Telegram бот, телефонія, пошта. Заявки мають потрапляти в CRM автоматично з першого дня, інакше команда за звичкою повернеться до таблиці. Автоматичний збір лідів - головна причина, через яку люди приймають нову систему: вона економить їм час, а не додає ще одне вікно, куди треба щось вписувати руками.",
+      "en": "Plan the integrations separately: the website form, the Telegram bot, telephony, email. Enquiries must land in the CRM automatically from day one, otherwise the team will drift back to the spreadsheet out of habit. Automatic lead capture is the main reason people accept a new system: it saves them time instead of adding one more window to type things into by hand."
+    },
+    {
+      "t": "h2",
+      "uk": "Типові помилки при переході на CRM",
+      "en": "Common mistakes when migrating to a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Помилка перша - переносити хаос. Якщо процес не описаний, CRM просто зробить безлад швидшим і дорожчим. Помилка друга - тягнути всі поля «про всяк випадок». Що більше полів, то менше їх заповнюють: пʼятнадцять обовʼязкових полів на картці угоди гарантовано призводять до того, що половина стоятиме порожньою. Помилка третя - запускати без відповідального. Має бути одна людина, яка відповідає за коректність даних у перші два-три місяці.",
+      "en": "Mistake one is migrating the chaos. If the process is not described, a CRM will simply make the mess faster and more expensive. Mistake two is dragging in every field just in case. The more fields there are, the fewer get filled in: fifteen required fields on a deal card guarantees that half will stay empty. Mistake three is launching without an owner. There has to be one person responsible for data quality in the first two or three months."
+    },
+    {
+      "t": "p",
+      "uk": "Помилка четверта - залишити таблицю відкритою на запис. Поки існує два джерела правди, команда користується звичним, і дані розʼїжджаються вже за тиждень. Помилка пʼята - обирати систему за списком функцій, а не за своїм процесом. Універсальна CRM часто вимагає перебудувати роботу під себе, і сумарно з підписками, доробками та інтеграціями це коштує дорожче, ніж здається на етапі вибору.",
+      "en": "Mistake four is leaving the spreadsheet open for editing. While two sources of truth exist, the team uses the familiar one and the data diverges within a week. Mistake five is choosing a system by its feature list rather than by your own process. A generic CRM often requires rebuilding your work around it, and with subscriptions, customisation and integrations combined it costs more than it looks at the selection stage."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо ваш процес не вкладається в коробкове рішення, є сенс дивитися в бік власної системи під конкретну воронку, ролі та інтеграції. У Devlly ми якраз будуємо такі CRM і автоматизацію під замовлення - разом із перенесенням даних із таблиць, розмежуванням доступів і підключенням сайту, Telegram та телефонії, щоб перехід пройшов без зупинки продажів.",
+      "en": "If your process does not fit a boxed solution, it is worth looking at a custom system built around your specific funnel, roles and integrations. At Devlly we build exactly this kind of custom CRM and automation - including migrating data out of spreadsheets, setting up access control and connecting the website, Telegram and telephony, so the switch happens without pausing sales."
+    }
+  ]
+}

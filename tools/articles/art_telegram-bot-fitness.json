@@ -1,0 +1,97 @@
+{
+  "title_uk": "Telegram-бот для фітнес-клубу та персональних тренерів",
+  "title_en": "A Telegram bot for gyms and personal trainers",
+  "date_uk": "27 СІЧ 2026",
+  "date_en": "JAN 27, 2026",
+  "desc_uk": "Як бот бере на себе запис на тренування, ліміт місць, абонементи й нагадування - і повертає клієнтів, які перестали ходити. Реальні сценарії, цифри та типові помилки.",
+  "desc_en": "How a bot takes over class booking, seat limits, memberships and reminders - and brings back clients who stopped showing up. Real scenarios, numbers and common mistakes.",
+  "seo": {
+    "t": "Telegram-бот для фітнес-клубу та тренера: запис і абонементи | Devlly",
+    "te": "Telegram bot for gyms and personal trainers: booking and memberships | Devlly",
+    "d": "Telegram бот для фітнес клубу: запис на тренування, ліміт місць, лист очікування, абонементи, автосписання занять, нагадування та оплата в боті.",
+    "de": "A Telegram bot for a fitness club: class booking, seat limits, waitlists, memberships, automatic session deduction, reminders and in-bot payments.",
+    "k": "telegram бот для фітнес клубу, бот для тренера, запис на тренування, автоматизація фітнес клубу, абонемент у боті, нагадування про тренування"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Адміністратор фітнес-клубу витрачає більшу частину зміни на однакові дії: відповісти, чи є місця на груповий пілатес о 19:00, записати клієнта, знайти в зошиті, скільки занять лишилося в абонементі, і передзвонити тому, хто не приходив три тижні. Персональний тренер робить те саме сам - між підходами, у перервах і ввечері після залу. Telegram-бот забирає цю рутину: він показує розклад, тримає ліміт місць, списує заняття з абонемента й нагадує клієнту прийти. Нижче - конкретно, з яких блоків складається такий бот, які сценарії реально приносять гроші, і де найчастіше помиляються, коли автоматизують клуб.",
+      "en": "A gym administrator spends most of a shift on the same handful of actions: answering whether there are free spots in the 7 p.m. group Pilates class, booking a client, digging through a notebook to find how many sessions are left on a membership, and calling back someone who hasn’t shown up for three weeks. A personal trainer does all of this alone - between sets, in the gaps, and in the evening after the gym closes. A Telegram bot takes this routine away: it shows the schedule, enforces seat limits, deducts sessions from the membership and reminds the client to come. Below is exactly what such a bot is made of, which scenarios actually bring in money, and where people most often go wrong when automating a club."
+    },
+    {
+      "t": "h2",
+      "uk": "Що саме автоматизує telegram бот для фітнес клубу",
+      "en": "What a Telegram bot for a fitness club actually automates"
+    },
+    {
+      "t": "p",
+      "uk": "Почніть із простого підрахунку. Якщо клуб проводить 40 групових занять на тиждень і на кожне записується в середньому 12 людей, адміністратор обробляє близько 500 записів, скасувань і перезаписів щотижня. Додайте питання про вільні місця, продовження абонементів і уточнення розкладу - і виходить дві-три години телефону та переписки щодня. Бот закриває приблизно 70-80 відсотків цих звернень без людини: клієнт відкриває розклад, бачить, що на йогу о 19:00 лишилося два місця з дванадцяти, тисне «Записатися» й одразу отримує підтвердження. Адміністратор бачить актуальний список у своїй панелі та не переписує його вручну.",
+      "en": "Start with simple arithmetic. If a club runs 40 group classes a week and each one is booked by an average of 12 people, the administrator handles roughly 500 bookings, cancellations and rebookings every week. Add questions about free spots, membership renewals and schedule details, and you get two to three hours of phone calls and chats every single day. A bot closes about 70-80 percent of these requests without a human: the client opens the schedule, sees that two of twelve spots are left in the 7 p.m. yoga class, taps “Book” and instantly gets a confirmation. The administrator sees an up-to-date list in their panel and never rewrites it by hand."
+    },
+    {
+      "t": "p",
+      "uk": "Друга причина - клієнт уже в Telegram. Йому не треба ставити окремий застосунок, реєструватися, згадувати пароль і чекати, доки завантажиться сторінка запису. Шлях від «хочу піти на тренування» до «я записаний» займає три тиски й кілька секунд. Для клубу це прямо впливає на завантаженість залів: що менше тертя в записі, то менше людей відкладає рішення «на потім» і забуває про нього. За нашим досвідом, після переходу з телефонних записів на бот кількість скасувань у день заняття падає - скасувати через бот легко й не соромно, а звільнене місце одразу бачить наступний клієнт зі списку очікування.",
+      "en": "The second reason is that the client is already in Telegram. There is no separate app to install, no registration, no password to recall, no booking page to wait for. The path from “I want to work out” to “I’m booked” takes three taps and a few seconds. For the club this directly affects how full the studios are: the less friction there is in booking, the fewer people postpone the decision and then forget about it. In our experience, after moving from phone bookings to a bot, same-day cancellations drop - cancelling through a bot is easy and doesn’t feel awkward, and the freed-up spot is immediately visible to the next client on the waitlist."
+    },
+    {
+      "t": "h2",
+      "uk": "Запис на тренування: ліміт місць і лист очікування",
+      "en": "Class booking: seat limits and the waitlist"
+    },
+    {
+      "t": "p",
+      "uk": "Головна логіка боту - це не «форма заявки», а керування місцями. У кожного заняття є тренер, зал, час і жорсткий ліміт: дванадцять місць на груповий стретчинг, вісім на TRX, шість на реформери. Бот показує розклад на тиждень уперед, а поруч із кожним слотом - реальний залишок. Коли місць немає, кнопка «Записатися» змінюється на «У лист очікування». Це критична деталь: без листа очікування ви втрачаєте і клієнта, який хотів прийти, і гроші за місце, яке звільнилося за годину до заняття.",
+      "en": "The core logic of the bot is not a “request form” but seat management. Every class has a trainer, a studio, a time and a hard limit: twelve spots for group stretching, eight for TRX, six for reformer Pilates. The bot shows the schedule a week ahead, and next to each slot - the real number of spots left. When a class is full, the “Book” button turns into “Join the waitlist.” This is a critical detail: without a waitlist you lose both the client who wanted to come and the money for a spot that freed up an hour before the class."
+    },
+    {
+      "t": "p",
+      "uk": "Лист очікування працює автоматично. Хтось скасовує запис - бот миттєво пише першому в черзі: «Звільнилося місце на пілатес сьогодні о 19:00, підтвердіть протягом 15 хвилин». Не підтвердив - пропозиція йде наступному. Таймер обов’язковий, інакше місце висітиме зарезервованим за людиною, яка вже не читає чат. Ще одна деталь, яку часто забувають, - правило скасування. Зазвичай ставлять поріг у 3-6 годин до початку: скасував раніше - заняття повертається на абонемент, пізніше або не прийшов - списується. Це правило треба прописати в боті, а не тримати «в голові адміністратора», бо саме навколо нього виникає більшість конфліктів із клієнтами.",
+      "en": "The waitlist runs itself. Someone cancels - and the bot immediately writes to the first person in the queue: “A spot opened up in today’s 7 p.m. Pilates class, please confirm within 15 minutes.” No confirmation means the offer moves to the next person. The timer is mandatory, otherwise the spot stays reserved for someone who has stopped reading the chat. Another detail people often forget is the cancellation rule. The usual threshold is 3-6 hours before the start: cancel earlier and the session goes back onto the membership; cancel later or simply don’t show up and it is deducted. This rule must be encoded in the bot rather than kept “in the administrator’s head,” because it is exactly what most conflicts with clients grow out of."
+    },
+    {
+      "t": "h2",
+      "uk": "Абонементи, персональні тренування й автосписання заняття",
+      "en": "Memberships, personal training and automatic session deduction"
+    },
+    {
+      "t": "p",
+      "uk": "Абонемент у боті - це не картка з печатками, а лічильник. Клієнт бачить у розділі «Мій абонемент» тип (безлімітний, 8 занять, 12 занять), дату закінчення й точний залишок. Заняття списується автоматично після відвідування - коли тренер чи адміністратор позначає присутність або коли клієнт сканує QR-код на рецепції. Ключовий момент: списувати за фактом, а не за записом. Інакше людина, яка записалася й не прийшла через хворобу, втрачає заняття «через бот» і йде скандалити на рецепцію. Правило нон-шоу має бути окремим, м’якшим і прозорим - наприклад, перше пропущене заняття на місяць не списується.",
+      "en": "A membership inside the bot is not a card with stamps but a counter. In the “My membership” section the client sees the type (unlimited, 8 sessions, 12 sessions), the expiry date and the exact number of sessions left. A session is deducted automatically after the visit - when the trainer or administrator marks attendance, or when the client scans a QR code at the front desk. The key point is to deduct on attendance, not on booking. Otherwise someone who booked and then fell ill loses a session “because of the bot” and comes to argue at the desk. The no-show rule must be separate, softer and transparent - for example, the first missed class each month is not deducted."
+    },
+    {
+      "t": "p",
+      "uk": "Персональні тренування живуть за іншою логікою: там не група, а слоти конкретного тренера. Бот показує календар Олега на найближчі три дні з вільними годинами, клієнт обирає час, тренер отримує повідомлення й підтверджує. Тут теж важливий ліміт - тренер не повинен опинитися з двома персоналками в одну годину, тому слот блокується в момент запису, а не після підтвердження. У боті ж клієнт отримує план тренувань і план харчування: окремим розділом, який тренер оновлює раз на тиждень. Це знімає з тренера ще одну рутину - не треба щоразу шукати файл у переписці й пересилати його заново кожному, хто його загубив.",
+      "en": "Personal training follows a different logic: there is no group, only the slots of a specific trainer. The bot shows Oleh’s calendar for the next three days with the free hours, the client picks a time, the trainer gets a notification and confirms it. A limit matters here too - a trainer must never end up with two personal sessions in the same hour, so the slot is locked at the moment of booking, not after confirmation. The bot is also where the client gets their training plan and meal plan: a separate section the trainer updates once a week. That removes one more routine from the trainer - no more digging a file out of an old chat and resending it to everyone who lost it."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування про тренування: як бот для тренера повертає клієнтів",
+      "en": "Workout reminders: how a trainer’s bot brings clients back"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільші гроші у фітнесі не в новому клієнті, а в тому, хто вже заплатив і перестав ходити. Бот закриває це двома типами нагадувань. Перше - про тренування: повідомлення за 24 години й за 2 години до заняття з можливістю скасувати одним тиском. Це знижує кількість нон-шоу, а скасування приходять завчасно, тож місце встигає піти в лист очікування. Друге - про абонемент: коли лишається два заняття або сім днів до закінчення, бот пише про це й одразу пропонує продовжити з кнопкою оплати. Продовжити в момент, коли людина ще в ритмі, набагато простіше, ніж повертати її через місяць.",
+      "en": "The biggest money in fitness is not in a new client but in the one who already paid and stopped coming. The bot covers this with two types of reminders. The first is about the workout: a message 24 hours and 2 hours before the class, with a one-tap cancel option. That reduces no-shows, and cancellations arrive early enough for the spot to go to the waitlist. The second is about the membership: when two sessions or seven days are left, the bot says so and immediately offers a renewal with a payment button. Renewing while the person is still in rhythm is far easier than winning them back a month later."
+    },
+    {
+      "t": "p",
+      "uk": "Окремий сценарій - «сплячі» клієнти. Бот бачить, хто не був у залі 14 днів при активному абонементі, і надсилає персональне повідомлення: скільки занять згорить, який слот вільний завтра, іноді - невеликий бонус на повернення. Це найдешевший канал реактивації, який у вас узагалі є: аудиторія вже платить, база вже зібрана, вартість повідомлення нульова. Важливо не перегнути. Три нагадування на тиждень від клубу - це вже спам, і людина просто заблокує бот, після чого ви втратите з нею зв’язок назавжди. Робоча частота - не більше двох сервісних повідомлень на тиждень плюс те, що клієнт запросив сам.",
+      "en": "A separate scenario is the “sleeping” client. The bot sees who hasn’t been to the gym for 14 days while holding an active membership, and sends a personal message: how many sessions will expire, which slot is free tomorrow, sometimes a small bonus for coming back. This is the cheapest reactivation channel you have: the audience already pays, the database is already there, and a message costs nothing. Just don’t overdo it. Three reminders a week from a gym is spam, and the person will simply block the bot - after which you lose contact with them for good. A workable frequency is no more than two service messages a week, plus whatever the client asked for themselves."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація фітнес клубу: оплата абонемента й статистика для власника",
+      "en": "Fitness club automation: membership payments and owner analytics"
+    },
+    {
+      "t": "p",
+      "uk": "Оплата абонемента прямо в боті закриває розрив між «хочу продовжити» і «дійду до рецепції». Підключається платіжний провайдер, клієнт обирає тариф, платить карткою - і абонемент активується автоматично, без участі адміністратора й без ручного внесення в таблицю. Тут же логічно живуть заморозка абонемента, купівля разового заняття та пакет персоналок. Кожна оплата одразу лягає в базу, тож наприкінці місяця не треба зводити чеки з зошитом і згадувати, хто заплатив готівкою, а хто обіцяв «занести завтра».",
+      "en": "Paying for a membership right inside the bot closes the gap between “I want to renew” and “I’ll get to the front desk eventually.” You connect a payment provider, the client picks a plan, pays by card - and the membership activates automatically, with no administrator involved and no manual entry into a spreadsheet. Membership freezes, single-class purchases and packages of personal sessions naturally live here too. Every payment lands in the database instantly, so at the end of the month nobody has to reconcile receipts with a notebook and remember who paid cash and who promised to “drop it off tomorrow.”"
+    },
+    {
+      "t": "p",
+      "uk": "Власнику бот дає те, чого зазвичай немає взагалі, - цифри. Скільки людей реально прийшло на кожне заняття проти скількох записалося, у яких тренерів найвища заповнюваність, які слоти порожні третій тиждень поспіль, скільки абонементів закінчується цього місяця і яка частка з них продовжилася. З цим уже можна ухвалювати рішення: прибрати ранкову йогу о 8:00, куди ходять двоє, і поставити другий сайкл о 19:30, куди щотижня стоїть черга. Саме такі рішення ми в Devlly і будуємо - не універсальний бот «для будь-якого залу», а систему під конкретні процеси клубу: ваші ліміти місць, ваші правила скасування, ваші тарифи й вашу CRM.",
+      "en": "For the owner the bot provides something that usually doesn’t exist at all - numbers. How many people actually showed up for each class versus how many booked, which trainers have the highest occupancy, which slots have been empty for three weeks in a row, how many memberships expire this month and what share of them were renewed. With that you can make real decisions: drop the 8 a.m. yoga class that two people attend and add a second 7:30 p.m. cycling class that has a queue every week. These are exactly the solutions we build at Devlly - not a universal bot “for any gym,” but a system shaped around a specific club’s processes: your seat limits, your cancellation rules, your pricing and your CRM."
+    }
+  ]
+}

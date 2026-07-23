@@ -1,0 +1,97 @@
+{
+  "title_uk": "CRM vs Excel: коли таблиці вже не справляються з бізнесом",
+  "title_en": "CRM vs Excel: when spreadsheets can no longer handle the business",
+  "desc_uk": "Порівнюємо CRM і Excel: коли файл .xlsx ще виручає, а коли VLOOKUP, зламані формули і десяток версій файлу починають гальмувати бізнес.",
+  "desc_en": "We compare CRM and Excel: when an .xlsx file still helps and when VLOOKUP, broken formulas and a dozen file versions start to slow the business down.",
+  "cta_uk": "Потрібна автоматизація? Пишіть нам",
+  "cta_en": "Need automation? Get in touch",
+  "seo": {
+    "t": "CRM vs Excel: коли переходити з таблиць на CRM систему | Devlly",
+    "te": "CRM or Excel: when to move from spreadsheets to a CRM | Devlly",
+    "d": "Порівнюємо CRM і Excel: коли таблиць достатньо а коли вони стають гальмом. Чіткі ознаки що час переходити на CRM систему.",
+    "de": "We compare CRM and Excel: when spreadsheets are enough and when they hold you back. Clear signs it is time to move to a CRM.",
+    "k": "crm vs excel, crm чи excel, коли переходити на crm, crm замість excel, ведення клієнтів в excel, облік клієнтів в таблиці, автоматизація бізнесу, кастомна crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Майже кожен бізнес починає облік клієнтів в Excel. Один файл, кілька колонок, пара формул - і цього справді достатньо на старті. Проблеми зʼявляються не одразу, а коли файл починає жити власним життям: його пересилають поштою, у папці лежить «клієнти_final_v3_real.xlsx», а VLOOKUP то працює, то ні. У цьому матеріалі ми чесно порівнюємо CRM vs Excel: коли десктопної таблиці ще вистачає, за якими ознаками бізнес її переріс, і скільки насправді коштує «безкоштовний» Excel, якщо порахувати години ручної роботи та ціну помилок.",
+      "en": "Almost every business starts tracking clients in Excel. One file, a few columns, a couple of formulas - and on day one that is genuinely enough. The trouble does not show up right away. It appears when the file starts living its own life: it gets emailed around, a folder holds «clients_final_v3_real.xlsx», and VLOOKUP works one day and breaks the next. In this article we compare CRM vs Excel honestly: when a desktop spreadsheet is still fine, the signs a business has outgrown it, and how much a «free» Excel actually costs once you add up the hours of manual work and the price of mistakes."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли Excel ще достатньо для бізнесу",
+      "en": "When Excel is still enough for the business"
+    },
+    {
+      "t": "p",
+      "uk": "Excel - це не зло, і переходити на CRM «бо модно» не потрібно. Якщо у вас 1-3 людини, до 100-150 активних контактів і одна проста воронка, десктопна таблиця чудово впорається. Ви бачите всю базу на одному екрані, швидко фільтруєте, рахуєте суму замовлень парою формул і не платите ні за ліцензії, ні за впровадження. Для фрилансера, маленької студії чи локальної точки такого обліку часто вистачає роками. Поки з файлом працює одна людина і немає потреби в нагадуваннях та історії змін, Excel дає результат без жодних витрат.",
+      "en": "Excel is not the enemy, and you do not need to move to a CRM just because it is fashionable. If you have 1 to 3 people, up to 100 to 150 active contacts and one simple pipeline, a desktop spreadsheet handles it perfectly. You see the whole base on one screen, filter quickly, total up orders with a couple of formulas, and pay nothing for licenses or implementation. For a freelancer, a small studio or a single local shop this kind of tracking often lasts for years. As long as one person works with the file and there is no need for reminders or a change history, Excel delivers results with zero cost."
+    },
+    {
+      "t": "p",
+      "uk": "Питання не в тому, «поганий» Excel чи ні. Питання в масштабі. Таблиця - це особистий інструмент однієї людини, а не система для команди. Щойно з файлом починають працювати двоє і більше, зʼявляється потреба нічого не забути і знати, хто що змінив, - логіка Excel починає працювати проти вас. Файл на диску не вміє бути одночасно в кількох людей, не зберігає надійно історію правок і не нагадує про завтрашній дзвінок. Саме тут корисно чесно оцінити ознаки, що таблиця вже гальмує, поки ви не почали втрачати клієнтів через звичайну неуважність.",
+      "en": "The question is not whether Excel is «bad». The question is scale. A spreadsheet is one person's personal tool, not a system for a team. The moment two or more people start working with the file, and you need to forget nothing and know who changed what, Excel's logic starts working against you. A file on disk cannot be in several people's hands at once, does not reliably keep an edit history, and does not remind you about tomorrow's call. That is exactly where it helps to honestly assess the signs the spreadsheet is already holding you back, before you start losing clients to ordinary carelessness."
+    },
+    {
+      "t": "h2",
+      "uk": "5 ознак що Excel вже гальмує бізнес",
+      "en": "5 signs that Excel is already slowing the business down"
+    },
+    {
+      "t": "p",
+      "uk": "Перша ознака - файл ходить поштою і месенджерами. Менеджер скидає версію колезі, той править у себе, і за тиждень у команди пʼять різних «актуальних» файлів. Друга - назви типу «база_нова(2)_final_v3_real.xlsx»: це прямий сигнал, що єдиного джерела правди вже немає. Третя - зламані формули: хтось вставив рядок, VLOOKUP поплив, підсумки брешуть, а помітили це лише через місяць у звіті для власника.",
+      "en": "The first sign is that the file travels by email and messengers. A manager sends a version to a colleague, who edits their own copy, and within a week the team has five different «current» files. The second is names like «base_new(2)_final_v3_real.xlsx»: a direct signal that a single source of truth no longer exists. The third is broken formulas: someone pasted a row, VLOOKUP drifted, the totals lie, and nobody noticed until a month later in the owner's report."
+    },
+    {
+      "t": "p",
+      "uk": "Четверта ознака - немає історії, хто що змінив. У таблиці неможливо довести, хто видалив клієнта чи переписав суму: журналу дій просто не існує, а один необережний Ctrl+Z ламає день роботи. Пʼята - немає контролю доступу: файл бачать усі повністю або ніхто, тож новий менеджер за пару хвилин може скопіювати всю базу на флешку перед звільненням. Якщо ви впізнали хоча б три пункти з пʼяти - Excel уже коштує вам грошей, просто ви цього ще не порахували.",
+      "en": "The fourth sign is no history of who changed what. In a spreadsheet you cannot prove who deleted a client or rewrote an amount: there is simply no action log, and one careless Ctrl+Z breaks a day of work. The fifth is no access control: everyone sees the whole file or nobody does, so a new manager can copy the entire base to a USB stick in a couple of minutes before quitting. If you recognized at least three of these five points, Excel is already costing you money - you just have not counted it yet."
+    },
+    {
+      "t": "h2",
+      "uk": "Що CRM робить, а Excel ні",
+      "en": "What a CRM does that Excel does not"
+    },
+    {
+      "t": "p",
+      "uk": "Головна різниця в порівнянні CRM vs Excel - це не «красивіші таблиці», а автоматизація і контроль. CRM сама ставить нагадування: якщо угода зависла на етапі три дні, менеджер отримує сповіщення, а клієнт не губиться. CRM веде повну історію по кожному контакту - дзвінки, листи, зміни статусу - і фіксує, хто і коли це зробив. Права доступу розділені: менеджер бачить лише своїх клієнтів, а базу цілком - тільки керівник.",
+      "en": "The main difference in the CRM vs Excel comparison is not «prettier tables» but automation and control. A CRM sets reminders on its own: if a deal has been stuck at a stage for three days, the manager gets a notification and the client is not lost. A CRM keeps a full history for every contact - calls, emails, status changes - and records who did it and when. Access rights are separated: a manager sees only their own clients, while only the owner sees the entire base."
+    },
+    {
+      "t": "p",
+      "uk": "Далі йдуть інтеграції, яких у десктопному Excel просто не буде. Заявка з сайту, Instagram чи Telegram-бота потрапляє в CRM автоматично, без ручного копіювання рядків. Система сама надсилає клієнту повідомлення, рахує конверсію воронки в реальному часі й формує звіт без збирання пʼяти файлів докупи. Те, на що в Excel іде година ручної роботи щодня, у CRM відбувається саме собою, і людський фактор із помилками зникає.",
+      "en": "Next come integrations that a desktop Excel simply will not have. A lead from your site, Instagram or a Telegram bot lands in the CRM automatically, with no manual row copying. The system messages the client itself, calculates funnel conversion in real time, and builds a report without stitching five files together. What takes an hour of manual work every day in Excel happens on its own in a CRM, and the human factor with its errors disappears."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки коштує «безкоштовний» Excel",
+      "en": "How much a «free» Excel really costs"
+    },
+    {
+      "t": "p",
+      "uk": "Excel здається безкоштовним, бо ви не платите за ліцензію CRM. Але порахуймо приховану ціну. Якщо два менеджери витрачають по годині на день на ручне перенесення заявок, копіювання рядків і збирання звітів - це близько 40 годин на місяць. За ставки 8 доларів на годину виходить понад 300 доларів щомісяця, які ви платите за роботу, що мала б робитися сама. І це лише прямий час, без урахування помилок.",
+      "en": "Excel looks free because you are not paying for a CRM license. But let us count the hidden price. If two managers each spend an hour a day manually moving leads, copying rows and assembling reports, that is about 40 hours a month. At a rate of 8 dollars per hour that is over 300 dollars every month you pay for work that should be doing itself. And that is only the direct time, before any mistakes."
+    },
+    {
+      "t": "p",
+      "uk": "Тепер помилки. Достатньо однієї зламаної формули, щоб недорахувати борг клієнта, або одного забутого нагадування, щоб втратити угоду на кілька тисяч доларів. Додайте сюди ризик втрати даних: файл на локальному диску легко зникає разом зі зламаним ноутбуком або випадковим видаленням, і резервної копії часто немає. За нашим досвідом, після переходу з таблиць на CRM кількість втрачених заявок падає на 20-30%, бо жоден лід більше не залишається без відповіді. Тож «безкоштовний» Excel насправді коштує вам сотні доларів на місяць плюс угоди, про які ви навіть не дізнаєтесь, що їх втратили.",
+      "en": "Now the errors. It takes one broken formula to under-count a client's debt, or one forgotten reminder to lose a deal worth a few thousand dollars. Add to that the risk of data loss: a file on a local disk easily vanishes along with a dead laptop or an accidental delete, and there is often no backup. In our experience, after moving from spreadsheets to a CRM the number of lost leads drops by 20 to 30 percent, because no lead is ever left without a reply. So a «free» Excel actually costs you hundreds of dollars a month plus the deals you will never even know you lost."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли переходити на CRM і що обрати",
+      "en": "When to move to a CRM and what to choose"
+    },
+    {
+      "t": "p",
+      "uk": "Переходити варто, коли з базою працюють троє і більше людей, коли заявки йдуть із кількох каналів, або коли ви ловите себе на думці «хтось точно щось забув». Далі вибір між готовою і кастомною CRM. Готова система підходить, якщо ваш процес стандартний і його легко вкласти в чужі шаблони. Кастомну варто робити, коли у вас нетипова воронка, специфічні статуси чи інтеграції, під які готові рішення доводиться болісно підганяти.",
+      "en": "It is worth moving when three or more people work with the base, when leads arrive from several channels, or when you catch yourself thinking «someone definitely forgot something». Then comes the choice between an off-the-shelf and a custom CRM. A ready-made system fits if your process is standard and slots easily into someone else's templates. A custom one is worth building when you have an unusual funnel, specific statuses or integrations that off-the-shelf tools have to be painfully bent around."
+    },
+    {
+      "t": "p",
+      "uk": "Головне - не намагатися вмістити зростаючий бізнес у файл, який створювався для однієї людини. Excel відпрацював своє, коли ви дійшли до десятків заявок на день і команди, якій потрібні спільні дані, нагадування та контроль доступу. У Devlly ми розробляємо CRM під конкретний процес, а не навпаки: збираємо заявки з сайту й Telegram, автоматизуємо нагадування та звіти й переносимо вашу базу з таблиць так, щоб ви нічого не втратили. Якщо ваш «клієнти_final_v3_real.xlsx» уже вас гальмує - напишіть нам, і ми покажемо, як має працювати система замість файлу.",
+      "en": "The key is not to try to fit a growing business into a file built for one person. Excel has done its job once you reach dozens of leads a day and a team that needs shared data, reminders and access control. At Devlly we build CRM around your specific process, not the other way around: we collect leads from your site and Telegram, automate reminders and reports, and migrate your base from spreadsheets so you lose nothing. If your «clients_final_v3_real.xlsx» is already slowing you down, get in touch and we will show you how a system should work instead of a file."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title_uk": "CRM для клініки і медичного центру: облік пацієнтів",
+  "title_en": "CRM for a Clinic and Medical Centre: Patient Records Done Right",
+  "desc_uk": "Як CRM для клініки автоматизує запис пацієнтів, нагадування, медичні картки і аналітику відвідуваності.",
+  "desc_en": "How a clinic CRM automates patient booking, reminders, medical cards and attendance analytics.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для медичної клініки: запис пацієнтів і облік | Devlly",
+    "te": "CRM for a Medical Clinic: Patient Booking and Records | Devlly",
+    "d": "Як CRM для клініки автоматизує запис пацієнтів, нагадування, медичні картки і аналітику відвідуваності.",
+    "de": "How a clinic CRM automates patient booking, reminders, medical cards and attendance analytics.",
+    "k": "CRM для клініки, облік пацієнтів, медична CRM, запис пацієнтів онлайн, електронна медична картка, розклад лікарів, конфіденційність даних пацієнтів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Медичний центр щодня працює з двома потоками: люди і дані про них. Коли записи живуть у зошиті адміністратора, розклад лікарів - у настінній таблиці, а історія візитів - у памʼяті персоналу, клініка втрачає гроші на неявках і повторює одні й ті самі помилки. CRM для клініки збирає ці потоки в одну систему, де кожен пацієнт, візит і призначення мають своє місце.",
+      "en": "A medical centre works with two flows every day: people and the data about them. When bookings live in the receptionistʼs notebook, doctor schedules on a wall chart, and visit history in staff memory, the clinic loses money on no-shows and repeats the same mistakes. A clinic CRM brings these flows into one system where every patient, visit and prescription has its place."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому CRM для клініки відрізняється від звичайної CRM",
+      "en": "Why a clinic CRM differs from an ordinary CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Класична CRM побудована навколо угоди: лід, переговори, оплата, закриття. У медицині логіка інша. Тут центром є пацієнт, а не разова продажа, і відносини з ним тривають роками. Один людський профіль може містити десятки візитів до різних спеціалістів, кілька курсів лікування, результати обстежень і план контрольних оглядів. Тому універсальна CRM з полем «сума угоди» швидко перестає відповідати реальним процесам клініки.",
+      "en": "A classic CRM is built around a deal: lead, negotiation, payment, closing. In medicine the logic is different. The patient is the centre, not a one-off sale, and the relationship lasts for years. A single profile may hold dozens of visits to different specialists, several treatment courses, test results and a plan of follow-up check-ups. That is why a generic CRM with a «deal amount» field quickly stops matching real clinic processes."
+    },
+    {
+      "t": "p",
+      "uk": "Друга відмінність - роль розкладу. У продажах менеджер сам керує своїм часом, у клініці час лікаря є основним ресурсом, який продається слотами по 20, 30 або 60 хвилин. Якщо система не вміє показувати вільні вікна в реальному часі, адміністратор буде дзвонити лікарю уточнювати, а пацієнт чекатиме на лінії. Саме тут звичайні інструменти дають збій.",
+      "en": "The second difference is the role of the schedule. In sales a manager controls their own time; in a clinic the doctorʼs time is the core resource sold in slots of 20, 30 or 60 minutes. If the system cannot show free windows in real time, the administrator has to call the doctor to check while the patient waits on the line. This is exactly where generic tools break down."
+    },
+    {
+      "t": "p",
+      "uk": "Третя відмінність - вимоги до даних. Інформація про звернення до лікаря належить до чутливих категорій, і доступ до неї не може бути однаковим для всіх співробітників. Це змінює архітектуру системи ще на етапі проєктування: ролі, журнали дій і правила видимості закладаються з самого початку, а не додаються потім як латка.",
+      "en": "The third difference is data requirements. Information about a medical visit belongs to sensitive categories, and access to it cannot be identical for all staff. This changes the architecture at the design stage: roles, action logs and visibility rules are built in from the start rather than patched on later."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік пацієнтів і електронні медичні картки",
+      "en": "Patient records and electronic medical cards"
+    },
+    {
+      "t": "p",
+      "uk": "Основа системи - єдина картка пацієнта. У ній зберігаються контактні дані, історія візитів, лікарі, які вели людину, призначення, завантажені результати аналізів і знімки, а також фінансова частина: оплати, страховка, борги. Ключова вимога - відсутність дублів. Якщо та сама людина потрапляє в базу тричі з різними варіантами написання прізвища, вся статистика клініки стає непридатною для рішень.",
+      "en": "The foundation of the system is a single patient card. It stores contact details, visit history, the doctors who treated the person, prescriptions, uploaded test results and scans, plus the financial side: payments, insurance, debts. The key requirement is no duplicates. If the same person lands in the database three times with different spellings of the surname, the clinicʼs whole statistics becomes useless for decisions."
+    },
+    {
+      "t": "p",
+      "uk": "Тому в проєктуванні бази закладають перевірку на збіги за номером телефону і датою народження, а також процедуру обʼєднання карток. Коли адміністратор починає вводити імʼя, система підказує наявні профілі. Це проста функція, але вона економить години ручного чищення бази і рятує лікаря від ситуації, коли половина історії лікування лежить у іншому запису.",
+      "en": "So the database design includes duplicate checks by phone number and date of birth, plus a card merging procedure. When the administrator starts typing a name, the system suggests existing profiles. It is a simple feature, but it saves hours of manual database cleanup and spares the doctor from a situation where half the treatment history sits in another record."
+    },
+    {
+      "t": "p",
+      "uk": "Медична картка в CRM не замінює висновок лікаря, а робить його доступним у потрібний момент. Спеціаліст відкриває профіль і бачить хронологію: коли пацієнт був востаннє, з чим звертався, що приймав, чи є алергії, зафіксовані персоналом. Замість переказу з чужих слів лікар працює зі структурованим записом, який заповнюється за шаблоном прийому.",
+      "en": "A medical card in the CRM does not replace the doctorʼs conclusion; it makes it available at the right moment. The specialist opens the profile and sees a timeline: when the patient last came, what they came with, what they took, whether staff recorded any allergies. Instead of second-hand retelling, the doctor works with a structured record filled in from an appointment template."
+    },
+    {
+      "t": "h2",
+      "uk": "Запис і розклад лікарів без накладок",
+      "en": "Booking and doctor schedules without conflicts"
+    },
+    {
+      "t": "p",
+      "uk": "Розклад у CRM показує сітку по кожному спеціалісту і кабінету. Слоти мають різну тривалість: первинна консультація довша за контрольний огляд, процедура займає окреме обладнання. Система блокує подвійне бронювання одного часу, враховує відпустки і зміни графіка, а при перенесенні візиту автоматично звільняє попереднє вікно. Адміністратор бачить завантаженість дня на одному екрані і пропонує реальні варіанти замість «передзвоню за годину».",
+      "en": "The schedule in the CRM shows a grid per specialist and per room. Slots have different durations: an initial consultation is longer than a follow-up, a procedure occupies separate equipment. The system blocks double booking of the same time, accounts for holidays and shift changes, and automatically frees the previous window when a visit is moved. The administrator sees the dayʼs load on one screen and offers real options instead of «Iʼll call you back in an hour»."
+    },
+    {
+      "t": "p",
+      "uk": "Наступний крок - онлайн-запис на сайті або через Telegram-бот. Пацієнт обирає напрямок, лікаря і вільний час, підтверджує номер телефону, і запис одразу зʼявляється в тому самому розкладі. Це знімає навантаження з телефонної лінії у пікові години і дає змогу записуватися ввечері, коли рецепція вже не працює. Частина клінік отримує таким чином до третини всіх записів.",
+      "en": "The next step is online booking on the website or through a Telegram bot. The patient picks a department, a doctor and a free time, confirms their phone number, and the booking instantly appears in the same schedule. This takes load off the phone line at peak hours and lets people book in the evening when reception is closed. Some clinics get up to a third of all bookings this way."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто продумати лист очікування. Якщо пацієнт скасував візит за кілька годин, система може запропонувати цей слот тим, хто чекав на прийом до конкретного спеціаліста. Вікно, яке раніше просто згорало, закривається без участі адміністратора, а завантаженість лікарів тримається рівною протягом тижня.",
+      "en": "A waiting list deserves separate thought. If a patient cancels a few hours in advance, the system can offer that slot to people waiting for a specific specialist. A window that used to simply burn is filled without the administrator, and doctorsʼ workload stays even across the week."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування, які зменшують кількість неявок",
+      "en": "Reminders that cut the number of no-shows"
+    },
+    {
+      "t": "p",
+      "uk": "Неявка - це порожній слот, який уже оплачено робочим часом лікаря. У клініках без автоматичних нагадувань частка неявок часто тримається на рівні 15-25 відсотків. Ланцюжок повідомлень за добу і за дві години до візиту з можливістю підтвердити або перенести одним натисканням знижує цей показник у кілька разів, бо більшість пацієнтів просто забуває про запис.",
+      "en": "A no-show is an empty slot already paid for with the doctorʼs working time. In clinics without automatic reminders the no-show rate often sits at 15-25 percent. A message chain a day before and two hours before the visit, with one-tap confirmation or rescheduling, cuts that figure several times over, because most patients simply forget."
+    },
+    {
+      "t": "p",
+      "uk": "Канал має значення. SMS доходить завжди, але коштує грошей і не дає кнопок. Telegram або Viber дешевші й інтерактивні, тому логічно вести більшість комунікації там, а SMS лишити як резервний канал для тих, хто не має месенджера. У тексті нагадування достатньо вказати дату, час, лікаря і адресу без деталей діагнозу - це і зручно, і безпечно.",
+      "en": "The channel matters. SMS always arrives but costs money and offers no buttons. Telegram or Viber are cheaper and interactive, so it makes sense to run most communication there and keep SMS as a fallback for those without a messenger. The reminder text only needs the date, time, doctor and address, with no diagnosis details - that is both convenient and safe."
+    },
+    {
+      "t": "p",
+      "uk": "Та сама механіка працює на повторні візити. Якщо лікар рекомендував контрольний огляд через шість місяців, система ставить завдання і надсилає нагадування у потрібний час. Клініка не втрачає звʼязок із пацієнтом між курсами лікування, а рецепція отримує готовий список тих, кому варто зателефонувати сьогодні.",
+      "en": "The same mechanics work for repeat visits. If the doctor recommended a check-up in six months, the system creates a task and sends a reminder at the right time. The clinic keeps in touch with the patient between treatment courses, and reception gets a ready list of people worth calling today."
+    },
+    {
+      "t": "h2",
+      "uk": "Конфіденційність, права доступу і аналітика відвідуваності",
+      "en": "Confidentiality, access rights and attendance analytics"
+    },
+    {
+      "t": "p",
+      "uk": "Дані про здоровʼя вимагають окремого режиму. У системі мають бути ролі з різним обсягом видимості: адміністратор працює з розкладом і контактами, але не бачить клінічних записів; лікар відкриває картки своїх пацієнтів; бухгалтерія бачить оплати без медичної частини. Кожен перегляд і кожна зміна фіксуються в журналі, тому завжди зрозуміло, хто і коли відкривав конкретний профіль.",
+      "en": "Health data requires a separate regime. The system needs roles with different visibility: the administrator works with the schedule and contacts but does not see clinical notes; the doctor opens the cards of their own patients; accounting sees payments without the medical part. Every view and every change is written to a log, so it is always clear who opened a specific profile and when."
+    },
+    {
+      "t": "p",
+      "uk": "Технічна частина не менш важлива: шифрування даних у сховищі і під час передавання, двофакторна автентифікація для персоналу, регулярні резервні копії з перевіркою відновлення, обмеження на масове вивантаження бази. Окремо продумують сценарій звільнення співробітника, коли доступ треба відкликати того ж дня. Ці рішення дешевші на етапі розробки, ніж після інциденту з витоком.",
+      "en": "The technical side matters just as much: encryption of data at rest and in transit, two-factor authentication for staff, regular backups with restore testing, limits on bulk database exports. The offboarding scenario is planned separately, when access must be revoked the same day. These decisions are cheaper at the development stage than after a leak incident."
+    },
+    {
+      "t": "p",
+      "uk": "Коли дані впорядковані, зʼявляється аналітика: завантаженість кожного лікаря, частка неявок за напрямками, середній чек, кількість повторних візитів, джерела, з яких приходять нові пацієнти, і вартість залучення. На цих цифрах будують графік змін і рекламний бюджет, а не інтуїцію. У Devlly ми розробляємо такі системи під конкретну клініку, з урахуванням її напрямків, ролей персоналу і вимог до захисту даних.",
+      "en": "Once the data is in order, analytics appears: each doctorʼs workload, no-show share by department, average bill, number of repeat visits, the sources new patients come from, and acquisition cost. Shift planning and ad budgets are built on these numbers rather than intuition. At Devlly we build such systems custom for a specific clinic, taking into account its departments, staff roles and data protection requirements."
+    }
+  ]
+}

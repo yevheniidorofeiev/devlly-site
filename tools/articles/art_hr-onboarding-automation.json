@@ -1,0 +1,82 @@
+{
+  "title_uk": "Автоматизація онбордингу нових співробітників",
+  "title_en": "Automating the onboarding of new employees",
+  "desc_uk": "Як автоматизувати онбординг нового співробітника: документи, інструкції, знайомство з командою - все через Telegram без участі HR.",
+  "desc_en": "How to automate a new employee's onboarding: documents, instructions, meeting the team - all through Telegram without HR involvement.",
+  "cta_uk": "Потрібна HR автоматизація? Пишіть нам",
+  "cta_en": "Need HR automation? Get in touch",
+  "seo": {
+    "t": "Автоматизація онбордингу співробітників через Telegram | Devlly",
+    "te": "Automating employee onboarding through Telegram | Devlly",
+    "d": "Як автоматизувати онбординг нового співробітника: документи, інструкції, знайомство з командою - все через Telegram без участі HR.",
+    "de": "How to automate a new employee's onboarding: documents, instructions, meeting the team - all through Telegram without HR involvement.",
+    "k": "автоматизація онбордингу, онбординг співробітників, адаптація нового працівника, Telegram бот для онбордингу, HR автоматизація, чек-лист першого дня, знайомство з командою, навчання співробітника, онбординг без HR, адаптація персоналу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Онбординг - це не папка з документами, яку дають новачку в перший день. Це перші два тижні, за які людина або починає працювати самостійно, або тихо розчаровується і йде. У малих компаніях цей процес майже завжди тримається на одній людині: керівник особисто показує, розповідає, знайомить. Варто йому захворіти чи поїхати - і новачок перший день просто сидить без задач. Автоматизація онбордингу через Telegram знімає цю залежність: бот веде співробітника за чітким сценарієм від оформлення документів до першої задачі на п'ятий день. Керівник при цьому не витрачає години на повторення одного й того ж, а лише бачить прогрес. Розберемо, як це працює на практиці.",
+      "en": "Onboarding is not a folder of documents handed to a newcomer on day one. It is the first two weeks during which a person either starts working independently or quietly gets disappointed and leaves. In small companies this process almost always rests on one person: the manager personally shows, explains and introduces. If they fall ill or travel, the newcomer simply sits without tasks on the first day. Automating onboarding through Telegram removes this dependency: the bot guides the employee along a clear scenario from paperwork to the first task on day five. The manager does not spend hours repeating the same thing and only watches the progress. Let us break down how this works in practice."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому ручний онбординг у малих компаніях зривається",
+      "en": "Why manual onboarding fails in small companies"
+    },
+    {
+      "t": "p",
+      "uk": "У компанії на 15 людей немає окремого HR, який зустрічає новачка, готує робоче місце і веде його перший тиждень. Цю роль бере на себе керівник, і він же робить десять інших справ одночасно. У результаті адаптація йде уривками: п'ять хвилин пояснень між зустрічами, потім новачок сам гуглить, як подати заявку на доступ. Класична картина: людина виходить у понеділок, а керівник саме на переговорах з клієнтом. Перші три години новий співробітник просто чекає, соромиться відволікати колег і почувається зайвим. Це найгірше перше враження, яке можна створити, і саме воно часто вирішує, чи залишиться людина.",
+      "en": "A company of 15 people has no dedicated HR to greet the newcomer, prepare the workplace and guide them through the first week. The manager takes on this role while doing ten other things at once. As a result adaptation happens in fragments: five minutes of explanation between meetings, then the newcomer googles how to request access on their own. A classic scene: a person starts on Monday while the manager is in negotiations with a client. For the first three hours the new employee just waits, is shy about distracting colleagues and feels redundant. This is the worst first impression you can create, and it often decides whether the person stays."
+    },
+    {
+      "t": "p",
+      "uk": "Проблема не в тому, що керівник поганий, а в тому, що процес живе тільки в його голові. Немає єдиного місця, де записано, що саме має статися в перший, третій і п'ятий день. Через це кожен новачок проходить онбординг по-різному, залежно від того, наскільки зайнятий начальник того тижня. Один отримує детальний вступ, інший - хаос і мовчання. Масштабувати такий підхід неможливо: коли ви наймаєте двох людей одночасно, якість адаптації падає вдвічі. Саме тут автоматизація дає найбільше, бо переносить сценарій із голови керівника у структурований чат, доступний кожному новому співробітнику однаково.",
+      "en": "The problem is not that the manager is bad, but that the process lives only in their head. There is no single place recording what exactly should happen on the first, third and fifth day. Because of this every newcomer goes through onboarding differently, depending on how busy the boss is that week. One gets a detailed introduction, another gets chaos and silence. Scaling this approach is impossible: when you hire two people at once, the quality of adaptation halves. This is exactly where automation gives the most, because it moves the scenario out of the manager's head into a structured chat available to every new employee equally."
+    },
+    {
+      "t": "h2",
+      "uk": "Чек-лист першого дня: документи, доступи і правила",
+      "en": "First-day checklist: documents, access and rules"
+    },
+    {
+      "t": "p",
+      "uk": "Перший день задає тон, тому бот починає саме з нього і веде людину покроково. Замість усного «принеси документи, я скину реквізити пізніше» новачок відкриває чат і бачить готовий чек-лист: які документи сфотографувати й надіслати, як підписати договір, куди прийти і о котрій. Бот приймає скани прямо в переписці, тож паперова частина закривається за десять хвилин, а не розтягується на тиждень нагадувань. Далі йдуть доступи: бот дає інструкцію, як завести робочу пошту, підключитися до потрібних чатів і систем, і показує, до кого звертатися, якщо щось не працює.",
+      "en": "The first day sets the tone, so the bot starts with it and guides the person step by step. Instead of a verbal \"bring the documents, I'll send the details later\", the newcomer opens the chat and sees a ready checklist: which documents to photograph and send, how to sign the contract, where to come and at what time. The bot accepts scans right in the conversation, so the paperwork part is closed in ten minutes instead of dragging on for a week of reminders. Then come the access rights: the bot gives instructions on how to set up a work email, connect to the needed chats and systems, and shows whom to contact if something does not work."
+    },
+    {
+      "t": "p",
+      "uk": "Окремий блок першого дня - правила, які зазвичай ніхто не проговорює, поки хтось їх не порушить. Графік роботи, як оформити відгул, де обідати, що можна і чого не можна в робочих чатах, як влаштовані зарплатні дні. У ручному режимі новачок дізнається про це випадково і часто із незручних ситуацій. Бот віддає ці правила одразу й у зручному форматі: коротко, з прикладами, з можливістю перечитати будь-коли. Людина не мусить тримати все в голові чи боятися перепитати те саме вдруге. У підсумку перший день перетворюється з трьох годин очікування на дві години структурованого старту.",
+      "en": "A separate first-day block is the rules that usually nobody spells out until someone breaks them. The work schedule, how to request time off, where to have lunch, what is and is not acceptable in work chats, how payday works. In manual mode the newcomer learns this by accident and often from awkward situations. The bot hands over these rules right away and in a convenient format: briefly, with examples, with the option to reread anytime. The person does not have to keep everything in their head or be afraid to ask the same thing twice. As a result the first day turns from three hours of waiting into two hours of a structured start."
+    },
+    {
+      "t": "h2",
+      "uk": "Знайомство з командою і навчання по продукту",
+      "en": "Meeting the team and product training"
+    },
+    {
+      "t": "p",
+      "uk": "Технічний старт - це половина справи, бо людина працює не з системами, а з людьми. Тому наступний блок автоматизованого онбордингу - знайомство з командою. Бот надсилає коротку карту компанії: хто є хто, чим займається кожен відділ, до кого йти з якими питаннями. Замість того щоб запам'ятовувати десять імен за один нервовий обід, новачок отримує це текстом із фото і ролями. Так уже на другий день він розуміє, що бухгалтерія - це Оля, доступи - це Максим, а робочі задачі ставить Андрій. Дрібниця, але саме вона прибирає відчуття загубленості в перший тиждень.",
+      "en": "The technical start is half the battle, because a person works not with systems but with people. So the next block of automated onboarding is meeting the team. The bot sends a short company map: who is who, what each department does, whom to go to with which questions. Instead of memorizing ten names over one nervous lunch, the newcomer gets this as text with photos and roles. This way, by the second day they understand that accounting is Olya, access is Maksym, and work tasks are set by Andriy. A small thing, but it is exactly what removes the feeling of being lost in the first week."
+    },
+    {
+      "t": "p",
+      "uk": "Паралельно бот веде навчання по продукту або послузі. Він видає матеріали дозовано: у перший день - загальний огляд, у другий - деталі, далі короткі перевірочні питання, щоб переконатися, що людина справді засвоїла ключове. Це набагато ефективніше, ніж скинути новачку посилання на папку з двадцятьма документами і сказати «читай». Дозований формат тримає темп і не перевантажує. Якщо співробітник відповів на контрольні питання неправильно, бот повертає його до потрібного матеріалу. Так навчання перестає бути формальністю: до кінця тижня людина знає продукт не поверхово, а на рівні, достатньому, щоб узятися за реальну задачу.",
+      "en": "In parallel the bot runs product or service training. It delivers materials in doses: on the first day a general overview, on the second the details, then short check questions to make sure the person has really grasped the essentials. This is far more effective than dumping a link to a folder with twenty documents on the newcomer and saying \"read it\". The dosed format keeps the pace and does not overload. If the employee answers the control questions incorrectly, the bot sends them back to the relevant material. This way training stops being a formality: by the end of the week the person knows the product not superficially but well enough to take on a real task."
+    },
+    {
+      "t": "h2",
+      "uk": "Перша задача і контроль прогресу для керівника",
+      "en": "First task and progress tracking for the manager"
+    },
+    {
+      "t": "p",
+      "uk": "Мета грамотного онбордингу - щоб приблизно на п'ятий день новий співробітник узявся за першу справжню задачу, а не просто читав інструкції два тижні. Бот підводить до цього логічно: коли пройдено документи, доступи, знайомство і базове навчання, він видає першу невелику робочу задачу з чіткими критеріями результату. Це може бути обробка кількох реальних звернень, підготовка простого документа чи виконання типової операції під наглядом. Важливо, що людина відчуває перемогу вже наприкінці першого тижня: вона зробила щось корисне, а не тільки вбирала інформацію. Саме ця точка найсильніше впливає на те, чи залишиться новачок.",
+      "en": "The goal of proper onboarding is for the new employee to take on their first real task around day five, rather than just reading instructions for two weeks. The bot leads to this logically: once documents, access, introductions and basic training are done, it hands out the first small work task with clear result criteria. It could be handling a few real requests, preparing a simple document or performing a typical operation under supervision. Importantly, the person feels a win already at the end of the first week: they did something useful instead of only absorbing information. This exact point most strongly affects whether the newcomer stays."
+    },
+    {
+      "t": "p",
+      "uk": "Для керівника головна цінність автоматизованого онбордингу - прозорість. Бот показує, на якому етапі кожен новачок: документи здано, доступи налаштовано, навчання пройдено на 60 відсотків, перша задача в роботі. Не треба смикати людину питаннями «ну як, розібрався?» - статус видно в реальному часі. Якщо хтось застряг на третьому дні й не рухається, це помітно одразу, і можна втрутитися до того, як людина розчарується. Devlly будує саме такі Telegram-рішення для онбордингу під конкретну компанію, щоб адаптація новачка йшла за єдиним сценарієм і не залежала від того, наскільки зайнятий керівник цього тижня.",
+      "en": "For the manager the main value of automated onboarding is transparency. The bot shows which stage each newcomer is at: documents submitted, access set up, training 60 percent complete, first task in progress. There is no need to bother the person with \"so, have you figured it out?\" - the status is visible in real time. If someone gets stuck on day three and is not moving, it is noticeable at once, and you can step in before the person gets disappointed. Devlly builds exactly this kind of Telegram onboarding solutions for a specific company, so that a newcomer's adaptation follows a single scenario and does not depend on how busy the manager is that week."
+    }
+  ]
+}

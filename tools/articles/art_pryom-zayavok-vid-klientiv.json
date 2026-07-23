@@ -1,0 +1,122 @@
+{
+  "title_uk": "Прийом і обробка заявок від клієнтів без ручної роботи",
+  "title_en": "Receiving and Processing Customer Requests Without Manual Work",
+  "desc_uk": "Як налаштувати автоматичний прийом і обробку заявок від клієнтів: Telegram бот, форма на сайті або CRM - що краще для вашого бізнесу.",
+  "desc_en": "How to set up automatic intake and processing of customer requests: a Telegram bot, a website form or a CRM - which channel fits your business best.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Прийом і обробка заявок від клієнтів автоматично | Devlly",
+    "te": "Receiving and Processing Customer Requests Automatically | Devlly",
+    "d": "Як налаштувати автоматичний прийом і обробку заявок від клієнтів: Telegram бот, форма на сайті або CRM - що краще для вашого бізнесу.",
+    "de": "How to set up automatic intake and processing of customer requests: a Telegram bot, a website form or a CRM - which channel fits your business best.",
+    "k": "прийом заявок, обробка заявок, форма на сайті, Telegram бот для заявок, CRM для заявок, канали залучення клієнтів, автоматизація продажів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Заявка може прийти з форми на сайті, з Telegram, з телефонного дзвінка або з коментаря під постом. Питання не в тому, скільки каналів підключити, а в тому, який з них реально працює для вашої аудиторії і куди після цього потрапляють дані. Розберемо основні варіанти за конкретними критеріями: вартість, швидкість запуску, конверсія і повнота зібраної інформації.",
+      "en": "A request can arrive through a website form, Telegram, a phone call or a comment under a post. The question is not how many channels to connect, but which one actually works for your audience and where the data lands afterwards. Let us go through the realistic options against concrete criteria: cost, setup speed, conversion and how complete the collected information is."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом і обробка заявок: за якими критеріями порівнювати канали",
+      "en": "Receiving and processing requests: the criteria for comparing channels"
+    },
+    {
+      "t": "p",
+      "uk": "Канал прийому заявок оцінюють не за модністю, а за сімома простими критеріями: скільки часу займе запуск, скільки він коштує щомісяця, яка конверсія з візиту в заявку, скільки даних клієнт готовий залишити одразу, чи працює канал уночі та у вихідні, куди фізично потрапляє заявка і наскільки легко її втратити. Восьмий критерій - хто саме і як швидко буде обробляти те, що прийшло.",
+      "en": "An intake channel is judged not by how fashionable it is but by seven simple criteria: how long it takes to launch, how much it costs per month, the visit-to-request conversion, how much data a customer will hand over up front, whether it works at night and on weekends, where the request physically lands and how easily it can be lost. The eighth criterion is who will process what arrives, and how fast."
+    },
+    {
+      "t": "p",
+      "uk": "Найчастіша помилка - підключити все одразу. Три канали без єдиного місця збору дають не більше заявок, а більше хаосу: частина листів у пошті, частина в особистих повідомленнях менеджера, частина взагалі в блокноті. Спочатку обирають один основний канал, доводять його до стабільної роботи, і лише потім додають другий - обовʼязково з тим самим приймачем даних на виході.",
+      "en": "The most common mistake is connecting everything at once. Three channels without a single collection point produce not more requests but more chaos: some in email, some in a manager's private messages, some in a notebook. Pick one main channel first, get it working reliably, and only then add a second one - always feeding into the same destination."
+    },
+    {
+      "t": "p",
+      "uk": "Ще один критерій, який часто ігнорують, - швидкість першої відповіді. Заявка, на яку відповіли протягом пʼяти хвилин, закривається помітно частіше за ту, що пролежала до наступного ранку. Тому канал, технічно ідеальний за набором полів, але такий, що не дає команді відповісти миттєво, програє простішому рішенню зі сповіщенням у месенджер.",
+      "en": "One more criterion that often gets ignored is time to first reply. A request answered within five minutes closes noticeably more often than one that sits until the next morning. So a channel that is technically perfect in terms of fields but does not let the team reply instantly loses to a simpler solution with a messenger notification."
+    },
+    {
+      "t": "h2",
+      "uk": "Форма на сайті: найдешевший старт із зрозумілими обмеженнями",
+      "en": "A website form: the cheapest start with clear limits"
+    },
+    {
+      "t": "p",
+      "uk": "Форма на сайті - базовий варіант. Запуск займає від кількох годин до одного дня, вартість утримання майже нульова, а дані можна одразу відправляти в пошту, таблицю або CRM. Вона працює цілодобово і не вимагає від клієнта мати якийсь конкретний месенджер чи додаток. Це найнейтральніший канал, який підходить практично будь-якій аудиторії.",
+      "en": "A website form is the baseline option. Setup takes from a few hours to a day, running costs are close to zero, and the data can go straight into email, a spreadsheet or a CRM. It works around the clock and does not require the customer to have any particular messenger or app. It is the most neutral channel and suits almost any audience."
+    },
+    {
+      "t": "p",
+      "uk": "Слабке місце - конверсія. Кожне зайве поле знижує кількість заповнень, тому спокуса зібрати одразу всі дані закінчується порожньою формою. Робоча норма - два-три поля: імʼя, контакт і коротке питання. Решту деталей уточнює менеджер. Друга проблема: клієнт часто не отримує внятного підтвердження, що заявку прийняли, і йде перевіряти конкурентів.",
+      "en": "The weak spot is conversion. Every extra field reduces submissions, so the temptation to collect everything at once ends with an empty form. The working norm is two or three fields: name, contact and a short question. A manager clarifies the rest. The second problem is that customers often get no clear confirmation their request was received, so they go check competitors."
+    },
+    {
+      "t": "p",
+      "uk": "Форма добре працює там, де рішення обдумане: послуги, обладнання, проєктні роботи, більшість B2B. Там, де потрібен швидкий діалог - доставка, запис на конкретний час, короткі консультації - вона програє месенджерам, бо не дає клієнту відчуття живої відповіді й не дозволяє дозбирати деталі в діалозі.",
+      "en": "A form works well where the decision is considered: services, equipment, project work, most B2B. Where a fast dialogue is needed - delivery, booking a specific time slot, short consultations - it loses to messengers, because it gives no sense of a live reply and no way to gather details in conversation."
+    },
+    {
+      "t": "h2",
+      "uk": "Telegram бот: цілодобовий прийом заявок і глибша кваліфікація",
+      "en": "A Telegram bot: round-the-clock intake and deeper qualification"
+    },
+    {
+      "t": "p",
+      "uk": "Telegram бот виграє там, де потрібна кваліфікація ще до розмови з менеджером. Бот ставить питання послідовно, і кожна відповідь - це кнопка, а не поле для введення тексту. Так реально зібрати пʼять-сім параметрів там, де звичайна форма витримала б два, бо натиснути кнопку психологічно значно дешевше, ніж заповнювати довгу анкету.",
+      "en": "A Telegram bot wins where qualification is needed before a manager gets involved. The bot asks questions one by one, and each answer is a button rather than a text field. That makes it realistic to collect five to seven parameters where a plain form would survive two, because tapping a button costs far less effort than filling in a long questionnaire."
+    },
+    {
+      "t": "p",
+      "uk": "Другий плюс - контакт залишається у вас. Після першого повідомлення є постійний канал звʼязку з клієнтом, без залежності від того, чи прочитає він лист. Бот працює вночі, у вихідні та під час пікових навантажень, приймає файли, фото і геолокацію, а заявку миттєво надсилає менеджеру, у робочий чат або напряму в CRM.",
+      "en": "The second advantage is that you keep the contact. After the first message you have a permanent channel to the customer, independent of whether they open an email. The bot works at night, on weekends and during traffic peaks, accepts files, photos and location, and pushes the request instantly to a manager, a work chat or straight into the CRM."
+    },
+    {
+      "t": "p",
+      "uk": "Обмеження теж очевидні. Бота потрібно розробити, і це вже не годинна робота, а кілька днів або тижнів залежно від складності логіки. Він марний, якщо ваша аудиторія месенджером не користується. І сам по собі бот нічого не продає: якщо після опитування ніхто не відповідає протягом години, зібрані дані просто лежать мертвим вантажем, а клієнт за цей час встигає написати ще двом підрядникам.",
+      "en": "The limits are obvious too. A bot has to be built, and that is not an hour of work but days or weeks depending on the logic. It is useless if your audience does not use the messenger. And a bot sells nothing by itself: if nobody replies within an hour after the questionnaire, the collected data just sits there as dead weight while the customer writes to two more contractors."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM віджет і телефонія: коли прийом заявок вбудований у систему",
+      "en": "CRM widgets and telephony: when intake is built into the system"
+    },
+    {
+      "t": "p",
+      "uk": "CRM системи зазвичай мають власні веб-форми та віджети: ви налаштовуєте поля в інтерфейсі й вставляєте готовий код на сайт. Головна перевага - заявка одразу стає карткою угоди з відповідальним, статусом та історією. Нічого не треба інтегрувати вручну, дублікати склеюються за номером телефону, а звітність по джерелах рахується автоматично.",
+      "en": "CRM systems usually ship their own web forms and widgets: you configure the fields in the interface and paste ready-made code into the site. The main advantage is that a request immediately becomes a deal card with an owner, a status and a history. Nothing needs manual integration, duplicates are merged by phone number, and source reporting is calculated automatically."
+    },
+    {
+      "t": "p",
+      "uk": "Плата за цю зручність - гнучкість і вартість. Дизайн віджета обмежений шаблоном, складну логіку питань туди не закладеш, а ліцензія рахується за кожного користувача щомісяця і росте разом із командою. До того ж прийом заявок жорстко привʼязаний до системи: зміна CRM означає переналаштування всього ланцюжка з нуля.",
+      "en": "The price for that convenience is flexibility and cost. Widget design is limited by the template, complex question logic cannot be embedded, and licences are billed per user per month, growing with the team. On top of that, intake is tightly bound to the system: switching CRM means rebuilding the whole chain from scratch."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто згадати телефонію і месенджери. Дзвінок дає найвищу якість контакту, але не працює вночі й потребує людини на лінії; без інтеграції з системою частина дзвінків просто ніде не фіксується. Месенджери зручні клієнту, але без підключення до спільного акаунту переписки живуть у телефоні конкретного менеджера і зникають разом із ним.",
+      "en": "Telephony and messengers deserve a separate mention. A call gives the highest contact quality, but it does not work at night and needs a person on the line; without integration, a share of calls is never logged anywhere. Messengers are convenient for the customer, but without a shared account the conversations live on one manager's phone and leave with them."
+    },
+    {
+      "t": "h2",
+      "uk": "Порівняння каналів: що обрати для різних типів бізнесу",
+      "en": "Comparing the channels: what to choose for different business types"
+    },
+    {
+      "t": "p",
+      "uk": "Якщо у вас невеликий бізнес із простою послугою і потоком до тридцяти заявок на місяць - беріть форму на сайті плюс сповіщення в месенджер. Це приблизно один день роботи і майже нульова вартість утримання. Ускладнювати немає сенсу, поки один менеджер фізично встигає обробити все, що приходить, того ж дня.",
+      "en": "If you run a small business with a simple service and up to thirty requests a month, take a website form plus a messenger notification. That is roughly one day of work and near-zero running cost. There is no point complicating things while a single manager can physically handle everything that arrives on the same day."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо заявок більше, а перед продажем потрібна кваліфікація - параметри замовлення, бюджет, місто, терміни - вигіднішим стає Telegram бот із передачею даних у систему обліку. Він знімає з менеджера рутинні уточнення і працює тоді, коли команда спить. Для сервісів із записом на конкретний час це фактично стандартний вибір.",
+      "en": "If volume is higher and qualification is needed before the sale - order parameters, budget, city, deadlines - a Telegram bot passing data into your record system becomes the better deal. It removes routine clarifications from the manager and works while the team sleeps. For services with time-slot booking it is effectively the standard choice."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо в компанії кілька менеджерів, довгий цикл угоди й потрібна звітність по джерелах, основою стає CRM, а форма і бот працюють як канали входу до неї. У Devlly ми будуємо такі системи під конкретний процес: підбираємо канал під вашу аудиторію, а не навпаки, і зводимо всі заявки в одне місце.",
+      "en": "If the company has several managers, a long deal cycle and needs source reporting, the CRM becomes the core while the form and the bot act as entry channels into it. At Devlly we build such systems around a specific process: we match the channel to your audience rather than the other way round, and bring every request into one place."
+    }
+  ]
+}

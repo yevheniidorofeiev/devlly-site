@@ -1,0 +1,97 @@
+{
+  "title_uk": "CRM система для агентства нерухомості: що врахувати",
+  "title_en": "A CRM for a real estate agency: what to take into account",
+  "date_uk": "02 КВІ 2026",
+  "date_en": "APR 2, 2026",
+  "desc_uk": "Дві бази замість однієї, матчинг попиту й пропозиції, воронка показів, ексклюзив і захист бази, розрахунок комісії та вивантаження на майданчики. Що має бути в CRM для ріелтора.",
+  "desc_en": "Two databases instead of one, demand-to-supply matching, a viewings funnel, exclusivity and data protection, commission splits and portal publishing. What a realtor’s CRM must have.",
+  "seo": {
+    "t": "CRM для агентства нерухомості: база об’єктів, матчинг, комісія | Devlly",
+    "te": "CRM for a real estate agency: listings, matching, commissions | Devlly",
+    "d": "CRM для агентства нерухомості: база об’єктів і клієнтів, автоматичний матчинг, воронка угоди, захист бази, комісія агентів і вивантаження на OLX та DIM.RIA.",
+    "de": "A CRM for a real estate agency: property and client bases, automatic matching, a deal funnel, data protection, agent commissions and publishing to listing portals.",
+    "k": "crm для агентства нерухомості, crm для ріелтора, база об’єктів нерухомості, автоматизація агентства, воронка угоди, вивантаження оголошень"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Ріелтор - це людина, яка одночасно тримає в голові сорок об’єктів, тридцять покупців і те, що власник квартири на Липках не бере слухавку до одинадцятої. Коли агентство росте з трьох агентів до п’ятнадцяти, ця голова перестає масштабуватися: об’єкти дублюються, клієнти зникають, двоє агентів приїжджають на один показ, а після звільнення менеджера база йде разом із ним. CRM для агентства нерухомості вирішує саме ці задачі - але лише та, що враховує специфіку ринку. Розберімо, що має бути всередині і на чому найчастіше спотикаються при впровадженні.",
+      "en": "A realtor is a person who simultaneously holds forty properties in their head, thirty buyers, and the fact that the owner of the flat downtown doesn’t pick up the phone before eleven. When an agency grows from three agents to fifteen, that head stops scaling: properties get duplicated, clients vanish, two agents show up for the same viewing, and when a manager quits the database walks out with them. A CRM for a real estate agency solves exactly these problems - but only one that accounts for the specifics of the market. Let’s look at what belongs inside it, and where implementations usually stumble."
+    },
+    {
+      "t": "h2",
+      "uk": "База об’єктів нерухомості і база клієнтів - це дві різні сутності",
+      "en": "The property database and the client database are two different entities"
+    },
+    {
+      "t": "p",
+      "uk": "Ключова відмінність нерухомості від класичних продажів у тому, що тут дві повноцінні бази, а не одна. Є база об’єктів нерухомості: адреса, площа, поверх, стан, ціна, документи, фото, планування, історія зміни ціни, власник і його реальна мотивація продавати. І є база клієнтів-покупців чи орендарів зі своїм запитом: бюджет із вилкою, райони, кількість кімнат, «обов’язково не перший поверх», готовність до іпотеки, терміни. У звичайній CRM усе це намагаються запхати в одну картку угоди - і система розсипається на другому місяці. Правильна модель проста: об’єкт живе своїм життям і може пройти через десяток покупців, покупець живе своїм і може подивитися двадцять об’єктів. Угода - це точка, де вони перетнулися.",
+      "en": "The key difference between real estate and classic sales is that here you have two full-blown databases, not one. There is the property database: address, area, floor, condition, price, documents, photos, layout, price history, the owner and their real motivation to sell. And there is the database of buyers or tenants with their own brief: a budget range, districts, number of rooms, «definitely not the ground floor», mortgage readiness, timing. In a generic CRM people try to cram all of this into a single deal card - and the system falls apart in the second month. The right model is simple: a property lives its own life and may pass through a dozen buyers; a buyer lives their own and may view twenty properties. The deal is the point where the two intersect."
+    },
+    {
+      "t": "p",
+      "uk": "Саме тому працює автоматичний матчинг попиту й пропозиції. Коли агент заводить новий об’єкт, система відразу показує, кому з клієнтів у базі він потенційно підходить за бюджетом, районом і параметрами, і повідомляє відповідальних агентів. І у зворотний бік: новий запит покупця миттєво зіставляється з усім, що є в базі, включно з об’єктами колег. Це не магія, це фільтр із вагами: точний збіг за районом і кімнатами, допуск плюс-мінус десять відсотків до бюджету, штраф за поверх, якого клієнт просив уникати. Ефект відчутний одразу: об’єкт, який мав би пролежати два тижні до наступної розсилки, отримує три перегляди в перший же день. Без матчингу база об’єктів - це просто дорогий архів.",
+      "en": "This is exactly why automatic demand-to-supply matching works. When an agent adds a new property, the system immediately shows which clients in the base it could suit by budget, district and parameters, and notifies the agents responsible for them. And the other way round: a new buyer brief is instantly matched against everything in the base, including colleagues’ listings. It isn’t magic, it’s a weighted filter: an exact match on district and room count, a plus-or-minus ten percent tolerance on budget, a penalty for a floor the client asked to avoid. The effect is immediate: a property that would have sat for two weeks until the next mailout gets three viewings on day one. Without matching, a property database is just an expensive archive."
+    },
+    {
+      "t": "h2",
+      "uk": "Воронка угоди в CRM для ріелтора: лід, показ, аванс, угода",
+      "en": "The deal funnel in a realtor’s CRM: lead, viewing, deposit, closing"
+    },
+    {
+      "t": "p",
+      "uk": "Воронка в нерухомості довша й важча за роздрібну: від першого дзвінка до підписання минає від двох до шести місяців, а етапи мають зовсім іншу природу. Класична схема така: лід, кваліфікація потреби, підбір, показ, торг, аванс або завдаток, підготовка документів, нотаріус, угода, післяпродажний контакт. Кожен етап тягне за собою обов’язкові дії: після показу - фідбек від клієнта і від власника протягом доби, після авансу - жорсткий дедлайн на перевірку документів, бо строк угоди прописаний у договорі. CRM має не просто малювати стовпчики, а нагадувати: показ був учора, фідбек не внесено - телефонуй. І фіксувати причини відмов: «дорого», «не сподобався під’їзд», «пішли до іншого агентства». Саме з цього потім складається чесна аналітика.",
+      "en": "The funnel in real estate is longer and heavier than in retail: two to six months pass between the first call and the signature, and the stages have a completely different nature. The classic sequence is: lead, needs qualification, shortlisting, viewing, negotiation, deposit, document preparation, notary, closing, post-sale contact. Each stage drags mandatory actions behind it: after a viewing, feedback from both the client and the owner within a day; after a deposit, a hard deadline for the document check, because the closing date is written into the contract. A CRM shouldn’t just draw columns, it should nudge: the viewing was yesterday, no feedback logged - call. And it should record rejection reasons: «too expensive», «didn’t like the entrance hall», «went to another agency». That is what honest analytics is later built from."
+    },
+    {
+      "t": "p",
+      "uk": "Показ варто винести в окрему сутність, а не ховати в коментарі. У нього є дата, час, об’єкт, клієнт, агент, спосіб доступу (ключі в офісі, консьєрж, власник відкриває сам) і результат. Тоді система бачить, що в агента на четвер уже три покази в різних кінцях міста, і не дає поставити четвертий між ними. Тоді власник об’єкта раз на тиждень автоматично отримує звіт: скільки було переглядів оголошення, скільки дзвінків, скільки показів і що казали люди - це найкращий аргумент у розмові про зниження ціни. І тоді керівник бачить конверсію не в середньому по агентству, а по кожному агенту: скільки показів припадає на одну угоду і на якому етапі він втрачає клієнтів.",
+      "en": "A viewing deserves to be its own entity, not a line buried in the comments. It has a date, a time, a property, a client, an agent, an access method (keys at the office, the concierge, the owner opens up themselves) and an outcome. Then the system can see that an agent already has three viewings on Thursday across town, and won’t let a fourth be squeezed in between. Then the owner automatically gets a weekly report: how many listing views, how many calls, how many viewings and what people said - the best possible argument in a conversation about lowering the price. And then the manager sees conversion not as an agency average but per agent: how many viewings it takes to close one deal, and at which stage that agent loses clients."
+    },
+    {
+      "t": "h2",
+      "uk": "Ексклюзив, «чий клієнт» і захист бази від зливу",
+      "en": "Exclusivity, «whose client is this» and protecting the base from leaks"
+    },
+    {
+      "t": "p",
+      "uk": "Найгостріше питання будь-якого агентства - чий клієнт. Двоє агентів працюють з одним покупцем, кожен вважає його своїм, комісію потім ділять у кабінеті керівника на підвищених тонах. Технічне рішення - дедуплікація за номером телефону на вході: система не дає завести контакт, який уже є в базі, а показує, за ким він закріплений і коли був останній контакт. Правило фіксується в системі, а не в усних домовленостях: клієнт закріплюється за агентом на визначений строк, скажімо 30 або 60 днів, і якщо за цей час не було жодної активності, картка звільняється й повертається в загальний пул. Так само з об’єктами: ексклюзивний договір із власником має бути окремим полем із датою закінчення, бо саме ексклюзив дає право вкладати гроші в рекламу об’єкта.",
+      "en": "The sharpest question in any agency is whose client this is. Two agents work with the same buyer, each considers them theirs, and the commission is later divided in the manager’s office at raised voices. The technical fix is deduplication by phone number at the entry point: the system refuses to create a contact that already exists and instead shows who it is assigned to and when the last touch happened. The rule lives in the system, not in verbal agreements: a client is assigned to an agent for a fixed period, say 30 or 60 days, and if there is no activity in that window the card is released back into the common pool. The same goes for properties: an exclusive agreement with the owner should be a separate field with an expiry date, because exclusivity is what justifies spending money advertising that property."
+    },
+    {
+      "t": "p",
+      "uk": "Звідси ж - права доступу. Агент бачить свої об’єкти й своїх клієнтів, керівник бачить усе, стажер не бачить зайвого. Контакти власників у чужих об’єктах приховані: агент бачить об’єкт у загальній базі, може запропонувати його своєму покупцеві, але телефон власника набирає відповідальний, а не він. Це не паранойя, а базова гігієна: найпоширеніший сценарій втрати бази - це не хакери, а менеджер, який перед звільненням вивантажив усе в Excel. Тому масовий експорт має бути закритий для рядових ролей, а всі перегляди контактів логуватися: хто, коли, скільки карток відкрив. Аномалія на кшталт «агент за вечір переглянув двісті контактів» має підсвічуватися керівнику наступного ранку, а не з’ясовуватися через пів року.",
+      "en": "Access rights follow from this. An agent sees their own properties and their own clients, the manager sees everything, an intern sees nothing extra. Owner contacts on other people’s listings are hidden: an agent can see the property in the shared base and offer it to their buyer, but it’s the responsible agent who dials the owner, not them. This isn’t paranoia, it’s basic hygiene: the most common way a base is lost isn’t hackers, it’s a manager who dumped everything into Excel before resigning. So bulk export must be closed off for ordinary roles, and every contact view must be logged: who, when, how many cards opened. An anomaly like «an agent opened two hundred contacts in one evening» should be flagged to the manager the next morning, not discovered six months later."
+    },
+    {
+      "t": "h2",
+      "uk": "Комісія між агентами й документи, які не хочеться заповнювати вручну",
+      "en": "Commission splits between agents, and documents nobody wants to fill in by hand"
+    },
+    {
+      "t": "p",
+      "uk": "Комісія в нерухомості майже ніколи не дістається одному. В угоді бере участь агент об’єкта і агент покупця, іноді підключається стороннє агентство, іноді керівник, який дотиснув торг. CRM має рахувати це автоматично за правилами, які ви задали: наприклад, п’ятдесят на п’ятдесят між агентом об’єкта й агентом покупця, десять відсотків керівнику напряму, решта агентству, а для співпраці зі сторонніми - окрема схема. Ставка може залежати від типу угоди: за оренду одна, за продаж інша, за ексклюзив підвищена. Коли це рахує система, зникає найтоксичніший конфлікт у колективі, а агент у будь-який момент бачить у своєму кабінеті, скільки він заробив цього місяця і скільки грошей у нього «в дорозі» на етапі авансу.",
+      "en": "In real estate the commission almost never goes to one person. A deal involves the listing agent and the buyer’s agent, sometimes an outside agency joins in, sometimes the manager who pushed the negotiation over the line. The CRM must calculate this automatically by the rules you set: for example fifty-fifty between the listing agent and the buyer’s agent, ten percent straight to the manager, the rest to the agency, with a separate scheme for co-operation with outsiders. The rate can depend on the deal type: one for rentals, another for sales, a higher one for exclusives. When the system does the math, the most toxic conflict in the team disappears, and at any moment an agent can see in their own dashboard how much they earned this month and how much money is «in transit» at the deposit stage."
+    },
+    {
+      "t": "p",
+      "uk": "Документи - друга зона, де агент витрачає години на копіювання. Договір із власником, договір авансу, акт огляду, розписка про завдаток, договір на надання послуг: усі вони відсотків на вісімдесят складаються з даних, які вже є в системі. Шаблон із підстановкою полів формує готовий файл за десять секунд, з правильними реквізитами, площею до сотих і сумою прописом. Помилок у номері паспорта чи адресі стає менше, а версія договору в агентства одна на всіх, а не «у Каті свій файл із 2021 року». Далі логічно додати електронний підпис і відправку клієнту в месенджер - і ціла категорія поїздок в офіс просто зникає з процесу.",
+      "en": "Documents are the second area where agents burn hours on copy-paste. The owner agreement, the deposit contract, the inspection act, the earnest money receipt, the service agreement - all of them are roughly eighty percent made up of data that already sits in the system. A template with field substitution produces a ready file in ten seconds, with correct legal details, area to two decimals and the amount written out in words. Errors in passport numbers and addresses drop, and the agency has one version of each contract rather than «Kate has her own file from 2021». The logical next step is an electronic signature and delivery to the client in a messenger - and a whole category of trips to the office simply disappears from the process."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація агентства: майданчики, мобільний доступ і чому коробки не підходять",
+      "en": "Agency automation: portals, mobile access, and why boxed CRMs don’t fit"
+    },
+    {
+      "t": "p",
+      "uk": "Вивантаження оголошень - те, на чому агентства втрачають найбільше ручних годин. Один об’єкт публікується на OLX, DIM.RIA, на власному сайті, у Telegram-каналі й у групах - і кожна зміна ціни означає п’ять заходів у п’ять кабінетів. Правильно робити навпаки: об’єкт заводиться один раз у CRM, а система сама формує оголошення під вимоги кожного майданчика, накладає водяний знак на фото, публікує через API або фід і оновлює ціну скрізь одночасно. Продали - об’єкт знімається з публікації автоматично, а не через тиждень, коли на нього ще дзвонять. Сюди ж повертається статистика переглядів із майданчиків у картку об’єкта, і з’являється чесна відповідь на питання, який канал дає покупців, а який лише витрачає бюджет.",
+      "en": "Publishing listings is where agencies lose the most manual hours. A single property goes onto OLX, DIM.RIA, the agency website, a Telegram channel and various groups - and every price change means logging into five back offices. It should work the other way round: the property is entered once in the CRM, and the system itself builds the listing to each portal’s requirements, watermarks the photos, publishes via API or feed, and updates the price everywhere at once. Once it’s sold, the listing is withdrawn automatically, not a week later while people are still calling about it. View statistics flow back from the portals into the property card, giving an honest answer to the question of which channel actually brings buyers and which one just burns budget."
+    },
+    {
+      "t": "p",
+      "uk": "І останнє: усе це має працювати з телефона. Ріелтор більшу частину дня не за комп’ютером - він у під’їзді, в машині, на показі. Йому треба на місці відкрити картку об’єкта, показати клієнту планування, сфотографувати квартиру й одразу залити фото в базу, внести фідбек, поки не забув, і подивитися наступну адресу. Тому мобільний інтерфейс, а часто й Telegram-бот як швидкий доступ, важливіші за красиві дашборди. Саме через цю специфіку коробкові CRM зазвичай і не приживаються: вони побудовані навколо однієї угоди й одного контакту, у них немає ні двох баз, ні матчингу, ні розділення комісії, ні ексклюзиву, і кожна доробка впирається в чужу архітектуру. У Devlly ми будуємо CRM для агентств нерухомості під конкретні процеси: база об’єктів і клієнтів, матчинг, воронка показів, права доступу й інтеграції з майданчиками - те, що реально економить агенту години, а власнику агентства базу.",
+      "en": "And finally: all of this has to work from a phone. A realtor spends most of the day away from a computer - in a stairwell, in the car, at a viewing. They need to open the property card on the spot, show the client the floor plan, photograph the flat and upload the pictures straight into the base, log feedback before they forget it, and check the next address. That’s why a mobile interface - and often a Telegram bot for quick access - matters more than beautiful dashboards. This specificity is exactly why boxed CRMs usually fail to take root: they are built around one deal and one contact, they have no two bases, no matching, no commission splitting, no exclusivity, and every customization runs into someone else’s architecture. At Devlly we build CRMs for real estate agencies around their actual processes: a property and client base, matching, a viewings funnel, access rights and portal integrations - the things that genuinely save an agent hours and save the owner their database."
+    }
+  ]
+}

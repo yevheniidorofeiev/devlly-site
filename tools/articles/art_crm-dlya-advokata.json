@@ -1,0 +1,97 @@
+{
+  "title_uk": "CRM для адвоката: що потрібно і як обрати",
+  "title_en": "CRM for a Lawyer: What You Need and How to Choose",
+  "desc_uk": "Практичний розбір CRM для адвоката: облік справ, контроль строків, білінг годин і конфіденційність даних. Пояснюємо, як обрати готове рішення чи замовити розробку під свою практику.",
+  "desc_en": "A practical breakdown of CRM for a lawyer: case management, deadline control, hourly billing and data confidentiality. We explain how to pick a ready-made tool or order a custom build for your practice.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для адвоката: вибір і налаштування під адвокатську практику | Devlly",
+    "te": "CRM for a Lawyer: Choosing and Configuring It for Your Legal Practice | Devlly",
+    "d": "Які функції CRM потрібні адвокату: облік справ, строки, білінг і конфіденційність. Як обрати або розробити систему під свою практику.",
+    "de": "Which CRM features a lawyer needs: case management, deadlines, billing and confidentiality. How to choose or build a system for your own practice.",
+    "k": "crm для адвоката, срм для адвоката, crm для юриста, облік справ адвоката, контроль строків адвоката, білінг адвоката, облік годин юриста, автоматизація адвокатської практики, конфіденційність даних клієнтів, розробка crm під практику, готова crm для юристів, адвокатська таємниця в crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "CRM для адвоката - це не розкіш, а робочий інструмент, який тримає всю практику під контролем. Коли справ десять, усе легко памʼятати. Коли їх сорок чи сто, у голові вже не втримати ні строків, ні документів, ні домовленостей з клієнтами. Щось неминуче випадає, і саме дрібниця, що загубилася, часто вартує найдорожче. CRM для адвоката збирає справи, контакти, дедлайни, години роботи й фінанси в одному місці, де нічого не губиться. У цій статті розберемо, які функції справді потрібні, як не переплатити за зайве і чи варто брати готове рішення або замовляти розробку саме під вашу практику.",
+      "en": "A CRM for a lawyer is not a luxury but a working tool that keeps the whole practice under control. When you have ten cases, everything is easy to remember. When there are forty or a hundred, you can no longer hold the deadlines, documents or client agreements in your head. A CRM for a lawyer gathers cases, contacts, deadlines, working hours and finances in one place where nothing gets lost. In this article we break down which features you really need, how not to overpay for extras, and whether it is worth taking a ready-made solution or ordering a custom build for your practice."
+    },
+    {
+      "t": "h2",
+      "uk": "Навіщо адвокату CRM і що болить без неї",
+      "en": "Why a Lawyer Needs a CRM and What Hurts Without One"
+    },
+    {
+      "t": "p",
+      "uk": "Без системи адвокат тримає інформацію у трьох-чотирьох місцях одночасно: месенджери, електронна пошта, паперові папки й таблиця Excel. Через це щось обовʼязково губиться. Пропущений строк подання апеляції коштує клієнту програшу, а адвокату - репутації та можливого позову про відшкодування. За нашими спостереженнями, юрист без CRM витрачає до 6-8 годин на тиждень лише на пошук потрібного документа, згадування, на якому етапі справа, та відновлення домовленостей, які ніде не зафіксовані письмово.",
+      "en": "Without a system, a lawyer keeps information in three or four places at once: messengers, email, paper folders and an Excel sheet. Because of that, something inevitably slips through. A missed appeal deadline costs the client the case and the lawyer their reputation and a possible compensation claim. In our experience, a lawyer without a CRM spends up to 6-8 hours a week just searching for the right document, recalling what stage a case is at, and reconstructing agreements that were never recorded in writing."
+    },
+    {
+      "t": "p",
+      "uk": "CRM для адвоката прибирає цей хаос. Уся історія по клієнту - дзвінки, листи, документи, платежі, судові засідання - зібрана на одній картці. Новий помічник входить у курс справи за години, а не за тижні. Коли клієнт телефонує, ви за пару секунд бачите повний контекст, а не гортаєте старі чати в пошуках того, про що домовлялися пів року тому. Це економить час і прибирає постійне відчуття, що ви щось важливе забули. Порядок у справах помітний і клієнту: він бачить, що ви тримаєте руку на пульсі, і довіряє більше.",
+      "en": "A CRM for a lawyer removes this chaos. The entire history for a client - calls, letters, documents, payments, court hearings - is gathered on a single card. A new assistant gets up to speed on a case in hours rather than weeks. When a client calls, you see the full context in a couple of seconds instead of scrolling through old chats looking for what was agreed six months ago. This saves time and removes the constant feeling that you have forgotten something important. Order in your cases is visible to the client too: they see that you have your finger on the pulse and they trust you more."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік справ адвоката і контроль строків та дедлайнів",
+      "en": "Case Management for a Lawyer and Control of Deadlines"
+    },
+    {
+      "t": "p",
+      "uk": "Серце системи - облік справ адвоката. Кожна справа має статус, відповідального юриста, привʼязані документи, суму гонорару та стрічку подій. Ви бачите всі активні провадження на одному екрані й одразу розумієте, де черга за вами, а де ви чекаєте рішення суду чи дії клієнта. Фільтри за категорією, судом, стадією чи відповідальним допомагають не тримати десятки деталей у памʼяті й швидко готуватися до кожного засідання без гарячкового перебирання папок.",
+      "en": "The heart of the system is case management for a lawyer. Every case has a status, a responsible lawyer, attached documents, the fee amount and a timeline of events. You see all active proceedings on one screen and immediately understand where the ball is in your court and where you are waiting on a court ruling or a client action. Filters by category, court, stage or responsible person help you avoid keeping dozens of details in your head and prepare for each hearing quickly, without frantically going through folders."
+    },
+    {
+      "t": "p",
+      "uk": "Найважливіше - строки. Процесуальні дедлайни не прощають помилок: пропустили десять днів на оскарження - і право втрачене назавжди. Хороша CRM рахує строки автоматично від дати події та нагадує за тиждень, за три дні й у сам день дедлайну. Нагадування приходить на пошту чи в Telegram, тож не помітити його важко навіть у найзавантаженіший тиждень. Один врятований від пропуску строк уже повністю виправдовує річну вартість системи.",
+      "en": "The most important part is deadlines. Procedural deadlines forgive no mistakes: miss the ten days for an appeal and the right is lost forever. A good CRM counts deadlines automatically from the event date and reminds you a week before, three days before and on the deadline day itself. The reminder comes by email or Telegram, so it is hard to miss even in the busiest week. A single deadline saved from being missed already fully justifies the annual cost of the system."
+    },
+    {
+      "t": "h2",
+      "uk": "Білінг адвоката й облік робочих годин",
+      "en": "Lawyer Billing and Tracking of Working Hours"
+    },
+    {
+      "t": "p",
+      "uk": "Білінг адвоката - друга больова точка після строків. Якщо ви працюєте за погодинною ставкою, кожні незафіксовані пʼятнадцять хвилин - це втрачені гроші, а за місяць набігає кругла сума. CRM дає таймер і ручний облік годин: зателефонували клієнту, склали позов, зʼїздили в суд - усе фіксується під конкретну справу з коротким описом виконаної роботи, щоб потім не відновлювати ці деталі з памʼяті наприкінці місяця.",
+      "en": "Lawyer billing is the second pain point after deadlines. If you work at an hourly rate, every fifteen minutes left unrecorded is lost money, and over a month it adds up to a round sum. A CRM provides a timer and manual hour tracking: you called a client, drafted a claim, went to court - everything is logged against a specific case with a short description of the work done, so you do not have to reconstruct these details from memory at the end of the month."
+    },
+    {
+      "t": "p",
+      "uk": "Далі система сама формує рахунок за обраний період: скільки годин витрачено, за якою ставкою, які додаткові витрати на держмито чи експертизи. Клієнт отримує прозорий звіт із розшифровкою, а не абстрактну суму, і зайвих питань стає менше. Ви ж бачите реальну картину: які справи прибуткові, а які зʼїдають час без віддачі. Практика, що переходить на дисциплінований облік годин, часто виявляє 15-20% робіт, які раніше просто забували виставити в рахунок. За рік це відчутна сума, яка спокійно повертається у ваш дохід замість того, щоб зникати безслідно.",
+      "en": "The system then builds the invoice for the chosen period on its own: how many hours were spent, at what rate, and which extra costs went to state duty or expert examinations. The client receives a transparent, itemized report instead of an abstract figure, and there are fewer unnecessary questions. You, in turn, see the real picture: which cases are profitable and which eat up time with no return. A practice that switches to disciplined hour tracking often discovers 15-20% of work that previously simply went unbilled. Over a year that is a tangible sum, which quietly returns to your income instead of vanishing without a trace."
+    },
+    {
+      "t": "h2",
+      "uk": "Конфіденційність і контроль доступу до даних клієнтів",
+      "en": "Confidentiality and Access Control for Client Data"
+    },
+    {
+      "t": "p",
+      "uk": "Адвокатська таємниця - не побажання, а прямий обовʼязок. Тому конфіденційність даних клієнтів у CRM критично важлива. Доступ має бути розмежований за ролями: помічник бачить свої справи, але не фінанси всієї фірми, а стажист - лише те, що йому доручили. Кожна дія повинна лишати слід у журналі, щоб у разі витоку було зрозуміло, хто й коли відкривав картку чи вивантажував документи. Без такого контролю будь-який співробітник має доступ до всього, і це серйозний ризик.",
+      "en": "Attorney-client privilege is not a wish but a direct obligation. That is why client data confidentiality in a CRM is critically important. Access must be separated by roles: an assistant sees their own cases but not the finances of the whole firm, while an intern sees only what they were assigned. Every action should leave a trace in a log, so that in the event of a leak it is clear who opened a card or exported documents and when. Without such control, any employee has access to everything, and that is a serious risk."
+    },
+    {
+      "t": "p",
+      "uk": "Не менш важливо, де фізично зберігаються дані та хто має до них ключі. Хмарні сервіси зручні, але не завжди дають повний контроль над сервером і резервними копіями. Для чутливої практики варто розглянути розміщення на власному сервері, шифрування бази даних та обовʼязкову двофакторну автентифікацію для всіх співробітників. Так навіть викрадений пароль не відкриє сторонньому доступ до справ ваших клієнтів, а ви спокійно спатимете, знаючи, де саме лежать дані.",
+      "en": "Equally important is where the data is physically stored and who holds the keys to it. Cloud services are convenient but do not always give full control over the server and backups. For a sensitive practice it is worth considering hosting on your own server, database encryption and mandatory two-factor authentication for all staff. That way, even a stolen password will not open access to your clients' cases for an outsider, and you can sleep soundly knowing exactly where the data sits."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова CRM чи розробка під практику: як обрати",
+      "en": "Ready-Made CRM or a Custom Build for Your Practice: How to Choose"
+    },
+    {
+      "t": "p",
+      "uk": "Готові рішення дешевші на старті й запускаються за кілька днів. Вони підходять, якщо ваші процеси досить стандартні, а в команді двоє-троє адвокатів. Мінус у тому, що ви підлаштовуєтеся під чужу логіку, платите щомісяця за модулі, якими не користуєтесь, і не завжди можете додати потрібне поле, звіт чи етап справи саме так, як зручно вам. З ростом практики та збільшенням кількості справ ці обмеження починають відчуватися дедалі гостріше й гальмують роботу команди.",
+      "en": "Ready-made solutions are cheaper to start with and launch within a few days. They suit you if your processes are fairly standard and there are two or three lawyers on the team. The downside is that you adapt to someone else's logic, pay monthly for modules you do not use, and cannot always add the field, report or case stage exactly the way that works for you. As the practice grows and the number of cases increases, these limitations start to feel increasingly acute and slow the team down."
+    },
+    {
+      "t": "p",
+      "uk": "Розробка під практику дорожча, але дає систему, що повторює саме ваші процеси: ваші категорії справ, ваші шаблони документів, вашу схему білінгу та власні вимоги до конфіденційності. Це виправдано, коли команда росте або спеціалізація вузька. Devlly будує такі CRM під конкретну адвокатську практику - від обліку справ і контролю строків до інтеграції з Telegram для нагадувань. Якщо ви вагаєтесь, з чого почати, напишіть нам: ми розберемо ваші процеси й підкажемо, що справді потрібно, а на чому можна спокійно заощадити.",
+      "en": "A custom build costs more but gives you a system that mirrors exactly your processes: your case categories, your document templates, your billing scheme and your own confidentiality requirements. It is justified when the team grows or the specialization is narrow. Devlly builds such CRMs for a specific legal practice - from case management and deadline control to Telegram integration for reminders. If you are unsure where to start, write to us: we will go through your processes and advise what is truly needed and where you can safely save."
+    }
+  ]
+}

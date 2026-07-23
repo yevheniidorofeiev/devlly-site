@@ -1,0 +1,102 @@
+{
+  "title_uk": "HR бот для бізнесу: що це і як працює",
+  "title_en": "HR bot for business: what it is and how it works",
+  "desc_uk": "Що таке HR бот, як він влаштований технічно і які задачі закриває: від збору анкет кандидатів до онбордингу, відпусток і опитувань eNPS.",
+  "desc_en": "What an HR bot is, how it works under the hood and which tasks it covers: from collecting candidate applications to onboarding, leave requests and eNPS surveys.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "HR бот для бізнесу: автоматизація найму і онбордингу | Devlly",
+    "te": "HR bot for business: hiring and onboarding automation | Devlly",
+    "d": "Що таке HR бот, які задачі він вирішує і як налаштувати його для вашого бізнесу. Від збору анкет до онбордингу нових співробітників.",
+    "de": "What an HR bot is, which tasks it solves and how to set it up for your business. From collecting applications to onboarding new employees.",
+    "k": "hr бот, hr бот для бізнесу, автоматизація hr процесів, бот для найму персоналу, онбординг співробітників, telegram бот для hr"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "HR бот - це програма, яка бере на себе рутинні кадрові процеси: збирає анкети кандидатів, відповідає на типові питання співробітників, проводить онбординг новачків і нагадує про важливі дати. Найчастіше такий бот живе в Telegram, тому що ним і так користується більшість команди і не треба встановлювати окремий застосунок. За нашими спостереженнями, у компанії на 30-50 людей HR-фахівець витрачає до 40 відсотків часу на механічні задачі, які піддаються автоматизації. У цій статті розберемо, що таке HR бот, як він влаштований технічно, який спектр задач закриває, з яких етапів складається налаштування і скільки коштує впровадження.",
+      "en": "An HR bot is a program that takes over routine people operations: it collects candidate applications, answers employees' typical questions, runs onboarding for newcomers and reminds about important dates. Most often such a bot lives in Telegram, because most of the team already uses it and no separate app needs to be installed. From what we see in practice, in a company of 30-50 people an HR specialist spends up to 40 percent of their time on mechanical tasks that can be automated. In this article we break down what an HR bot is, how it works technically, which range of tasks it covers, what the setup stages are and how much implementation costs."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке HR бот і навіщо він бізнесу",
+      "en": "What an HR bot is and why a business needs one"
+    },
+    {
+      "t": "p",
+      "uk": "HR бот - це не просто меню з кнопками, а цифровий асистент, який веде людину за наперед продуманим сценарієм і зберігає результат у базу даних. Кандидат заповнює анкету на вакансію, новий співробітник проходить план першого тижня, а офіс-менеджер отримує заявку на довідку - усе це відбувається в одному вікні месенджера без участі HR-фахівця. Ключова відмінність від звичайного чат-бота на сайті в тому, що HR бот працює з внутрішніми процесами компанії: він знає, хто до якого відділу належить, у кого коли закінчується випробувальний термін і скільки днів відпустки залишилося в конкретної людини.",
+      "en": "An HR bot is not just a menu with buttons but a digital assistant that guides a person through a pre-designed scenario and stores the result in a database. A candidate fills in a job application, a new employee follows their first-week plan, an office manager receives a document request - all of this happens in a single messenger window with no HR specialist involved. The key difference from a regular website chatbot is that an HR bot works with the company's internal processes: it knows who belongs to which department, whose probation period ends when and how many vacation days a specific person has left."
+    },
+    {
+      "t": "p",
+      "uk": "Для бізнесу це означає дві речі. Перша - швидкість: відповідь на типове питання «як оформити відпустку» співробітник отримує за секунди, а не чекає, поки HR звільниться від інших задач. Друга - масштабованість: один HR-менеджер із ботом спокійно обслуговує компанію на 100-150 людей, тоді як без автоматизації на такий штат зазвичай потрібні двоє. За досвідом наших проєктів, бот закриває 60-70 відсотків типових звернень до HR-відділу без участі людини. Це не заміна фахівця, а звільнення його часу для задач, де справді потрібні судження та емпатія: співбесіди, конфлікти, розвиток команди.",
+      "en": "For a business this means two things. First, speed: an employee gets the answer to a typical question like 'how do I request vacation' within seconds instead of waiting for HR to free up. Second, scalability: one HR manager with a bot comfortably serves a company of 100-150 people, whereas without automation such a headcount usually requires two. In our project experience, a bot closes 60-70 percent of typical requests to the HR department without human involvement. It does not replace the specialist - it frees their time for tasks that genuinely require judgement and empathy: interviews, conflicts, team development."
+    },
+    {
+      "t": "h2",
+      "uk": "Як HR бот влаштований технічно: Telegram, база даних, інтеграції",
+      "en": "How an HR bot works technically: Telegram, a database, integrations"
+    },
+    {
+      "t": "p",
+      "uk": "Технічно рішення складається з трьох частин. Перша - інтерфейс у Telegram: кнопки, форми і повідомлення, з якими взаємодіє людина. Друга - серверна логіка: саме вона вирішує, яке питання поставити наступним, чи проходить кандидат фільтр і кому надіслати сповіщення. Третя - база даних, де зберігаються анкети, статуси, дати й історія взаємодій. Такий поділ важливий: месенджер за потреби можна замінити на Viber чи вебформу, а логіка і дані залишаться тими самими. Бот працює цілодобово і витримує сотні одночасних діалогів, тож черга з кандидатів чи співробітників йому не страшна.",
+      "en": "Technically the solution consists of three parts. The first is the Telegram interface: buttons, forms and messages the person interacts with. The second is the server logic: it decides which question to ask next, whether a candidate passes the filter and who should get a notification. The third is the database that stores applications, statuses, dates and interaction history. This separation matters: the messenger can be swapped for Viber or a web form if needed, while the logic and data stay the same. The bot runs around the clock and handles hundreds of simultaneous dialogues, so a queue of candidates or employees is never a problem."
+    },
+    {
+      "t": "p",
+      "uk": "Справжня сила HR бота розкривається в інтеграціях. Анкети кандидатів автоматично падають у Google Таблицю або CRM, співбесіди створюються в Google Календарі, а заявка на відпустку після погодження керівником потрапляє в облікову систему. Якщо в компанії вже є HRM-система, бот стає зручним фронтендом до неї: співробітнику не треба згадувати логін від корпоративного порталу, він просто пише боту в Telegram. Для комунікації з усією командою бот підключається до корпоративного каналу і розсилає оголошення з підтвердженням прочитання, тож важлива інформація не губиться в загальних чатах.",
+      "en": "The real power of an HR bot shows in its integrations. Candidate applications automatically land in a Google Sheet or CRM, interviews are created in Google Calendar, and a leave request approved by the manager goes into the accounting system. If the company already has an HRM system, the bot becomes a convenient front end for it: an employee does not need to remember their corporate portal login, they simply message the bot in Telegram. For company-wide communication the bot connects to the corporate channel and sends announcements with read confirmations, so important information no longer gets lost in group chats."
+    },
+    {
+      "t": "h2",
+      "uk": "Які задачі вирішує HR бот: від найму до опитувань eNPS",
+      "en": "Which tasks an HR bot solves: from hiring to eNPS surveys"
+    },
+    {
+      "t": "p",
+      "uk": "Перший блок задач - найм. Бот збирає структуровані анкети кандидатів, відсіює невідповідних за жорсткими критеріями на кшталт досвіду чи міста і передає рекрутеру тільки релевантних. Він же нагадує кандидатам про співбесіду за день і за годину, що саме по собі знижує кількість неявок на 20-30 відсотків. Після оффера бот запитує документи для оформлення і збирає їх в одному місці замість листування на пʼять адрес.",
+      "en": "The first block of tasks is hiring. The bot collects structured candidate applications, screens out unsuitable ones by hard criteria such as experience or city, and passes only relevant people to the recruiter. It also reminds candidates about the interview a day and an hour in advance, which by itself cuts no-shows by 20-30 percent. After the offer, the bot requests the paperwork needed for employment and gathers it in one place instead of correspondence across five addresses."
+    },
+    {
+      "t": "p",
+      "uk": "Другий блок - онбординг. У перший день новачок отримує від бота привітання, план першого тижня, контакти ключових колег і посилання на внутрішні інструкції. Далі бот крок за кроком видає завдання: пройти інструктаж, налаштувати доступи, познайомитися з наставником, і відмічає виконання кожного пункту. Наприкінці першого тижня і першого місяця він збирає зворотний звʼязок, тож проблеми адаптації видно одразу, а не на виході людини посеред випробувального терміну.",
+      "en": "The second block is onboarding. On day one the newcomer receives a welcome message from the bot, a first-week plan, contacts of key colleagues and links to internal guides. The bot then hands out tasks step by step: complete the induction, set up access, meet the mentor, and marks each item as done. At the end of the first week and the first month it collects feedback, so adaptation problems become visible immediately rather than when the person quits midway through probation."
+    },
+    {
+      "t": "p",
+      "uk": "Третій блок - щоденна підтримка команди. Співробітник пише боту «хочу відпустку», вказує дати, керівник погоджує одним натисканням, і заявка йде в облік. Так само працюють довідки з місця роботи, зміна банківських реквізитів чи питання про залишок відпустки. Окремо варто згадати опитування eNPS і пульс-опитування: бот анонімно збирає оцінки раз на місяць чи квартал, і керівництво бачить динаміку настрою команди в цифрах, а не в здогадках. Один і той самий бот таким чином супроводжує людину від першого контакту з компанією до щоденної роботи.",
+      "en": "The third block is day-to-day team support. An employee messages the bot 'I want vacation,' picks the dates, the manager approves with one tap, and the request goes into the records. Employment certificates, changes of bank details or questions about remaining leave work the same way. eNPS and pulse surveys deserve a separate mention: the bot anonymously collects scores once a month or quarter, and management sees the team mood trend in numbers rather than guesses. In this way one and the same bot accompanies a person from first contact with the company to everyday work."
+    },
+    {
+      "t": "h2",
+      "uk": "Етапи налаштування HR бота під ваш бізнес",
+      "en": "Stages of setting up an HR bot for your business"
+    },
+    {
+      "t": "p",
+      "uk": "Впровадження починається не з коду, а з аудиту процесів. Потрібно зафіксувати, як зараз відбувається найм, онбординг і типові звернення: хто відповідає, скільки часу займає кожен крок, де губляться заявки. На основі цього складають сценарії бота: тексти питань, правила фільтрації, маршрути погоджень. Це найважливіший етап, бо бот автоматизує саме ваш процес, а не абстрактний «найм узагалі». Зазвичай аудит і проєктування сценаріїв займають один-два тижні.",
+      "en": "Implementation starts not with code but with a process audit. You need to capture how hiring, onboarding and typical requests happen today: who responds, how long each step takes, where requests get lost. Based on this, the bot scenarios are designed: question wording, filtering rules, approval routes. This is the most important stage, because the bot automates your specific process, not an abstract 'hiring in general.' The audit and scenario design usually take one to two weeks."
+    },
+    {
+      "t": "p",
+      "uk": "Далі йде розробка і наповнення: програмування логіки, підключення бази даних та інтеграцій, завантаження текстів. Перед запуском бота тестують на невеликій групі: кілька реальних кандидатів, два-три новачки на онбордингу. Після виправлення шорсткостей бот запускають на всю компанію і перший місяць уважно стежать за метриками: скільки діалогів завершено, на якому питанні люди кидають анкету, які запити бот не розуміє. Типовий проєкт від аудиту до повноцінного запуску займає три-шість тижнів.",
+      "en": "Then comes development and content: programming the logic, connecting the database and integrations, loading the texts. Before launch the bot is tested on a small group: a few real candidates, two or three newcomers going through onboarding. After the rough edges are fixed, the bot is rolled out to the whole company, and for the first month the metrics are watched closely: how many dialogues are completed, at which question people abandon the application, which requests the bot fails to understand. A typical project takes three to six weeks from audit to full launch."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки коштує HR бот і коли він окупається",
+      "en": "How much an HR bot costs and when it pays off"
+    },
+    {
+      "t": "p",
+      "uk": "Вартість залежить від кількості сценаріїв та інтеграцій. Простий бот для збору анкет на одну-дві вакансії - це орієнтовно 800-1500 доларів і один-два тижні роботи. Рішення середнього рівня з онбордингом, заявками на відпустки і звʼязкою з Google Таблицями чи CRM коштує 1500-4000 доларів. Комплексна система з інтеграцією в HRM, ланцюжками погоджень і опитуваннями eNPS може виходити за 5000 доларів. Підтримка і дрібні доопрацювання зазвичай коштують 50-150 доларів на місяць залежно від навантаження.",
+      "en": "The cost depends on the number of scenarios and integrations. A simple bot for collecting applications for one or two vacancies is roughly 800-1500 dollars and one to two weeks of work. A mid-level solution with onboarding, leave requests and a connection to Google Sheets or a CRM costs 1500-4000 dollars. A comprehensive system with HRM integration, approval chains and eNPS surveys can go beyond 5000 dollars. Support and minor improvements usually cost 50-150 dollars per month depending on the workload."
+    },
+    {
+      "t": "p",
+      "uk": "Окупність рахується просто. Якщо бот економить HR-фахівцю дві години на день, це приблизно 40 годин на місяць, тобто чверть ставки. За середньої зарплати HR-менеджера рішення за 2000-3000 доларів окупається за чотири-шість місяців, а далі працює в плюс. Додайте сюди швидше закриття вакансій і менший відтік новачків завдяки нормальному онбордингу - і ефект стає ще помітнішим. У Devlly ми розробляємо HR ботів під замовлення: від простого збору анкет до комплексної автоматизації кадрових процесів, налаштованої під специфіку саме вашої компанії.",
+      "en": "The payback is simple to calculate. If the bot saves an HR specialist two hours a day, that is about 40 hours a month, a quarter of a full-time position. At an average HR manager salary, a 2000-3000 dollar solution pays for itself in four to six months and then keeps generating savings. Add faster vacancy closing and lower newcomer churn thanks to proper onboarding, and the effect becomes even more visible. At Devlly we build custom HR bots: from simple application collection to comprehensive automation of people processes tailored to the specifics of your company."
+    }
+  ]
+}

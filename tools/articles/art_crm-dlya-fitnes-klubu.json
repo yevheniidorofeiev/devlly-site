@@ -1,0 +1,122 @@
+{
+  "title_uk": "CRM для фітнес-клубу: облік клієнтів і абонементів",
+  "title_en": "CRM for a Fitness Club: Client and Membership Management",
+  "desc_uk": "Розробляємо CRM для фітнес-клубу: база клієнтів, абонементи, заморозка, нагадування про продовження і аналітика відвідуваності.",
+  "desc_en": "We build a CRM for fitness clubs: client database, memberships, freezes, renewal reminders and attendance analytics.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для фітнес-клубу: абонементи, заморозка і аналітика | Devlly",
+    "te": "CRM for a Fitness Club: Memberships, Freezes and Analytics | Devlly",
+    "d": "Розробляємо CRM для фітнес-клубу: база клієнтів, абонементи, заморозка, нагадування про продовження і аналітика відвідуваності.",
+    "de": "We build a CRM for fitness clubs: client database, memberships, freezes, renewal reminders and attendance analytics.",
+    "k": "CRM для фітнес-клубу, облік абонементів, заморозка абонемента, продовження абонементів, відтік клієнтів фітнес-клубу, аналітика відвідуваності залу, LTV клієнта фітнес-клубу, CRM для спортзалу, автоматизація фітнес-клубу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Фітнес-клуб на 500-1000 клієнтів живе не в записах на тренування, а в цифрах абонементів: скільки залишилось занять, коли закінчується термін дії, хто заморозив картку в зошиті ще в березні. Telegram-бот вирішує питання запису та нагадувань, а облік грошей і клієнтської бази вирішує CRM. Без неї власник дізнається про відтік клієнта тільки тоді, коли той уже пішов до сусіднього залу, а фінансовий директор рахує виторг по абонементах в екселі раз на місяць замість того, щоб бачити картину щодня.",
+      "en": "A fitness club with 500 to 1000 clients does not live in training bookings but in membership numbers: how many sessions are left, when the term expires, who froze their card in a notebook back in March. A Telegram bot handles booking and reminders, while a CRM handles the money and the client base. Without it, the owner learns about a client's churn only after that client has already moved to the gym next door, and the finance lead counts membership revenue in a spreadsheet once a month instead of seeing the picture every day."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для фітнес-клубу: як система веде життєвий цикл абонемента",
+      "en": "CRM for a fitness club: how the system tracks the membership lifecycle"
+    },
+    {
+      "t": "p",
+      "uk": "У клубі одночасно ходять клієнти з разовими відвідуваннями, місячними та річними абонементами, безлімітом і пакетами на конкретну кількість занять - 8, 12, 20 тренувань. Кожен тип має власну логіку списання: разовий закривається одразу після заходу, пакет на заняття зменшує лічильник на одиницю після кожного відвідування, безлімітний і місячний рахують лише дату закінчення терміну дії. CRM веде це окремо для кожної картки клієнта, а не в загальному списку в екселі, де легко переплутати, кому скільки залишилось.",
+      "en": "A club has clients on single visits, monthly and annual memberships, unlimited plans, and packages for a set number of sessions - 8, 12, 20 workouts. Each type has its own charge logic: a single visit closes right after check-in, a session package reduces the counter by one after each visit, and unlimited or monthly plans only track the expiry date. A CRM keeps this separately in each client card, not in one shared spreadsheet where it is easy to mix up who has how many sessions left."
+    },
+    {
+      "t": "p",
+      "uk": "Коли термін дії абонемента спливає або лічильник занять доходить до нуля, система автоматично переводить картку клієнта в статус «прострочено» і прибирає його з активної бази для розрахунку завантаженості залу. Це важливо для адміністратора на рецепції: людина з простроченим абонементом не проходить турнікет без додаткового підтвердження оплати, і менеджер бачить це одразу в картці, а не зʼясовує на місці, гортаючи паперовий журнал.",
+      "en": "When a membership expires or the session counter hits zero, the system automatically moves the client card to an overdue status and removes it from the active base used to calculate gym load. This matters at the front desk: a client with an overdue membership does not pass the turnstile without confirming payment, and the manager sees this instantly in the card instead of figuring it out on the spot by flipping through a paper log."
+    },
+    {
+      "t": "p",
+      "uk": "Прострочені абонементи не видаляються з бази, а переходять у список для повторного продажу. Менеджер з продовжень бачить, скільки місяців клієнт не ходить, яким типом абонемента користувався раніше і чи варто пропонувати йому знижку на повернення, чи він просто пішов з міста. Без такого розподілу прострочені клієнти губляться серед активних і клуб втрачає базу для повторних продажів.",
+      "en": "Overdue memberships are not deleted, they move into a list for repeat sales. The renewal manager sees how many months a client has not shown up, which membership type they used before, and whether a comeback discount makes sense or the client simply left town. Without this split, overdue clients get lost among active ones and the club loses its base for repeat sales."
+    },
+    {
+      "t": "h2",
+      "uk": "Заморозка абонемента: правила замість зошита на рецепції",
+      "en": "Freezing a membership: rules instead of a notebook at the front desk"
+    },
+    {
+      "t": "p",
+      "uk": "У більшості клубів заморозка обмежена - наприклад, 14 днів на рік для місячного абонемента і 30 днів для річного, з мінімальним періодом заморозки від 3 днів. Коли ці правила записані в зошиті чи в голові адміністратора, кожна зміна адміністратора на зміні означає новий трактування правил: один дозволяє заморозити на 5 днів, інший на цілий тиждень без питань. Клієнти це відчувають і використовують розбіжності, а клуб втрачає контроль над реальним терміном дії абонементів.",
+      "en": "Most clubs limit freezes, for example 14 days a year for a monthly membership and 30 days for an annual one, with a minimum freeze period of 3 days. When these rules live in a notebook or in an administrator's head, every shift change means a new interpretation: one administrator allows a 5 day freeze, another allows a full week without questions. Clients notice the inconsistency and use it, and the club loses control over how long memberships actually run."
+    },
+    {
+      "t": "p",
+      "uk": "CRM зберігає ліміт заморозки для кожного типу абонемента і автоматично віднімає використані дні від залишку. Коли клієнт просить заморозку, адміністратор бачить у картці, скільки днів залишилось у цьому році, і система не дозволить оформити заморозку понад ліміт. Дата закінчення абонемента зсувається автоматично на кількість днів заморозки, без ручного перерахунку в календарі.",
+      "en": "A CRM stores the freeze limit for each membership type and automatically subtracts the days already used from the balance. When a client asks for a freeze, the administrator sees in the card how many days remain for the year, and the system will not allow a freeze beyond the limit. The membership expiry date shifts automatically by the number of frozen days, with no manual recalculation on a calendar."
+    },
+    {
+      "t": "p",
+      "uk": "Ручний облік заморозок у паперовому журналі найчастіше призводить до двох втрат: клуб продовжує вважати клієнта активним, поки той фактично заморожений, і навпаки - забуває розморозити картку вчасно, через що клієнт приходить на тренування, а система блокує прохід. Обидва випадки псують стосунки з клієнтом і забирають час адміністратора на розбір конфлікту замість роботи з залом.",
+      "en": "Manual freeze tracking in a paper log usually causes two kinds of loss: the club keeps counting a client as active while they are actually frozen, or the opposite happens and staff forget to unfreeze a card on time, so the client shows up for a workout and the system blocks entry. Both cases damage the relationship with the client and cost the administrator time resolving the conflict instead of working the floor."
+    },
+    {
+      "t": "h2",
+      "uk": "Продовження абонементів і відтік, який не видно неозброєним оком",
+      "en": "Membership renewals and the churn you cannot see with the naked eye"
+    },
+    {
+      "t": "p",
+      "uk": "За 7-10 днів до закінчення терміну дії абонемента система автоматично формує список клієнтів для менеджера з продовжень - з датою закінчення, типом абонемента і історією відвідувань за останній місяць. Менеджер дзвонить або пише не навмання всій базі раз на квартал, а працює точково з тими, у кого закінчення абонемента вже на календарі, поки клієнт ще не почав шукати альтернативу.",
+      "en": "7 to 10 days before a membership expires, the system automatically builds a list for the renewal manager, with the expiry date, membership type, and attendance history for the last month. The manager does not call or message the entire base once a quarter at random, they work precisely with clients whose expiry date is already on the calendar, before the client starts looking for an alternative."
+    },
+    {
+      "t": "p",
+      "uk": "Частина клієнтів не продовжує абонемент мовчки: не пишуть про відмову, просто перестають приходити, а картка ще місяць-два висить активною через передоплачений період. Цих клієнтів вираховують не за фактом закінчення абонемента, а за падінням частоти відвідувань - якщо клієнт ходив 3 рази на тиждень, а за останні три тижні був один раз, це сигнал для менеджера звʼязатися раніше, ніж абонемент офіційно закінчиться.",
+      "en": "Some clients do not renew silently: they never announce it, they simply stop showing up, while their card stays active for another month or two because of the prepaid period. These clients are flagged not by the membership expiry date but by a drop in visit frequency - if a client used to train 3 times a week and showed up once in the last three weeks, that is a signal for the manager to reach out earlier than the official expiry date."
+    },
+    {
+      "t": "p",
+      "uk": "Відсоток продовжень - ключова метрика для власника клубу на 300-1500 активних клієнтів: різниця між 60% і 80% продовжень на базі в 800 клієнтів - це різниця в сотні тисяч гривень виторгу на рік без жодних витрат на нове залучення. CRM показує цей відсоток по місяцях і по типах абонементів, тож видно, який продукт тримає клієнтів, а який продають одноразово і більше не бачать людину.",
+      "en": "The renewal rate is a key metric for an owner running a club with 300 to 1500 active clients: the gap between 60% and 80% renewals on a base of 800 clients means hundreds of thousands of hryvnias in annual revenue with zero extra acquisition spend. A CRM shows this rate by month and by membership type, so it is clear which product retains clients and which one sells once and never sees the person again."
+    },
+    {
+      "t": "h2",
+      "uk": "Відвідуваність і завантаження залу по годинах",
+      "en": "Attendance and gym load by the hour"
+    },
+    {
+      "t": "p",
+      "uk": "CRM накопичує кожен прохід клієнта через турнікет чи відмітку адміністратора і будує картину завантаження по годинах і днях тижня. У більшості клубів виявляється, що ранкові слоти з 10 до 13 стоять порожні на 20-30%, а вечірні з 18 до 20 переповнені настільки, що клієнти скаржаться на чергу до тренажерів чи брак місця в залі групових програм.",
+      "en": "A CRM logs every client entry through the turnstile or an administrator's check-in and builds a picture of load by hour and day of week. In most clubs it turns out that morning slots from 10 to 13 sit 20 to 30 percent empty, while evening slots from 18 to 20 are so overloaded that clients complain about queues for equipment or a lack of space in group classes."
+    },
+    {
+      "t": "p",
+      "uk": "На основі цих даних розклад групових занять і графік тренерів переглядають не інтуїтивно, а по цифрах: слабо завантажені години закривають чи обʼєднують заняття, у пікові години додають другий зал або паралельну групу. Це знижує навантаження на тренерів у перевантажені слоти і одночасно піднімає заповнюваність порожніх годин, замість того щоб тримати однаковий розклад місяцями поспіль.",
+      "en": "Based on this data, the group class schedule and trainer shifts get revised by numbers, not by gut feeling: low load hours get merged or closed, peak hours get a second room or a parallel group. This lowers the strain on trainers during overloaded slots and raises the fill rate of empty hours, instead of keeping the same schedule for months at a time."
+    },
+    {
+      "t": "p",
+      "uk": "Дані про завантаження також показують, які тренери утримують клієнтів довше: якщо клієнти конкретного тренера продовжують абонементи частіше за середнє по клубу, це аргумент для утримання тренера і побудови мотивації навколо повторних продажів, а не тільки навколо кількості проведених занять.",
+      "en": "Load data also shows which trainers retain clients longer: if a specific trainer's clients renew more often than the club average, that is an argument for keeping that trainer and building their incentives around repeat sales, not just around the number of sessions delivered."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика і гроші: скільки насправді приносить клієнт",
+      "en": "Analytics and money: what a client actually brings in"
+    },
+    {
+      "t": "p",
+      "uk": "LTV клієнта - сумарний виторг за весь час, поки він ходить у клуб - рахується автоматично на основі історії абонементів кожної картки. Порівняння LTV з вартістю залучення клієнта (реклама, знижки на перший абонемент, комісія менеджера з продажу) показує, які канали приводять клієнтів, що затримуються на роки, а які - тих, хто купує один місяць зі знижкою і зникає.",
+      "en": "A client's LTV, the total revenue over their entire time at the club, is calculated automatically from the membership history in each card. Comparing LTV to the cost of acquiring that client (advertising, first membership discounts, sales manager commission) shows which channels bring in clients who stay for years and which bring in people who buy one discounted month and disappear."
+    },
+    {
+      "t": "p",
+      "uk": "Виторг по типах абонементів і по тренерах дає власнику картину, яку раніше складали вручну в екселі раз на місяць, а тепер видно щодня: скільки грошей приносять річні абонементи проти місячних, який тренер генерує більше повторних продажів через персональні тренування, де маржа вища після вирахування комісій.",
+      "en": "Revenue by membership type and by trainer gives the owner a picture that used to be assembled by hand in a spreadsheet once a month and is now visible every day: how much annual memberships bring in compared to monthly ones, which trainer generates more repeat sales through personal training, and where margin is higher after commissions."
+    },
+    {
+      "t": "p",
+      "uk": "Devlly розробляє CRM для фітнес-клубів, яка бере на себе весь цей облік - типи абонементів, заморозку, продовження і аналітику - і зʼєднує його з Telegram-ботом для запису клієнтів, щоб власник бачив повну картину бізнесу в одному місці, а не в трьох різних таблицях.",
+      "en": "Devlly builds CRM systems for fitness clubs that take over this entire workload - membership types, freezes, renewals, and analytics - and connect it to a Telegram bot for client booking, so the owner sees the full picture of the business in one place instead of three separate spreadsheets."
+    }
+  ]
+}

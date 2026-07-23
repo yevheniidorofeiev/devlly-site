@@ -1,0 +1,97 @@
+{
+  "title_uk": "Боти для бухгалтерії: автоматизація фінансового обліку",
+  "title_en": "Accounting bots: automating financial bookkeeping",
+  "desc_uk": "Як Telegram-бот веде облік витрат і доходів, розпізнає чеки з фото і надсилає готові звіти, економлячи власнику 4-5 годин на тиждень.",
+  "desc_en": "How a Telegram bot tracks income and expenses, recognizes receipts from photos and sends ready-made reports, saving the owner 4-5 hours a week.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для бухгалтерії і фінансового обліку | Devlly",
+    "te": "Telegram bot for accounting and financial tracking | Devlly",
+    "d": "Як Telegram-бот допомагає вести облік витрат і доходів, розпізнавати чеки і формувати звіти. Автоматизація бухгалтерії для малого бізнесу.",
+    "de": "How a Telegram bot helps track income and expenses, recognize receipts and generate reports. Accounting automation for small business.",
+    "k": "бот для бухгалтерії, облік витрат і доходів, автоматизація бухгалтерії, розпізнавання чеків, фінансовий облік для фоп, telegram бот для бізнесу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Бухгалтерія малого бізнесу часто виглядає так: чеки в кишенях, витрати в нотатках телефону, доходи десь у банківському застосунку, а реальний прибуток - загадка до кінця місяця. Telegram-бот перетворює цей хаос на систему без бухгалтерських програм і складних інтерфейсів. Написали в чат «витрата 2400 матеріали» - запис уже в базі. Сфотографували чек - бот сам розпізнав суму й категорію. У понеділок вранці отримали звіт за тиждень із прибутком по кожному напрямку. У цій статті розберемо, як працює така автоматизація фінансового обліку і скільки часу й грошей вона реально економить.",
+      "en": "Small business accounting often looks like this: receipts in pockets, expenses in phone notes, income somewhere in the banking app, and the actual profit a mystery until the end of the month. A Telegram bot turns this chaos into a system without accounting software or complicated interfaces. You write 'expense 2400 materials' in the chat - the record is already in the database. You photograph a receipt - the bot recognizes the amount and category itself. On Monday morning you get a weekly report with profit broken down by business line. In this article we will look at how this kind of financial tracking automation works and how much time and money it actually saves."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік витрат і доходів через чат: запис за пʼять секунд",
+      "en": "Tracking income and expenses through chat: a record in five seconds"
+    },
+    {
+      "t": "p",
+      "uk": "Головна причина, чому облік у малому бізнесі не ведеться, банальна: незручно. Відкрити таблицю з телефону, знайти потрібний аркуш, вписати суму в правильну клітинку - на це потрібна хвилина зосередженості, якої посеред робочого дня немає. Тому витрати записуються «потім», а потім забуваються. Бот прибирає цей барʼєр повністю: ви пишете в чат звичайне повідомлення на кшталт «плюс 15000 замовлення Ковальчук» або «мінус 800 таксі», і запис миттєво потрапляє в базу з датою, сумою, категорією та коментарем. Уся операція займає пʼять секунд і не вимагає виходити з месенджера.",
+      "en": "The main reason bookkeeping does not happen in a small business is banal: it is inconvenient. Opening a spreadsheet on your phone, finding the right sheet, typing the amount into the right cell takes a minute of focus that simply is not there in the middle of a working day. So expenses get recorded 'later,' and later they are forgotten. A bot removes this barrier completely: you write an ordinary message in the chat like 'plus 15000 order Kovalchuk' or 'minus 800 taxi,' and the record instantly lands in the database with a date, amount, category and comment. The whole operation takes five seconds and never requires leaving the messenger."
+    },
+    {
+      "t": "p",
+      "uk": "Бот розуміє і голосові повідомлення: надиктували витрату за кермом - вона розпізнана й записана. Для регулярних платежів, як-от оренда чи підписки, налаштовуються шаблони: раз на місяць бот сам питає «оренда 12000, підтверджуєте?» і записує після одного натискання. Якщо в повідомленні бракує категорії, бот уточнює її кнопками, тож база залишається чистою і придатною для аналітики. У результаті облік перестає бути окремою справою, на яку треба виділяти час: він відбувається в тому самому месенджері, де ви й так спілкуєтеся щодня.",
+      "en": "The bot understands voice messages too: you dictate an expense while driving - it is recognized and recorded. For recurring payments like rent or subscriptions you set up templates: once a month the bot itself asks 'rent 12000, confirm?' and records it after a single tap. If a message is missing a category, the bot clarifies it with buttons, so the database stays clean and fit for analytics. As a result, bookkeeping stops being a separate task you have to set time aside for: it happens in the same messenger you already use every day."
+    },
+    {
+      "t": "h2",
+      "uk": "Розпізнавання чеків і рахунків: фото замість ручного введення",
+      "en": "Recognizing receipts and invoices: a photo instead of manual entry"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільше рутини в обліку створюють паперові чеки й PDF-рахунки. Бот вирішує це через розпізнавання: ви надсилаєте фото чека, і за кілька секунд отримуєте структуровані дані - продавця, дату, суму, а за потреби й окремі позиції. Залишається лише підтвердити категорію одним натисканням. Так само бот обробляє рахунки від постачальників: витягує номер, суму й призначення платежу. Точність сучасного розпізнавання на типових чеках сягає 95 відсотків і вище, а сумнівні випадки бот чесно позначає і показує на перевірку людині.",
+      "en": "Paper receipts and PDF invoices create the most routine in bookkeeping. A bot solves this with recognition: you send a photo of a receipt and within a few seconds get structured data - the seller, the date, the amount, and individual line items if needed. All that remains is to confirm the category with a single tap. The bot processes supplier invoices the same way: it extracts the number, the amount and the payment purpose. Modern recognition accuracy on typical receipts reaches 95 percent and above, and the bot honestly flags doubtful cases and shows them to a human for review."
+    },
+    {
+      "t": "p",
+      "uk": "Оригінал документа при цьому не губиться: бот зберігає фото поруч із записом, і коли через пів року знадобиться підтвердження витрати, ви знайдете чек за два кліки пошуком по сумі чи даті. Для ФОП і невеликих компаній це фактично готовий електронний архів первинних документів. Порівняйте з класичним сценарієм: коробка чеків, яку раз на квартал хтось із зусиллям розбирає вручну. Один чек - це хвилина-дві ручного введення, тож на сотні чеків за місяць бот економить кілька годин чистого часу й позбавляє помилок при передруці сум.",
+      "en": "The original document is not lost either: the bot stores the photo next to the record, and when you need proof of an expense six months later, you find the receipt in two clicks by searching for the amount or date. For sole proprietors and small companies this is effectively a ready-made electronic archive of primary documents. Compare that with the classic scenario: a box of receipts that someone laboriously sorts through by hand once a quarter. One receipt means a minute or two of manual entry, so across hundreds of receipts a month the bot saves several hours of pure time and eliminates typos when retyping amounts."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматичні звіти: прибуток за день, тиждень і місяць",
+      "en": "Automatic reports: profit by day, week and month"
+    },
+    {
+      "t": "p",
+      "uk": "Дані мають цінність лише тоді, коли їх видно. Бот надсилає звіти сам, без запиту: увечері - короткий підсумок дня з доходами й витратами, у понеділок - тижневий зріз, першого числа - місячний звіт із прибутком по кожному напрямку бізнесу. Ви бачите не просто «скільки грошей на рахунку», а реальну картину: маржинальність напрямків, найбільші статті витрат, динаміку відносно минулого місяця. Для власника це змінює якість рішень: стає видно, який напрямок годує бізнес, а який лише створює обороти без прибутку.",
+      "en": "Data only has value when it is visible. The bot sends reports itself, unprompted: in the evening a short summary of the day with income and expenses, on Monday a weekly snapshot, on the first of the month a monthly report with profit by each business line. You see not just 'how much money is in the account' but the real picture: margins by line of business, the biggest expense categories, the trend versus last month. For an owner this changes the quality of decisions: it becomes clear which line feeds the business and which only generates turnover without profit."
+    },
+    {
+      "t": "p",
+      "uk": "Крім регулярних звітів, працюють і запити на вимогу: напишіть боту «скільки я витратив на рекламу в червні» і отримаєте цифру за секунду, без відкривання таблиць. Можна налаштувати й тривожні сповіщення: витрати категорії перевищили ліміт - бот попереджає одразу, а не постфактум у місячному звіті. Так фінансовий облік перетворюється з архіву на інструмент управління: ви реагуєте на проблеми в момент їхньої появи, а не через тижні, коли гроші вже витрачено.",
+      "en": "Besides scheduled reports, on-demand queries work too: write to the bot 'how much did I spend on advertising in June' and get the number in a second, without opening any spreadsheets. You can also set up alerts: a category's spending exceeds its limit - the bot warns you immediately, not after the fact in the monthly report. This turns financial tracking from an archive into a management tool: you react to problems the moment they appear, not weeks later when the money is already gone."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграції: Google Sheets, Monobank та ФОП-звітність",
+      "en": "Integrations: Google Sheets, Monobank and sole proprietor reporting"
+    },
+    {
+      "t": "p",
+      "uk": "Бот не живе у вакуумі - він стає зручним інтерфейсом до ваших фінансових даних. Найпоширеніша звʼязка - Google Sheets: кожен запис із чату миттєво зʼявляється в таблиці, де бухгалтер чи фінансист працює зі звичними формулами та зведеними таблицями. Друга потужна інтеграція - банківські API, як-от Monobank: бот сам підтягує транзакції з рахунку, і вам залишається лише розкидати їх по категоріях кнопками. Ручне дублювання операцій зникає повністю, а розбіжності між обліком і банком стають просто неможливими.",
+      "en": "The bot does not live in a vacuum - it becomes a convenient interface to your financial data. The most common pairing is Google Sheets: every record from the chat instantly appears in a spreadsheet where an accountant or finance person works with familiar formulas and pivot tables. The second powerful integration is banking APIs such as Monobank: the bot pulls transactions from the account itself, and all you have to do is sort them into categories with buttons. Manual duplication of operations disappears completely, and discrepancies between the books and the bank become simply impossible."
+    },
+    {
+      "t": "p",
+      "uk": "Для ФОП бот здатен закрити ще й податкову рутину: рахувати накопичений дохід за квартал, нагадувати про терміни сплати єдиного податку та подання декларації, попереджати про наближення до ліміту групи. Це знімає найпоширеніший страх дрібного підприємця - пропустити термін або непомітно перевищити ліміт. За потреби дані експортуються у форматі, який зручно передати бухгалтеру: замість пачки чеків і усних пояснень той отримує охайну структуровану базу за весь період і закриває звітність удвічі швидше.",
+      "en": "For a sole proprietor the bot can also cover the tax routine: tracking accumulated quarterly income, reminding about deadlines for paying the unified tax and filing the declaration, warning when you approach your group's income limit. This removes a small entrepreneur's most common fear - missing a deadline or unknowingly exceeding the limit. When needed, the data exports in a format that is easy to hand to an accountant: instead of a stack of receipts and verbal explanations they receive a tidy structured database for the whole period and close the reporting twice as fast."
+    },
+    {
+      "t": "h2",
+      "uk": "Кому підходить бот для бухгалтерії і скільки він економить",
+      "en": "Who an accounting bot suits and how much it saves"
+    },
+    {
+      "t": "p",
+      "uk": "Такий бот - рішення насамперед для малого бізнесу: ФОП, кавʼярень, майстерень, невеликих інтернет-магазинів, агенцій на 3-15 людей. Тобто для тих, кому повноцінна бухгалтерська система завелика й задорога, а таблиці вже не справляються. Типовий портрет: власник сам веде фінанси, витрачає на це 4-6 годин на тиждень і все одно не має точної картини прибутку. Бот скорочує цей час до 30-40 хвилин на тиждень: усе, що залишається людині, - підтверджувати категорії та читати готові звіти.",
+      "en": "This kind of bot is first and foremost a solution for small business: sole proprietors, coffee shops, workshops, small online stores, agencies of 3-15 people. In other words, those for whom a full accounting system is too big and too expensive, while spreadsheets no longer cope. The typical picture: the owner manages the finances personally, spends 4-6 hours a week on it and still has no accurate view of profit. The bot cuts that time to 30-40 minutes a week: all that is left for the human is confirming categories and reading ready-made reports."
+    },
+    {
+      "t": "p",
+      "uk": "Економія не лише в часі. Коли облік ведеться в реальному часі, зникають «загублені» витрати, які раніше непомітно зʼїдали 5-10 відсотків прибутку: забуті підписки, дрібні готівкові витрати, задвоєні платежі. Уже за перший місяць власники зазвичай знаходять кілька статей, які можна скоротити без шкоди для бізнесу. Devlly розробляє такі рішення під замовлення: від простого бота обліку витрат до повноцінної фінансової системи з розпізнаванням чеків, банківськими інтеграціями та звітами під специфіку саме вашого бізнесу.",
+      "en": "The savings are not only in time. When the books are kept in real time, the 'lost' expenses that used to quietly eat 5-10 percent of profit disappear: forgotten subscriptions, small cash outlays, duplicated payments. Within the very first month owners usually find several line items that can be cut without hurting the business. Devlly builds such solutions to order: from a simple expense tracking bot to a complete financial system with receipt recognition, banking integrations and reports tailored to the specifics of your business."
+    }
+  ]
+}

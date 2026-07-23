@@ -1,0 +1,117 @@
+{
+  "title_uk": "Автоматизація українського бізнесу в Німеччині",
+  "title_en": "Automating a Ukrainian Business in Germany",
+  "desc_uk": "Як автоматизувати український бізнес у Німеччині: облік клієнтів, рахунки, вимоги до документів і платежі в євро. З урахуванням німецької специфіки.",
+  "desc_en": "How to automate a Ukrainian business in Germany: client records, invoices, document requirements and payments in euro, built around German specifics.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація бізнесу в Німеччині для українців | Devlly",
+    "te": "Automating a Ukrainian Business in Germany | Devlly",
+    "d": "Як автоматизувати український бізнес у Німеччині: облік клієнтів, рахунки, вимоги до документів і платежі в євро. З урахуванням німецької специфіки.",
+    "de": "How to automate a Ukrainian business in Germany: client records, invoices, document requirements and payments in euro, built around German specifics.",
+    "k": "автоматизація бізнесу в німеччині, український бізнес у німеччині, автоматизация бизнеса в германии, украинский бизнес в германии, business automation in germany, Rechnung автоматизація, Kleinunternehmer облік, GoBD документообіг, CRM для бізнесу в Німеччині, Telegram бот для клієнтів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Німеччина ставить до підприємців вимоги, які помітно відрізняються від Польщі чи Чехії: суворий формат рахунків фактур, обовʼязкове дотримання GoBD у зберіганні документів, розрахунки виключно в євро та чіткі терміни звітності перед Finanzamt. Український бізнес, який працює в Німеччині, не може просто перенести звички з домашнього ринку на новий грунт. Автоматизація тут будується під конкретні німецькі процедури, а не за універсальним шаблоном, який підійшов би для будь якої іншої країни. Нижче розберемо, які саме вимоги диктують структуру обліку і як CRM, боти та парсинг допомагають їх виконувати без щоденної ручної роботи.",
+      "en": "Germany sets requirements for businesses that differ noticeably from Poland or the Czech Republic: a strict invoice format, mandatory GoBD compliant document storage, transactions exclusively in euro and firm reporting deadlines set by the Finanzamt. A Ukrainian business operating in Germany cannot simply carry over habits from the home market. Automation here has to be built around specific German procedures rather than a generic template that would fit any other country. Below we break down which requirements shape the way records are kept and how a CRM, bots and parsing help meet them without daily manual work."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому автоматизація українського бізнесу в Німеччині вимагає окремого підходу",
+      "en": "Why automating a Ukrainian business in Germany needs a separate approach"
+    },
+    {
+      "t": "p",
+      "uk": "Німецька ділова культура тримається на пунктуальності: якщо звіт має бути поданий до певної дати, запізнення навіть на день викликає питання з боку податкової. Це стосується не лише подання декларацій, а й регулярності виставлення рахунків, підтвердження оплат і архівування документів. Бізнес процеси, побудовані «на око», в німецьких реаліях швидко призводять до штрафів або зайвої переписки з Finanzamt.",
+      "en": "German business culture rests on punctuality: if a report is due by a certain date, being late even by a day raises questions from the tax office. This applies not only to filing declarations but also to the regularity of issuing invoices, confirming payments and archiving documents. Processes built by feel quickly lead to fines or unnecessary correspondence with the Finanzamt in German conditions."
+    },
+    {
+      "t": "p",
+      "uk": "Усі розрахунки в Німеччині ведуться в євро, і банківська система працює переважно через SEPA перекази, а не готівку чи довільні платіжні застосунки. Клієнти очікують чіткий IBAN у рахунку, коректну суму з ПДВ або без нього залежно від статусу компанії, і зрозумілий термін оплати. Автоматизація обліку має враховувати цю валюту й формат платежів з самого початку, а не додавати їх пізніше як виняток.",
+      "en": "All transactions in Germany are conducted in euro, and the banking system runs mostly through SEPA transfers rather than cash or arbitrary payment apps. Clients expect a clear IBAN on the invoice, a correct amount with or without VAT depending on the company status, and an unambiguous payment term. Accounting automation has to account for this currency and payment format from the outset rather than bolting it on later as an exception."
+    },
+    {
+      "t": "p",
+      "uk": "Саме тому загальні CRM рішення чи готові боти без адаптації часто не підходять українському бізнесу в Німеччині. Потрібна система, яка з коробки формує документи за німецькими правилами, рахує суми в євро і нагадує про дедлайни так само суворо, як це робить сама країна. Різниця з Польщею чи Чехією тут не косметична: там рахунок можна виправити після виставлення без наслідків, а в Німеччині будь яка зміна вже проведеного документа фіксується як окрема подія і має пояснення.",
+      "en": "This is why generic CRM systems or off the shelf bots without adaptation often do not fit a Ukrainian business in Germany. What is needed is a system that generates documents according to German rules out of the box, calculates amounts in euro, and reminds about deadlines with the same strictness the country itself expects. The difference from Poland or the Czech Republic is not cosmetic: there an invoice can be corrected after issuing without consequence, while in Germany any change to an already posted document is logged as a separate event and needs an explanation."
+    },
+    {
+      "t": "h2",
+      "uk": "Rechnung за німецькими стандартами: обовʼязкові реквізити рахунків",
+      "en": "Rechnung by German standards: mandatory invoice details"
+    },
+    {
+      "t": "p",
+      "uk": "Німецький Rechnung має чітко визначений набір реквізитів: повна назва й адреса продавця та покупця, податковий номер Steuernummer або ідентифікатор USt IdNr, унікальний послідовний номер рахунку, дата виставлення, дата постачання товару чи послуги, опис позицій, сума без ПДВ, ставка й сума ПДВ окремо, та підсумкова сума до сплати. Відсутність хоча б одного пункту робить рахунок недійсним для податкових цілей клієнта.",
+      "en": "A German Rechnung has a clearly defined set of details: full name and address of both seller and buyer, a tax number Steuernummer or a USt IdNr identifier, a unique sequential invoice number, the issue date, the date of delivery or service, a description of items, the net amount, the VAT rate and VAT amount shown separately, and the final total due. Missing even one of these points makes the invoice invalid for the client's tax purposes."
+    },
+    {
+      "t": "p",
+      "uk": "Ключова деталь, яку часто недооцінюють: номери рахунків мають йти без розривів у послідовності. Німецькі аудитори звертають увагу саме на пропуски в нумерації, бо це сигнал про приховані операції. Автоматизація, яка генерує рахунки через CRM, повинна вести єдиний наскрізний лічильник і не дозволяти видаляти чи перезаписувати вже випущені номери.",
+      "en": "A key detail that is often underestimated: invoice numbers must run without gaps in the sequence. German auditors specifically look for gaps in numbering, as this signals hidden transactions. Automation that generates invoices through a CRM must maintain a single continuous counter and must not allow already issued numbers to be deleted or overwritten."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly ми налаштовуємо CRM так, щоб рахунок формувався одразу з правильними реквізитами, сумою в євро і коректним номером, а копія автоматично потрапляла в архів для звітності. Це знімає з власника бізнесу ризик людської помилки в документі, який побачить німецький клієнт або перевіряючий орган.",
+      "en": "At Devlly we configure the CRM so that an invoice is generated instantly with the correct details, the amount in euro and the right sequential number, while a copy is automatically placed in the archive for reporting. This removes the risk of human error from a document that a German client or an inspecting authority will see."
+    },
+    {
+      "t": "h2",
+      "uk": "GoBD і дисципліна документообігу для податкової звітності",
+      "en": "GoBD and document discipline for tax reporting"
+    },
+    {
+      "t": "p",
+      "uk": "GoBD, принципи належного ведення й зберігання бухгалтерських книг та документів, вимагають, щоб цифрові записи були незмінними після проведення, мали чіткий часовий слід і зберігалися щонайменше десять років у форматі, доступному для перевірки. Виправлення заднім числом чи видалення запису без сліду порушує ці правила навіть тоді, коли помилка була випадковою.",
+      "en": "GoBD, the principles for the proper management and retention of accounting records, requires digital entries to remain unchangeable after posting, to carry a clear timestamp, and to be retained for at least ten years in a format available for inspection. Backdated corrections or deleting a record without a trace violates these rules even when the mistake was accidental."
+    },
+    {
+      "t": "p",
+      "uk": "Для українського бізнесу в Німеччині це означає, що облік клієнтів, замовлень і платежів має вестися в системі, яка фіксує кожну зміну, а не переписує старі значення. Автоматизація бере на себе журналювання дій, зберігання оригіналів документів і синхронізацію з бухгалтером чи Steuerberater, щоб на момент подання декларації все вже було структуровано, а не зібрано в останній момент. Якщо перевірка Finanzamt приходить через кілька років, саме повнота архіву і незмінність записів визначають, наскільки швидко і спокійно вона пройде.",
+      "en": "For a Ukrainian business in Germany this means that client, order and payment records must be kept in a system that logs every change rather than overwriting old values. Automation takes on the logging of actions, the storage of original documents and synchronization with an accountant or Steuerberater, so that by the time a declaration is due everything is already structured rather than gathered at the last moment. If a Finanzamt audit arrives years later, the completeness of the archive and the unchangeability of the records determine how quickly and calmly it goes."
+    },
+    {
+      "t": "h2",
+      "uk": "Статус Kleinunternehmer та його вплив на облік",
+      "en": "Kleinunternehmer status and its impact on accounting"
+    },
+    {
+      "t": "p",
+      "uk": "Статус Kleinunternehmer за §19 UStG дозволяє малому бізнесу не нараховувати ПДВ, поки річний дохід не перевищує встановлений поріг. У такому випадку рахунок повинен містити окрему позначку про те, що ПДВ не нараховується згідно з цим параграфом, а не просто нульову ставку. Плутанина між «ПДВ 0%» і «звільнення за §19 UStG» є однією з найчастіших помилок серед українських підприємців, які тільки починають працювати в Німеччині.",
+      "en": "Kleinunternehmer status under §19 UStG allows a small business not to charge VAT as long as annual revenue stays below the set threshold. In that case the invoice must carry a specific note stating that VAT is not charged under this paragraph, rather than simply a zero rate. Confusing a zero percent VAT rate with a §19 UStG exemption is one of the most common mistakes among Ukrainian entrepreneurs just starting out in Germany."
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація тут відіграє практичну роль: система відстежує накопичений дохід протягом року, попереджає власника задовго до наближення до порогу і за потреби перемикає шаблон рахунку на повноцінний з ПДВ, коли статус втрачається. Без такого контролю легко пропустити момент переходу і виставити клієнту рахунок за старим шаблоном, що потім доведеться виправляти заднім числом, а це вже конфлікт із GoBD.",
+      "en": "Automation plays a practical role here: the system tracks accumulated revenue throughout the year, warns the owner well before the threshold is approached, and switches the invoice template to a full VAT format if the status is lost. Without such control it is easy to miss the transition point and issue a client an invoice on the old template, which then has to be corrected retroactively, creating a conflict with GoBD."
+    },
+    {
+      "t": "p",
+      "uk": "Ми закладаємо цю логіку прямо в CRM клієнта: пороги, шаблони рахунків і сповіщення налаштовуються один раз і далі працюють без ручного контролю з боку власника бізнесу.",
+      "en": "We build this logic directly into the client's CRM: thresholds, invoice templates and notifications are configured once and then run without manual oversight from the business owner."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM, Telegram боти та парсинг для щоденних процесів у Німеччині",
+      "en": "CRM, Telegram bots and parsing for daily operations in Germany"
+    },
+    {
+      "t": "p",
+      "uk": "CRM під ключ для українського бізнесу в Німеччині обʼєднує картки клієнтів, історію замовлень, статуси оплат у євро і статуси доставки в одному місці. Якщо бізнес повʼязаний з відправками, інтеграція з DHL дозволяє автоматично підтягувати трек номери й статус посилки прямо в картку замовлення, без ручного пошуку на сайті перевізника.",
+      "en": "A turnkey CRM for a Ukrainian business in Germany brings client cards, order history, payment statuses in euro and delivery statuses together in one place. If the business involves shipping, a DHL integration lets tracking numbers and parcel statuses appear automatically in the order card, without manually searching the carrier's website."
+    },
+    {
+      "t": "p",
+      "uk": "Telegram бот бере на себе комунікацію з клієнтами: підтверджує замовлення, повідомляє про статус доставки DHL, надсилає рахунок одразу після оформлення і нагадує про оплату ближче до терміну. Для клієнтів, які звикли до німецької точності в термінах, такі автоматичні нагадування знижують кількість прострочених платежів.",
+      "en": "A Telegram bot takes over client communication: it confirms orders, reports DHL delivery status, sends the invoice right after checkout and reminds about payment as the deadline approaches. For clients used to German punctuality in deadlines, such automatic reminders reduce the number of overdue payments."
+    },
+    {
+      "t": "p",
+      "uk": "Парсинг цін конкурентів на німецькому ринку допомагає тримати позиціонування в євро актуальним без ручного моніторингу вручну щотижня. У Devlly ми поєднуємо CRM, Telegram бота та парсинг в одну систему, яка враховує саме німецьку специфіку: рахунки за стандартом Rechnung, дисципліну GoBD, статус Kleinunternehmer і платежі в євро, а не адаптує рішення, зроблене під інший ринок.",
+      "en": "Parsing competitor prices in the German market keeps euro based positioning up to date without weekly manual monitoring. At Devlly we combine a CRM, a Telegram bot and parsing into a single system that accounts for German specifics directly: Rechnung standard invoices, GoBD discipline, Kleinunternehmer status and payments in euro, rather than adapting a solution built for a different market."
+    }
+  ]
+}

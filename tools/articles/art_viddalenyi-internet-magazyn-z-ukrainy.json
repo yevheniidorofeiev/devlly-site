@@ -1,0 +1,122 @@
+{
+  "title_uk": "Віддалений інтернет-магазин з України: керувати звідусіль",
+  "title_en": "Remote Online Store from Ukraine: Manage It From Anywhere",
+  "desc_uk": "Як вести інтернет-магазин з України дистанційно: прийом замовлень, склад, доставка і клієнти в одній системі. Контроль з будь-якої точки світу.",
+  "desc_en": "How to run an online store from Ukraine remotely: order intake, warehouse, delivery and customers in one system. Full control from any point in the world.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Віддалений інтернет-магазин з України: автоматизація | Devlly",
+    "te": "Remote Online Store Run from Ukraine | Devlly",
+    "d": "Як вести інтернет-магазин з України дистанційно: прийом замовлень, склад, доставка і клієнти в одній системі. Контроль з будь-якої точки світу.",
+    "de": "How to run an online store from Ukraine remotely: order intake, warehouse, delivery and customers in one system. Full control from any point in the world.",
+    "k": "віддалений інтернет-магазин, вести магазин дистанційно, керування інтернет-магазином на відстані, удаленный интернет-магазин, вести магазин дистанционно, управление интернет-магазином удаленно, remote online store, run online store remotely, ecommerce automation Ukraine, telegram bot for online store, CRM for online store"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Власник інтернет-магазину живе у Варшаві, склад стоїть у Львові, а курʼєри розвозять замовлення по Києву. Ще пʼять років тому таку схему вважали ризикованою: без особистого контролю бізнес нібито «розсипається», товар кудись губиться, а клієнти залишаються без відповіді. Сьогодні віддалений інтернет-магазин з України працює так само стабільно, як і той, де власник щодня заходить у склад і особисто перевіряє кожну коробку. Секрет не в присутності людини, а в системі, яка приймає замовлення, стежить за залишками, координує курʼєрів і повідомляє про кожен крок без ручного втручання власника чи менеджера.",
+      "en": "The owner of an online store lives in Warsaw, the warehouse sits in Lviv, and couriers deliver orders across Kyiv. Just five years ago such a setup was considered risky: without personal control a business supposedly falls apart, goods go missing, and customers get left without an answer. Today a remote online store run from Ukraine works just as reliably as one where the owner walks into the warehouse every day and checks every box personally. The secret is not in the presence of a person, but in a system that takes orders, tracks stock, coordinates couriers, and reports every step without any manual intervention from the owner or manager."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке віддалений інтернет-магазин і як він працює",
+      "en": "What a remote online store is and how it works"
+    },
+    {
+      "t": "p",
+      "uk": "Віддалений інтернет-магазин, це модель, коли власник, менеджер або частина команди фізично не перебувають там, де відбувається операційка: прийом замовлень, пакування, відправка, розрахунок з клієнтом. Хтось виїхав за кордон і керує складом у Дніпрі з телефону, хтось наймає команду в іншому місті, а хтось взагалі відкрив кілька точок продажу одночасно і фізично не встигає бувати в кожній. Різниця з класичним магазином не в географії, а в тому, що всі процеси зафіксовані в системах, а не тримаються в голові однієї людини чи в записнику на складі.",
+      "en": "A remote online store is a model where the owner, manager, or part of the team are not physically present where the operations happen: order intake, packing, shipping, settling with the customer. Someone moved abroad and runs a warehouse in Dnipro from a phone, someone hires a team in another city, and someone else opened several sales points at once and simply cannot be in every one of them. The difference from a classic store is not geography, it is that every process is recorded in systems rather than kept in one person's head or a notebook at the warehouse."
+    },
+    {
+      "t": "p",
+      "uk": "Робоча схема виглядає так: замовлення з сайту, Instagram чи Telegram автоматично потрапляє в CRM, звідти йде на склад для збірки, потім у службу доставки, а після видачі клієнту картка автоматично закривається. Власник бачить увесь ланцюжок в одній панелі і втручається лише тоді, коли щось справді вимагає рішення, наприклад спірне повернення, запит великого опту чи претензія від клієнта.",
+      "en": "The working flow looks like this: an order from the website, Instagram, or Telegram automatically lands in the CRM, moves to the warehouse for picking, then to the delivery service, and closes automatically once handed to the customer. The owner sees the whole chain on one dashboard and steps in only when something truly needs a decision, for example a disputed return, a large wholesale request, or a customer complaint."
+    },
+    {
+      "t": "p",
+      "uk": "Для такої моделі критично мають значення три речі: автоматичний прийом замовлень без участі людини, точні дані про залишки в режимі реального часу і прозора комунікація з клієнтом на кожному етапі. Якщо хоча б одна ланка тримається на «зателефонувати і уточнити», дистанційне керування швидко перетворюється на постійний стрес і нічні дзвінки замість спокійного контролю.",
+      "en": "Three things matter most for this model: automatic order intake without human involvement, accurate real time stock data, and transparent communication with the customer at every stage. If even one link still depends on calling someone to check, remote management quickly turns into constant stress and late night calls instead of calm control."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом замовлень 24/7 без особистої участі",
+      "en": "Order intake around the clock without personal involvement"
+    },
+    {
+      "t": "p",
+      "uk": "Клієнт може оформити замовлення о третій ночі, поки власник спить у зовсім іншому часовому поясі за тисячі кілометрів. Telegram-бот приймає заявку, перевіряє наявність товару на складі, формує підсумок замовлення і одразу створює картку в CRM з усіма деталями. Людина в цей момент нічого не робить, система вже виконала свою частину роботи ще до того, як менеджер прокинувся.",
+      "en": "A customer can place an order at three in the morning while the owner is asleep in a completely different time zone thousands of kilometers away. The Telegram bot accepts the request, checks stock availability, builds an order summary, and immediately creates a card in the CRM with all the details. The person does nothing at that moment, the system has already done its part before the manager even wakes up."
+    },
+    {
+      "t": "p",
+      "uk": "Бот здатний обробити типові сценарії повністю самостійно: показати каталог із фото та цінами, підказати розмір чи колір, розрахувати вартість доставки, прийняти оплату карткою або підтвердити накладений платіж. До живої людини доходять лише нестандартні випадки, а це зазвичай десять-пʼятнадцять відсотків усіх звернень, решта закривається автоматично без затримок.",
+      "en": "The bot can handle typical scenarios entirely on its own: show a catalog with photos and prices, suggest a size or color, calculate delivery cost, accept card payment, or confirm cash on delivery. Only non standard cases reach a live person, and that is usually ten to fifteen percent of all requests, the rest gets closed automatically without delays."
+    },
+    {
+      "t": "p",
+      "uk": "Такий підхід прибирає головний ризик дистанційного бізнесу, коли клієнт написав увечері, а йому ніхто не відповів вчасно і замовлення просто зникло разом із потенційним прибутком. Автоматичний прийом працює однаково вночі, у вихідні і навіть під час відпустки власника, коли ніхто зі штатних менеджерів фізично не сидить біля телефону.",
+      "en": "This approach removes the main risk of remote business, where a customer messages in the evening, nobody answers in time, and the order simply disappears along with the potential profit. Automatic intake works the same at night, on weekends, and even while the owner is on vacation and none of the staff managers is physically near a phone."
+    },
+    {
+      "t": "h2",
+      "uk": "Склад і залишки під контролем на відстані",
+      "en": "Warehouse and stock kept under control from a distance"
+    },
+    {
+      "t": "p",
+      "uk": "Коли власник не бачить полиці своїми очима щодня, єдиний спосіб довіряти цифрам, це синхронізація складу з системою продажів у реальному часі. Кожен проданий товар автоматично списується із залишку одразу після оплати, а кожне нове надходження додається без ручного перерахунку комірником на аркуші паперу.",
+      "en": "When the owner does not see the shelves with their own eyes every day, the only way to trust the numbers is to sync the warehouse with the sales system in real time. Every sold item is deducted from stock automatically right after payment, and every new delivery is added without a warehouse worker manually recounting boxes on a sheet of paper."
+    },
+    {
+      "t": "p",
+      "uk": "Це вирішує класичну проблему віддаленого магазину: клієнт замовив товар, якого фактично вже немає на складі, менеджер дізнається про це лише через день, а покупець тим часом іде до конкурента з готовими грошима. Автоматичне оновлення залишків показує реальну картину відразу на сайті, у Telegram-боті і в CRM одночасно, тому такої розбіжності просто не виникає.",
+      "en": "This solves a classic problem of a remote store: a customer orders an item that is already out of stock, the manager finds out only a day later, and the buyer meanwhile goes to a competitor with cash in hand. Automatic stock updates show the real picture on the website, in the Telegram bot, and in the CRM at the same time, so this kind of mismatch simply does not happen."
+    },
+    {
+      "t": "p",
+      "uk": "Додатково система може сама сигналізувати, коли конкретного товару лишилось мало, і формувати список для дозамовлення постачальнику наперед. Власник за кордоном отримує коротке повідомлення в телефоні замість того, щоб щодня телефонувати комірнику з питанням, скільки там ще залишилось на полицях.",
+      "en": "The system can also flag on its own when a specific item is running low and build a reorder list for the supplier ahead of time. The owner abroad gets a short notification on the phone instead of calling the warehouse every day to ask how much is left on the shelves."
+    },
+    {
+      "t": "h2",
+      "uk": "Доставка та курʼєри: координація без постійних дзвінків",
+      "en": "Delivery and couriers coordinated without constant calls"
+    },
+    {
+      "t": "p",
+      "uk": "Логістика, це та частина бізнесу, де найбільше ручної роботи традиційно тримається на телефонних дзвінках: хто саме забирає посилку, куди її везти, о котрій годині клієнт буде вдома. При дистанційному керуванні цей процес переносять у систему: оплачене замовлення автоматично формує накладну для служби доставки і призначає курʼєра за заздалегідь заданими правилами маршруту.",
+      "en": "Logistics is the part of a business where the most manual work traditionally depends on phone calls: who picks up the parcel, where it goes, what time the customer will be home. With remote management this process moves into a system: a paid order automatically generates a waybill for the delivery service and assigns a courier based on predefined routing rules."
+    },
+    {
+      "t": "p",
+      "uk": "Клієнт отримує сповіщення про статус без жодної участі менеджера: замовлення прийнято, товар у дорозі, посилка готова до видачі у відділенні. Курʼєр бачить у своєму додатку маршрут, адреси і телефони, а власник магазину бачить у CRM, на якому саме етапі перебуває кожне окреме замовлення, не набираючи нікому номер телефону.",
+      "en": "The customer receives status notifications without any manager involvement: order accepted, item on the way, parcel ready for pickup at the branch. The courier sees the route, addresses, and phone numbers in their app, while the store owner sees in the CRM exactly which stage every single order is at, without dialing anyone's number."
+    },
+    {
+      "t": "p",
+      "uk": "Такий підхід особливо важливий, коли команда розкидана по кількох містах: склад в одному місті, курʼєри в іншому, власник взагалі за кордоном, а бухгалтер працює віддалено з третьої точки. Єдина система прибирає потребу постійно узгоджувати кожну дрібницю телефоном чи в особистих чатах з десятком людей.",
+      "en": "This approach matters most when the team is spread across several cities: a warehouse in one city, couriers in another, the owner abroad entirely, and an accountant working remotely from a third location. A single shared system removes the need to constantly coordinate every small detail by phone or across personal chats with a dozen people."
+    },
+    {
+      "t": "h2",
+      "uk": "Клієнти, підтримка і єдина панель, звідки видно все",
+      "en": "Customers, support, and one dashboard that shows everything"
+    },
+    {
+      "t": "p",
+      "uk": "Дистанційне керування не означає, що клієнти залишаються без уваги чи отримують шаблонні відповіді. CRM під ключ обʼєднує повну історію замовлень, переписку і статус доставки в одній картці клієнта, тому будь-який менеджер, навіть щойно найнятий, відповідає покупцю так, ніби веде його особисто з першого дня співпраці.",
+      "en": "Remote management does not mean customers get less attention or generic replies. A turnkey CRM combines the full order history, correspondence, and delivery status in a single customer card, so any manager, even one just hired, responds to the buyer as if they had been handling that relationship personally from day one."
+    },
+    {
+      "t": "p",
+      "uk": "Власник бачить ключові показники бізнесу в одному місці: скільки замовлень оформлено за день, які товари ось-ось закінчаться, де саме затримується доставка, скільки звернень клієнтів досі чекають відповіді. Це повністю замінює звичку особисто обходити склад щоранку і опитувати команду про справи, натомість достатньо відкрити панель з будь-якої точки світу за хвилину.",
+      "en": "The owner sees the key business metrics in one place: how many orders were placed that day, which items are about to run out, where a delivery is delayed, how many customer messages are still waiting for a reply. This fully replaces the habit of walking the warehouse every morning and asking the team how things are going, instead a dashboard can be opened from anywhere in the world in a minute."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly ми збираємо саме такі рішення для інтернет-магазинів: Telegram-бот для цілодобового прийому замовлень, CRM під ключ для обліку клієнтів і складських залишків, автоматизацію доставки та парсинг цін конкурентів для швидких рішень щодо асортименту і ціноутворення. Власнику залишається керувати бізнесом і приймати стратегічні рішення, а не бути присутнім у ньому фізично щодня.",
+      "en": "At Devlly we build exactly this kind of setup for online stores: a Telegram bot for round the clock order intake, a turnkey CRM for tracking customers and warehouse stock, delivery automation, and competitor price parsing for fast decisions on assortment and pricing. What is left for the owner is to run the business and make strategic decisions, not to be physically present in it every day."
+    }
+  ]
+}

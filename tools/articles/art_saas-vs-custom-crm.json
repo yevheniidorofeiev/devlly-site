@@ -1,0 +1,102 @@
+{
+  "title_uk": "SaaS CRM vs власна розробка: що вигідніше для бізнесу",
+  "title_en": "SaaS CRM vs Custom Development: What Pays Off for Business",
+  "desc_uk": "Порівнюємо готову SaaS CRM і власну розробку: ціна, гнучкість, володіння даними, підтримка. Розбираємо на цифрах, коли вигідніше кожен варіант.",
+  "desc_en": "We compare a ready SaaS CRM with custom development: price, flexibility, data ownership, support. With real numbers on when each option wins.",
+  "cta_uk": "Потрібна автоматизація? Пишіть нам",
+  "cta_en": "Need automation? Get in touch",
+  "seo": {
+    "t": "SaaS CRM або власна розробка: що обрати | Devlly",
+    "te": "SaaS CRM or custom development: what to choose | Devlly",
+    "d": "Порівнюємо готову SaaS CRM і розробку під ключ: ціна, гнучкість, підтримка. Коли варто платити підписку а коли замовити своє.",
+    "de": "We compare a ready SaaS CRM and custom development: price, flexibility, support. When to pay a subscription and when to build your own.",
+    "k": "saas crm vs власна розробка, готова crm чи власна, кастомна crm, crm під ключ, вартість crm, орендувати чи розробити crm, порівняння crm, розробка crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли бізнес доростає до потреби в CRM, постає одне питання: взяти готову SaaS CRM за підпискою чи замовити власну розробку під ключ. Перший шлях - це швидкий старт і оплата за кожного користувача щомісяця. Другий - це одноразова інвестиція, свій код і система, яка точно повторює ваш процес. Обидва варіанти робочі, але вигода залежить від розміру команди, складності процесів і горизонту планування. У цьому матеріалі розберемо різницю на конкретних цифрах і дамо чесний висновок, коли що обрати.",
+      "en": "When a business grows into needing a CRM, one question comes up: take a ready SaaS CRM on subscription or order custom development. The first path means a fast start and a monthly fee per user. The second means a one-time investment, your own code and a system that exactly mirrors your process. Both options work, but the payoff depends on team size, process complexity and planning horizon. In this article we break down the difference with concrete numbers and give an honest verdict on when to choose what."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке SaaS CRM і що таке власна розробка",
+      "en": "What a SaaS CRM is and what custom development is"
+    },
+    {
+      "t": "p",
+      "uk": "SaaS CRM - це готовий хмарний продукт, який ви орендуєте за підпискою. Ви реєструєтесь, платите за кожного користувача і одразу починаєте працювати. Такі рішення як Salesforce, HubSpot чи Pipedrive беруть на себе сервери, оновлення і безпеку. Але ви працюєте в межах чужої логіки: набір полів, статусів і сценаріїв заданий вендором, а ваші дані лежать на його серверах. Змінити глибоко щось під свій процес майже неможливо, а вихід із системи ускладнений через привʼязку до платформи.",
+      "en": "A SaaS CRM is a ready cloud product that you rent on a subscription. You sign up, pay per user and start working right away. Solutions like Salesforce, HubSpot or Pipedrive handle servers, updates and security for you. But you work inside someone else's logic: the set of fields, statuses and scenarios is defined by the vendor, and your data sits on their servers. Changing something deeply to fit your process is nearly impossible, and leaving the system is complicated by the lock-in to the platform."
+    },
+    {
+      "t": "p",
+      "uk": "Власна розробка - це CRM, яку створюють саме під ваш бізнес. Ви платите один раз за побудову системи, отримуєте код у власність і повний контроль над логікою. Така CRM повторює реальний процес компанії, а не навпаки. Мінус у тому, що потрібен час на розробку і бюджет наперед, а систему треба підтримувати і розвивати. Це не готова коробка, а інструмент, який зростає разом з бізнесом.",
+      "en": "Custom development is a CRM built specifically for your business. You pay once to build the system, get the code as your property and full control over the logic. Such a CRM follows the real process of the company, not the other way around. The downside is that it needs time to develop and a budget upfront, and the system has to be maintained and evolved. It is not a ready-made box but a tool that grows together with the business."
+    },
+    {
+      "t": "h2",
+      "uk": "Порівняння вартості: підписка vs одноразова розробка",
+      "en": "Cost comparison: subscription vs one-time development"
+    },
+    {
+      "t": "p",
+      "uk": "Головна різниця у структурі витрат. SaaS CRM - це регулярний платіж, зазвичай $10-30 за користувача на місяць залежно від тарифу і функцій. Власна розробка - це одноразова інвестиція, після якої ви платите тільки за хостинг і підтримку. На короткій дистанції підписка дешевша, бо не вимагає великого стартового бюджету. Але на довгій дистанції рахунок змінюється, і саме тут варто рахувати TCO, тобто повну вартість володіння за кілька років.",
+      "en": "The main difference is in the cost structure. A SaaS CRM is a recurring payment, usually $10-30 per user per month depending on the plan and features. Custom development is a one-time investment, after which you pay only for hosting and support. Over a short distance the subscription is cheaper because it needs no big upfront budget. But over a long distance the math changes, and this is exactly where you should calculate TCO, the total cost of ownership over several years."
+    },
+    {
+      "t": "p",
+      "uk": "Порахуємо на прикладі. Команда з 20 користувачів на тарифі $20 за особу на місяць платить $400 щомісяця. За рік це $4 800, за три роки - $14 400, і це без урахування підвищення цін чи доплат за преміум-функції. Тепер уявімо власну CRM під ключ вартістю приблизно $15 000 - $20 000 одноразово. У перший рік SaaS виглядає вигідніше, але вже на третій рік витрати зрівнюються, а далі підписка продовжує «капати» щомісяця, тоді як власна система вже окуплена. За пʼять років SaaS для такої команди обійдеться у $24 000, і різниця стає очевидною.",
+      "en": "Let us do the math with an example. A team of 20 users on a $20 per person plan pays $400 monthly. That is $4,800 a year, $14,400 over three years, and this is without price hikes or premium add-ons. Now imagine a custom CRM built for around $15,000 to $20,000 one time. In the first year SaaS looks cheaper, but by the third year the costs level out, and after that the subscription keeps dripping every month while the custom system is already paid off. Over five years SaaS for such a team will cost $24,000, and the difference becomes obvious."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо памʼятати ще одну деталь: підписка масштабується разом із командою. Найняли ще пʼятьох менеджерів - і рахунок автоматично зростає, адже платите за кожне робоче місце. Власна CRM таких меж не має: додавання нових користувачів зазвичай не збільшує вартість, бо ви платите за систему, а не за голови. Тому чим швидше зростає бізнес, тим сильніше економіка схиляється у бік власної розробки, і цей ефект варто закладати в розрахунки наперед.",
+      "en": "It is worth remembering one more detail: a subscription scales together with the team. Hire five more managers and the bill grows automatically, because you pay for every seat. A custom CRM has no such limits: adding new users usually does not increase the cost, since you pay for the system, not for heads. So the faster the business grows, the more the economics tilt toward custom development, and this effect is worth building into the calculations in advance."
+    },
+    {
+      "t": "h2",
+      "uk": "Гнучкість, інтеграції і володіння даними: питання lock-in",
+      "en": "Flexibility, integrations and data ownership: the lock-in question"
+    },
+    {
+      "t": "p",
+      "uk": "SaaS CRM дає стандартний набір можливостей, який покриває типові сценарії продажів. Проблеми починаються, коли ваш процес нестандартний: специфічні етапи угоди, власна логіка ціноутворення чи інтеграція із рідкісною системою. Готова CRM або не вміє цього зовсім, або вимагає дорогих плагінів і обмежена лімітами API. Власна розробка тут виграє: ви будуєте рівно ті інтеграції, які потрібні, і додаєте будь-яку логіку без огляду на чужі обмеження.",
+      "en": "A SaaS CRM gives a standard set of capabilities that covers typical sales scenarios. Problems begin when your process is non-standard: specific deal stages, custom pricing logic or integration with a rare system. A ready CRM either cannot do this at all or demands expensive plugins and is limited by API caps. Custom development wins here: you build exactly the integrations you need and add any logic without regard for someone else's limits."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо стоїть питання володіння даними. У SaaS ваша клієнтська база лежить на серверах вендора, і при виході ви залежите від його формату експорту та умов. Це і є vendor lock-in: чим більше ви вростаєте в платформу, тим складніше зʼїхати. Власна CRM тримає дані на вашому сервері, під вашим контролем, а код належить вам. Для бізнесу, де база клієнтів - це ключовий актив, така незалежність часто важливіша за економію на старті.",
+      "en": "The question of data ownership stands apart. In SaaS your client base sits on the vendor's servers, and when leaving you depend on their export format and terms. This is vendor lock-in: the deeper you grow into the platform, the harder it is to move out. A custom CRM keeps data on your server, under your control, and the code belongs to you. For a business where the client base is a key asset, such independence is often more important than saving at the start."
+    },
+    {
+      "t": "h2",
+      "uk": "Підтримка і розвиток системи",
+      "en": "Support and evolution of the system"
+    },
+    {
+      "t": "p",
+      "uk": "У SaaS підтримка вже входить у підписку: вендор оновлює систему, лагодить помилки і додає нові функції для всіх клієнтів одразу. Це зручно, але зворотний бік у тому, що ви не керуєте пріоритетами. Якщо потрібної вам функції немає в дорожній карті, ви або чекаєте роками, або не отримаєте її ніколи. Оновлення теж приходять за графіком вендора, іноді разом зі змінами інтерфейсу, до яких доводиться пристосовуватись.",
+      "en": "In SaaS support is already included in the subscription: the vendor updates the system, fixes bugs and adds new features for all clients at once. This is convenient, but the flip side is that you do not control the priorities. If a feature you need is not on the roadmap, you either wait for years or never get it. Updates also arrive on the vendor's schedule, sometimes with interface changes you have to adapt to."
+    },
+    {
+      "t": "p",
+      "uk": "Власна CRM вимагає окремої підтримки: хтось має слідкувати за сервером, оновлювати залежності і виправляти помилки. Це реальна стаття витрат, зазвичай від кількох сотень доларів на місяць. Але натомість ви розвиваєте систему у своєму темпі і за своїми пріоритетами. Потрібна нова функція - її додають під вас, а не для абстрактного середнього клієнта. Головне - працювати з надійним підрядником, щоб система не залишилась без супроводу.",
+      "en": "A custom CRM needs its own support: someone has to watch the server, update dependencies and fix bugs. This is a real cost line, usually from a few hundred dollars a month. But in return you develop the system at your own pace and by your own priorities. Need a new feature and it is added for you, not for an abstract average client. The key is to work with a reliable contractor so the system does not end up without maintenance."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли обрати SaaS, а коли власну CRM",
+      "en": "When to choose SaaS and when a custom CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Просте правило: SaaS виграє для малих команд і стандартних процесів. Якщо у вас до 10-15 користувачів, класична воронка продажів і немає екзотичних вимог, готова підписка дасть швидкий старт без ризику і великого бюджету. Ви заплатите менше, почнете за день і не будете думати про сервери. Для стартапу чи невеликого відділу продажів це найрозумніший вибір на старті.",
+      "en": "A simple rule: SaaS wins for small teams and standard processes. If you have up to 10-15 users, a classic sales funnel and no exotic requirements, a ready subscription gives a fast start without risk or a big budget. You pay less, start in a day and do not think about servers. For a startup or a small sales department this is the smartest choice at the start."
+    },
+    {
+      "t": "p",
+      "uk": "Власна CRM стає вигіднішою, коли команда зростає за 15-20 користувачів або коли процес нестандартний. На таких обсягах підписка перетворюється на серйозну щомісячну статтю, а точка беззбитковості власної розробки настає вже на другий-третій рік. Якщо ж ваш процес не вкладається в готові рішення, потрібні глибокі інтеграції чи повний контроль над даними, власна система виправдана навіть при меншій команді. У Devlly ми будуємо саме такі CRM під ключ і перед стартом допомагаємо чесно порахувати, чи вигідна власна розробка саме у вашому випадку, щоб рішення спиралось на цифри, а не на емоції.",
+      "en": "A custom CRM becomes more profitable when the team grows past 15-20 users or when the process is non-standard. At such volumes the subscription turns into a serious monthly line, and the break-even point of custom development arrives already in the second or third year. And if your process does not fit ready solutions, needs deep integrations or full control over data, a custom system is justified even with a smaller team. At Devlly we build exactly such custom CRMs and before the start we help you honestly calculate whether custom development pays off in your specific case, so the decision rests on numbers and not on emotions."
+    }
+  ]
+}

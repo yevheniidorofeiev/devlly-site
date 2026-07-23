@@ -1,0 +1,122 @@
+{
+  "title_uk": "Обробка заявок від клієнтів: як автоматизувати і не втрачати",
+  "title_en": "Handling Customer Requests: How to Automate and Stop Losing Leads",
+  "desc_uk": "Як автоматизувати обробку заявок від клієнтів через Telegram-бота або CRM. Жодна заявка не загубиться, менеджер бачить все в одному місці.",
+  "desc_en": "How to automate customer request handling with a Telegram bot or CRM. No request gets lost, and your manager sees everything in one place.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Обробка заявок від клієнтів: автоматизація і контроль | Devlly",
+    "te": "Customer Request Handling: Automation and Control | Devlly",
+    "d": "Як автоматизувати обробку заявок від клієнтів через Telegram-бота або CRM. Жодна заявка не загубиться, менеджер бачить все в одному місці.",
+    "de": "How to automate customer request handling with a Telegram bot or CRM. No request gets lost, and your manager sees everything in one place.",
+    "k": "обробка заявок, прийом заявок, втрачені заявки, час відповіді, єдине вікно, автоматизація заявок, контроль заявок"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Більшість бізнесів втрачають клієнтів не тому, що погано продають, а тому, що частина звернень просто не доходить до менеджера. Заявка залишається в непрочитаному Direct, у Viber на особистому телефоні або в поштовій скриньці, яку ніхто не відкриває. Нижче - конкретні місця, де витікають звернення, і що з цим робити на практиці.",
+      "en": "Most businesses lose customers not because they sell badly, but because part of their inquiries never reach a manager at all. A request sits in an unread Direct, in Viber on someone's personal phone, or in a mailbox nobody opens. Below are the concrete places where requests leak, and what to do about it in practice."
+    },
+    {
+      "t": "h2",
+      "uk": "Де насправді виникають втрачені заявки",
+      "en": "Where lost requests actually come from"
+    },
+    {
+      "t": "p",
+      "uk": "Перше місце витоку - Instagram Direct. Повідомлення падає в загальний акаунт, до якого має доступ і власник, і SMM-спеціаліст. Кожен думає, що відповість інший, бо повідомлення вже позначене прочитаним. Через два дні клієнт уже купив в іншому місці. Другий класичний варіант - Viber або WhatsApp на особистому номері менеджера: поки він у відпустці або просто змінив роботу, звернення нікуди не передаються і історія листування зникає разом із телефоном.",
+      "en": "The first leak point is Instagram Direct. A message lands in a shared account that both the owner and the SMM specialist can access. Each assumes the other will reply, because the message is already marked as read. Two days later the customer has already bought elsewhere. The second classic case is Viber or WhatsApp on a manager's personal number: while they are on vacation or have simply changed jobs, requests go nowhere and the conversation history disappears along with the phone."
+    },
+    {
+      "t": "p",
+      "uk": "Третє місце - телефонні дзвінки в незручний час. Обід, вечір пʼятниці, паралельна розмова з іншим клієнтом, дорога між обʼєктами. Пропущений дзвінок без автоматичного перезвону або хоча б запису в списку - це просто зниклий клієнт. Ніхто не памʼятає номер, який висвітився три години тому, і майже ніхто не передзвонює сам, бо здається, що людина передзвонить ще раз. Насправді передзвонює приблизно кожен третій.",
+      "en": "The third place is phone calls at inconvenient times. Lunch break, Friday evening, a parallel conversation with another client, driving between sites. A missed call without an automatic callback, or at least a record in a list, is simply a vanished customer. Nobody remembers a number that flashed on screen three hours ago, and almost nobody calls back, because it feels like the person will try again. In reality about one in three does."
+    },
+    {
+      "t": "p",
+      "uk": "Четверте і найпідступніше - форма на сайті, яка шле листи на спільну скриньку типу info. Технічно все працює: лист доставлено, форма не зламана, розробник ні в чому не винен. Фактично скриньку відкривають раз на тиждень, і половина звернень тоне серед розсилок та рахунків від підрядників. Окремо трапляється, що листи з форми потрапляють у спам, і тоді втрата стовідсоткова, а помітити її можна тільки випадково.",
+      "en": "The fourth and sneakiest is a website form that emails a shared inbox like info. Technically everything works: the message was delivered, the form is not broken, the developer is not at fault. In practice the mailbox is opened once a week, and half the inquiries drown among newsletters and contractor invoices. Separately, form emails sometimes land in spam, and then the loss is total, and you can only notice it by accident."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому єдине вікно вирішує більшу частину проблеми",
+      "en": "Why a single unified inbox solves most of the problem"
+    },
+    {
+      "t": "p",
+      "uk": "Єдине вікно - це коли всі канали зводяться в один список, який людина відкриває на початку дня і бачить: ось шість звернень, три опрацьовані, три ні. Не треба заходити в пʼять застосунків і тримати в голові, де що лишилося. Технічно це може бути Telegram-бот, який приймає заявки з форми і дублює їх у робочий чат, або повноцінна CRM з картками. Вибір залежить від обсягу, а не від моди на інструменти.",
+      "en": "A single inbox means all channels flow into one list that a person opens at the start of the day and sees: here are six requests, three handled, three not. No need to open five apps and keep track mentally of what is left where. Technically this can be a Telegram bot that receives form submissions and mirrors them into a work chat, or a full CRM with cards. The choice depends on volume, not on which tool is fashionable."
+    },
+    {
+      "t": "p",
+      "uk": "Ключова властивість єдиного вікна не в красі інтерфейсу, а в тому, що звернення неможливо не побачити. Якщо заявка з Direct автоматично створює картку, а картка висить у списку доти, доки хтось не змінить її статус, то забути про неї фізично складніше. Система не дає зверненню провалитися між людьми, і саме це відрізняє єдине вікно від чергового чату, куди все пересилають вручну.",
+      "en": "The key property of a unified inbox is not a pretty interface but the fact that a request cannot go unseen. If a Direct message automatically creates a card, and that card stays in the list until someone changes its status, then forgetting it becomes physically harder. The system does not let a request fall between people, and that is exactly what separates a unified inbox from yet another chat where everything is forwarded by hand."
+    },
+    {
+      "t": "p",
+      "uk": "Ще один ефект - прозорість для власника. Коли всі звернення в одному місці, стає видно реальний обсяг: не «щось мало клієнтів», а конкретно 34 заявки за тиждень, з яких 9 без відповіді. Це вже не відчуття, а цифра, з якою можна працювати: додати людину, змінити графік чи вимкнути рекламу на каналі, звідки приходять нецільові звернення.",
+      "en": "Another effect is transparency for the owner. When every request lives in one place, the real volume becomes visible: not \"we somehow have few clients\" but specifically 34 requests this week, 9 of them unanswered. That is no longer a feeling, it is a number you can work with: hire someone, change the schedule, or switch off ads on a channel that brings irrelevant inquiries."
+    },
+    {
+      "t": "h2",
+      "uk": "Час відповіді як головна метрика обробки заявок",
+      "en": "Response time as the main metric of request handling"
+    },
+    {
+      "t": "p",
+      "uk": "Клієнт, який залишив заявку, зазвичай пише не тільки вам. Він відкрив три вкладки і надіслав запит у три компанії поспіль. Виграє та, що відповіла першою, навіть якщо ціна трохи вища, бо в цей момент людина ще в контексті свого завдання. Через добу вона вже не памʼятає, кому саме писала. Тому час відповіді - не питання ввічливості, а прямий важіль конверсії.",
+      "en": "A customer who submits a request usually does not write only to you. They opened three tabs and sent an inquiry to three companies in a row. The one that replies first wins, even if its price is slightly higher, because at that moment the person is still in the context of their task. A day later they no longer remember who they wrote to. That is why response time is not a matter of politeness but a direct lever on conversion."
+    },
+    {
+      "t": "p",
+      "uk": "Практичне правило просте: перша жива реакція протягом 15 хвилин у робочий час, автоматичне підтвердження - миттєво. Автовідповідь у стилі «Ваша заявка №118 прийнята, звʼяжемося протягом години» не продає, але утримує людину від походу до конкурента і знімає тривогу «чи взагалі дійшло». Ці 15 хвилин коштують нуль гривень, якщо процес налаштований, і дуже дорого, якщо все тримається на памʼяті менеджера.",
+      "en": "The practical rule is simple: first human reaction within 15 minutes during working hours, automatic confirmation instantly. An auto-reply in the style of \"Your request No. 118 has been received, we will contact you within the hour\" does not sell, but it keeps the person from walking over to a competitor and removes the anxiety of \"did it even go through\". Those 15 minutes cost nothing once the process is set up, and cost a lot when everything rests on a manager's memory."
+    },
+    {
+      "t": "p",
+      "uk": "Щоб метрика працювала, її треба фіксувати автоматично. Час створення заявки і час першої відповіді має рахувати система, а не менеджер за памʼяттю чи скріншотами. Тоді наприкінці місяця видно середній час реакції по кожному співробітнику і по кожному каналу окремо, а разом із ним - години доби, коли звернення стабільно висять без відповіді.",
+      "en": "For the metric to work, it must be recorded automatically. The system, not a manager's memory or screenshots, should log the creation time and the first-reply time. Then at the end of the month you see the average reaction time per employee and per channel separately, and along with it the hours of the day when requests consistently sit unanswered."
+    },
+    {
+      "t": "h2",
+      "uk": "Фіксація і статуси: дисципліна замість памʼяті",
+      "en": "Fixation and statuses: discipline instead of memory"
+    },
+    {
+      "t": "p",
+      "uk": "Заявка без статусу - це заявка, за яку ніхто не відповідає. Мінімальний набір, який працює майже скрізь: нова, в роботі, чекаємо клієнта, закрита успішно, закрита відмовою. Пʼяти станів достатньо, щоб будь-хто за десять секунд зрозумів, що відбувається зі зверненням, і щоб нова людина розібралася в списку без пояснень. Більше статусів - більше шансів, що їх перестануть ставити взагалі.",
+      "en": "A request without a status is a request nobody is accountable for. The minimal set that works almost everywhere: new, in progress, waiting for the client, closed as won, closed as lost. Five states are enough for anyone to understand within ten seconds what is happening with a request, and for a new hire to make sense of the list without explanations. More statuses mean a higher chance that people stop setting them at all."
+    },
+    {
+      "t": "p",
+      "uk": "Друге правило дисципліни - у кожної заявки є один відповідальний. Не відділ, не чат, а конкретна людина з іменем. Якщо звернення висить у статусі «нова» довше години, воно має підсвічуватися або падати нагадуванням тому, хто за нього відповідає, а через дві години - керівнику. Автоматичне нагадування дешевше, ніж щоденна планерка про те, хто що забув, і не псує стосунки в команді.",
+      "en": "The second rule of discipline is that every request has one owner. Not a department, not a chat, but a specific named person. If a request stays in the \"new\" status for over an hour, it should be highlighted or trigger a reminder to the person responsible, and after two hours to the manager. An automatic reminder is cheaper than a daily standup about who forgot what, and it does not spoil relationships inside the team."
+    },
+    {
+      "t": "p",
+      "uk": "Причина відмови теж фіксується, і не в довільній формі, а списком: дорого, не той регіон, немає в наявності, передумав. Через три місяці цей список показує, що втрачається не через менеджерів, а через асортимент або географію доставки. Без фіксації такі висновки замінюються здогадками, і бізнес роками вкладає гроші в рекламу замість того, щоб виправити одну конкретну причину.",
+      "en": "The reason for loss is recorded too, and not in free form but from a list: too expensive, wrong region, out of stock, changed their mind. Three months later that list shows that losses come not from the managers but from the product range or the delivery geography. Without recording, such conclusions get replaced by guesses, and a business spends years pouring money into ads instead of fixing one specific cause."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль: що керівник має бачити в одному місці",
+      "en": "Control: what a manager should see in one place"
+    },
+    {
+      "t": "p",
+      "uk": "Керівнику не потрібен доступ до кожного листування. Йому потрібні чотири речі на одному екрані: скільки звернень надійшло за період, скільки з них досі без відповіді, середній час першої реакції та розподіл за причинами відмов. Усе інше - деталі, які відкриваються за потреби. Коли на екрані двадцять графіків, ним не користуються вже на третій тиждень.",
+      "en": "A manager does not need access to every conversation. They need four things on one screen: how many requests arrived in the period, how many are still unanswered, the average first-reaction time, and the breakdown by loss reasons. Everything else is detail that opens on demand. When there are twenty charts on screen, nobody uses it by the third week."
+    },
+    {
+      "t": "p",
+      "uk": "Найкорисніший елемент контролю - щоденне зведення. Коротке повідомлення в Telegram о девʼятій ранку: вчора 12 заявок, 11 опрацьовано, 1 без відповіді понад добу. Такий формат займає десять секунд на читання і не дає проблемі накопичуватися тиждень. Якщо цифри раптом падають удвічі, це видно того ж дня, а не в кінці місяця, коли вже пізно щось міняти.",
+      "en": "The most useful control element is a daily digest. A short Telegram message at nine in the morning: yesterday 12 requests, 11 handled, 1 unanswered for over a day. That format takes ten seconds to read and stops a problem from piling up for a week. If the numbers suddenly halve, you see it the same day, not at the end of the month when it is too late to change anything."
+    },
+    {
+      "t": "p",
+      "uk": "Універсального рішення тут немає: у салону краси, оптового складу і сервісного центру різні канали, різні статуси і різна допустима швидкість реакції. Ми в Devlly будуємо такі системи прийому і обробки заявок під конкретний бізнес - від Telegram-бота з нагадуваннями до повноцінної CRM зі зведеннями для керівника.",
+      "en": "There is no universal solution here: a beauty salon, a wholesale warehouse and a service center have different channels, different statuses and different acceptable reaction speeds. At Devlly we build such request intake and handling systems for a specific business - from a Telegram bot with reminders to a full CRM with digests for the manager."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title_uk": "Як впровадити CRM в юридичній фірмі: покроковий гайд",
+  "title_en": "How to Implement a CRM in a Law Firm: A Step-by-Step Guide",
+  "desc_uk": "Практичний гайд про те, як впровадити CRM в юридичній фірмі: з чого почати, які процеси автоматизувати першими, як перенести дані і яких помилок уникнути.",
+  "desc_en": "A practical guide on how to implement a CRM in a law firm: where to start, which processes to automate first, how to migrate data, and what mistakes to avoid.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Впровадження CRM в юридичній фірмі: покроковий гайд | Devlly",
+    "te": "Implementing a CRM in a Law Firm: A Step-by-Step Guide | Devlly",
+    "d": "Як правильно впровадити CRM в юридичній фірмі: з чого почати, які процеси автоматизувати першими і яких помилок уникнути.",
+    "de": "How to correctly implement a CRM in a law firm: where to start, which processes to automate first, and what mistakes to avoid.",
+    "k": "впровадження crm, crm для юридичної фірми, crm в юридичній фірмі, автоматизація юридичної фірми, облік справ, облік юридичних справ, контроль строків, база клієнтів юриста, розробка crm під фірму, автоматизація документообігу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "CRM в юридичній фірмі - це не просто ще одна програма для контактів. Це система, яка тримає під контролем справи, процесуальні строки, документи й фінанси клієнтів. Коли один юрист веде 30-40 активних справ одночасно, забутий дедлайн або загублений договір коштує не годин, а репутації фірми. За нашими спостереженнями, грамотно впроваджена CRM в юридичній фірмі економить юристу 8-10 годин на тиждень на рутині: пошуку файлів, нагадуваннях і звітах. У цьому гайді розберемо покроково, як впровадити систему без хаосу, зайвих витрат і саботажу з боку команди фірми.",
+      "en": "A CRM in a law firm is not just another contact-management app. It is a system that keeps cases, procedural deadlines, documents, and client finances under control. When a single lawyer handles 30-40 active cases at once, a forgotten deadline or a lost contract costs not hours but the firm's reputation. In our experience, a properly implemented CRM in a law firm saves a lawyer 8-10 hours a week on routine work: searching for files, reminders, and reports. In this guide we break down step by step how to roll out the system without chaos, wasted money, or resistance from the firm's team."
+    },
+    {
+      "t": "h2",
+      "uk": "З чого почати впровадження CRM в юридичній фірмі",
+      "en": "Where to start implementing a CRM in a law firm"
+    },
+    {
+      "t": "p",
+      "uk": "Впровадження CRM починається не з вибору програми, а з опису процесів. Сядьте й випишіть, як у фірмі проходить справа від першого дзвінка клієнта до закриття: хто приймає заявку, хто відкриває справу, де зберігаються документи, як рахуються години й виставляються рахунки. Зазвичай на це йде 2-3 робочі сесії по годині. Уже на цьому етапі ви побачите, що частина кроків дублюється, а частина тримається на памʼяті однієї людини. Без такої карти будь-яка CRM перетвориться на ще одну незручну програму, у яку ніхто не заносить дані.",
+      "en": "CRM implementation starts not with choosing software but with mapping your processes. Sit down and write out how a case moves through the firm from the client's first call to closure: who takes the inquiry, who opens the case, where documents are stored, how hours are counted and invoices issued. This usually takes 2-3 working sessions of about an hour each. Already at this stage you will see that some steps are duplicated and others rely on a single person's memory. Without such a map, any CRM turns into yet another inconvenient program that nobody enters data into."
+    },
+    {
+      "t": "p",
+      "uk": "Далі визначте одну-дві найбільш болючі проблеми. Якщо фірма губить строки - фокус на контролі дедлайнів. Якщо клієнти скаржаться, що їх «забули» - фокус на історії комунікації. Якщо партнери не бачать реальної завантаженості юристів - почніть з обліку годин. Не намагайтеся автоматизувати все одразу: почніть з вузького блоку, який дасть видимий результат за 2-3 тижні, і вже на ньому «продайте» ідею команді. Один успішний модуль переконує співробітників краще за будь-яку презентацію.",
+      "en": "Next, identify the one or two most painful problems. If the firm misses deadlines, focus on deadline control. If clients complain that they were «forgotten», focus on communication history. If partners cannot see the real workload of lawyers, start with time tracking. Do not try to automate everything at once: begin with a narrow block that delivers a visible result in 2-3 weeks, and use that result to «sell» the idea to the team. One successful module convinces employees better than any presentation."
+    },
+    {
+      "t": "h2",
+      "uk": "Які процеси автоматизувати першими: облік справ, строки та документи",
+      "en": "Which processes to automate first: case tracking, deadlines, and documents"
+    },
+    {
+      "t": "p",
+      "uk": "Перший і головний модуль - облік справ. Кожна справа отримує картку: клієнт, тип, відповідальний юрист, статус, сума гонорару, ключові дати. Це закриває питання «а хто веде цю справу і на якому вона етапі», на яке партнери інакше витрачають десятки повідомлень щодня. Другий за важливістю блок - контроль строків. CRM має сама нагадувати про процесуальні дедлайни за 7, 3 і 1 день, а не сподіватися на памʼять юриста чи стікери на моніторі. Нагадування зручно дублювати в Telegram, щоб юрист бачив їх навіть поза офісом.",
+      "en": "The first and most important module is case tracking. Every case gets a card: client, type, responsible lawyer, status, fee amount, key dates. This solves the «who is handling this case and what stage is it at» question that partners otherwise spend dozens of messages on every day. The second priority block is deadline control. The CRM should remind you of procedural deadlines 7, 3, and 1 day in advance, rather than relying on a lawyer's memory or sticky notes on a monitor. It is convenient to duplicate reminders in Telegram so the lawyer sees them even outside the office."
+    },
+    {
+      "t": "p",
+      "uk": "Третій блок - документи. Позовні заяви, договори й довіреності зручно генерувати з шаблонів: система підставляє дані клієнта й справи в готову форму за кілька секунд замість 15-20 хвилин ручного заповнення. Усі файли зберігаються у картці справи, тож ніхто не шукає потрібну редакцію договору по десятку папок на компʼютері. Окремий бонус - історія: видно, хто й коли змінював документ, і завжди можна повернутися до попередньої версії. Ці три модулі разом дають найбільшу економію часу на старті, і саме з них варто починати, а решту функцій додавати поступово.",
+      "en": "The third block is documents. Statements of claim, contracts, and powers of attorney are conveniently generated from templates: the system inserts client and case data into a ready form in a few seconds instead of 15-20 minutes of manual filling. All files are stored in the case card, so nobody hunts for the right version of a contract across a dozen folders on a computer. A separate bonus is history: you can see who changed a document and when, and you can always roll back to a previous version. Together, these three modules deliver the biggest time savings at the start, and they are exactly where you should begin, adding the remaining features gradually."
+    },
+    {
+      "t": "h2",
+      "uk": "Як перенести дані та базу клієнтів у нову CRM",
+      "en": "How to migrate data and the client base into the new CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Найчастіше база клієнтів юриста живе в Excel, Google Контактах і головах співробітників. Перед перенесенням дані треба почистити: прибрати дублі, звести формат телефонів, дописати відсутні email. Це нудна, але критична робота: якщо завантажити в CRM «брудну» базу, довіра до системи впаде з першого тижня. На чистку бази з 500-1000 контактів зазвичай іде 1-2 дні роботи однієї людини.",
+      "en": "Most often a lawyer's client base lives in Excel, Google Contacts, and the heads of employees. Before migration, the data must be cleaned: remove duplicates, unify phone formats, add missing emails. This is tedious but critical work: if you load a «dirty» base into the CRM, trust in the system collapses in the first week. Cleaning a base of 500-1000 contacts usually takes one person 1-2 days of work."
+    },
+    {
+      "t": "p",
+      "uk": "Переносьте дані партіями, а не все одразу. Спершу активні справи й клієнти, потім архів. Після імпорту обовʼязково зробіть звірку: візьміть 10-15 випадкових карток і перевірте, чи все підтягнулося коректно. Особливо уважно перевіряйте дати й суми гонорарів - саме тут найчастіше зʼявляються помилки при імпорті з таблиць. Архівні справи за минулі роки часто взагалі немає сенсу переносити повністю: достатньо базового реєстру з посиланням на паперову чи стару електронну версію, а повні дані завантажувати лише за потреби.",
+      "en": "Migrate data in batches, not all at once. First the active cases and clients, then the archive. After the import, always run a reconciliation: take 10-15 random cards and check that everything was pulled in correctly. Pay particular attention to dates and fee amounts - this is where errors most often appear when importing from spreadsheets. Archived cases from past years often make no sense to migrate in full: a basic registry with a link to the paper or old electronic version is enough, and full data can be loaded only when needed."
+    },
+    {
+      "t": "h2",
+      "uk": "Типові помилки при впровадженні CRM",
+      "en": "Common mistakes when implementing a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Помилка номер один - впровадження без участі команди. Якщо систему обрав тільки керівник, а юристи дізналися про неї постфактум, вони саботуватимуть її й далі вестимуть справи в блокнотах. Залучайте 1-2 юристів на етапі опису процесів. Друга помилка - перевантаження полями: коли картка справи має 40 обовʼязкових полів, заповнювати її ніхто не буде. Починайте з мінімуму, який реально потрібен щодня, а решту додавайте лише тоді, коли команда сама відчує, що цих даних бракує для роботи чи звітів.",
+      "en": "Mistake number one is implementing without the team's involvement. If only the manager chose the system and the lawyers learned about it after the fact, they will sabotage it and keep running cases in notebooks. Involve 1-2 lawyers at the process-mapping stage. The second mistake is overloading fields: when a case card has 40 mandatory fields, nobody will fill it in. Start with the minimum that is actually needed daily, and add the rest only when the team itself feels that the data is missing for work or reports."
+    },
+    {
+      "t": "p",
+      "uk": "Третя часта помилка - відсутність відповідального за систему. Має бути людина, яка стежить, щоб дані вносилися, і збирає зауваження від команди в перші місяці. Четверта - ігнорування навчання: навіть проста CRM потребує 2-3 годин навчання на співробітника, інакше половину функцій ніхто не використовуватиме. Заплануйте цей час заздалегідь, а не «якось розберуться самі», і підготуйте коротку інструкцію з типовими сценаріями роботи.",
+      "en": "The third common mistake is having no one responsible for the system. There must be a person who ensures data is entered and who collects feedback from the team in the first months. The fourth is ignoring training: even a simple CRM needs 2-3 hours of training per employee, otherwise half of the features will go unused. Plan this time in advance rather than assuming people will «figure it out on their own», and prepare a short guide with typical work scenarios."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова CRM чи розробка під фірму: скільки часу займає впровадження",
+      "en": "Off-the-shelf CRM or custom development: how long implementation takes"
+    },
+    {
+      "t": "p",
+      "uk": "Готові CRM дешевші на старті й запускаються за кілька днів, але юридична специфіка - процесуальні строки, конфлікт інтересів, облік годин, шаблони документів - у них часто реалізована слабко. Ви або підлаштовуєте фірму під чужу логіку, або платите за десяток інтеграцій. Розробка під фірму дорожча, зате система повторює саме ваші процеси й не має зайвого. Базове впровадження готового рішення займає 2-4 тижні, а кастомна CRM середнього розміру - зазвичай від 1,5 до 3 місяців разом із перенесенням даних і навчанням.",
+      "en": "Off-the-shelf CRMs are cheaper up front and launch in a few days, but legal specifics - procedural deadlines, conflicts of interest, time tracking, document templates - are often poorly implemented in them. You either bend the firm to someone else's logic or pay for a dozen integrations. Custom development costs more, but the system mirrors exactly your processes and carries nothing extra. Basic implementation of a ready-made solution takes 2-4 weeks, while a mid-sized custom CRM usually takes from 1.5 to 3 months including data migration and training."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо ваша фірма вже виросла з таблиць, а готові рішення не покривають специфіку роботи з клієнтами й справами, ми в Devlly будуємо CRM під конкретні процеси юридичної фірми - з обліком справ, контролем строків, генерацією документів і Telegram-нагадуваннями. Розкажіть, як улаштована ваша робота, і ми запропонуємо, що автоматизувати першим. Напишіть нам, і почнемо з опису процесів.",
+      "en": "If your firm has already outgrown spreadsheets and ready-made solutions do not cover the specifics of working with clients and cases, we at Devlly build CRMs tailored to a law firm's concrete processes - with case tracking, deadline control, document generation, and Telegram reminders. Tell us how your work is organized and we will suggest what to automate first. Write to us and we will start with mapping the processes."
+    }
+  ]
+}

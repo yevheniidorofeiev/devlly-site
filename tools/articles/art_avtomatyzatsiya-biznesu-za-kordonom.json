@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація бізнесу за кордоном: інструменти для українців",
+  "title_en": "Business Automation Abroad: Tools for Ukrainians",
+  "desc_uk": "Які процеси українському підприємцю за кордоном варто автоматизувати першими: заявки, база клієнтів, платежі і команда. Практичний план без зайвих витрат.",
+  "desc_en": "Which processes should a Ukrainian entrepreneur abroad automate first: leads, a client database, payments, and the team. A practical plan without unnecessary costs.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація бізнесу за кордоном для українців | Devlly",
+    "te": "Business Automation Abroad for Ukrainians | Devlly",
+    "d": "Які процеси українському підприємцю за кордоном варто автоматизувати першими: заявки, база клієнтів, платежі і команда. Практичний план без зайвих витрат.",
+    "de": "Which processes should a Ukrainian entrepreneur abroad automate first: leads, a client database, payments, and the team. A practical plan without unnecessary costs.",
+    "k": "автоматизація бізнесу за кордоном, бізнес для українців за кордоном, автоматизация бизнеса за границей, бизнес для украинцев за рубежом, business automation abroad, CRM для бізнесу за кордоном, телеграм бот для бізнесу, автоматизація заявок, ведення клієнтської бази, платежі в різних валютах, automation for entrepreneurs abroad, CRM під ключ для бізнесу за кордоном"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Український підприємець, який відкрив справу за кордоном, зазвичай стикається з однаковим набором проблем: заявки губляться в різних каналах, клієнтська база живе в голові або в нотатках, платежі приходять у трьох валютах, а команда розкидана між кількома країнами. Додайте до цього незнайому мову документів, нову бухгалтерську систему і брак часу на все одразу - і стає зрозуміло, чому автоматизація часто відкладається на потім, хоча саме вона економить найбільше ресурсу. Спроба автоматизувати все одразу закінчується витраченим бюджетом і плутаниною: команда губиться в нових інструментах, а старі процеси продовжують працювати паралельно. Набагато ефективніше рухатися послідовно: спочатку навести лад там, де втрати найбільші, а вже потім переходити до складніших процесів. Нижче - практична послідовність кроків, яка підходить для будь-якої країни та галузі і не вимагає великого стартового бюджету.",
+      "en": "A Ukrainian entrepreneur who has started a business abroad usually faces the same set of problems: leads get lost across different channels, the client base lives in someone's head or in scattered notes, payments arrive in three currencies, and the team is spread across several countries. Add an unfamiliar language for official documents, a new accounting system, and simply not enough time for everything at once, and it becomes clear why automation often gets postponed, even though it is exactly what saves the most resources. Trying to automate everything at once usually ends with a wasted budget and confusion: the team gets lost in new tools while the old processes keep running in parallel. It is far more effective to move step by step: first fix the points where losses are biggest, then move on to more complex processes. Below is a practical sequence of steps that works for any country and any industry without requiring a large starting budget."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому автоматизація бізнесу за кордоном починається із заявок",
+      "en": "Why business automation abroad starts with handling leads"
+    },
+    {
+      "t": "p",
+      "uk": "Перший процес, який варто автоматизувати, - це приймання звернень від клієнтів. За кордоном підприємці часто отримують заявки одразу з кількох джерел: сайту, Instagram, Telegram, дзвінків і навіть особистих повідомлень у WhatsApp. Без єдиної точки збору частина звернень губиться, а відповідь затримується на години. Клієнт, який чекає довше кількох хвилин, зазвичай іде до конкурента, і на новому ринку, де довіра до бренду ще не сформована, така втрата відчувається значно болючіше, ніж удома.",
+      "en": "The first process worth automating is handling customer inquiries. Abroad, entrepreneurs often receive leads from several sources at once: a website, Instagram, Telegram, phone calls, and even personal WhatsApp messages. Without a single collection point, some inquiries get lost and replies are delayed by hours. A customer who waits longer than a few minutes usually moves on to a competitor, and in a new market where trust in the brand has not yet been built, that loss hurts far more than it would at home."
+    },
+    {
+      "t": "p",
+      "uk": "Рішення - зібрати всі канали в одному місці. Найпростіший варіант - Telegram-бот, який приймає заявку, одразу підтверджує її клієнту і пересилає менеджеру чи в загальний чат команди. Такий бот працює цілодобово, не залежить від часового поясу і не вимагає окремого співробітника на прийом дзвінків у перші місяці роботи.",
+      "en": "The solution is to bring all channels into one place. The simplest option is a Telegram bot that accepts the request, immediately confirms it to the customer, and forwards it to the manager or the team's shared chat. Such a bot works around the clock, is not tied to a time zone, and removes the need for a dedicated employee to answer calls in the first months of operation."
+    },
+    {
+      "t": "p",
+      "uk": "Такий підхід на старті коштує відносно недорого, але дає найшвидший ефект: власник бачить кожну заявку, розуміє швидкість відповіді команди і може оцінити, скільки звернень перетворюється на клієнтів. Це база для всіх наступних кроків автоматизації.",
+      "en": "This approach costs relatively little at the start but delivers the fastest results: the owner sees every lead, understands how quickly the team responds, and can measure how many inquiries turn into paying customers. It becomes the foundation for every automation step that follows."
+    },
+    {
+      "t": "h2",
+      "uk": "Єдина база клієнтів замість розрізнених нотаток",
+      "en": "A single client database instead of scattered notes"
+    },
+    {
+      "t": "p",
+      "uk": "Коли заявки почали надходити стабільно, наступна проблема - їх облік. Багато підприємців за кордоном ведуть клієнтів у блокноті, Excel-таблиці або просто памʼятають постійних покупців в обличчя. Це працює, поки клієнтів десять. Коли їх сто чи тисяча, без єдиної бази неминучі втрачені контакти, забуті дні народження постійних клієнтів і дублікати записів.",
+      "en": "Once leads start coming in steadily, the next problem is keeping track of them. Many entrepreneurs abroad manage clients in a notebook, an Excel sheet, or simply remember regular customers by face. That works fine while there are ten clients. Once there are a hundred or a thousand, a missing database inevitably leads to lost contacts, forgotten regular customers, and duplicate records."
+    },
+    {
+      "t": "p",
+      "uk": "CRM під ключ вирішує цю проблему: кожен клієнт отримує картку з історією звернень, покупок і платежів. Менеджер бачить, хто вже купував, а хто тільки цікавився, і може запропонувати доречну пропозицію замість шаблонної розсилки всім підряд. Для підприємця, який будує бізнес у новій країні без напрацьованої репутації, персональний підхід - один з небагатьох способів конкурувати з місцевими гравцями, які роками формували свою базу постійних клієнтів і мають довіру, якої ще бракує новачку.",
+      "en": "A dedicated CRM solves this problem: every client gets a card with a history of inquiries, purchases, and payments. The manager can see who has already bought something and who was just browsing, and can offer a relevant deal instead of a generic mass message. For an entrepreneur building a business in a new country without an established reputation, a personal approach is one of the few ways to compete with local players who have spent years building their own base of loyal customers and the trust that a newcomer still lacks."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо, щоб база клієнтів була синхронізована з ботом прийому заявок із попереднього кроку. Тоді нова заявка автоматично створює або оновлює картку клієнта, і менеджеру не доводиться вручну переносити дані з одного інструменту в інший.",
+      "en": "It is important that the client database stays synced with the lead bot from the previous step. That way, a new inquiry automatically creates or updates a client card, and the manager does not have to manually move data from one tool to another."
+    },
+    {
+      "t": "h2",
+      "uk": "Платежі в кількох валютах без ручної звірки",
+      "en": "Payments in multiple currencies without manual reconciliation"
+    },
+    {
+      "t": "p",
+      "uk": "Бізнес за кордоном рідко працює з однією валютою. Частина клієнтів платить готівкою в місцевій валюті, частина - карткою через місцевий еквайринг, а хтось із діаспори чи з України переказує гроші в гривні або доларах. Додайте до цього банківські перекази від корпоративних клієнтів і оплату через міжнародні сервіси - і картина ускладнюється ще більше. Звіряти все це вручну в кінці місяця - заняття, яке забирає цілий день і майже завжди дає розбіжності.",
+      "en": "A business abroad rarely operates in a single currency. Some clients pay cash in the local currency, others pay by card through a local payment provider, and someone from the diaspora or from Ukraine sends money in hryvnia or dollars. Add bank transfers from corporate clients and payments through international services, and the picture gets even more complicated. Reconciling all of this by hand at the end of the month is a task that eats up an entire day and almost always leaves discrepancies."
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація тут означає підключення платіжних сервісів до CRM або облікової системи так, щоб кожен платіж одразу позначався як оплачений рахунок, а не окремий запис, який потрібно зіставляти вручну. Це особливо важливо для підприємців, які приймають передоплату: без автоматичного підтвердження легко почати виконувати замовлення, оплата за яке ще не надійшла.",
+      "en": "Automation here means connecting payment services to the CRM or accounting system so that every payment is automatically marked against the right invoice instead of becoming a separate record that someone has to match manually. This matters especially for entrepreneurs who take prepayments: without automatic confirmation, it is easy to start fulfilling an order before the payment has actually arrived."
+    },
+    {
+      "t": "p",
+      "uk": "Другий момент - валютні курси. Якщо прайс привʼязаний до однієї валюти, а оплата приходить в іншій, потрібне автоматичне перерахування за актуальним курсом на момент оплати, інакше бухгалтерія розповзається на окремі файли, які ніхто не встигає звіряти вчасно.",
+      "en": "The second point is exchange rates. If pricing is tied to one currency while payment arrives in another, an automatic conversion at the actual rate at the time of payment is needed. Otherwise, bookkeeping ends up scattered across separate files that nobody has time to reconcile properly."
+    },
+    {
+      "t": "h2",
+      "uk": "Розподілена команда: як звʼязати людей у різних часових поясах",
+      "en": "A distributed team: connecting people across time zones"
+    },
+    {
+      "t": "p",
+      "uk": "Багато українських підприємців за кордоном тримають частину команди в Україні: бухгалтера, дизайнера, менеджера з обробки заявок. Різниця в часових поясах і завантаженість особистими месенджерами перетворюють координацію в постійний потік повідомлень, серед яких легко загубити важливе завдання. Додайте до цього фрілансерів з інших країн, які працюють над окремими проєктами, і кількість каналів звʼязку, за якими треба стежити власнику, зростає до пʼяти-шести одночасно.",
+      "en": "Many Ukrainian entrepreneurs abroad keep part of their team in Ukraine: an accountant, a designer, a manager handling inquiries. The time zone gap and the constant load of personal messengers turn coordination into an endless stream of messages, in which it is easy to lose an important task. Add freelancers from other countries working on separate projects, and the number of channels an owner has to monitor grows to five or six at once."
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація тут - це не заміна людей ботами, а прибирання рутини з їхньої роботи. Постановка задач через єдиний канал, автоматичні нагадування про дедлайни, готові шаблони відповідей клієнтам - усе це скорочує час на комунікацію і знижує кількість помилок через людський фактор, особливо коли команда працює в різний час доби.",
+      "en": "Automation here is not about replacing people with bots, it is about removing routine from their work. Assigning tasks through a single channel, automatic deadline reminders, and ready made reply templates for customers all reduce time spent on communication and cut down on human error, especially when the team works across different times of day."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто автоматизувати передачу заявки між людьми: якщо менеджер у Європі закінчив зміну, заявка повинна автоматично потрапити до колеги в іншому часовому поясі, а не чекати, поки хтось згадає її переслати вручну.",
+      "en": "It is also worth automating how a lead gets handed off between people: if a manager in Europe finishes a shift, the lead should automatically reach a colleague in another time zone instead of waiting for someone to remember to forward it manually."
+    },
+    {
+      "t": "h2",
+      "uk": "Документи та місцева звітність: що автоматизувати обережно",
+      "en": "Documents and local reporting: what to automate carefully"
+    },
+    {
+      "t": "p",
+      "uk": "Останній пункт у списку пріоритетів - документообіг і звітність перед місцевими органами. Це найчутливіша сфера: вимоги відрізняються від країни до країни, а помилка в поданих документах коштує дорожче, ніж втрачена заявка чи неточність у CRM. Саме тому цей блок автоматизують останнім, коли інші процеси вже стабільно працюють і накопичено достатньо даних для коректних розрахунків.",
+      "en": "The last item on the priority list is document flow and reporting to local authorities. This is the most sensitive area: requirements differ from country to country, and a mistake in submitted documents costs far more than a lost lead or an inaccurate CRM entry. That is exactly why this block gets automated last, once the other processes are already running steadily and enough data has accumulated for correct calculations."
+    },
+    {
+      "t": "p",
+      "uk": "Тут варто автоматизувати рутинні, повторювані дії: формування рахунків і актів на основі даних із CRM, збір чеків і витрат в одному місці, нагадування про терміни подачі звітності. А остаточну перевірку документів перед відправкою краще залишити бухгалтеру чи юристу, який знає місцеве законодавство країни перебування.",
+      "en": "Here it makes sense to automate routine, repetitive actions: generating invoices and acts based on CRM data, collecting receipts and expenses in one place, and setting reminders for reporting deadlines. The final check of documents before submission is best left to an accountant or lawyer who knows the local legislation of the country of residence."
+    },
+    {
+      "t": "p",
+      "uk": "Такий підхід дає баланс: рутина забирає менше часу, а рішення з юридичною відповідальністю все одно приймає людина. Якщо незрозуміло, з чого почати автоматизацію бізнесу за кордоном, у Devlly можна отримати консультацію і обрати перший крок під конкретну ситуацію, без переплати за зайві функції.",
+      "en": "This approach gives a healthy balance: routine takes less time, while decisions carrying legal responsibility are still made by a person. If it is unclear where to start automating a business abroad, Devlly can offer a consultation and help choose the first step for your specific situation, without paying extra for features you do not need."
+    }
+  ]
+}

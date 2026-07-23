@@ -1,0 +1,97 @@
+{
+  "title_uk": "Запис клієнтів у салон краси через Telegram: як це працює",
+  "title_en": "Client booking for a beauty salon via Telegram: how it works",
+  "desc_uk": "Пояснюємо, як налаштувати запис клієнтів у салон краси через Telegram: вибір послуги й майстра, вільні слоти, автоматичні підтвердження, нагадування та інтеграція з розкладом і CRM.",
+  "desc_en": "We explain how to set up client booking for a beauty salon via Telegram: choosing a service and stylist, free slots, automatic confirmations, reminders, and integration with the schedule and CRM.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Онлайн запис у салон краси через Telegram | Devlly",
+    "te": "Online booking for a beauty salon via Telegram | Devlly",
+    "d": "Як налаштувати онлайн запис клієнтів у салон краси через Telegram-бота: вибір майстра, слоти, підтвердження і нагадування автоматично.",
+    "de": "How to set up online client booking for a beauty salon via a Telegram bot: choosing a stylist, slots, confirmations and reminders automatically.",
+    "k": "запис у салон краси, онлайн запис через telegram, telegram бот для салону, запис клієнтів, автоматизація салону краси, бот для запису, запис до майстра онлайн, нагадування клієнтам, CRM для салону краси, зменшення неявок, вибір слоту онлайн, telegram запис"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Запис клієнтів у салон краси через Telegram - це спосіб приймати заявки цілодобово, без черги дзвінків і забутих записів у зошиті. Клієнт відкриває бот, обирає послугу, майстра й зручний час, а адміністратор бачить готовий запис у розкладі. Так салон не втрачає людей, які пишуть о 23:00 чи в вихідний, коли адміністратор недоступний. У цьому матеріалі розберемо, чому телефонний запис програє, як влаштований онлайн запис через Telegram-бота, як працюють автоматичні нагадування, як бот стикується з розкладом майстрів і CRM, а також скільки коштує запуск.",
+      "en": "Client booking for a beauty salon via Telegram is a way to accept requests around the clock, without a queue of calls and forgotten notes in a paper diary. The client opens the bot, picks a service, a stylist and a convenient time, and the administrator sees a ready-made booking in the schedule. This way the salon does not lose people who write at 11 PM or on a day off, when the administrator is unavailable. In this article we look at why phone booking loses out, how online booking via a Telegram bot works, how automatic reminders function, how the bot connects to the stylists schedule and CRM, and how much the launch costs."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому телефонний запис втрачає клієнтів і навіщо онлайн запис",
+      "en": "Why phone booking loses clients and why you need online booking"
+    },
+    {
+      "t": "p",
+      "uk": "Телефон здається простим, але саме він щодня «зʼїдає» клієнтів. Адміністратор фізично не може відповісти на всі дзвінки одночасно: поки він оформлює одну людину біля стійки, другий дзвінок іде в порожнечу. За нашими спостереженнями, у завантажений день салон пропускає від 15 до 30 відсотків вхідних дзвінків, а близько половини тих, хто не додзвонився, просто йдуть до конкурентів і не передзвонюють. Додайте сюди вечірній і нічний час, коли салон закритий, - а саме ввечері люди найчастіше планують візити на завтра.",
+      "en": "The phone seems simple, but it is exactly what eats away clients every day. An administrator physically cannot answer every call at once: while they serve one person at the desk, the second call goes nowhere. In our experience, on a busy day a salon misses between 15 and 30 percent of incoming calls, and about half of those who could not get through simply go to competitors and never call back. Add to that the evening and night hours, when the salon is closed - and it is precisely in the evening that people most often plan visits for tomorrow."
+    },
+    {
+      "t": "p",
+      "uk": "Онлайн запис прибирає цей барʼєр. Клієнту не треба нікуди дзвонити й чекати на лінії: він за 40-60 секунд обирає час у боті, який відповідає миттєво й ніколи не буває «зайнятий». Для салону це не лише збережені клієнти, а й розвантажений адміністратор, який замість механічного прийому дзвінків займається сервісом у залі. А ще кожна заявка одразу фіксується в системі, тож у зошиті не «губляться» імена й номери телефонів. Особливо це помітно у пікові дні на кшталт пʼятниці чи передсвяткового тижня, коли потік звернень зростає у кілька разів і жодна людина не встигає обробити його вручну.",
+      "en": "Online booking removes this barrier. The client does not need to call anyone and wait on the line: in 40 to 60 seconds they pick a time in the bot, which replies instantly and is never busy. For the salon this means not only saved clients but also a relieved administrator who, instead of mechanically taking calls, focuses on service in the room. And every request is immediately recorded in the system, so names and phone numbers no longer get lost in a paper diary. This is especially noticeable on peak days such as a Friday or a pre-holiday week, when the flow of requests grows several times over and no single person can handle it manually."
+    },
+    {
+      "t": "h2",
+      "uk": "Як працює запис через Telegram-бота: послуга, майстер, слот",
+      "en": "How booking via a Telegram bot works: service, stylist, slot"
+    },
+    {
+      "t": "p",
+      "uk": "Логіка запису через Telegram-бота будується як проста покрокова розмова. Спершу клієнт обирає категорію й послугу: наприклад, «манікюр», «стрижка» чи «фарбування». Бот одразу знає тривалість кожної процедури, тож розуміє, скільки часу зайняти в розкладі: гель-лак на 90 хвилин і корекція брів на 30 хвилин займуть різну кількість слотів. Далі клієнт обирає майстра або варіант «будь-який вільний», якщо йому не принципово, хто саме працюватиме.",
+      "en": "The logic of booking via a Telegram bot is built as a simple step-by-step conversation. First the client chooses a category and a service: for example, manicure, haircut or coloring. The bot already knows the duration of each procedure, so it understands how much time to block in the schedule: gel polish for 90 minutes and brow correction for 30 minutes will take a different number of slots. Then the client chooses a stylist or the any available option, if it does not matter to them who will do the work."
+    },
+    {
+      "t": "p",
+      "uk": "Після вибору майстра бот показує лише реально вільні слоти на найближчі дні - зайнятий час просто не зʼявляється в списку, тому подвійний запис на одну годину неможливий у принципі. Клієнт тапає на зручний час, підтверджує номер телефону, за потреби додає коментар (наприклад, «хочу той самий колір, що минулого разу»), і запис готовий. Уся взаємодія займає кілька дотиків до екрана й не потребує встановлювати окремий застосунок: Telegram уже є в телефоні майже кожного клієнта.",
+      "en": "After the stylist is chosen, the bot shows only genuinely free slots for the coming days - busy time simply does not appear in the list, so double booking for the same hour is impossible in principle. The client taps a convenient time, confirms a phone number, adds a comment if needed (for example, I want the same color as last time), and the booking is done. The whole interaction takes a few taps on the screen and requires no separate app to install: Telegram is already on almost every client phone."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматичні підтвердження і нагадування зменшують неявки",
+      "en": "Automatic confirmations and reminders reduce no-shows"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільша прихована втрата салону - це неявки. Людина записалася тиждень тому, забула й не прийшла, а слот майстра простояв порожнім. У середньому салони без нагадувань стикаються з неявками на рівні 20-25 відсотків, і кожне таке вікно - це недоотриманий дохід. Telegram-бот закриває цю проблему автоматично: одразу після запису клієнт отримує підтвердження з датою, часом, іменем майстра й адресою, тож жодних непорозумінь щодо «а на коли я записаний» не виникає.",
+      "en": "The biggest hidden loss for a salon is no-shows. A person booked a week ago, forgot and did not come, and the stylist slot stood empty. On average, salons without reminders face no-shows at a level of 20 to 25 percent, and every such gap is lost income. A Telegram bot closes this problem automatically: right after booking the client receives a confirmation with the date, time, stylist name and address, so there is no confusion about when am I booked."
+    },
+    {
+      "t": "p",
+      "uk": "Далі підключаються нагадування: наприклад, за 24 години й ще раз за 2 години до візиту. У повідомленні є кнопки «Підтверджую» і «Скасувати». Якщо клієнт скасовує заздалегідь, слот автоматично звільняється й стає доступним іншим, а адміністратор бачить це в реальному часі. Такий простий сценарій зазвичай знижує неявки до 5-8 відсотків, тобто салон повертає собі значну частину раніше втраченого завантаження майстрів без жодного додаткового дзвінка вручну.",
+      "en": "Then reminders kick in: for example, 24 hours before and again 2 hours before the visit. The message has Confirm and Cancel buttons. If the client cancels in advance, the slot is automatically freed and becomes available to others, and the administrator sees this in real time. Such a simple scenario usually reduces no-shows to 5 to 8 percent, meaning the salon recovers a significant part of the previously lost stylist workload without a single extra manual call."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграція з розкладом майстрів і CRM салону краси",
+      "en": "Integration with the stylists schedule and the salon CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Бот для запису корисний рівно настільки, наскільки він синхронізований з реальним життям салону. Тому запис через Telegram підключається до розкладу майстрів: у кожного своя зміна, свої вихідні, відпустки й перерви на обід, і бот пропонує клієнту лише той час, коли конкретний майстер справді працює. Якщо адміністратор вносить запис вручну по телефону, бот миттєво прибирає цей слот з доступних, тому конфлікт «двоє на одну годину» не виникає незалежно від того, звідки прийшла заявка.",
+      "en": "A booking bot is useful exactly to the extent that it is synchronized with the real life of the salon. That is why Telegram booking connects to the stylists schedule: each has their own shift, days off, vacations and lunch breaks, and the bot offers the client only the time when a particular stylist actually works. If the administrator enters a booking manually by phone, the bot instantly removes that slot from the available ones, so the conflict of two people for one hour does not arise regardless of where the request came from."
+    },
+    {
+      "t": "p",
+      "uk": "Наступний рівень - інтеграція з CRM салону краси. Кожен запис зберігає історію клієнта: які послуги брав, у якого майстра, як часто приходить, який середній чек. Це дає змогу автоматизувати повернення: бот може за 3-4 тижні нагадати про повторний манікюр чи корекцію, привітати з днем народження зі знижкою або запропонувати вільне «вікно», що раптово звільнилося. CRM також показує власнику зрозумілу аналітику - завантаження майстрів по днях, найпопулярніші послуги й відсоток скасувань, - щоб рішення ухвалювалися на цифрах, а не на відчуттях.",
+      "en": "The next level is integration with the salon CRM. Each booking stores the client history: which services they took, with which stylist, how often they come, what the average bill is. This makes it possible to automate returns: the bot can remind about a repeat manicure or correction in 3 to 4 weeks, send birthday greetings with a discount, or offer a free window that suddenly opened up. The CRM also gives the owner clear analytics - stylist workload by day, the most popular services and the cancellation rate - so that decisions are made on numbers, not on gut feeling."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки коштує і як запустити бот для запису",
+      "en": "How much it costs and how to launch a booking bot"
+    },
+    {
+      "t": "p",
+      "uk": "Вартість залежить від набору функцій. Базовий бот для запису з вибором послуги, майстра, слотів і нагадуваннями зазвичай запускається за 1-2 тижні. Складніші рішення з повноцінною CRM, аналітикою, програмою лояльності та інтеграцією з онлайн-оплатою потребують більше часу й бюджету, зате окупаються швидше за рахунок зменшення неявок і повернення клієнтів. На практиці навіть скромний салон на 3-4 майстрів часто відбиває вартість бота за перший-другий місяць лише завдяки слотам, які раніше просто «згорали».",
+      "en": "The cost depends on the set of features. A basic booking bot with a choice of service, stylist, slots and reminders usually launches in 1 to 2 weeks. More complex solutions with a full CRM, analytics, a loyalty program and online payment integration require more time and budget, but pay off faster by reducing no-shows and bringing clients back. In practice, even a modest salon with 3 to 4 stylists often recoups the cost of the bot within the first or second month just thanks to slots that previously simply burned away."
+    },
+    {
+      "t": "p",
+      "uk": "Запуск виглядає просто: ми обговорюємо ваші послуги, тривалість процедур і графік майстрів, налаштовуємо сценарій запису, підключаємо нагадування й за потреби CRM, а потім тестуємо все на реальних записах. Далі ви просто ділитеся посиланням на бот у Instagram, на сайті й у візитках - і клієнти починають записуватися самі. Якщо ви в Devlly хочете такий інструмент для свого салону, напишіть нам: підкажемо оптимальний набір функцій під ваш обсяг записів і допоможемо запустити бот без зайвого клопоту.",
+      "en": "The launch looks simple: we discuss your services, procedure durations and stylist schedules, set up the booking scenario, connect reminders and, if needed, a CRM, and then test everything on real bookings. After that you simply share the link to the bot on Instagram, on the website and on business cards - and clients start booking on their own. If you want such a tool for your salon, write to Devlly: we will suggest the optimal set of features for your booking volume and help you launch the bot without extra hassle."
+    }
+  ]
+}

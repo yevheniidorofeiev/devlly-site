@@ -1,0 +1,97 @@
+{
+  "title_uk": "HR бот для Telegram: як налаштувати з нуля",
+  "title_en": "HR Bot for Telegram: How to Set It Up From Scratch",
+  "desc_uk": "Покроковий гайд зі створення HR бота в Telegram: як налаштувати збір анкет, фільтрацію кандидатів, нагадування і передачу даних у Google Sheets чи CRM.",
+  "desc_en": "A step-by-step guide to building an HR bot in Telegram: how to set up application collection, candidate filtering, reminders and data transfer to Google Sheets or CRM.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "HR бот для Telegram: налаштування і запуск з нуля | Devlly",
+    "te": "HR Bot for Telegram: Setup and Launch From Scratch | Devlly",
+    "d": "Покроковий гайд як налаштувати HR бота в Telegram: збір анкет, фільтрація кандидатів, нагадування і передача даних в Google Sheets.",
+    "de": "A step-by-step guide on how to set up an HR bot in Telegram: collecting applications, filtering candidates, reminders and transferring data to Google Sheets.",
+    "k": "hr бот, hr бот для telegram, налаштувати hr бота, автоматизація найму, збір анкет, фільтрація кандидатів, бот для рекрутингу, google sheets, hr автоматизація, telegram бот для hr, анкета кандидата"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "HR бот для Telegram - це помічник, який бере на себе рутину найму: збирає анкети, ставить питання кандидатам, відсіює тих, хто не підходить, і складає дані в одну таблицю. Замість того щоб вручну читати десятки повідомлень у різних чатах, рекрутер отримує готовий список із коротким описом кожного кандидата. У цьому гайді ми покроково розберемо, як налаштувати HR бот для Telegram з нуля: від структури питань до передачі даних у Google Sheets. Навіть без досвіду в програмуванні ви зрозумієте логіку, за якою працює така автоматизація найму.",
+      "en": "An HR bot for Telegram is an assistant that takes over the routine of hiring: it collects applications, asks candidates questions, filters out those who do not fit, and puts the data into a single table. Instead of manually reading dozens of messages across different chats, the recruiter gets a ready-made list with a short description of each candidate. In this guide we will walk step by step through how to set up an HR bot for Telegram from scratch: from the structure of questions to transferring data into Google Sheets. Even without programming experience you will understand the logic behind this kind of hiring automation."
+    },
+    {
+      "t": "h2",
+      "uk": "Що має робити HR бот і з чого почати",
+      "en": "What an HR bot should do and where to start"
+    },
+    {
+      "t": "p",
+      "uk": "Перш ніж налаштувати HR бота, визначте, які завдання він закриває. Найчастіше це три речі: збір анкет від кандидатів, первинна фільтрація кандидатів за формальними критеріями і нагадування рекрутеру про наступні кроки. Чіткий перелік функцій одразу показує, чи потрібен вам простий бот-анкета, чи повноцінний інструмент для рекрутингу з інтеграціями. Також вирішіть, чи бот повністю замінює першу співбесіду, чи лише готує ґрунт для розмови з людиною. Якщо компанія отримує 50-200 відгуків на вакансію щомісяця, бот економить приблизно 8-12 годин ручної роботи, які раніше йшли на читання й сортування повідомлень.",
+      "en": "Before you set up an HR bot, define which tasks it will cover. Most often these are three things: collecting applications from candidates, initial filtering of candidates by formal criteria, and reminders to the recruiter about the next steps. A clear list of functions immediately shows whether you need a simple form bot or a full recruiting tool with integrations. Also decide whether the bot fully replaces the first interview or only prepares the ground for a conversation with a person. If a company receives 50-200 responses per vacancy each month, the bot saves roughly 8-12 hours of manual work that previously went into reading and sorting messages."
+    },
+    {
+      "t": "p",
+      "uk": "Почніть з простого списку вакансій і сценарію розмови. Намалюйте на папері, які питання бот ставить, у якому порядку і що робить з відповідями. На цьому етапі не потрібен код: достатньо конструктора, наприклад через BotFather ви отримуєте токен, а логіку збираєте у візуальному редакторі або передаєте розробнику. Корисно одразу описати, що бот відповідає на типові питання кандидатів про графік, формат роботи і етапи відбору. Що детальніше сценарій на старті, то менше несподіванок під час розробки. Чітке ТЗ на одну сторінку економить кілька днів переробок пізніше.",
+      "en": "Start with a simple list of vacancies and a conversation script. Sketch on paper which questions the bot asks, in what order, and what it does with the answers. At this stage you do not need code: a builder is enough, for example through BotFather you get a token, and you assemble the logic in a visual editor or hand it to a developer. It is useful to describe right away that the bot answers common candidate questions about the schedule, the work format, and the selection stages. The more detailed the script at the start, the fewer surprises during development. A clear one-page specification saves several days of rework later."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 1: збір анкет і структура питань",
+      "en": "Step 1: collecting applications and the structure of questions"
+    },
+    {
+      "t": "p",
+      "uk": "Збір анкет - це основа роботи бота. Оптимальна анкета містить 6-9 питань: імʼя, вакансія, місто, досвід у роках, очікувана зарплата, контакт і одне-два профільних питання. Групуйте питання від простих до складних, щоб кандидат встиг залучитися. Більше 10 питань різко знижують конверсію: за нашими спостереженнями кожні три зайвих поля втрачають до 15-20% кандидатів, які кидають анкету на півдорозі. Тому лишайте тільки те, що реально впливає на рішення, а другорядні деталі уточнюйте вже на співбесіді.",
+      "en": "Collecting applications is the foundation of how the bot works. An optimal form contains 6-9 questions: name, vacancy, city, years of experience, expected salary, contact, and one or two role-specific questions. Group the questions from simple to complex so the candidate has time to get engaged. More than 10 questions sharply lower conversion: by our observations, every three extra fields lose up to 15-20% of candidates who abandon the form halfway. So keep only what truly affects the decision, and clarify secondary details during the interview."
+    },
+    {
+      "t": "p",
+      "uk": "Робіть питання по одному за раз і використовуйте кнопки замість вільного тексту там, де це можливо. Наприклад, для досвіду дайте варіанти «до 1 року», «1-3 роки», «понад 3 роки». Це не тільки прискорює заповнення, а й дає боту структуровані дані, які легко фільтрувати далі. Для контактів і резюме передбачте перевірку формату, щоб бот не приймав порожній або явно хибний рядок. Продумайте також вітальне повідомлення, яке коротко пояснює, скільки часу займе заповнення і що буде далі. Обовʼязково додайте крок підтвердження, щоб кандидат міг перевірити відповіді перед відправкою.",
+      "en": "Ask questions one at a time and use buttons instead of free text wherever possible. For example, for experience offer the options «up to 1 year», «1-3 years», «more than 3 years». This not only speeds up filling in the form but also gives the bot structured data that is easy to filter later. For contacts and resumes, include a format check so the bot does not accept an empty or clearly invalid line. Also think through a welcome message that briefly explains how long filling in the form will take and what happens next. Be sure to add a confirmation step so the candidate can check the answers before sending."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 2: автоматична фільтрація кандидатів",
+      "en": "Step 2: automatic filtering of candidates"
+    },
+    {
+      "t": "p",
+      "uk": "Фільтрація кандидатів перетворює сирі анкети в короткий список. Задайте боту правила: якщо очікувана зарплата вища за бюджет, досвід менший за потрібний або немає ключової навички, кандидат позначається як «не підходить» автоматично. Так рекрутер бачить лише релевантних людей і не витрачає час на явно невідповідні заявки. Правила легко змінювати під кожну вакансію, тому один бот обслуговує і масовий найм, і точковий підбір. На практиці навіть 3-4 простих правила прибирають більшу частину випадкових відгуків.",
+      "en": "Filtering candidates turns raw applications into a shortlist. Give the bot rules: if the expected salary is above the budget, the experience is below what is required, or a key skill is missing, the candidate is marked as «not suitable» automatically. This way the recruiter sees only relevant people and does not waste time on clearly unsuitable applications. The rules are easy to change for each vacancy, so a single bot serves both mass hiring and precise selection. In practice, even 3-4 simple rules remove the larger part of random responses."
+    },
+    {
+      "t": "p",
+      "uk": "Раджу робити мʼяку фільтрацію, а не жорстке відсіювання. Замість того щоб видаляти кандидата, бот присвоює йому статус або бали: наприклад, повна відповідність - 100%, часткова - 60%. Так ви не втратите людину, яка не ідеальна на папері, але цінна за іншими критеріями. Рекрутер завжди може відкрити список «часткова відповідність» і переглянути його вручну. Бали також допомагають ранжувати сильних кандидатів між собою, коли їх більше, ніж вакансій. У середньому автоматична фільтрація прибирає 40-60% нерелевантних анкет ще до того, як їх побачить людина.",
+      "en": "I recommend soft filtering rather than hard rejection. Instead of deleting a candidate, the bot assigns them a status or points: for example, full match - 100%, partial - 60%. This way you will not lose a person who is not perfect on paper but valuable by other criteria. The recruiter can always open the «partial match» list and review it manually. Points also help rank strong candidates against each other when there are more of them than vacancies. On average, automatic filtering removes 40-60% of irrelevant applications before a human even sees them."
+    },
+    {
+      "t": "h2",
+      "uk": "Крок 3: нагадування і передача даних у Google Sheets або CRM",
+      "en": "Step 3: reminders and transferring data to Google Sheets or CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Коли анкета пройшла фільтр, дані мають опинитися там, де з ними працює команда. Найпростіший варіант - Google Sheets: кожен кандидат стає рядком з усіма полями, статусом і посиланням на чат у Telegram. Налаштовується це через готову інтеграцію або невеликий скрипт, і новий рядок зʼявляється в таблиці за кілька секунд після відправки анкети. Таблицю зручно ділити з колегами, фільтрувати за статусом і будувати просту статистику по вакансіях. Головне - один раз узгодити структуру колонок, щоб дані не перемішувалися між вакансіями.",
+      "en": "Once an application has passed the filter, the data should end up where the team works with it. The simplest option is Google Sheets: each candidate becomes a row with all the fields, a status, and a link to the chat in Telegram. This is set up through a ready-made integration or a small script, and a new row appears in the table within a few seconds after the form is sent. The table is convenient to share with colleagues, filter by status, and build simple statistics by vacancy. The main thing is to agree on the column structure once so the data does not get mixed up between vacancies."
+    },
+    {
+      "t": "p",
+      "uk": "Додайте нагадування, щоб жоден кандидат не загубився. Бот може написати рекрутеру, якщо заявка висить без відповіді понад 24 години, або нагадати кандидату про заплановане інтервʼю за годину до зустрічі. Для більших команд замість таблиці підключають CRM, де видно всю воронку найму. Такі нагадування зазвичай скорочують час першої відповіді кандидату з кількох днів до кількох годин. Це прибирає ситуації, коли хороший кандидат чекає відповіді тиждень і йде до конкурента.",
+      "en": "Add reminders so that no candidate gets lost. The bot can message the recruiter if an application has been sitting without a reply for more than 24 hours, or remind the candidate about a scheduled interview an hour before the meeting. For larger teams, instead of a table they connect a CRM where the whole hiring funnel is visible. Such reminders usually cut the time to the first reply to a candidate from several days to several hours. This removes situations where a good candidate waits a week for an answer and goes to a competitor."
+    },
+    {
+      "t": "h2",
+      "uk": "Запуск, тестування і типові помилки",
+      "en": "Launch, testing and common mistakes"
+    },
+    {
+      "t": "p",
+      "uk": "Перед запуском обовʼязково пройдіть весь сценарій самі, як кандидат. Перевірте кожну гілку: що буде, якщо людина напише текст замість натискання кнопки, відправить порожнє поле або почне заповнювати анкету вдруге. Окремо перевірте роботу на телефоні, адже більшість кандидатів заповнюють анкету саме зі смартфона. Протестуйте на 5-10 знайомих і зберіть їхні зауваження - зазвичай саме на цьому етапі спливають незрозумілі формулювання і зайві питання.",
+      "en": "Before launch, be sure to go through the whole script yourself as a candidate. Check every branch: what happens if a person types text instead of pressing a button, sends an empty field, or starts filling in the form a second time. Separately check how it works on a phone, since most candidates fill in the form exactly from a smartphone. Test it with 5-10 acquaintances and gather their remarks - it is usually at this stage that unclear wording and unnecessary questions surface."
+    },
+    {
+      "t": "p",
+      "uk": "Типові помилки: занадто довга анкета, відсутність кнопки «назад», втрата даних через відсутність збереження і мовчання бота після відправки. Обовʼязково додайте фінальне повідомлення на кшталт «Дякуємо, ми звʼяжемося з вами протягом 2 днів». Після запуску раз на два тижні переглядайте, на якому питанні кандидати найчастіше зупиняються, і спрощуйте саме цей крок. Якщо не хочете збирати все це самостійно, команда Devlly допоможе спроєктувати і запустити HR бот під ваші процеси. Напишіть нам, і ми підкажемо оптимальний сценарій під ваш обʼєм найму.",
+      "en": "Common mistakes: a form that is too long, a missing «back» button, data loss due to the absence of saving, and the bot going silent after submission. Be sure to add a final message like «Thank you, we will contact you within 2 days». After launch, once every two weeks review which question candidates most often stop at, and simplify exactly that step. If you do not want to build all of this yourself, the Devlly team will help design and launch an HR bot tailored to your processes. Write to us, and we will suggest the optimal script for your hiring volume."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+ "title_uk": "CRM для інтернет-магазину: як керувати клієнтами і замовленнями",
+ "title_en": "CRM for an Online Store: Managing Customers and Orders",
+ "desc_uk": "Яка CRM потрібна інтернет-магазину: облік замовлень, клієнтська база, аналітика продажів і автоматичні сповіщення.",
+ "desc_en": "What CRM an online store actually needs: order tracking, a unified customer base, sales analytics and automatic notifications.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "CRM для інтернет-магазину: замовлення, клієнти і аналітика",
+  "te": "CRM for Online Store: Orders, Clients and Analytics",
+  "d": "Розробляємо CRM для інтернет-магазину під ключ: прийом і статуси замовлень, база клієнтів, автосповіщення і звіти. Платиш один раз - система твоя.",
+  "de": "We build custom CRM for online stores: order management, client database, automatic notifications and sales analytics. One-time payment, yours forever.",
+  "k": "CRM для інтернет-магазину, облік замовлень, клієнтська база, аналітика продажів, автоматичні сповіщення, автоматизація продажів, повторні продажі"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Поки магазин обробляє 5-10 замовлень на день, вистачає таблиці і памʼяті менеджера. На 50 замовленнях починаються втрачені заявки, подвійні дзвінки одному клієнту і повна відсутність розуміння, звідки беруться гроші. CRM для інтернет-магазину - це не «ще одна програма», а місце, де живуть замовлення, історія покупок і вся комунікація з клієнтом.",
+   "en": "While a store handles 5-10 orders a day, a spreadsheet and the manager's memory are enough. At 50 orders you start losing leads, calling the same customer twice and losing any sense of where the revenue comes from. A CRM for an online store is not «one more app», it is the place where orders, purchase history and all customer communication live."
+  },
+  {
+   "t": "h2",
+   "uk": "Облік замовлень: статуси, відповідальні і строки",
+   "en": "Order tracking: statuses, owners and deadlines"
+  },
+  {
+   "t": "p",
+   "uk": "Основа будь-якої CRM для інтернет-магазину - це воронка статусів замовлення. Мінімальний робочий набір виглядає так: новий, підтверджений, в комплектації, відправлений, доставлений, оплачений, повернення, скасовано. Кожен статус повинен мати відповідального і граничний час перебування. Якщо замовлення висить у статусі «новий» більше двох годин, система має підсвітити його або передати іншому менеджеру.",
+   "en": "The backbone of any online store CRM is the order status pipeline. A minimal working set looks like this: new, confirmed, picking, shipped, delivered, paid, returned, cancelled. Every status needs an owner and a time limit. If an order sits in «new» for more than two hours, the system should flag it or hand it to another manager."
+  },
+  {
+   "t": "p",
+   "uk": "Другий обовʼязковий елемент - історія змін. Ви маєте бачити, хто і коли перевів замовлення в скасування, який коментар залишив і чи дзвонив клієнту. Без цього розбір конфліктних ситуацій перетворюється на суперечку. Логи змін також показують реальні вузькі місця: часто виявляється, що між оплатою і відправленням проходить не 4 години, як усі думали, а півтора дня.",
+   "en": "The second must-have is a change history. You need to see who moved an order to cancelled and when, what comment they left and whether the customer was called. Without it, resolving disputes turns into arguing. Change logs also reveal the real bottlenecks: it often turns out that the gap between payment and shipping is not the 4 hours everyone assumed but a day and a half."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо варто продумати роботу з частковими замовленнями і резервом товару. Якщо один із трьох товарів не в наявності, менеджеру потрібен зручний спосіб розділити замовлення, а не переписувати його вручну. Такі дрібниці економлять кілька хвилин на кожному замовленні, а на обсязі 1000 замовлень на місяць це десятки робочих годин.",
+   "en": "Partial orders and stock reservation deserve separate thought. If one of three items is out of stock, the manager needs a convenient way to split the order rather than rewrite it by hand. Details like this save a few minutes per order, and at 1000 orders a month that adds up to dozens of working hours."
+  },
+  {
+   "t": "h2",
+   "uk": "Клієнтська база: одна картка замість пʼяти джерел",
+   "en": "Customer base: one card instead of five sources"
+  },
+  {
+   "t": "p",
+   "uk": "Типова проблема магазину: клієнт написав у Instagram, потім подзвонив, потім оформив замовлення на сайті. У результаті в системі три різні записи, і жоден менеджер не бачить повної картини. Клієнтська база має обʼєднувати ці контакти за телефоном або email в одну картку з усіма замовленнями, зверненнями і коментарями.",
+   "en": "A typical store problem: a customer writes on Instagram, then calls, then places an order on the site. As a result there are three separate records in the system and no manager sees the full picture. The customer base has to merge these contacts by phone or email into a single card with all orders, requests and comments."
+  },
+  {
+   "t": "p",
+   "uk": "У картці клієнта корисно тримати не тільки контакти, а й розрахункові поля: сума всіх покупок, кількість замовлень, дата останньої покупки, середній чек, відсоток повернень. Менеджер бачить це до того, як почне розмову, і поводиться відповідно. Клієнту з десятьма замовленнями і нульовими поверненнями можна відправити товар без передоплати, новому з міста, звідки часто не забирають посилки, краще запропонувати оплату наперед.",
+   "en": "It helps to keep more than contacts in the customer card: total spend, number of orders, last purchase date, average order value, return rate. The manager sees this before starting the conversation and acts accordingly. A customer with ten orders and zero returns can get a shipment without prepayment; a new one from a region with frequent unclaimed parcels is better offered payment upfront."
+  },
+  {
+   "t": "p",
+   "uk": "На базі цих полів будується сегментація, з якої і починаються повторні продажі. Робочі сегменти прості: купували один раз більше 90 днів тому, купували три і більше разів, брали конкретну категорію, залишили замовлення неоплаченим. Для кожного сегмента потрібен свій сценарій: комусь нагадування про витратний матеріал, який уже мав закінчитися, комусь ранній доступ до нової колекції. Повернути покупця, який уже купував, зазвичай коштує в кілька разів дешевше, ніж привести нового з реклами, і сегментована база - єдиний спосіб це робити системно.",
+   "en": "Segmentation is built on top of these fields, and that is where repeat sales begin. The working segments are simple: bought once more than 90 days ago, bought three or more times, purchased a specific category, left an order unpaid. Each segment needs its own scenario: a reminder about a consumable that should have run out by now, or early access to a new collection. Bringing back an existing buyer usually costs several times less than acquiring a new one through ads, and a segmented base is the only way to do it systematically."
+  },
+  {
+   "t": "h2",
+   "uk": "Аналітика продажів: середній чек, повторні покупки, топ товарів",
+   "en": "Sales analytics: average check, repeat purchases, top products"
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальний набір звітів, який реально впливає на рішення: середній чек по місяцях, частка повторних покупців, топ-20 товарів за виручкою і за маржею, відсоток викупу посилок, конверсія з нового замовлення в оплачене. Останні дві цифри для українського ринку критичні: різниця між 70 і 90 відсотками викупу змінює прибутковість магазину сильніше, ніж будь-яка рекламна кампанія.",
+   "en": "The minimum set of reports that actually drives decisions: average check by month, share of repeat customers, top 20 products by revenue and by margin, parcel redemption rate, conversion from new order to paid. The last two numbers are critical for the Ukrainian market: the difference between 70 and 90 percent redemption changes profitability more than any ad campaign."
+  },
+  {
+   "t": "p",
+   "uk": "Важливо рахувати виручку в розрізі каналів і менеджерів. Часто виявляється, що канал із найбільшою кількістю замовлень дає найнижчий середній чек і найбільше повернень, а нібито «слабкий» канал приносить основну маржу. Без такої аналітики продажів бюджет розподіляється навмання.",
+   "en": "It matters to break revenue down by channel and by manager. It often turns out that the channel with the most orders has the lowest average check and the most returns, while a supposedly «weak» channel brings in most of the margin. Without this kind of sales analytics the budget is allocated blindly."
+  },
+  {
+   "t": "p",
+   "uk": "Звіти мають бути доступні власнику без запиту до розробника. Достатньо кількох дашбордів, які оновлюються самі, і вивантаження в таблицю для глибшого розбору. Якщо для отримання цифри потрібно писати комусь у чат, нею не будуть користуватися.",
+   "en": "Reports must be available to the owner without asking a developer. A handful of self-updating dashboards plus an export to a spreadsheet for deeper analysis is enough. If getting a number requires messaging someone in chat, nobody will use it."
+  },
+  {
+   "t": "h2",
+   "uk": "Автоматичні сповіщення для клієнтів і команди",
+   "en": "Automatic notifications for customers and the team"
+  },
+  {
+   "t": "p",
+   "uk": "Автоматичні сповіщення знімають з менеджерів найнуднішу частину роботи. Клієнт отримує підтвердження замовлення, номер накладної, нагадування про оплату і повідомлення про прибуття посилки у відділення. Найкраще це працює в Telegram і Viber: доставка дешевша за SMS, а прочитання вище. Одне нагадування за день до закінчення терміну зберігання посилки помітно піднімає відсоток викупу.",
+   "en": "Automatic notifications take the dullest part of the job off the managers. The customer gets order confirmation, a tracking number, a payment reminder and a message when the parcel arrives at the pickup point. This works best in Telegram and Viber: delivery is cheaper than SMS and open rates are higher. A single reminder the day before storage expires noticeably raises the redemption rate."
+  },
+  {
+   "t": "p",
+   "uk": "Внутрішні сповіщення не менш важливі. Робочий чат команди отримує сигнал про замовлення на велику суму, про заявку, яку ніхто не взяв за 30 хвилин, про товар, залишок якого впав нижче порогу. Такі повідомлення мають бути точковими: якщо їх занадто багато, команда перестає реагувати вже через тиждень.",
+   "en": "Internal notifications matter just as much. The team chat gets a signal about a high-value order, about a request nobody picked up within 30 minutes, about a product whose stock dropped below threshold. These messages must be targeted: if there are too many, the team stops reacting within a week."
+  },
+  {
+   "t": "p",
+   "uk": "Технічно всі сповіщення варто будувати на шаблонах з підстановкою даних замовлення, а не писати текст руками в коді. Тоді контент-менеджер змінює формулювання без розробника. Обовʼязково передбачте резервний канал: якщо клієнт не має Telegram, повідомлення йде в SMS або на email. Ще одна деталь, про яку часто забувають, - тихі години. Повідомлення, відправлене о другій ночі, дратує сильніше, ніж допомагає, тому чергу сповіщень краще відкладати до ранку.",
+   "en": "Technically, every notification should be built on templates with order data substituted in, not written by hand in the code. Then a content manager can change the wording without a developer. Always provide a fallback channel: if the customer has no Telegram, the message goes out by SMS or email. One more detail people often forget is quiet hours. A message sent at two in the morning annoys more than it helps, so the notification queue is better held until morning."
+  },
+  {
+   "t": "h2",
+   "uk": "Вибір і налаштування: готове рішення чи власна система",
+   "en": "Choosing and setting up: off-the-shelf or a custom system"
+  },
+  {
+   "t": "p",
+   "uk": "Готові CRM закривають стандартний сценарій швидко і коштують передбачувано. Вони підходять, якщо ваші процеси схожі на процеси більшості магазинів: один склад, звичайна доставка, проста схема оплат. Проблеми починаються там, де є специфіка: виробництво під замовлення, дропшипінг з кількома постачальниками, товар з розмірною сіткою або серійними номерами, робота в двох країнах з різними правилами.",
+   "en": "Off-the-shelf CRMs cover the standard scenario quickly and cost predictably. They fit if your processes resemble those of most stores: one warehouse, ordinary shipping, a simple payment scheme. Problems start where there is specificity: made-to-order production, dropshipping from several suppliers, goods with size grids or serial numbers, operating in two countries with different rules."
+  },
+  {
+   "t": "p",
+   "uk": "Перед вибором корисно виписати обовʼязкові інтеграції: сайт або маркетплейс, служби доставки, платіжний провайдер, бухгалтерія, месенджери, складський облік. Якщо для потрібної інтеграції в готовій CRM немає готового модуля, ви все одно платитимете за доробку, і часто дорожче, ніж коштувала б власна логіка з самого початку. Окремо перевірте, чи можна вивантажити свою базу клієнтів і замовлень у зрозумілому форматі: якщо дані заблоковані всередині сервісу, будь-який переїзд у майбутньому обійдеться в кілька місяців роботи.",
+   "en": "Before choosing, it helps to list the mandatory integrations: website or marketplace, delivery services, payment provider, accounting, messengers, inventory. If a needed integration has no ready module in the off-the-shelf CRM, you will pay for customization anyway, often more than your own logic would have cost from the start. Check separately whether you can export your customer and order data in a readable format: if the data is locked inside the service, any future migration will cost months of work."
+  },
+  {
+   "t": "p",
+   "uk": "Налаштування будь-якої системи варто починати з одного процесу, а не з усіх одразу. Спочатку перенесіть облік замовлень і клієнтську базу, дайте команді два-три тижні попрацювати, зберіть зауваження, і лише потім додавайте аналітику, сповіщення і сегментацію. У Devlly ми будуємо такі системи під конкретний магазин: збираємо реальні процеси, робимо робочу першу версію і поступово нарощуємо її навколо того, що вже приносить результат.",
+   "en": "Setting up any system is best started with one process, not all of them at once. First move order tracking and the customer base over, let the team work with it for two or three weeks, collect feedback, and only then add analytics, notifications and segmentation. At Devlly we build such systems for a specific store: we map the real processes, ship a working first version and grow it around what already delivers results."
+  }
+ ]
+}

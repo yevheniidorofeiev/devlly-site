@@ -1,0 +1,122 @@
+{
+ "title_uk": "Програма для салону краси: що обрати і як автоматизувати",
+ "title_en": "Software for a Beauty Salon: What to Choose and How to Automate",
+ "desc_uk": "Огляд програм для салону краси: облік клієнтів, запис, нагадування і аналітика. Як вибрати або розробити власну систему під свій салон.",
+ "desc_en": "A practical guide to beauty salon software: client records, online booking, reminders and analytics. How to choose a ready-made system or build your own.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Програма для салону краси: запис, облік і нагадування | Devlly",
+  "te": "Beauty Salon Software: Booking, Records and Reminders | Devlly",
+  "d": "Розробляємо програму для салону краси під ключ: онлайн запис, картка клієнта, нагадування і аналітика. Платиш один раз - система твоя назавжди.",
+  "de": "We build custom beauty salon software: online booking, client cards, reminders and analytics. You pay once - the system is yours forever.",
+  "k": "програма для салону краси, облік клієнтів салону, онлайн запис до майстра, нагадування клієнтам, автоматизація салону краси, CRM для салону, аналітика салону"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Салон краси на 3-5 крісел за місяць обробляє 400-900 записів, і майже кожен з них проходить через голову адміністратора або зошит на рецепції. Програма для салону краси потрібна не для краси звітів, а щоб перестати втрачати клієнтів на порожніх вікнах, забутих дзвінках і неявках. Нижче - що саме має вміти така система, які функції дають ефект одразу, і коли готове рішення вигідніше за власну розробку.",
+   "en": "A salon with 3 to 5 chairs handles 400 to 900 appointments a month, and almost every one of them passes through the receptionist's head or a paper notebook. Salon software is not about pretty reports - it is about no longer losing clients to empty slots, forgotten calls and no-shows. Below is what such a system actually needs to do, which features pay off immediately, and when an off-the-shelf product beats custom development."
+  },
+  {
+   "t": "h2",
+   "uk": "Що має вміти базова програма для салону краси",
+   "en": "What basic beauty salon software must do"
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальний робочий набір - це календар записів по майстрах, картка клієнта, каса і залишки матеріалів. Календар має показувати всіх майстрів в одному екрані з поділом на кабінети або крісла, з можливістю перетягнути запис на іншу годину без переписування. Якщо адміністратор витрачає більше 40 секунд на створення одного запису, система вже заважає працювати.",
+   "en": "The minimum working set is a per-stylist appointment calendar, a client card, a cash register and stock tracking. The calendar should show every stylist on one screen, split by room or chair, and let you drag an appointment to another time without retyping it. If a receptionist needs more than 40 seconds to create one booking, the system is already getting in the way."
+  },
+  {
+   "t": "p",
+   "uk": "Друга обовʼязкова частина - облік послуг і цін з привʼязкою до майстра. Одна й та сама послуга у топ-майстра і у стажера коштує по-різному, і система має рахувати це автоматично, разом з відсотком майстра. Ручний перерахунок зарплат наприкінці місяця в таблицях зазвичай зʼїдає 4-6 годин і дає найбільше суперечок у команді.",
+   "en": "The second must-have is a service and price list tied to each stylist. The same service costs differently with a senior stylist and a junior one, and the system should calculate that automatically, along with the stylist's commission. Recalculating payroll by hand in spreadsheets at month end usually eats 4 to 6 hours and causes the most arguments in the team."
+  },
+  {
+   "t": "p",
+   "uk": "Третє - склад. Барвник, оксид, одноразові матеріали списуються за нормою на послугу, і саме тут ховається 5-12% витрат, які ніхто не бачить. Навіть приблизне списання за шаблоном показує, у якого майстра витрата стабільно вища за середню. Корисно також налаштувати мінімальні залишки: коли позиція опускається нижче порогу, система сама ставить її у список закупівлі, і салон не зупиняє послугу через відсутність одного тюбика.",
+   "en": "Third is inventory. Dye, developer and disposables are written off per service, and this is where 5 to 12 percent of costs hide unnoticed. Even approximate template-based write-offs reveal which stylist consistently uses more than average. It also helps to set minimum stock levels: when an item drops below the threshold, the system adds it to the purchase list itself, so the salon never has to cancel a service because one tube ran out."
+  },
+  {
+   "t": "h2",
+   "uk": "Облік клієнтів: історія візитів замість зошита",
+   "en": "Client records: visit history instead of a notebook"
+  },
+  {
+   "t": "p",
+   "uk": "Облік клієнтів - це не список телефонів, а історія: які послуги, у якого майстра, за якою формулою фарби, з якими алергіями і побажаннями. Коли клієнт повертається через пʼять місяців, майстер відкриває картку і бачить точний рецепт замість того, щоб згадувати або перепитувати.",
+   "en": "Client records are not a phone list but a history: which services, with which stylist, using which color formula, with which allergies and preferences. When a client returns after five months, the stylist opens the card and sees the exact recipe instead of guessing or asking again."
+  },
+  {
+   "t": "p",
+   "uk": "З історії візитів автоматично виростають сегменти: клієнти, які не приходили більше 90 днів; ті, хто ходить тільки на стрижку і жодного разу не пробував догляд; ті, хто витрачає понад середній чек. Ці три списки дають найбільшу віддачу від розсилок, бо звертаються до людей із конкретним приводом, а не «всім підряд».",
+   "en": "Visit history naturally produces segments: clients who have not come in for more than 90 days, those who only book haircuts and have never tried treatments, and those who spend above the average ticket. These three lists deliver the best campaign results because they address people with a concrete reason rather than blasting everyone."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо варто фіксувати джерело клієнта: реклама, рекомендація, карта, соцмережі. Без цього поля бюджет на просування розподіляється навпомацки, і салон продовжує платити за канал, який приводить разових відвідувачів. Достатньо одного обовʼязкового питання при першому записі, щоб через три місяці побачити реальну картину: скільки коштує залучення клієнта з кожного джерела і скільки з них справді повертаються на другий візит.",
+   "en": "It is worth logging the client source separately: ads, referral, maps, social media. Without that field the marketing budget is allocated blindly, and the salon keeps paying for a channel that brings only one-time visitors. One mandatory question at first booking is enough to see the real picture three months later: what a client costs from each source and how many of them actually come back for a second visit."
+  },
+  {
+   "t": "h2",
+   "uk": "Онлайн запис і бот: як розвантажити адміністратора",
+   "en": "Online booking and bots: taking load off the receptionist"
+  },
+  {
+   "t": "p",
+   "uk": "Онлайн запис закриває найдорожчу проблему - дзвінки поза робочим часом. Від 25 до 40% звернень приходять увечері або у вихідний, і частина з них просто не передзвонює наступного дня. Форма на сайті або бот у Telegram приймає ці записи цілодобово і одразу займає слот у календарі.",
+   "en": "Online booking solves the most expensive problem: enquiries outside working hours. Between 25 and 40 percent of requests arrive in the evening or on a day off, and some of those people never call back the next day. A form on the site or a Telegram bot accepts these bookings around the clock and immediately locks the slot in the calendar."
+  },
+  {
+   "t": "p",
+   "uk": "Важливо, щоб онлайн запис бачив реальну доступність: графік майстра, тривалість конкретної послуги, перерви і час на прибирання. Інакше система набирає записів, які фізично не вміщаються в день, і адміністратор все одно передзвонює всім, щоб переносити. Правильно налаштований запис знімає 30-50 дзвінків на тиждень.",
+   "en": "It is critical that online booking sees real availability: the stylist's schedule, the duration of the specific service, breaks and cleanup time. Otherwise the system collects bookings that physically do not fit into the day, and the receptionist ends up calling everyone to reschedule anyway. Properly configured booking removes 30 to 50 calls a week."
+  },
+  {
+   "t": "p",
+   "uk": "Телеграм-бот додатково закриває дрібні питання: ціни, адреса, вільні вікна на завтра, перенесення запису на дві години. Це прості сценарії, але вони складають більшість вхідних повідомлень. Ще один сценарій, який часто недооцінюють, - лист очікування: якщо клієнт хотів на суботу, а місць немає, бот запамʼятовує запит і повідомляє, щойно хтось скасує візит. Так салон закриває вікна, які раніше просто згорали.",
+   "en": "A Telegram bot additionally handles small questions: prices, address, tomorrow's free slots, moving an appointment by two hours. These are simple scenarios, but they make up the bulk of incoming messages. Another underrated scenario is a waiting list: if a client wanted Saturday and nothing was free, the bot remembers the request and notifies them the moment someone cancels. That way the salon fills gaps that used to simply burn."
+  },
+  {
+   "t": "h2",
+   "uk": "Нагадування і повернення клієнтів",
+   "en": "Reminders and bringing clients back"
+  },
+  {
+   "t": "p",
+   "uk": "Нагадування за 24 години до візиту - найдешевший спосіб зменшити неявки. За практикою салонів, доля неявок падає з 12-15% до 4-6%, а для нових клієнтів різниця ще помітніша. Друге коротке нагадування вранці у день візиту додає ще трохи, але третє вже дратує.",
+   "en": "A reminder 24 hours before the visit is the cheapest way to cut no-shows. In salon practice the no-show rate drops from 12 to 15 percent down to 4 to 6 percent, and for new clients the difference is even bigger. A second short reminder on the morning of the visit adds a little more, but a third one just annoys people."
+  },
+  {
+   "t": "p",
+   "uk": "Другий тип повідомлень - повернення. Якщо клієнт стриже коротку зачіску кожні пʼять тижнів, система може написати йому на 35-й день з пропозицією зручного вікна. Такі листи працюють у рази краще за загальні акції, бо потрапляють у момент реальної потреби.",
+   "en": "The second type of message is win-back. If a client with a short haircut comes in every five weeks, the system can message them on day 35 with a convenient slot. Such messages work far better than generic promotions because they land at the moment of real need."
+  },
+  {
+   "t": "p",
+   "uk": "Канал варто обирати за аудиторією: Telegram і Viber дешевші за SMS, але SMS доходить до всіх. Розумна схема - спочатку месенджер, і якщо повідомлення не прочитано за кілька годин, автоматично дублювати його коротким SMS. Текст має бути коротким і містити три речі: дату з часом, імʼя майстра і кнопку або посилання для перенесення. Довгі листи з привітаннями і смайлами читають гірше, а можливість самостійно перенести візит одним дотиком зменшує кількість пізніх скасувань.",
+   "en": "The channel should match the audience: Telegram and Viber are cheaper than SMS, but SMS reaches everyone. A sensible setup sends the messenger message first and, if it stays unread for a few hours, automatically follows up with a short SMS. The text should be brief and contain three things: date and time, the stylist's name, and a button or link to reschedule. Long greetings with emoji get read less, and letting people move the visit themselves in one tap cuts late cancellations."
+  },
+  {
+   "t": "h2",
+   "uk": "Аналітика і автоматизація салону: готове рішення чи своя система",
+   "en": "Analytics and salon automation: ready-made or custom"
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальна аналітика салону - це пʼять цифр: завантаження крісел у відсотках, середній чек, доля повторних клієнтів, доля неявок і виручка по майстрах. Якщо завантаження тримається нижче 60%, проблема майже завжди у графіку і вікнах, а не в кількості реклами. Ці показники мають оновлюватися самі, без ручного зведення таблиць.",
+   "en": "Minimum salon analytics comes down to five numbers: chair utilization in percent, average ticket, share of returning clients, no-show rate and revenue per stylist. If utilization stays below 60 percent, the problem is almost always the schedule and gaps, not the ad budget. These metrics should update themselves, without manual spreadsheet work."
+  },
+  {
+   "t": "p",
+   "uk": "Готові програми закривають стандартний салон за 15-40 доларів на місяць і запускаються за тиждень. Вони підходять, якщо ваші процеси типові: запис, каса, зарплати, склад. Обмеження зʼявляються там, де у вас своя логіка - абонементи з переносом, кілька філій з різними цінами, партнерські програми, курси або продаж догляду з власною знижковою механікою.",
+   "en": "Off-the-shelf products cover a standard salon for 15 to 40 dollars a month and can be launched in a week. They fit if your processes are typical: booking, cash desk, payroll, stock. Limits appear where you have your own logic - transferable packages, several locations with different prices, partner programs, courses, or retail sales with a custom discount scheme."
+  },
+  {
+   "t": "p",
+   "uk": "Власна система має сенс від 2-3 філій або коли підписка і ручна робота разом коштують дорожче за розробку. Вона дає повний контроль над даними клієнтів, будь-яку інтеграцію з ботом, сайтом і касою, і звіти в тому вигляді, який потрібен саме вам. Тут немає універсальної відповіді: варто порахувати години, які персонал витрачає на обхід обмежень готового рішення. У Devlly ми якраз і робимо такі системи під конкретний бізнес - від CRM і онлайн запису до ботів та автоматичних нагадувань.",
+   "en": "A custom system makes sense from 2 to 3 locations, or when the subscription plus manual work together cost more than development. It gives full control over client data, any integration with a bot, website and cash register, and reports in exactly the shape you need. There is no universal answer here: it is worth counting the hours staff spend working around the limits of a ready-made tool. At Devlly we build exactly these systems for specific businesses - from CRM and online booking to bots and automated reminders."
+  }
+ ]
+}

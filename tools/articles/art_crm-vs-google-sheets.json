@@ -1,0 +1,97 @@
+{
+  "title_uk": "CRM vs Google Таблиці: що краще для ведення клієнтів",
+  "title_en": "CRM vs Google Sheets: what is better for managing clients",
+  "desc_uk": "Розбираємо, де спільна Google Таблиця з базою клієнтів ламається і що CRM дає для ведення клієнтів, чого таблиця не вміє.",
+  "desc_en": "We break down where a shared Google Sheet client base breaks and what a CRM gives for managing clients that a spreadsheet cannot.",
+  "cta_uk": "Потрібна автоматизація? Пишіть нам",
+  "cta_en": "Need automation? Get in touch",
+  "seo": {
+    "t": "CRM або Google Таблиці для ведення клієнтів | Devlly",
+    "te": "CRM or Google Sheets for managing clients | Devlly",
+    "d": "CRM чи Google Sheets - що обрати для ведення бази клієнтів. Порівнюємо можливості, зручність і ціну для малого бізнесу.",
+    "de": "CRM or Google Sheets - what to choose for running a client base. We compare features, convenience and price for small business.",
+    "k": "crm vs google таблиці, crm чи google sheets, ведення клієнтів у google таблицях, база клієнтів google sheets, crm для малого бізнесу, google таблиці для клієнтів, коли переходити на crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Майже кожен малий бізнес починає вести клієнтів у Google Таблиці: створюєш аркуш, кидаєш посилання команді, і за пʼять хвилин у вас спільна база. Це безкоштовно, знайомо і працює, поки менеджерів двоє, а угод десятки. Проблеми зʼявляються пізніше, коли база росте до тисяч рядків, а над нею одночасно працюють кілька людей. Хтось випадково видаляє рядок, формула ламається, а важливий клієнт залишається без дзвінка. У цьому матеріалі розберемо CRM vs Google Таблиці для ведення клієнтів: де таблиця справді зручна, де вона починає заважати і коли настає момент переходити на CRM.",
+      "en": "Almost every small business starts managing clients in Google Sheets: you create a tab, share the link with the team, and in five minutes you have a shared base. It is free, familiar and works while you have two managers and dozens of deals. Problems appear later, when the base grows to thousands of rows and several people work in it at once. Someone accidentally deletes a row, a formula breaks, and an important client is left without a call. In this article we compare CRM vs Google Sheets for managing clients: where the spreadsheet is genuinely handy, where it starts to get in the way, and when the moment comes to move to a CRM."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому бізнес починає вести клієнтів у Google Таблиці",
+      "en": "Why businesses start managing clients in Google Sheets"
+    },
+    {
+      "t": "p",
+      "uk": "Спільна Google Таблиця має чесні переваги, і їх варто визнати. Вона безкоштовна, доступна з будь-якого пристрою, а поділитися базою можна одним посиланням за секунди. Менеджер без жодного навчання розуміє, як додати рядок, поставити фільтр чи порахувати суму угод формулою. Для команди з двох-трьох людей і бази на 100-300 клієнтів цього справді достатньо: усі бачать однакові дані, зміни зберігаються автоматично, а історія версій дозволяє відкотити випадкову правку.",
+      "en": "A shared Google Sheet has honest advantages, and they are worth acknowledging. It is free, available from any device, and you can share the base with a single link in seconds. A manager understands how to add a row, set a filter or sum up deals with a formula without any training. For a team of two or three people and a base of 100-300 clients this really is enough: everyone sees the same data, changes are saved automatically, and version history lets you roll back an accidental edit."
+    },
+    {
+      "t": "p",
+      "uk": "Саме тому таблиця стає першим інструментом майже в кожному стартапі. Вона не вимагає бюджету, впровадження чи погодження з керівництвом. Але це рішення для старту, а не для масштабу. Коли клієнтів стає більше, а процес продажу ускладнюється, ті самі якості, що робили таблицю зручною - повна свобода і відсутність обмежень - перетворюються на джерело помилок.",
+      "en": "That is exactly why a spreadsheet becomes the first tool in almost every startup. It requires no budget, no rollout and no sign-off from management. But it is a solution for the start, not for scale. When clients grow in number and the sales process gets more complex, the very qualities that made the spreadsheet convenient - full freedom and no constraints - turn into a source of errors."
+    },
+    {
+      "t": "h2",
+      "uk": "Де Google Таблиці ламаються на базі клієнтів",
+      "en": "Where Google Sheets breaks on a client base"
+    },
+    {
+      "t": "p",
+      "uk": "Перша тріщина зʼявляється на спільному редагуванні. Коли посиланням користуються 4-5 менеджерів одночасно, хтось обовʼязково вписує дані не в той рядок, затирає чужу правку або випадково видаляє клієнта разом із рядком. Відновити це можна через історію версій, але спершу треба помітити пропажу, а на базі в кілька тисяч рядків зникнення одного контакту ніхто не бачить тижнями. У Google Таблицях немає нормальних ролей і прав: або людина може редагувати весь аркуш, або нічого. Ви не обмежите менеджера тільки його клієнтами і не сховаєте суми угод від того, кому їх бачити не треба.",
+      "en": "The first crack appears in shared editing. When 4-5 managers use the link at once, someone inevitably types data into the wrong row, overwrites another person's edit, or accidentally deletes a client along with the row. You can restore it through version history, but first you have to notice it is gone, and in a base of several thousand rows the disappearance of a single contact goes unseen for weeks. Google Sheets has no proper roles and permissions: either a person can edit the whole sheet, or nothing. You cannot limit a manager to only their own clients, or hide deal amounts from someone who should not see them."
+    },
+    {
+      "t": "p",
+      "uk": "Далі підводить сама природа таблиці. Вона не нагадує про завдання: якщо менеджер не подивиться в потрібну колонку, він просто забуде передзвонити. За нашим досвідом без автоматичних нагадувань бізнес втрачає близько 20-30% лідів, які нікуди не поділись - їх просто не обробили вчасно. Таблиця не зберігає історію спілкування: дзвінки, листи й повідомлення живуть у пошті та телефоні, а не поруч із контактом. Немає й нормальних етапів угоди - колонка зі статусом «в роботі» нічого не автоматизує. А коли рядків стає 5000-10000, важкі формули й фільтри починають підвисати, файл відкривається повільно, і робота з базою перетворюється на очікування.",
+      "en": "Next, the nature of a spreadsheet itself lets you down. It does not remind you about tasks: if a manager does not look at the right column, they simply forget to call back. In our experience, without automatic reminders a business loses about 20-30% of leads that did not go anywhere - they just were not processed in time. A spreadsheet does not store the history of communication: calls, emails and messages live in mail and on the phone, not next to the contact. There are also no real deal stages - a status column that says \"in progress\" automates nothing. And when the rows reach 5000-10000, heavy formulas and filters start to lag, the file opens slowly, and working with the base turns into waiting."
+    },
+    {
+      "t": "h2",
+      "uk": "Що CRM дає для ведення клієнтів, а Google Таблиці ні",
+      "en": "What a CRM gives for managing clients that Google Sheets does not"
+    },
+    {
+      "t": "p",
+      "uk": "CRM - це не гарніша таблиця, це інша логіка роботи з базою клієнтів. Кожен контакт має свою картку, де сама собою збирається історія: коли дзвонили, що писали, на якому етапі угода, яка сума й наступний крок. Угоди рухаються по воронці зі стадіями «новий - перемовини - рахунок - оплата», тож ви бачите, скільки клієнтів застрягло і де. Система сама ставить нагадування й задачі, тому менеджер фізично не забуде передзвонити - завдання спливе саме тоді, коли треба.",
+      "en": "A CRM is not a prettier spreadsheet, it is a different logic for working with a client base. Every contact has its own card where history gathers by itself: when you called, what you wrote, which stage the deal is at, the amount and the next step. Deals move along a pipeline with stages \"new - negotiation - invoice - payment\", so you can see how many clients are stuck and where. The system sets reminders and tasks on its own, so a manager physically cannot forget to call back - the task will pop up exactly when needed."
+    },
+    {
+      "t": "p",
+      "uk": "Додайте сюди ролі й права: керівник бачить усе, менеджер - тільки своїх клієнтів, і ніхто випадково не зітре чужі дані. CRM автоматизує рутину, якої в таблиці не існує: створює угоду з заявки на сайті, надсилає клієнту повідомлення при зміні статусу, розподіляє ліди між менеджерами. Замість ручного підрахунку у формулах ви отримуєте готові звіти про конверсію, суми й навантаження команди. Усе це у Google Таблицях або неможливо, або тримається на крихких формулах, які ламаються від однієї зайвої правки.",
+      "en": "Add to that roles and permissions: the manager sees everything, a sales rep sees only their own clients, and no one accidentally wipes someone else's data. A CRM automates routine that does not exist in a spreadsheet: it creates a deal from a website request, sends the client a message when the status changes, and distributes leads among managers. Instead of manual counting in formulas, you get ready reports on conversion, amounts and team workload. All of this is either impossible in Google Sheets, or held together by fragile formulas that break from one extra edit."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM чи Google Таблиці: порівняння за ціною і зручністю",
+      "en": "CRM or Google Sheets: a comparison by price and convenience"
+    },
+    {
+      "t": "p",
+      "uk": "За прямими витратами таблиця виграє: вона безкоштовна, тоді як готова CRM коштує приблизно від 10-15 доларів за користувача на місяць, а команда з пʼяти осіб платитиме десь 50-100 доларів. Але порахуйте прихований бік. Якщо менеджер витрачає 3-5 годин на тиждень на ручне заповнення, пошук по рядках і звірку даних, то на команду це десятки годин щомісяця. Плюс втрачені 20-30% лідів, про яких просто забули без нагадувань. На такому фоні оплата CRM окупається швидше, ніж здається.",
+      "en": "On direct costs the spreadsheet wins: it is free, while a ready-made CRM costs roughly from 10-15 dollars per user per month, and a team of five will pay somewhere around 50-100 dollars. But add up the hidden side. If a manager spends 3-5 hours a week on manual data entry, searching through rows and reconciling data, that is dozens of hours a month across the team. Plus the lost 20-30% of leads that were simply forgotten without reminders. Against that background, paying for a CRM pays off faster than it seems."
+    },
+    {
+      "t": "p",
+      "uk": "За зручністю все залежить від масштабу. На старті таблиця простіша: нульовий поріг входу і нуль налаштувань. Але з ростом бази зручність міняється місцями. У CRM менеджер відкриває картку клієнта й бачить усе одразу, а в таблиці доводиться гортати десятки колонок і памʼятати, де що лежить. Що більша команда і база, то більше CRM економить час, а таблиця - забирає.",
+      "en": "On convenience it all depends on scale. At the start the spreadsheet is simpler: zero entry barrier and zero setup. But as the base grows, convenience swaps places. In a CRM a manager opens a client card and sees everything at once, while in a spreadsheet you have to scroll through dozens of columns and remember where everything is. The bigger the team and base, the more a CRM saves time, and the more a spreadsheet takes it away."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли переходити з Google Таблиць на CRM",
+      "en": "When to move from Google Sheets to a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Є кілька чітких сигналів, що таблиця вже вичерпала себе. Над базою одночасно працюють більше трьох менеджерів, і правки почали конфліктувати. У базі понад 1000-2000 клієнтів, а файл підвисає. Ви ловите себе на думці, що ліди губляться, а нагадування тримаються на памʼяті людей. Зʼявилась потреба розділити доступ, бо не всім можна бачити всі угоди. Якщо ви впізнали хоча б два-три пункти - це момент переходу.",
+      "en": "There are a few clear signals that the spreadsheet has run its course. More than three managers work on the base at once, and edits have started to conflict. The base has over 1000-2000 clients and the file lags. You catch yourself thinking that leads get lost and reminders rest on people's memory. A need has appeared to split access, because not everyone should see every deal. If you recognize at least two or three of these points, it is the moment to move."
+    },
+    {
+      "t": "p",
+      "uk": "Перехід не обовʼязково болючий: наявну Google Таблицю з клієнтами можна імпортувати в CRM без втрати даних, зберігши історію. Головне - не тягнути хаос за собою, а налаштувати систему під ваш реальний процес продажу. У Devlly ми будуємо CRM саме під ваш процес, а не навпаки, і акуратно переносимо існуючу таблицю з базою клієнтів у нову систему, щоб команда продовжила роботу без простою. Якщо ваша таблиця вже тріщить по швах - напишіть нам, розберемо ваш випадок.",
+      "en": "The move is not necessarily painful: an existing Google Sheet with clients can be imported into a CRM without data loss, keeping the history. The main thing is not to drag the chaos along, but to set the system up around your real sales process. At Devlly we build a CRM around your process rather than the other way round, and carefully migrate your existing client-base spreadsheet into the new system so the team keeps working without downtime. If your spreadsheet is already bursting at the seams, get in touch and we will look at your case."
+    }
+  ]
+}

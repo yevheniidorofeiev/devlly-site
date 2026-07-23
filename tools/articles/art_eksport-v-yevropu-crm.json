@@ -1,0 +1,117 @@
+{
+  "title_uk": "CRM для експорту в Європу: угоди, документи і клієнти",
+  "title_en": "CRM for Export to Europe: Deals, Documents and Clients",
+  "desc_uk": "CRM для експорту з України в Європу: облік B2B-клієнтів, угоди в євро, документи і контроль поставок. Система під експортний процес бізнесу.",
+  "desc_en": "CRM for exporting from Ukraine to Europe: B2B client management, deals in euros, documents and delivery control. A system built around your export process.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для експорту в Європу для українців | Devlly",
+    "te": "CRM for Export to Europe for Ukrainians | Devlly",
+    "d": "CRM для експорту з України в Європу: облік B2B-клієнтів, угоди в євро, документи і контроль поставок. Система під експортний процес бізнесу.",
+    "de": "CRM for exporting from Ukraine to Europe: B2B client management, deals in euros, documents and delivery control. A system built around your export process.",
+    "k": "crm для експорту, експорт в європу, crm для экспорта, экспорт в европу, crm for export to europe, crm для b2b, облік клієнтів експорт, угоди в євро, экспортные документы, crm для экспортеров, автоматизація експорту, crm для логистики"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Вихід на європейський ринок змінює логіку продажів: замість короткої роздрібної угоди бізнес отримує довгий B2B-цикл із перемовинами, комерційними пропозиціями і формальностями на кожному кроці. CRM для експорту в Європу допомагає утримати під контролем клієнтів, документи і поставки, коли угода триває тижнями чи місяцями, а розрахунки ведуться в євро. Компанії, що продають агропродукцію, меблі, будматеріали чи обладнання в Польщу, Німеччину чи Нідерланди, стикаються з однією й тією самою проблемою: клієнтська база росте, а процес продажу і документообіг залишаються на рівні памʼяті одного менеджера.",
+      "en": "Entering the European market changes the whole sales logic: instead of a short retail deal, a business gets a long B2B cycle with negotiations, commercial offers and formalities at every step. A CRM for export to Europe helps keep clients, documents and deliveries under control when a deal takes weeks or months and payments are made in euros. Companies selling agricultural goods, furniture, building materials or equipment to Poland, Germany or the Netherlands face the same problem: the client base grows while the sales process and paperwork still rely on one manager's memory."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для експорту в Європу: що змінюється у процесі продажів",
+      "en": "CRM for export to Europe: what changes in the sales process"
+    },
+    {
+      "t": "p",
+      "uk": "У роздрібних продажах угода закривається за один дзвінок або оплату на сайті. В експорті все інакше: спочатку йде перше знайомство з європейським партнером, потім обмін технічними умовами, узгодження ціни й обсягів, умов поставки за Інкотермс, підготовка договору, виробництво чи комплектація партії, відвантаження і лише потім оплата. Кожен етап може розтягнутися на тижні, а учасників з боку клієнта зазвичай кілька: закупівельник, технічний фахівець, бухгалтерія, іноді ще й митний брокер партнера.",
+      "en": "In retail sales a deal closes with one call or an online payment. Export is different: first contact with a European partner, exchange of technical requirements, price and volume negotiations, agreeing delivery terms under Incoterms, contract preparation, production or batch assembly, shipment and only then payment. Each stage can stretch over weeks, and the client side usually has several people involved: a buyer, a technical specialist, an accountant, and sometimes the partner's customs broker."
+    },
+    {
+      "t": "p",
+      "uk": "Тому воронка для експорту виглядає інакше, ніж воронка для роздрібу: етапи «перший контакт», «комерційна пропозиція», «узгодження умов», «договір підписано», «відвантаження», «оплата отримана» дозволяють бачити, на якій стадії застрягла кожна угода і скільки часу вона там триває. Без такої структури менеджер орієнтується на памʼять і листування, а нові співробітники довго входять у процес.",
+      "en": "That is why an export pipeline looks different from a retail one: stages like first contact, commercial offer, terms agreed, contract signed, shipment and payment received let you see exactly where each deal is stuck and how long it has been there. Without this structure a manager relies on memory and email threads, and new hires take a long time to learn the process."
+    },
+    {
+      "t": "p",
+      "uk": "Excel-таблиці і папка листів у пошті витримують кілька угод, але з розвитком експорту стають вузьким місцем: історія перемовин губиться, документи розкидані по різних листах, а хто саме контактував з клієнтом останнім, доводиться згадувати. Якщо менеджер, що вів угоду, у відпустці чи звільнився, колеги втрачають доступ до контексту й починають перемовини майже спочатку. CRM для експорту збирає все це в одну картку угоди, доступну всій команді.",
+      "en": "Spreadsheets and a folder of emails can handle a few deals, but as export grows they become a bottleneck: negotiation history gets lost, documents are scattered across different messages, and it takes effort to recall who last contacted the client. If the manager who ran the deal is on vacation or has left, colleagues lose the context and have to restart negotiations almost from scratch. A CRM for export gathers all of this in a single deal card available to the whole team."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік B2B-клієнтів і контроль контрактів",
+      "en": "B2B client management and contract control"
+    },
+    {
+      "t": "p",
+      "uk": "Картка клієнта в CRM для B2B-експорту містить не тільки контактні дані, а й реквізити компанії, країну, галузь, кількох контактних осіб з їхніми ролями, а також повну історію перемовин: хто, коли і про що писав, які умови обговорювалися, на якому етапі зупинилися востаннє. Це особливо важливо, коли з одним клієнтом працюють одразу кілька людей з боку студії чи виробника.",
+      "en": "A client card in a B2B export CRM holds more than contact details: company details, country, industry, several contact people with their roles, and a full negotiation history showing who wrote what and when, which terms were discussed, and where things stood last. This matters when several people on the exporter's side work with the same client."
+    },
+    {
+      "t": "p",
+      "uk": "Контракти й специфікації зберігаються прямо в картці клієнта або угоди разом із термінами дії, узгодженими цінами та обсягами поставок. Коли термін договору наближається до завершення, система нагадує про це заздалегідь, а не тоді, коли поставка вже мала відбутися за умовами, яких формально більше не існує.",
+      "en": "Contracts and specifications are stored right in the client or deal card along with validity periods, agreed prices and delivery volumes. When a contract is nearing its end date, the system reminds the manager in advance, rather than after a delivery was supposed to happen under terms that are no longer formally valid."
+    },
+    {
+      "t": "p",
+      "uk": "Клієнтів зручно сегментувати за країною, обсягом закупівель або типом продукції, щоб бачити, який напрямок експорту приносить більше угод, а де перемовини найчастіше зупиняються. Наприклад, може виявитися, що угоди з польськими партнерами закриваються швидше, ніж з німецькими, і саме там варто зосередити зусилля відділу продажів найближчого кварталу. Це переводить розмову про розвиток експорту з відчуттів у цифри.",
+      "en": "Clients can be segmented by country, purchase volume or product type to see which export direction brings more deals and where negotiations most often stall. It might turn out, for example, that deals with Polish partners close faster than with German ones, which is exactly where the sales team should focus effort next quarter. This turns talk about export growth from gut feeling into numbers."
+    },
+    {
+      "t": "h2",
+      "uk": "Угоди в євро та контроль курсової різниці",
+      "en": "Deals in euros and exchange rate control"
+    },
+    {
+      "t": "p",
+      "uk": "Експортні угоди зазвичай ведуться в євро, а звітність усередині компанії, найчастіше, у гривні. CRM для експорту фіксує курс на дату угоди чи виставлення інвойсу і зберігає суму одразу у двох валютах, тож не доводиться перераховувати вручну щоразу, коли потрібен звіт чи довідка для бухгалтерії. Оплату за SWIFT чи IBAN також зручно фіксувати в картці угоди, щоб бачити, коли саме кошти надійшли і чи повністю закрита сума за контрактом.",
+      "en": "Export deals are usually priced in euros, while internal reporting is most often kept in the local currency. A CRM for export fixes the exchange rate on the date of the deal or invoice and stores the amount in both currencies at once, so there is no need to convert manually every time a report or accounting reference is needed. A SWIFT or IBAN payment is also convenient to log in the deal card, showing exactly when the funds arrived and whether the contract amount is fully covered."
+    },
+    {
+      "t": "p",
+      "uk": "Це також дозволяє відстежувати курсову різницю між моментом підписання договору і моментом фактичної оплати: різниця в кілька тижнів чи місяців за нестабільного курсу може помітно вплинути на реальну маржу угоди. Коли ці дані видно в одному звіті, а не розкидані по окремих таблицях, легше вчасно скоригувати ціни для наступних контрактів.",
+      "en": "It also lets you track the exchange rate difference between the moment a contract is signed and the moment payment actually arrives: a gap of several weeks or months under an unstable rate can noticeably affect the real margin of a deal. When this data sits in one report instead of scattered spreadsheets, it is easier to adjust prices for future contracts in time."
+    },
+    {
+      "t": "h2",
+      "uk": "Експортні документи: інвойси, CMR, сертифікати",
+      "en": "Export documents: invoices, CMR, certificates"
+    },
+    {
+      "t": "p",
+      "uk": "Кожна експортна поставка супроводжується пакетом документів: інвойс, пакувальний лист, CMR-накладна, сертифікат походження, а часто ще й сертифікати якості чи відповідності залежно від категорії товару. CRM для експорту дозволяє генерувати інвойси за готовим шаблоном на основі даних угоди й одразу зберігати решту документів у картці конкретної поставки, а не у розрізнених папках на компʼютерах різних співробітників.",
+      "en": "Every export shipment comes with a package of documents: an invoice, a packing list, a CMR waybill, a certificate of origin, and often quality or conformity certificates depending on the product category. A CRM for export lets you generate invoices from a ready template based on deal data and keep the rest of the documents in the card of that specific shipment, instead of scattered folders on different employees' computers."
+    },
+    {
+      "t": "p",
+      "uk": "Перед відвантаженням система може показати, чи повний пакет документів зібраний: чи є підписаний CMR, чи прикріплений сертифікат, чи виставлений інвойс на правильну суму в євро. Це знижує ризик затримки на кордоні через відсутній папір, коли товар уже готовий до відправки, а перевізник чи митний брокер чекає на комплект документів.",
+      "en": "Before shipment the system can show whether the full document package is complete: is the CMR signed, is the certificate attached, is the invoice issued for the correct amount in euros. This lowers the risk of a border delay caused by a missing document when the goods are already ready to go and the carrier or customs broker is waiting for the paperwork."
+    },
+    {
+      "t": "p",
+      "uk": "Історія версій документів і доступ бухгалтерії до потрібних файлів прямо з картки угоди прибирають ще один шар листування: не потрібно пересилати інвойс повторно, якщо він уже лежить там, де його очікують знайти.",
+      "en": "Document version history and accounting access to the right files straight from the deal card removes another layer of email back and forth: there is no need to resend an invoice if it already sits where people expect to find it."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль поставок, логістики і нагадування по угодах",
+      "en": "Delivery, logistics control and deal reminders"
+    },
+    {
+      "t": "p",
+      "uk": "Поставка в Європу проходить через кілька етапів: виробництво чи комплектація партії, митне оформлення, транспортування, перетин кордону, доставка на склад клієнта. CRM для експорту показує статус кожної поставки в одному місці, тож менеджер бачить, на якому етапі затримка, ще до того, як про це запитає клієнт.",
+      "en": "A delivery to Europe goes through several stages: production or batch assembly, customs clearance, transportation, border crossing, delivery to the client's warehouse. A CRM for export shows the status of each delivery in one place, so a manager sees where a delay is happening before the client asks about it."
+    },
+    {
+      "t": "p",
+      "uk": "Довгий цикл угоди і кілька учасників з боку клієнта означають, що легко забути про наступний крок: надіслати оновлену пропозицію, нагадати про підписання договору, уточнити дату відвантаження. Автоматичні нагадування привʼязані до етапу угоди прибирають цю залежність від памʼяті конкретного менеджера і зменшують кількість угод, які тихо «зависають» без жодної дії. Якщо етап затримується довше очікуваного, керівник відділу продажів бачить це у звіті й може підключитися до перемовин раніше, ніж клієнт почне сумніватися у надійності постачальника.",
+      "en": "A long deal cycle with several people on the client's side makes it easy to forget the next step: sending an updated offer, following up on a contract signature, confirming a shipment date. Automatic reminders tied to the deal stage remove this dependence on one manager's memory and cut the number of deals that quietly stall without any action. If a stage is delayed longer than expected, the sales lead sees it in a report and can step into the negotiation before the client starts doubting the supplier's reliability."
+    },
+    {
+      "t": "p",
+      "uk": "Devlly налаштовує CRM під конкретний експортний процес компанії: воронку з потрібними етапами, картки клієнтів з реквізитами і контрактами, розрахунки в євро, шаблони документів і нагадування, без зайвих полів і функцій, які просто не використовуються у B2B-експорті. Систему можна доповнити інтеграцією з поштою чи месенджером, щоб листування з європейськими партнерами теж потрапляло в картку угоди, а не лишалося поза системою.",
+      "en": "Devlly configures a CRM around a company's specific export process: a pipeline with the right stages, client cards with details and contracts, calculations in euros, document templates and reminders, without extra fields or features that simply are not used in B2B export. The system can also be connected to email or a messenger, so correspondence with European partners lands in the deal card too, instead of staying outside the system."
+    }
+  ]
+}

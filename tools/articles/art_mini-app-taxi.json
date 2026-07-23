@@ -1,0 +1,97 @@
+{
+  "title_uk": "Telegram Mini App для служби таксі та замовлення поїздок",
+  "title_en": "A Telegram Mini App for a taxi service and ride ordering",
+  "date_uk": "12 БЕР 2026",
+  "date_en": "MAR 12, 2026",
+  "desc_uk": "Карта, точки А і Б, розрахунок вартості, розподіл замовлень між водіями та кабінет водія - як влаштований Mini App для таксі і чому він дешевший за агрегатор.",
+  "desc_en": "Map, pickup and drop-off points, fare estimates, order dispatch between drivers, and a driver dashboard - how a taxi Mini App works and why it beats aggregator fees.",
+  "seo": {
+    "t": "Telegram Mini App для таксі: замовлення поїздок і кабінет водія | Devlly",
+    "te": "Telegram Mini App for taxi: ride ordering and driver dashboard | Devlly",
+    "d": "Telegram Mini App для таксі: карта, точки А і Б, розрахунок вартості, розподіл замовлень, кабінет водія, оплата й рейтинги. Дешевше за комісію агрегаторів.",
+    "de": "A Telegram Mini App for taxi services: map, A and B points, fare calculation, dispatch, driver dashboard, payments and ratings. Cheaper than aggregator commissions.",
+    "k": "telegram mini app для таксі, замовлення таксі в телеграм, застосунок для таксі, автоматизація таксі, розподіл замовлень між водіями, кабінет водія"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Служба таксі, яка досі приймає замовлення телефоном і диктує адреси водіям у спільний чат, втрачає гроші тричі: на диспетчері, на порожньому пробігу й на клієнтах, які просто пішли в агрегатор, бо там зручніше. Заходити у велику платформу теж боляче - комісія з’їдає до чверті кожної поїздки, а базу клієнтів ви фактично віддаєте чужій компанії. Третій шлях - власний Telegram Mini App: карта, точки А і Б, ціна до поїздки, автоматичний розподіл замовлень і кабінет водія, усе всередині месенджера, який уже стоїть у кожного пасажира. Розберемо, як це працює технічно і чому виходить дешевше.",
+      "en": "A taxi service that still takes orders by phone and dictates addresses to drivers in a shared chat loses money three times over: on the dispatcher, on empty mileage, and on customers who simply left for an aggregator because it’s more convenient there. Joining a big platform hurts too - the commission eats up to a quarter of every ride, and you effectively hand your customer base to someone else’s company. There is a third path: your own Telegram Mini App, with a map, pickup and drop-off points, a fare shown before the ride, automatic order dispatch, and a driver dashboard - all inside a messenger that every passenger already has installed. Let’s look at how it works technically and why it comes out cheaper."
+    },
+    {
+      "t": "h2",
+      "uk": "Карта й геолокація: чому Telegram Mini App для таксі - не «бот із кнопками»",
+      "en": "Map and geolocation: why a Telegram Mini App for taxi is not a “bot with buttons”"
+    },
+    {
+      "t": "p",
+      "uk": "Замовити поїздку через звичайного бота майже неможливо: адресу треба надрукувати текстом, бот її не розуміє, диспетчер усе одно передзвонює й уточнює під’їзд. Mini App знімає цю проблему, бо це повноцінний веб-інтерфейс усередині Telegram, у якому можна відкрити карту. Пасажир бачить себе на мапі, точка А підставляється автоматично з геолокації пристрою, точку Б він або тягне пальцем по карті, або вводить із підказками адрес. Далі підключається геокодинг і маршрутизація - Google Maps, Mapbox або OpenStreetMap, - і система одразу знає відстань у кілометрах та орієнтовний час у дорозі.",
+      "en": "Ordering a ride through a plain bot is nearly impossible: the address has to be typed as text, the bot doesn’t understand it, and the dispatcher calls back anyway to clarify the entrance. A Mini App removes that problem, because it is a full web interface inside Telegram in which you can open a map. The passenger sees themselves on the map, point A is filled in automatically from the device’s geolocation, and point B is either dragged with a finger across the map or typed in with address autocomplete. Then geocoding and routing come in - Google Maps, Mapbox, or OpenStreetMap - and the system immediately knows the distance in kilometers and the approximate travel time."
+    },
+    {
+      "t": "p",
+      "uk": "Практична різниця величезна. Клієнту не треба нічого встановлювати з App Store, не треба реєструватися й вигадувати пароль: він відкриває чат вашої служби, тапає кнопку - і за секунду вже на карті. Авторизація йде через сам Telegram, бекенд перевіряє підписані дані користувача, ім’я підтягується автоматично, номер телефону запитується один раз і зберігається. У результаті шлях від «треба таксі» до «замовлення прийнято» - це три-чотири тапи й близько двадцяти секунд, без жодного дзвінка. Саме тут ховається левова частка втрачених клієнтів: люди не люблять телефонувати й чекати на лінії, особливо ввечері чи в дощ.",
+      "en": "The practical difference is enormous. The customer installs nothing from the App Store, registers nowhere, invents no password: they open your service’s chat, tap a button, and a second later they’re on the map. Authorization goes through Telegram itself, the backend verifies the signed user data, the name is pulled in automatically, and the phone number is requested once and stored. As a result, the path from “I need a taxi” to “order accepted” is three or four taps and about twenty seconds, with no phone call at all. This is where the lion’s share of lost customers hides: people don’t like calling and waiting on the line, especially in the evening or in the rain."
+    },
+    {
+      "t": "h2",
+      "uk": "Ціна до поїздки: тариф, відстань і клас авто",
+      "en": "The fare before the ride: tariff, distance, and car class"
+    },
+    {
+      "t": "p",
+      "uk": "Головна претензія пасажирів до старих служб - незрозуміла ціна. Людина сідає в авто, не знаючи, скільки заплатить, і це щоразу невеликий стрес. Mini App рахує вартість до підтвердження замовлення за вашою власною формулою: подача плюс кілометри за тарифом, плюс хвилини очікування, плюс коефіцієнти. Ви самі керуєте логікою - мінімальна вартість поїздки, окремий тариф за містом, нічна надбавка після двадцять третьої, підвищений коефіцієнт у годину пік чи в негоду, доплата за багаж, дитяче крісло, перевезення тварини, додаткову адресу в маршруті. Усе це налаштовується в адмінці, а не переписується в коді щоразу.",
+      "en": "The main complaint passengers have about old-school services is an unclear price. A person gets into the car without knowing what they’ll pay, and every time that’s a small dose of stress. A Mini App calculates the cost before the order is confirmed, using your own formula: pickup fee plus kilometers at the tariff rate, plus waiting minutes, plus coefficients. You control the logic yourself - a minimum ride price, a separate out-of-town tariff, a night surcharge after 11 p.m., a surge multiplier during rush hour or bad weather, extra charges for luggage, a child seat, transporting a pet, or an additional stop on the route. All of it is configured in the admin panel rather than rewritten in code every time."
+    },
+    {
+      "t": "p",
+      "uk": "Поверх тарифу йде вибір класу авто: економ, комфорт, універсал під великий багаж, мінівен на сімох, авто з дитячим кріслом. Кожен клас має свій коефіцієнт, і пасажир одразу бачить три-чотири варіанти з цінами й приблизним часом подачі - рівно як в агрегаторі. Важлива деталь, про яку часто забувають: ціна має бути фіксованою після підтвердження, інакше водій «донараховує» на місці й ви миттєво втрачаєте довіру. Якщо маршрут змінюється в дорозі, перерахунок робить система за тими самими правилами, а не водій усно. Прозорість тут - не етика, а конверсія: сервіси з передбачуваною ціною отримують помітно більше повторних замовлень.",
+      "en": "On top of the tariff comes the choice of car class: economy, comfort, an estate car for big luggage, a minivan for seven, a car with a child seat. Each class has its own coefficient, and the passenger immediately sees three or four options with prices and an estimated pickup time - exactly like in an aggregator. One important detail people often forget: the price must be fixed once the order is confirmed, otherwise the driver “adds a bit” on the spot and you instantly lose trust. If the route changes en route, the recalculation is done by the system according to the same rules, not verbally by the driver. Transparency here isn’t ethics, it’s conversion: services with predictable pricing get noticeably more repeat orders."
+    },
+    {
+      "t": "h2",
+      "uk": "Розподіл замовлень між водіями і кабінет водія",
+      "en": "Dispatching orders between drivers and the driver dashboard"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільша частина автоматизації таксі - це не інтерфейс пасажира, а те, що відбувається після натискання «Замовити». Замовлення потрапляє на сервер і має знайти водія без участі диспетчера. Робочих стратегій кілька: віддати найближчому вільному авто потрібного класу, розіслати замовлення кільком водіям у радіусі й віддати тому, хто прийняв першим, або запропонувати по черзі за рейтингом. Якщо водій не відповів за п’ятнадцять-тридцять секунд, замовлення автоматично йде далі по списку. Це усуває класичну хворобу спільного чату, коли одну заявку хапають двоє, ще двоє їдуть у той самий двір, а решта її просто не бачать.",
+      "en": "The biggest part of taxi automation is not the passenger interface but what happens after the “Order” button is pressed. The order reaches the server and must find a driver without a dispatcher’s involvement. There are several workable strategies: give it to the nearest free car of the right class, broadcast it to several drivers within a radius and award it to whoever accepts first, or offer it in turn based on rating. If a driver doesn’t respond within fifteen to thirty seconds, the order automatically moves down the list. This eliminates the classic disease of the shared chat, where two drivers grab the same request, two more head to the same courtyard, and the rest never see it at all."
+    },
+    {
+      "t": "p",
+      "uk": "Водій працює у власному кабінеті - це може бути та сама Mini App з іншою роллю. Він відкриває зміну, бачить себе онлайн, отримує push із замовленням: адреса, відстань до клієнта, маршрут, сума, спосіб оплати. Дві кнопки - прийняти чи відхилити. Далі він веде замовлення по статусах: прямую до клієнта, на місці, у поїздці, завершено. Кожен статус автоматично надсилає пасажиру повідомлення в чат, тож ніхто нікому не дзвонить «ви де?». У кабінеті водій також бачить свій заробіток за зміну, кількість поїздок, рейтинг і баланс комісії. Керівник у той самий час бачить на карті всі авто, статуси й черги замовлень.",
+      "en": "The driver works in their own dashboard - this can be the same Mini App under a different role. They open a shift, appear online, and receive a push with the order: address, distance to the customer, route, amount, payment method. Two buttons: accept or decline. From there they move the order through statuses: heading to the customer, on site, in transit, completed. Each status automatically sends the passenger a message in the chat, so nobody has to call anyone asking “where are you?”. In the dashboard the driver also sees their earnings for the shift, the number of rides, their rating, and their commission balance. At the same time, the manager sees all cars on the map, their statuses, and the order queue."
+    },
+    {
+      "t": "h2",
+      "uk": "Відстеження авто, оплата, історія та рейтинги в застосунку для таксі",
+      "en": "Car tracking, payment, history, and ratings in a taxi app"
+    },
+    {
+      "t": "p",
+      "uk": "Після призначення водія пасажир бачить на карті, як авто рухається до нього, з номером, маркою, кольором і фото водія. Це закриває найнервовіші три хвилини очікування й різко зменшує кількість дзвінків у диспетчерську. Оплата - на вибір: готівкою водієві або карткою прямо в Mini App через Telegram Payments чи українського еквайра, з чеком у чат. Безготівка окремо вигідна службі: гроші проходять через ваш рахунок, комісію водія система утримує автоматично, і не треба щовечора зводити готівку вручну. Для корпоративних клієнтів логічно додати безготівковий рахунок компанії з місячним звітом по всіх поїздках співробітників.",
+      "en": "Once a driver is assigned, the passenger watches the car move toward them on the map, complete with the plate number, make, color, and the driver’s photo. That covers the most nerve-racking three minutes of waiting and sharply cuts calls to the dispatch desk. Payment is a choice: cash to the driver, or card right inside the Mini App via Telegram Payments or a Ukrainian acquirer, with a receipt sent to the chat. Cashless is especially good for the service: the money flows through your account, the system withholds the driver’s commission automatically, and nobody has to reconcile cash by hand every evening. For corporate clients it makes sense to add a company account with a monthly report on all employee rides."
+    },
+    {
+      "t": "p",
+      "uk": "Дві функції, які найбільше впливають на повторні замовлення, коштують копійки в розробці. Перша - історія поїздок із кнопкою «повторити»: людина, яка щоранку їде на роботу за одним маршрутом, замовляє авто в один тап, без карти й адрес. Друга - рейтинги: пасажир ставить оцінку після поїздки, і ви нарешті бачите не чутки, а цифри - хто з водіїв стабільно тримає чотири й дев’ять, а хто просів до чотирьох і трьох, і чому. Рейтинг можна вплітати в розподіл замовлень: кращі водії отримують заявки першими. Це найдешевший спосіб підняти якість сервісу без штрафів і розмов.",
+      "en": "The two features that most affect repeat orders cost almost nothing to build. The first is ride history with a “repeat” button: someone who commutes the same route every morning orders a car with a single tap, without a map or addresses. The second is ratings: the passenger scores the trip afterwards, and you finally see numbers instead of rumors - which drivers consistently hold a 4.9 and which have slipped to a 4.3, and why. The rating can be woven into dispatch: better drivers get requests first. That is the cheapest way to raise service quality without fines and difficult conversations."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому власний Mini App вигідніший за комісію агрегаторів",
+      "en": "Why your own Mini App pays off better than aggregator commissions"
+    },
+    {
+      "t": "p",
+      "uk": "Порахуймо просто. Служба на двадцять авто, кожне робить десять поїздок на день із середнім чеком двісті гривень - це близько мільйона двохсот тисяч гривень обороту на місяць. Комісія агрегатора у п’ятнадцять-двадцять відсотків - це від ста вісімдесяти тисяч гривень щомісяця, назавжди. Власний Mini App - це разова розробка й далі лише хостинг, карти й еквайринг, тобто кілька тисяч гривень на місяць. Проєкт окупається за перші місяці роботи. Важливіше за гроші інше: у вас лишається база клієнтів, історія їхніх поїздок і прямий канал зв’язку, а не чужий застосунок, який завтра підніме комісію або відключить вас за власним рішенням.",
+      "en": "Let’s do simple math. A service with twenty cars, each doing ten rides a day at an average ticket of two hundred hryvnias, turns over about 1.2 million hryvnias a month. An aggregator commission of fifteen to twenty percent means at least 180 thousand hryvnias every month, forever. Your own Mini App is a one-time build and then only hosting, maps, and acquiring - a few thousand hryvnias a month. The project pays for itself within the first months. And more important than the money: you keep the customer base, their ride history, and a direct communication channel, instead of someone else’s app that can raise its commission tomorrow or cut you off at its own discretion."
+    },
+    {
+      "t": "p",
+      "uk": "За термінами: базове замовлення поїздок у телеграм - карта, точки А і Б, розрахунок вартості, розподіл між водіями й кабінет водія - це приблизно чотири-шість тижнів. Повноцінна система з відстеженням на карті в реальному часі, безготівковою оплатою, рейтингами, зарплатними звітами й аналітикою - від восьми до дванадцяти тижнів. Типова помилка - намагатися одразу повторити функціонал великого агрегатора й застрягти на пів року без жодної поїздки. Робочий шлях - запустити ядро, посадити на нього реальних водіїв і допрацьовувати за їхнім фідбеком. У Devlly ми будуємо саме такі системи: Mini App для пасажира, кабінет водія, диспетчерська панель і бекенд як одне рішення під процеси конкретної служби.",
+      "en": "On timelines: a basic ride-ordering flow in Telegram - map, points A and B, fare calculation, dispatch among drivers, and a driver dashboard - takes roughly four to six weeks. A full system with real-time map tracking, cashless payments, ratings, payroll reports, and analytics runs from eight to twelve weeks. The typical mistake is trying to replicate a big aggregator’s full feature set at once and getting stuck for six months without a single ride. The working path is to launch the core, put real drivers on it, and refine based on their feedback. At Devlly we build exactly these systems: the passenger Mini App, the driver dashboard, the dispatch panel, and the backend as one solution shaped around a specific service’s processes."
+    }
+  ]
+}

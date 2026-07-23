@@ -1,0 +1,122 @@
+{
+  "title_uk": "CRM для українського бізнесу в Чехії: клієнти і продажі",
+  "title_en": "CRM for Ukrainian Business in Czechia: Clients and Sales",
+  "desc_uk": "CRM для українців з бізнесом у Чехії: облік клієнтів, замовлення в кронах, локальні платіжні і поштові сервіси. Система під ваш процес продажів.",
+  "desc_en": "A CRM for Ukrainians running a business in Czechia: client records, orders in korunas, local payment and postal services. A system built around your sales process.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для українського бізнесу в Чехії | Devlly",
+    "te": "CRM for Ukrainian Business in Czechia | Devlly",
+    "d": "CRM для українців з бізнесом у Чехії: облік клієнтів, замовлення в кронах, локальні платіжні і поштові сервіси. Система під ваш процес продажів.",
+    "de": "A CRM for Ukrainians running a business in Czechia: client records, orders in korunas, local payment and postal services. A system built around your sales process.",
+    "k": "crm для бізнесу в чехії, український бізнес у чехії, crm для бизнеса в чехии, украинский бизнес в чехии, crm for business in czechia, crm для чеської крони, облік клієнтів у чехії, crm для інтернет магазину чехія, telegram бот для бізнесу в чехії, автоматизація продажів чехія"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Український бізнес у Чехії росте щороку: ІТ фрилансери, майстерні, інтернет магазини, будівельні бригади, косметологи і перукарні. Але більшість власників досі ведуть клієнтів у Google Таблицях або чатах Viber, гублять заявки і плутають ціни в кронах з розрахунками в гривнях чи євро. CRM для українського бізнесу в Чехії вирішує саме ці проблеми: фіксує кожного клієнта і кожну заявку, рахує продажі в чеській кроні, працює з локальними поштовими сервісами і враховує реквізити IČO та DIČ. Розповідаємо, як така система виглядає на практиці і чим вона відрізняється від звичайної закордонної CRM.",
+      "en": "Ukrainian business in Czechia grows every year: IT freelancers, workshops, online stores, construction crews, beauty salons and hairdressers. Yet most owners still manage clients in Google Sheets or Viber chats, losing leads and mixing up prices in korunas with calculations in hryvnias or euros. A CRM for Ukrainian business in Czechia solves exactly these problems: it logs every client and every request, counts sales in Czech koruna, works with local postal services and stores IČO and DIČ details. Here is how such a system looks in practice and how it differs from an ordinary foreign CRM."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для українського бізнесу в Чехії: чому універсальні шаблони не працюють",
+      "en": "CRM for Ukrainian Business in Czechia: Why Generic Templates Do Not Work"
+    },
+    {
+      "t": "p",
+      "uk": "Типова картина українського підприємця в Чехії: заявки приходять у Viber, WhatsApp, Instagram і на пошту, клієнти зберігаються в блокноті або таблиці, а рахунки виставляються вручну в останній момент. Частина клієнтів чехомовні, частина україномовні, тож листування ведеться одразу двома мовами без єдиного шаблону. У результаті хтось із клієнтів губиться, оплата затримується, а власник не бачить реальної картини продажів за місяць.",
+      "en": "A typical picture for a Ukrainian entrepreneur in Czechia: leads arrive through Viber, WhatsApp, Instagram and email, clients are stored in a notebook or spreadsheet, and invoices are issued manually at the last moment. Some clients are Czech speaking, some Ukrainian speaking, so correspondence runs in two languages at once with no single template. As a result some clients get lost, payment is delayed, and the owner does not see the real picture of monthly sales."
+    },
+    {
+      "t": "p",
+      "uk": "Готові закордонні CRM на кшталт HubSpot чи Pipedrive формально закривають базові потреби, але виставляють рахунок у євро чи доларах, тоді як дохід підприємця рахується в чеських кронах. Додати чеські поштові сервіси, місцеві платіжки чи поле під IČO в таку систему часто неможливо без дорогого допрацювання, а інтерфейс і шаблони листів налаштовані під зовсім інший ринок.",
+      "en": "Ready made foreign CRMs like HubSpot or Pipedrive formally cover basic needs, but they invoice in euros or dollars while the entrepreneur's income is counted in Czech korunas. Adding Czech postal services, local payment methods or a field for IČO to such a system is often impossible without expensive custom work, and the interface and email templates are built for a completely different market."
+    },
+    {
+      "t": "p",
+      "uk": "CRM під конкретний процес продажів вирішує це інакше: система будується під те, як реально працює бізнес у Чехії, від першого повідомлення в месенджері до оплати і закриття угоди. Замовник отримує саме ті поля, статуси і звіти, які потрібні для щоденної роботи, без зайвого функціоналу і без переплати за модулі, якими ніхто не користується.",
+      "en": "A CRM built for a specific sales process solves this differently: the system is built around how the business actually works in Czechia, from the first message in a messenger to payment and closing the deal. The owner gets exactly the fields, statuses and reports needed for daily work, without extra functionality and without paying for modules nobody uses."
+    },
+    {
+      "t": "h2",
+      "uk": "Продажі, замовлення і звіти в чеській кроні",
+      "en": "Sales, Orders and Reports in Czech Koruna"
+    },
+    {
+      "t": "p",
+      "uk": "Базова валюта такої CRM це чеська крона (CZK), а не євро чи гривня. Прайс на послуги, вартість товару, знижки для постійних клієнтів і сума в рахунку рахуються одразу в кронах, без ручного перерахунку і без плутанини між курсами різних банків.",
+      "en": "The base currency of such a CRM is the Czech koruna (CZK), not euros or hryvnias. Service pricing, product cost, discounts for regular clients and invoice totals are all calculated directly in korunas, without manual conversion or confusion between different bank exchange rates."
+    },
+    {
+      "t": "p",
+      "uk": "Наприклад, для косметологічного кабінету чи майстерні CRM тримає прайс послуг у кронах, автоматично застосовує знижку постійному клієнту і формує підсумок запису одразу з фінальною сумою до оплати. Для інтернет магазину система рахує вартість замовлення разом з доставкою і показує менеджеру суму, яку клієнт має сплатити готівкою курʼєру чи переказом на рахунок.",
+      "en": "For example, for a beauty studio or workshop the CRM keeps a service price list in korunas, automatically applies a discount for a regular client and generates a booking summary with the final amount due. For an online store the system calculates the order total together with delivery and shows the manager the exact amount the client needs to pay in cash to the courier or by bank transfer."
+    },
+    {
+      "t": "p",
+      "uk": "Оплата в Чехії найчастіше проходить через банківський переказ з варіабільним символом, QR платбу або локальний платіжний шлюз на кшталт GoPay чи Comgate. CRM позначає замовлення як оплачене одразу після надходження коштів, зіставляючи суму і варіабільний символ з конкретним клієнтом, а власник бачить звіт по продажах за день, тиждень чи місяць одразу в кронах, що спрощує звірку з бухгалтером і подання даних для податкової звітності.",
+      "en": "Payment in Czechia most often goes through a bank transfer with a variable symbol, a QR payment, or a local payment gateway such as GoPay or Comgate. The CRM marks an order as paid as soon as funds arrive, matching the amount and variable symbol to a specific client, and the owner sees a sales report for the day, week or month directly in korunas, which simplifies reconciliation with the accountant and tax reporting."
+    },
+    {
+      "t": "h2",
+      "uk": "Доставка через Zásilkovna, Balíkovna і Packeta без ручної рутини",
+      "en": "Delivery via Zásilkovna, Balíkovna and Packeta Without Manual Routine"
+    },
+    {
+      "t": "p",
+      "uk": "Українці, які продають товари в Чехії, найчастіше відправляють замовлення через поштомати Zásilkovna, Balíkovna Чеської пошти або курʼєрську мережу Packeta. Це основний канал доставки для малого бізнесу, тому CRM має працювати з ним напряму, а не змушувати менеджера вручну копіювати адреси і номери відправлень.",
+      "en": "Ukrainians selling goods in Czechia most often ship orders through Zásilkovna parcel lockers, Balíkovna of the Czech Post, or the Packeta courier network. This is the main delivery channel for small business, so the CRM has to work with it directly instead of forcing a manager to manually copy addresses and shipment numbers."
+    },
+    {
+      "t": "p",
+      "uk": "Коли замовлення переходить у статус «Готове до відправки», CRM формує накладну для обраного сервісу, підтягує адресу найближчого поштомату або пункту видачі і зберігає трек номер у картці клієнта. Клієнт автоматично отримує повідомлення зі статусом посилки чеською або українською, залежно від того, якою мовою з ним раніше спілкувалися.",
+      "en": "When an order moves to the status Ready to Ship, the CRM generates a waybill for the chosen service, pulls the address of the nearest parcel locker or pickup point and stores the tracking number in the client card. The client automatically receives a delivery status update in Czech or Ukrainian, depending on which language was used with them before."
+    },
+    {
+      "t": "p",
+      "uk": "Для майстерні чи невеликого магазину це означає менше ручної роботи і менше помилок з адресами, а для власника, який працює одночасно з кількома службами доставки, CRM показує в одному вікні статуси всіх відправлень: що вже видано клієнту, що чекає в поштоматі, а що затрималося в дорозі. Якщо посилку не забрали за кілька днів, система нагадує менеджеру звʼязатися з клієнтом до того, як відправлення повернеться назад на склад.",
+      "en": "For a workshop or small store this means less manual work and fewer address errors, and for an owner working with several delivery services at once, the CRM shows all shipment statuses in one window: what has already been handed to the client, what is waiting at a locker, and what is delayed in transit. If a parcel is not picked up for several days, the system reminds the manager to contact the client before the shipment is returned to the warehouse."
+    },
+    {
+      "t": "h2",
+      "uk": "Реквізити IČO, DIČ і рахунки для чеських контрагентів",
+      "en": "IČO, DIČ Details and Invoices for Czech Business Partners"
+    },
+    {
+      "t": "p",
+      "uk": "Для роботи з чеськими фірмами і державними установами кожному клієнту чи постачальнику потрібні коректні реквізити: IČO (ідентифікаційний номер компанії) і, за наявності платника ПДВ, DIČ. Без цих даних неможливо коректно виставити faktura, тобто рахунок фактуру за чеським зразком, а помилка в номері може означати повернений документ і затримку оплати на кілька тижнів.",
+      "en": "To work with Czech companies and government institutions, every client or supplier needs correct details: IČO (company identification number) and, for VAT payers, DIČ. Without this data it is impossible to correctly issue a faktura, the Czech style invoice, and an error in the number can mean a returned document and a payment delay of several weeks."
+    },
+    {
+      "t": "p",
+      "uk": "CRM зберігає IČO та DIČ у картці кожного контрагента разом з юридичною адресою і банківськими реквізитами, а при виставленні рахунку підставляє ці дані автоматично, без пошуку в старому листуванні чи паперах. Це особливо важливо для ФОП (OSVČ) в Чехії, які виставляють десятки рахунків на місяць і не можуть дозволити собі помилку в реквізитах партнера.",
+      "en": "The CRM stores IČO and DIČ in each partner's card together with the legal address and bank details, and automatically fills them into invoices without searching through old correspondence or papers. This matters especially for OSVČ (sole traders) in Czechia who issue dozens of invoices a month and cannot afford a mistake in a partner's details."
+    },
+    {
+      "t": "p",
+      "uk": "Система розділяє клієнтів на приватних осіб і фірми: для приватного клієнта достатньо імені й телефону, а для юридичної особи CRM одразу вимагає IČO і формує рахунок за правилами, прийнятими для B2B угод у Чехії. Це прибирає плутанину, коли один шаблон рахунку намагаються використати для зовсім різних типів клієнтів.",
+      "en": "The system separates clients into individuals and companies: for a private client a name and phone number are enough, while for a legal entity the CRM immediately requires an IČO and generates an invoice under the rules used for B2B deals in Czechia. This removes the confusion of trying to use one invoice template for completely different types of clients."
+    },
+    {
+      "t": "h2",
+      "uk": "Двомовна робота з чеськими і українськими клієнтами",
+      "en": "Bilingual Work with Czech and Ukrainian Clients"
+    },
+    {
+      "t": "p",
+      "uk": "Український бізнес у Чехії обслуговує одразу дві аудиторії: місцевих чехомовних клієнтів і українську діаспору, яка часто зручніше спілкується рідною мовою. CRM тримає в картці клієнта позначку про мову спілкування і автоматично підставляє потрібний шаблон повідомлення, рахунку чи нагадування про запис.",
+      "en": "Ukrainian business in Czechia serves two audiences at once: local Czech speaking clients and the Ukrainian diaspora, who often prefer communicating in their native language. The CRM keeps a note in the client card about their preferred language and automatically applies the right template for messages, invoices or booking reminders."
+    },
+    {
+      "t": "p",
+      "uk": "Нагадування про запис, підтвердження замовлення чи статус доставки можна надсилати через Telegram бота, підключеного до тієї самої CRM: чехомовному клієнту система напише чеською, а україномовному, українською, без ручного перемикання менеджером між шаблонами і мовами. Той самий бот може одразу приймати нові заявки, підтягувати їх у CRM і створювати картку клієнта з позначкою бажаної мови спілкування.",
+      "en": "Booking reminders, order confirmations or delivery status updates can be sent through a Telegram bot connected to the same CRM: a Czech speaking client gets a message in Czech, a Ukrainian speaking one in Ukrainian, without a manager manually switching between templates and languages. The same bot can accept new leads right away, pull them into the CRM and create a client card marked with the preferred language."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly під такі задачі роблять CRM, Telegram боти й парсинг під ключ, з урахуванням саме чеських реалій: крони, IČO і DIČ, локальні поштові сервіси і двомовне спілкування. Система будується під конкретний процес продажів бізнесу, а не підганяється під готовий шаблон з чужого ринку.",
+      "en": "At Devlly such tasks are handled by building CRMs, Telegram bots and parsing solutions with exact Czech realities in mind: korunas, IČO and DIČ, local postal services and bilingual communication. The system is built around the specific sales process of the business, rather than adjusted from a ready made template built for a different market."
+    }
+  ]
+}

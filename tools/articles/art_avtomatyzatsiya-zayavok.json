@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація заявок: від прийому до виконання",
+  "title_en": "Request Automation: From Intake to Completion",
+  "desc_uk": "Як автоматизувати весь цикл роботи із заявками: прийом, розподіл, контроль виконання і сповіщення клієнта. Без пропусків і затримок.",
+  "desc_en": "How to automate the full request lifecycle: intake, routing, execution control and client notifications. No missed items, no delays.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація прийому і обробки заявок | Devlly",
+    "te": "Request Intake and Processing Automation | Devlly",
+    "d": "Як автоматизувати весь цикл роботи із заявками: прийом, розподіл, контроль виконання і сповіщення клієнта. Без пропусків і затримок.",
+    "de": "How to automate the full request lifecycle: intake, routing, execution control and client notifications. No missed items, no delays.",
+    "k": "автоматизація заявок, прийом заявок, розподіл заявок, контроль виконання, сповіщення клієнта, статуси і дедлайни, SLA"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Заявка - це не подія, а процес із кількох етапів, і на кожному з них вона може застрягти. Нижче розберемо життєвий цикл заявки послідовно: як вона потрапляє в систему, за якими правилами призначається виконавцю, як рахуються дедлайни і що робить система, коли етап прострочено. Мова піде саме про механіку - правила, таймери, ескалації та автоматичні сповіщення.",
+      "en": "A request is not an event but a process of several stages, and it can get stuck at any of them. Below we walk through the request lifecycle step by step: how it enters the system, by which rules it is assigned to an owner, how deadlines are counted, and what the system does when a stage runs overdue. The focus is on the mechanics - rules, timers, escalations and automatic notifications."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом заявок: єдина точка входу і нормалізація даних",
+      "en": "Request intake: a single entry point and data normalisation"
+    },
+    {
+      "t": "p",
+      "uk": "Перший етап циклу - прийом заявок. Незалежно від того, звідки прийшов запит, у системі він має стати однаковим обʼєктом із передбачуваним набором полів: хто звернувся, що потрібно, до якого продукту або послуги належить запит, який регіон, який пріоритет. Поки заявки лежать у різних форматах, жодні правила розподілу не спрацюють, бо їм немає за чим орієнтуватися.",
+      "en": "The first stage of the cycle is intake. No matter where the request came from, in the system it must become a uniform object with a predictable set of fields: who submitted it, what is needed, which product or service it relates to, which region, which priority. As long as requests exist in different formats, no routing rules will work, because they have nothing to key off."
+    },
+    {
+      "t": "p",
+      "uk": "Нормалізація - це не тільки зведення полів. Це ще й приведення значень до довідників: телефон у міжнародному форматі, назва міста з єдиного списку, тип запиту з фіксованого переліку. Тоді умова «якщо тип = сервіс і регіон = Захід» працює однозначно, а не залежить від того, як менеджер написав місто в текстовому полі.",
+      "en": "Normalisation is not only mapping fields. It also means aligning values with reference lists: a phone number in international format, a city name from a single list, a request type from a fixed set. Then a condition like «if type = service and region = West» works unambiguously instead of depending on how a manager typed the city into a free text field."
+    },
+    {
+      "t": "p",
+      "uk": "Тут же має відпрацювати дедуплікація: якщо клієнт написав двічі за пʼятнадцять хвилин, це одна заявка з двома повідомленнями, а не дві задачі для двох різних людей. Практичне правило - збіг за телефоном або поштою у вікні 24 години обʼєднує звернення в один тред. Те саме стосується повторного звернення по вже відкритому питанню: воно прикріплюється до наявної картки, а не запускає паралельний процес.",
+      "en": "Deduplication belongs here too: if a client wrote twice within fifteen minutes, that is one request with two messages, not two tasks for two different people. A practical rule is that a match by phone or email within a 24 hour window merges the enquiries into a single thread. The same applies to a repeat request on an issue already in progress: it is attached to the existing card instead of starting a parallel process."
+    },
+    {
+      "t": "h2",
+      "uk": "Розподіл заявок: правила призначення замість ручного вибору",
+      "en": "Request routing: assignment rules instead of manual picking"
+    },
+    {
+      "t": "p",
+      "uk": "Коли заявка нормалізована, спрацьовує розподіл заявок за правилами. Базових критеріїв зазвичай чотири: продукт або тип послуги, регіон чи мова клієнта, поточне навантаження виконавця і графік чергування. Правила виконуються по черзі згори вниз, і перше, що збіглося, визначає власника заявки.",
+      "en": "Once a request is normalised, rule based routing kicks in. There are usually four basic criteria: product or service type, region or client language, the current workload of an owner, and the on duty schedule. Rules run top to bottom, and the first match determines the request owner."
+    },
+    {
+      "t": "p",
+      "uk": "Навантаження варто рахувати не за кількістю всіх заявок, а за кількістю активних - тих, що в роботі просто зараз. Якщо у менеджера вісім відкритих заявок, а ліміт десять, він ще в черзі; після ліміту нові запити йдуть наступному. Такий підхід рівномірніший за просту почергову роздачу, бо враховує реальну зайнятість. Графік чергування додає до цього часовий вимір: правило перевіряє, хто саме на зміні в момент надходження заявки, і не призначає запит людині у відпустці чи поза робочими годинами.",
+      "en": "Workload should be counted not by total requests but by active ones - those in progress right now. If a manager has eight open requests against a limit of ten, they are still in the queue; past the limit new requests go to the next person. This is more even than plain round robin because it reflects actual load. The duty schedule adds a time dimension: the rule checks who is actually on shift when the request arrives and never assigns it to someone on holiday or outside working hours."
+    },
+    {
+      "t": "p",
+      "uk": "Обовʼязково потрібне правило за замовчуванням: якщо жодна умова не збіглася, заявка йде черговому менеджеру або в загальну чергу з окремим сповіщенням. Заявка без власника - найчастіша причина мовчазної втрати, тому стан «нікому не призначено» має бути технічно неможливим довше кількох хвилин.",
+      "en": "A default rule is mandatory: if no condition matched, the request goes to the on duty manager or into a shared queue with its own alert. An unowned request is the most common cause of silent loss, so the state «assigned to nobody» must be technically impossible for longer than a few minutes."
+    },
+    {
+      "t": "h2",
+      "uk": "Статуси і дедлайни: SLA-таймери на кожному етапі",
+      "en": "Statuses and deadlines: SLA timers at every stage"
+    },
+    {
+      "t": "p",
+      "uk": "Статуси і дедлайни - це каркас усього процесу. Мінімальний робочий набір статусів: нова, призначена, в роботі, очікує клієнта, виконана, закрита. Кожен статус має власний таймер: наприклад, 15 хвилин на перший контакт, 4 години на оцінку, 2 робочі дні на виконання. Таймер стартує у момент входу в статус і зупиняється при переході далі.",
+      "en": "Statuses and deadlines form the backbone of the whole process. A minimal working set of statuses: new, assigned, in progress, waiting for client, done, closed. Each status has its own timer: for example 15 minutes for first contact, 4 hours for assessment, 2 business days for delivery. The timer starts on entering the status and stops on moving on."
+    },
+    {
+      "t": "p",
+      "uk": "Важлива деталь - таймер має враховувати робочий календар. Заявка, що прийшла о 19:40 у пʼятницю, не повинна вважатися простроченою в суботу вранці, якщо у вас немає нічної зміни. Так само статус «очікує клієнта» має ставити SLA на паузу, інакше метрики покажуть провал там, де команда працювала нормально.",
+      "en": "An important detail is that the timer must respect the working calendar. A request that arrived at 19:40 on Friday should not count as overdue on Saturday morning if you have no night shift. Likewise the «waiting for client» status should pause the SLA, otherwise metrics will show a failure where the team actually did fine."
+    },
+    {
+      "t": "p",
+      "uk": "Переходи між статусами варто обмежити: із «нової» можна піти тільки в «призначену», а закрити заявку без етапу «виконана» система не дозволяє. Це прибирає ситуації, коли заявку закривають одним кліком, щоб вона не псувала статистику. Якщо перехід потребує причини - наприклад, відмова клієнта або дубль - причина вибирається зі списку і зберігається разом із заявкою.",
+      "en": "Transitions between statuses should be constrained: from «new» you can only move to «assigned», and the system does not allow closing a request that skipped the «done» stage. This removes cases where a request is closed in one click just so it stops spoiling the statistics. If a transition requires a reason - a client refusal or a duplicate, for instance - the reason is picked from a list and stored with the request."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль виконання: ескалація прострочених заявок",
+      "en": "Execution control: escalating overdue requests"
+    },
+    {
+      "t": "p",
+      "uk": "Контроль виконання будується не на щоденних нарадах, а на автоматичній реакції системи. Схема ескалації зазвичай триступенева: за 20 відсотків часу до дедлайну - нагадування виконавцю, у момент прострочення - сповіщення керівнику групи, через подвійний термін - підняття пріоритету і повідомлення власнику напряму.",
+      "en": "Execution control rests not on daily meetings but on the system reacting automatically. Escalation is usually three tiered: at 20 percent of time remaining - a reminder to the owner, at the moment of breach - a notification to the team lead, at double the deadline - a priority bump and a message to the department head."
+    },
+    {
+      "t": "p",
+      "uk": "Ескалація повинна щось змінювати, а не просто надсилати листи. Корисні дії: автоматичне перепризначення заявки на чергового, підняття її вгору черги, блокування взяття нових заявок виконавцем, у якого висить прострочення. Інакше сповіщення швидко стають фоновим шумом, який усі ігнорують. Практика показує: якщо на ескалацію не підвʼязана жодна автоматична дія, вже за два-три тижні команда перестає її читати.",
+      "en": "Escalation must change something rather than just send emails. Useful actions include automatically reassigning the request to the on duty person, moving it to the top of the queue, or blocking an owner with an overdue item from taking new requests. Otherwise notifications quickly turn into background noise everyone ignores. Practice shows that if no automatic action is wired to an escalation, within two or three weeks the team stops reading it."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто вести список прострочених заявок як робочу чергу, а не як звіт. Кожен пункт у ньому має закриватися дією: продовжити термін із причиною, перепризначити, повернути клієнту або закрити. Якщо причини прострочень фіксуються структуровано, за місяць видно, який саме етап треба перебудовувати.",
+      "en": "It is worth keeping the list of overdue requests as a working queue rather than a report. Every item on it must be closed by an action: extend the deadline with a reason, reassign, return to the client, or close. If breach reasons are recorded in a structured way, after a month it becomes clear which stage needs rebuilding."
+    },
+    {
+      "t": "h2",
+      "uk": "Сповіщення клієнта на кожній зміні статусу",
+      "en": "Client notifications at every status change"
+    },
+    {
+      "t": "p",
+      "uk": "Сповіщення клієнта завершує цикл і знімає більшість повторних звернень. Правило просте: кожна зміна статусу, яку клієнт може відчути, супроводжується коротким повідомленням. Прийнято в роботу, призначено виконавця, названо термін, виконано, закрито - пʼять точок, яких достатньо в більшості випадків. Текст сповіщення має вміщатися в два речення і містити відповідь на головне питання клієнта: що відбувається і коли буде результат.",
+      "en": "Client notifications close the loop and remove most repeat enquiries. The rule is simple: every status change the client can feel is accompanied by a short message. Accepted, owner assigned, deadline set, completed, closed - five touchpoints are enough in most cases. The text should fit into two sentences and answer the main question a client has: what is happening and when there will be a result."
+    },
+    {
+      "t": "p",
+      "uk": "Повідомлення краще надсилати тим каналом, звідки прийшла заявка, і додавати номер звернення - так клієнт відповідає в той самий тред, а відповідь автоматично прикріплюється до заявки. Якщо термін зміщується, сповіщення про це має йти до дедлайну, а не після нього: попереджена затримка сприймається спокійно, виявлена - як зрив.",
+      "en": "Messages are best sent through the channel the request came from, with the request number included - the client then replies in the same thread and the reply is attached to the request automatically. If a deadline shifts, the notification must go out before it, not after: a warned delay is taken calmly, a discovered one feels like a breakdown."
+    },
+    {
+      "t": "p",
+      "uk": "Зібраний разом, цей цикл дає передбачуваний процес: заявка не губиться на вході, завжди має власника, живе за таймерами і сама сигналить про проблеми. У Devlly ми будуємо такі системи під конкретні процеси компанії - з вашими правилами розподілу, статусами і термінами, а не за універсальним шаблоном.",
+      "en": "Put together, this cycle produces a predictable process: a request is not lost at intake, always has an owner, lives by timers and signals problems on its own. At Devlly we build such systems around the specific processes of each company - with your routing rules, statuses and deadlines rather than a universal template."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title_uk": "Що вміє HR бот: функції і можливості для бізнесу",
+  "title_en": "What an HR Bot Can Do: Functions and Capabilities for Business",
+  "desc_uk": "Огляд ключових функцій HR бота: збір резюме, тести, нагадування, онбординг і аналітика найму. Показуємо, що бот автоматизує на кожному етапі й скільки часу економить команді.",
+  "desc_en": "An overview of the key HR bot functions: resume collection, tests, reminders, onboarding and hiring analytics. We show what the bot automates at each stage and how much time it saves the team.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Функції HR бота для автоматизації найму | Devlly",
+    "te": "HR Bot Functions for Hiring Automation | Devlly",
+    "d": "Повний огляд функцій HR бота: збір резюме, тести, нагадування, онбординг і аналітика. Що автоматизує HR бот і скільки часу це економить.",
+    "de": "A full overview of HR bot functions: resume collection, tests, reminders, onboarding and analytics. What an HR bot automates and how much time it saves.",
+    "k": "hr бот, функції hr бота, можливості hr бота, автоматизація найму, збір резюме, скринінг кандидатів, онбординг, аналітика рекрутингу, hr автоматизація, автоматизація рекрутингу, бот для найму, hr бот для бізнесу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "HR бот - це помічник у месенджері, який бере на себе рутину відділу кадрів і працює цілодобово. Його функції охоплюють весь цикл найму: від першого контакту з кандидатом до онбордингу нового співробітника. Замість того щоб вручну збирати резюме, відповідати на однакові питання й вести десятки таблиць, рекрутер делегує ці задачі боту. У цьому огляді ми розберемо ключові функції та можливості HR бота, покажемо, що саме він автоматизує на кожному етапі найму, і порахуємо, скільки годин на тиждень такий інструмент реально економить вашій команді. Важливо розуміти, що HR бот не замінює рекрутера, а знімає з нього механічну частину роботи й лишає час на рішення, де потрібна людина. Почнемо з найпершого етапу воронки.",
+      "en": "An HR bot is a messenger assistant that takes over the HR department's routine and works around the clock. Its functions cover the entire hiring cycle: from the first contact with a candidate to the onboarding of a new employee. Instead of manually collecting resumes, answering the same questions and maintaining dozens of spreadsheets, the recruiter delegates these tasks to the bot. In this overview we will break down the key functions and capabilities of an HR bot, show exactly what it automates at each hiring stage, and calculate how many hours per week such a tool really saves your team. It is important to understand that an HR bot does not replace the recruiter but removes the mechanical part of the work and leaves time for decisions where a human is needed. Let's start with the very first stage of the funnel."
+    },
+    {
+      "t": "h2",
+      "uk": "Збір резюме та анкет кандидатів",
+      "en": "Collecting Resumes and Candidate Application Forms"
+    },
+    {
+      "t": "p",
+      "uk": "Перша і найпоширеніша функція HR бота - це прийом резюме та анкет кандидатів. Людина заходить у чат, відповідає на кілька структурованих питань і прикріплює файл, а бот одразу зберігає всі дані в єдину базу. Рекрутеру більше не треба перевіряти пошту, месенджери й таблиці окремо: заявки надходять в одному форматі, мають однакову структуру й нікуди не губляться, навіть якщо їх сотні на день.",
+      "en": "The first and most common HR bot function is receiving resumes and application forms from candidates. A person enters the chat, answers several structured questions and attaches a file, and the bot immediately saves all the data into a single database. The recruiter no longer has to check email, messengers and spreadsheets separately: applications arrive in one format, share the same structure and never get lost, even when there are hundreds of them per day."
+    },
+    {
+      "t": "p",
+      "uk": "Бот може ставити уточнювальні питання про досвід, очікувану зарплату, місто чи готовність до релокації, а відповіді одразу підтягуються в картку кандидата. Так на вхід у воронку потрапляють вже структуровані профілі, готові до відбору. За нашими спостереженнями, автоматичний збір анкет прибирає до 40% ручної роботи на етапі первинного відбору, а обʼєм оброблених заявок за той самий час зростає у 2-3 рази. Ще один плюс - бот працює цілодобово, тому кандидат може подати заявку ввечері чи у вихідний і одразу отримати підтвердження, а ви не втрачаєте зацікавлених людей через затримку у відповіді.",
+      "en": "The bot can ask clarifying questions about experience, expected salary, city or willingness to relocate, and the answers are pulled straight into the candidate's profile card. This way, already structured profiles ready for selection enter the top of the funnel. Based on our observations, automatic form collection removes up to 40% of manual work at the initial screening stage, while the volume of processed applications over the same period grows by a factor of 2 to 3. Another advantage is that the bot works around the clock, so a candidate can apply in the evening or on a weekend and receive confirmation instantly, and you do not lose interested people because of a delayed reply."
+    },
+    {
+      "t": "h2",
+      "uk": "Тести і автоматичний скринінг кандидатів",
+      "en": "Tests and Automatic Candidate Screening"
+    },
+    {
+      "t": "p",
+      "uk": "Друга група можливостей HR бота - це тести та автоматична оцінка кандидатів. Бот надсилає короткий опитувальник або професійний тест, приймає відповіді й одразу рахує бал за заданими критеріями. Тих, хто не набирає потрібний мінімум, система ввічливо відсіює й пояснює причину, а сильних кандидатів окремо позначає для рекрутера, щоб той не пропустив вдалий профіль.",
+      "en": "The second group of HR bot capabilities is tests and automatic candidate evaluation. The bot sends a short questionnaire or a professional test, accepts the answers and immediately calculates a score according to preset criteria. Those who do not reach the required minimum are politely filtered out with an explanation, while strong candidates are flagged separately for the recruiter so that a promising profile is not missed."
+    },
+    {
+      "t": "p",
+      "uk": "Скринінг легко налаштувати під конкретну вакансію: перевірка знання мови, логічні задачі, кейсові питання чи тест на відповідність цінностям компанії. Автоматична оцінка знімає з рекрутера потребу вручну читати кожну анкету від початку до кінця. На практиці це відсіює 60-70% явно нерелевантних кандидатів ще до першого інтервʼю, тому на живе спілкування залишаються тільки ті, хто справді підходить під вимоги. Усі результати тестів зберігаються поруч із анкетою, тож рекрутер бачить обʼєктивну картину по кожному кандидату в одному місці й може швидко порівняти профілі між собою.",
+      "en": "Screening is easy to tailor to a specific vacancy: a language check, logic tasks, case questions or a test for alignment with the company's values. Automatic evaluation frees the recruiter from having to read every form from start to finish by hand. In practice, this filters out 60-70% of clearly irrelevant candidates before the first interview, so that only those who genuinely match the requirements remain for live conversation. All test results are stored next to the application form, so the recruiter sees an objective picture of each candidate in one place and can quickly compare profiles against each other."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування та комунікація з кандидатами",
+      "en": "Reminders and Communication with Candidates"
+    },
+    {
+      "t": "p",
+      "uk": "Третя функція - це нагадування та комунікація з кандидатами. HR бот сам надсилає запрошення на співбесіду, підтверджує зручний час, нагадує про зустріч за день і за годину до неї. Якщо кандидат не відповідає, бот делікатно пінгує його повторно за заданим сценарієм. Так знижується кількість неявок, яка у ручному режимі нерідко сягає 25-30% від усіх призначених зустрічей. Календар при цьому синхронізується автоматично, тож рекрутер бачить вільні слоти й не призначає дві співбесіди на один час.",
+      "en": "The third function is reminders and communication with candidates. The HR bot itself sends interview invitations, confirms a convenient time, and reminds about the meeting a day and an hour before it. If a candidate does not respond, the bot gently pings them again according to a preset scenario. This reduces the number of no-shows, which in manual mode often reaches 25-30% of all scheduled meetings. The calendar is synchronized automatically, so the recruiter sees free slots and does not book two interviews for the same time."
+    },
+    {
+      "t": "p",
+      "uk": "Крім того, бот постійно тримає кандидата в курсі статусу його заявки: прийнято, на розгляді, запрошення на наступний етап або ввічлива відмова. Своєчасна комунікація формує позитивне враження про компанію навіть у тих, кого зрештою не взяли. А рекрутер економить години, які раніше йшли на однотипне листування, підтвердження й дзвінки-нагадування кожному кандидату окремо. За потреби бот веде листування кількома мовами й підлаштовує тон під конкретну вакансію, від масового найму лінійного персоналу до делікатного пошуку керівників.",
+      "en": "In addition, the bot constantly keeps the candidate informed about the status of their application: accepted, under review, invited to the next stage, or a polite rejection. Timely communication builds a positive impression of the company even among those who were ultimately not hired. And the recruiter saves the hours that previously went into repetitive correspondence, confirmations and reminder calls to each candidate individually. When needed, the bot handles correspondence in several languages and adjusts its tone to the specific vacancy, from mass hiring of frontline staff to the delicate search for executives."
+    },
+    {
+      "t": "h2",
+      "uk": "Онбординг нових співробітників",
+      "en": "Onboarding New Employees"
+    },
+    {
+      "t": "p",
+      "uk": "Коли кандидата найнято, HR бот бере на себе онбординг нових співробітників. Він надсилає новачку план першого тижня, видає доступи до потрібних сервісів, ділиться внутрішніми інструкціями та відповідає на типові питання про зарплату, графік і відпустки. Людина отримує всю потрібну інформацію в одному чаті й не смикає колег через кожну дрібницю в перші робочі дні. Такий структурований старт помітно знижує стрес новачка й ризик того, що людина піде ще на випробувальному терміні.",
+      "en": "Once a candidate is hired, the HR bot takes over the onboarding of new employees. It sends the newcomer a plan for the first week, grants access to the necessary services, shares internal instructions and answers typical questions about salary, schedule and vacations. The person gets all the information they need in a single chat and does not bother colleagues over every little thing during their first working days. Such a structured start noticeably reduces the newcomer's stress and the risk that the person leaves while still on probation."
+    },
+    {
+      "t": "p",
+      "uk": "Бот веде співробітника за чек-листом адаптації: підписати документи, пройти вступний курс, познайомитися з командою, скласти тест після випробувального терміну. За такого підходу новачок виходить на повну продуктивність помітно швидше, а HR не витрачає по 3-4 години на ручне супроводження кожного найму. Керівник отримує сповіщення, коли новачок застряг на якомусь кроці, і може вчасно допомогти. Уся історія онбордингу зберігається й доступна в будь-який момент.",
+      "en": "The bot guides the employee through an adaptation checklist: sign the documents, complete the introductory course, meet the team, and pass a test after the probation period. With this approach, the newcomer reaches full productivity noticeably faster, and HR does not spend 3-4 hours manually accompanying each hire. The manager receives a notification when a newcomer gets stuck at a certain step and can help in time. The entire onboarding history is stored and available at any moment."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика найму: скільки часу економить HR бот",
+      "en": "Hiring Analytics: How Much Time an HR Bot Saves"
+    },
+    {
+      "t": "p",
+      "uk": "Пʼята функція - це аналітика найму. HR бот збирає дані на кожному етапі воронки: скільки кандидатів подалося, скільки пройшло тест, дійшло до інтервʼю та отримало офер. Ви бачите конверсію, вартість і швидкість найму в реальних цифрах, а не на око. Це допомагає зрозуміти, де воронка «протікає», і вчасно підсилити слабкий етап, замість того щоб здогадуватися про причини. Звіти можна вивантажити чи отримувати регулярно, щоб порівнювати місяці й оцінювати ефективність окремих джерел кандидатів.",
+      "en": "The fifth function is hiring analytics. The HR bot collects data at every stage of the funnel: how many candidates applied, how many passed the test, reached the interview and received an offer. You see conversion, cost and speed of hiring in real numbers rather than by guesswork. This helps you understand where the funnel «leaks» and reinforce the weak stage in time, instead of guessing about the causes. Reports can be exported or delivered on a regular basis, so you can compare months and assess the effectiveness of individual candidate sources."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо скласти всі функції разом, економія стає відчутною. Автоматизація збору резюме, скринінгу, нагадувань і онбордингу звільняє рекрутеру в середньому від 8 до 12 годин на тиждень - фактично цілий робочий день, який можна віддати живому спілкуванню й закриттю складних вакансій. У Devlly ми проєктуємо HR ботів під конкретні процеси вашої компанії, тож якщо хочете порахувати економію саме для вашого відділу, напишіть нам, і ми разом підкажемо, з чого варто почати саме у вашому випадку.",
+      "en": "If you add up all the functions together, the savings become tangible. Automating resume collection, screening, reminders and onboarding frees up on average 8 to 12 hours per week for a recruiter - effectively a whole working day that can be devoted to live communication and closing complex vacancies. At Devlly we design HR bots for the specific processes of your company, so if you want to calculate the savings for your particular department, write to us and together we will suggest where it is best to start in your particular case."
+    }
+  ]
+}

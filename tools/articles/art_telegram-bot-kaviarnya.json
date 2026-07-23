@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram бот для кавʼярні: замовлення, лояльність і знижки",
+  "title_en": "A Telegram Bot for a Coffee Shop: Orders, Loyalty and Discounts",
+  "desc_uk": "Як Telegram бот для кавʼярні приймає замовлення, нараховує бонуси і повертає клієнтів. Реальні приклади і результати.",
+  "desc_en": "How a Telegram bot for a coffee shop takes pre-orders, awards bonus points and brings customers back. Practical examples and results.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для кавʼярні: замовлення і програма лояльності | Devlly",
+    "te": "Telegram Bot for a Coffee Shop: Pre-Orders and Loyalty | Devlly",
+    "d": "Як Telegram бот для кавʼярні приймає замовлення, нараховує бонуси і повертає клієнтів. Реальні приклади і результати.",
+    "de": "How a Telegram bot for a coffee shop takes pre-orders, awards bonus points and brings customers back. Practical examples and results.",
+    "k": "Telegram бот для кавʼярні, замовлення наперед, програма лояльності, бонуси і знижки, автоматизація кавʼярні, чат-бот для кафе, повернення клієнтів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Черга в годину пік коштує кавʼярні реальних грошей: частина гостей бачить пʼятьох людей перед касою і просто йде далі. Telegram бот знімає цю проблему - гість оформлює замовлення наперед, обирає час і забирає готовий напій без очікування. Паралельно бот веде цифрову картку лояльності, нараховує бонуси і повертає людину на другу, третю і десяту чашку.",
+      "en": "A queue at peak hour costs a coffee shop real money: some guests see five people at the counter and simply walk on. A Telegram bot removes that problem - the guest places an order in advance, picks a time and collects a ready drink with no waiting. In parallel the bot runs a digital loyalty card, awards bonus points and brings the person back for a second, third and tenth cup."
+    },
+    {
+      "t": "h2",
+      "uk": "Telegram бот для кавʼярні: чому це працює краще за застосунок",
+      "en": "A Telegram bot for a coffee shop: why it beats a mobile app"
+    },
+    {
+      "t": "p",
+      "uk": "Мобільний застосунок кавʼярні майже завжди програє на першому кроці. Щоб ним скористатися, гість має знайти його в сторі, завантажити 40-60 мегабайт, зареєструватися і підтвердити номер. На кожному з цих кроків відсіюється частина людей, і до реального замовлення доходить меншість. Для точки, яка продає каву за 60-90 гривень, така воронка не окупається ніколи.",
+      "en": "A coffee shop mobile app almost always loses at the very first step. To use it the guest has to find it in the store, download 40-60 megabytes, register and confirm a phone number. Some people drop off at each of those steps, and only a minority reach an actual order. For a venue selling coffee at 60-90 hryvnias, that funnel never pays for itself."
+    },
+    {
+      "t": "p",
+      "uk": "Telegram вже стоїть на телефоні гостя, і вхід у бота займає один дотик. Не треба нових паролів, не треба вигадувати логін: бот бачить імʼя користувача, а номер телефону гість передає однією кнопкою, якщо це справді потрібно. Перше замовлення можна зробити за 30-40 секунд, поки людина йде до кавʼярні.",
+      "en": "Telegram is already installed on the guest's phone, and entering the bot takes one tap. No new passwords, no login to invent: the bot sees the username, and the guest shares a phone number with a single button if it is really needed. A first order can be placed in 30-40 seconds while the person is walking to the coffee shop."
+    },
+    {
+      "t": "p",
+      "uk": "Ще один аргумент - комунікація. Пуш-сповіщення застосунку вимикають масово, а повідомлення в Telegram відкривають майже завжди. Це означає, що акція «другий капучино за півціни до 12:00» реально доходить до людей, а не осідає в налаштуваннях телефону. Для невеликої мережі з двох-трьох точок це головний канал повернення гостя.",
+      "en": "One more argument is communication. App push notifications get switched off en masse, while Telegram messages are opened almost every time. That means a promo like «second cappuccino at half price before noon» actually reaches people instead of dying in phone settings. For a small chain of two or three venues this is the main channel for bringing a guest back."
+    },
+    {
+      "t": "h2",
+      "uk": "Замовлення наперед: як прибрати чергу в пікові години",
+      "en": "Pre-orders: how to clear the queue at peak hours"
+    },
+    {
+      "t": "p",
+      "uk": "Логіка проста. Гість відкриває меню в боті, збирає напій з опціями - розмір, вид молока, сироп, додатковий шот - бачить суму і обирає час, коли забере. Бот пропонує найближчі слоти з кроком у пʼять хвилин і не дозволяє поставити час, у який бариста фізично не встигне: кількість замовлень на слот обмежена.",
+      "en": "The logic is simple. The guest opens the menu in the bot, builds a drink with options - size, milk type, syrup, extra shot - sees the total and picks a pickup time. The bot offers the nearest slots in five-minute steps and does not allow a time the barista physically cannot meet: the number of orders per slot is capped."
+    },
+    {
+      "t": "p",
+      "uk": "Оплата може бути одразу в боті через платіжний провайдер або на місці. Передоплата помітно знижує кількість замовлень, які ніхто не забрав: якщо гроші вже списані, гість приходить. На практиці частка неотриманих замовлень із передоплатою тримається в межах одного-двох відсотків проти пʼяти-восьми без неї.",
+      "en": "Payment can happen right in the bot through a payment provider, or on site. Prepayment noticeably reduces abandoned orders: once the money is charged, the guest shows up. In practice the share of uncollected prepaid orders stays around one to two percent, against five to eight percent without prepayment."
+    },
+    {
+      "t": "p",
+      "uk": "Бариста бачить замовлення на планшеті або в окремому робочому чаті: склад, час видачі, імʼя гостя і статус оплати. Одна кнопка «готово» - і клієнту йде повідомлення. Типовий ефект для точки біля офісного центру: у ранковий пік з 8:30 до 10:00 через бота проходить від 15 до 30 відсотків чеків, і черга перестає розтягуватися на вулицю.",
+      "en": "The barista sees orders on a tablet or in a dedicated work chat: contents, pickup time, guest name and payment status. One «ready» button and the customer gets a message. A typical effect for a venue near an office centre: during the 8:30 to 10:00 morning peak, 15 to 30 percent of receipts come through the bot, and the queue stops spilling onto the street."
+    },
+    {
+      "t": "h2",
+      "uk": "Програма лояльності: цифрова картка замість паперової",
+      "en": "The loyalty programme: a digital card instead of a paper one"
+    },
+    {
+      "t": "p",
+      "uk": "Паперові картки з печатками мають дві вади: їх гублять і за ними нічого не видно. Власник не знає, скільки карток на руках, хто дійшов до шостої чашки, а хто зник після другої. Цифрова картка в боті вирішує обидві проблеми: вона завжди в телефоні, а вся історія покупок зберігається в базі.",
+      "en": "Paper stamp cards have two flaws: people lose them, and they show you nothing. The owner has no idea how many cards are out there, who reached the sixth cup and who disappeared after the second. A digital card in the bot solves both: it is always in the phone, and the full purchase history is stored in a database."
+    },
+    {
+      "t": "p",
+      "uk": "Механік буває дві. Перша - накопичувальна: кожна сьома кава безкоштовно, прогрес видно в боті у вигляді заповнених позначок. Друга - бонусна: нараховуємо 5-10 відсотків від чека балами, ними можна оплатити до половини наступного замовлення. Друга механіка гнучкіша, бо дозволяє грати ставкою нарахування для різних сегментів.",
+      "en": "There are two common mechanics. The first is a stamp card: every seventh coffee is free, and progress is visible in the bot as filled markers. The second is points: 5-10 percent of the receipt is credited as points, which can cover up to half of the next order. The second one is more flexible because you can vary the accrual rate by segment."
+    },
+    {
+      "t": "p",
+      "uk": "Ідентифікація гостя на касі робиться через QR-код, який бот показує на екрані, або через короткий числовий код. Бариста сканує - бонуси нараховані, історія оновлена. Якщо гість замовляв через бота з оплатою онлайн, нічого сканувати не треба взагалі: покупка привʼязується автоматично.",
+      "en": "Identifying the guest at the counter works through a QR code the bot shows on screen, or through a short numeric code. The barista scans it, points are credited and history is updated. If the guest ordered through the bot with online payment, nothing needs scanning at all: the purchase is linked automatically."
+    },
+    {
+      "t": "h2",
+      "uk": "Бонуси і знижки, які реально впливають на повернення клієнтів",
+      "en": "Bonuses and discounts that genuinely drive customer return"
+    },
+    {
+      "t": "p",
+      "uk": "Загальна розсилка «у нас знижка» майже не працює і швидко призводить до відписок. Працює персоналізація на основі даних, які бот уже зібрав. Гість, який не заходив 14 днів, отримує повідомлення з конкретною пропозицією і терміном дії 48 годин. Той, хто бере лише еспресо, отримує пробний десерт за півціни.",
+      "en": "A blanket «we have a discount» blast barely works and quickly drives unsubscribes. What works is personalisation based on data the bot has already collected. A guest who has not visited for 14 days gets a message with a specific offer valid for 48 hours. Someone who only buys espresso gets a trial dessert at half price."
+    },
+    {
+      "t": "p",
+      "uk": "Сегменти будуються автоматично: нові гості з однією покупкою, регулярні з трьома і більше візитами на тиждень, ті, хто зник, і ті, хто купує тільки у вихідні. Для кожного сегмента - свій сценарій і своя ставка знижки. Реактиваційна розсилка по «сплячих» гостях зазвичай повертає 8-15 відсотків бази, і це найдешевший спосіб додати чеків.",
+      "en": "Segments are built automatically: new guests with a single purchase, regulars with three or more visits a week, lapsed customers, and weekend-only buyers. Each segment gets its own scenario and its own discount rate. A reactivation campaign to «sleeping» guests typically brings back 8 to 15 percent of the base, and it is the cheapest way to add receipts."
+    },
+    {
+      "t": "p",
+      "uk": "Сюди ж логічно вбудовується збір відгуків. Через 20-30 хвилин після видачі замовлення бот питає оцінку від одного до пʼяти. Оцінки чотири і пʼять ведуть на сторінку відгуків у картці закладу, оцінки один-три падають менеджеру в чат разом з деталями замовлення і зміною. Так негатив розбирається за годину, а не через тиждень у публічному коментарі.",
+      "en": "Feedback collection fits naturally here. Twenty to thirty minutes after the order is handed over, the bot asks for a rating from one to five. Ratings of four and five lead to the review page of the venue's listing, while ratings of one to three go straight to the manager's chat along with order details and the shift. Negative feedback gets handled within an hour rather than a week later in a public comment."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграція з касою і налаштування: що входить у роботу",
+      "en": "Till integration and setup: what the work involves"
+    },
+    {
+      "t": "p",
+      "uk": "Без звʼязку з касовою системою бот залишається окремою іграшкою, а бариста веде подвійний облік. Тому налаштування починається з інтеграції: Poster, SmartTouch, Syrve чи інша система віддають меню, ціни і стоп-лист, а бот повертає замовлення і списання бонусів. Якщо у власника вже є CRM, дані про гостя і його покупки лягають туди.",
+      "en": "Without a link to the till system the bot stays a separate toy and the barista keeps duplicate records. So setup starts with integration: Poster, SmartTouch, Syrve or another system supplies the menu, prices and stop list, while the bot sends back orders and point redemptions. If the owner already has a CRM, guest and purchase data flows there."
+    },
+    {
+      "t": "p",
+      "uk": "Далі йде адмінка. Власник має сам змінювати ціни, ховати позиції, які закінчилися, редагувати умови лояльності, запускати розсилки і дивитися статистику: кількість замовлень, середній чек через бота, частку повторних покупок. Усе це має бути доступно без розробника, інакше проєкт зупиниться на другому місяці.",
+      "en": "Next comes the admin panel. The owner must be able to change prices, hide sold-out items, edit loyalty terms, launch campaigns and view statistics: order count, average bot receipt, share of repeat purchases. All of this has to work without a developer, otherwise the project stalls in month two."
+    },
+    {
+      "t": "p",
+      "uk": "За строками базовий бот із меню, замовленням наперед і накопичувальною карткою займає близько двох-трьох тижнів. Версія з оплатою онлайн, сегментами, автоматичними сценаріями і повною інтеграцією з касою - приблизно пʼять-шість тижнів. Перший місяць після запуску завжди йде на донастройку: слоти, тексти повідомлень, ставка бонусів. У Devlly ми робимо такі боти під конкретну кавʼярню, а не з готового конструктора, тому логіка лояльності і робота баристи описуються так, як вони влаштовані у вас.",
+      "en": "On timelines, a basic bot with a menu, pre-orders and a stamp card takes about two to three weeks. A version with online payment, segments, automated scenarios and full till integration takes roughly five to six weeks. The first month after launch always goes into fine-tuning: slots, message copy, point accrual rates. At Devlly we build such bots for a specific coffee shop rather than from an off-the-shelf builder, so the loyalty logic and the barista workflow are described the way they actually work in your venue."
+    }
+  ]
+}

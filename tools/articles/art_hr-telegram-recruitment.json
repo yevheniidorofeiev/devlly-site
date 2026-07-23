@@ -1,0 +1,97 @@
+{
+  "title_uk": "Як автоматизувати підбір персоналу через Telegram",
+  "title_en": "How to automate recruitment through Telegram",
+  "desc_uk": "Як Telegram-бот збирає анкети кандидатів, фільтрує їх і передає HR-менеджеру тільки відповідних. Економія до 80% часу на первинний відбір.",
+  "desc_en": "How a Telegram bot collects candidate applications, filters them and passes only the relevant ones to the HR manager. Up to 80% saved on primary screening.",
+  "cta_uk": "Потрібна HR автоматизація? Пишіть нам",
+  "cta_en": "Need HR automation? Get in touch",
+  "seo": {
+    "t": "Автоматизація підбору персоналу через Telegram | Devlly",
+    "te": "Recruitment automation through Telegram | Devlly",
+    "d": "Як Telegram-бот збирає анкети кандидатів, фільтрує їх і передає HR-менеджеру тільки відповідних. Економія до 80% часу на первинний відбір.",
+    "de": "How a Telegram bot collects candidate applications, filters them and passes only the relevant ones to the HR manager. Up to 80% saved on primary screening.",
+    "k": "підбір персоналу через telegram, автоматизація підбору персоналу, telegram бот для рекрутингу, hr бот, відбір кандидатів, автоматизація рекрутингу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Підбір персоналу через Telegram - це не модна іграшка, а спосіб перестати витрачати робочий день рекрутера на механіку. У середньому на одну вакансію в малому бізнесі приходить 40-80 відгуків, і 70 відсотків з них відсіюються ще на первинному етапі: не той досвід, не те місто, зарплатні очікування вдвічі вищі за бюджет. Проблема в тому, що ці 70 відсотків усе одно доводиться прочитати вручну. Telegram-бот бере цю рутину на себе: збирає структуровану анкету, відсіює невідповідних за жорсткими правилами й передає HR-менеджеру тільки тих, з ким справді варто говорити. Розберімо, як це працює на практиці.",
+      "en": "Recruitment through Telegram is not a trendy toy but a way to stop burning a recruiter's working day on mechanics. On average a single vacancy in a small business gets 40-80 applications, and 70 percent of them are filtered out at the primary stage: wrong experience, wrong city, salary expectations twice the budget. The trouble is that these 70 percent still have to be read by hand. A Telegram bot takes this routine off you: it collects a structured application, screens out the unsuitable ones by hard rules and passes only the people worth talking to on to the HR manager. Let's look at how it works in practice."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому підбір персоналу гальмує саме на первинному відборі",
+      "en": "Why recruitment stalls precisely at primary screening"
+    },
+    {
+      "t": "p",
+      "uk": "Уявіть звичайну вакансію менеджера з продажу. Ви публікуєте оголошення в кількох каналах: на майданчику з вакансіями, у профільному Telegram-чаті, у себе на сторінці. Відгуки летять у три різні місця - на пошту, у приватні повідомлення й у коментарі під постом. Уже на цьому кроці рекрутер починає програвати: немає єдиного списку, половину кандидатів забувають, а на питання «скільки людей ми зараз розглядаємо» ніхто не відповість. Кожен відгук треба відкрити, прочитати резюме, зрозуміти, чи підходить людина, і написати їй хоча б два речення. На 60 відгуків це три-чотири години суцільної механіки, більшість якої закінчується відмовою.",
+      "en": "Picture an ordinary sales manager vacancy. You post the ad in several channels: a job board, a niche Telegram chat, your own page. Applications fly into three different places - email, private messages and comments under the post. Already at this step the recruiter starts losing: there is no single list, half the candidates are forgotten, and nobody can answer 'how many people are we currently reviewing.' Each application has to be opened, the CV read, the fit assessed, and at least two sentences written back. For 60 applications that is three to four hours of solid mechanics, most of which ends in a rejection."
+    },
+    {
+      "t": "p",
+      "uk": "Найдорожче тут не час сам по собі, а те, що цей час забирає найкваліфікованіша людина в процесі. Рекрутер чи власник, який мав би вести співбесіди й закривати оффери, замість цього сортує потік. І що більший потік, то гірша якість сортування: на тридцятому резюме увага падає, і сильного кандидата легко пропустити просто через втому. Автоматизація підбору персоналу вирішує саме цю проблему - вона забирає з людини одноманітну частину й лишає їй те, де людина справді потрібна: розмову, оцінку, рішення.",
+      "en": "The most expensive thing here is not the time itself, but that this time is taken from the most qualified person in the process. The recruiter or owner who should be running interviews and closing offers is instead sorting the flow. And the bigger the flow, the worse the sorting quality: by the thirtieth CV attention drops, and a strong candidate is easy to miss purely out of fatigue. Recruitment automation solves exactly this problem - it takes the monotonous part off the person and leaves them what a human is truly needed for: the conversation, the judgement, the decision."
+    },
+    {
+      "t": "h2",
+      "uk": "Як Telegram-бот збирає анкети кандидатів замість пошти",
+      "en": "How a Telegram bot collects candidate applications instead of email"
+    },
+    {
+      "t": "p",
+      "uk": "Зміна проста, але вона перевертає весь процес: в оголошенні ви даєте не пошту й не «пишіть у дірект», а посилання на Telegram-бота. Кандидат тисне «Старт», і бот веде його коротким структурованим опитуванням. Сім-вісім питань, не більше: місто й формат роботи, років досвіду в потрібній сфері, ключовий інструмент або навичка, зарплатні очікування, коли готовий вийти, два-три речення про останній проєкт і контакт для звʼязку. Кожна відповідь - це не вільний твір «розкажіть про себе», а конкретне поле, яке можна порівнювати між кандидатами й фільтрувати автоматично.",
+      "en": "The change is simple but it flips the whole process: in the ad you give not an email and not 'message me in DM,' but a link to a Telegram bot. The candidate taps 'Start,' and the bot walks them through a short structured survey. Seven or eight questions, no more: city and work format, years of experience in the relevant field, the key tool or skill, salary expectations, earliest start date, two or three sentences about their last project, and a contact. Each answer is not a free-form 'tell us about yourself' essay but a specific field that can be compared across candidates and filtered automatically."
+    },
+    {
+      "t": "p",
+      "uk": "Для кандидата такий формат навіть зручніший за пошту: не треба складати супровідний лист, згадувати, куди відправляти резюме, і чекати тижнями невідомо чого. Він відповідає на питання прямо в месенджері, яким і так користується щодня, і за дві хвилини заявка готова. Для бізнесу вигода ще більша: усі анкети падають в один список у єдиному форматі. Ви бачите не хаос із пошти й коментарів, а таблицю, де в кожного кандидата однакові поля, і її можна сортувати, фільтрувати й рахувати. Бот при цьому працює цілодобово - людина, яка побачила вакансію об одинадцятій вечора, залишає анкету одразу, а не «завтра, коли буде час», якого зазвичай не буває.",
+      "en": "For the candidate this format is even more convenient than email: no need to compose a cover letter, remember where to send the CV, and wait for weeks for who-knows-what. They answer questions right in the messenger they already use daily, and in two minutes the application is done. For the business the benefit is greater still: all applications land in one list in a single format. You see not the chaos of email and comments but a table where every candidate has the same fields, and it can be sorted, filtered and counted. Meanwhile the bot works around the clock - a person who saw the vacancy at eleven in the evening leaves an application right away, not 'tomorrow when there is time,' which usually never comes."
+    },
+    {
+      "t": "h2",
+      "uk": "Фільтрація кандидатів за жорсткими критеріями",
+      "en": "Filtering candidates by hard criteria"
+    },
+    {
+      "t": "p",
+      "uk": "Тут починається головна економія. У кожної вакансії є кілька умов, які не обговорюються: мінімальний досвід, місто чи можливість віддаленої роботи, стеля зарплатних очікувань, іноді конкретна навичка на кшталт знання певної програми. Бот перевіряє відповіді за цими правилами одразу після заповнення анкети. Якщо людина не проходить за жорстким критерієм - досвід менший за потрібний, місто не те, очікування вище бюджету - вона отримує ввічливу автоматичну відмову й не потрапляє у ваш список. Це не грубість, це чесність: кандидат дізнається про невідповідність за хвилину, а не через два тижні мовчання, після яких у нього залишається лише роздратування вашою компанією.",
+      "en": "This is where the main saving begins. Every vacancy has a few non-negotiable conditions: minimum experience, city or the option of remote work, a ceiling on salary expectations, sometimes a specific skill like knowing a particular piece of software. The bot checks the answers against these rules right after the application is filled in. If a person fails a hard criterion - less experience than required, wrong city, expectations above budget - they receive a polite automatic rejection and do not enter your list. This is not rudeness, it is honesty: the candidate learns about the mismatch within a minute rather than after two weeks of silence that leaves them with nothing but irritation at your company."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо не перестаратися з фільтром. Жорсткі критерії - це справді жорсткі, обʼєктивні умови, а не «здається, недостатньо мотивований». Мотивацію, культурну відповідність і потенціал оцінює людина на співбесіді, і саме заради цієї оцінки ви й звільняєте рекрутеру час. Бот відповідає лише за формальний зріз: підходить за базовими параметрами чи ні. Такий поділ праці працює найкраще - машина робить те, що піддається чітким правилам, людина робить те, де потрібне судження. У результаті з умовних сорока відгуків до рекрутера доходить вісім-десять релевантних, і кожен з них уже відповідає базовим вимогам.",
+      "en": "It is important not to overdo the filter. Hard criteria are genuinely hard, objective conditions, not 'seems not motivated enough.' Motivation, cultural fit and potential are assessed by a human at the interview, and it is precisely for that assessment that you are freeing up the recruiter's time. The bot is responsible only for the formal cut: does the person meet the basic parameters or not. This division of labour works best - the machine does what yields to clear rules, the human does what requires judgement. As a result, of a notional forty applications eight to ten relevant ones reach the recruiter, and each already meets the basic requirements."
+    },
+    {
+      "t": "h2",
+      "uk": "Що отримує HR-менеджер: готова картка замість сирого потоку",
+      "en": "What the HR manager gets: a ready card instead of a raw flow"
+    },
+    {
+      "t": "p",
+      "uk": "Коли кандидат пройшов фільтр, HR-менеджеру не потрібно нікуди йти й нічого відкривати. Бот сам надсилає йому коротку картку прямо в Telegram: імʼя, місто, досвід, ключова навичка, зарплатні очікування й три рядки про останній проєкт. Одного погляду достатньо, щоб зрозуміти, кликати людину на співбесіду чи ні. Тут же, в одне натискання, менеджер ставить статус: запросити, подумати, відмовити. Усе рішення займає секунди, а не хвилини гортання пошти. Паралельно кандидат автоматично зʼявляється в загальному списку зі статусом, датою й відповідальним, тож у команди завжди є актуальна картина воронки найму.",
+      "en": "When a candidate passes the filter, the HR manager does not need to go anywhere or open anything. The bot sends them a short card right in Telegram: name, city, experience, key skill, salary expectations, and three lines about their last project. A single glance is enough to decide whether to call the person for an interview. Right there, in one tap, the manager sets a status: invite, think, reject. The whole decision takes seconds, not minutes of scrolling through email. In parallel the candidate automatically appears in the shared list with a status, date and owner, so the team always has an up-to-date picture of the hiring funnel."
+    },
+    {
+      "t": "p",
+      "uk": "Дані з бота при цьому не залишаються замкненими в месенджері. Їх легко відправляти далі - у Google Таблицю, у вашу CRM або в просту базу кандидатів. Так у вас накопичується історія: хто відгукувався півроку тому, кого відхилили й чому, кого варто покликати знову, коли відкриється схожа вакансія. Це перетворює найм із разових авралів на керований процес, у якому кожен наступний пошук стартує не з нуля, а з уже зібраної бази.",
+      "en": "The data from the bot does not stay locked inside the messenger. It is easy to send onward - into a Google Sheet, into your CRM, or into a simple candidate database. That way you accumulate history: who applied six months ago, who was rejected and why, who is worth calling back when a similar vacancy opens. This turns hiring from one-off scrambles into a managed process where every next search starts not from scratch but from an already collected base."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки часу економить автоматизація підбору персоналу",
+      "en": "How much time recruitment automation saves"
+    },
+    {
+      "t": "p",
+      "uk": "Порахуймо чесно. До автоматизації первинний відбір на одну вакансію - це умовно чотири години рекрутера: прочитати кожен відгук, відсіяти більшість, написати відмови, звести відповідних у список. Після - бот збирає й фільтрує потік сам, а рекрутер витрачає близько сорока хвилин на перегляд десяти готових карток і запрошення потрібних людей. Це і є та економія до 80 відсотків часу на первинному етапі, про яку ми говоримо: не магія, а просто зняття механічної роботи з людини. На дистанції в кілька вакансій на місяць це вивільняє рекрутеру цілі робочі дні.",
+      "en": "Let's count honestly. Before automation, primary screening for one vacancy is a notional four hours of a recruiter's time: read every application, filter out most, write rejections, compile the suitable ones into a list. After, the bot collects and filters the flow itself, and the recruiter spends about forty minutes reviewing ten ready cards and inviting the right people. That is the up-to-80-percent time saving at the primary stage we are talking about: not magic, just taking the mechanical work off the person. Over several vacancies a month it frees up whole working days for the recruiter."
+    },
+    {
+      "t": "p",
+      "uk": "Не менш важлива й друга частина ефекту - швидкість і враження кандидата. Сильні спеціалісти на ринку не чекають: якщо ви відповідаєте на четвертий день, їх уже покликали в іншу компанію. Бот дає миттєву реакцію - людина заповнила анкету й одразу отримала або відмову, або наступний крок. Це підвищує вашу конверсію з відгуку в співбесіду й формує репутацію роботодавця, який поважає час людей. Саме такі рішення ми в Devlly і будуємо: Telegram-бот для підбору персоналу під конкретні вакансії й процеси компанії, з фільтрами, картками для HR і вивантаженням даних туди, де вам зручно з ними працювати.",
+      "en": "No less important is the second part of the effect - speed and the candidate's impression. Strong specialists on the market do not wait: if you reply on the fourth day, they have already been invited by another company. The bot gives an instant reaction - a person filled in the application and immediately got either a rejection or the next step. This raises your application-to-interview conversion and builds the reputation of an employer who respects people's time. These are exactly the solutions we build at Devlly: a Telegram recruitment bot tailored to a company's specific vacancies and processes, with filters, cards for HR and data export to wherever it is convenient for you to work with it."
+    }
+  ]
+}

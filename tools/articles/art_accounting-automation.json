@@ -1,0 +1,97 @@
+{
+  "title_uk": "Автоматизація бухгалтерії для малого бізнесу через Telegram",
+  "title_en": "Accounting automation for small business through Telegram",
+  "date_uk": "21 ТРА 2026",
+  "date_en": "MAY 21, 2026",
+  "desc_uk": "Як вести облік витрат і доходів одним рядком у чаті, розпізнавати чеки з фото, підтягувати виписку з банку та бачити касовий розрив за два тижні до того, як він настане.",
+  "desc_en": "How to track expenses and income with one line in a chat, recognize receipts from photos, pull in bank statements, and see a cash gap two weeks before it hits.",
+  "seo": {
+    "t": "Автоматизація бухгалтерії для малого бізнесу через Telegram | Devlly",
+    "te": "Accounting automation for small business through Telegram | Devlly",
+    "d": "Автоматизація бухгалтерії в Telegram: облік витрат і доходів, фото чека, імпорт виписки Monobank, звіти в чат і контроль касового розриву для ФОП.",
+    "de": "Accounting automation in Telegram: expense and income tracking, receipt photos, Monobank statement import, in-chat reports, and cash gap control for small business.",
+    "k": "автоматизація бухгалтерії, облік витрат і доходів, бухгалтерія для фоп, фінансовий облік бізнесу, касовий розрив, telegram бот для обліку"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Майже кожен малий бізнес в Україні проходить один і той самий шлях: спочатку витрати «десь у голові», потім таблиця, яку заповнюють наприкінці місяця по чеках із кишені, а потім усвідомлення, що цифри в цій таблиці не мають нічого спільного з реальністю. Причина не в лінощах власника, а в тому, що облік вимагає дії саме тоді, коли ти зайнятий: платиш постачальнику, стоїш на касі, домовляєшся з клієнтом. Відкладена на вечір операція просто не буде записана. Автоматизація бухгалтерії розв’язує цю проблему з іншого боку - вона робить запис витрати справою п’яти секунд у Telegram, який і так відкритий у вас на телефоні.",
+      "en": "Almost every small business in Ukraine goes down the same path: first the expenses live «somewhere in my head», then in a spreadsheet filled in at the end of the month from receipts in a pocket, and then comes the realization that the numbers in that spreadsheet have nothing to do with reality. The reason isn’t the owner’s laziness - it’s that bookkeeping demands action exactly when you are busy: paying a supplier, standing at the till, negotiating with a client. An operation postponed until the evening simply never gets written down. Accounting automation solves this from the other side: it turns recording an expense into a five-second act in Telegram, which is already open on your phone anyway."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому Excel наприкінці місяця - це не фінансовий облік бізнесу",
+      "en": "Why an end-of-month spreadsheet is not real business financial tracking"
+    },
+    {
+      "t": "p",
+      "uk": "Таблиця, яку заповнюють раз на місяць, має три вади, і всі три критичні. Перша - вона неповна: за тридцять днів забувається половина дрібних витрат, а саме з дрібниць складається та сама «незрозуміло куди зникли гроші» сума в кілька десятків тисяч гривень на рік. Друга - вона запізніла: ви дізнаєтеся про перевитрату 5 червня за травень, коли вплинути на травень уже неможливо. Третя - вона мертва: цифри в ній ніхто не аналізує, бо витягувати з них висновки вручну довго й нецікаво. У підсумку такий облік витрат і доходів існує лише для того, щоб раз на квартал віддати щось бухгалтеру, а не для того, щоб ухвалювати рішення.",
+      "en": "A spreadsheet filled in once a month has three flaws, and all three are critical. First, it is incomplete: over thirty days you forget half of the small expenses - and it is precisely those small items that add up to the famous «no idea where the money went» sum of tens of thousands of hryvnia a year. Second, it is late: you learn about overspending on June 5th for the month of May, when May can no longer be influenced. Third, it is dead: nobody analyzes the numbers in it, because pulling conclusions out of them by hand is slow and boring. As a result, this kind of expense and income tracking exists only to hand something over to the accountant once a quarter, not to make decisions."
+    },
+    {
+      "t": "p",
+      "uk": "Робочий облік має дві властивості: запис відбувається в момент операції й забирає секунди, а звіт доступний будь-коли без зусиль. Telegram-бот закриває обидві. Ви платите за бензин на заправці й одразу пишете в чат: «500 паливо». Бот розпізнає суму, категорію, ставить дату й підтверджує записом на кшталт «Витрата 500 грн, категорія Паливо, залишок бюджету на паливо цього місяця 3 200 грн». Три секунди - і операція в базі. Дохід записується так само: «+12000 клієнт Іванов передплата». Ніяких застосунків, які треба спеціально відкривати, ніяких форм із десятьма полями. Саме низький поріг дії робить облік регулярним, а регулярність - єдине, що взагалі перетворює цифри на щось корисне.",
+      "en": "Working bookkeeping has two properties: the entry happens at the moment of the transaction and takes seconds, and the report is available at any time with no effort. A Telegram bot covers both. You pay for fuel at the station and immediately type into the chat: «500 fuel». The bot recognizes the amount and the category, stamps the date, and confirms with something like «Expense 500 UAH, category Fuel, remaining fuel budget this month 3,200 UAH». Three seconds and the transaction is in the database. Income is recorded the same way: «+12000 client Ivanov prepayment». No apps you have to open on purpose, no forms with ten fields. It is exactly this low barrier to action that makes bookkeeping regular - and regularity is the only thing that turns numbers into something useful at all."
+    },
+    {
+      "t": "h2",
+      "uk": "Фото чека, категорії витрат і бюджети",
+      "en": "Receipt photos, expense categories, and budgets"
+    },
+    {
+      "t": "p",
+      "uk": "Не завжди зручно навіть писати рядок - іноді простіше сфотографувати чек. Бот приймає фото, розпізнає на ньому суму, дату й назву продавця, пропонує категорію та просить лише підтвердити кнопкою. Оригінал зберігається, тож наприкінці кварталу не треба шукати вицвілий папірець у бардачку: усі первинні документи вже лежать прив’язані до операцій. Той самий сценарій працює з накладними й рахунками у PDF, які приходять від постачальників у той самий Telegram - переслали боту, і витрата зафіксована. Це знімає головний аргумент проти обліку: «у мене немає часу це записувати». Часу справді немає, але одне фото ви зробити встигаєте.",
+      "en": "Sometimes even typing a line is inconvenient - it is easier to photograph the receipt. The bot accepts the photo, recognizes the amount, the date, and the merchant name on it, suggests a category, and only asks you to confirm with a button. The original is stored, so at the end of the quarter you don’t have to hunt for a faded slip of paper in the glovebox: all the source documents are already attached to their transactions. The same scenario works with invoices and bills in PDF that suppliers send to that same Telegram - forward it to the bot and the expense is recorded. This removes the main argument against bookkeeping: «I don’t have time to write it down.» There really is no time, but you do have time to take one photo."
+    },
+    {
+      "t": "p",
+      "uk": "Категорії - це те, заради чого все затівалося. Десять-п’ятнадцять категорій цілком достатньо для малого бізнесу: закупівля товару, оренда, зарплати, реклама, паливо, зв’язок, податки, комісії, обладнання, інше. Коли кожна операція має категорію, ви нарешті бачите структуру витрат, а не одну суму «мінус 340 тисяч за місяць». На категорії ставляться бюджети - наприклад, реклама 25 тисяч на місяць. Бот попереджає, коли витрачено 80% ліміту, і ще раз, коли ліміт перевищено. Це не бюрократія, а простий механізм, який зупиняє тихе розповзання витрат. Головна помилка новачків - заводити п’ятдесят категорій «щоб точніше». Через два тижні ви почнете плутатися, а потім кинете. Краще десять категорій, які ви реально ведете, ніж п’ятдесят, які ви ведете місяць.",
+      "en": "Categories are the whole point of the exercise. Ten to fifteen categories are quite enough for a small business: goods purchasing, rent, salaries, advertising, fuel, communications, taxes, fees, equipment, other. When every transaction has a category, you finally see the structure of your spending rather than a single figure of «minus 340 thousand this month». Budgets are attached to categories - advertising, say, 25 thousand a month. The bot warns you when 80% of the limit is spent, and again when the limit is exceeded. This isn’t bureaucracy but a simple mechanism that stops the quiet creep of expenses. The main beginner mistake is creating fifty categories «to be more precise». Two weeks later you get confused, and then you quit. Ten categories you actually maintain beat fifty you maintain for a month."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматичний імпорт виписки з банку і звіти прямо в чат",
+      "en": "Automatic bank statement import and reports right in the chat"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільша частина операцій у бізнесу проходить через банк, тож найбільша частина обліку може взагалі не потребувати вашої участі. Monobank має відкритий API: бот підключається до рахунку ФОП і отримує кожну транзакцію в момент, коли вона сталася. Надходження від клієнта, оплата постачальнику, комісія, зняття готівки - усе це падає в базу автоматично, із сумою, датою й контрагентом. Далі спрацьовують правила: якщо в описі «ТОВ Аврора» - це закупівля товару, якщо «Facebook» - реклама, якщо надходження від відомого клієнта - дохід за категорією «послуги». Незрозумілі операції бот не вигадує, а надсилає вам питанням із кнопками категорій. Так у чат прилітає п’ять-сім запитань на день замість сотні рядків, які треба вбивати руками.",
+      "en": "The largest share of a business’s transactions goes through the bank, which means the largest share of bookkeeping may not need your involvement at all. Monobank has an open API: the bot connects to the business account and receives every transaction the moment it happens. An incoming payment from a client, a payment to a supplier, a fee, a cash withdrawal - all of it lands in the database automatically, with amount, date, and counterparty. Then the rules kick in: if the description says «Aurora Ltd» it is a goods purchase, if it says «Facebook» it is advertising, if it is an incoming payment from a known client it is income in the «services» category. The bot doesn’t invent the unclear ones - it sends them to you as a question with category buttons. So five to seven questions a day arrive in the chat instead of a hundred rows to type in by hand."
+    },
+    {
+      "t": "p",
+      "uk": "Звіт живе там само, де й облік. Пишете боту «день» - отримуєте скільки прийшло, скільки пішло, чистий результат і топ витрат. «Тиждень» - те саме плюс порівняння з попереднім тижнем. «Місяць» - повна розкладка за категоріями, динаміка, найбільші контрагенти, виконання бюджетів. Ніяких вивантажень, зведених таблиць і побудови графіків руками: питання в чат, відповідь за секунду. Окремо варто налаштувати розділення особистих і бізнесових грошей - це болюча точка майже кожного ФОП. Коли з підприємницької картки оплачується і сировина, і продукти додому, звіт перетворюється на сміття. Рішення просте: помічати особисті витрати окремою категорією або тегом, і бот вважатиме їх виведенням прибутку, а не витратами бізнесу. Тоді ви бачите реальну маржу, а не оптимістичну.",
+      "en": "The report lives in the same place as the bookkeeping. Type «day» to the bot and you get how much came in, how much went out, the net result, and the top expenses. «Week» - the same plus a comparison with the previous week. «Month» - a full breakdown by category, the trend, the biggest counterparties, budget performance. No exports, no pivot tables, no charts built by hand: a question in the chat, an answer in a second. Separately, it is worth setting up a split between personal and business money - a sore point for almost every sole proprietor. When the business card pays for both raw materials and groceries for home, the report turns to garbage. The fix is simple: mark personal spending with a separate category or tag, and the bot will treat it as profit withdrawal rather than a business expense. Then you see the real margin, not the optimistic one."
+    },
+    {
+      "t": "h2",
+      "uk": "Касовий розрив: побачити за два тижні, а не в день Х",
+      "en": "The cash gap: seeing it two weeks ahead, not on the day it hits"
+    },
+    {
+      "t": "p",
+      "uk": "Прибутковий бізнес може померти від нестачі готівки - це найпоширеніша причина закриття малих компаній. Схема класична: гроші заморожені в товарі й дебіторці, а 20 числа треба заплатити оренду, зарплати й податки. Формально ви в плюсі, фактично на рахунку порожньо. Коли всі операції вже в системі, її можна навчити дивитися вперед: вона знає ваші регулярні платежі (оренда, зарплати, ЄСВ, єдиний податок, підписки), знає очікувані надходження за виставленими рахунками й будує простий прогноз на 30-60 днів. Якщо в якийсь день баланс іде в мінус, бот попереджає заздалегідь: «19 червня очікується розрив приблизно 40 тисяч». Два тижні форою - це достатньо, щоб домовитися про відстрочку, підтягнути дебіторку чи посунути закупівлю. У день Х це вже неможливо.",
+      "en": "A profitable business can die from a lack of cash - the most common reason small companies close. The pattern is classic: money is frozen in inventory and receivables, while on the 20th you must pay rent, salaries, and taxes. Formally you are in the black; in practice the account is empty. Once every transaction is already in the system, it can be taught to look ahead: it knows your recurring payments (rent, salaries, social contributions, the single tax, subscriptions), knows the expected income from issued invoices, and builds a simple 30-60 day forecast. If the balance goes negative on some day, the bot warns you in advance: «On June 19 a gap of roughly 40 thousand is expected.» A two-week head start is enough to negotiate a deferral, chase receivables, or push a purchase back. On the day itself it is already too late."
+    },
+    {
+      "t": "p",
+      "uk": "Сюди ж логічно вбудовуються нагадування про податки. Бухгалтерія для ФОП тримається на кількох датах, які всі знають і всі забувають: єдиний податок до 20 числа щомісяця для третьої групи чи авансом для першої-другої, ЄСВ поквартально до 19 числа, декларація за квартал. Бот нагадує за тиждень і за день, показує суму до сплати з урахуванням вашого обороту й одразу дає реквізити. Одне таке нагадування, що врятувало від штрафу й пені, окуповує систему. Плюс ви перестаєте тримати ці дати в голові - а звільнена увага коштує дорожче за будь-який штраф.",
+      "en": "Tax reminders slot in naturally here as well. Accounting for a sole proprietor rests on a handful of dates everyone knows and everyone forgets: the single tax by the 20th each month for group three or in advance for groups one and two, social contributions quarterly by the 19th, and the quarterly declaration. The bot reminds you a week ahead and a day ahead, shows the amount due based on your turnover, and hands you the payment details right away. One such reminder that saves you from a fine and penalty interest pays for the whole system. On top of that you stop keeping these dates in your head - and the attention you free up is worth more than any fine."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому автоматизація бухгалтерії не замінює бухгалтера",
+      "en": "Why accounting automation doesn’t replace your accountant"
+    },
+    {
+      "t": "p",
+      "uk": "Тут важливо не обманювати себе. Бот не подасть за вас декларацію, не обере групу оподаткування, не відіб’ється від податкової й не візьме на себе відповідальність за помилку в звітності. Він робить іншу, дуже конкретну річ: доводить ваші дані до стану, у якому з ними можна працювати. Замість купи чеків, скріншотів і слів «ну там десь тисяч сорок було» бухгалтер отримує чисту вивантажену таблицю з датами, сумами, категоріями й прикріпленими первинними документами. Робота, яка займала в нього шість годин на місяць, займає одну. Це прямо конвертується в менший рахунок або в те, що бухгалтер нарешті займеться оптимізацією, а не сортуванням ваших папірців.",
+      "en": "It is important not to fool yourself here. A bot won’t file your declaration, won’t choose your tax group, won’t fend off the tax authority, and won’t take responsibility for an error in your reporting. It does a different, very specific thing: it brings your data to a state where it can actually be worked with. Instead of a pile of receipts, screenshots, and the phrase «well, it was around forty thousand or so», the accountant gets a clean exported table with dates, amounts, categories, and attached source documents. Work that used to take them six hours a month takes one. That converts directly into a smaller bill - or into the accountant finally doing optimization instead of sorting your paperwork."
+    },
+    {
+      "t": "p",
+      "uk": "Правильний спосіб дивитися на це такий: бухгалтер відповідає за відносини з державою, а система обліку - за ваші управлінські рішення. Держава хоче звіт раз на квартал, а вам потрібно знати, чи вигідний конкретний товар, чи не з’їдає реклама всю маржу і чи вистачить грошей на зарплати 15 числа. Ці два питання не перетинаються, і намагатися отримати відповідь на друге з квартальної декларації - марна справа. Такі рішення ми в Devlly і будуємо: Telegram-бот для щоденного обліку, інтеграція з банком, категорії, бюджети, звіти й прогноз касового розриву - під конкретний бізнес, а не універсальний шаблон. Почати можна з малого: два тижні записувати кожну витрату одним рядком у чат. Цього зазвичай достатньо, щоб побачити першу неприємну правду про свої гроші.",
+      "en": "The right way to look at it is this: the accountant is responsible for your relationship with the state, while the bookkeeping system is responsible for your management decisions. The state wants a report once a quarter; you need to know whether a particular product is profitable, whether advertising is eating the whole margin, and whether there will be enough money for salaries on the 15th. These two questions don’t overlap, and trying to answer the second one from a quarterly declaration is futile. These are exactly the solutions we build at Devlly: a Telegram bot for daily bookkeeping, bank integration, categories, budgets, reports, and a cash gap forecast - built around a specific business, not a universal template. You can start small: for two weeks, record every expense as a single line in a chat. That is usually enough to see the first uncomfortable truth about your money."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title_uk": "HR система для малого бізнесу: що потрібно і як обрати",
+  "title_en": "HR System for a Small Business: What You Need and How to Choose",
+  "desc_uk": "Яка HR система потрібна малому бізнесу: облік персоналу, відпустки, онбординг і рекрутинг. Готові рішення або розробка під ключ.",
+  "desc_en": "What HR system a small business actually needs: staff records, leave tracking, onboarding and recruiting. Off-the-shelf tools or a custom build.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "HR система для малого бізнесу: вибір і впровадження | Devlly",
+    "te": "HR System for Small Business: Choice and Rollout | Devlly",
+    "d": "Яка HR система потрібна малому бізнесу: облік персоналу, відпустки, онбординг і рекрутинг. Готові рішення або розробка під ключ.",
+    "de": "What HR system a small business actually needs: staff records, leave tracking, onboarding and recruiting. Off-the-shelf tools or a custom build.",
+    "k": "HR система для малого бізнесу, облік персоналу, облік відпусток, онбординг співробітників, рекрутинг, кадровий облік, автоматизація HR"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Поки в компанії пʼять людей, кадровий облік живе в голові власника і в одній таблиці. На двадцяти співробітниках таблиця перестає працювати: ніхто не памʼятає, скільки днів відпустки залишилось у менеджера і де лежить підписаний договір. Розберемо, які функції HR системи справді потрібні бізнесу на 5-50 осіб, а за які не варто платити.",
+      "en": "While a company has five people, HR records live in the ownerʼs head and in a single spreadsheet. At twenty employees the spreadsheet breaks down: nobody remembers how many vacation days a manager has left or where the signed contract is stored. Letʼs look at which HR features a business of 5-50 people actually needs, and which ones are not worth paying for."
+    },
+    {
+      "t": "h2",
+      "uk": "Яка HR система для малого бізнесу потрібна насправді",
+      "en": "What HR System a Small Business Really Needs"
+    },
+    {
+      "t": "p",
+      "uk": "Головна помилка на старті - вибирати систему за списком можливостей. Великі платформи продають десятки модулів: оцінка за компетенціями, KPI-матриці, кадровий резерв, аналітика плинності по відділах. Для команди з 15 осіб більшість цих модулів залишиться порожньою, але ви будете платити за них щомісяця і витратите тижні на налаштування.",
+      "en": "The main mistake at the start is choosing a system by its feature list. Large platforms sell dozens of modules: competency reviews, KPI matrices, talent pools, turnover analytics by department. For a team of 15 people most of those modules will stay empty, yet you will pay for them every month and spend weeks on setup."
+    },
+    {
+      "t": "p",
+      "uk": "Мінімально корисний набір виглядає простіше: єдина картка співробітника, історія посад і зарплат, облік відсутностей, зберігання документів, базовий процес найму та адаптації новачка. Цього достатньо, щоб закрити 90 відсотків щоденних питань, які зараз вирішуються повідомленнями в чаті. Все інше можна додати пізніше, коли команда виросте до сотні людей і зʼявиться окремий HR-відділ зі своїми вимогами до звітності.",
+      "en": "The minimum useful set looks simpler: a single employee profile, a history of roles and salaries, absence tracking, document storage, plus a basic hiring and onboarding process. That covers about 90 percent of the daily questions currently handled through chat messages. Everything else can be added later, when the team grows to a hundred people and a separate HR department appears with its own reporting needs."
+    },
+    {
+      "t": "p",
+      "uk": "Другий критерій - хто буде з цим працювати. У малому бізнесі рідко є окремий HR-менеджер, тому систему ведуть бухгалтер, офіс-менеджер або сам власник. Якщо внесення нового співробітника займає більше пʼяти хвилин, система не приживеться і за місяць повернеться та сама таблиця.",
+      "en": "The second criterion is who will actually use it. Small businesses rarely have a dedicated HR manager, so the system is maintained by an accountant, an office manager or the owner. If adding a new employee takes more than five minutes, the system will not stick and within a month the old spreadsheet is back."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік персоналу: одна картка замість пʼяти файлів",
+      "en": "Staff Records: One Profile Instead of Five Files"
+    },
+    {
+      "t": "p",
+      "uk": "Облік персоналу починається з картки співробітника. У ній мають бути контакти, дата виходу на роботу, посада, відділ, керівник, тип зайнятості, ставка та історія її змін. Окремо варто зберігати дані для розрахунків і реквізити, до яких є доступ лише у бухгалтерії. Права доступу продумують одразу: керівник відділу бачить свою команду, бухгалтер бачить цифри, а співробітник бачить лише власні дані.",
+      "en": "Staff records start with the employee profile. It should hold contacts, start date, role, department, manager, employment type, rate and the history of rate changes. Payroll data and bank details are stored separately, with access limited to the finance team. Access rights matter from day one: a department lead should see their team, an accountant should see the numbers, and an employee should see only their own data."
+    },
+    {
+      "t": "p",
+      "uk": "Історія важливіша, ніж здається. Коли через рік потрібно зрозуміти, з якого місяця людина працює на новій посаді і коли їй востаннє підвищували ставку, поле «поточна зарплата» не допоможе. Правильна структура зберігає кожну зміну з датою, підставою і автором запису.",
+      "en": "History matters more than it seems. When a year later you need to know since which month a person holds a new role and when their rate was last raised, a single «current salary» field will not help. A proper structure stores every change with a date, a reason and the author of the record."
+    },
+    {
+      "t": "p",
+      "uk": "Сюди ж належать документи: договори, накази, заяви, скани паспорта, NDA. Тримати їх у загальній хмарній папці небезпечно, бо доступ отримують випадкові люди. У системі документ привʼязаний до картки, має тип, дату і термін дії, а нагадування про закінчення договору приходить заздалегідь.",
+      "en": "Documents belong here too: contracts, orders, applications, ID scans, NDAs. Keeping them in a shared cloud folder is risky because random people gain access. In a system a document is attached to a profile, has a type, a date and an expiry, and a reminder about a contract ending arrives in advance."
+    },
+    {
+      "t": "h2",
+      "uk": "Відпустки і лікарняні: заявки, баланси, календар команди",
+      "en": "Vacations and Sick Leave: Requests, Balances, Team Calendar"
+    },
+    {
+      "t": "p",
+      "uk": "Це та частина, заради якої малий бізнес найчастіше і впроваджує систему. Схема робоча і проста: співробітник створює заявку, керівник підтверджує, баланс днів перераховується автоматично, а подія зʼявляється в спільному календарі. Ніяких листів у месенджері і жодних суперечок наприкінці року. Практика показує, що саме цей блок співробітники починають використовувати самі, без нагадувань, бо їм зручніше бачити залишок днів у себе в профілі, ніж питати про нього бухгалтерію.",
+      "en": "This is the part small businesses most often adopt a system for. The flow is simple and works: an employee submits a request, a manager approves it, the day balance recalculates automatically, and the event appears on a shared calendar. No messenger threads and no year-end arguments. In practice this is the block employees start using on their own, without reminders, because seeing the remaining balance in their profile is easier than asking the accountant about it."
+    },
+    {
+      "t": "p",
+      "uk": "Ключова деталь - правила нарахування. У більшості команд це 24 календарні дні на рік, тобто 2 дні на місяць, плюс окремо неоплачувані дні, лікарняні та відгули. Якщо система вміє рахувати кілька типів відсутностей за різними правилами, ви позбавляєтесь ручних перерахунків у грудні.",
+      "en": "The key detail is the accrual rules. In most teams it is 24 calendar days a year, that is 2 days per month, plus separate unpaid days, sick leave and time off. If the system can track several absence types under different rules, you get rid of manual recalculations in December."
+    },
+    {
+      "t": "p",
+      "uk": "Календар відсутностей корисний не лише HR. Керівник відділу бачить, що двоє з чотирьох розробників у відпустці в один тиждень, і планує реліз інакше. Для цього достатньо простого вигляду на місяць, де кожен рядок - людина, а кольорові смуги - типи відсутності.",
+      "en": "The absence calendar is useful beyond HR. A department lead sees that two of four developers are away in the same week and plans the release differently. A simple month view is enough, where each row is a person and coloured bars are absence types."
+    },
+    {
+      "t": "h2",
+      "uk": "Онбординг і рекрутинг: найм і перші тижні новачка",
+      "en": "Onboarding and Recruiting: Hiring and the First Weeks"
+    },
+    {
+      "t": "p",
+      "uk": "Рекрутинг у малому бізнесі рідко потребує повноцінної ATS. Достатньо списку вакансій, бази кандидатів і простої воронки з чотирьох-пʼяти етапів: відгук, скринінг, співбесіда, тестове, оферта. Головна цінність тут - історія комунікації, щоб через півроку знайти сильного кандидата, якому тоді відмовили. Корисно також фіксувати джерело кандидата і час проходження етапів: за пів року стає видно, які канали дають людей, а які лише забирають час на перегляд резюме.",
+      "en": "Recruiting in a small business rarely needs a full ATS. A list of openings, a candidate database and a simple four or five stage pipeline are enough: application, screening, interview, test task, offer. The main value here is the communication history, so that six months later you can find a strong candidate you turned down back then. It also helps to record the candidate source and the time spent at each stage: after half a year you can see which channels bring people and which only eat up CV screening time."
+    },
+    {
+      "t": "p",
+      "uk": "Онбординг варто описати як чек-лист із відповідальними. Типовий набір: підготувати робоче місце і техніку, видати доступи до пошти й таск-трекера, підписати документи, познайомити з командою, призначити наставника, зустріч зворотного звʼязку на 14 і 60 день. Кожен пункт має виконавця і дедлайн. Один і той самий чек-лист працює і у зворотний бік, коли людина звільняється: забрати техніку, закрити доступи, передати справи.",
+      "en": "Onboarding is best described as a checklist with owners. A typical set: prepare the workplace and hardware, grant access to email and the task tracker, sign documents, introduce the team, assign a mentor, and hold feedback meetings on day 14 and day 60. Every item has an owner and a deadline. The same checklist works in reverse when someone leaves: collect the hardware, close the accounts, hand over the work."
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація тут дає найшвидший ефект. Коли кандидат переходить у статус «прийнятий», система сама створює картку співробітника, запускає чек-лист і надсилає завдання адміністратору та керівнику. Замість години ручної роботи на кожного новачка залишається кілька хвилин на перевірку.",
+      "en": "Automation pays off fastest here. When a candidate moves to the «hired» status, the system creates the employee profile itself, launches the checklist and sends tasks to the admin and the manager. Instead of an hour of manual work per new hire you spend a few minutes on review."
+    },
+    {
+      "t": "h2",
+      "uk": "Готове рішення чи розробка: як спланувати впровадження",
+      "en": "Off-the-Shelf or Custom: How to Plan the Rollout"
+    },
+    {
+      "t": "p",
+      "uk": "Готовий сервіс виграє швидкістю: підписка, кілька днів на налаштування, і система працює. Це правильний вибір, якщо ваші процеси стандартні, а команда готова підлаштуватися під логіку продукту. Мінуси теж відомі: обмежені звіти, чужа структура даних і залежність від тарифу при зростанні штату. Варто одразу перевірити, чи можна вивантажити всі дані у зрозумілому форматі, якщо через рік ви вирішите переїхати на інше рішення.",
+      "en": "A ready-made service wins on speed: a subscription, a few days of setup, and the system runs. It is the right choice if your processes are standard and the team is ready to adapt to the productʼs logic. The downsides are known too: limited reports, someone elseʼs data structure and pricing tied to headcount growth. Check upfront whether you can export all the data in a readable format, in case you decide to move to another solution a year later."
+    },
+    {
+      "t": "p",
+      "uk": "Розробка під себе виправдана, коли є специфіка: змінний графік, робота з підрядниками, кілька юридичних осіб, інтеграція з обліковою системою або необхідність тримати персональні дані на власному сервері. Тоді система будується навколо ваших процесів, а не навпаки, і легко доростає до сусідніх задач.",
+      "en": "A custom build is justified when there are specifics: shift schedules, work with contractors, several legal entities, integration with an accounting system or a need to keep personal data on your own server. Then the system is built around your processes rather than the other way round, and it grows into adjacent tasks easily."
+    },
+    {
+      "t": "p",
+      "uk": "Незалежно від вибору, впровадження варто робити етапами. Спочатку перенесіть облік персоналу і документи, через два-три тижні додайте відпустки, і лише потім рекрутинг та онбординг. Так команда встигає звикнути, а ви бачите реальну користь ще до того, як витратили весь бюджет. Заплануйте також день на перенесення старих даних: зазвичай саме тут спливають дублі, порожні поля і договори, яких ніхто не може знайти. Якщо готові сервіси не покривають ваші процеси, а таблиці вже не тягнуть, є сенс подивитись у бік власного рішення. У Devlly ми розробляємо HR системи під конкретний бізнес: від картки співробітника й обліку відсутностей до онбордингу з нагадуваннями в Telegram та інтеграцій з вашими обліковими сервісами.",
+      "en": "Whatever you choose, roll it out in stages. First migrate staff records and documents, two or three weeks later add leave tracking, and only then recruiting and onboarding. This way the team gets used to it gradually and you see real value before the whole budget is spent. Plan a separate day for migrating the old data: this is usually where duplicates, empty fields and contracts nobody can find come to the surface. If ready-made services do not cover your processes and spreadsheets no longer cope, it makes sense to look at your own solution. At Devlly we build HR systems for a specific business: from employee profiles and absence tracking to onboarding with Telegram reminders and integrations with your accounting services."
+    }
+  ]
+}

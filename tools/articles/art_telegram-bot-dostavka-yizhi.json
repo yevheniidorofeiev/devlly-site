@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram бот для доставки їжі: як замінити колл-центр",
+  "title_en": "Telegram Bot for Food Delivery: How to Replace a Call Centre",
+  "desc_uk": "Як Telegram бот для доставки їжі приймає замовлення, підтверджує і відстежує доставку без операторів і дзвінків.",
+  "desc_en": "How a Telegram bot for food delivery takes orders, confirms them and tracks delivery without operators or phone calls.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для доставки їжі і ресторану | Devlly",
+    "te": "Telegram Bot for Food Delivery and Restaurants | Devlly",
+    "d": "Як Telegram бот для доставки їжі приймає замовлення, підтверджує і відстежує доставку без операторів і дзвінків.",
+    "de": "How a Telegram bot for food delivery takes orders, confirms them and tracks delivery without operators or phone calls.",
+    "k": "telegram бот для доставки їжі, бот для ресторану, автоматизація доставки, прийом замовлень у телеграм, бот замість колл-центру, чат-бот для доставки, замовлення їжі онлайн"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Колл-центр у доставці їжі - це найдорожча частина кожного замовлення. Оператор витрачає на дзвінок 3-5 хвилин, плутає адресу, не встигає у пікові години, а ввечері в пʼятницю частина клієнтів просто не додзвонюється і йде до конкурента. Telegram бот приймає ті самі замовлення цілодобово, без черги на лінії і без помилок у складі кошика.",
+      "en": "In food delivery, the call centre is the most expensive part of every order. An operator spends 3-5 minutes per call, mixes up addresses, cannot keep up during peak hours, and on a Friday evening part of your customers simply never get through and go to a competitor. A Telegram bot takes the same orders around the clock, with no queue on the line and no mistakes in the cart."
+    },
+    {
+      "t": "h2",
+      "uk": "Telegram бот для доставки їжі замість колл-центру",
+      "en": "A Telegram bot for food delivery instead of a call centre"
+    },
+    {
+      "t": "p",
+      "uk": "Порахуйте свою реальну вартість замовлення. Один оператор за зміну обробляє 60-90 дзвінків, працює у графіку змін, потребує навчання і заміни під час відпустки. Щоб закрити доставку з 10:00 до 23:00 сім днів на тиждень, потрібно щонайменше двоє-троє людей. Це фонд зарплати, робочі місця, телефонія і керівник, який усе це контролює.",
+      "en": "Work out your real cost per order. One operator handles 60-90 calls per shift, works in a rota, needs training and a stand-in during holidays. To cover delivery from 10:00 to 23:00 seven days a week you need at least two or three people. That means payroll, workstations, telephony and a manager who supervises all of it."
+    },
+    {
+      "t": "p",
+      "uk": "Найболючіше місце - пікові години. З 18:00 до 21:00 замовлення приходять хвилями, лінія зайнята, і клієнт чекає у черзі або кладе слухавку. Втрачений дзвінок у цей час коштує дорожче за всі інші, бо саме ввечері середній чек найвищий. Бот не має ліміту одночасних розмов: сто людей можуть збирати кошик у ту саму хвилину.",
+      "en": "The most painful spot is peak hours. Between 18:00 and 21:00 orders come in waves, the line is busy, and the customer either waits in a queue or hangs up. A lost call at that time costs more than any other, because the evening average order value is the highest. A bot has no limit on simultaneous conversations: a hundred people can build their carts in the same minute."
+    },
+    {
+      "t": "p",
+      "uk": "Бот не хворіє, не забуває запитати про соус і не змінює тон о десятій вечора. Він однаково точно приймає замовлення о другій ночі та в обід у неділю. Оператори при цьому не зникають повністю: зазвичай лишається одна людина на нестандартні випадки, великі корпоративні замовлення і скарги. Але рутину бот забирає майже цілком.",
+      "en": "A bot does not get sick, does not forget to ask about the sauce and does not change its tone at ten in the evening. It takes an order just as accurately at two in the morning as at lunchtime on Sunday. Operators do not disappear entirely: usually one person stays for non-standard cases, large corporate orders and complaints. But the bot takes over almost all of the routine."
+    },
+    {
+      "t": "h2",
+      "uk": "Меню і кошик у боті: як клієнт збирає замовлення",
+      "en": "Menu and cart in the bot: how the customer builds an order"
+    },
+    {
+      "t": "p",
+      "uk": "Меню в боті будується категоріями: піца, суші, сети, напої, десерти. Кожна позиція - це картка з фото, складом, вагою і ціною. Кнопками «плюс» і «мінус» клієнт змінює кількість, не виходячи з розділу. Позиції, яких немає на кухні сьогодні, менеджер ховає з адмінки за кілька секунд, і клієнт фізично не може їх замовити.",
+      "en": "The menu in the bot is built by categories: pizza, sushi, sets, drinks, desserts. Each item is a card with a photo, ingredients, weight and price. With plus and minus buttons the customer changes the quantity without leaving the section. Items the kitchen does not have today are hidden by the manager from the admin panel in a couple of seconds, and the customer physically cannot order them."
+    },
+    {
+      "t": "p",
+      "uk": "Кошик показує склад замовлення, суму і вартість доставки в реальному часі. Тут працюють модифікатори: додатковий сир, гострий соус, прибрати цибулю, кількість приборів. Якщо сума менша за мінімальну для району, бот одразу пише, скільки не вистачає, замість того щоб клієнт дізнався про це від оператора наприкінці розмови.",
+      "en": "The cart shows the order contents, the total and the delivery fee in real time. Modifiers work here: extra cheese, spicy sauce, no onion, number of sets of cutlery. If the total is below the minimum for the district, the bot immediately says how much is missing, instead of the customer hearing it from an operator at the end of the call."
+    },
+    {
+      "t": "p",
+      "uk": "Повторні клієнти - головна економія. Бот памʼятає останнє замовлення і пропонує повторити його однією кнопкою: типова доставка займає 30-40 секунд замість кількох хвилин розмови. Історія замовлень також дає базу для акцій: кому надіслати знижку на улюблену позицію, а кого повернути, якщо він не замовляв три місяці.",
+      "en": "Repeat customers are the main saving. The bot remembers the last order and offers to repeat it with one button: a typical order takes 30-40 seconds instead of several minutes of conversation. Order history also gives you a base for promotions: who should get a discount on a favourite item, and who should be won back after three months without an order."
+    },
+    {
+      "t": "h2",
+      "uk": "Адреса, зона доставки і оплата без операторів",
+      "en": "Address, delivery zone and payment without operators"
+    },
+    {
+      "t": "p",
+      "uk": "Адресу клієнт вводить сам або надсилає геолокацію в один дотик. Бот перевіряє координати за зонами доставки: зелена зона - безкоштовно, жовта - плюс фіксована сума, поза межами - ввічлива відмова з поясненням. Це знімає найтиповіший конфлікт, коли оператор прийняв замовлення, а курʼєр відмовився їхати за місто.",
+      "en": "The customer types the address or sends a location in one tap. The bot checks the coordinates against delivery zones: green zone is free, yellow zone adds a fixed fee, outside the coverage it politely declines with an explanation. This removes the most typical conflict, when an operator accepted the order and the courier then refused to drive out of town."
+    },
+    {
+      "t": "p",
+      "uk": "Збережені адреси працюють як у великих сервісів: «Дім», «Робота», «Батьки». Клієнт обирає потрібну зі списку і не диктує вулицю та номер квартири вдесяте. Поруч зберігається номер телефону, підʼїзд, поверх і код домофона - саме ті дані, які найчастіше губляться під час усного прийому замовлення.",
+      "en": "Saved addresses work like in the big services: Home, Work, Parents. The customer picks the right one from a list and does not dictate the street and flat number for the tenth time. Alongside it the bot stores the phone number, entrance, floor and door code - exactly the data that most often gets lost during a spoken order."
+    },
+    {
+      "t": "p",
+      "uk": "Оплата вбудовується прямо в бот: картка через платіжний провайдер, Apple Pay і Google Pay або готівка курʼєру. Онлайн-оплата дає передбачуваність - менше відмов на порозі та менше готівки в курʼєрів. Для корпоративних клієнтів можна додати оплату за рахунком, і бот сам сформує потрібні документи для бухгалтерії.",
+      "en": "Payment is built right into the bot: card through a payment provider, Apple Pay and Google Pay, or cash to the courier. Online payment brings predictability - fewer refusals at the door and less cash carried by couriers. For corporate clients you can add invoice payment, and the bot will generate the documents the accounting team needs."
+    },
+    {
+      "t": "h2",
+      "uk": "Підтвердження замовлення, кухня і курʼєр",
+      "en": "Order confirmation, the kitchen and the courier"
+    },
+    {
+      "t": "p",
+      "uk": "Одразу після оплати клієнт отримує підтвердження замовлення з номером, повним складом, адресою і орієнтовним часом готовності. Це не формальність: письмове підтвердження знімає більшість суперечок про те, що саме замовляли. Клієнт бачить свій кошик текстом і може одразу написати в бот, якщо помітив помилку, поки замовлення ще не пішло на кухню.",
+      "en": "Right after payment the customer gets an order confirmation with a number, the full contents, the address and an estimated ready time. This is not a formality: a written confirmation removes most disputes about what was actually ordered. The customer sees the cart as text and can message the bot immediately if there is a mistake, while the order has not yet gone to the kitchen."
+    },
+    {
+      "t": "p",
+      "uk": "Паралельно замовлення падає у робочий чат кухні або на екран у цеху: склад, модифікатори, час. Кухар нічого не переписує з паперу і не розбирає чужий почерк. Якщо на кухні затримка, кнопка «плюс 15 хвилин» одразу оновлює час у клієнта, і той не дзвонить дізнаватися, де їжа.",
+      "en": "In parallel the order lands in the kitchen work chat or on a screen in the prep area: items, modifiers, time. The cook copies nothing from paper and does not decipher someone else's handwriting. If the kitchen is running late, a plus fifteen minutes button instantly updates the time on the customer side, so they do not call to ask where the food is."
+    },
+    {
+      "t": "p",
+      "uk": "Курʼєри отримують свій потік: список вільних замовлень, кнопка «беру», адреса з посиланням на карту і сума до отримання, якщо оплата готівкою. Менеджер бачить у панелі, хто скільки взяв і де зараз затримка. Прості лічильники за днями показують реальний час від замовлення до передачі клієнту.",
+      "en": "Couriers get their own feed: a list of free orders, a take it button, the address with a map link and the amount to collect if payment is in cash. The manager sees in the panel who took how many orders and where the delay is right now. Simple daily counters show the real time from order to handover."
+    },
+    {
+      "t": "h2",
+      "uk": "Відстеження доставки і налаштування бота",
+      "en": "Delivery tracking and setting up the bot"
+    },
+    {
+      "t": "p",
+      "uk": "Відстеження доставки в боті - це ланцюжок статусів: прийнято, готується, передано курʼєру, в дорозі, доставлено. Кожна зміна приходить окремим повідомленням у той самий чат. Практика показує, що це прибирає до 70 відсотків уточнювальних дзвінків «а де моє замовлення», бо клієнт бачить прогрес без жодних зусиль.",
+      "en": "Delivery tracking in the bot is a chain of statuses: accepted, cooking, handed to courier, on the way, delivered. Each change arrives as a separate message in the same chat. In practice this removes up to 70 percent of the where is my order calls, because the customer sees progress with no effort at all."
+    },
+    {
+      "t": "p",
+      "uk": "Після доставки бот просить оцінку від однієї до пʼяти зірок і короткий коментар. Низькі оцінки автоматично летять менеджеру, і на скаргу можна відреагувати того ж вечора, а не через тиждень у відгуках на карті. Такий зворотний звʼязок збирається сам собою, без окремої людини, яка обдзвонює клієнтів.",
+      "en": "After delivery the bot asks for a rating from one to five stars and a short comment. Low ratings go to the manager automatically, so a complaint can be handled the same evening rather than a week later in public map reviews. This feedback collects itself, without a separate person calling customers back."
+    },
+    {
+      "t": "p",
+      "uk": "Налаштування такого бота під один заклад займає зазвичай два-чотири тижні: меню, зони, оплата, ролі кухні та курʼєрів, тестові замовлення. Далі вся підтримка зводиться до оновлення меню і цін через адмінку. Це разова інвестиція проти щомісячної зарплати кількох операторів, і вона окупається швидше, ніж здається на старті. У Devlly ми робимо такі боти під конкретний процес закладу, а не за шаблоном.",
+      "en": "Setting up a bot like this for a single venue usually takes two to four weeks: menu, zones, payment, kitchen and courier roles, test orders. After that, support comes down to updating the menu and prices through the admin panel. It is a one-off investment against the monthly salaries of several operators, and it pays off faster than it looks at the start. At Devlly we build such bots around a specific venue's process rather than from a template."
+    }
+  ]
+}

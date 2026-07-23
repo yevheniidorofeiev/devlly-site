@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram бот для клініки: запис і нагадування пацієнтам",
+  "title_en": "Telegram Bot for a Clinic: Booking and Patient Reminders",
+  "desc_uk": "Як Telegram бот для клініки автоматизує онлайн запис, нагадування про прийом і збір відгуків від пацієнтів.",
+  "desc_en": "How a Telegram bot for a clinic automates online booking, appointment reminders and patient feedback collection.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для медичної клініки і лікаря | Devlly",
+    "te": "Telegram Bot for a Medical Clinic and Doctor | Devlly",
+    "d": "Як Telegram бот для клініки автоматизує онлайн запис, нагадування про прийом і збір відгуків від пацієнтів.",
+    "de": "How a Telegram bot for a clinic automates online booking, appointment reminders and patient feedback collection.",
+    "k": "Telegram бот для клініки, онлайн запис до лікаря, нагадування про прийом, чат бот для медичного центру, перенесення запису, відгуки пацієнтів, автоматизація реєстратури"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Реєстратура клініки втрачає пацієнтів там, де цього ніхто не рахує: зайнята лінія, пропущений дзвінок увечері, забутий візит наступного дня. Telegram бот закриває ці прогалини цілодобово - показує вільні слоти, записує до потрібного лікаря і нагадує про прийом. Нижче розберемо, як це працює на практиці і що варто продумати до запуску.",
+      "en": "A clinic reception loses patients in places nobody counts: a busy line, a missed evening call, a visit forgotten the next morning. A Telegram bot covers these gaps around the clock - it shows free slots, books the right doctor and reminds about the appointment. Below we break down how this works in practice and what to plan before launch."
+    },
+    {
+      "t": "h2",
+      "uk": "Що насправді вміє Telegram бот для клініки",
+      "en": "What a Telegram bot for a clinic actually does"
+    },
+    {
+      "t": "p",
+      "uk": "Базовий сценарій простий: пацієнт відкриває бот, обирає напрям або конкретного лікаря, бачить розклад на найближчі дні і фіксує зручний час. Уся розмова триває півтори хвилини і не потребує ані дзвінка, ані встановлення окремого застосунку. Для клініки це означає, що частина навантаження з реєстратури переходить у канал, який працює без перерв на обід і вихідних.",
+      "en": "The basic scenario is simple: a patient opens the bot, picks a specialty or a specific doctor, sees the schedule for the coming days and locks in a convenient time. The whole conversation takes about a minute and a half and requires neither a phone call nor installing a separate app. For the clinic it means part of the reception workload moves into a channel that works without lunch breaks and weekends."
+    },
+    {
+      "t": "p",
+      "uk": "За нашим досвідом у сервісних бізнесах приблизно третина звернень у реєстратуру - це однотипні питання: графік роботи лікаря, вартість консультації, адреса філії, підготовка до процедури. Бот відповідає на них миттєво і без черги. Адміністратор натомість займається тим, де реально потрібна людина: складні випадки, страхові, конфліктні ситуації.",
+      "en": "In our experience with service businesses, roughly a third of reception requests are repetitive questions: a doctorʼs working hours, the price of a consultation, a branch address, how to prepare for a procedure. The bot answers them instantly and without a queue. The administrator instead handles what genuinely needs a human: complex cases, insurance, conflict situations."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо одразу окреслити межі. Бот не ставить діагнозів, не інтерпретує аналізи і не дає рекомендацій щодо лікування - це робота лікаря. Його зона відповідальності суто організаційна: запис, нагадування, статуси, документи, зворотний звʼязок. Такий чіткий розподіл захищає і клініку, і пацієнта від зайвих непорозумінь. У самому інтерфейсі це варто проговорити прямо, а будь-яке питання про самопочуття - переводити на живого спеціаліста.",
+      "en": "It is worth drawing the boundaries right away. The bot does not diagnose, does not interpret test results and does not give treatment recommendations - that is the doctorʼs job. Its scope is purely organisational: booking, reminders, statuses, documents, feedback. This clear separation protects both the clinic and the patient from unnecessary misunderstandings. It is worth stating this openly in the interface itself, and routing any question about symptoms to a live specialist."
+    },
+    {
+      "t": "h2",
+      "uk": "Онлайн запис до лікаря за вільним слотом",
+      "en": "Online booking with a doctor by free slot"
+    },
+    {
+      "t": "p",
+      "uk": "Онлайн запис має будуватися навколо реального розкладу, а не форми заявки. Різниця принципова: форма лише надсилає побажання, яке потім хтось вручну звіряє з календарем, а справжній запис одразу займає конкретний слот. Пацієнт бачить лише те, що дійсно вільне, і отримує підтвердження у той самий момент.",
+      "en": "Online booking has to be built around a real schedule, not a request form. The difference matters: a form only sends a wish that somebody later checks against the calendar by hand, while real booking immediately takes a specific slot. The patient sees only what is genuinely free and gets confirmation at that very moment."
+    },
+    {
+      "t": "p",
+      "uk": "Логіка вибору зазвичай двоступенева. Пацієнт або йде від напряму - терапевт, дерматолог, УЗД - і бачить усіх доступних спеціалістів, або одразу відкриває картку свого лікаря і дивиться його найближчі вікна. Друга гілка критично важлива для повторних візитів: людина, яка вже лікується, не хоче щоразу проходити повний шлях вибору.",
+      "en": "The selection logic is usually two-step. The patient either starts from a specialty - therapist, dermatologist, ultrasound - and sees all available specialists, or opens their own doctorʼs card straight away and looks at the nearest windows. The second branch is critical for repeat visits: someone already under treatment does not want to walk the full selection path every time."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо продумуються тривалість прийому і буфери. Первинна консультація може займати 40 хвилин, повторна - 20, процедура - годину з підготовкою. Якщо бот про це не знає, розклад швидко розсипається і лікар працює з постійним запізненням. Тому тривалість задається на рівні типу послуги, а не одним значенням для всієї клініки. Так само окремо налаштовуються перерви, планові операційні дні та відпустки лікарів, інакше бот пропонуватиме час, якого фактично не існує.",
+      "en": "Appointment duration and buffers are planned separately. An initial consultation may take 40 minutes, a follow-up 20, a procedure an hour including preparation. If the bot does not know this, the schedule falls apart quickly and the doctor runs permanently late. That is why duration is set per service type, not as a single value for the whole clinic. Breaks, planned surgery days and doctor holidays are configured separately too, otherwise the bot will offer time that does not actually exist."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування про прийом за 24 і за 2 години",
+      "en": "Appointment reminders 24 hours and 2 hours ahead"
+    },
+    {
+      "t": "p",
+      "uk": "Неявки - найдорожча проблема будь-якої клініки, бо порожній слот уже неможливо продати. Схема з двох нагадувань закриває більшість причин: повідомлення за добу дає час перепланувати день, повідомлення за дві години працює як фінальний сигнал, коли людина вже в дорозі або збирається виходити.",
+      "en": "No-shows are the most expensive problem in any clinic, because an empty slot can no longer be sold. A two-reminder scheme covers most causes: a message a day ahead gives time to replan the day, a message two hours ahead acts as the final signal when the person is already on the way or about to leave."
+    },
+    {
+      "t": "p",
+      "uk": "У тексті нагадування має бути все, що знімає питання: дата і час, лікар, кабінет, адреса філії, орієнтир для входу і коротка памʼятка щодо підготовки, якщо вона потрібна для конкретної процедури. Під повідомленням - дві кнопки: «Підтверджую» і «Потрібно перенести». Це дає клініці зрозумілу картину завантаження на завтра. Ті, хто не відреагував на жодне з нагадувань, автоматично потрапляють у короткий список для контрольного дзвінка адміністратора.",
+      "en": "The reminder text should contain everything that removes questions: date and time, doctor, room, branch address, an entrance landmark and a short preparation note if the specific procedure needs one. Below the message there are two buttons: Confirm and Need to reschedule. This gives the clinic a clear picture of tomorrowʼs load. Those who react to neither reminder automatically land on a short list for a follow-up call from the administrator."
+    },
+    {
+      "t": "p",
+      "uk": "Сюди ж логічно вбудовуються сповіщення про готовність результатів аналізів. Бот повідомляє сам факт готовності і спосіб отримати документ, а не публікує показники у переписці. Це прибирає ще один потік дзвінків «чи вже готово», який у лабораторних напрямах може бути співмірним із потоком запитів на запис.",
+      "en": "Test result notifications fit logically in the same place. The bot reports the fact that results are ready and how to obtain the document, rather than posting values in the chat. This removes another stream of is-it-ready calls, which in laboratory-heavy practices can rival the volume of booking requests."
+    },
+    {
+      "t": "h2",
+      "uk": "Перенесення запису і скасування, що звільняє слот",
+      "en": "Rescheduling and cancellation that frees the slot"
+    },
+    {
+      "t": "p",
+      "uk": "Перенесення запису має бути таким же простим, як сам запис. Пацієнт відкриває свій візит, натискає кнопку і обирає інший вільний час у того ж лікаря. Старий слот у ту саму секунду повертається у розклад і стає доступним іншим. Якщо цей крок ускладнити, люди просто не приходять і нічого не повідомляють.",
+      "en": "Rescheduling should be as simple as booking itself. The patient opens their visit, taps a button and picks another free time with the same doctor. The old slot returns to the schedule that same second and becomes available to others. If this step is made harder, people simply do not show up and say nothing."
+    },
+    {
+      "t": "p",
+      "uk": "Звільнений слот варто одразу пускати в роботу. Бот може повідомити тих, хто стоїть у листі очікування на цього спеціаліста, і перший, хто відреагував, займає час. Правила скасування задає клініка: наприклад, вільне скасування за 12 годин, а пізніше - тільки через адміністратора, з фіксацією у картці пацієнта.",
+      "en": "A freed slot should be put back to work immediately. The bot can notify people on the waiting list for that specialist, and whoever responds first takes the time. The clinic sets the cancellation rules: for example, free cancellation up to 12 hours ahead, and after that only through an administrator, with a note in the patient record."
+    },
+    {
+      "t": "p",
+      "uk": "Через кілька годин після візиту доречно зібрати відгуки пацієнтів - коротко, однією оцінкою і необовʼязковим коментарем. Низькі оцінки варто направляти керівнику напряму як внутрішній сигнал, високі - супроводжувати мʼякою пропозицією залишити публічний відгук. Так клініка отримує і робочу статистику по кожному лікарю, і зростання зовнішньої репутації. Головне - не перевантажувати пацієнта: одне коротке опитування після візиту працює краще, ніж серія повідомлень.",
+      "en": "A few hours after the visit it makes sense to collect patient feedback - briefly, with one rating and an optional comment. Low ratings should be routed to the department head as an internal signal, high ones followed by a gentle suggestion to leave a public review. This gives the clinic both working statistics per doctor and growing external reputation. The key is not to overload the patient: one short survey after the visit works better than a series of messages."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграція з CRM клініки та конфіденційність даних",
+      "en": "Integration with the clinic CRM and data privacy"
+    },
+    {
+      "t": "p",
+      "uk": "Бот без інтеграції з медичною CRM або системою обліку створює другий, паралельний розклад - і це гарантований шлях до подвійних записів. Синхронізація має бути двосторонньою: запис через бот зʼявляється у системі клініки, а зміна, яку зробив адміністратор вручну, миттєво відображається у боті. Пацієнт при цьому підтягується за номером телефону до існуючої картки.",
+      "en": "A bot without integration into the medical CRM or accounting system creates a second, parallel schedule - a guaranteed path to double bookings. Synchronisation must be two-way: a booking made in the bot appears in the clinic system, and a change an administrator makes manually is instantly reflected in the bot. The patient is matched to an existing record by phone number."
+    },
+    {
+      "t": "p",
+      "uk": "Конфіденційність у месенджері вимагає окремої дисципліни. Робоче правило просте: у переписці лишається тільки організаційна інформація - час, лікар, кабінет, статус готовності документа. Діагнози, вміст аналізів і будь-які клінічні деталі не надсилаються у чат, а видаються у захищеному кабінеті чи особисто, після ідентифікації пацієнта.",
+      "en": "Privacy in a messenger requires separate discipline. The working rule is simple: only organisational information stays in the chat - time, doctor, room, document readiness status. Diagnoses, test contents and any clinical details are not sent into the chat but issued in a secure portal or in person, after the patient is identified."
+    },
+    {
+      "t": "p",
+      "uk": "Технічно це означає: згода на комунікацію під час першого контакту, доступ до даних лише у авторизованих співробітників, журнал дій, зберігання медичних записів у системі клініки, а не в логах бота. Такий підхід одночасно закриває вимоги до обробки персональних даних і зберігає зручність каналу. У Devlly ми будуємо подібні боти під конкретні процеси клініки та її облікову систему, а не адаптуємо готовий шаблон.",
+      "en": "Technically this means: consent to communication at first contact, data access only for authorised staff, an action log, and storage of medical records in the clinic system rather than in bot logs. This approach satisfies personal data processing requirements while keeping the channel convenient. At Devlly we build such bots around a specific clinicʼs processes and accounting system, rather than adapting a ready-made template."
+    }
+  ]
+}

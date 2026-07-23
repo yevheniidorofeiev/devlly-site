@@ -1,0 +1,80 @@
+{
+  "title_uk": "CRM для юридичних компаній: автоматизація роботи з клієнтами",
+  "title_en": "CRM for Law Firms: Automating Client Work",
+  "desc_uk": "Розробляємо CRM для юридичних фірм: облік справ, клієнтів, документів і строків. Індивідуальне рішення під ваші процеси.",
+  "desc_en": "We build CRM systems for law firms: management of cases, clients, documents and deadlines. A custom solution tailored to your processes.",
+  "seo": {
+    "t": "CRM для юридичних компаній під замовлення | Devlly",
+    "te": "Custom CRM for Law Firms | Devlly",
+    "d": "Розробляємо CRM для юридичних фірм: облік справ, клієнтів, документів і строків. Індивідуальне рішення під ваші процеси.",
+    "de": "We build CRM systems for law firms: management of cases, clients, documents and deadlines. A custom solution tailored to your processes.",
+    "k": "CRM для юридичних компаній, CRM під замовлення, розробка CRM для юристів, автоматизація юридичної фірми, управління справами, документообіг для юристів, шаблони документів, нагадування про строки, індивідуальна CRM, облік клієнтів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коробкові CRM створювалися для продажів: воронка, угоди, дзвінки менеджерів. Юридична компанія живе за іншою логікою - справи тривають місяцями, документи важливіші за дзвінки, а строк можна пропустити лише один раз. Тому універсальні системи або стоять напівпорожні, або їх намагаються натягнути на юридичні процеси ціною постійних компромісів. Індивідуальна CRM для юридичних компаній вирішує це інакше: вона будується навколо ваших реальних процесів - від першого звернення клієнта до закриття справи й архіву. У цьому матеріалі покажемо, що дає автоматизація роботи з клієнтами саме в юридичній практиці та чому система під замовлення часто виграє в коробкового рішення.",
+      "en": "Boxed CRMs were built for sales: a pipeline, deals, sales reps' calls. A law firm runs on different logic - cases last for months, documents matter more than calls, and a deadline can be missed only once. So universal systems either sit half-empty, or people try to stretch them onto legal processes at the cost of constant compromises. A custom CRM for law firms solves this differently: it is built around your real processes - from a client's first inquiry to case closing and the archive. In this article we show what automating client work gives specifically in legal practice and why a custom-built system often beats a boxed solution."
+    },
+    {
+      "t": "h2",
+      "uk": "Управління справами й клієнтами під ваші процеси",
+      "en": "Managing Cases and Clients Around Your Processes"
+    },
+    {
+      "t": "p",
+      "uk": "Головна перевага індивідуальної розробки в тому, що управління справами будується під ваш реальний робочий процес, а не під усереднений шаблон. Якщо у вашій практиці справа проходить етапи «звернення - аналіз перспектив - договір - підготовка позову - засідання - виконавче провадження», система відображатиме саме ці етапи, а не абстрактні «нові» й «в роботі». Кожен клієнт має єдину картку, де зібрані всі його справи, контакти, історія й документи. Юрист не витрачає час на пошук по папках і чатах: усе, що стосується клієнта, лежить в одному місці. При базі в 200-300 клієнтів це економить години щотижня й прибирає ризик втратити важливу деталь.",
+      "en": "The main advantage of custom development is that case management is built around your real workflow rather than an averaged template. If in your practice a case goes through the stages inquiry, prospect analysis, contract, claim preparation, hearing, enforcement proceedings, the system reflects exactly these stages rather than abstract new and in progress. Each client has a single card that gathers all their cases, contacts, history and documents. A lawyer wastes no time searching through folders and chats: everything related to a client sits in one place. With a base of 200-300 clients this saves hours every week and removes the risk of losing an important detail."
+    },
+    {
+      "t": "p",
+      "uk": "Коли система знає вашу структуру справ, автоматизація стає осмисленою. Перехід справи на новий етап може сам ставити задачі відповідальному юристу, змінювати статус для клієнта й запускати підготовку потрібних документів. Керівник бачить завантаження кожного співробітника: у одного 12 активних справ, у іншого 34, і це привід перерозподілити роботу. Коробкова CRM такі речі теж обіцяє, але налаштувати її під юридичну специфіку зазвичай означає вписатися в жорсткі рамки конструктора. Індивідуальне рішення натомість описує саме вашу модель роботи - з тими сутностями, полями й правилами, які реально використовує ваша фірма, без зайвого баласту.",
+      "en": "When the system knows your case structure, automation becomes meaningful. Moving a case to a new stage can itself assign tasks to the responsible lawyer, change the status for the client and trigger preparation of the required documents. A manager sees each employee's workload: one has 12 active cases, another 34, and that is a reason to redistribute work. A boxed CRM promises such things too, but configuring it for legal specifics usually means fitting into the rigid frame of a builder. A custom solution instead describes your exact operating model - with the entities, fields and rules your firm actually uses, without excess ballast."
+    },
+    {
+      "t": "h2",
+      "uk": "Документообіг і шаблони документів у юридичній CRM",
+      "en": "Document Workflow and Templates in a Legal CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Юрист витрачає величезну частину часу на документи, і саме тут автоматизація дає найшвидший ефект. Індивідуальна CRM зберігає всі файли справи в її картці з версіями, тож завжди зрозуміло, яка редакція договору актуальна. Але справжня економія починається з шаблонів документів. Замість того щоб щоразу вручну переписувати позов чи договір, юрист обирає шаблон, а система підставляє дані клієнта й справи: назви сторін, номери, суми, дати. Документ, на який раніше йшло 40 хвилин, готовий за 5, і в ньому немає механічних помилок у реквізитах. Для фірми, що генерує десятки документів на тиждень, це вивільняє відчутний ресурс.",
+      "en": "A lawyer spends a huge share of time on documents, and this is exactly where automation delivers the fastest effect. A custom CRM stores all case files in its card with versions, so it is always clear which edition of a contract is current. But the real saving starts with document templates. Instead of manually rewriting a claim or contract every time, a lawyer picks a template and the system fills in client and case data: party names, numbers, amounts, dates. A document that used to take 40 minutes is ready in 5, with no mechanical errors in the details. For a firm generating dozens of documents a week this frees up a tangible resource."
+    },
+    {
+      "t": "p",
+      "uk": "Під замовлення шаблони робляться саме під ваші форми: ваші бланки, ваша структура договорів, ваші формулювання, узгоджені з практикою фірми. Коробкові рішення або взагалі не мають генерації документів, або пропонують загальні шаблони, які все одно доводиться переробляти. Крім того, індивідуальна система може вести повний журнал документообігу: хто створив документ, хто вносив правки, коли його відправили клієнту. Це і дисципліна всередині команди, і доказова база на випадок спірних ситуацій. Документи перестають бути хаосом у папках і стають керованим процесом, привʼязаним до конкретної справи та відповідального юриста.",
+      "en": "Custom templates are built exactly for your forms: your letterheads, your contract structure, your wording aligned with the firm's practice. Boxed solutions either lack document generation entirely or offer generic templates that still have to be reworked. Moreover, a custom system can keep a full document workflow log: who created a document, who made edits, when it was sent to the client. This is both internal team discipline and an evidence base in case of disputes. Documents stop being chaos in folders and become a managed process tied to a specific case and the responsible lawyer."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування про строки й історія комунікації з клієнтом",
+      "en": "Deadline Reminders and Client Communication History"
+    },
+    {
+      "t": "p",
+      "uk": "У юридичній роботі строки й комунікація - це дві речі, які не можна тримати в голові. Індивідуальна CRM автоматично рахує процесуальні та договірні строки й нагадує про них заздалегідь: за тиждень, за три дні, за день. Нагадування прив'язане до справи й відповідального, тому воно не загубиться серед сотні задач. Якщо юрист у відпустці, керівник однаково бачить наближення дедлайну й може передати справу колезі. Так фірма перестає залежати від памʼяті окремої людини: система страхує там, де раніше рятувала лише уважність, а ціна помилки в юридичній практиці - це реальні гроші й довіра клієнта.",
+      "en": "In legal work, deadlines and communication are two things you cannot keep in your head. A custom CRM automatically calculates procedural and contractual deadlines and reminds about them in advance: a week before, three days before, a day before. A reminder is tied to a case and a responsible person, so it will not get lost among a hundred tasks. If a lawyer is on vacation, the manager still sees the deadline approaching and can hand the case to a colleague. This way the firm stops depending on one person's memory: the system provides a safety net where only attentiveness used to save the day, and the cost of a mistake in legal practice is real money and client trust."
+    },
+    {
+      "t": "p",
+      "uk": "Не менш цінна історія комунікації. У картці клієнта фіксується все: дзвінки, листи, зустрічі, домовленості, надіслані документи. Коли клієнт телефонує через три місяці, будь-який юрист за хвилину піднімає контекст і продовжує розмову так, ніби вів справу з першого дня. Це прибирає ситуації, коли клієнт втретє переказує ту саму історію різним співробітникам. Уся комунікація залишається у справі навіть тоді, коли співробітник звільняється, - знання не йде разом з ним. Для клієнта це відчувається як уважний сервіс, а для фірми означає меншу залежність від конкретних людей і рівний рівень якості по всіх справах.",
+      "en": "The communication history is equally valuable. Everything is recorded in the client card: calls, emails, meetings, agreements, documents sent. When a client calls three months later, any lawyer pulls up the context in a minute and continues the conversation as if they had handled the case from day one. This removes situations where a client retells the same story a third time to different employees. All communication stays with the case even when an employee leaves - the knowledge does not walk out with them. For the client it feels like attentive service, and for the firm it means less dependence on specific people and a consistent level of quality across all cases."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграції та звітність під процеси юридичної компанії",
+      "en": "Integrations and Reporting Around a Law Firm's Processes"
+    },
+    {
+      "t": "p",
+      "uk": "Юридична фірма рідко працює в одній програмі: є пошта, месенджери, бухгалтерія, електронні кабінети судів, сервіси електронного підпису. Індивідуальна CRM цінна тим, що її можна звʼязати саме з тим набором інструментів, який ви вже використовуєте. Лист від клієнта автоматично лягає у відповідну справу, рахунок з бухгалтерії підтягується до картки, а дані для договору не доводиться вбивати двічі. Коробкове рішення дає лише той список інтеграцій, який передбачив вендор, і якщо вашого сервісу там немає, доводиться робити все вручну. Під замовлення інтеграції будуються під ваш реальний стек, а не навпаки, тому подвійне введення даних зникає.",
+      "en": "A law firm rarely works in a single program: there is email, messengers, accounting, court e-cabinets, electronic signature services. A custom CRM is valuable because it can be linked to exactly the set of tools you already use. A client's email automatically lands in the right case, an invoice from accounting pulls into the card, and data for a contract does not have to be entered twice. A boxed solution offers only the list of integrations the vendor foresaw, and if your service is not there, you end up doing everything by hand. In a custom build, integrations are made for your real stack rather than the other way around, so double data entry disappears."
+    },
+    {
+      "t": "p",
+      "uk": "Поверх усього цього індивідуальна система дає звітність під ваші показники, а не абстрактні графіки продажів. Ви бачите кількість активних справ, завантаження кожного юриста, дохід за напрямами практики, конверсію звернень у договори та середню тривалість справи по категоріях. На основі цих цифр керівник ухвалює рішення: кого догрузити, які напрями масштабувати, де фірма недозаробляє. Саме тому систему видно наскрізь - вона показує реальну картину, а не зручні для когось цифри. Devlly розробляє такі CRM для юридичних компаній під конкретні процеси, тож рішення враховує вашу спеціалізацію, інтеграції та звітність і працює так, як працює саме ваша фірма.",
+      "en": "On top of all this, a custom system provides reporting on your own metrics rather than abstract sales charts. You see the number of active cases, each lawyer's workload, revenue by practice area, conversion of inquiries into contracts and the average case duration by category. Based on these figures a manager makes decisions: who to load up, which areas to scale, where the firm is under-earning. That is why the system is fully transparent - it shows the real picture rather than numbers convenient for someone. Devlly develops such CRMs for law firms around specific processes, so the solution accounts for your specialization, integrations and reporting and works the way your particular firm works."
+    }
+  ]
+}

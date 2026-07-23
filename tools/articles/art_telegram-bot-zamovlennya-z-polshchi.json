@@ -1,0 +1,127 @@
+{
+  "title_uk": "Telegram-бот для замовлень з Польщі: прийом і доставка",
+  "title_en": "Telegram Bot for Orders from Poland: Intake and Delivery",
+  "desc_uk": "Telegram-бот для прийому замовлень з Польщі: меню, оплата в злотих, розрахунок доставки і сповіщення клієнту. Для українського бізнесу в Польщі.",
+  "desc_en": "A Telegram bot for taking orders from Poland: catalog, zloty payments, delivery calculation and customer notifications. Built for Ukrainian business in Poland.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram-бот для прийому замовлень з Польщі | Devlly",
+    "te": "Telegram Bot for Orders from Poland | Devlly",
+    "d": "Telegram-бот для прийому замовлень з Польщі: меню, оплата в злотих, розрахунок доставки і сповіщення клієнту. Для українського бізнесу в Польщі.",
+    "de": "A Telegram bot for taking orders from Poland: catalog, zloty payments, delivery calculation and customer notifications. Built for Ukrainian business in Poland.",
+    "k": "телеграм бот для замовлень з польщі, прийом замовлень польща, телеграм бот для заказов из польши, прием заказов польша, telegram bot orders poland, бот з оплатою blik, доставка inpost paczkomaty, przelewy24 бот, замовлення злоті телеграм"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Український бізнес у Польщі найчастіше приймає замовлення саме в Telegram, бо клієнту простіше написати в чат, ніж дзвонити чи заповнювати форму на сайті іноземною мовою. Telegram-бот для замовлень з Польщі закриває весь цикл: клієнт гортає каталог, обирає позиції, оплачує в злотих через BLIK або Przelewy24 і отримує підтвердження з трек-номером, не залишаючи чат. Нижче розібрано, як влаштований такий бот, які способи оплати і доставки він підтримує та що потрібно для запуску в польських реаліях без окремого сайту чи call центру.",
+      "en": "Ukrainian business in Poland most often takes orders through Telegram, because it is easier for a customer to write in a chat than to call or fill out a website form. A Telegram bot for orders from Poland closes the whole cycle: the customer browses the catalog, picks items, pays in zloty via BLIK or Przelewy24 and receives a confirmation with a tracking number. Below is how such a bot is built, which payment and delivery methods it supports, and what it takes to launch it in Polish conditions."
+    },
+    {
+      "t": "h2",
+      "uk": "Telegram-бот для замовлень з Польщі: що він робить",
+      "en": "Telegram bot for orders from Poland: what it does"
+    },
+    {
+      "t": "p",
+      "uk": "Бот замінює телефонний прийом замовлень і форму на сайті одним чатом. Клієнт відкриває меню командою або натискає кнопку, обирає товари з каталогу, додає їх у кошик, вказує спосіб оплати і доставки, а бот формує замовлення і надсилає його в адмінку або менеджеру. Весь діалог складається з кнопок і коротких відповідей, тому оформлення займає одну-дві хвилини навіть з телефону.",
+      "en": "The bot replaces phone order taking and a website form with a single chat. The customer opens the menu with a command or a button, picks items from the catalog, adds them to the cart, selects a payment and delivery method, and the bot forms the order and sends it to the admin panel or manager. The whole dialogue is buttons and short replies, so checkout takes a minute or two even from a phone."
+    },
+    {
+      "t": "p",
+      "uk": "Для польського ринку месенджер важливіший, ніж для України: частина клієнтів не має локального номера телефону або не хоче дзвонити польською, а Telegram знімає цей барʼєр. Бот працює однаково для клієнта в Варшаві, Кракові чи Вроцлаві, не потребує дзвінка і залишає весь контекст замовлення в чаті, до якого можна повернутися пізніше.",
+      "en": "For the Polish market a messenger matters more than in Ukraine: some customers do not have a local phone number or do not want to call in Polish, and Telegram removes that barrier. The bot works the same way for a customer in Warsaw, Krakow or Wroclaw, requires no call and keeps the whole order context in a chat the customer can return to later."
+    },
+    {
+      "t": "p",
+      "uk": "Технічно бот працює на Telegram Bot API і має власну базу товарів, замовлень і клієнтів. Адмінка дозволяє редагувати каталог, ціни в злотих і статуси замовлень без втручання в код, а вебхук доставляє нове замовлення менеджеру миттєво, навіть якщо клієнт написав уночі.",
+      "en": "Technically the bot runs on the Telegram Bot API and has its own database of products, orders and customers. The admin panel lets you edit the catalog, zloty prices and order statuses without touching code, and a webhook delivers a new order to the manager instantly, even if the customer wrote at night."
+    },
+    {
+      "t": "h2",
+      "uk": "Каталог і меню в боті",
+      "en": "Catalog and menu inside the bot"
+    },
+    {
+      "t": "p",
+      "uk": "Каталог у боті будується як меню з категоріями: кнопка відкриває розділ, картка товару показує фото, опис, ціну в злотих і кнопку «Додати в кошик». Клієнт може повернутися до попереднього розділу однією кнопкою, а кошик показує суму замовлення в реальному часі, тож клієнт бачить підсумок ще до оплати.",
+      "en": "The catalog in the bot is built as a menu with categories: a button opens a section, a product card shows a photo, description, zloty price and an Add to cart button. The customer can go back to the previous section with one tap, and the cart shows the order total in real time, so the customer sees the sum before paying."
+    },
+    {
+      "t": "p",
+      "uk": "Асортимент і залишки оновлюються з таблиці, з CRM або з облікової системи, тому позиція, якої немає в наявності, автоматично зникає з каталогу або позначається як недоступна. Це особливо важливо для товарів, які возять із Польщі партіями: бот не дає клієнту оформити те, чого фізично немає на складі.",
+      "en": "The assortment and stock levels sync from a spreadsheet, a CRM or an accounting system, so an item that is out of stock automatically disappears from the catalog or is marked unavailable. This matters especially for goods brought from Poland in batches: the bot does not let a customer order something that is not physically on the shelf."
+    },
+    {
+      "t": "p",
+      "uk": "Для товарів з варіантами бот показує вибір розміру, кольору чи комплектації окремими кнопками, а не текстом, тому клієнт не помиляється при оформленні. Кількість одиниць можна змінити прямо в кошику, і бот одразу перераховує суму замовлення в злотих без участі менеджера.",
+      "en": "For products with variants, the bot shows a choice of size, color or configuration as separate buttons rather than as text, so the customer does not make a mistake at checkout. The quantity can be changed right in the cart, and the bot instantly recalculates the order total in zloty without a manager involved."
+    },
+    {
+      "t": "h2",
+      "uk": "Оплата в злотих: BLIK і Przelewy24",
+      "en": "Payment in zloty: BLIK and Przelewy24"
+    },
+    {
+      "t": "p",
+      "uk": "BLIK це основний спосіб оплати для клієнтів у Польщі, тому бот генерує посилання або код оплати одразу після підтвердження кошика, а клієнт вводить код у власному банківському застосунку. Оплата підтверджується протягом секунд, і бот бачить статус без ручної перевірки чеків менеджером.",
+      "en": "BLIK is the primary payment method for customers in Poland, so the bot generates a payment link or code right after the cart is confirmed, and the customer enters the code in their own banking app. Payment confirms within seconds, and the bot sees the status without a manager manually checking receipts."
+    },
+    {
+      "t": "p",
+      "uk": "Przelewy24 підключається як другий варіант і покриває клієнтів, які платять банківським переказом з рахунку в конкретному польському банку. Бот показує клієнту список банків, перенаправляє на сторінку оплати і повертає підтвердження назад у чат після завершення транзакції.",
+      "en": "Przelewy24 connects as a second option and covers customers who pay by bank transfer from an account at a specific Polish bank. The bot shows the customer a list of banks, redirects to the payment page and brings the confirmation back into the chat once the transaction is complete."
+    },
+    {
+      "t": "p",
+      "uk": "Після оплати статус замовлення в боті і в адмінці змінюється автоматично, без дзвінка клієнту з питанням «чи оплатили ви». Це знімає з менеджера ручну звірку платежів і прибирає затримку між оплатою і початком збирання замовлення.",
+      "en": "After payment, the order status in the bot and in the admin panel changes automatically, with no call to the customer asking whether they paid. This removes manual payment reconciliation from the manager and eliminates the delay between payment and starting to pack the order."
+    },
+    {
+      "t": "p",
+      "uk": "Для клієнтів, які ще не готові платити наперед, бот може залишити варіант оплати при отриманні через InPost, хоча більшість продавців з Польщі поступово переводять клієнтів саме на BLIK: оплата при отриманні збільшує кількість невикуплених посилок і затримує обіг товару на складі.",
+      "en": "For customers who are not yet ready to pay upfront, the bot can leave a cash on delivery option through InPost, though most sellers from Poland gradually move customers toward BLIK instead: cash on delivery increases the number of unclaimed parcels and slows down stock turnover in the warehouse."
+    },
+    {
+      "t": "h2",
+      "uk": "Доставка: Paczkomaty, InPost і курʼєр",
+      "en": "Delivery: Paczkomaty, InPost and courier"
+    },
+    {
+      "t": "p",
+      "uk": "Бот пропонує клієнту обрати спосіб доставки кнопками: паczomat, курʼєрська доставка на адресу або самовивіз з пункту в Варшаві, Гданську чи іншому місті. За поштовим індексом чи адресою бот одразу розраховує вартість і орієнтовний термін, тому клієнт бачить фінальну суму замовлення разом із доставкою до оплати, а не після, і не зʼясовує вартість пересилки в окремому повідомленні менеджеру.",
+      "en": "The bot offers the customer a choice of delivery method with buttons: a locker, courier delivery to an address, or pickup from a point in Warsaw, Gdansk or another city. Based on the postal code or address, the bot instantly calculates the cost and estimated timeframe, so the customer sees the final order total including delivery before paying, not after, and does not have to ask a manager for the shipping price separately."
+    },
+    {
+      "t": "p",
+      "uk": "Для Paczkomaty бот через InPost API показує найближчі до вказаної адреси автомати на карті просто в чаті, і клієнт обирає конкретний пункт видачі кнопкою, без переходу на сторонній сайт. Обраний паczomat одразу підставляється в замовлення разом з унікальним кодом для відправлення.",
+      "en": "For Paczkomaty, the bot uses the InPost API to show the lockers closest to the given address on a map right inside the chat, and the customer picks a specific pickup point with a button, without leaving the chat for a third party site. The chosen locker is instantly attached to the order along with a unique code for the shipment."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо клієнт замовляє кілька товарів з різних партій, бот дозволяє обʼєднати їх в одне відправлення або розділити на дві посилки, коли частина товару ще в дорозі з Польщі. Це особливо зручно для магазинів одягу і взуття, де окремі розміри чи кольори довозяться з іншим постачанням.",
+      "en": "If a customer orders several items from different batches, the bot allows combining them into one shipment or splitting them into two parcels when part of the goods is still on the way from Poland. This is especially useful for clothing and footwear stores where certain sizes or colors arrive with a separate delivery."
+    },
+    {
+      "t": "h2",
+      "uk": "Сповіщення, підтвердження і трек-номер",
+      "en": "Notifications, confirmation and tracking"
+    },
+    {
+      "t": "p",
+      "uk": "Клієнт отримує повідомлення тією мовою, якою почав діалог: польською або українською, і бот перемикається між ними без окремого налаштування для кожного клієнта. Це важливо для бізнесу, який обслуговує одночасно польськомовних покупців і українську діаспору.",
+      "en": "The customer receives messages in the language the dialogue started in, Polish or Ukrainian, and the bot switches between them without a separate setup for each customer. This matters for a business that serves Polish speaking buyers and the Ukrainian diaspora at the same time."
+    },
+    {
+      "t": "p",
+      "uk": "На кожному етапі бот надсилає коротке повідомлення: замовлення прийнято, оплата отримана, посилку передано перевізнику, замовлення готове до видачі. Коли InPost або курʼєрська служба присвоює трек-номер, бот одразу дублює його клієнту прямо в чат разом з посиланням для відстеження, і клієнту не потрібно писати і питати, де його посилка. Якщо доставка затримується або паczomat переповнений, бот може надіслати додаткове повідомлення з новим терміном чи запропонувати інший пункт видачі поруч, замість того щоб клієнт дізнавався про це сам з застосунку перевізника.",
+      "en": "At every stage the bot sends a short message: order received, payment received, parcel handed to the carrier. When InPost or the courier service assigns a tracking number, the bot immediately duplicates it to the customer right in the chat along with a tracking link, and the customer does not need to write in and ask where their parcel is."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly такі боти для польського ринку збирають під конкретний бізнес: каталог з реальним асортиментом, оплата через BLIK і Przelewy24, розрахунок доставки через InPost і курʼєрські служби, двомовні сповіщення польською і українською. Запуск займає кілька днів разом з підключенням платіжних і логістичних сервісів, а далі бот працює без постійної участі менеджера в рутинному прийомі замовлень і не потребує окремого сайту чи форми, щоб приймати нові замовлення з Польщі щодня, у будні і у вихідні.",
+      "en": "At Devlly, bots like this for the Polish market are built around a specific business: a catalog with the real assortment, payment via BLIK and Przelewy24, delivery calculation through InPost and courier services, and bilingual notifications. Launch takes a few days including connecting payment and logistics services, and after that the bot handles routine order intake without constant manager involvement."
+    }
+  ]
+}

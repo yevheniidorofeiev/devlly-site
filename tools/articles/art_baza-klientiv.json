@@ -1,0 +1,97 @@
+{
+  "title_uk": "База клієнтів для бізнесу: як зібрати і використовувати",
+  "title_en": "A client base for your business: how to build and use it",
+  "desc_uk": "Звідки брати контакти клієнтів, як безпечно їх зберігати, сегментувати і заробляти на базі через розсилки, повторні продажі й реактивацію.",
+  "desc_en": "Where to get client contacts, how to store them safely, segment them and earn from your base through mailouts, repeat sales and reactivation.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "База клієнтів для бізнесу: збір, зберігання і робота | Devlly",
+    "te": "Client base for business: collecting, storing and working with it | Devlly",
+    "d": "Як зібрати базу клієнтів, правильно її зберігати і використовувати для продажів і маркетингу. Інструменти і практичні поради.",
+    "de": "How to build a client base, store it properly and use it for sales and marketing. Tools and practical advice.",
+    "k": "база клієнтів, як зібрати базу клієнтів, сегментація клієнтів, розсилка в telegram, повторні продажі, лід-магніт"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Залучити нового клієнта коштує в пʼять-сім разів дорожче, ніж продати тому, хто у вас уже купував. Саме тому власна база клієнтів - найцінніший актив малого бізнесу, цінніший за рекламний кабінет і навіть за сайт. Реклама дорожчає щороку, алгоритми соцмереж змінюються без попередження, а список людей, які знають вашу компанію й залишили свої контакти, належить тільки вам. Проблема в тому, що більшість бізнесів цей актив або не збирають узагалі, або збирають і не використовують: контакти лежать мертвим вантажем у записнику й чатах менеджерів. Розберемо, звідки брати контакти, як їх безпечно зберігати і як перетворити список номерів на реальний прибуток.",
+      "en": "Acquiring a new client costs five to seven times more than selling to someone who has already bought from you. That is why your own client base is the most valuable asset a small business has, more valuable than the ad account and even the website. Advertising gets more expensive every year, social media algorithms change without warning, but the list of people who know your company and left you their contacts belongs to you alone. The problem is that most businesses either do not collect this asset at all, or collect it and never use it: contacts sit as dead weight in notebooks and managers' chats. Let's look at where to get contacts, how to store them safely and how to turn a list of numbers into real profit."
+    },
+    {
+      "t": "h2",
+      "uk": "Як зібрати базу клієнтів: канали, що працюють у 2026 році",
+      "en": "How to build a client base: channels that work in 2026"
+    },
+    {
+      "t": "p",
+      "uk": "Базовий принцип збору простий: контакт віддають в обмін на цінність. Найочевидніший канал - форми на сайті, але класична «залиште заявку» конвертує слабо, один-два відсотки відвідувачів. Значно краще працюють лід-магніти: чек-лист, калькулятор вартості, каталог з цінами, безкоштовний перший урок. Людина отримує корисне одразу, ви - її контакт і згоду на комунікацію. Конверсія такої форми - вже пʼять-десять відсотків, тобто в рази більше з того самого трафіку, за який ви вже заплатили.",
+      "en": "The basic principle of collection is simple: people give a contact in exchange for value. The most obvious channel is website forms, but the classic 'leave a request' converts poorly, one or two percent of visitors. Lead magnets work much better: a checklist, a cost calculator, a catalogue with prices, a free first lesson. The person gets something useful right away, you get their contact and consent to communicate. Such a form converts at five to ten percent, several times more from the same traffic you have already paid for."
+    },
+    {
+      "t": "p",
+      "uk": "Другий потужний канал - Telegram-бот. Його перевага перед формою в тому, що підписник залишається з вами назавжди: ви отримуєте не разовий email, а постійний канал звʼязку з відкриваністю повідомлень 70-80 відсотків проти 15-20 у email-розсилок. Бот може видавати той самий лід-магніт, приймати запис на послугу, нараховувати бонуси - і кожна така дія поповнює базу автоматично. Не забувайте й про офлайн-точки: QR-код на касі зі знижкою за підписку, анкета при першій покупці, візитка з ботом у пакеті замовлення. Кавʼярня з потоком 100 покупців на день таким способом збирає 300-400 підписників на місяць без жодної гривні на рекламу.",
+      "en": "The second powerful channel is a Telegram bot. Its advantage over a form is that a subscriber stays with you for good: you get not a one-off email but a permanent communication channel with a 70-80 percent message open rate versus 15-20 for email campaigns. The bot can deliver that same lead magnet, take service bookings, track bonus points - and every such action grows the base automatically. Do not forget offline touchpoints either: a QR code at the till with a discount for subscribing, a short form at first purchase, a card with the bot link inside the order bag. A coffee shop with 100 buyers a day collects 300-400 subscribers a month this way without spending a single hryvnia on ads."
+    },
+    {
+      "t": "h2",
+      "uk": "Де зберігати базу клієнтів і як її захистити",
+      "en": "Where to store your client base and how to protect it"
+    },
+    {
+      "t": "p",
+      "uk": "Зібрані контакти мають жити в одному місці, а не бути розкиданими між телефонами менеджерів, зошитом адміністратора й десятком чатів. Для старту підійде навіть структурована таблиця, але щойно база стає активом, який приносить гроші, їй потрібне сховище з розмежуванням доступів - CRM або власна система обліку. Ключовий принцип: кожен співробітник бачить лише своїх клієнтів і не може вивантажити всю базу одним натисканням. Експорт - тільки в керівника. Це не параноя: за статистикою відходів менеджерів у продажах, спроба забрати клієнтів із собою - типовий сценарій, і коштує він бізнесу дорожче за будь-який збій сервера.",
+      "en": "Collected contacts should live in one place, not be scattered across managers' phones, the administrator's notebook and a dozen chats. A structured spreadsheet is fine to start with, but as soon as the base becomes an asset that makes money, it needs storage with access control - a CRM or a custom system. The key principle: each employee sees only their own clients and cannot export the entire base in one click. Export rights belong to the owner only. This is not paranoia: when sales managers leave, trying to take clients along is a textbook scenario, and it costs the business more than any server failure."
+    },
+    {
+      "t": "p",
+      "uk": "Другий рівень захисту - технічний. Автоматичний бекап бази щодня, зберігання копій окремо від основної системи, двофакторна автентифікація для всіх, хто має доступ. І юридичний момент, про який часто забувають: збираючи контакти, ви обробляєте персональні дані, тож у формах і боті має бути згода на обробку, а в кожній розсилці - можливість відписатися. Це не лише вимога закону, а й гігієна репутації: базі, якій пишуть без згоди, швидко припиняють відповідати.",
+      "en": "The second layer of protection is technical. Daily automatic backups, copies stored separately from the main system, two-factor authentication for everyone with access. And a legal point that is often forgotten: by collecting contacts you are processing personal data, so your forms and bot must include consent, and every mailout must offer an unsubscribe option. This is not only a legal requirement but also reputation hygiene: a base that receives messages without consent quickly stops responding at all."
+    },
+    {
+      "t": "h2",
+      "uk": "Сегментація бази: нові, постійні та сплячі клієнти",
+      "en": "Segmenting the base: new, regular and dormant clients"
+    },
+    {
+      "t": "p",
+      "uk": "Однакове повідомлення всім підряд - найшвидший спосіб убити базу. Людина, яка купила вчора, і людина, яка не зʼявлялася рік, потребують зовсім різних слів. Мінімальна робоча сегментація - три групи за давністю і частотою покупок. Нові - купили один раз за останні два-три місяці: їх треба перетворити на постійних, і найкраще працює пропозиція на другу покупку зі знижкою або бонусом протягом двох тижнів після першої. Постійні - купують регулярно: їм не потрібні знижки, їм потрібні пріоритетний сервіс, ранній доступ до новинок і відчуття, що їх цінують.",
+      "en": "Sending the same message to everyone is the fastest way to kill a base. A person who bought yesterday and a person who has not shown up for a year need completely different words. The minimal working segmentation is three groups by recency and frequency of purchases. New clients bought once in the last two or three months: your job is to turn them into regulars, and the best tool is a second-purchase offer with a discount or bonus within two weeks of the first order. Regulars buy consistently: they do not need discounts, they need priority service, early access to new products and the feeling of being valued."
+    },
+    {
+      "t": "p",
+      "uk": "Третя група - сплячі: ті, хто не купував понад три-шість місяців залежно від циклу вашого продукту. Це найнедооціненіший сегмент: зазвичай він становить 40-60 відсотків усієї бази, і саме тут лежать найдешевші гроші. Людина вас уже знає, їй не треба нічого доводити - їй треба лише нагадати про себе з приводом повернутися. Якщо база живе в таблиці, сегменти доводиться рахувати вручну. У CRM або боті групи оновлюються самі: клієнт перетнув поріг давності покупки - і автоматично перемістився до сплячих, а система це помітила.",
+      "en": "The third group is dormant clients: those who have not bought for over three to six months depending on your product cycle. This is the most underrated segment: it usually makes up 40-60 percent of the entire base, and this is where the cheapest money lies. The person already knows you, nothing needs to be proven - they just need a reminder and a reason to come back. If the base lives in a spreadsheet, segments have to be counted by hand. In a CRM or a bot the groups update themselves: a client crosses the recency threshold and automatically moves to dormant, and the system takes note."
+    },
+    {
+      "t": "h2",
+      "uk": "Як заробляти на базі: розсилки, повторні продажі, реактивація",
+      "en": "How to earn from the base: mailouts, repeat sales, reactivation"
+    },
+    {
+      "t": "p",
+      "uk": "Найпростіший інструмент монетизації - регулярна розсилка в Telegram по своїй базі. Не спам «купіть у нас», а корисний ритм: раз на один-два тижні новинка, порада, акція з дедлайном. Порахуємо на реальних цифрах: база 2 000 підписників, відкриваність у Telegram близько 75 відсотків, конверсія в замовлення скромні два відсотки - це 30 замовлень з однієї розсилки. За середнього чека 900 гривень одне повідомлення приносить 27 000 гривень виторгу, а собівартість розсилки - практично нуль. Жоден рекламний канал не дає такої економіки.",
+      "en": "The simplest monetization tool is a regular Telegram mailout to your own base. Not 'buy from us' spam, but a useful rhythm: once every week or two a new product, a tip, a time-limited offer. Let's run real numbers: a base of 2,000 subscribers, a Telegram open rate around 75 percent, a modest two percent conversion to orders - that is 30 orders from a single mailout. With an average order of 900 hryvnias one message brings 27,000 hryvnias in revenue, while the cost of sending is practically zero. No advertising channel offers economics like that."
+    },
+    {
+      "t": "p",
+      "uk": "Другий сценарій - повторні продажі за життєвим циклом продукту. Якщо ви продаєте лінзи, корм для тварин чи витратні матеріали, ви точно знаєте, коли клієнту знадобиться наступна партія. Автоматичне нагадування за три дні до цього моменту перетворює разового покупця на регулярного без участі менеджера. Третій сценарій - реактивація сплячих. Персональне повідомлення «ми давно вас не бачили, ось знижка 15 відсотків до неділі» повертає в середньому пʼять-десять відсотків сплячого сегмента. Для бази, де сплять 800 контактів, це 40-80 повернених клієнтів з однієї кампанії - людей, залучення яких з реклами коштувало б десятки тисяч гривень.",
+      "en": "The second scenario is repeat sales tied to the product's life cycle. If you sell contact lenses, pet food or consumables, you know exactly when the client will need the next batch. An automatic reminder three days before that moment turns a one-time buyer into a regular one without any manager involved. The third scenario is reactivating the dormant. A personal message like 'we have not seen you in a while, here is 15 percent off until Sunday' brings back five to ten percent of the dormant segment on average. For a base with 800 sleeping contacts that is 40-80 returned clients from a single campaign - people whose acquisition through ads would cost tens of thousands of hryvnias."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація роботи з базою клієнтів",
+      "en": "Automating the work with your client base"
+    },
+    {
+      "t": "p",
+      "uk": "Усе описане вище можна робити руками, поки в базі кілька сотень контактів. Далі ручна робота зʼїдає весь ефект: менеджер фізично не встигає відстежувати, хто «заснув», кому пора нагадати про замовлення, хто відкрив розсилку і нічого не купив. Автоматизація знімає це повністю. Заявки з сайту, бота й соцмереж самі падають у єдину базу без ручного перенесення. Сегменти перераховуються щодня. Ланцюжки повідомлень запускаються за подіями: перша покупка - через тиждень запит відгуку, 90 днів без покупок - реактиваційна пропозиція, кинутий кошик - нагадування через дві години.",
+      "en": "Everything described above can be done by hand while the base holds a few hundred contacts. Beyond that, manual work eats the whole effect: a manager physically cannot track who has gone dormant, who is due an order reminder, who opened the mailout and bought nothing. Automation removes this entirely. Requests from the website, the bot and social media land in a single base with no manual copying. Segments are recalculated daily. Message sequences fire on events: first purchase triggers a review request a week later, 90 days without orders triggers a reactivation offer, an abandoned cart triggers a reminder two hours later."
+    },
+    {
+      "t": "p",
+      "uk": "Власник при цьому бачить головне на одному екрані: скільки контактів додалося за місяць, скільки принесла кожна розсилка, скільки сплячих вдалося повернути. База перестає бути списком у файлі й стає системою, яка щомісяця генерує передбачуваний виторг. Якщо ви хочете побудувати таку систему під свій бізнес - від Telegram-бота для збору контактів до автоматичних сегментів і розсилок - команда Devlly розробляє такі рішення під замовлення й допоможе спроєктувати роботу з базою під ваші процеси та цифри.",
+      "en": "The owner, meanwhile, sees what matters on a single screen: how many contacts were added this month, how much each mailout earned, how many dormant clients were won back. The base stops being a list in a file and becomes a system that generates predictable revenue every month. If you want to build such a system for your business - from a Telegram bot for collecting contacts to automatic segments and mailouts - the Devlly team builds these solutions to order and will help design the work with your base around your processes and numbers."
+    }
+  ]
+}

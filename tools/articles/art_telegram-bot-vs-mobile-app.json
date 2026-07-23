@@ -1,0 +1,97 @@
+{
+  "title_uk": "Telegram бот vs мобільний додаток: що обрати для бізнесу",
+  "title_en": "Telegram bot vs mobile app: what to choose for business",
+  "desc_uk": "Чесне порівняння Telegram бота і мобільного додатку: вартість, строки, аудиторія, пуші, офлайн. Простий фреймворк, як обрати правильний варіант.",
+  "desc_en": "An honest comparison of a Telegram bot and a mobile app: cost, timeline, audience, push, offline. A simple framework to choose the right option.",
+  "cta_uk": "Потрібна автоматизація? Пишіть нам",
+  "cta_en": "Need automation? Get in touch",
+  "seo": {
+    "t": "Telegram бот або мобільний додаток: що краще для бізнесу | Devlly",
+    "te": "Telegram bot or mobile app: what is better for business | Devlly",
+    "d": "Порівнюємо Telegram бота і мобільний додаток: вартість, строки, аудиторія. Що обрати для вашого бізнесу і коли що підходить.",
+    "de": "We compare a Telegram bot and a mobile app: cost, timeline, audience. What to choose for your business and when each fits.",
+    "k": "telegram бот vs додаток, telegram бот чи мобільний додаток, що обрати бот чи додаток, telegram mini app, розробка мобільного додатку, вартість telegram бота, автоматизація бізнесу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Telegram бот і мобільний додаток вирішують схожі задачі, але коштують і запускаються зовсім по-різному. Одні бізнеси місяцями чекають на реліз у сторах і платять десятки тисяч доларів, інші отримують робочий інструмент за пару тижнів прямо в месенджері, який вже стоїть у клієнта. У цьому матеріалі ми чесно порівнюємо два підходи: скільки коштує розробка, як швидко можна стартувати, наскільки легко клієнту почати користуватися, що з пушами та офлайном. І головне - даємо простий фреймворк, який допоможе обрати правильний варіант саме для вашого випадку, без маркетингового шуму.",
+      "en": "A Telegram bot and a mobile app solve similar tasks, but they cost and launch in very different ways. Some businesses wait months for a store release and pay tens of thousands of dollars, while others get a working tool in a couple of weeks right inside the messenger the client already has installed. In this article we honestly compare the two approaches: how much development costs, how fast you can start, how easy it is for a client to begin using it, and what happens with push and offline. Most importantly, we give a simple framework that helps you choose the right option for your case, without the marketing noise."
+    },
+    {
+      "t": "h2",
+      "uk": "Чим Telegram бот відрізняється від мобільного додатку",
+      "en": "How a Telegram bot differs from a mobile app"
+    },
+    {
+      "t": "p",
+      "uk": "Мобільний додаток - це окрема програма, яку користувач завантажує з App Store чи Google Play, встановлює на телефон і запускає з іконки на екрані. Telegram бот живе всередині месенджера: людина просто відкриває чат і починає діалог, нічого не встановлюючи. Telegram Mini App - це наступний крок: повноцінний вебінтерфейс з кнопками, формами та оплатою, який відкривається прямо в Telegram і виглядає майже як звичайний додаток.",
+      "en": "A mobile app is a separate program that a user downloads from the App Store or Google Play, installs on the phone, and launches from an icon on the screen. A Telegram bot lives inside the messenger: a person simply opens a chat and starts a dialog without installing anything. A Telegram Mini App is the next step: a full web interface with buttons, forms, and payments that opens right inside Telegram and looks almost like a regular app."
+    },
+    {
+      "t": "p",
+      "uk": "Технічно бот - це вебсервіс, що спілкується з Telegram через API, а Mini App - це вебзастосунок на HTML і JavaScript усередині месенджера. Нативний додаток пишеться під кожну платформу окремо або на кросплатформі, а потім проходить перевірку сторів. Звідси й ключова різниця: бот ви оновлюєте миттєво на своєму сервері, а додаток - лише через нову версію, яку ще має схвалити Apple чи Google. Для бізнесу це означає різну швидкість реакції на потреби ринку: у боті ви правите логіку чи ціни сьогодні, а у додатку інколи чекаєте днями, поки оновлення дійде до всіх користувачів.",
+      "en": "Technically, a bot is a web service that talks to Telegram through an API, while a Mini App is a web application built with HTML and JavaScript inside the messenger. A native app is written for each platform separately or with a cross-platform framework, and then passes store review. Hence the key difference: you update a bot instantly on your own server, while an app updates only through a new version that Apple or Google still has to approve. For a business this means a different speed of reacting to the market: in a bot you change logic or prices today, while in an app you sometimes wait days for the update to reach all users."
+    },
+    {
+      "t": "h2",
+      "uk": "Вартість і строки розробки: бот проти додатку",
+      "en": "Cost and development time: bot versus app"
+    },
+    {
+      "t": "p",
+      "uk": "Простого Telegram бота або Mini App для типових задач малого бізнесу - запис, замовлення, підтримка, каталог - реально зробити за 2 - 5 тижнів і в межах приблизно 1500 - 6000 доларів. Мобільний додаток під iOS і Android з тим самим функціоналом зазвичай стартує від 8000 - 15000 доларів і забирає 2 - 4 місяці, а складніші проєкти легко переходять за 30000 доларів. Різниця в ціні пояснюється просто: бот - це один вебсервіс, тоді як повноцінний додаток - це фактично два продукти під різні платформи плюс окремий бекенд і дизайн під кожен екран.",
+      "en": "A simple Telegram bot or Mini App for typical small business tasks such as booking, orders, support, or a catalog can realistically be built in 2 to 5 weeks and within roughly 1500 to 6000 dollars. A mobile app for iOS and Android with the same functionality usually starts at 8000 to 15000 dollars and takes 2 to 4 months, while more complex projects easily go beyond 30000 dollars. The price gap is easy to explain: a bot is a single web service, while a full app is effectively two products for different platforms plus a separate backend and design for every screen."
+    },
+    {
+      "t": "p",
+      "uk": "До ціни додатку треба додати обовʼязкові витрати на стори: акаунт розробника Apple коштує 99 доларів на рік, а Google Play - разові 25 доларів. Якщо в додатку є продаж цифрових товарів чи підписок, Apple і Google утримують комісію до 30 відсотків з кожного платежу. У бота таких зборів немає: ви підключаєте свій платіжний провайдер і платите лише його стандартну комісію. До того ж перевірка додатку в сторі займає від кількох годин до кількох днів, тоді як зміни в боті доступні одразу.",
+      "en": "To the app price you must add mandatory store costs: an Apple developer account costs 99 dollars per year, and Google Play is a one-time 25 dollars. If the app sells digital goods or subscriptions, Apple and Google take a commission of up to 30 percent on every payment. A bot has no such fees: you connect your own payment provider and pay only its standard commission. On top of that, store review of an app takes from a few hours to a few days, while changes in a bot are available immediately."
+    },
+    {
+      "t": "h2",
+      "uk": "Аудиторія і барʼєр встановлення",
+      "en": "Audience and the install barrier"
+    },
+    {
+      "t": "p",
+      "uk": "Telegram має понад 1 мільярд активних користувачів на місяць, і в Україні та багатьох сусідніх країнах це основний месенджер для бізнесу. Головна перевага бота - нульовий барʼєр входу: клієнту не треба шукати додаток у сторі, качати сотні мегабайт і реєструватися. Він переходить за посиланням і вже користується. Конверсія з кліку в перший запуск у бота часто у кілька разів вища, ніж у додатку.",
+      "en": "Telegram has over 1 billion monthly active users, and in Ukraine and many neighboring countries it is the main messenger for business. The bot's key advantage is a zero entry barrier: the client does not have to find the app in a store, download hundreds of megabytes, and register. They tap a link and are already using it. The conversion from a click to the first launch is often several times higher for a bot than for an app."
+    },
+    {
+      "t": "p",
+      "uk": "Для порівняння: до встановлення нативного додатку доходить далеко не кожен. На шляху від реклами до першого відкриття губиться більшість людей, і типова конверсія в установку тримається на рівні одиниць відсотків. Кожен зайвий крок - перехід у стор, очікування завантаження, згода на доступи - відсіює частину аудиторії. Для бізнесу, якому важлива швидка масова взаємодія, це вирішальний аргумент на користь бота. Додайте сюди те, що бот легко ділиться одним посиланням, працює однаково на будь-якому телефоні й не залежить від памʼяті пристрою, і перевага стає ще очевиднішою.",
+      "en": "For comparison, far from everyone reaches the point of installing a native app. Most people are lost on the way from an ad to the first open, and a typical install conversion stays at the level of a few percent. Every extra step, whether it is going to the store, waiting for the download, or granting permissions, filters out part of the audience. For a business that values fast mass interaction, this is a decisive argument in favor of a bot. Add to that the fact that a bot is easily shared with a single link, works the same on any phone, and does not depend on device storage, and the advantage becomes even clearer."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли потрібен саме мобільний додаток",
+      "en": "When you really need a mobile app"
+    },
+    {
+      "t": "p",
+      "uk": "Мобільний додаток виграє там, де бот упирається в межі месенджера. Це важкий офлайн-режим, коли застосунок має повноцінно працювати без інтернету і синхронізуватися пізніше. Це глибокий доступ до заліза: камера в режимі сканера, Bluetooth, точна геолокація у фоні, NFC, складні жести й анімації. Бот теж вміє надсилати пуші, але системні push-сповіщення нативного додатку помітніші й гнучкіші, особливо для регулярного утримання аудиторії.",
+      "en": "A mobile app wins where a bot hits the limits of the messenger. This includes heavy offline mode, when the app must fully work without internet and sync later. It includes deep access to hardware: the camera as a scanner, Bluetooth, precise background geolocation, NFC, and complex gestures and animations. A bot can send push too, but the system push notifications of a native app are more noticeable and flexible, especially for regular audience retention."
+    },
+    {
+      "t": "p",
+      "uk": "Ще одна причина - бренд і присутність у сторах. Іконка на екрані телефону, сторінка в App Store і Google Play, відгуки та рейтинг створюють відчуття солідності, якого чат у месенджері не дає. Якщо ваш продукт - це щоденний сервіс з мільйонами сесій, фітнес, банкінг, ігри чи логістика для курʼєрів, окремий додаток майже завжди виправданий, попри вищу ціну й довші строки. Важливий і психологічний момент: встановлений застосунок постійно перед очима на екрані, і до нього повертаються частіше, ніж до чату, який легко загубити серед десятків інших діалогів.",
+      "en": "Another reason is brand and presence in the stores. An icon on the phone screen, a page in the App Store and Google Play, reviews, and a rating create a sense of solidity that a chat in a messenger does not provide. If your product is a daily service with millions of sessions, such as fitness, banking, games, or logistics for couriers, a dedicated app is almost always justified, despite the higher price and longer timelines. There is also a psychological factor: an installed app is always in front of the user on the screen, and people return to it more often than to a chat that is easy to lose among dozens of other conversations."
+    },
+    {
+      "t": "h2",
+      "uk": "Як обрати: чіткий чек-лист рішення",
+      "en": "How to choose: a clear decision checklist"
+    },
+    {
+      "t": "p",
+      "uk": "Почніть з простого фреймворку. Оберіть Telegram бот або Mini App, якщо треба швидко і недорого перевірити ідею, ваша аудиторія вже в Telegram, головне - це діалог, замовлення, запис, підтримка чи внутрішня автоматизація, і вам важлива легкість входу без встановлення. Обирайте мобільний додаток, якщо продукт потребує стабільного офлайну, доступу до апаратних можливостей телефона, частих системних пушів або окремого бренду у сторах з високою частотою використання.",
+      "en": "Start with a simple framework. Choose a Telegram bot or Mini App if you need to test an idea quickly and cheaply, your audience is already in Telegram, the core is a dialog, orders, booking, support, or internal automation, and an easy entry without installation matters to you. Choose a mobile app if the product needs stable offline mode, access to the phone's hardware, frequent system push, or a separate brand in the stores with high usage frequency."
+    },
+    {
+      "t": "p",
+      "uk": "На практиці багато компаній роблять розумну послідовність: спершу запускають бота чи Mini App, збирають перших клієнтів і перевіряють попит, а вже потім, коли є трафік і гроші, інвестують у нативний додаток. У Devlly ми будуємо і Telegram ботів з Mini Apps, і мобільні додатки, тому допомагаємо тверезо оцінити ваш кейс і обрати той варіант, що дасть результат швидше й дешевше, а не просто дорожчий.",
+      "en": "In practice, many companies follow a smart sequence: they first launch a bot or Mini App, gather their first clients, and test demand, and only then, when there is traffic and money, invest in a native app. At Devlly we build both Telegram bots with Mini Apps and mobile apps, so we help you soberly assess your case and choose the option that delivers results faster and cheaper, rather than simply the more expensive one."
+    }
+  ]
+}

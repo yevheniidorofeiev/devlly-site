@@ -1,0 +1,80 @@
+{
+  "title_uk": "Автоматизація заявок: як обробляти клієнтів без менеджера",
+  "title_en": "Request Automation: How to Handle Clients Without a Manager",
+  "desc_uk": "Як автоматизувати обробку заявок від клієнтів через Telegram-бота або CRM. Реальні приклади і скільки часу це економить.",
+  "desc_en": "How to automate the processing of client requests through a Telegram bot or CRM. Real examples and how much time it saves.",
+  "seo": {
+    "t": "Автоматизація обробки заявок клієнтів | Devlly",
+    "te": "Automation of Client Request Processing | Devlly",
+    "d": "Як автоматизувати обробку заявок від клієнтів через Telegram-бота або CRM. Реальні приклади і скільки часу це економить.",
+    "de": "How to automate the processing of client requests through a Telegram bot or CRM. Real examples and how much time it saves.",
+    "k": "автоматизація заявок, обробка заявок клієнтів, telegram бот для заявок, автоматизація бізнесу, crm для заявок, обробка звернень, автоматична відповідь клієнту, лідогенерація, автоматизація продажів, обробка лідів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Уявіть звичайний робочий день: менеджер обідає, ще один пішов на дзвінок, а в цей час у Direct, на пошту й у форму на сайті падає пʼять нових заявок. Три з них отримають відповідь через кілька годин, а дві загубляться назавжди. За статистикою наших клієнтів, бізнес без автоматизації втрачає 3 з 10 звернень просто тому, що не встигає відповісти вчасно. А клієнт, який не почув відповіді за перші 5 хвилин, у 8 разів частіше йде до конкурента. Автоматизація заявок закриває саме цю дірку: бот або CRM ловить кожне звернення, миттєво відповідає й передає готового клієнта менеджеру. Розберемо, як це працює і що дає бізнесу насправді.",
+      "en": "Picture a normal workday: one manager is at lunch, another stepped out for a call, and meanwhile five new requests land in Direct, in the inbox, and in the website form. Three of them will get a reply hours later, and two will be lost forever. According to our clients' data, a business without automation loses 3 out of 10 requests simply because it fails to reply in time. And a client who hears nothing in the first 5 minutes is 8 times more likely to go to a competitor. Request automation closes exactly this gap: a bot or CRM catches every inquiry, replies instantly, and hands a ready client to the manager. Let's break down how it works and what it really gives a business."
+    },
+    {
+      "t": "h2",
+      "uk": "Де бізнес втрачає заявки клієнтів найчастіше",
+      "en": "Where a Business Loses Client Requests Most Often"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільша частина втрат - це швидкість. Дослідження показують, що середній український малий бізнес відповідає на звернення за 8 годин, тоді як клієнт очікує відповіді за 2 хвилини. За цей розрив людина встигає написати ще трьом конкурентам і купити в того, хто відповів першим. Друга поширена проблема - розкидані канали: частина заявок приходить у Instagram, частина в Telegram, щось на пошту, щось через форму. Коли немає єдиної точки збору, менеджер фізично не бачить усіх звернень одночасно, і частина повідомлень просто тоне в потоці. Третя причина - людський фактор: забув відповісти, переплутав замовлення, не записав контакт.",
+      "en": "The biggest share of losses is speed. Studies show that an average Ukrainian small business replies to an inquiry in 8 hours, while the client expects an answer in 2 minutes. In that gap the person manages to message three more competitors and buy from whoever answered first. The second common problem is scattered channels: some requests come via Instagram, some via Telegram, something to email, something through a form. With no single collection point, a manager physically cannot see all inquiries at once, and some messages simply drown in the flow. The third reason is the human factor: forgot to reply, mixed up an order, didn't save a contact."
+    },
+    {
+      "t": "p",
+      "uk": "Окрема історія - неробочий час. Близько 40% звернень у багатьох нішах приходять увечері та вночі, коли менеджерів немає на місці. Людина побачила рекламу об 11 вечора, залишила заявку - а перша реакція буде тільки о 10 ранку. До того часу настрій купити вже вивітрився. Автоматизація заявок вирішує всі три проблеми одразу: бот працює 24/7, збирає звернення з усіх каналів в одне місце й відповідає миттєво, без вихідних і перерв на обід. Клієнт отримує підтвердження, що його почули, а бізнес - структуровану заявку з іменем, контактом і суттю запиту замість хаотичного повідомлення «а скільки коштує?».",
+      "en": "A separate story is non-working hours. In many niches around 40% of inquiries arrive in the evening and at night, when managers are away. A person saw an ad at 11 pm, left a request, and the first reaction comes only at 10 am. By then the urge to buy has already faded. Request automation solves all three problems at once: the bot works 24/7, gathers inquiries from all channels into one place, and replies instantly, with no days off or lunch breaks. The client gets confirmation that they were heard, and the business gets a structured request with a name, contact, and the essence of the query instead of a chaotic message like 'how much does it cost?'."
+    },
+    {
+      "t": "h2",
+      "uk": "Як автоматизація обробки заявок працює на практиці",
+      "en": "How Request Processing Automation Works in Practice"
+    },
+    {
+      "t": "p",
+      "uk": "Механіка проста й не потребує від клієнта нічого складного. Людина натискає кнопку в рекламі, пише боту або заповнює форму - і одразу потрапляє в автоматичний сценарій. Бот вітається, ставить два-три ключові питання (що цікавить, коли зручно, як звʼязатися) і формує повну заявку. Далі система сама вирішує, що робити: якщо клієнт готовий купувати - миттєво передає його менеджеру з усіма даними, якщо просто цікавиться - надсилає прайс, каталог чи відповіді на часті питання. Уся інформація автоматично лягає в CRM або таблицю: імʼя, телефон, джерело, коментар. Менеджеру не треба нічого переписувати вручну - він одразу бачить готову картку й дзвонить теплому клієнту.",
+      "en": "The mechanics are simple and demand nothing complicated from the client. A person taps a button in an ad, messages the bot, or fills out a form, and immediately enters an automated scenario. The bot greets them, asks two or three key questions (what they need, when it's convenient, how to reach them) and forms a complete request. Then the system decides what to do: if the client is ready to buy, it instantly passes them to a manager with all the data; if they're just curious, it sends a price list, catalog, or answers to frequent questions. All information automatically lands in a CRM or spreadsheet: name, phone, source, comment. The manager doesn't have to retype anything, they immediately see a ready card and call a warm client."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо, що автоматизація не означає холодного робота замість живого спілкування. Навпаки: бот бере на себе рутину - збір контактів, кваліфікацію, першу відповідь, нагадування - а людина підключається саме там, де потрібні емоції та переговори. Клієнт отримує відповідь за 30 секунд замість кількох годин, і це вже створює відчуття турботи. До того ж система нічого не забуває: якщо менеджер не передзвонив, бот сам нагадає, а керівник побачить, скільки заявок у роботі й де вони «застрягли». Так формується прозора воронка, у якій жодне звернення не зникає між месенджерами й нотатками на стікерах.",
+      "en": "Importantly, automation does not mean a cold robot instead of live communication. On the contrary: the bot takes on the routine - collecting contacts, qualification, the first reply, reminders - while a human steps in exactly where emotion and negotiation are needed. The client gets an answer in 30 seconds instead of several hours, and that alone creates a feeling of care. Moreover, the system forgets nothing: if the manager didn't call back, the bot reminds them, and the owner sees how many requests are in progress and where they got 'stuck'. This forms a transparent funnel in which no inquiry disappears between messengers and notes on sticky pads."
+    },
+    {
+      "t": "h2",
+      "uk": "Реальні приклади автоматизації заявок у різних нішах",
+      "en": "Real Examples of Request Automation in Different Niches"
+    },
+    {
+      "t": "p",
+      "uk": "Приклад перший - інтернет-магазин одягу. До автоматизації два адміністратори не встигали відповідати в Instagram у пікові вечірні години, і кожне десяте питання «є розмір M?» залишалося без відповіді до наступного дня. Бот навчили миттєво перевіряти наявність, показувати фото, приймати замовлення й записувати його в таблицю. Результат: час першої відповіді впав з 3 годин до 20 секунд, а магазин перестав втрачати нічні замовлення. Приклад другий - сервіс з ремонту техніки. Клієнт описує проблему боту, отримує орієнтовну вартість і вільний час, а майстер бачить заявку вже з адресою й моделлю пристрою. Менеджер-приймальник узагалі став не потрібен на цьому етапі.",
+      "en": "First example - an online clothing store. Before automation, two administrators couldn't keep up with replies on Instagram during peak evening hours, and every tenth question 'do you have size M?' went unanswered until the next day. The bot was taught to instantly check stock, show photos, take orders, and record them in a spreadsheet. Result: first-reply time dropped from 3 hours to 20 seconds, and the store stopped losing night orders. Second example - an appliance repair service. The client describes the problem to the bot, gets an estimated price and a free slot, and the technician sees the request already with the address and device model. A receiving manager became entirely unnecessary at this stage."
+    },
+    {
+      "t": "p",
+      "uk": "Приклад третій - B2B, компанія з оптових поставок. Тут заявок менше, але кожна дорога, і раніше частина запитів з форми на сайті просто губилася в загальній пошті. Бот тепер збирає заявку, одразу кваліфікує клієнта за обсягом і регіоном та розподіляє між менеджерами відповідних напрямків, паралельно створюючи угоду в CRM. Середній час реакції скоротився з доби до кількох хвилин, а конверсія у зустріч зросла майже вдвічі. У всіх трьох випадках рахунок простий: якщо автоматизація повертає навіть 2-3 втрачені заявки на день, вона окупається вже в перший місяць. Саме такі рішення - боти й інтеграції з CRM під конкретну нішу - у Devlly ми й будуємо під ключ.",
+      "en": "Third example - B2B, a wholesale supply company. Here there are fewer requests, but each is valuable, and previously some form inquiries simply got lost in the general inbox. The bot now collects the request, immediately qualifies the client by volume and region, and distributes it among managers of the relevant areas, simultaneously creating a deal in the CRM. Average reaction time shrank from a day to a few minutes, and conversion into a meeting nearly doubled. In all three cases the math is simple: if automation returns even 2-3 lost requests a day, it pays for itself within the first month. It is exactly these solutions - bots and CRM integrations for a specific niche - that we at Devlly build turnkey."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки часу й грошей економить автоматизація звернень",
+      "en": "How Much Time and Money Request Automation Saves"
+    },
+    {
+      "t": "p",
+      "uk": "Порахуймо на конкретних цифрах. Один менеджер витрачає в середньому 4-6 хвилин на обробку однієї заявки вручну: прочитати, уточнити контакт, записати в таблицю, поставити нагадування. При 50 зверненнях на день це майже 4 години чистого часу тільки на рутину. Автоматизація забирає цей блок повністю: збір і запис даних відбувається за секунди й без помилок. У перерахунку на місяць це близько 80 годин, які менеджер може витратити на реальні продажі, а не на копіювання номерів телефонів. Для власника це або економія на ще одному співробітнику, або кратне зростання кількості оброблених заявок тими самими людьми.",
+      "en": "Let's count in concrete numbers. One manager spends on average 4-6 minutes processing a single request manually: read it, clarify the contact, write it into a spreadsheet, set a reminder. At 50 inquiries a day that's almost 4 hours of pure time on routine alone. Automation removes this block entirely: collecting and recording data happens in seconds and without errors. Per month that's about 80 hours the manager can spend on real sales instead of copying phone numbers. For the owner it's either savings on another employee, or a multiple increase in the number of requests processed by the same people."
+    },
+    {
+      "t": "p",
+      "uk": "Але головна економія навіть не в годинах, а в повернутих клієнтах. Якщо бізнес отримує 300 заявок на місяць і раніше втрачав 30% через повільні відповіді, це 90 упущених клієнтів. Повернувши хоча б половину з них, при середньому чеку 1000 грн ви додаєте 45 000 грн виручки щомісяця - і це без жодної додаткової витрати на рекламу. Автоматизація по суті витискає максимум з трафіку, за який ви вже заплатили. Тому питання «чи варто автоматизувати обробку заявок» насправді звучить інакше: скільки ви готові й далі втрачати щомісяця, поки менеджер фізично не встигає відповісти кожному вчасно.",
+      "en": "But the main saving isn't even in hours, it's in recovered clients. If a business gets 300 requests a month and previously lost 30% due to slow replies, that's 90 missed clients. By recovering even half of them, with an average check of 1000 UAH you add 45,000 UAH of revenue every month - and that's without a single extra advertising cost. Automation essentially squeezes the maximum out of traffic you've already paid for. So the question 'is it worth automating request processing' really sounds different: how much are you willing to keep losing every month while a manager physically can't reply to everyone in time."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title_uk": "Проектна CRM: як керувати проектами і клієнтами в одній системі",
+  "title_en": "Project CRM: how to manage projects and clients in one system",
+  "desc_uk": "Чим проектна CRM відрізняється від класичної, кому вона потрібна і як обʼєднати продажі, проекти і оплати в одній системі без Trello та Excel.",
+  "desc_en": "How a project CRM differs from a classic one, who needs it and how to unite sales, projects and payments in a single system without Trello and Excel.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Проектна CRM система для бізнесу | Devlly",
+    "te": "Project CRM system for business | Devlly",
+    "d": "Що таке проектна CRM і чим вона відрізняється від звичайної. Як обʼєднати управління проектами і клієнтами в одній системі.",
+    "de": "What a project CRM is and how it differs from a regular one. How to unite project management and client management in a single system.",
+    "k": "проектна crm, crm для управління проектами, crm система для бізнесу, crm для агенції, управління проектами і клієнтами, кастомна crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Класична CRM чудово веде клієнта до моменту оплати, а далі втрачає до нього інтерес: угода закрита, каса поповнена, історія завершена. Але для агенцій, студій і сервісних компаній продаж - це тільки початок роботи. Далі три місяці проекту, десятки задач, правки, акти і додаткові продажі. Проектна CRM закриває саме цей розрив: у ній угода не закінчується оплатою, а перетворюється на проект з етапами, дедлайнами і відповідальними, при цьому вся історія клієнта залишається поруч. Розберемо, як це працює, кому потрібно і чим краще за звичну звʼязку з кількох окремих сервісів.",
+      "en": "A classic CRM guides the client beautifully up to the moment of payment and then loses interest: the deal is closed, the cash register is filled, the story is over. But for agencies, studios and service companies the sale is only the beginning of the work. Next come three months of a project, dozens of tasks, revisions, invoices and upsells. A project CRM closes exactly this gap: in it a deal does not end with payment but turns into a project with stages, deadlines and owners, while the whole client history stays right beside it. Let's break down how it works, who needs it and why it beats the usual patchwork of separate tools."
+    },
+    {
+      "t": "h2",
+      "uk": "Чим проектна CRM відрізняється від класичної",
+      "en": "How a project CRM differs from a classic one"
+    },
+    {
+      "t": "p",
+      "uk": "Класична CRM побудована навколо воронки продажів: лід, переговори, комерційна пропозиція, оплата. Щойно статус змінюється на «успішно», картка йде в архів, і система вважає свою місію виконаною. Проектна CRM влаштована інакше: закриття угоди - це не фінал, а тригер. Угода автоматично перетворюється на проект зі своїм життєвим циклом: бриф, виробництво, погодження, здача, підтримка. Уся інформація з етапу продажу - бюджет, домовленості, обіцянки менеджера - переходить у проект, і команді не доводиться збирати її наново по чатах і памʼяті колег.",
+      "en": "A classic CRM is built around the sales funnel: lead, negotiation, proposal, payment. As soon as the status changes to 'won,' the card goes to the archive and the system considers its mission complete. A project CRM works differently: closing the deal is not the finale but a trigger. The deal automatically turns into a project with its own life cycle: brief, production, approval, delivery, support. All the information from the sales stage - budget, agreements, the manager's promises - carries over into the project, so the team does not have to reassemble it from chats and colleagues' memory."
+    },
+    {
+      "t": "p",
+      "uk": "Друга принципова відмінність - звʼязок проекту з клієнтом. У таск-трекері задача «намалювати макет» живе сама по собі, і виконавець не бачить, що цей клієнт приносить компанії третину виручки і вже двічі скаржився на строки. У проектній CRM кожен проект привʼязаний до картки клієнта з усією історією: попередні проекти, листування, оплати, конфлікти. Це змінює якість рішень: менеджер розставляє пріоритети не наосліп, а розуміючи цінність клієнта. А коли проект завершено, система сама нагадає запропонувати підтримку чи наступну послугу - і повторний продаж стартує з повного контексту.",
+      "en": "The second fundamental difference is the link between the project and the client. In a task tracker the task 'draw the mockup' lives on its own, and the person doing it cannot see that this client brings the company a third of its revenue and has already complained about deadlines twice. In a project CRM every project is tied to the client card with the full history: previous projects, correspondence, payments, conflicts. This changes the quality of decisions: the manager sets priorities not blindly but understanding the client's value. And when the project is finished, the system itself reminds you to offer support or the next service - so the repeat sale starts with full context."
+    },
+    {
+      "t": "h2",
+      "uk": "Кому потрібна проектна CRM: агенції, будівництво, юристи, IT",
+      "en": "Who needs a project CRM: agencies, construction, lawyers, IT"
+    },
+    {
+      "t": "p",
+      "uk": "Проектна CRM потрібна всім, у кого між оплатою і результатом лежить тривала робота. Класичний приклад - маркетингові і вебстудії: після передоплати починається проект на один-три місяці з десятками задач і постійними погодженнями з клієнтом. Те саме в IT-аутсорсі, де паралельно йдуть пʼять-десять проектів з різними командами, ставками і моделями оплати. Для таких компаній воронка продажів - лише десята частина процесу, і вести решту в окремих інструментах означає щодня втрачати контекст.",
+      "en": "A project CRM is needed by everyone who has a long stretch of work between payment and result. The classic example is marketing and web studios: after the prepayment comes a one-to-three-month project with dozens of tasks and constant client approvals. The same goes for IT outsourcing, where five to ten projects run in parallel with different teams, rates and payment models. For such companies the sales funnel is only a tenth of the process, and running the rest in separate tools means losing context every single day."
+    },
+    {
+      "t": "p",
+      "uk": "Будівельні і ремонтні компанії - ще один типовий користувач: обʼєкт триває місяцями, має кошторис, поетапні оплати і бригади, які треба координувати. Юридичні фірми ведуть справи, які по суті і є проектами: судові засідання, дедлайни подання документів, погодинний облік роботи. Івент-агенції готують заходи з жорсткою датою, до якої привʼязані десятки задач і підрядників. У всіх цих бізнесів різна термінологія, але однакова потреба: бачити продаж, виконання і гроші по кожному клієнту в одній системі.",
+      "en": "Construction and renovation companies are another typical user: a site runs for months, has a cost estimate, staged payments and crews that need coordinating. Law firms handle cases that are essentially projects: court hearings, filing deadlines, hourly time tracking. Event agencies prepare events with a hard date to which dozens of tasks and contractors are tied. All these businesses use different terminology but share the same need: to see the sale, the delivery and the money for every client in one system."
+    },
+    {
+      "t": "h2",
+      "uk": "Ключові функції проектної CRM: етапи, задачі, оплати",
+      "en": "Key features of a project CRM: stages, tasks, payments"
+    },
+    {
+      "t": "p",
+      "uk": "Основа системи - етапи проекту. Для кожного типу послуги налаштовується свій шаблон: у вебстудії це бриф, дизайн, розробка, тестування, запуск; у будівництві - проектування, закупівля, монтаж, здача обʼєкта. Коли угода закривається, проект створюється одразу з готовою структурою етапів і типовими задачами, тож менеджер не збирає план з нуля. По кожному етапу видно строки, відповідального і відсоток готовності, а керівник за хвилину розуміє стан усіх проектів компанії.",
+      "en": "The foundation of the system is project stages. Each type of service gets its own template: for a web studio it is brief, design, development, testing, launch; for construction it is planning, procurement, installation, handover. When a deal is closed, the project is created immediately with a ready-made stage structure and standard tasks, so the manager does not build the plan from scratch. For every stage you can see the timeline, the owner and the completion percentage, and a director grasps the state of all company projects in a minute."
+    },
+    {
+      "t": "p",
+      "uk": "Другий рівень - задачі і дедлайни. Кожен етап розкладається на конкретні задачі з виконавцями, і система показує завантаження команди: хто перевантажений, у кого є вікно на наступний тиждень. Прострочені задачі підсвічуються і летять сповіщенням керівнику, поки затримка коштує години, а не тижня для всього проекту. Третій рівень - гроші. Проект звʼязаний з рахунками і поетапними оплатами: система бачить, що другий етап завершено, і нагадує виставити рахунок, а якщо оплата затримується - підказує менеджеру, що час нагадати клієнту.",
+      "en": "The second level is tasks and deadlines. Each stage breaks down into specific tasks with assignees, and the system shows the team's workload: who is overloaded, who has a window next week. Overdue tasks get highlighted and fly to the manager as notifications while the delay costs hours, not a week for the whole project. The third level is money. The project is linked to invoices and staged payments: the system sees that stage two is complete and reminds you to issue the invoice, and if a payment is late it prompts the manager that it is time to nudge the client."
+    },
+    {
+      "t": "p",
+      "uk": "Нарешті, звітність. Коли продажі, виконання і оплати живуть в одній базі, зʼявляються відповіді на питання, які раніше вимагали дня роботи в Excel: яка фактична маржинальність кожного проекту, скільки годин команда витрачає на конкретного клієнта, які типи проектів систематично вилазять за строки. Саме ці цифри дозволяють підняти ціни на збиткові послуги або відмовитися від них узагалі - рішення, які без даних відкладаються роками.",
+      "en": "Finally, reporting. When sales, delivery and payments live in one database, you get answers to questions that used to take a day of Excel work: the actual margin of each project, how many hours the team spends on a specific client, which project types systematically overrun their deadlines. These are exactly the numbers that let you raise prices on loss-making services or drop them altogether - decisions that, without data, get postponed for years."
+    },
+    {
+      "t": "h2",
+      "uk": "Продажі в CRM, проекти в Trello: чому це ламає процеси",
+      "en": "Sales in a CRM, projects in Trello: why this breaks processes"
+    },
+    {
+      "t": "p",
+      "uk": "Найпоширеніша конфігурація в сервісному бізнесі виглядає так: продажі ведуться в CRM, задачі - у Trello чи подібному трекері, оплати - в Excel у бухгалтера, а листування з клієнтами - в особистих месенджерах менеджерів. Кожен інструмент окремо непоганий, але між ними немає звʼязку, і саме на стиках усе ламається. Менеджер з продажу закрив угоду і вручну створює дошку в Trello, переносячи умови по памʼяті: щось забув, щось переплутав, і команда стартує з неповним брифом.",
+      "en": "The most common setup in a service business looks like this: sales live in a CRM, tasks in Trello or a similar tracker, payments in the accountant's Excel, and client correspondence in the managers' personal messengers. Each tool is decent on its own, but there is no connection between them, and it is exactly at the seams that everything breaks. The sales manager closes a deal and manually creates a Trello board, transferring the terms from memory: something forgotten, something mixed up, and the team starts with an incomplete brief."
+    },
+    {
+      "t": "p",
+      "uk": "Далі гірше. Клієнт пише проектному менеджеру питання про оплату - той іде до бухгалтера, бухгалтер шукає в Excel, і відповідь займає день. Керівник хоче зрозуміти, скільки компанія заробила на клієнті за рік, і два дні збирає дані з трьох систем. За нашим досвідом, на ручні переноси даних між системами команда з 10-15 людей витрачає 15-20 годин на місяць, і це без урахування помилок, які коштують значно дорожче: загублена домовленість про знижку чи невиставлений вчасно рахунок на кілька тисяч доларів.",
+      "en": "It gets worse. A client asks the project manager a question about a payment - the manager goes to the accountant, the accountant digs through Excel, and the answer takes a day. The director wants to know how much the company earned from a client over the year and spends two days pulling data from three systems. In our experience, a team of 10-15 people burns 15-20 hours a month on manual data transfers between systems, and that is before counting the mistakes that cost far more: a lost discount agreement or an invoice for several thousand dollars that was never issued on time."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова чи кастомна проектна CRM: що обрати",
+      "en": "Off-the-shelf or custom project CRM: what to choose"
+    },
+    {
+      "t": "p",
+      "uk": "На ринку є готові системи з проектним модулем, і для старту вони цілком робочі: швидке підключення, передбачувана абонплата 10-30 доларів на користувача щомісяця. Мінуси проявляються з ростом: процеси доводиться підганяти під логіку системи, а не навпаки, половина інтерфейсу не використовується, а потрібної інтеграції з вашою обліковою системою просто немає. Коли в команді 15-20 користувачів, річна абонплата вже порівнянна з вартістю власного рішення, яке залишиться з вами назавжди.",
+      "en": "There are off-the-shelf systems with a project module on the market, and for a start they work fine: quick setup, a predictable subscription of 10-30 dollars per user per month. The downsides show up with growth: you have to bend your processes to the system's logic rather than the other way around, half the interface goes unused, and the integration you need with your accounting system simply does not exist. Once the team reaches 15-20 users, the annual subscription is already comparable to the cost of your own solution, which stays with you forever."
+    },
+    {
+      "t": "p",
+      "uk": "Кастомна проектна CRM має сенс, коли у вас нестандартний процес, специфічні розрахунки на кшталт кошторисів чи погодинних ставок або потрібні глибокі інтеграції з бухгалтерією, Telegram і клієнтським порталом. Ви платите один раз за розробку, система повторює саме ваш робочий процес, і в ній немає нічого зайвого. У Devlly ми розробляємо такі рішення під замовлення: аналізуємо, як влаштовані ваші продажі і проекти, і будуємо систему, в якій угода природно перетікає в проект, а керівник бачить усю картину бізнесу на одному екрані.",
+      "en": "A custom project CRM makes sense when your process is non-standard, you have specific calculations like cost estimates or hourly rates, or you need deep integrations with accounting, Telegram and a client portal. You pay once for the development, the system mirrors your exact workflow, and there is nothing superfluous in it. At Devlly we build such solutions to order: we analyse how your sales and projects are structured and create a system where a deal flows naturally into a project and the owner sees the whole picture of the business on a single screen."
+    }
+  ]
+}

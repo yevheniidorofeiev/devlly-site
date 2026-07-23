@@ -1,0 +1,80 @@
+{
+ "title_uk": "Парсинг даних для бізнесу: як моніторити конкурентів автоматично",
+ "title_en": "Data parsing for business: how to monitor competitors automatically",
+ "date_uk": "08 ЛИП 2025",
+ "date_en": "JUL 8, 2025",
+ "desc_uk": "Що таке парсинг даних, які дані можна збирати автоматично та як бізнес використовує це для цін, аналізу ринку й лідогенерації.",
+ "desc_en": "What data parsing is, which data you can collect automatically, and how businesses use it for pricing, market analysis and lead generation.",
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Поки ви вручну відкриваєте сайти конкурентів і виписуєте ціни в таблицю, вони вже змінилися. Парсинг даних дозволяє робити цю рутину автоматично - і отримувати актуальну картину ринку щодня, а не раз на місяць. Розберемо простими словами, що це таке, які дані реально можна збирати та яку користь усе це дає бізнесу.",
+   "en": "While you manually open competitors' websites and copy prices into a spreadsheet, they have already changed. Data parsing lets you do this routine automatically - and get an up-to-date picture of the market every day, not once a month. Let's break down in plain terms what it is, what data you can actually collect, and what value all of it brings to business."
+  },
+  {
+   "t": "h2",
+   "uk": "Що таке парсинг даних простими словами",
+   "en": "What data parsing is in plain words"
+  },
+  {
+   "t": "p",
+   "uk": "Парсинг (або веб-скрейпінг) - це автоматичний збір інформації з сайтів за заданими правилами. Уявіть співробітника, який цілодобово заходить на потрібні сторінки, зчитує ціни, назви товарів, залишки на складі й акуратно складає все в таблицю чи базу даних. Тільки замість людини це робить програма - швидко, без помилок і без вихідних. Ви один раз налаштовуєте, звідки й що збирати, а на виході отримуєте структуровані дані, готові до аналізу.",
+   "en": "Parsing (or web scraping) is the automatic collection of information from websites according to defined rules. Imagine an employee who visits the needed pages around the clock, reads off prices, product names and stock levels, and neatly puts everything into a spreadsheet or database. Only instead of a person, a program does it - fast, without mistakes and without days off. You set up once where and what to collect, and at the output you get structured data ready for analysis."
+  },
+  {
+   "t": "p",
+   "uk": "Важливо розуміти різницю між разовим і регулярним збором. Разовий парсинг - це коли вам потрібно, наприклад, вивантажити повний каталог конкурента перед запуском власного магазину. Регулярний - це моніторинг за розкладом: система сама заходить на сторінки щогодини або щодня, порівнює з попередніми значеннями й фіксує зміни. Саме регулярний збір перетворює парсинг з разової послуги на робочий інструмент, який працює на ваш бізнес постійно.",
+   "en": "It's important to understand the difference between one-time and regular collection. One-time parsing is when you need, for example, to export a competitor's full catalog before launching your own store. Regular parsing is scheduled monitoring: the system visits the pages by itself every hour or every day, compares them with previous values and records the changes. It is regular collection that turns parsing from a one-off service into a working tool that serves your business continuously."
+  },
+  {
+   "t": "h2",
+   "uk": "Які дані можна збирати автоматично",
+   "en": "What data you can collect automatically"
+  },
+  {
+   "t": "p",
+   "uk": "Спектр ширший, ніж здається на перший погляд. Найчастіше збирають ціни та асортимент конкурентів, наявність товарів на складі, знижки й акції. Далі - відгуки та рейтинги, щоб зрозуміти настрої клієнтів і слабкі місця конкурентів; лістинги з маркетплейсів (Rozetka, OLX, Prom), де можна відстежувати позиції та кількість продавців; вакансії конкурентів як індикатор їхнього зростання чи нових напрямів. Окремий великий напрям - збір контактів для лідогенерації: назви компаній, телефони, email із каталогів і галузевих довідників.",
+   "en": "The range is wider than it seems at first glance. Most often people collect competitors' prices and product ranges, stock availability, discounts and promotions. Then come reviews and ratings to understand customer sentiment and competitors' weak spots; listings from marketplaces (Rozetka, OLX, Prom) where you can track positions and the number of sellers; competitors' job postings as an indicator of their growth or new directions. A separate large area is collecting contacts for lead generation: company names, phone numbers and emails from directories and industry catalogs."
+  },
+  {
+   "t": "p",
+   "uk": "Наведемо конкретний приклад. Магазин побутової техніки може щоранку отримувати таблицю з цінами п'яти конкурентів на 300 ключових позицій, підсвіченими розбіжностями та позначкою, де саме він програє. Сервісна компанія може збирати нові вакансії у своїй ніші, щоб першою виходити на компанії, які розширюються. А відділ продажів отримує щотижневий список нових бізнесів у потрібному регіоні замість того, щоб шукати їх вручну.",
+   "en": "Here is a concrete example. An appliance store can receive every morning a table with the prices of five competitors on 300 key items, with discrepancies highlighted and a mark showing exactly where it is losing. A service company can collect new job postings in its niche in order to be the first to reach out to companies that are expanding. And the sales team gets a weekly list of new businesses in the target region instead of searching for them by hand."
+  },
+  {
+   "t": "h2",
+   "uk": "Як бізнес використовує зібрані дані",
+   "en": "How businesses use the collected data"
+  },
+  {
+   "t": "p",
+   "uk": "Найпопулярніший сценарій - динамічне ціноутворення. Ви бачите ціни конкурентів у режимі реального часу й автоматично коригуєте власні за заданими правилами, щоб залишатися конкурентними та не втрачати маржу. Другий сценарій - аналіз ринку: які товари з'являються, що зникає з полиць, куди рухається попит і як часто конкуренти проводять акції. Третій - лідогенерація: замість купувати сумнівні бази, ви формуєте власний актуальний список потенційних клієнтів під конкретну нішу. І, нарешті, моніторинг змін - система сама повідомить у Telegram чи на пошту, коли конкурент знизив ціну, ввів новинку чи розпочав розпродаж.",
+   "en": "The most popular scenario is dynamic pricing. You see competitors' prices in real time and automatically adjust your own by defined rules to stay competitive without losing margin. The second scenario is market analysis: which products appear, what disappears from the shelves, where demand is heading and how often competitors run promotions. The third is lead generation: instead of buying dubious databases, you build your own up-to-date list of potential clients for a specific niche. And finally, change monitoring - the system itself notifies you via Telegram or email when a competitor lowers a price, adds a new item or starts a sale."
+  },
+  {
+   "t": "h2",
+   "uk": "Як виглядає впровадження на практиці",
+   "en": "What implementation looks like in practice"
+  },
+  {
+   "t": "p",
+   "uk": "Проєкт зазвичай починається не з коду, а з питання: які саме рішення ви хочете приймати на основі даних. Далі визначаються джерела, перелік потрібних полів і частота оновлення. Потім розробляється парсер, який стабільно працює навіть тоді, коли сайти змінюють структуру, і налаштовується зберігання - від простої Google-таблиці до повноцінної бази чи інтеграції з вашою CRM. Останній крок - зручне подання: дашборд, звіт або автоматичні сповіщення. Такий підхід дає не просто разове вивантаження, а готовий інструмент, яким користуються щодня без участі програміста.",
+   "en": "A project usually starts not with code but with a question: what decisions exactly do you want to make based on the data. Next you define the sources, the list of needed fields and the update frequency. Then a parser is developed that works reliably even when sites change their structure, and storage is set up - from a simple Google Sheet to a full database or integration with your CRM. The final step is convenient presentation: a dashboard, a report or automatic notifications. This approach delivers not just a one-time data dump but a ready tool that people use daily without a developer's involvement."
+  },
+  {
+   "t": "h2",
+   "uk": "Як робити це правильно та відповідально",
+   "en": "How to do it correctly and responsibly"
+  },
+  {
+   "t": "p",
+   "uk": "Парсинг - потужний інструмент, але користуватися ним варто з головою. По-перше, поважайте сайти: не створюйте надмірне навантаження, дотримуйтесь розумних інтервалів між запитами й правил robots.txt. По-друге, там, де це можливо, використовуйте офіційні API та відкриті дані - це стабільніше й чистіше з погляду закону. По-третє, зважайте на умови використання ресурсів і законодавство щодо персональних даних, особливо коли йдеться про контакти людей. Правильно налаштований парсинг дає вам чесну конкурентну перевагу, не наражаючи бізнес на зайві ризики.",
+   "en": "Parsing is a powerful tool, but you should use it wisely. First, respect websites: don't create excessive load, keep reasonable intervals between requests and follow robots.txt rules. Second, wherever possible use official APIs and open data - it's more stable and cleaner from a legal standpoint. Third, take into account resources' terms of use and personal data legislation, especially when it comes to people's contacts. Properly configured parsing gives you a fair competitive advantage without exposing your business to unnecessary risks."
+  },
+  {
+   "t": "p",
+   "uk": "Починати варто з чіткого переліку даних, які реально впливають на ваші рішення: ціни ключових конкурентів, наявність товарів, нові пропозиції. Далі ці дані можна автоматично вивантажувати в таблицю, CRM або дашборд і відстежувати зміни в динаміці. Важливо робити це коректно - поважати правила сайтів і використовувати офіційні джерела там, де вони доступні.",
+   "en": "Start with a clear list of the data that actually affects your decisions: key competitors' prices, product availability, new offers. This data can then be exported automatically into a spreadsheet, CRM or dashboard and tracked over time. It is important to do this correctly - respect the rules of the websites and use official sources where they are available."
+  }
+ ]
+}

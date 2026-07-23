@@ -1,0 +1,80 @@
+{
+  "title_uk": "CRM для юристів і юридичних компаній: що врахувати при виборі",
+  "title_en": "CRM for Lawyers and Law Firms: What to Consider When Choosing",
+  "desc_uk": "Як вибрати CRM для юридичної фірми: облік справ, контроль строків, білінг і захист даних клієнтів. Розбираємо на практиці.",
+  "desc_en": "How to choose a CRM for a law firm: case management, deadline control, billing and client data protection. We break it down in practice.",
+  "seo": {
+    "t": "CRM для юристів і юридичних компаній | Devlly",
+    "te": "CRM for Lawyers and Law Firms | Devlly",
+    "d": "Як вибрати CRM для юридичної фірми: облік справ, контроль строків, білінг і захист даних клієнтів. Розбираємо на практиці.",
+    "de": "How to choose a CRM for a law firm: case management, deadline control, billing and client data protection. We break it down in practice.",
+    "k": "CRM для юристів, CRM для юридичної компанії, CRM для адвоката, облік справ, контроль процесуальних строків, білінг за годинами, захист даних клієнтів, автоматизація юридичної фірми, вибір CRM, юридична CRM"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли у юридичній фірмі одночасно веде роботу 5-7 юристів, а в роботі 80-120 справ, таблиці Excel і папки з документами перестають рятувати. Хтось забуває про процесуальний строк, хтось не може швидко знайти актуальну версію договору, а власник не бачить, скільки реально годин відпрацьовано по кожному клієнту. CRM для юристів має закрити саме ці болі, а не додати ще один непотрібний інтерфейс. Але систем на ринку багато, і половина з них не враховує специфіку юридичної практики. У цьому матеріалі розберемо, на що дивитися при виборі: від обліку справ і контролю строків до білінгу та захисту конфіденційних даних клієнтів.",
+      "en": "When 5-7 lawyers work at a firm at the same time and there are 80-120 active cases, Excel sheets and document folders stop helping. Someone forgets a procedural deadline, someone cannot quickly find the current version of a contract, and the owner has no visibility into how many hours were actually spent per client. A CRM for lawyers should close exactly these pain points, not add yet another useless interface. But there are many systems on the market, and half of them ignore the specifics of legal practice. In this article we break down what to look at when choosing: from case management and deadline control to billing and protecting confidential client data."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік справ і клієнтів як основа CRM для юридичної компанії",
+      "en": "Case and Client Management as the Core of a Law Firm CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Перше, що варто перевірити - як система працює зі справами. Одна картка справи має тримати все: сторони, номер провадження, суд, відповідального юриста, статус, повʼязані документи та історію дій. Якщо для того, щоб зрозуміти стан справи, доводиться відкривати п'ять різних вкладок, це вже погана ознака. У хорошій CRM для юридичної компанії юрист за 10 секунд бачить, що відбувалося зі справою за останній місяць і що треба зробити далі. Окремо оцініть звʼязок «клієнт - справи»: у одного клієнта може бути 3-4 паралельні провадження, і система має показувати їх разом, а не як розрізнені записи.",
+      "en": "The first thing to check is how the system handles cases. A single case card should hold everything: the parties, the proceeding number, the court, the responsible lawyer, the status, related documents and the action history. If understanding the state of a case requires opening five different tabs, that is already a bad sign. In a good law firm CRM a lawyer sees within 10 seconds what happened with a case over the last month and what needs to be done next. Separately, evaluate the client-to-cases link: one client may have 3-4 parallel proceedings, and the system should show them together rather than as scattered records."
+    },
+    {
+      "t": "p",
+      "uk": "Другий критерій - гнучкість під ваші типи справ. Практика в господарських спорах, сімейному праві та реєстрації бізнесу відрізняється етапами, документами й термінологією. Якщо CRM жорстко нав'язує один шаблон процесу, доведеться підлаштовувати роботу під програму, а не навпаки. Перевіряйте, чи можна створювати власні статуси, поля та категорії справ без залучення розробника на кожну зміну. Добре, коли систему видно наскрізь: керівник у будь-який момент отримує зріз - скільки справ на етапі підготовки позову, скільки в апеляції, які висять без руху понад два тижні. Саме така прозорість відрізняє робочий інструмент від чергової бази даних.",
+      "en": "The second criterion is flexibility for your case types. Practice in commercial disputes, family law and business registration differs in stages, documents and terminology. If a CRM rigidly imposes a single process template, you will have to adapt your work to the software rather than the other way around. Check whether you can create your own statuses, fields and case categories without involving a developer for every change. It is good when the system is fully transparent: at any moment a manager gets a snapshot of how many cases are at the claim preparation stage, how many are in appeal, and which have been stuck without movement for over two weeks. This transparency is what separates a working tool from just another database."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль процесуальних строків: чому це критично для юриста",
+      "en": "Procedural Deadline Control: Why It Is Critical for a Lawyer"
+    },
+    {
+      "t": "p",
+      "uk": "Пропущений процесуальний строк - це не просто незручність, це втрачена справа й репутаційний удар. Тому контроль строків у CRM для юристів має бути не додатковою опцією, а центральною функцією. Оцінюйте, чи вміє система рахувати строки автоматично від дати події: наприклад, 20 днів на подання відзиву або 30 днів на апеляційну скаргу. Ручне занесення дат у календар працює лише доти, доки юрист нічого не забуває, а при 100+ справах він забуває неминуче. Хороша система сама формує нагадування за 5, 3 і 1 день до дедлайну та дублює їх відповідальному й керівнику.",
+      "en": "A missed procedural deadline is not just an inconvenience, it is a lost case and a reputational blow. That is why deadline control in a CRM for lawyers should be a central function, not an add-on. Assess whether the system can calculate deadlines automatically from an event date: for example, 20 days to file a response or 30 days for an appeal. Manually entering dates into a calendar works only as long as the lawyer forgets nothing, and with 100+ cases they inevitably will. A good system generates reminders itself 5, 3 and 1 day before the deadline and duplicates them to both the responsible lawyer and the manager."
+    },
+    {
+      "t": "p",
+      "uk": "Зверніть увагу і на те, як система поводиться, коли строк усе ж наближається впритул. Проста CRM просто покаже нагадування, яке легко закрити й забути. Продумана - підсвітить справу червоним у загальному списку, не дасть закрити задачу без відмітки про результат і покаже керівнику всі «гарячі» дедлайни на одному екрані. Для юридичної практики це питання не зручності, а керованості ризиками. Перед вибором змоделюйте реальний сценарій: юрист захворів на тиждень - чи побачить хтось інший його строки вчасно? Якщо система дозволяє строкам «провалитися» разом з одним співробітником, вона не виконує головного завдання.",
+      "en": "Also pay attention to how the system behaves when a deadline is closing in. A simple CRM will just show a reminder that is easy to dismiss and forget. A well-designed one highlights the case red in the general list, will not let you close the task without marking the outcome, and shows the manager all the hot deadlines on one screen. For legal practice this is a matter of risk manageability, not convenience. Before choosing, model a real scenario: a lawyer is off sick for a week, will someone else see their deadlines in time? If the system lets deadlines fall through together with one employee, it is failing its main job."
+    },
+    {
+      "t": "h2",
+      "uk": "Білінг за годинами і фінансова прозорість практики",
+      "en": "Hourly Billing and Financial Transparency of the Practice"
+    },
+    {
+      "t": "p",
+      "uk": "Якщо фірма працює за погодинною ставкою, білінг стає одним з ключових критеріїв вибору. Система має дозволяти юристу фіксувати витрачений час прямо в картці справи: 1,5 години на підготовку позову, 40 хвилин на консультацію, 2 години в судовому засіданні. Далі ці записи автоматично збираються в рахунок для клієнта з розбивкою за датами й видами робіт. Без такого обліку фірма стабільно недорахує 15-20% реально відпрацьованого часу, бо частину дрібних задач ніхто не згадає наприкінці місяця. Оцінюйте, наскільки просто вносити години: якщо це займає багато кліків, юристи просто перестануть це робити.",
+      "en": "If a firm works at an hourly rate, billing becomes one of the key selection criteria. The system should let a lawyer log time spent directly in the case card: 1.5 hours to prepare a claim, 40 minutes for a consultation, 2 hours in a court hearing. These entries are then automatically compiled into a client invoice broken down by date and type of work. Without such tracking a firm consistently under-counts 15-20% of the time actually worked, because no one remembers the small tasks at the end of the month. Assess how easy it is to enter hours: if it takes many clicks, lawyers will simply stop doing it."
+    },
+    {
+      "t": "p",
+      "uk": "Крім виставлення рахунків, білінг дає керівнику аналітику, якої без системи просто немає. Видно, який клієнт приносить найбільше годин, які справи виявилися збитковими через недооцінену складність, скільки в середньому коштує ведення певної категорії спорів. На основі цих цифр легше формувати ставки й планувати завантаження команди. Тому при виборі CRM для юридичної компанії дивіться не лише на факт наявності білінгу, а й на звітність поверх нього. Гарна практика - запросити демо на своїх реальних даних за місяць і подивитися, чи збігаються цифри системи з вашим фактичним обліком. Розбіжності одразу покажуть слабкі місця.",
+      "en": "Beyond invoicing, billing gives a manager analytics that simply do not exist without a system. You can see which client brings the most hours, which cases turned out unprofitable due to underestimated complexity, and how much handling a certain category of dispute costs on average. Based on these figures it is easier to set rates and plan the team's workload. So when choosing a law firm CRM, look not only at whether billing exists but also at the reporting built on top of it. A good practice is to request a demo on your real data for a month and see whether the system's numbers match your actual records. Discrepancies will immediately reveal weak spots."
+    },
+    {
+      "t": "h2",
+      "uk": "Захист даних клієнтів і розмежування доступу",
+      "en": "Client Data Protection and Access Control"
+    },
+    {
+      "t": "p",
+      "uk": "Юридична фірма працює з чутливою інформацією: комерційні таємниці, персональні дані, деталі спорів. Тому захист даних клієнтів і адвокатська таємниця - це не пункт для галочки, а обовʼязковий критерій вибору. Перевіряйте, де фізично зберігаються дані, чи є шифрування, резервне копіювання й журнал дій користувачів. Окремо важливе розмежування доступу: помічник не повинен бачити фінансові умови всіх клієнтів, а зовнішній підрядник - усю базу справ. Гнучкі ролі дозволяють відкрити кожному лише той обʼєм інформації, який потрібен для роботи, і не більше. Це знижує і ризик витоку, і ймовірність випадкової помилки.",
+      "en": "A law firm works with sensitive information: trade secrets, personal data, dispute details. That is why client data protection and attorney-client privilege are not a box to tick but a mandatory selection criterion. Check where the data is physically stored, whether there is encryption, backups and a user action log. Access control matters separately: an assistant should not see the financial terms of all clients, and an external contractor should not see the entire case base. Flexible roles let you open to each person only the amount of information they need for work, and no more. This reduces both the risk of a leak and the chance of an accidental mistake."
+    },
+    {
+      "t": "p",
+      "uk": "Наостанок - питання, яке визначає все інше: готове коробкове рішення чи власна система під ваші процеси. Коробка дешевша на старті й швидша в запуску, але часто змушує ламати усталений робочий процес під чужу логіку та мириться з зайвими або відсутніми функціями. Власна розробка коштує більше, зате враховує саме вашу спеціалізацію, типи справ і правила доступу, а дані залишаються повністю під вашим контролем. Devlly будує такі індивідуальні CRM для юридичних компаній - з обліком справ, контролем строків, білінгом і розмежуванням доступу під конкретну практику, - тож якщо коробкові варіанти не закривають ваші задачі, є сенс порахувати вартість рішення саме під ваші процеси.",
+      "en": "Finally, the question that defines everything else: a ready-made boxed solution or your own system built around your processes. A boxed product is cheaper at the start and faster to launch, but it often forces you to break an established workflow to fit someone else's logic and to put up with extra or missing features. Custom development costs more, but it accounts for your exact specialization, case types and access rules, and the data stays fully under your control. Devlly builds such custom CRMs for law firms - with case management, deadline control, billing and access control tailored to a specific practice - so if boxed options do not cover your tasks, it makes sense to price a solution built for your processes."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title_uk": "CRM для української діаспори: бізнес на дві країни",
+  "title_en": "CRM for the Ukrainian Diaspora: Running One Business in Two Countries",
+  "desc_uk": "CRM для підприємців з української діаспори: вести клієнтів в Україні і Європі одночасно, у різних валютах і часових поясах, в одній системі.",
+  "desc_en": "A CRM built for Ukrainian diaspora entrepreneurs: managing clients in Ukraine and Europe at once, across currencies and time zones, in one system.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для української діаспори: клієнти і замовлення | Devlly",
+    "te": "CRM for the Ukrainian Diaspora: Business Across Two Countries | Devlly",
+    "d": "CRM для підприємців з української діаспори: вести клієнтів в Україні і Європі одночасно, у різних валютах і часових поясах, в одній системі.",
+    "de": "A CRM built for Ukrainian diaspora entrepreneurs: managing clients in Ukraine and Europe at once, across currencies and time zones, in one system.",
+    "k": "crm для української діаспори, бізнес на дві країни, crm для украинской диаспоры, бизнес в двух странах, crm for ukrainian diaspora, мультивалютна crm, crm для двох валют, автоматизація для діаспори, crm с разными часовыми поясами, crm під ключ devlly"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Частина клієнтів пише з Варшави чи Берліна, частина з Києва чи Львова. Одні платять у гривні, інші в євро чи злотих. Одні на звʼязку зранку за київським часом, інші тільки після обіду за центральноєвропейським. Коли бізнес обслуговує людей в двох країнах одночасно, звичайний блокнот або Excel перестає витримувати навантаження вже за кілька тижнів. CRM для української діаспори вирішує саме цю задачу: тримати обидва ринки в одній системі, без плутанини у валютах, мовах і часових поясах.",
+      "en": "Some clients write in from Warsaw or Berlin, others from Kyiv or Lviv. Some pay in hryvnia, others in euros or zloty. Some are online in the morning by Kyiv time, others only after lunch by Central European time. When a business serves people in two countries at once, a plain notebook or spreadsheet stops holding up within weeks. A CRM for the Ukrainian diaspora solves exactly this problem: keeping both markets in one system, without confusion over currencies, languages, and time zones."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому CRM для української діаспори не схожа на звичайну CRM",
+      "en": "Why a CRM for the Ukrainian diaspora is different from a regular CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Звичайна CRM налаштована на одну країну: одна валюта, один часовий пояс, одна мова спілкування з клієнтами. У підприємця з діаспори ситуація інша з самого початку. Наприклад, майстер манікюру працює у Польщі, а частину клієнтів приймає під час поїздок в Україну. Або консультант з міграційних питань веде справи одночасно з клієнтами в Німеччині і родичами, які лишились у Харкові чи Одесі. Або невеликий інтернет-магазин українських товарів відправляє замовлення і в Києв, і в Мюнхен.",
+      "en": "A standard CRM is set up for one country: one currency, one time zone, one language for talking to clients. For a diaspora entrepreneur, the situation is different from day one. A nail technician might work in Poland while also taking clients during trips to Ukraine. A migration consultant might handle cases for clients in Germany while their families stay in Kharkiv or Odesa. A small online shop selling Ukrainian goods might ship orders to both Kyiv and Munich."
+    },
+    {
+      "t": "p",
+      "uk": "У всіх цих випадках картка клієнта повинна одразу показувати країну, валюту розрахунків і зручний час для дзвінка. Без цього менеджер щоразу гортає переписку, щоб згадати, чи клієнт з Варшави, чи з Вінниці, і в чому взагалі домовлялись про оплату. CRM для української діаспори закриває цю прогалину: вона з самого початку побудована так, щоб два ринки не заважали один одному, а існували в одній базі як два паралельні, але керовані потоки.",
+      "en": "In every one of these cases, a client card needs to show the country, the billing currency, and a convenient time to call, all at a glance. Without that, a manager has to scroll through old messages every time just to recall whether a client is from Warsaw or Vinnytsia, and what payment terms were even agreed. A CRM for the Ukrainian diaspora closes that gap: it is built from the start so the two markets do not get in each other's way, existing in one database as two parallel but manageable streams."
+    },
+    {
+      "t": "p",
+      "uk": "Без такого поділу власник стикається з простою, але дорогою проблемою: неможливо швидко відповісти на питання, скільки клієнтів з Польщі принесли виручку цього місяця. CRM для української діаспори дає відповідь за кілька секунд, бо ринки розділені з самого початку, а не змішані в одному списку.",
+      "en": "Without this separation, an owner runs into a simple but costly problem: no quick answer to how much revenue clients from Poland brought in this month. A CRM for the Ukrainian diaspora answers that in seconds, because the markets are split apart from the start rather than blended into one list."
+    },
+    {
+      "t": "h2",
+      "uk": "Мультивалютність у картці клієнта",
+      "en": "Multi-currency support in the client card"
+    },
+    {
+      "t": "p",
+      "uk": "Перше, що ламається у звичайних таблицях, це валюта. Хтось вписує суму в гривнях, хтось у євро, а через півроку вже ніхто не памʼятає, за яким курсом рахували ту чи іншу угоду. У CRM для діаспорного бізнесу картка клієнта і кожне замовлення мають окреме поле валюти. Замовлення з Польщі фіксується у злотих, замовлення з Німеччини в євро, замовлення в Україні в гривні, і система не змішує ці суми в одну загальну колонку.",
+      "en": "The first thing that breaks in a plain spreadsheet is currency. One entry is in hryvnia, another in euros, and six months later nobody remembers which exchange rate was used for which deal. In a diaspora business CRM, both the client card and each individual order carry a separate currency field. An order from Poland is recorded in zloty, one from Germany in euros, one in Ukraine in hryvnia, and the system never blends these sums into a single undifferentiated column."
+    },
+    {
+      "t": "p",
+      "uk": "Для звітності це критично. Власник бачить окремо виручку по кожній країні у власній валюті, і окремо загальну картину в перерахунку за фіксованим або актуальним курсом, якщо це потрібно для бухгалтерії. Такий підхід прибирає ручні перерахунки в Excel і помилки, які виникають, коли хтось випадково додає суму в євро до колонки з гривнями. Замовлення, оплата, залишок боргу, знижка, все привʼязане до конкретної валюти конкретного клієнта.",
+      "en": "This matters for reporting. The owner sees revenue from each country separately, in its own currency, and also a consolidated picture converted at a fixed or current rate whenever accounting needs it. This approach removes manual recalculations in spreadsheets and the errors that creep in when someone accidentally adds a euro figure into a hryvnia column. Orders, payments, outstanding balances, and discounts are all tied to the specific currency of the specific client."
+    },
+    {
+      "t": "h2",
+      "uk": "Часові пояси і нагадування, що не будять клієнта о шостій ранку",
+      "en": "Time zones and reminders that will not wake a client at six in the morning"
+    },
+    {
+      "t": "p",
+      "uk": "Різниця між Україною та більшістю країн Європи, де живе діаспора, зазвичай складає одну годину, але для сервісного бізнесу навіть ця година важлива. Автоматичне нагадування про запис чи дзвінок, надіслане о восьмій ранку за київським часом, для клієнта в Берліні прийде о сьомій, коли він ще спить. CRM для української діаспори враховує часовий пояс кожного клієнта окремо і надсилає нагадування за його місцевим часом, а не за часом офісу.",
+      "en": "The time difference between Ukraine and most of the European countries where the diaspora lives is usually just one hour, but for a service business even that hour matters. An automatic appointment or call reminder sent at eight in the morning Kyiv time lands at seven for a client in Berlin, while they are still asleep. A CRM for the Ukrainian diaspora accounts for each client's own time zone and sends reminders on their local clock, not the office clock."
+    },
+    {
+      "t": "p",
+      "uk": "Це стосується не лише нагадувань, а й планування дзвінків менеджера. Якщо у CRM видно, що клієнт у Варшаві, а зараз у нього вже 19:00, система підкаже не телефонувати з робочою пропозицією, а перенести дзвінок на завтра. Для бізнесу, який працює з клієнтами у трьох чотирьох країнах одночасно, це прибирає постійні незручні дзвінки не вчасно і підвищує довіру, бо клієнт бачить, що з ним рахуються.",
+      "en": "This applies not only to reminders but also to how a manager plans calls. If the CRM shows a client is in Warsaw and it is already 7 PM there, the system flags that a business call should wait until tomorrow rather than go out now. For a business working with clients across three or four countries at once, this removes awkward off-hours calls and builds trust, because the client can see they are being treated with consideration."
+    },
+    {
+      "t": "h2",
+      "uk": "Мова спілкування і сегментація бази за країною",
+      "en": "Communication language and segmenting the client base by country"
+    },
+    {
+      "t": "p",
+      "uk": "Клієнти діаспорного бізнесу часто спілкуються різними мовами навіть у межах однієї родини: хтось пише українською, хтось перейшов на польську чи німецьку після кількох років за кордоном, а хтось змішує мови в одному повідомленні. Картка клієнта в CRM фіксує бажану мову спілкування, і всі шаблони повідомлень, розсилки та автовідповіді підбираються під неї автоматично. Це прибирає ситуації, коли клієнту з Кракова випадково йде шаблон українською про акцію, яка діє тільки в Україні.",
+      "en": "Diaspora business clients often communicate in different languages even within one family: some write in Ukrainian, some have switched to Polish or German after years abroad, some mix languages in a single message. The client card in the CRM records the preferred communication language, and every message template, mailing, and auto reply is pulled automatically to match it. This prevents situations where a client in Krakow gets a Ukrainian language template about a promotion that only applies in Ukraine."
+    },
+    {
+      "t": "p",
+      "uk": "Сегментація за країною додає ще один рівень контролю. Власник бізнесу може одним фільтром відібрати всіх клієнтів з Німеччини, побачити середній чек саме по цьому сегменту і запустити для них окрему пропозицію, яка враховує місцеві ціни та доставку. Так само легко відфільтрувати клієнтів в Україні і працювати з ними за своєю логікою, не змішуючи два зовсім різні за купівельною спроможністю ринки в одному загальному списку.",
+      "en": "Segmenting by country adds another level of control. A business owner can filter for all clients in Germany with one click, see the average order value for that specific segment, and launch a separate offer that accounts for local prices and shipping. Just as easily, clients in Ukraine can be filtered and handled by their own logic, instead of blending two markets with very different purchasing power into one generic list."
+    },
+    {
+      "t": "p",
+      "uk": "Наприклад, консультант з Івано-Франківська, який працює і з клієнтами в Україні, і в Польщі, бачить у CRM дві групи: одна отримує повідомлення українською з цінами в гривні, інша польською з цінами в злотих. Обидві групи ведуться в одному календарі, тож жодна зустріч не губиться між системами.",
+      "en": "For example, a consultant from Ivano-Frankivsk working with clients in both Ukraine and Poland sees two groups in the CRM: one gets messages in Ukrainian with prices in hryvnia, the other in Polish with prices in zloty. Both groups share one calendar, so no appointment gets lost between systems."
+    },
+    {
+      "t": "h2",
+      "uk": "Доставка через кордон і як CRM тримає обидва ринки без хаосу",
+      "en": "Cross-border shipping and how a CRM keeps both markets running without chaos"
+    },
+    {
+      "t": "p",
+      "uk": "Для магазинів і майстрів, які відправляють товар з України за кордон або навпаки, кожне замовлення має свою логістику: інша служба доставки, інший термін, інша митна логіка. У картці замовлення CRM для української діаспори фіксує країну відправлення і країну отримання, обраного перевізника і статус посилки, тож менеджер не тримає це в голові й не гортає окремий чат для кожної відправки.",
+      "en": "For shops and service providers shipping goods from Ukraine abroad or the other way around, every order has its own logistics: a different carrier, a different timeframe, different customs handling. The order card in a CRM for the Ukrainian diaspora records the country of origin and destination, the chosen carrier, and the parcel status, so a manager does not have to keep it all in their head or dig through a separate chat for every shipment."
+    },
+    {
+      "t": "p",
+      "uk": "Коли замовлень стає більше двадцяти тридцяти на місяць у двох напрямках, ручний облік починає губити деталі: то забули вказати індекс, то переплутали, яка посилка вже виїхала, а яка ще чекає на складі. Автоматичний статус, повʼязаний з трек номером, і нагадування менеджеру, якщо посилка застрягла на кордоні довше за звичайний термін, знімають це навантаження. Головна цінність такого підходу не в окремій функції, а в тому, що валюта, часовий пояс, мова і статус доставки видно в одній картці клієнта: менеджер відкриває замовлення і одразу бачить клієнта з Кельна, оплату в євро, зручний час дзвінка після 17:00 і посилку, яка вже перетнула кордон, без перемикання між чатами і таблицями.",
+      "en": "Once orders exceed twenty or thirty a month across two directions, manual tracking starts to lose details: a postal code gets forgotten, or it becomes unclear which parcel has already left and which is still in the warehouse. An automatic status linked to the tracking number, plus a reminder to the manager if a parcel is stuck at the border longer than usual, removes this burden. The real value of this approach lies not in any single feature but in the fact that currency, time zone, language, and shipping status all show up in one client card: a manager opens an order and immediately sees a client from Cologne, payment in euros, a good time to call after 5 PM, and a parcel that has already crossed the border, all without switching between chats and spreadsheets."
+    },
+    {
+      "t": "p",
+      "uk": "Devlly збирає такі CRM під ключ саме під бізнеси, які працюють на два ринки: з мультивалютними полями, автоматичними нагадуваннями за місцевим часом клієнта, сегментацією за країною і статусами доставки для міжнародних замовлень. Систему підключають до наявних каналів звʼязку, включно з Telegram, щоб і українська, і закордонна частина клієнтів потрапляли в одну базу без ручного дублювання даних.",
+      "en": "Devlly builds these turnkey CRMs specifically for businesses working two markets at once, with multi-currency fields, automatic reminders based on each client's local time, country based segmentation, and shipping statuses for international orders. The system connects to existing communication channels, including Telegram, so that both the Ukrainian and the overseas parts of the client base end up in one database without manual duplication."
+    }
+  ]
+}

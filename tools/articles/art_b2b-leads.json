@@ -1,0 +1,97 @@
+{
+  "title_uk": "Як зібрати базу клієнтів автоматично для B2B продажів",
+  "title_en": "How to build a client database automatically for B2B sales",
+  "date_uk": "25 ЧЕР 2026",
+  "date_en": "JUN 25, 2026",
+  "desc_uk": "Від профілю ідеального клієнта до збагачення контактів і скорингу: як автоматизувати збір лідів у B2B і не порушити закон про персональні дані.",
+  "desc_en": "From an ideal customer profile to contact enrichment and lead scoring: how to automate B2B lead collection without breaking data protection law.",
+  "seo": {
+    "t": "Як зібрати базу клієнтів автоматично для B2B продажів | Devlly",
+    "te": "How to build a B2B client database automatically | Devlly",
+    "d": "Як зібрати базу клієнтів b2b автоматично: ICP, відкриті джерела, збагачення контактів, скоринг лідів, передача в CRM і межі закону про персональні дані.",
+    "de": "How to build a B2B client database automatically: ICP, open sources, contact enrichment, lead scoring, CRM handoff and the limits set by data protection law.",
+    "k": "база клієнтів b2b, збір лідів автоматично, лідогенерація b2b, пошук клієнтів, автоматизація продажів, скоринг лідів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "«Дайте нам базу клієнтів» - з цього починається половина запитів на автоматизацію продажів. Але база сама по собі не продає. Продає точний список компаній, яким ваш продукт справді потрібен, з правильним контактом і зрозумілим приводом для першого дотику. Зібрати такий список вручну теоретично можна: менеджер витрачає 10-15 хвилин на одну компанію - знаходить сайт, шукає пошту, перевіряє, чи це взагалі ваш клієнт. Тридцять компаній на день - і це весь його робочий час замість дзвінків і зустрічей. Автоматичний збір лідів забирає рутину: пошук, збагачення, перевірку та занесення в CRM робить система, а людина спілкується. Розберімо, як така система будується крок за кроком і де тут проходять межі закону.",
+      "en": "“Just give us a client database” - that is how half of all sales-automation requests begin. But a database on its own does not sell. What sells is a precise list of companies that genuinely need your product, with the right contact and a clear reason for the first touch. Building such a list manually is theoretically possible: a rep spends 10-15 minutes per company - finds the website, hunts for an email, checks whether they are even a fit. Thirty companies a day, and that is his entire working day instead of calls and meetings. Automated lead collection takes the routine away: searching, enrichment, verification and pushing into the CRM are done by the system, while the human talks to people. Let’s walk through how such a system is built step by step, and where the legal boundaries run."
+    },
+    {
+      "t": "h2",
+      "uk": "Усе починається з ICP, а не зі збору лідів автоматично",
+      "en": "It all starts with the ICP, not with automated lead collection"
+    },
+    {
+      "t": "p",
+      "uk": "Перед тим як писати перший рядок коду, треба відповісти, кого саме ми шукаємо. Профіль ідеального клієнта (ICP) - це не «всі, кому можуть знадобитися наші послуги», а набір конкретних фільтрів: галузь (наприклад, оптова торгівля будматеріалами), розмір (від 20 до 200 працівників або оборот від 30 мільйонів гривень), регіон, наявність певного процесу чи технології. Хороший тест на якість ICP: якщо за ним пошук видає 50 тисяч компаній, профіль описаний погано. Реалістична цифра для більшості українських B2B-ніш - від кількох сотень до кількох тисяч компаній. Це і є ваш ринок, і його цілком реально опрацювати якісно.",
+      "en": "Before you write a single line of code, you have to answer who exactly you are looking for. An ideal customer profile (ICP) is not “everyone who might need our services” but a set of concrete filters: industry (say, wholesale building materials), size (20 to 200 employees, or turnover above 30 million hryvnias), region, the presence of a particular process or technology. A good quality test for an ICP: if a search based on it returns 50,000 companies, the profile is badly written. A realistic number for most Ukrainian B2B niches is anywhere from a few hundred to a few thousand companies. That is your market, and it is entirely possible to work it properly."
+    },
+    {
+      "t": "p",
+      "uk": "Другий рівень ICP - ознака готовності купити, тригер. Компанія опублікувала вакансію «менеджер з продажу, 5 позицій» - вона росте, і їй скоро знадобиться CRM. Виграла тендер - з'явилися гроші й обсяг роботи. Відкрила новий склад, змінила сайт, отримала ліцензію, з'явилася в реєстрі як новий гравець. Такі сигнали перетворюють холодний контакт на теплий: ви пишете не «добрий день, ми займаємося автоматизацією», а «побачили, що ви набираєте відділ продажів - ось як зазвичай виглядає CRM під команду такого розміру». Різниця у відсотку відповідей - у рази. Саме тому пошук клієнтів варто будувати навколо подій, а не навколо алфавітного списку компаній із каталогу.",
+      "en": "The second layer of an ICP is a buying-readiness signal, a trigger. A company has posted a vacancy for “sales manager, 5 openings” - it is growing and will soon need a CRM. It has won a tender - money and workload have arrived. It has opened a new warehouse, redesigned its website, obtained a licence, appeared in the registry as a new player. Such signals turn a cold contact into a warm one: you don’t write “hello, we do automation,” you write “we saw you are hiring a sales team - here is what a CRM for a team that size usually looks like.” The difference in reply rates is several-fold. That is exactly why customer search should be built around events rather than around an alphabetical list of companies from a directory."
+    },
+    {
+      "t": "h2",
+      "uk": "Відкриті джерела для бази клієнтів b2b",
+      "en": "Open sources for a B2B client database"
+    },
+    {
+      "t": "p",
+      "uk": "Джерела для лідогенерації b2b в Україні є, і вони переважно відкриті. Публічні реєстри та сервіси на кшталт YouControl чи Опендатабота дають назву, ЄДРПОУ, КВЕД, статус, керівника, інколи фінансову звітність - це основа для фільтрації за галуззю й розміром. Галузеві каталоги, довідники асоціацій і списки учасників виставок дають вузькі цільові вибірки. Тендерні майданчики показують, хто купує і на які суми. Сайти вакансій - найкраще джерело сигналів зростання: компанія, що наймає, майже завжди щось змінює у процесах. LinkedIn допомагає зрозуміти структуру компанії й ролі всередині неї, а карти й агрегатори стають у пригоді, якщо ваші клієнти працюють у роздрібі чи послугах.",
+      "en": "Sources for B2B lead generation in Ukraine exist, and most of them are open. Public registries and services such as YouControl or Opendatabot provide the company name, tax ID, industry code, status, director and sometimes financial statements - the basis for filtering by industry and size. Industry catalogues, association directories and exhibition attendee lists give narrow, targeted selections. Tender platforms show who is buying and for how much. Job boards are the best source of growth signals: a company that is hiring is almost always changing something in its processes. LinkedIn helps you understand the company structure and the roles inside it, while maps and aggregators are useful if your clients work in retail or services."
+    },
+    {
+      "t": "p",
+      "uk": "Практичний підхід - не намагатися вичавити все з одного джерела, а зшити кілька: беремо компанії з реєстру за КВЕД і регіоном, накладаємо фільтр за розміром, підтягуємо сайт, перевіряємо ознаку активності (сайт живий, є свіжі вакансії чи нові тендери), відкидаємо тих, хто вже клієнт або в чорному списку. Обов'язково враховуйте умови користування кожного джерела: частина сервісів надає офіційний API або вивантаження за підпискою, і майже завжди дешевше й безпечніше взяти дані легальним каналом, ніж вигадувати обхідні шляхи. Дедуплікація - окрема робота, яку недооцінюють: одна й та сама компанія легко потрапляє в базу тричі під різними написаннями назви, і менеджер тричі дзвонить тому самому директору.",
+      "en": "The practical approach is not to squeeze everything out of a single source but to stitch several together: take companies from the registry by industry code and region, apply a size filter, pull in their websites, check a sign of activity (the site is alive, there are fresh vacancies or new tenders), and drop anyone who is already a client or on a blacklist. Always respect each source’s terms of use: some services offer an official API or a subscription export, and it is almost always cheaper and safer to take the data through a legal channel than to invent workarounds. Deduplication is a separate, underrated job: the same company easily ends up in the database three times under different spellings of its name, and the rep calls the same director three times."
+    },
+    {
+      "t": "h2",
+      "uk": "Збагачення контакту: від сайту до ЛПР",
+      "en": "Contact enrichment: from the website to the decision maker"
+    },
+    {
+      "t": "p",
+      "uk": "Далі - збагачення. З назви компанії треба дійти до людини, яка ухвалює рішення. Ланцюжок зазвичай такий: назва, сайт, корпоративний домен, загальні контакти, конкретна роль. Загальна пошта - найгірший канал: там сидить адміністратор, і ваш лист рідко доходить далі. Тому шукають ЛПР: у малому бізнесі це власник або директор, у середньому - керівник напряму, тобто комерційний директор, операційний директор, керівник ІТ. Джерела для цього - сторінка «Команда» на сайті, професійні мережі, підписи в публічних документах, виступи на галузевих конференціях. Один точний контакт з іменем вартий двадцяти адрес виду info@.",
+      "en": "Next comes enrichment. From a company name you have to reach the person who makes the decision. The chain usually looks like this: name, website, corporate domain, general contacts, specific role. A generic mailbox is the worst channel: an administrator sits behind it and your letter rarely goes any further. So you look for the decision maker: in a small business that is the owner or director, in a mid-sized one it is a functional head - commercial director, operations director, head of IT. The sources are the “Team” page on the site, professional networks, signatures in public documents, talks at industry conferences. One accurate named contact is worth twenty info@ addresses."
+    },
+    {
+      "t": "p",
+      "uk": "Кожен знайдений контакт треба валідувати: перевірити, чи існує домен, чи приймає поштовий сервер листи, чи не є ця адреса пасткою для спамерів. Один прохід валідації економить репутацію вашого домену: якщо 20% листів повертаються, поштові сервіси швидко почнуть класти всі ваші повідомлення в спам - і постраждають навіть теплі клієнти, які на вас чекають. І ще одне правило: збагачення краще робити на вимогу, а не для всієї бази одразу. Немає жодного сенсу шукати ЛПР для п'яти тисяч компаній, з яких у роботу цього кварталу підуть двісті. Спершу відбір, потім заглиблення - не навпаки.",
+      "en": "Every contact you find has to be validated: check that the domain exists, that the mail server accepts letters, that the address is not a spam trap. A single validation pass protects your domain reputation: if 20% of your emails bounce, mail providers will quickly start dropping all your messages into spam - and even the warm clients who are waiting for you will suffer. And one more rule: enrichment is better done on demand rather than for the whole database at once. There is no point in hunting down decision makers for five thousand companies when only two hundred will actually be worked this quarter. Selection first, depth second - not the other way round."
+    },
+    {
+      "t": "h2",
+      "uk": "Скоринг лідів і автоматизація продажів у CRM",
+      "en": "Lead scoring and sales automation inside the CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Скоринг - це проста арифметика, яка вирішує, кому дзвонити першим. Ви призначаєте бали за відповідність ICP (галузь +20, розмір +15, регіон +10), за тригери (свіжа вакансія +25, виграний тендер +20), за якість контакту (є ім'я та посада ЛПР +15, тільки загальна адреса 0) і за негатив (компанія у стані припинення −50, уже клієнт −100). Ліди з балом вище порогу автоматично лягають у CRM у чергу менеджера, з поміткою, чому вони цікаві саме зараз. Решта чекає в базі й може «підрости» пізніше, коли з'явиться новий сигнал. Менеджер відкриває CRM і бачить не звалище, а десять компаній на сьогодні з готовим приводом для розмови.",
+      "en": "Scoring is simple arithmetic that decides who gets called first. You assign points for ICP fit (industry +20, size +15, region +10), for triggers (a fresh vacancy +25, a won tender +20), for contact quality (a decision maker’s name and title +15, only a generic address 0) and for negatives (company being liquidated −50, already a client −100). Leads scoring above the threshold land in the CRM automatically, in the rep’s queue, tagged with the reason they are interesting right now. The rest wait in the database and may “grow” later, when a new signal appears. The rep opens the CRM and sees not a dump, but ten companies for today, each with a ready-made reason to talk."
+    },
+    {
+      "t": "p",
+      "uk": "Чому тисяча холодних контактів гірша за сто точних? Тому що менеджер фізично встигає якісно опрацювати 15-25 контактів на день. Даючи йому тисячу випадкових компаній, ви гарантовано отримуєте шаблонні розсилки, вигорання та репутаційні втрати: чим більше нерелевантних листів, тим більше скарг і тим гірша доставка наступних. Сто компаній, які точно підходять під ICP, з іменем ЛПР і персональним першим рядком («ви відкрили другий склад у Львові - облік залишків зазвичай загострюється саме на цьому кроці»), дають конверсію у відповідь у рази вищу. Автоматизація продажів має скорочувати не якість дотику, а час на його підготовку: система приносить факт і контакт, людина додає сенс.",
+      "en": "Why is a thousand cold contacts worse than a hundred precise ones? Because a rep can physically work through 15-25 contacts a day properly. Hand him a thousand random companies and you are guaranteed template blasts, burnout and reputational damage: the more irrelevant emails, the more complaints, and the worse the deliverability of everything that follows. A hundred companies that truly fit the ICP, with the decision maker’s name and a personal opening line (“you have opened a second warehouse in Lviv - stock accounting usually becomes painful exactly at that step”), produce a reply rate several times higher. Sales automation should cut the time spent preparing a touch, not the quality of the touch itself: the system brings the fact and the contact, the human adds the meaning."
+    },
+    {
+      "t": "h2",
+      "uk": "Законність лідогенерації b2b і персональні дані",
+      "en": "The legality of B2B lead generation and personal data"
+    },
+    {
+      "t": "p",
+      "uk": "Тут важливо бути точним. Дані про юридичну особу - назва, код, адреса, вид діяльності, корпоративний телефон і пошта на власному домені - це відомості про компанію, і працювати з ними значно простіше. Але щойно ви зберігаєте ім'я, прізвище, посаду та особистий контакт конкретної людини, це вже персональні дані, навіть якщо вони знайдені у відкритому доступі. Правила захисту персональних даних (в Україні - профільний закон, для клієнтів з ЄС - GDPR) вимагають законної підстави обробки, прозорості й можливості видалити дані на запит. У B2B часто спираються на легітимний інтерес - але це працює лише тоді, коли пропозиція справді релевантна ролі людини, ви готові пояснити, звідки взяли контакт, і в кожному листі є проста можливість відмовитися від подальших повідомлень. Масова розсилка на приватні адреси без жодної релевантності - це вже спам з усіма наслідками.",
+      "en": "Here it is important to be precise. Data about a legal entity - name, registration code, address, type of activity, corporate phone and email on its own domain - is information about a company, and working with it is far simpler. But the moment you store a specific person’s first name, surname, job title and personal contact, that is already personal data, even if you found it in the public domain. Data protection rules (in Ukraine, the dedicated law; for EU clients, GDPR) require a lawful basis for processing, transparency and the ability to delete the data on request. In B2B people often rely on legitimate interest - but that only works when the offer is genuinely relevant to the person’s role, you are ready to explain where you got the contact, and every message contains an easy way to opt out of further communication. A mass mailing to private addresses with no relevance at all is spam, with all the consequences that entails."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо - про куплені бази. Пропозиції на кшталт «мільйон контактів за 500 гривень» - це майже завжди зливи: викрадені або незаконно скопійовані дані. Використовувати їх небезпечно з трьох причин. Перша - прямий ризик відповідальності за незаконну обробку персональних даних. Друга - знищення репутації вашого домену через хвилю скарг, після якої не доходять навіть листи чинним клієнтам. Третя, найпрозаїчніша - якість: контакти мертві, посади змінилися, конверсія прямує до нуля. Чесний шлях повільніший, але дає передбачуваний результат: чіткий ICP, відкриті джерела, збагачення, скоринг, персоналізація. Саме такі системи збору лідів ми в Devlly і будуємо - парсинг відкритих джерел, збагачення контактів, скоринг і автоматична передача в CRM, щоб менеджер починав робочий день не з пошуку, а з розмови.",
+      "en": "A separate word about purchased databases. Offers along the lines of “a million contacts for twenty dollars” are almost always leaks: stolen or illegally copied data. Using them is dangerous for three reasons. First, the direct risk of liability for unlawful processing of personal data. Second, the destruction of your domain’s reputation under a wave of complaints, after which even letters to existing clients stop arriving. Third, the most mundane - quality: the contacts are dead, the job titles have changed, and the conversion rate tends toward zero. The honest route is slower but delivers a predictable result: a clear ICP, open sources, enrichment, scoring, personalisation. These are exactly the lead-collection systems we build at Devlly - parsing open sources, enriching contacts, scoring them and pushing them into the CRM automatically, so that a rep starts the day with a conversation rather than a search."
+    }
+  ]
+}

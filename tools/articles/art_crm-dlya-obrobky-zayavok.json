@@ -1,0 +1,122 @@
+{
+  "title_uk": "CRM для обробки заявок: як не втратити жодного клієнта",
+  "title_en": "CRM for handling requests: how to lose no client",
+  "desc_uk": "Як CRM система автоматизує обробку заявок: фіксує, розподіляє між менеджерами і контролює виконання. Жоден клієнт не залишиться без відповіді.",
+  "desc_en": "How a CRM automates request handling: it captures every enquiry, distributes it among managers and controls follow-up. No client is left without an answer.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для обробки заявок і звернень клієнтів | Devlly",
+    "te": "CRM for handling client requests and enquiries | Devlly",
+    "d": "Як CRM система автоматизує обробку заявок: фіксує, розподіляє між менеджерами і контролює виконання. Жоден клієнт не залишиться без відповіді.",
+    "de": "How a CRM automates request handling: it captures every enquiry, distributes it among managers and controls follow-up. No client is left without an answer.",
+    "k": "CRM для обробки заявок, картка заявки, розподіл заявок між менеджерами, звіти по воронці, впровадження CRM, власна CRM, автоматизація обробки звернень"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Заявка приходить, менеджер її бачить, а через три дні клієнт уже говорить із конкурентом. Проблема рідко в людях - частіше в системі, яка не тримає звернення в полі зору й нічого не нагадує. Розберемо, які функції CRM для обробки заявок справді працюють, як перевірити систему до покупки і коли має сенс будувати власну.",
+      "en": "A request comes in, the manager sees it, and three days later the client is already talking to a competitor. The problem is rarely the people - more often it is a system that does not keep the enquiry in sight and reminds no one of anything. Let us look at which CRM features actually work for request handling, how to test a system before buying it, and when building your own makes sense."
+    },
+    {
+      "t": "h2",
+      "uk": "Що має вміти CRM для обробки заявок",
+      "en": "What a CRM for handling requests must be able to do"
+    },
+    {
+      "t": "p",
+      "uk": "CRM для обробки заявок - це не список контактів, а робоче місце менеджера. Мінімальний набір функцій виглядає так: автоматична фіксація кожного звернення з усіх каналів, картка заявки з повною історією, розподіл між менеджерами, нагадування про наступний крок і звіти по воронці. Якщо хоча б один пункт відсутній, система швидко перетворюється на архів, куди ніхто не заглядає, а реальна робота знову переїжджає в таблиці й особисті нотатки.",
+      "en": "A CRM for handling requests is not a contact list, it is the manager's workplace. The minimum feature set looks like this: automatic capture of every enquiry from all channels, a request card with full history, distribution among managers, reminders about the next step and funnel reports. If even one of these is missing, the system quickly turns into an archive nobody opens, and the real work moves back into spreadsheets and personal notes."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто виділити пошук дублів. Один клієнт може написати в месенджер, залишити номер на сайті і за день подзвонити - у базі зʼявляться три різні заявки. Хороша система порівнює телефон, пошту й нікнейм, підсвічує збіги та дозволяє обʼєднати картки в одну, зберігши всю переписку і всі завдання. Без цього двоє менеджерів телефонують одному й тому ж клієнту по черзі, а статистика показує вигаданий обсяг звернень і завищену вартість заявки.",
+      "en": "Duplicate detection deserves a separate mention. One client can write in a messenger, leave a number on the website and call a day later - three separate requests appear in the database. A good system compares phone, email and username, highlights matches and lets you merge the cards into one while keeping all correspondence and tasks. Without this, two managers call the same client one after another, and the statistics show an invented volume of enquiries and an inflated cost per request."
+    },
+    {
+      "t": "p",
+      "uk": "Ще одна обовʼязкова річ - дисципліна даних. Статуси мають бути короткими й однозначними, а закрити заявку без вказаної причини відмови має бути технічно неможливо. Це одна маленька настройка, але саме вона потім дає керівнику відповідь на питання, чому половина звернень нікуди не дійшла.",
+      "en": "One more essential thing is data discipline. Statuses must be short and unambiguous, and closing a request without a stated reason for refusal must be technically impossible. It is one small setting, but it is exactly what later gives the manager an answer to why half of the enquiries went nowhere."
+    },
+    {
+      "t": "h2",
+      "uk": "Картка заявки та історія комунікації",
+      "en": "The request card and the communication history"
+    },
+    {
+      "t": "p",
+      "uk": "Картка заявки - головний екран системи. У ній має бути видно все за десять секунд: джерело звернення, контакти, суть запиту, відповідальний менеджер, поточний статус, дата наступного контакту й повна стрічка комунікації. Листи, повідомлення з месенджерів, записи дзвінків і внутрішні коментарі - в одному місці, у хронологічному порядку, без перемикання між вкладками та програмами.",
+      "en": "The request card is the main screen of the system. It must show everything within ten seconds: the source of the enquiry, contacts, the essence of the request, the responsible manager, the current status, the date of the next contact and the full communication feed. Emails, messenger messages, call recordings and internal comments - all in one place, in chronological order, with no switching between tabs and applications."
+    },
+    {
+      "t": "p",
+      "uk": "Повна історія - це страховка компанії. Менеджер захворів, звільнився або пішов у відпустку, і інша людина відкриває картку й за хвилину розуміє, про що домовлялися, яку ціну називали і що обіцяли надіслати. Без історії кожна передача клієнта означає повторне зʼясування деталей, і клієнт це відчуває одразу.",
+      "en": "A full history is the company's insurance. A manager falls ill, quits or goes on holiday, and another person opens the card and within a minute understands what was agreed, what price was quoted and what was promised. Without history, every handover means asking the client the same questions again, and the client feels it immediately."
+    },
+    {
+      "t": "p",
+      "uk": "Практична деталь: історію треба зберігати автоматично, а не покладатися на дисциплінованість людей. Якщо переписку з месенджера чи пошти доводиться копіювати руками, вона потрапить у картку приблизно у двадцяти відсотках випадків, і то не повністю. Тому інтеграції з каналами - це не додаткова опція, а умова того, що картка взагалі буде правдивою.",
+      "en": "A practical detail: history must be saved automatically rather than rely on people's discipline. If correspondence from a messenger or mailbox has to be copied by hand, it will reach the card in roughly twenty percent of cases, and only partially. That is why channel integrations are not an optional extra but the condition for the card being truthful at all."
+    },
+    {
+      "t": "h2",
+      "uk": "Розподіл між менеджерами і нагадування",
+      "en": "Distribution among managers and reminders"
+    },
+    {
+      "t": "p",
+      "uk": "Розподіл між менеджерами вирішує, чи буде заявка оброблена взагалі. Найпростіша схема - черга по колу, коли звернення йдуть по черзі кожному, хто на зміні. Складніші варіанти враховують поточне навантаження, напрямок продукту, мову клієнта або орієнтовну суму угоди. Головна вимога одна: у кожної заявки є конкретний відповідальний з першої хвилини, а не абстрактний «відділ продажів».",
+      "en": "Distribution among managers decides whether a request gets handled at all. The simplest scheme is a round-robin queue, where enquiries go to everyone on shift in turn. More advanced options take into account current workload, product line, the client's language or the estimated deal size. There is one key requirement: every request has a specific owner from the first minute, not an abstract «sales department»."
+    },
+    {
+      "t": "p",
+      "uk": "Черга має бути чесною і прозорою. Якщо система віддає найтепліші заявки одному менеджеру, решта команди втрачає мотивацію, а керівник не бачить причини перекосу в звітах. Тому логіку розподілу варто робити налаштовуваною й видимою: хто, скільки і за яким правилом отримав. Корисно також мати ручне перепризначення з фіксацією того, хто і коли передав заявку.",
+      "en": "The queue must be fair and transparent. If the system hands the warmest requests to one manager, the rest of the team loses motivation and the head of sales cannot see the reason for the imbalance in the reports. So the distribution logic should be configurable and visible: who received how much and under which rule. It also helps to have manual reassignment with a record of who passed the request and when."
+    },
+    {
+      "t": "p",
+      "uk": "Нагадування закривають другу половину проблеми. Заявка без наступної дії має підсвічуватися, а не тихо лежати в списку. Робочий мінімум: автоматичне завдання після кожного контакту, ескалація керівнику, якщо на нову заявку ніхто не відповів за 15 хвилин, і окремий фільтр «прострочені» на головному екрані менеджера.",
+      "en": "Reminders close the other half of the problem. A request with no next action must be highlighted, not sit quietly in a list. The working minimum: an automatic task after every contact, escalation to the supervisor if nobody has replied to a new request within 15 minutes, and a separate «overdue» filter on the manager's main screen."
+    },
+    {
+      "t": "h2",
+      "uk": "Звіти, які показують реальну картину",
+      "en": "Reports that show the real picture"
+    },
+    {
+      "t": "p",
+      "uk": "Звіти потрібні не для краси, а для рішень. Базовий комплект: воронка за статусами, конверсія між етапами, середній час першої відповіді, кількість заявок на менеджера й причини відмов. Ці пʼять цифр уже показують, де саме процес гальмує і чи проблема в кількості звернень, у швидкості реакції чи в якості роботи з ними.",
+      "en": "Reports exist for decisions, not for decoration. The basic set: a funnel by status, conversion between stages, average first response time, number of requests per manager and reasons for refusal. These five numbers already show where the process stalls and whether the problem is the volume of enquiries, the speed of reaction or the quality of the work with them."
+    },
+    {
+      "t": "p",
+      "uk": "Звіти по менеджерах варто дивитися разом із навантаженням. Менеджер із конверсією 12 відсотків і сотнею заявок та колега з 20 відсотками й тридцятьма заявками - це різні ситуації, які потребують різних рішень. Система має давати обидва зрізи одночасно, інакше висновки будуть помилковими, а премії - несправедливими.",
+      "en": "Per-manager reports should be read together with workload. A manager with 12 percent conversion and a hundred requests and a colleague with 20 percent and thirty requests are different situations that call for different decisions. The system must give both cuts at once, otherwise the conclusions will be wrong and the bonuses unfair."
+    },
+    {
+      "t": "p",
+      "uk": "Перевірка проста: якщо для щотижневого звіту хтось вивантажує таблицю й рахує формулами, CRM свою роботу не виконує. Цифри мають бути в системі, оновлюватися самі й відкриватися у два кліки з можливістю провалитися до конкретного списку заявок за будь-яким показником.",
+      "en": "The test is simple: if someone exports a spreadsheet and calculates formulas for the weekly report, the CRM is not doing its job. The numbers must live in the system, update themselves and open in two clicks, with the ability to drill down to the specific list of requests behind any metric."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова чи власна CRM і помилки впровадження",
+      "en": "Off-the-shelf or custom CRM, and implementation mistakes"
+    },
+    {
+      "t": "p",
+      "uk": "Готова CRM закриває потребу, коли процес стандартний: лінійна воронка, кілька статусів, звичні канали, до десяти менеджерів. Це швидкий старт за тиждень-два й передбачувана вартість підписки. Перед вибором варто прогнати систему по своєму реальному сценарію: завести десять типових заявок, спробувати обʼєднати дублі, налаштувати правило розподілу і зібрати звіт по воронці. Демонстрація на чужих даних показує лише вітрину.",
+      "en": "An off-the-shelf CRM covers the need when the process is standard: a linear funnel, a few statuses, familiar channels, up to ten managers. It means a fast start in a week or two and a predictable subscription cost. Before choosing, run the system through your own real scenario: create ten typical requests, try merging duplicates, configure a distribution rule and build a funnel report. A demo on someone else's data only shows the shop window."
+    },
+    {
+      "t": "p",
+      "uk": "Власна CRM виправдана, коли логіка обробки нестандартна: складний розрахунок вартості, узгодження в кілька рівнів, специфічні інтеграції з виробництвом чи складом, або коли підписка на всю команду вже коштує більше за розробку. Інтеграція з наявними каналами зазвичай виглядає так: сайт і форми віддають дані через API, месенджери підключаються ботом, пошта й телефонія - через готові конектори, і кожне звернення одразу стає карткою з джерелом і відповідальним.",
+      "en": "A custom CRM is justified when the handling logic is non-standard: complex price calculation, multi-level approvals, specific integrations with production or warehouse, or when the subscription for the whole team already costs more than development. Integration with existing channels usually looks like this: the website and forms send data through an API, messengers connect via a bot, mail and telephony through ready connectors, and every enquiry immediately becomes a card with a source and an owner."
+    },
+    {
+      "t": "p",
+      "uk": "Типові помилки впровадження повторюються з проєкту в проєкт: переносять у систему наявний хаос замість того, щоб спершу описати процес; роблять тридцять обовʼязкових полів, які ніхто не заповнює; запускають без навчання команди й без відповідального за систему всередині компанії. Починати краще з мінімальної версії на один відділ, а розширювати після перших звітів. У Devlly ми проєктуємо й розробляємо такі системи під конкретний процес компанії - від картки заявки й розподілу до звітності та інтеграцій з каналами.",
+      "en": "Typical implementation mistakes repeat from project to project: moving the existing chaos into the system instead of describing the process first; creating thirty mandatory fields nobody fills in; launching without training the team and without an internal owner of the system. It is better to start with a minimal version for one department and expand after the first reports. At Devlly we design and build such systems around a company's specific process - from the request card and distribution to reporting and channel integrations."
+    }
+  ]
+}

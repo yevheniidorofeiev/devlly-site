@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація дропшипінгу: як масштабувати без найму",
+  "title_en": "Dropshipping automation: how to scale without hiring",
+  "desc_uk": "Як автоматизувати дропшипінг бізнес: прийом замовлень, передача постачальнику, трекінг доставки і комунікація з клієнтом.",
+  "desc_en": "How to automate a dropshipping business: order intake, automatic forwarding to suppliers, delivery tracking and customer communication.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація дропшипінгу через Telegram і CRM | Devlly",
+    "te": "Dropshipping automation with Telegram and CRM | Devlly",
+    "d": "Як автоматизувати дропшипінг бізнес: прийом замовлень, передача постачальнику, трекінг доставки і комунікація з клієнтом.",
+    "de": "How to automate a dropshipping business: order intake, automatic forwarding to suppliers, delivery tracking and customer communication.",
+    "k": "автоматизація дропшипінгу, прийом замовлень, передача постачальнику, трекінг доставки, аналітика маржі, CRM для дропшипінгу, Telegram-бот для магазину"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Дропшипінг виглядає простим бізнесом, поки замовлень десять на день і всі вони поміщаються в одну таблицю. На сотні заявок власник стоїть перед вибором: наймати менеджерів або будувати систему, яка сама приймає замовлення, передає їх постачальнику і веде клієнта аж до вручення посилки. Другий шлях дешевший у довгій перспективі і, головне, масштабується без нових людей у штаті.",
+      "en": "Dropshipping looks like a simple business until you get past ten orders a day and they no longer fit in one spreadsheet. At a hundred orders the owner faces a choice: hire managers or build a system that takes orders itself, forwards them to the supplier and walks the customer all the way to delivery. The second path is cheaper in the long run and, more importantly, scales without adding headcount."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація дропшипінгу: з чого починати",
+      "en": "Dropshipping automation: where to start"
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація дропшипінгу починається не з коду, а з чесного опису процесу. Випишіть кожен крок від кліку на кнопку «Купити» до моменту, коли клієнт забрав посилку: хто відповідає за крок, скільки хвилин він займає, де дані переносяться руками з одного вікна в інше. У звичайному магазині на 100 замовлень на день така мапа вміщується на один аркуш і одразу показує три-чотири місця, де людина працює живим копіювальником між сайтом, месенджером і таблицею постачальника.",
+      "en": "Dropshipping automation starts not with code but with an honest description of the process. Write down every step from the click on the buy button to the moment the customer picks up the parcel: who owns the step, how many minutes it takes, where data is copied by hand from one window into another. In a typical store doing 100 orders a day this map fits on a single sheet and immediately reveals three or four places where a person acts as a living copy machine between the site, the messenger and the supplier spreadsheet."
+    },
+    {
+      "t": "p",
+      "uk": "Далі рахуйте час у грошах. Якщо на одне замовлення менеджер витрачає 6-8 хвилин на переписування контактів, адреси і артикулів, то 100 замовлень щодня - це 10-13 годин чистої ручної роботи. Це вже два повних робочих місця з зарплатою, помилками, відпустками і плинністю. Автоматизація базового ланцюжка знімає більшу частину цього часу і, що важливіше, робить обробку рівномірною: система однаково працює о десятій ранку і о десятій вечора в передноворічний пік.",
+      "en": "Then count that time in money. If a manager spends 6-8 minutes per order retyping contacts, addresses and SKUs, then 100 orders a day means 10-13 hours of pure manual work. That is already two full salaries, with mistakes, holidays and turnover attached. Automating the basic chain removes most of that time and, more importantly, makes processing uniform: the system works the same at ten in the morning and at ten at night during the pre-holiday peak."
+    },
+    {
+      "t": "p",
+      "uk": "Не намагайтеся автоматизувати все відразу. Візьміть один потік: один магазин, один постачальник, один спосіб доставки. Коли цей потік працює два тижні без ручних правок, підключайте наступний канал і наступного партнера. Такий підхід дає видимий результат за місяць замість піврічного проєкту, який ніхто не встигає доробити до кінця сезону.",
+      "en": "Do not try to automate everything at once. Take one flow: one store, one supplier, one delivery method. When that flow runs for two weeks without manual fixes, connect the next channel and the next partner. This approach gives a visible result within a month instead of a six-month project nobody manages to finish before the season ends."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом замовлень: одна точка входу замість пʼяти",
+      "en": "Order intake: one entry point instead of five"
+    },
+    {
+      "t": "p",
+      "uk": "Прийом замовлень у дропшипінгу майже завжди розкиданий: сайт, Instagram Direct, Telegram, дзвінки, іноді ще один-два маркетплейси. Поки заявки живуть у різних місцях, автоматизувати практично нема чого - система бачить половину потоку, а решта залишається в голові у менеджера і в непрочитаних повідомленнях. Перший технічний крок завжди однаковий: звести всі канали в одну базу з єдиним форматом замовлення, статусами і історією спілкування.",
+      "en": "Order intake in dropshipping is almost always scattered: the website, Instagram Direct, Telegram, phone calls, sometimes one or two marketplaces on top. While requests live in different places there is little to automate - the system sees half the flow and the rest stays in a manager's head and in unread messages. The first technical step is always the same: bring every channel into one database with a single order format, statuses and conversation history."
+    },
+    {
+      "t": "p",
+      "uk": "Практично це виглядає так. Форма на сайті і кнопка в Telegram-боті пишуть замовлення напряму в CRM. Замовлення з маркетплейсів підтягуються через API кожні кілька хвилин. Повідомлення з соцмереж потрапляють у спільну скриньку, звідки оператор одним кліком створює замовлення з уже підставленим товаром, ціною і контактом клієнта. Дублікати система ловить сама за номером телефону, тож один клієнт не отримує дві посилки через те, що написав у двох місцях.",
+      "en": "In practice it looks like this. The site form and the Telegram bot button write orders straight into the CRM. Marketplace orders are pulled through the API every few minutes. Social media messages land in a shared inbox where the operator creates an order in one click with the product, price and contact already filled in. Duplicates are caught automatically by phone number, so a customer who wrote in two places does not receive two parcels."
+    },
+    {
+      "t": "p",
+      "uk": "Валідація на вході економить найбільше грошей. Бот перевіряє формат номера телефону, коректність адреси відділення, наявність товару в актуальному прайсі і факт передоплати ще до того, як замовлення пішло далі по ланцюжку. Одна помилкова адреса коштує повернення і 150-250 гривень логістики плюс час на розбір, тож перевірка на вході окупається вже на перших сотнях замовлень.",
+      "en": "Validation at the entry point saves the most money. The bot checks the phone number format, the branch address, product availability in the current price list and the prepayment status before the order moves further down the chain. A single wrong address costs a return, 150-250 hryvnias of logistics and time spent sorting it out, so front-door validation pays for itself within the first few hundred orders."
+    },
+    {
+      "t": "h2",
+      "uk": "Передача постачальнику і синхронізація залишків",
+      "en": "Forwarding to the supplier and stock synchronisation"
+    },
+    {
+      "t": "p",
+      "uk": "Передача постачальнику - місце, де дропшипінг ламається найчастіше. У кожного партнера свій спосіб роботи: хтось приймає замовлення через API, хтось через таблицю в Google Sheets, хтось лише повідомленням у Telegram-чаті, а хтось досі просить листа на пошту. Систему варто будувати так, щоб для кожного постачальника був окремий адаптер, а вся інша логіка - статуси, клієнти, аналітика - залишалася спільною і не переписувалася під кожного нового партнера.",
+      "en": "Forwarding to the supplier is where dropshipping breaks most often. Every partner works differently: some accept orders through an API, some through a Google Sheets table, some only via a message in a Telegram chat, and some still ask for an email. Build the system so that each supplier gets its own adapter while the rest of the logic - statuses, customers, analytics - stays shared and is not rewritten for every new partner."
+    },
+    {
+      "t": "p",
+      "uk": "Мінімальна робоча автоматизація виглядає так: щойно замовлення підтверджене, воно автоматично летить постачальнику в його форматі, а система чекає у відповідь номер накладної. Якщо відповіді немає дві години, відповідальному приходить нагадування, а через чотири - ескалація власнику. Замовлення перестають зависати в чаті на добу, і додатково зʼявляється чесна статистика: хто з партнерів системно затримує відправлення і скільки це коштує в поверненнях.",
+      "en": "A minimal working setup looks like this: as soon as an order is confirmed it is sent to the supplier in their format and the system waits for a tracking number in return. If there is no answer within two hours the responsible person gets a reminder, and after four hours it escalates to the owner. Orders stop hanging in a chat for a day, and you also get honest statistics on which partners systematically delay shipments and what that costs in returns."
+    },
+    {
+      "t": "p",
+      "uk": "Синхронізація залишків і цін працює за розкладом. Прайси підтягуються кілька разів на день, товари, яких немає в наявності, автоматично ховаються з вітрини або позначаються як «під замовлення», а зміна закупівельної ціни перераховує роздрібну за заданою формулою націнки з округленням. Це знімає найдорожчу проблему дропшипінгу - продаж того, чого вже немає на складі партнера, з подальшим поверненням грошей і зіпсованим відгуком.",
+      "en": "Stock and price synchronisation runs on a schedule. Price lists are pulled several times a day, out-of-stock items are hidden from the storefront or marked as made to order, and a change in the purchase price recalculates the retail price using your markup formula with rounding. This removes the most expensive problem in dropshipping - selling something the partner no longer has, followed by a refund and a damaged review."
+    },
+    {
+      "t": "h2",
+      "uk": "Трекінг доставки і комунікація з клієнтом",
+      "en": "Delivery tracking and customer communication"
+    },
+    {
+      "t": "p",
+      "uk": "Трекінг доставки закриває більшість звернень у підтримку, бо питання «де моя посилка» становить від третини до половини всіх повідомлень. Система кілька разів на день опитує API перевізника за номером накладної і оновлює статус у картці замовлення. Клієнт отримує повідомлення в тому каналі, звідки прийшов: у Telegram, у месенджері або SMS - без участі менеджера і без затримок на вихідних.",
+      "en": "Delivery tracking closes most support requests, because the question where is my parcel makes up a third to a half of all messages. The system polls the carrier API by tracking number several times a day and updates the status on the order card. The customer gets a notification in the channel they came from - Telegram, a messenger or SMS - with no manager involved and no delays on weekends."
+    },
+    {
+      "t": "p",
+      "uk": "Сценарії варто прописати заздалегідь: відправлено з номером накладної, прибуло у відділення, нагадування на третій день зберігання, попередження за добу до автоматичного повернення. Саме останні два дають найбільший фінансовий ефект - вони повертають частину посилок, які інакше поїхали б назад разом із вашими витратами на доставку в обидва боки та замороженою закупівлею.",
+      "en": "Write the scenarios in advance: shipped with a tracking number, arrived at the branch, a reminder on the third day of storage, a warning one day before automatic return. The last two have the biggest financial effect - they rescue parcels that would otherwise travel back along with your two-way shipping costs and frozen purchase money."
+    },
+    {
+      "t": "p",
+      "uk": "Комунікація не має бути повністю роботизованою. Складні випадки - брак, невідповідність опису, скарга, запит на обмін - система позначає і передає людині разом з усією історією: що замовили, коли відправили, що відповів постачальник, які повідомлення вже пішли клієнту. Оператор витрачає хвилину на відповідь замість десяти на пошук контексту в трьох різних чатах.",
+      "en": "Communication should not be fully robotic. Complex cases - defects, mismatched descriptions, complaints, exchange requests - are flagged and handed to a person together with the full history: what was ordered, when it shipped, what the supplier replied, which messages the customer already received. The operator spends a minute on the answer instead of ten minutes hunting for context across three chats."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика маржі і масштабування без найму",
+      "en": "Margin analytics and scaling without hiring"
+    },
+    {
+      "t": "p",
+      "uk": "Аналітика маржі в дропшипінгу рідко буває чесною, поки облік ведеться в таблиці. Реальний прибуток із замовлення - це роздрібна ціна мінус закупівля, мінус доставка, мінус комісія маркетплейсу чи еквайрингу, мінус вартість реклами на це конкретне замовлення, мінус втрати на поверненнях і зіпсованому товарі. Систему треба навчити рахувати саме так: по кожному товару, категорії, каналу продажів і постачальнику окремо.",
+      "en": "Margin analytics in dropshipping is rarely honest while the accounting lives in a spreadsheet. Real profit per order is the retail price minus purchase cost, minus shipping, minus marketplace or acquiring fees, minus the advertising cost attributed to that specific order, minus losses on returns and damaged goods. The system has to be taught to count exactly that way: per product, category, sales channel and supplier."
+    },
+    {
+      "t": "p",
+      "uk": "Коли ці цифри збираються автоматично, рішення стають очевидними. Видно, що товар з красивою націнкою 40% дає 8% чистими через високий відсоток невикупів, а нудна категорія з націнкою 20% приносить стабільні гроші при майже нульових поверненнях. Видно і те, який постачальник псує показники затримками, і скільки коштує кожен день його простою в упущених замовленнях.",
+      "en": "Once these numbers are collected automatically, decisions become obvious. You can see that a product with an attractive 40% markup nets 8% because of a high rate of uncollected parcels, while a boring category with a 20% markup brings stable money with almost no returns. You also see which supplier ruins the metrics with delays and how much each day of that delay costs in lost orders."
+    },
+    {
+      "t": "p",
+      "uk": "Масштабування після цього перетворюється на питання налаштувань, а не найму. Додати нового постачальника означає описати ще один адаптер, а новий канал продажів - підключити ще одне джерело замовлень до тієї самої бази. Devlly будує такі системи під конкретний процес магазину: CRM, Telegram-боти, інтеграції з постачальниками і перевізниками, аналітику маржі в одному контурі, без набору різнорідних сервісів, склеєних вручну.",
+      "en": "After that, scaling becomes a matter of configuration rather than hiring. Adding a supplier means describing one more adapter, and adding a sales channel means connecting one more order source to the same database. Devlly builds such systems around a specific store process: CRM, Telegram bots, integrations with suppliers and carriers, and margin analytics in a single loop, instead of a pile of separate services glued together by hand."
+    }
+  ]
+}

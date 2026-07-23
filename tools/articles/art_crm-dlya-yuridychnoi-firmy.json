@@ -1,0 +1,102 @@
+{
+  "title_uk": "CRM для юридичної фірми: що важливо врахувати",
+  "title_en": "CRM for a law firm: what to consider",
+  "desc_uk": "Практичний гайд із впровадження CRM у юридичній фірмі: облік справ і засідань, контроль процесуальних строків, розмежування доступу й поетапний запуск.",
+  "desc_en": "A practical guide to implementing a CRM in a law firm: case and hearing tracking, procedural deadline control, access separation and a phased rollout.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для юридичної фірми: вибір і впровадження | Devlly",
+    "te": "CRM for a law firm: selection and implementation | Devlly",
+    "d": "Як вибрати і впровадити CRM саме для юридичної фірми: облік справ, строки, клієнти і конфіденційність. Практичний гайд.",
+    "de": "How to choose and implement a CRM built for a law firm: case tracking, deadlines, clients and confidentiality. A practical guide.",
+    "k": "crm для юридичної фірми, облік справ crm, процесуальні строки, crm для юристів впровадження, конфіденційність юридичної фірми, автоматизація юридичної фірми"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "CRM для юридичної фірми - це не воронка продажів із перефарбованими назвами полів, а система, яка живе тими самими сутностями, що й сама фірма: справами, засіданнями, процесуальними строками й документами. Саме тому спроба натягнути універсальну «продажну» CRM на юридичну практику зазвичай закінчується тим, що юристи повертаються до Excel і паперових щоденників. У цьому гайді розберемо не «яку CRM купити», а що саме має бути всередині системи для юридичної фірми і як провести впровадження так, щоб команда справді почала нею користуватись, а не саботувала з першого тижня.",
+      "en": "A CRM for a law firm is not a sales funnel with renamed fields, but a system that lives on the same entities as the firm itself: cases, hearings, procedural deadlines and documents. That is why trying to stretch a generic sales CRM over a legal practice usually ends with lawyers going back to Excel and paper diaries. In this guide we will look not at 'which CRM to buy' but at what exactly must be inside a system for a law firm and how to run the implementation so the team actually starts using it instead of sabotaging it from week one."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік справ і судових засідань: серце CRM для юридичної фірми",
+      "en": "Case and court hearing tracking: the heart of a law firm CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Центральна сутність юридичної CRM - не «угода» і не «лід», а справа. У картці справи мають бути номер провадження, суд та інстанція, стадія процесу, сторони, предмет спору, відповідальний юрист і команда. Якщо система не дає завести ці поля без милиць, вона не підходить, хоч би якою популярною була. Для фірми на вісім юристів зі 120 активними справами саме картка справи стає єдиним джерелом правди: будь-хто з команди відкриває її і за хвилину розуміє, на якій стадії процес, що відбулося на останньому засіданні й який наступний крок.",
+      "en": "The central entity of a legal CRM is not a 'deal' or a 'lead' but a case. A case card must hold the proceeding number, the court and instance, the stage of the process, the parties, the subject of the dispute, the responsible lawyer and the team. If the system cannot host these fields without workarounds, it does not fit, however popular it may be. For a firm of eight lawyers with 120 active cases, the case card becomes the single source of truth: anyone on the team opens it and within a minute understands what stage the process is at, what happened at the last hearing and what the next step is."
+    },
+    {
+      "t": "p",
+      "uk": "Друга обовʼязкова частина - календар судових засідань, повʼязаний зі справами. Кожне засідання заводиться з датою, часом, судом і залою, а система сама показує юристу його тиждень, а керівнику практики - завантаження всієї команди. Це знімає класичну проблему, коли два засідання одного юриста випадково призначені на один ранок у різних кінцях міста, а зʼясовується це напередодні ввечері. Додатковий бонус: якщо CRM підтягує дані з судового реєстру, зміна дати засідання зʼявляється в системі без ручного моніторингу.",
+      "en": "The second mandatory part is a court hearing calendar linked to cases. Every hearing is entered with a date, time, court and courtroom, and the system itself shows a lawyer their week and shows the practice head the workload of the whole team. This removes the classic problem where two hearings for the same lawyer accidentally land on one morning at opposite ends of the city, and it only surfaces the evening before. An extra bonus: if the CRM pulls data from the court registry, a changed hearing date appears in the system without manual monitoring."
+    },
+    {
+      "t": "h2",
+      "uk": "Контроль процесуальних строків: головний ризик, який має закривати система",
+      "en": "Procedural deadline control: the main risk the system must cover"
+    },
+    {
+      "t": "p",
+      "uk": "Пропущений строк на апеляцію - це не прикрість, а програна справа, претензія клієнта і репутаційна пляма на роки. Тому контроль процесуальних строків - найважливіша функція CRM для юридичної фірми, важливіша за будь-яку аналітику. Система має рахувати строки автоматично від дати події: отримали повний текст рішення - CRM сама створює задачу «подати апеляційну скаргу» з дедлайном за процесуальним кодексом і нагадує за сім, три й один день. Юрист не тримає двадцять дат у голові й не малює їх маркером у паперовому календарі.",
+      "en": "A missed appeal deadline is not an annoyance but a lost case, a client claim and a reputation stain for years. That is why procedural deadline control is the most important function of a law firm CRM, more important than any analytics. The system must calculate deadlines automatically from the date of an event: once the full text of a ruling is received, the CRM itself creates a 'file an appeal' task with a deadline under the procedural code and reminds at seven, three and one day out. The lawyer does not keep twenty dates in their head or mark them in a paper calendar."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто налаштувати ескалацію. Нагадування, яке юрист може просто закрити й забути, не захищає ні від чого. Правильна логіка інша: якщо за 48 годин до строку задача досі не в роботі, повідомлення автоматично йде керуючому партнеру. Так фірма отримує два рівні захисту замість одного, і критичні дати перестають залежати від памʼяті чи дисципліни однієї людини. У фірмах, де такий контроль впроваджено, пропуски строків зникають як клас, а страхові внески за професійну відповідальність стає легше обґрунтовувати.",
+      "en": "Escalation deserves separate setup. A reminder the lawyer can simply dismiss and forget protects against nothing. The right logic is different: if a task is still not in progress 48 hours before the deadline, a notification automatically goes to the managing partner. The firm gets two layers of protection instead of one, and critical dates stop depending on the memory or discipline of a single person. In firms where this control is in place, missed deadlines disappear as a category, and professional liability insurance becomes easier to justify."
+    },
+    {
+      "t": "h2",
+      "uk": "Конфіденційність і розмежування доступу в юридичній CRM",
+      "en": "Confidentiality and access separation in a legal CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Юридична фірма працює з адвокатською таємницею, тож принцип «усі бачать усе», звичний для відділу продажів, тут неприйнятний. Доступ до справи повинна мати лише її команда: відповідальний юрист, помічники й партнер, який курує практику. Ролі варто продумати до запуску: партнер бачить усі справи своєї практики, юрист - тільки свої, асистент - обмежений набір полів без фінансових умов і чутливих документів. Окрема функція, яку часто забувають, - перевірка конфлікту інтересів: перед тим як узяти нового клієнта, система за кілька секунд показує, чи не фігурувала протилежна сторона у ваших справах раніше.",
+      "en": "A law firm works with attorney-client privilege, so the 'everyone sees everything' principle familiar to sales teams is unacceptable here. Only a case's team should have access to it: the responsible lawyer, assistants and the partner supervising the practice. Roles should be designed before launch: a partner sees all cases in their practice, a lawyer only their own, an assistant a limited set of fields without financial terms and sensitive documents. A separate function that is often forgotten is the conflict of interest check: before taking on a new client, the system shows within seconds whether the opposing party has appeared in your cases before."
+    },
+    {
+      "t": "p",
+      "uk": "Технічний бік конфіденційності теж має значення, особливо коли ваші клієнти - корпорації з власними вимогами безпеки. Зʼясуйте, де фізично зберігаються дані, чи є шифрування, чи ведеться журнал дій, з якого видно, хто, коли і яку картку відкривав. Аудит-лог - це не бюрократія: саме він дозволяє відповісти клієнту на питання «хто мав доступ до наших матеріалів» фактами, а не запевненнями. Для фірм, які проходять перевірки корпоративних клієнтів перед укладенням договору, ці пункти нерідко вирішують, чи отримаєте ви контракт.",
+      "en": "The technical side of confidentiality matters too, especially when your clients are corporations with their own security requirements. Find out where the data is physically stored, whether it is encrypted, and whether there is an activity log showing who opened which card and when. An audit log is not bureaucracy: it is what lets you answer a client's question 'who had access to our materials' with facts rather than assurances. For firms that go through corporate client due diligence before signing, these points often decide whether you win the contract."
+    },
+    {
+      "t": "h2",
+      "uk": "Звʼязка справ із клієнтами й документами в одній системі",
+      "en": "Linking cases, clients and documents in one system"
+    },
+    {
+      "t": "p",
+      "uk": "Один клієнт у юридичній фірмі - це часто кілька справ у різних практиках: господарський спір, трудове питання, супровід договорів. CRM має показувати картку клієнта з усіма його справами, історією комунікацій і фінансів, щоб партнер перед зустріччю за пʼять хвилин відновив повний контекст відносин. Документи при цьому прикріплюються не до клієнта загалом, а до конкретної справи: позовна заява, ухвали, довіреності, експертизи. Коли все лежить у структурі справи, пошук потрібної ухвали займає десять секунд, а не двадцять хвилин розкопок у пошті й папках на сервері.",
+      "en": "One client at a law firm often means several cases across different practices: a commercial dispute, an employment matter, contract support. The CRM must show a client card with all their cases, communication and financial history, so a partner can restore the full context of the relationship in five minutes before a meeting. Documents are attached not to the client in general but to a specific case: the statement of claim, rulings, powers of attorney, expert reports. When everything sits in the case structure, finding the right ruling takes ten seconds instead of twenty minutes of digging through email and server folders."
+    },
+    {
+      "t": "p",
+      "uk": "Наступний рівень - інтеграції, які прибирають подвійне введення даних. Пошта підтягується в картку справи, щоб листування зі стороною чи судом не жило лише в скриньці одного юриста. Облік витраченого часу привʼязується до справи й автоматично перетворюється на рахунок клієнту в кінці місяця: для фірм з погодинним білінгом це саме те місце, де губиться 10-15 відсотків виставленого часу, коли години записуються по памʼяті в пʼятницю ввечері. Що менше ручних перенесень між системами, то повніші дані й то чесніші рахунки.",
+      "en": "The next level is integrations that remove double data entry. Email flows into the case card so that correspondence with the opposing side or the court does not live only in one lawyer's inbox. Time tracking is tied to the case and automatically turns into a client invoice at the end of the month: for firms with hourly billing this is exactly where 10-15 percent of billable time gets lost when hours are logged from memory on Friday evening. The fewer manual transfers between systems, the more complete the data and the more honest the invoices."
+    },
+    {
+      "t": "h2",
+      "uk": "Як не завалити впровадження CRM у юридичній фірмі",
+      "en": "How not to fail the CRM implementation at a law firm"
+    },
+    {
+      "t": "p",
+      "uk": "Найпоширеніша причина провалу - спроба увімкнути все й одразу для всіх. Юристи - зайняті люди зі сталими звичками, і система, яка з першого дня вимагає заповнювати сорок полів, буде тихо проігнорована. Працює поетапний запуск: спершу лише справи, засідання і строки, бо це закриває найбільший біль. Через місяць - документи й шаблони. Ще через місяць - облік часу й білінг. Кожен етап команда встигає засвоїти, і система росте разом зі звичкою нею користуватись, а не проти неї.",
+      "en": "The most common cause of failure is trying to switch on everything for everyone at once. Lawyers are busy people with settled habits, and a system that demands forty fields from day one will be quietly ignored. A phased rollout works: first only cases, hearings and deadlines, because that covers the biggest pain. A month later, documents and templates. Another month later, time tracking and billing. The team has time to absorb each stage, and the system grows together with the habit of using it rather than against it."
+    },
+    {
+      "t": "p",
+      "uk": "Другий ключ - пілот і внутрішній власник системи. Запустіть CRM спочатку на одній практиці з трьох-чотирьох людей, зберіть зауваження за два тижні, виправте налаштування й лише потім масштабуйте на всю фірму. Призначте відповідального - людину, до якої йдуть з питаннями і яка має повноваження змінювати процеси. Дані зі старих таблиць переносьте вибірково: активні справи повністю, архів - лише ключові поля. І перші два-три тижні ведіть паралельний облік критичних строків у старому форматі: це підстраховка, яка коштує небагато, а рятує від найгіршого сценарію.",
+      "en": "The second key is a pilot and an internal owner of the system. Launch the CRM first in one practice of three or four people, collect feedback over two weeks, fix the configuration and only then scale it to the whole firm. Appoint an owner - the person people go to with questions and who has the authority to change processes. Migrate data from old spreadsheets selectively: active cases in full, the archive only by key fields. And for the first two or three weeks keep parallel tracking of critical deadlines in the old format: it is cheap insurance that protects against the worst-case scenario."
+    },
+    {
+      "t": "p",
+      "uk": "І останнє: чесно оцініть, чи покриває готова система специфіку саме вашої фірми. Якщо ваші процеси стандартні, коробкове рішення з юридичним модулем може бути достатнім. Але коли потрібні автоматичний розрахунок строків за вашими типами проваджень, інтеграція з реєстрами, власна модель доступів і білінг під ваші договори, кастомна система часто виявляється вигіднішою вже на горизонті року. Devlly розробляє такі CRM під замовлення - від аудиту процесів фірми до запуску, навчання команди й подальшої підтримки.",
+      "en": "And finally: honestly assess whether an off-the-shelf system covers the specifics of your particular firm. If your processes are standard, a boxed solution with a legal module may be enough. But when you need automatic deadline calculation for your proceeding types, registry integrations, your own access model and billing tailored to your contracts, a custom system often turns out cheaper within a year. Devlly builds such CRMs to order - from an audit of the firm's processes to launch, team training and ongoing support."
+    }
+  ]
+}

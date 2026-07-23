@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram бот для дропшипінгу: автоматизація замовлень",
+  "title_en": "Telegram Bot for Dropshipping: Order Automation",
+  "desc_uk": "Як Telegram бот для дропшипінгу автоматизує прийом замовлень, передачу постачальнику і сповіщення клієнтів без участі менеджера.",
+  "desc_en": "How a Telegram bot for dropshipping automates order intake, supplier handoff and customer notifications without a manager in the loop.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для дропшипінгу: як налаштувати | Devlly",
+    "te": "Telegram Bot for Dropshipping: Setup Guide | Devlly",
+    "d": "Як Telegram бот для дропшипінгу автоматизує прийом замовлень, передачу постачальнику і сповіщення клієнтів без участі менеджера.",
+    "de": "How a Telegram bot for dropshipping automates order intake, supplier handoff and customer notifications without a manager in the loop.",
+    "k": "Telegram бот для дропшипінгу, автоматизація замовлень, каталог у боті, прийом замовлень, передача постачальнику, сповіщення клієнтів, налаштування бота"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "У дропшипінгу гроші губляться не на рекламі, а на ручній обробці. Менеджер копіює замовлення з директу в таблицю, потім пересилає його постачальнику, потім вручну пише клієнту номер накладної - і на кожному кроці щось губиться. Telegram бот для дропшипінгу закриває весь цей ланцюжок автоматично: від вибору товару в каталозі до трек-номера в чаті покупця.",
+      "en": "In dropshipping, money is lost not on ads but on manual processing. A manager copies orders from direct messages into a spreadsheet, forwards them to the supplier, then manually sends the tracking number to the customer - and something gets lost at every step. A Telegram bot for dropshipping closes this whole chain automatically: from picking a product in the catalog to the tracking number landing in the buyerʼs chat."
+    },
+    {
+      "t": "h2",
+      "uk": "Як влаштований Telegram бот для дропшипінгу",
+      "en": "How a Telegram bot for dropshipping is built"
+    },
+    {
+      "t": "p",
+      "uk": "Технічно це звичайний бот, підключений до трьох речей: бази товарів, вашої CRM або таблиці і чату постачальника. Клієнт бачить меню, обирає категорію, товар і розмір, залишає імʼя, телефон та відділення пошти. Бот не «розуміє» текст вільною формою - він веде людину по кроках кнопками, тому дані приходять чистими і в одному форматі. Це головна відмінність від переписки в директі, де кожен пише як хоче.",
+      "en": "Technically this is an ordinary bot connected to three things: a product database, your CRM or spreadsheet, and the supplierʼs chat. The customer sees a menu, picks a category, a product and a size, then leaves a name, phone number and delivery office. The bot does not try to parse free-form text - it walks the person through steps with buttons, so the data arrives clean and in one format. That is the main difference from direct-message chats where everyone writes however they like."
+    },
+    {
+      "t": "p",
+      "uk": "Далі бот працює як диспетчер. Він формує картку замовлення, надсилає її вам, дублює постачальнику в потрібному вигляді, а клієнту повертає підтвердження з сумою і терміном доставки. Уся логіка описана один раз і після цього повторюється однаково на першому і на тисячному замовленні. Людський фактор зникає разом з фразами «забув переслати» і «здається, я вже писав по цьому клієнту».",
+      "en": "After that the bot works as a dispatcher. It builds an order card, sends it to you, duplicates it to the supplier in the required format, and returns a confirmation with the total and delivery time to the customer. All the logic is described once and then repeats identically on the first order and on the thousandth. The human factor disappears along with phrases like «forgot to forward it» and «I think I already messaged this client»."
+    },
+    {
+      "t": "p",
+      "uk": "Окремий плюс - бот не спить. Замовлення о другій ночі обробляється так само, як о другій дня: клієнт отримує підтвердження, постачальник бачить заявку зранку в черзі, ви бачите цифру у звіті. Для ніші, де половина трафіку йде з таргету у вечірній прайм-тайм, це прямий приріст конверсії без збільшення бюджету.",
+      "en": "A separate benefit is that the bot does not sleep. An order at two in the morning is handled the same way as one at two in the afternoon: the customer gets a confirmation, the supplier sees the request queued in the morning, and you see the number in the report. For a niche where half the traffic comes from evening prime-time ads, that is a direct conversion gain with no extra budget."
+    },
+    {
+      "t": "h2",
+      "uk": "Каталог у боті: як показувати товар без сайту",
+      "en": "Catalog in the bot: showing products without a website"
+    },
+    {
+      "t": "p",
+      "uk": "Каталог у боті будується з категорій, карток товару і фільтрів. Картка - це фото або галерея, назва, ціна, короткий опис, доступні розміри чи кольори і кнопка «Замовити». Якщо позицій менше сотні, вистачає простого дерева категорій. Якщо асортимент більший, додається пошук за назвою і фільтр за ціною, інакше людина губиться на третьому екрані і виходить.",
+      "en": "The catalog in the bot is built from categories, product cards and filters. A card is a photo or gallery, a title, a price, a short description, available sizes or colors, and an «Order» button. If you have fewer than a hundred items, a simple category tree is enough. With a bigger assortment you add search by name and a price filter, otherwise the person gets lost on the third screen and leaves."
+    },
+    {
+      "t": "p",
+      "uk": "Джерелом даних зазвичай стає Google Sheets або вивантаження від постачальника у форматі XML чи CSV. Бот тягне звідти назви, ціни та залишки за розкладом, наприклад раз на годину. Товар, якого немає в наявності, автоматично ховається - і ви не продаєте те, що потім доведеться скасовувати з поверненням передоплати.",
+      "en": "The data source is usually Google Sheets or a supplier feed in XML or CSV. The bot pulls titles, prices and stock levels from there on a schedule, for example once an hour. Out-of-stock products are hidden automatically - so you do not sell something you will later have to cancel and refund."
+    },
+    {
+      "t": "p",
+      "uk": "Ціни варто рахувати формулою, а не руками. У таблиці лежить закупівельна ціна від постачальника, а бот показує роздрібну з вашою націнкою: відсотком, фіксованою сумою або за правилом для конкретної категорії. Постачальник підняв закупку - роздріб перерахувався сам, маржа лишилася на місці.",
+      "en": "Prices should be calculated by formula, not by hand. The spreadsheet holds the supplierʼs wholesale price, and the bot shows the retail price with your markup: a percentage, a fixed amount, or a rule for a specific category. If the supplier raises the wholesale price, retail recalculates itself and your margin stays where it should be."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом замовлень і картка в CRM або Google Sheets",
+      "en": "Order intake and the card in CRM or Google Sheets"
+    },
+    {
+      "t": "p",
+      "uk": "Прийом замовлень - це форма з кількох кроків: підтвердження товару і кількості, імʼя, телефон, місто, відділення служби доставки, спосіб оплати. Телефон перевіряється на формат, місто і відділення підтягуються з довідника перевізника, тому в базу не потрапляє «Нова пошта, десь біля ринку». Клієнт може повернутися на крок назад і виправити помилку до відправки.",
+      "en": "Order intake is a form of several steps: confirming the product and quantity, name, phone, city, delivery branch, payment method. The phone is validated for format, and city and branch are pulled from the carrierʼs directory, so «the post office somewhere near the market» never reaches your database. The customer can step back and fix a mistake before submitting."
+    },
+    {
+      "t": "p",
+      "uk": "Готове замовлення падає одразу в двох місцях: рядком у Google Sheets і карткою в CRM, якщо вона у вас є. У картці зберігаються всі дані клієнта, склад замовлення, сума, джерело трафіку і статус. Далі це вже не хаос у чаті, а нормальна воронка, де видно, скільки заявок у роботі, скільки відправлено і скільки викуплено.",
+      "en": "A completed order lands in two places at once: a row in Google Sheets and a card in your CRM, if you have one. The card stores all customer data, the order contents, the total, the traffic source and the status. From there it is no longer chaos in a chat but a proper funnel where you can see how many requests are in progress, how many are shipped and how many are paid out."
+    },
+    {
+      "t": "p",
+      "uk": "Тут же зʼявляється аналітика, якої в переписці не буває ніколи. Наприкінці тижня видно середній чек, топ товарів, відсоток недозвонів і скільки замовлень приносить кожен рекламний креатив завдяки міткам у посиланні на бота. Рішення про те, що масштабувати, а що вимкнути, приймається за цифрами, а не за відчуттями.",
+      "en": "This is also where you get analytics that chat threads never provide. At the end of the week you can see the average order value, top products, the share of unreachable customers, and how many orders each ad creative brings thanks to tags in the bot link. Decisions about what to scale and what to switch off are made on numbers, not on gut feeling."
+    },
+    {
+      "t": "h2",
+      "uk": "Передача постачальнику і сповіщення клієнтів",
+      "en": "Supplier handoff and customer notifications"
+    },
+    {
+      "t": "p",
+      "uk": "Передача постачальнику налаштовується під той канал, яким він реально користується. Комусь зручно отримувати повідомлення в окремий Telegram-чат, комусь потрібен рядок у спільній таблиці, а хтось приймає замовлення тільки через API або пошту. Бот формує повідомлення за шаблоном: артикул, кількість, ПІБ отримувача, місто, відділення, тип оплати. Постачальник нічого не перепитує, бо в заявці вже є все потрібне.",
+      "en": "The supplier handoff is configured for the channel they actually use. Some prefer messages in a separate Telegram chat, some need a row in a shared spreadsheet, and others accept orders only via API or email. The bot composes the message from a template: SKU, quantity, recipient name, city, branch, payment type. The supplier asks no follow-up questions because the request already contains everything."
+    },
+    {
+      "t": "p",
+      "uk": "Зворотний бік - сповіщення клієнтів. Коли постачальник ставить у таблиці статус «Відправлено» і вписує номер накладної, бот сам пише покупцеві: замовлення виїхало, ось трек, орієнтовний час у дорозі такий-то. Далі йдуть нагадування - про прибуття на відділення і про те, що посилка чекає останній день перед поверненням.",
+      "en": "The flip side is customer notifications. When the supplier sets the status to «Shipped» in the spreadsheet and enters the waybill number, the bot messages the buyer itself: the order is on its way, here is the tracking number, the estimated transit time is this. Then come reminders - about arrival at the branch and about the parcel waiting on its final day before being returned."
+    },
+    {
+      "t": "p",
+      "uk": "Саме ці автоматичні нагадування дають найпомітніший ефект у грошах. Частина посилок повертається просто тому, що людина забула забрати, а кожне повернення - це втрачена маржа плюс оплата доставки в обидва боки. Два вчасні повідомлення в чат помітно зменшують відсоток невикупів, і робити їх руками на потоці нереально.",
+      "en": "These automatic reminders are what shows up most clearly in money. A share of parcels comes back simply because someone forgot to pick it up, and every return means lost margin plus shipping paid in both directions. Two timely chat messages noticeably reduce the non-pickup rate, and doing that by hand at volume is not realistic."
+    },
+    {
+      "t": "h2",
+      "uk": "Адмінка власника і скільки часу займає налаштування",
+      "en": "Owner admin panel and how long setup takes"
+    },
+    {
+      "t": "p",
+      "uk": "Власнику потрібна адмінка, інакше кожна дрібниця впирається в розробника. Мінімальний набір: додати чи приховати товар, змінити ціну і націнку, відредагувати тексти повідомлень, змінити статус замовлення, зробити розсилку по базі підписників і подивитися звіт за період. Часто адмінку роблять теж усередині Telegram - окремим меню для акаунтів зі списку адміністраторів.",
+      "en": "The owner needs an admin panel, otherwise every small change goes back to the developer. The minimum set: add or hide a product, change a price and markup, edit message texts, change an order status, send a broadcast to the subscriber base and view a report for a period. The admin panel is often built inside Telegram as well - a separate menu for accounts on the administrator list."
+    },
+    {
+      "t": "p",
+      "uk": "За часом базова версія - каталог, форма замовлення, вивантаження в таблицю і сповіщення - збирається приблизно за один-два тижні. Повний варіант з CRM, автоматичною передачею постачальнику, статусами доставки і адмінкою займає близько трьох-чотирьох тижнів, залежно від того, наскільки зручно віддає дані постачальник. Найдовше зазвичай тягнеться не код, а узгодження форматів вивантаження.",
+      "en": "In terms of time, a basic version - catalog, order form, spreadsheet export and notifications - takes roughly one to two weeks to build. The full version with CRM, automatic supplier handoff, delivery statuses and an admin panel takes about three to four weeks, depending on how conveniently the supplier shares data. The longest part is usually not the code but agreeing on export formats."
+    },
+    {
+      "t": "p",
+      "uk": "Починати варто з простого: каталог, замовлення і таблиця, а інтеграції додавати тоді, коли потік замовлень це виправдає. У Devlly ми будуємо такі боти під конкретний бізнес - з вашим асортиментом, вашими постачальниками і тією CRM, з якою ви вже працюєте, без спроби втиснути процес у чужий шаблон.",
+      "en": "It is worth starting simple: catalog, orders and a spreadsheet, adding integrations once the order flow justifies them. At Devlly we build such bots for a specific business - with your assortment, your suppliers and the CRM you already use, without trying to squeeze your process into someone elseʼs template."
+    }
+  ]
+}

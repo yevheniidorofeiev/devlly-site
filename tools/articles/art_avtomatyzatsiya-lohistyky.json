@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація логістичної компанії: доставка, курʼєри і склад",
+  "title_en": "Logistics Company Automation: Delivery, Couriers, and Warehouse",
+  "desc_uk": "Як автоматизувати логістичну компанію: прийом замовлень, розподіл по курʼєрах, трекінг доставки і облік складу через Telegram і CRM.",
+  "desc_en": "How to automate a logistics company: taking orders from multiple channels, distributing them among couriers, tracking deliveries, and warehouse accounting through Telegram and CRM.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація логістики: система для курʼєрської служби | Devlly",
+    "te": "Logistics Automation: A System for a Courier Service | Devlly",
+    "d": "Як автоматизувати логістичну компанію: прийом замовлень, розподіл по курʼєрах, трекінг доставки і облік складу через Telegram і CRM.",
+    "de": "How to automate a logistics company: taking orders from multiple channels, distributing them among couriers, tracking deliveries, and warehouse accounting through Telegram and CRM.",
+    "k": "автоматизація логістики, автоматизація курʼєрської служби, диспетчеризація курʼєрів, CRM для логістичної компанії, Telegram-бот для курʼєрів, трекінг доставки, облік складу і доставок, накладений платіж автоматизація, маршрутизація курʼєрів"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Курʼєрська служба на 15 машинах щодня отримує замовлення телефоном, у Telegram і через сайт - і диспетчер вручну зводить це в один список, дзвонить курʼєрам, питає де хто зараз. Коли замовлень стає більше 50-60 на день, ручна диспетчеризація ламається: адреси плутаються, курʼєри їздять напівпорожніми машинами, а клієнт не розуміє, де його посилка. Автоматизація вирішує це не одним інструментом, а ланцюжком дій: прийом замовлення, розподіл по курʼєрах, трекінг у реальному часі і звірка грошей увечері.",
+      "en": "A courier service running 15 vehicles receives orders every day by phone, in Telegram, and through a website, and a dispatcher manually merges it all into one list, calls couriers, and asks who is where. Once orders exceed 50-60 a day, manual dispatching breaks down: addresses get mixed up, couriers drive half-empty vehicles, and clients have no idea where their parcel is. Automation solves this not with a single tool but with a chain of actions: order intake, distribution among couriers, real time tracking, and an evening cash reconciliation."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація логістичної компанії: прийом замовлень і перевірка адреси",
+      "en": "Logistics Company Automation: Order Intake and Address Verification"
+    },
+    {
+      "t": "p",
+      "uk": "Замовлення приходять з різних каналів - дзвінок, форма на сайті, повідомлення в Telegram, іноді заявка оптового клієнта через CRM. Система збирає всі ці джерела в одну чергу, замість того щоб диспетчер вручну переносив дані з блокнота у таблицю. Кожна заявка одразу отримує номер, статус «прийнято» і мітку часу - це прибирає плутанину, коли два курʼєри отримують те саме замовлення.",
+      "en": "Orders come in through different channels - a phone call, a website form, a Telegram message, sometimes a request from a wholesale client through a CRM. The system gathers all these sources into a single queue instead of a dispatcher manually copying data from a notebook into a spreadsheet. Each request immediately gets a number, a «received» status, and a timestamp, which already removes confusion when two couriers end up with the same order."
+    },
+    {
+      "t": "p",
+      "uk": "Коли адреса потрапляє в систему, вона проходить геокодування - перетворюється на координати і накладається на карту зон обслуговування. Якщо адреса за межами зони, диспетчер бачить це одразу, а не через 40 хвилин, коли курʼєр вже їде і дзвонить «я не доїду». Для міста з радіусом 25-30 км це економить в середньому 10-15 хвилин на кожне помилково прийняте замовлення.",
+      "en": "Once an address enters the system, it goes through geocoding - it is converted into coordinates and mapped onto the service zone boundaries. If the address falls outside the zone, the dispatcher sees it right away, not 40 minutes later when the courier is already on the way and calls to say «I can't get there». For a city with a 25-30 km radius, this saves an average of 10-15 minutes for every mistakenly accepted order."
+    },
+    {
+      "t": "p",
+      "uk": "Вартість доставки система рахує автоматично за відстанню від складу чи точки видачі та за вагою чи обʼємом посилки: базовий тариф плюс ціна за кілометр понад безкоштовний радіус, плюс надбавка за вагу від певного порогу, наприклад від 10 кг. Клієнт бачить точну суму до підтвердження замовлення, а не «диспетчер порахує і передзвонить» - це знижує кількість скасувань і суперечок після доставки.",
+      "en": "The system calculates delivery cost automatically based on the distance from the warehouse or pickup point and the weight or volume of the parcel: a base rate plus a price per kilometer beyond the free radius, plus a weight surcharge above a certain threshold, for example above 10 kg. The client sees the exact amount before confirming the order instead of hearing «the dispatcher will calculate it and call back», which reduces cancellations and disputes after delivery."
+    },
+    {
+      "t": "h2",
+      "uk": "Розподіл замовлень по курʼєрах і побудова маршруту",
+      "en": "Distributing Orders Among Couriers and Building Routes"
+    },
+    {
+      "t": "p",
+      "uk": "Ручна диспетчеризація тримається, поки курʼєрів менше десяти: диспетчер памʼятає, хто де і скільки в нього ще пакунків. При 20-40 курʼєрах цей підхід починає програвати - хтось стоїть без завдань, а хтось везе шосту доставку поспіль і запізнюється на всі наступні. Автоматичний розподіл бере цю логіку на себе і призначає виконавця за конкретними критеріями.",
+      "en": "Manual dispatching holds up as long as there are fewer than ten couriers: the dispatcher remembers who is where and how many parcels they still have. With 20-40 couriers, this approach starts to fail - someone stands idle without tasks while someone else carries a sixth delivery in a row and is late for all of them. Automatic distribution takes over this logic and assigns an executor based on specific criteria."
+    },
+    {
+      "t": "p",
+      "uk": "Головні критерії призначення - зона, у якій зараз перебуває курʼєр, його поточне завантаження, тобто скільки точок вже в маршруті, і тип транспорту: пішому курʼєру не варто давати замовлення за 8 км, а водію на авто немає сенсу віддавати доставку через двір, куди простіше дійти пішки за 5 хвилин. Система порівнює всіх доступних курʼєрів у зоні і вибирає того, хто виконає замовлення швидше і з меншим гаком.",
+      "en": "The main assignment criteria are the zone the courier is currently in, their current workload, meaning how many stops are already in their route, and the type of transport: a courier on foot shouldn't be given an order 8 km away, and a driver has no reason to be handed a delivery through a courtyard that is easier to reach on foot in 5 minutes. The system compares all available couriers in the zone and picks the one who will complete the order fastest with the smallest detour."
+    },
+    {
+      "t": "p",
+      "uk": "На день система будує маршрут із послідовністю точок, а не просто список адрес у порядку надходження. Правильна послідовність економить пальне і час: курʼєр із 12 точками за день, якщо їх упорядкувати географічно, а не хронологічно, проїжджає на 20-30% менше кілометрів. Для служби на 25 курʼєрів це десятки тисяч гривень пального на місяць.",
+      "en": "For each day the system builds a route with an ordered sequence of stops rather than just a list of addresses in the order they arrived. The right sequence saves fuel and time: a courier with 12 stops in a day drives 20-30% fewer kilometers if the stops are arranged geographically instead of chronologically. For a service with 25 couriers, that adds up to tens of thousands of hryvnias in fuel every month."
+    },
+    {
+      "t": "h2",
+      "uk": "Статуси і трекінг доставки в реальному часі",
+      "en": "Statuses and Real Time Delivery Tracking"
+    },
+    {
+      "t": "p",
+      "uk": "Кожне замовлення проходить один і той самий ланцюжок статусів: прийнято, у роботі, курʼєр в дорозі, на місці, вручено або не вручено. Клієнт бачить спрощену версію - де курʼєр і коли приблизно чекати доставку, без зайвих деталей про завантаження чи маршрут. Диспетчер бачить повну картину: усіх курʼєрів на карті, час на кожному етапі і які замовлення вибиваються з графіка.",
+      "en": "Every order goes through the same chain of statuses: received, in progress, courier on the way, on site, delivered or not delivered. The client sees a simplified version - where the courier is and roughly when to expect the delivery, without unnecessary details about workload or route. The dispatcher sees the full picture: all couriers on the map, time spent at each stage, and which orders are falling behind schedule."
+    },
+    {
+      "t": "p",
+      "uk": "Коли курʼєр приїжджає, а клієнт не відповідає на дзвінок чи повідомлення, система фіксує це як окремий статус і запускає таймер: наприклад, 15 хвилин очікування, потім автоматичне нагадування клієнту і сигнал диспетчеру. Це прибирає ситуацію, коли курʼєр стоїть під дверима 40 хвилин, а диспетчер про це навіть не знає.",
+      "en": "When a courier arrives and the client doesn't answer a call or a message, the system logs it as a separate status and starts a timer: for example, 15 minutes of waiting, then an automatic reminder to the client and a signal to the dispatcher. This removes the situation where a courier stands at the door for 40 minutes while the dispatcher has no idea."
+    },
+    {
+      "t": "p",
+      "uk": "Перенесення доставки - типова ситуація, яку варто закладати в логіку системи одразу: клієнт просить завтра, курʼєр повертає замовлення на склад або бере наступне зі свого списку, а нова дата автоматично зʼявляється в черзі на завтрашню диспетчеризацію. Без такого механізму перенесені замовлення губляться між змінами - хтось про них просто забуває.",
+      "en": "Rescheduling a delivery is a routine situation that should be built into the system's logic from the start: the client asks for tomorrow, the courier returns the order to the warehouse or takes the next one from their list, and the new date automatically appears in tomorrow's dispatching queue. Without such a mechanism, rescheduled orders get lost between shifts and someone simply forgets about them."
+    },
+    {
+      "t": "h2",
+      "uk": "Курʼєрський Telegram-бот замість дзвінків диспетчера",
+      "en": "A Courier Telegram Bot Instead of Dispatcher Calls"
+    },
+    {
+      "t": "p",
+      "uk": "Курʼєр отримує список замовлень і кожне нове завдання прямо в Telegram-боті: адреса, контакт клієнта, сума до отримання, коментар. Він підтверджує, що взяв замовлення, одним натисканням - і статус одразу міняється в системі диспетчера, без дзвінка «алло, я взяв пʼяту точку».",
+      "en": "A courier receives their order list and every new task directly in a Telegram bot: address, client contact, amount to collect, comment. They confirm they've taken the order with one tap, and the status immediately changes in the dispatcher's system, without a call saying «hello, I took stop number five»."
+    },
+    {
+      "t": "p",
+      "uk": "Після вручення бот просить зробити фото посилки на місці і, якщо потрібно, підпис клієнта на екрані - це підтвердження доставки, яке лишається в системі і закриває суперечки на кшталт «мені нічого не привозили». Якщо замовлення з накладеним платежем, курʼєр одразу відмічає, скільки готівки прийняв.",
+      "en": "After delivery, the bot asks for a photo of the parcel on site and, if needed, the client's signature on the screen - this is proof of delivery that stays in the system and closes disputes like «nothing was delivered to me». If the order involves cash on delivery, the courier immediately marks how much cash they collected."
+    },
+    {
+      "t": "p",
+      "uk": "Такий бот замінює 15-20 дзвінків диспетчера за зміну на кожного курʼєра: не треба питати «де ти», «взяв замовлення чи ні», «скільки грошей зібрав». Диспетчер витрачає час не на опитування курʼєрів, а на замовлення, які реально вимагають втручання - зміну адреси, скаргу клієнта, форс-мажор на маршруті.",
+      "en": "A bot like this replaces 15-20 dispatcher calls per shift for each courier: no need to ask «where are you», «did you take the order or not», «how much money did you collect». The dispatcher spends time not on interrogating couriers but on orders that genuinely require intervention - an address change, a client complaint, a force majeure situation on the route."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік складу, грошей і аналітика курʼєрської служби",
+      "en": "Warehouse, Money Accounting, and Courier Service Analytics"
+    },
+    {
+      "t": "p",
+      "uk": "Приймання товару на склад система фіксує окремою операцією: що прийшло, у якій кількості, куди покладено. Це важливо для служб, які не просто перевозять товар від точки А до точки Б, а тримають його на короткостроковому зберіганні перед видачею курʼєрам зранку - без обліку складу легко загубити частину партії і виявити це тільки на скарзі клієнта.",
+      "en": "Receiving goods at the warehouse is logged by the system as a separate operation: what arrived, in what quantity, where it was placed. This matters for services that don't just move goods from point A to point B but hold them in short term storage before handing them to couriers in the morning - without warehouse accounting, it is easy to lose part of a batch and only discover it after a client complaint."
+    },
+    {
+      "t": "p",
+      "uk": "Накладений платіж - окрема ділянка обліку: система памʼятає, скільки готівки чи безготівкового платежу має здати кожен курʼєр за зміну, і наприкінці дня звіряє цю суму з тим, що курʼєр фактично приніс. Розбіжність у 200-300 гривень на одного з 30 курʼєрів непомітна вручну, а автоматична звірка інкасації показує її одразу.",
+      "en": "Cash on delivery is a separate area of accounting: the system keeps track of how much cash or non-cash payment each courier should turn in per shift, and at the end of the day reconciles that amount with what the courier actually brought back. A discrepancy of 200-300 hryvnias for one courier out of 30 is easy to miss manually, but automatic cash reconciliation flags it right away."
+    },
+    {
+      "t": "p",
+      "uk": "Аналітика показує вартість доставки по зонах, середній час на точку, кількість замовлень на курʼєра за зміну і відсоток вчасних доставок. З цих цифр видно, який курʼєр стабільно перевиконує норму, а який маршрут щомісяця виходить дорожчим за пальне, ніж приносить дохід. Команда Devlly збирає такі системи під конкретну логістичну компанію - від прийому замовлення в Telegram до звірки каси наприкінці дня.",
+      "en": "Analytics shows delivery cost by zone, average time per stop, number of orders per courier per shift, and the percentage of on time deliveries. These numbers reveal which courier consistently outperforms the norm and which route costs more in fuel every month than it earns in revenue. The Devlly team builds systems like this for specific logistics companies, from taking an order in Telegram to reconciling the cash register at the end of the day."
+    }
+  ]
+}

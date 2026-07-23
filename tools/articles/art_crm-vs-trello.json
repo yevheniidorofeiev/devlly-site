@@ -1,0 +1,107 @@
+{
+  "title_uk": "CRM чи Trello: у чому різниця і що обрати бізнесу",
+  "title_en": "CRM vs Trello: The Difference and What to Choose",
+  "desc_uk": "Trello і CRM це різні інструменти. Пояснюємо різницю простими словами і розповідаємо коли достатньо канбан-дошки, а коли потрібна CRM.",
+  "desc_en": "Trello and a CRM are different tools. We explain the difference in plain words and show when a kanban board is enough and when you need a CRM.",
+  "cta_uk": "Потрібна автоматизація? Пишіть нам",
+  "cta_en": "Need automation? Get in touch",
+  "seo": {
+    "t": "CRM або Trello: у чому різниця для бізнесу | Devlly",
+    "te": "CRM or Trello: what is the difference for business | Devlly",
+    "d": "Trello і CRM - не одне й те саме. Пояснюємо різницю і розповідаємо коли достатньо Trello а коли потрібна повноцінна CRM система.",
+    "de": "Trello and a CRM are not the same thing. We explain the difference and when Trello is enough versus when you need a full CRM.",
+    "k": "crm vs trello, crm чи trello, різниця crm і trello, trello як crm, канбан чи crm, trello для продажів, crm система для малого бізнесу, перехід з trello на crm"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Багато невеликих команд починають вести продажі й клієнтів на дошці Trello. Спочатку це виглядає зручно: колонки, картки, все на видноті. Але щойно база клієнтів росте, Trello починає гальмувати, а важлива інформація губиться між картками. У цій статті розберемо, у чому різниця між CRM і Trello, чому картка це не запис про клієнта, і головне - коли канбан-дошки цілком достатньо, а коли бізнесу вже потрібна повноцінна CRM система. Без зайвого маркетингу, чесно й по суті, з реальними цифрами й прикладами з практики.",
+      "en": "Many small teams start running sales and clients on a Trello board. At first it feels convenient: columns, cards, everything in plain sight. But the moment your client base grows, Trello starts to slow down and important information gets lost between cards. In this article we break down the difference between a CRM and Trello, why a card is not a client record, and most importantly when a kanban board is perfectly enough versus when your business already needs a full CRM system. No extra marketing, just an honest and practical look with real numbers and examples."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке Trello і що таке CRM: різниця на старті",
+      "en": "What Trello is and what a CRM is: the difference from the start"
+    },
+    {
+      "t": "p",
+      "uk": "Trello це інструмент для задач і візуального планування за методом канбан. Ви створюєте дошку, колонки на кшталт «Треба зробити», «В роботі», «Готово» і рухаєте картки між ними. Trello чудово підходить, щоб бачити статус задач і не тримати все в голові. Але за своєю природою це трекер задач, а не система обліку клієнтів.",
+      "en": "Trello is a tool for tasks and visual planning using the kanban method. You create a board, columns like \"To do\", \"In progress\", \"Done\", and move cards between them. Trello is great for seeing the status of tasks so you do not keep everything in your head. But by its nature it is a task tracker, not a client management system."
+    },
+    {
+      "t": "p",
+      "uk": "CRM (Customer Relationship Management) будується навколо клієнта й угоди. У центрі не задача, а контакт: історія спілкування, дзвінки, листи, суми угод, етапи воронки продажів. CRM відповідає на питання «скільки ми заробимо цього місяця» і «хто з клієнтів давно не виходив на звʼязок». Trello на ці питання відповісти не може, бо не знає, що картка це людина з бюджетом і історією.",
+      "en": "A CRM (Customer Relationship Management) is built around the client and the deal. At its center is not a task but a contact: the history of communication, calls, emails, deal amounts, sales funnel stages. A CRM answers questions like \"how much will we earn this month\" and \"which client has not been in touch for a while\". Trello cannot answer these questions because it does not know that a card is a person with a budget and a history."
+    },
+    {
+      "t": "p",
+      "uk": "Ще одна різниця в самій логіці роботи. Trello статичний: картка просто лежить у колонці, доки хтось її не пересуне вручну. CRM активна: вона рахує, нагадує, збирає заявки з сайту та месенджерів, ставить задачі менеджерам автоматично. Тобто Trello показує стан справ, а CRM ще й керує процесом продажів і не дає клієнту випасти з поля зору. Саме тому підміняти одне іншим на дистанції не виходить.",
+      "en": "There is another difference in the very logic of how they work. Trello is static: a card just sits in a column until someone moves it manually. A CRM is active: it counts, reminds, collects requests from the website and messengers, and assigns tasks to managers automatically. In other words, Trello shows the state of affairs, while a CRM also drives the sales process and keeps a client from slipping out of sight. That is why substituting one for the other does not work over the long run."
+    },
+    {
+      "t": "h2",
+      "uk": "Головна різниця CRM і Trello: задачі проти клієнтів",
+      "en": "The main difference between a CRM and Trello: tasks versus clients"
+    },
+    {
+      "t": "p",
+      "uk": "Ключова відмінність проста: у Trello картка це задача, у CRM запис це клієнт. Це звучить дрібницею, але саме тут ховається корінь проблем. Картка Trello має назву й опис, та вона не памʼятає, що півроку тому цей клієнт уже купував, що йому обіцяли знижку, і що його треба набрати в понеділок. Уся ця історія живе в головах менеджерів або в листуванні, а не в системі.",
+      "en": "The key distinction is simple: in Trello a card is a task, in a CRM a record is a client. It sounds like a small thing, but this is exactly where the root of the problems hides. A Trello card has a title and a description, yet it does not remember that this client already bought half a year ago, that they were promised a discount, and that they need to be called on Monday. All of that history lives in the heads of managers or in chat threads, not in the system."
+    },
+    {
+      "t": "p",
+      "uk": "Коли клієнтів 20-30, ви ще тримаєте деталі в памʼяті. Коли їх стає 200-300, починається хаос: два менеджери пишуть одному клієнту, обіцянки забуваються, а угоди зависають. У CRM кожен контакт це окрема картка з повним обʼємом даних, і будь-який менеджер за 10 секунд бачить, що відбувалося з клієнтом раніше.",
+      "en": "When you have 20-30 clients, you still keep the details in your memory. When there are 200-300, chaos begins: two managers message the same client, promises are forgotten, and deals get stuck. In a CRM each contact is a separate record with the full volume of data, and any manager can see in 10 seconds what happened with the client before."
+    },
+    {
+      "t": "h2",
+      "uk": "Чого не вміє Trello для продажів",
+      "en": "What Trello cannot do for sales"
+    },
+    {
+      "t": "p",
+      "uk": "Найбільша проблема це відсутність історії контакту. У Trello немає місця, де зберігаються дзвінки, листи й домовленості по клієнту в одній стрічці. Далі йдуть нагадування: у CRM система сама нагадує «передзвони цьому клієнту завтра о 15:00», а в Trello нагадування живе окремо від угоди й легко губиться. За нашими спостереженнями, без автоматичних нагадувань команди втрачають 20-30% теплих лідів просто тому, що забувають вчасно передзвонити.",
+      "en": "The biggest problem is the absence of contact history. In Trello there is no place where calls, emails, and agreements for a client are stored in one timeline. Next come reminders: in a CRM the system itself reminds you \"call this client tomorrow at 15:00\", while in Trello a reminder lives separately from the deal and is easily lost. From what we see, without automatic reminders teams lose 20-30% of warm leads simply because they forget to call back in time."
+    },
+    {
+      "t": "p",
+      "uk": "Trello також не дає аналітики продажів. Ви не побачите конверсію воронки, середній чек, прогноз виручки чи те, на якому етапі найчастіше зриваються угоди. Немає й нормальних ролей для відділу продажів: у Trello важко зробити так, щоб менеджер бачив лише своїх клієнтів, а керівник усю картину. І технічно дошка починає відчутно гальмувати вже після 500-1000 карток - вона просто не створювалась під тисячі клієнтів.",
+      "en": "Trello also gives no sales analytics. You will not see funnel conversion, average deal size, revenue forecast, or the stage where deals most often fall apart. There are also no proper roles for a sales team: in Trello it is hard to make a manager see only their own clients while the head sees the whole picture. And technically a board starts to noticeably lag after 500-1000 cards - it was simply never built for thousands of clients."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто сказати про звітність для власника. У CRM керівник відкриває дашборд і за хвилину бачить, скільки угод у роботі, який прогноз на місяць і хто з менеджерів відстає. У Trello, щоб зібрати таку картину, доводиться вручну рахувати картки й переносити цифри в таблицю - на це йде кілька годин щотижня, і дані все одно застарівають. Для команди з 5-7 продавців це фактично один втрачений робочий день на місяць лише на ручні підрахунки.",
+      "en": "It is worth mentioning reporting for the owner separately. In a CRM the manager opens a dashboard and in a minute sees how many deals are in progress, what the forecast for the month is, and which salesperson is falling behind. In Trello, to build such a picture, you have to count cards by hand and copy the numbers into a spreadsheet - that takes several hours every week, and the data becomes outdated anyway. For a team of 5-7 salespeople, that is effectively one lost working day a month just on manual counting."
+    },
+    {
+      "t": "h2",
+      "uk": "Коли Trello достатньо, а коли ні",
+      "en": "When Trello is enough and when it is not"
+    },
+    {
+      "t": "p",
+      "uk": "Будьмо чесні: Trello це хороший інструмент, і не кожному бізнесу потрібна CRM. Якщо у вас невеликий і зрозумілий потік угод, команда з 1-3 людей, а клієнтів кілька десятків на місяць - канбан-дошки цілком достатньо. Візуальна простота, безкоштовний тариф і швидкий старт це реальні переваги. Для контент-плану, внутрішніх задач чи невеликого проєкту Trello часто зручніший за важку CRM.",
+      "en": "Let us be honest: Trello is a good tool, and not every business needs a CRM. If you have a small and clear flow of deals, a team of 1-3 people, and a few dozen clients per month - a kanban board is perfectly enough. Visual simplicity, a free plan, and a fast start are real advantages. For a content plan, internal tasks, or a small project, Trello is often more convenient than a heavy CRM."
+    },
+    {
+      "t": "p",
+      "uk": "CRM стає потрібною, коли зʼявляються сигнали: менеджерів більше трьох, клієнтів понад 200, угоди губляться, а ви не можете швидко сказати, скільки грошей у роботі. Якщо продажі це основне джерело доходу, а не побічна активність, ставка на Trello рано чи пізно почне коштувати вам втрачених угод. Порахуйте: якщо через забуті нагадування ви втрачаєте хоча б 5 угод по 500 доларів на місяць, це 2500 доларів, і на цьому фоні CRM окупається дуже швидко.",
+      "en": "A CRM becomes necessary when signals appear: more than three managers, over 200 clients, deals getting lost, and you cannot quickly say how much money is in progress. If sales are your main source of income rather than a side activity, betting on Trello will sooner or later start costing you lost deals. Do the math: if forgotten reminders make you lose at least 5 deals of 500 dollars a month, that is 2500 dollars, and against that background a CRM pays for itself very fast."
+    },
+    {
+      "t": "h2",
+      "uk": "Як перейти з Trello на CRM без болю",
+      "en": "How to move from Trello to a CRM without pain"
+    },
+    {
+      "t": "p",
+      "uk": "Перехід не мусить бути стрибком у прірву. Почніть з простого: опишіть свою воронку продажів так, як вона є зараз на дошці - етапи, за якими рухається клієнт. Далі вивантажте картки з Trello (це робиться за кілька хвилин через експорт) і перенесіть їх у CRM як картки клієнтів. Перші два тижні можна вести обидві системи паралельно, щоб команда звикла й нічого не загубилося.",
+      "en": "Moving over does not have to be a leap into the void. Start simple: describe your sales funnel the way it currently exists on the board - the stages a client moves through. Then export the cards from Trello (it takes a few minutes via export) and transfer them into the CRM as client records. For the first two weeks you can run both systems in parallel so the team gets used to it and nothing is lost."
+    },
+    {
+      "t": "p",
+      "uk": "Головне не намагатися одразу впровадити все: почніть з базового обліку клієнтів, історії та нагадувань, а аналітику й автоматизацію додасте пізніше. Саме тут ми в Devlly можемо допомогти: будуємо CRM під ваш реальний процес продажів, а не навпаки, і акуратно переносимо вашу дошку Trello в систему без втрати даних. Якщо відчуваєте, що дошка вже тріщить по швах - напишіть нам, разом розберемося, що вам справді потрібно.",
+      "en": "The main thing is not to try to implement everything at once: start with basic client records, history, and reminders, and add analytics and automation later. This is exactly where we at Devlly can help: we build a CRM around your real sales process rather than the other way round, and we carefully migrate your Trello board into the system without losing data. If you feel your board is already bursting at the seams - get in touch, and together we will figure out what you actually need."
+    }
+  ]
+}

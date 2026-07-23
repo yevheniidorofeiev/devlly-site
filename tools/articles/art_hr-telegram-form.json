@@ -1,0 +1,82 @@
+{
+  "title_uk": "Як зібрати анкету кандидата через Telegram-бота",
+  "title_en": "How to collect a candidate application form via a Telegram bot",
+  "desc_uk": "Покроковий розбір як Telegram-бот збирає анкету кандидата, зберігає дані і надсилає резюме в Google Sheets або CRM автоматично.",
+  "desc_en": "A step-by-step breakdown of how a Telegram bot collects a candidate application form, stores the data, and forwards the resume to Google Sheets or a CRM automatically.",
+  "cta_uk": "Потрібна HR автоматизація? Пишіть нам",
+  "cta_en": "Need HR automation? Get in touch",
+  "seo": {
+    "t": "Анкета кандидата через Telegram бота: як налаштувати | Devlly",
+    "te": "Candidate application form via Telegram bot: how to set it up | Devlly",
+    "d": "Покроковий розбір як Telegram-бот збирає анкету кандидата, зберігає дані і надсилає резюме в Google Sheets або CRM автоматично.",
+    "de": "A step-by-step breakdown of how a Telegram bot collects a candidate application form, stores the data, and forwards the resume to Google Sheets or a CRM automatically.",
+    "k": "анкета кандидата через telegram бота, telegram бот для hr, автоматизація найму, збір анкет кандидатів, hr бот, telegram бот рекрутинг, google sheets інтеграція, автоматизація hr, чат-бот для найму, анкета в telegram"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Уявіть, що на вакансію оператора приходить 60 відгуків за тиждень. HR-менеджер вручну переписується з кожним у Telegram, перепитує вік, місто, досвід, а потім переносить це в таблицю. На один контакт іде 5-7 хвилин, і половина даних губиться. Telegram-бот вирішує цю задачу інакше: він ставить кандидату 7-8 чітких запитань, перевіряє відповіді, складає готове резюме і сам кладе його в Google Sheets або CRM. Людина відкриває таблицю зранку і бачить структуровані анкети замість каші з листування. У цьому матеріалі розберемо покроково, як зібрати такий бот - які поля питати, як валідувати відповіді і куди їх зберігати.",
+      "en": "Imagine 60 responses landing on an operator vacancy in a single week. An HR manager messages each one in Telegram by hand, asks again about age, city, experience, then copies it all into a spreadsheet. Each contact eats 5-7 minutes, and half the data gets lost. A Telegram bot handles this differently: it asks the candidate 7-8 clear questions, validates the answers, assembles a ready resume, and drops it into Google Sheets or a CRM by itself. In the morning the person opens the table and sees structured forms instead of a mess of chat threads. In this article we break down step by step how to build such a bot - which fields to ask, how to validate answers, and where to store them."
+    },
+    {
+      "t": "h2",
+      "uk": "Які 7-8 запитань має містити анкета кандидата в боті",
+      "en": "Which 7-8 questions the candidate form in the bot should contain"
+    },
+    {
+      "t": "p",
+      "uk": "Базовий набір, який закриває 90% вакансій рівня оператор, менеджер, курʼєр чи продавець, виглядає так: імʼя та прізвище, вік, місто або район, номер телефону, релевантний досвід у роках, бажаний графік, очікувана зарплата і джерело, звідки людина дізналась про вакансію. Восьме поле часто роблять відкритим - «коротко про себе». Такий список дає рекрутеру достатньо, щоб за 20 секунд вирішити, кликати кандидата на співбесіду чи ні. Не варто роздувати анкету до 15 питань: після пʼятого-шостого кроку люди починають кидати діалог, і конверсія падає. Оптимум - саме 7-8 полів, які реально впливають на рішення.",
+      "en": "The basic set that covers 90% of vacancies at the operator, manager, courier, or salesperson level looks like this: first and last name, age, city or district, phone number, relevant experience in years, preferred schedule, expected salary, and the source where the person heard about the job. The eighth field is often left open - a short note about yourself. Such a list gives the recruiter enough to decide within 20 seconds whether to invite the candidate for an interview or not. There is no point in inflating the form to 15 questions: after the fifth or sixth step people start abandoning the dialog, and conversion drops. The sweet spot is exactly 7-8 fields that genuinely affect the decision."
+    },
+    {
+      "t": "p",
+      "uk": "Порядок запитань теж має значення. Починайте з легкого - імені та міста, бо це не вимагає роздумів і людина втягується в діалог. Чутливі поля на кшталт зарплати ставте ближче до кінця, коли кандидат уже вклав кілька хвилин і йому шкода кидати процес. Для більшості полів зручно давати кнопки замість вільного тексту: місто зі списку, графік у форматі «повний / частковий / позмінний», досвід діапазонами «до 1 року», «1-3 роки», «понад 3». Кнопки прибирають опечатки, прискорюють проходження і роблять дані одноманітними. Телефон і відкритий коментар лишаються текстовими, решту максимально переводьте в готові варіанти вибору.",
+      "en": "The order of questions matters too. Start with something easy - name and city - because it requires no thinking and the person eases into the dialog. Put sensitive fields like salary closer to the end, when the candidate has already invested a few minutes and is reluctant to quit. For most fields it is convenient to offer buttons instead of free text: city from a list, schedule in a full / part-time / shift format, experience as ranges like under 1 year, 1-3 years, over 3. Buttons remove typos, speed up completion, and make the data uniform. The phone number and the open comment stay as text, and everything else you convert into ready-made choice options as much as possible."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому структуровані поля кращі за вільний текст у HR-боті",
+      "en": "Why structured fields beat free text in an HR bot"
+    },
+    {
+      "t": "p",
+      "uk": "Коли кандидат пише досвід вільним текстом, ви отримуєте «років 5 десь так», «трохи працював», «2018-2021 плюс підробітки». Відсортувати таблицю за таким полем неможливо, порахувати середній досвід теж. Структуровані поля - вибір із діапазону, кнопка, число з валідацією - перетворюють хаотичні відповіді на дані, з якими можна працювати. Ви фільтруєте кандидатів із міста Київ і досвідом понад 3 роки за два кліки, будуєте зведення по джерелах трафіку, бачите, яка зарплатна вилка відлякує людей. Вільний текст цього не дає: він гарний лише для одного відкритого поля «про себе», де людина справді має простір висловитись.",
+      "en": "When a candidate types experience as free text, you get things like about 5 years or so, worked a bit, 2018-2021 plus side gigs. Sorting a table by such a field is impossible, and calculating the average experience is too. Structured fields - a range selection, a button, a number with validation - turn chaotic answers into data you can actually work with. You filter candidates from Kyiv with over 3 years of experience in two clicks, build a breakdown by traffic sources, and see which salary bracket scares people off. Free text does not give you this: it is only good for a single open self-description field, where a person truly has room to express themselves."
+    },
+    {
+      "t": "p",
+      "uk": "Є ще один практичний бонус: структура спрощує подальшу автоматизацію. Якщо поле «місто» - це завжди значення зі списку, бот може автоматично призначати анкету на потрібного регіонального рекрутера. Якщо «графік» стандартизований, легко налаштувати правило: усі, хто обрав нічні зміни, потрапляють в окрему вкладку. З вільним текстом такі сценарії потребують ручного розбору кожного рядка. Тому золоте правило таке: усе, що можна звести до вибору з варіантів, зводьте до вибору. Відкритим лишайте мінімум полів, і навіть їх бажано супроводжувати підказкою, у якому форматі відповідати, щоб отримати придатний результат.",
+      "en": "There is another practical bonus: structure simplifies further automation. If the city field is always a value from a list, the bot can automatically assign the form to the right regional recruiter. If the schedule is standardized, it is easy to set up a rule: everyone who chose night shifts lands in a separate tab. With free text such scenarios require manually parsing every row. So the golden rule is this: anything that can be reduced to a choice of options, reduce to a choice. Keep the number of open fields to a minimum, and even those are best accompanied by a hint on the format to answer in, so you get a usable result."
+    },
+    {
+      "t": "h2",
+      "uk": "Як бот валідує відповіді кандидата під час заповнення анкети",
+      "en": "How the bot validates the candidate's answers while filling out the form"
+    },
+    {
+      "t": "p",
+      "uk": "Валідація - це перевірка, що відповідь має правильний формат, ще до того, як вона потрапить у базу. Приклади прості: вік має бути числом у діапазоні 16-70, інакше бот ввічливо просить повторити. Телефон перевіряється на кількість цифр і префікс, щоб у таблиці не осідали «+380» без номера чи «подзвоніть мені сам». Якщо кандидат натомість пише в текстове поле щось стороннє, бот не рухається далі, а повторює запитання з уточненням. Це рятує від ситуації, коли зранку у вас 40 анкет, і в десяти з них замість телефону стоїть смайлик або слово «пізніше».",
+      "en": "Validation is a check that an answer has the correct format before it ever reaches the database. The examples are simple: age must be a number in the 16-70 range, otherwise the bot politely asks to repeat. The phone is checked for digit count and prefix, so the table does not accumulate a bare +380 with no number or call me yourself. If a candidate instead types something irrelevant into a text field, the bot does not move on but repeats the question with a clarification. This saves you from the situation where you have 40 forms in the morning and ten of them have an emoji or the word later instead of a phone number."
+    },
+    {
+      "t": "p",
+      "uk": "Крім формату, варто закладати логіку кроків. Якщо людина обрала «немає досвіду», бот пропускає запитання про роки на попередніх місцях - навіщо його ставити. Якщо кандидат кинув діалог на середині, бот через кілька годин може надіслати мʼяке нагадування «ви не завершили анкету, лишилось два питання». Ще один прийом - кнопка «назад», щоб виправити помилковий вибір, не починаючи все спочатку. Хороша валідація непомітна для кандидата: він просто відчуває, що бот розуміє його відповіді. А рекрутер натомість отримує чисті дані, де кожне поле заповнене в передбачуваному форматі і готове до фільтрації.",
+      "en": "Beyond format, it is worth building step logic. If a person selected no experience, the bot skips the question about years at previous jobs - there is no reason to ask it. If a candidate abandoned the dialog halfway, the bot can send a gentle reminder a few hours later: you did not finish the form, two questions left. Another trick is a back button to fix a wrong choice without starting over. Good validation is invisible to the candidate: they simply feel that the bot understands their answers. The recruiter, in turn, receives clean data where every field is filled in a predictable format and ready for filtering."
+    },
+    {
+      "t": "h2",
+      "uk": "Куди зберігати дані: Google Sheets або CRM для найму",
+      "en": "Where to store the data: Google Sheets or a CRM for hiring"
+    },
+    {
+      "t": "p",
+      "uk": "Найпростіший фініш - Google Sheets. Щойно кандидат завершує анкету, бот додає новий рядок: кожне поле в окремій колонці, плюс дата і час звернення. Такий варіант безкоштовний, зрозумілий будь-якому HR і достатній, коли потік до кількох десятків анкет на тиждень. Ви одразу отримуєте таблицю, яку можна сортувати, фарбувати за статусами і роздавати колегам. Для більшості малих компаній цього вистачає надовго. Якщо треба трохи більше, у тій самій таблиці роблять колонку «статус» - «новий», «телефонували», «на співбесіду», «відмова» - і вручну ведуть кандидата по етапах прямо в Sheets.",
+      "en": "The simplest finish is Google Sheets. As soon as the candidate completes the form, the bot adds a new row: each field in its own column, plus the date and time of the request. This option is free, clear to any HR person, and sufficient when the flow is up to a few dozen forms per week. You immediately get a table you can sort, color-code by status, and share with colleagues. For most small companies this lasts a long time. If you need a bit more, you add a status column in the same table - new, called, to interview, rejected - and manually move the candidate through the stages right inside Sheets."
+    },
+    {
+      "t": "p",
+      "uk": "Коли вакансій багато і в найм залучено кілька людей, таблиця стає тісною - тоді анкети краще класти одразу в CRM. Там кожен кандидат стає карткою з історією, нагадуваннями про дзвінок, воронкою етапів і розподілом відповідальних. Незалежно від сховища, останній крок бота однаковий: щойно анкета зібрана, він формує коротке резюме - імʼя, місто, досвід, зарплата, телефон - і надсилає його HR-менеджеру прямо в Telegram або в робочий чат. Рекрутер бачить готову картку і вирішує за секунди, не відкриваючи таблицю. Саме такі звʼязки - бот, валідація, Google Sheets чи CRM і автоматична передача резюме - ми в Devlly збираємо під конкретний процес найму компанії.",
+      "en": "When there are many vacancies and several people are involved in hiring, a spreadsheet gets cramped - then it is better to send forms straight into a CRM. There each candidate becomes a card with history, call reminders, a stage funnel, and assignment of responsible people. Regardless of the storage, the bot's final step is the same: once the form is collected, it composes a short resume - name, city, experience, salary, phone - and sends it to the HR manager directly in Telegram or into the work chat. The recruiter sees a ready card and decides in seconds without opening the table. Exactly these setups - a bot, validation, Google Sheets or a CRM, and automatic resume forwarding - are what we at Devlly assemble around a company's specific hiring process."
+    }
+  ]
+}

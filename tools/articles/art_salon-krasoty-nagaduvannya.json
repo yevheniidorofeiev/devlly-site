@@ -1,0 +1,97 @@
+{
+  "title_uk": "Автоматичні нагадування для салону краси: як зменшити неявки",
+  "title_en": "Automatic reminders for a beauty salon: how to reduce no-shows",
+  "desc_uk": "Автоматичні нагадування через Telegram чи SMS зменшують неявки в салоні краси на 40-60%. Розбираємо, скільки коштують пропущені записи, як налаштувати нагадування і що писати клієнту.",
+  "desc_en": "Automatic reminders via Telegram or SMS cut beauty salon no-shows by 40-60%. We break down what missed appointments cost, how to set up reminders, and what to write to the client.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматичні нагадування клієнтам салону краси | Devlly",
+    "te": "Automatic reminders for beauty salon clients | Devlly",
+    "d": "Як автоматичні нагадування через Telegram або SMS зменшують неявки в салоні краси на 40-60%. Налаштування і реальні результати.",
+    "de": "How automatic reminders via Telegram or SMS reduce beauty salon no-shows by 40-60%. Setup and real results.",
+    "k": "автоматичні нагадування, нагадування клієнтам салону, зменшити неявки, no-show салон краси, нагадування через telegram, sms нагадування, автоматизація салону, нагадування про запис, підтвердження запису, автоматизація салону краси"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Автоматичні нагадування для салону краси - це найпростіший спосіб повернути гроші, які щомісяця зникають через неявки. Клієнт записався на манікюр за тиждень, забув і не прийшов. Майстер сидить без роботи, вікно порожнє, дохід втрачено. За місяць таких випадків набирається десятки. Замість того щоб дзвонити кожному вручну, система сама надсилає повідомлення за добу і за пару годин до візиту. Клієнт памʼятає, підтверджує або переносить запис заздалегідь. У цій статті розберемо, скільки насправді коштують неявки, як налаштувати нагадування через Telegram чи SMS і які результати це дає реальним салонам.",
+      "en": "Automatic reminders for a beauty salon are the simplest way to recover the money that vanishes every month through no-shows. A client booked a manicure a week ago, forgot, and did not show up. The technician sits idle, the slot is empty, income is lost. Over a month, dozens of such cases add up. Instead of calling everyone manually, the system sends a message itself a day and a couple of hours before the visit. The client remembers, confirms, or reschedules in advance. In this article we break down what no-shows really cost, how to set up reminders via Telegram or SMS, and what results this brings to real salons."
+    },
+    {
+      "t": "h2",
+      "uk": "Скільки коштують неявки салону краси: рахуємо втрати",
+      "en": "How much beauty salon no-shows cost: counting the losses"
+    },
+    {
+      "t": "p",
+      "uk": "Порахувати легко. Припустимо, середній чек у вашому салоні 800 грн, а робочий день майстра - 8 записів. Якщо щодня зривається хоча б один запис, це 800 грн втраченого доходу. За 26 робочих днів на місяць виходить понад 20 000 грн лише з одного крісла. У салоні на трьох майстрів сума зростає до 60 000 грн на місяць. І це без урахування витраченого часу адміністратора, який намагається дзвонити тим, хто не прийшов.",
+      "en": "It is easy to calculate. Suppose the average check in your salon is 800 UAH, and a technician's working day is 8 appointments. If at least one booking falls through every day, that is 800 UAH of lost income. Over 26 working days a month, that comes to more than 20,000 UAH from a single chair alone. In a salon with three technicians, the figure grows to 60,000 UAH a month. And that is without counting the time the administrator spends trying to call those who did not show up."
+    },
+    {
+      "t": "p",
+      "uk": "Проблема не тільки в грошах. Порожнє вікно можна було віддати іншому клієнту, який чекав у черзі, але місце вже зайняте «мертвим» записом. Крім того, до салону закупили матеріали, майстер приїхав на зміну, оренда й комунальні платежі йдуть незалежно від того, прийшов гість чи ні. Тому кожен зірваний запис бʼє одразу з кількох боків. Перший крок - визнати, що неявки це не дрібниця, а конкретна стаття збитків, яку можна порахувати і скоротити. Коли ви бачите реальну суму втрат за місяць, рішення автоматизувати нагадування стає очевидним.",
+      "en": "The problem is not only money. The empty slot could have gone to another client who was waiting in line, but the spot is already taken by a «dead» booking. On top of that, the salon has bought materials, the technician has come in for the shift, and rent and utilities run regardless of whether the guest showed up. So every broken booking hits from several sides at once. The first step is to admit that no-shows are not a trifle but a concrete line of losses that can be measured and reduced. Once you see the real monthly loss figure, the decision to automate reminders becomes obvious."
+    },
+    {
+      "t": "h2",
+      "uk": "Як працюють автоматичні нагадування: за 24 години і за 2 години",
+      "en": "How automatic reminders work: 24 hours and 2 hours before"
+    },
+    {
+      "t": "p",
+      "uk": "Схема проста і перевірена на тисячах салонів. Перше нагадування система надсилає за 24 години до візиту. Це дає клієнту час перепланувати справи або скасувати запис заздалегідь, щоб ви встигли віддати вікно комусь іншому. Друге нагадування приходить за 2 години до візиту - коротке повідомлення на кшталт «Чекаємо вас сьогодні о 15:00». Саме друге нагадування рятує найбільше записів, бо спрацьовує тоді, коли людина вже планує день.",
+      "en": "The scheme is simple and proven across thousands of salons. The system sends the first reminder 24 hours before the visit. This gives the client time to reschedule their plans or cancel in advance, so you have time to give the slot to someone else. The second reminder arrives 2 hours before the visit, a short message like «We are expecting you today at 15:00». It is the second reminder that saves the most bookings, because it fires when the person is already planning their day."
+    },
+    {
+      "t": "p",
+      "uk": "Уся логіка працює без участі адміністратора. Запис зʼявляється в системі, а далі бот сам відлічує час і надсилає повідомлення точно за розкладом. Ніхто не забуває, не плутає години і не витрачає робочий час на ручні дзвінки. Адміністратор бачить лише результат: хто підтвердив, хто переніс, а хто мовчить. Тих, хто мовчить, система може позначити окремо, щоб адміністратор за потреби зателефонував саме їм, а не обдзвонював усіх поспіль. Так з десятків дзвінків на день лишається кілька справді потрібних.",
+      "en": "The whole logic works without the administrator. A booking appears in the system, and then the bot itself counts down the time and sends messages exactly on schedule. No one forgets, mixes up the hours, or wastes working time on manual calls. The administrator only sees the result: who confirmed, who rescheduled, and who stays silent. The system can flag those who stay silent separately, so the administrator can call exactly them if needed instead of dialing everyone in a row. That way, out of dozens of daily calls, only a few genuinely necessary ones remain."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування через Telegram чи SMS: що обрати",
+      "en": "Reminders via Telegram or SMS: which to choose"
+    },
+    {
+      "t": "p",
+      "uk": "SMS нагадування працюють у всіх без винятку: повідомлення приходить на будь-який телефон, навіть без інтернету і без встановлених застосунків. Це надійно для старшої аудиторії та для тих, хто рідко заглядає в месенджери. Мінус - кожне SMS коштує грошей, а вставити кнопки «Підтвердити» чи «Перенести» в звичайне SMS не можна. Тому клієнт бачить текст, але діяти має сам: передзвонити або написати, а частина людей цього просто не робить.",
+      "en": "SMS reminders reach everyone without exception: the message arrives on any phone, even without internet and without any installed apps. This is reliable for an older audience and for those who rarely check messengers. The downside is that each SMS costs money, and you cannot put «Confirm» or «Reschedule» buttons into a plain SMS. So the client sees the text but has to act on their own: call back or write, and some people simply do not."
+    },
+    {
+      "t": "p",
+      "uk": "Нагадування через Telegram виходить дешевшим, бо повідомлення безкоштовні, і головне - інтерактивним. Прямо в чаті зʼявляються кнопки: клієнт натискає «Підтверджую» або «Перенести», і система одразу оновлює запис. Оптимальний варіант для більшості салонів - комбінувати: основний канал Telegram, а для тих, у кого його немає, дублювати через SMS. Так ви охоплюєте всіх і не переплачуєте за зайві повідомлення. До того ж у Telegram зручно вести й саму комунікацію: клієнт може прямо в тому ж чаті поставити питання, а адміністратор відповість, не перемикаючись між різними програмами.",
+      "en": "Reminders via Telegram come out cheaper, because messages are free, and above all they are interactive. Buttons appear right in the chat: the client taps «Confirm» or «Reschedule», and the system updates the booking immediately. The optimal option for most salons is to combine them: Telegram as the main channel, and SMS as a backup for those who do not have it. That way you cover everyone and do not overpay for extra messages. Moreover, Telegram is convenient for the communication itself: the client can ask a question right in the same chat, and the administrator can reply without switching between different apps."
+    },
+    {
+      "t": "h2",
+      "uk": "Що писати в нагадуванні клієнтам салону і як дати підтвердити чи перенести",
+      "en": "What to write in reminders to salon clients and how to let them confirm or reschedule"
+    },
+    {
+      "t": "p",
+      "uk": "Хороше нагадування коротке і конкретне. У ньому має бути звертання на імʼя, назва послуги, дата і час, адреса та імʼя майстра. Наприклад: «Вітаємо, Олено! Нагадуємо про ваш запис на манікюр завтра о 15:00, майстер Ірина, вул. Хрещатик 10. Підтверджуєте?». Нижче - дві кнопки: «Так, буду» і «Перенести». Це знімає з клієнта потребу щось згадувати чи шукати ваш номер.",
+      "en": "A good reminder is short and specific. It should include the client's name, the service, the date and time, the address, and the technician's name. For example: «Hello, Olena! A reminder about your manicure appointment tomorrow at 15:00, technician Iryna, Khreshchatyk St. 10. Do you confirm?». Below it, two buttons: «Yes, I'll be there» and «Reschedule». This spares the client from having to remember anything or look up your number."
+    },
+    {
+      "t": "p",
+      "uk": "Можливість підтвердити або перенести одним дотиком - ключова деталь. Якщо клієнт не може прийти, він натискає «Перенести», обирає нову зручну дату, і вікно одразу звільняється для інших. Ви дізнаєтесь про відмову не в момент візиту, а заздалегідь, тож маєте час запропонувати вільний час комусь зі списку очікування. Тон повідомлення варто тримати теплим і людяним, у стилі вашого салону, а не сухим шаблоном. Головне правило - не спамити: двох повідомлень на один запис цілком достатньо, більше лише дратує.",
+      "en": "The ability to confirm or reschedule in one tap is the key detail. If the client cannot come, they tap «Reschedule», pick a new convenient date, and the slot is freed up for others at once. You learn about the cancellation not at the moment of the visit but in advance, so you have time to offer the free slot to someone on the waiting list. Keep the tone of the message warm and human, in your salon's style, rather than a dry template. The main rule is not to spam: two messages per booking are quite enough, more only annoys."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація салону: реальні результати і як налаштувати нагадування",
+      "en": "Salon automation: real results and how to set up reminders"
+    },
+    {
+      "t": "p",
+      "uk": "На практиці автоматичні нагадування зменшують неявки на 40-60%. Якщо раніше зривався кожен пʼятий запис, після впровадження їх стає вдвічі менше. Салон, який втрачав 60 000 грн на місяць, повертає щонайменше половину цієї суми, і система окупається за кілька тижнів. Окремий бонус - клієнти сприймають нагадування як турботу і повертаються охочіше, а адміністратор перестає витрачати години на дзвінки й займається живими гостями. Ще один плюс - зібрана статистика: ви бачите, хто регулярно не приходить, і можете для таких клієнтів увімкнути передоплату або депозит.",
+      "en": "In practice, automatic reminders reduce no-shows by 40-60%. If previously every fifth booking fell through, after implementation it becomes half as many. A salon that was losing 60,000 UAH a month recovers at least half of that sum, and the system pays for itself within a few weeks. A separate bonus is that clients perceive the reminders as care and return more willingly, while the administrator stops spending hours on calls and attends to guests in person. Another plus is the statistics you collect: you can see who regularly fails to show up and enable a prepayment or deposit for such clients."
+    },
+    {
+      "t": "p",
+      "uk": "Налаштувати таку систему нескладно. Потрібні база записів, канал звʼязку (Telegram, SMS або обидва) і продумані тексти нагадувань з кнопками підтвердження. Далі система працює сама. Якщо не хочеться розбиратися в технічних деталях, команда Devlly допоможе підключити автоматичні нагадування під ваш салон, звести все в одному місці та налаштувати сценарії під вашу специфіку. Напишіть нам - розповімо, як це виглядатиме саме для вас, і порахуємо, скільки грошей це поверне.",
+      "en": "Setting up such a system is not hard. You need a bookings database, a communication channel (Telegram, SMS, or both), and well thought-out reminder texts with confirmation buttons. After that the system runs on its own. If you would rather not dig into the technical details, the Devlly team will help connect automatic reminders tailored to your salon, bring everything into one place, and configure the scenarios to your specifics. Write to us and we will explain how it will look for you specifically and calculate how much money it will bring back."
+    }
+  ]
+}

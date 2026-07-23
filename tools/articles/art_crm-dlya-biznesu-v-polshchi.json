@@ -1,0 +1,112 @@
+{
+  "title_uk": "CRM для бізнесу в Польщі: облік клієнтів і замовлень",
+  "title_en": "CRM for Business in Poland: Client and Order Management",
+  "desc_uk": "CRM для українського бізнесу в Польщі: облік клієнтів, замовлення, оплати в злотих та інтеграції з польськими сервісами доставки. Розробка під ключ.",
+  "desc_en": "CRM for Ukrainian businesses in Poland: client records, orders, payments in zloty and integrations with Polish delivery services. Custom development.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для бізнесу в Польщі для українців | Devlly",
+    "te": "CRM for Business in Poland for Ukrainians | Devlly",
+    "d": "CRM для українського бізнесу в Польщі: облік клієнтів, замовлення, оплати в злотих та інтеграції з польськими сервісами доставки. Розробка під ключ.",
+    "de": "CRM for Ukrainian businesses in Poland: client records, orders, payments in zloty and integrations with Polish delivery services. Custom development.",
+    "k": "crm для бізнесу в польщі, срм для українців у польщі, crm для бизнеса в польше, срм для украинцев в польше, crm for business in poland, crm з оплатою blik, crm з інтеграцією inpost, crm з фактурами nip, разработка crm под ключ, срм для интернет-магазина в польше"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Український бізнес у Польщі росте швидше, ніж встигають рости звичні інструменти обліку. Інтернет-магазини, сервісні компанії, майстерні та невеликі виробництва з українськими власниками щодня працюють одночасно з польськими та українськими клієнтами, приймають оплати в злотих і відправляють замовлення через Paczkomaty. Excel-таблиця чи CRM, розрахована на інший ринок, тут швидко перестає справлятися: конвертація валют вручну, загублені номери відправлень і рахунки без NIP забирають години щотижня. CRM для бізнесу в Польщі, зроблена під конкретні місцеві реалії, знімає це навантаження й дає власнику повну картину клієнтів, замовлень і оплат в одному місці.",
+      "en": "Ukrainian business in Poland is growing faster than the usual accounting tools can keep up with. Online stores, service companies, workshops and small manufacturers with Ukrainian owners serve both Polish and Ukrainian clients every day, accept payments in zloty and ship orders through Paczkomaty. A spreadsheet or a CRM built for a different market quickly stops coping: manual currency conversion, lost tracking numbers and invoices without NIP eat up hours every week. A CRM for business in Poland, built for these local realities, removes that burden and gives the owner a full picture of clients, orders and payments in one place."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для бізнесу в Польщі: чому універсальні системи тут не підходять",
+      "en": "CRM for business in Poland: why generic systems fall short"
+    },
+    {
+      "t": "p",
+      "uk": "Більшість готових CRM-рішень на ринку розраховані на єдину валюту, єдину мову інтерфейсу та один спосіб оплати. Український підприємець у Польщі працює інакше: клієнт може оформити замовлення польською мовою, оплатити через BLIK, а забрати посилку в Paczkomaty за два квартали від офісу. Якщо система обліку не враховує цю специфіку, менеджер витрачає час на ручне перенесення даних із банківського додатку, курʼєрського сервісу та месенджера в одну таблицю, а власник бізнесу дізнається про прострочену оплату чи загублену посилку лише зі скарги клієнта, а не з панелі показників.",
+      "en": "Most off the shelf CRM systems on the market assume a single currency, a single interface language and one payment method. A Ukrainian entrepreneur in Poland works differently: a client may place an order in Polish, pay via BLIK, then pick up the parcel at a Paczkomat two districts away from the office. If the accounting system does not account for this, a manager spends time manually copying data from a banking app, a courier service and a messenger into one spreadsheet, and the owner only learns about a late payment or a lost parcel from a client complaint rather than from a dashboard."
+    },
+    {
+      "t": "p",
+      "uk": "Розробка CRM під ключ дозволяє одразу закласти в систему злотий як основну валюту обліку, підключити польські сервіси доставки та платіжні системи, а також налаштувати картку клієнта з полями, які реально потрібні на цьому ринку: NIP контрагента, адреса для фактури, обраний Paczkomat за замовчуванням, мова спілкування. Це не додаткова опція, а базова конфігурація системи з першого дня роботи, тому команді не доводиться доопрацьовувати шаблонну CRM місяцями після запуску.",
+      "en": "Custom CRM development lets you set zloty as the base accounting currency from the start, connect Polish delivery and payment services, and configure a client card with fields the market actually needs: counterparty NIP, invoice address, a default Paczkomat, preferred language. This is not an add on option but a baseline configuration from day one, so the team does not spend months reworking a generic template after launch."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік клієнтів і замовлень у злотих без ручних перерахунків",
+      "en": "Client and order accounting in zloty without manual conversion"
+    },
+    {
+      "t": "p",
+      "uk": "Коли компанія веде продажі в Польщі, кожне замовлення, кожен рахунок і кожен звіт мають рахуватися у злотих без додаткової конвертації в голові бухгалтера. CRM під ключ від Devlly фіксує суму замовлення, знижку, вартість доставки та маржу одразу в PLN, а звіт про виручку за тиждень чи місяць формується без ручного перерахунку з гривні чи долара. Керівник бачить реальну маржинальність кожного замовлення в тій валюті, в якій воно фактично оплачене клієнтом.",
+      "en": "When a company sells in Poland, every order, every invoice and every report needs to be counted in zloty without extra conversion in the bookkeeper's head. A custom CRM from Devlly records the order amount, discount, delivery cost and margin directly in PLN, and a weekly or monthly revenue report is generated without manually converting from hryvnia or dollars. The owner sees the real margin of each order in the currency it was actually paid in."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо це важливо для компаній, які продають і в Польщі, і в Україні одночасно: система веде дві валютні книги паралельно, показуючи власнику консолідований звіт, але не змішуючи оплати з різних ринків в одному підсумку. Це прибирає плутанину, яка виникає, коли частина замовлень вводилася в злотих, а частина в гривнях у тій самій таблиці, і жоден звіт не сходиться без ручної перевірки кожного рядка.",
+      "en": "This matters even more for companies selling in both Poland and Ukraine at once: the system keeps two currency ledgers in parallel, giving the owner a consolidated report without blending payments from different markets into one total. It removes the confusion that appears when part of the orders were entered in zloty and part in hryvnia in the same spreadsheet, leaving no report that adds up without checking every row by hand."
+    },
+    {
+      "t": "p",
+      "uk": "Для сезонних коливань курсу CRM зберігає історію суми замовлення саме в момент оплати, а не перераховує старі угоди за поточним курсом. Завдяки цьому звіт за минулий квартал завжди показує ту виручку, яку компанія фактично отримала, а не умовну цифру, спотворену коливанням злотого відносно гривні чи євро.",
+      "en": "To handle seasonal rate fluctuations, the CRM stores the order amount as it was at the moment of payment instead of recalculating past deals at the current rate. This means a report for the previous quarter always shows the revenue the company actually received, not a figure distorted by the zloty moving against the hryvnia or the euro."
+    },
+    {
+      "t": "h2",
+      "uk": "Інтеграція з InPost, Paczkomaty та іншими сервісами доставки",
+      "en": "Integration with InPost, Paczkomaty and other delivery services"
+    },
+    {
+      "t": "p",
+      "uk": "Для інтернет-магазину чи сервісу з доставкою в Польщі логістика через InPost і мережу Paczkomaty давно стала стандартом, а не додатковою опцією. CRM під ключ підключається до цих сервісів напряму: менеджер обирає найближчий Paczkomat у картці замовлення, система автоматично генерує номер відправлення й передає статус доставки клієнту через Telegram-бота, не змушуючи нікого заходити окремо в кабінет курʼєрської служби.",
+      "en": "For an online store or a delivery service in Poland, logistics through InPost and the Paczkomaty network have long become the standard rather than an extra option. A custom CRM connects to these services directly: the manager picks the nearest Paczkomat in the order card, the system automatically generates a tracking number and passes the delivery status to the client through a Telegram bot, without anyone needing to log into the courier service dashboard separately."
+    },
+    {
+      "t": "p",
+      "uk": "Такий підхід скорочує кількість помилок при введенні адреси вручну та дає клієнту миттєве сповіщення про рух посилки польською або українською мовою, залежно від того, якою він спілкується з компанією. Для бізнесу, що відправляє десятки замовлень щодня, це економить години роботи менеджера щотижня і знижує кількість повторних дзвінків із питанням «де моя посилка».",
+      "en": "This approach reduces manual address entry errors and gives the client an instant update on the parcel's movement in Polish or Ukrainian, depending on which language they use with the company. For a business shipping dozens of orders a day, this saves hours of manager work every week and cuts the number of repeat calls asking where the parcel is."
+    },
+    {
+      "t": "p",
+      "uk": "Парсинг цін конкурентів чи залишків на маркетплейсах, який також впроваджує Devlly, доповнює цю картину: дані про ринок потрапляють у ту саму CRM, де вже ведеться облік клієнтів і замовлень, а не в окремий незвʼязаний файл, з яким потім доводиться звіряти асортимент і ціни вручну.",
+      "en": "Parsing competitor prices or marketplace stock levels, another service Devlly builds, completes this picture: market data lands in the same CRM that already tracks clients and orders, instead of a separate disconnected file that later has to be checked against the assortment and prices by hand."
+    },
+    {
+      "t": "h2",
+      "uk": "Оплати через BLIK і Przelewy24, фактури з NIP для польських контрагентів",
+      "en": "Payments via BLIK and Przelewy24, invoices with NIP for Polish partners"
+    },
+    {
+      "t": "p",
+      "uk": "Польський клієнт очікує оплатити замовлення звичним для нього способом: BLIK для швидкого переказу з телефону або Przelewy24 для оплати через банк чи картку. CRM під ключ підключає ці платіжні системи безпосередньо до картки замовлення, і статус оплати оновлюється автоматично, без потреби звіряти виписки вручну наприкінці дня чи чекати підтвердження від бухгалтера, перш ніж передати замовлення в роботу.",
+      "en": "A Polish client expects to pay the way they are used to: BLIK for a quick transfer from a phone or Przelewy24 for payment through a bank or a card. A custom CRM connects these payment systems directly to the order card, and the payment status updates automatically, without needing to reconcile statements by hand at the end of the day or wait for a bookkeeper's confirmation before moving the order forward."
+    },
+    {
+      "t": "p",
+      "uk": "Для роботи з польськими контрагентами система формує фактуру з коректним NIP, адресою реєстрації та ставкою VAT, а не просто квитанцію без юридичної сили. Це знімає з власника бізнесу окрему турботу про бухгалтерське оформлення кожного продажу компаніям, які працюють з польськими постачальниками чи B2B-клієнтами і потребують офіційного документа для власного обліку та подальшого розрахунку з власним бухгалтером.",
+      "en": "For dealing with Polish partners, the system generates an invoice with the correct NIP, registration address and VAT rate, not just a receipt with no legal weight. This takes the bookkeeping burden of every sale off the owner's shoulders for companies working with Polish suppliers or B2B clients who need an official document for their own records and their accountant."
+    },
+    {
+      "t": "h2",
+      "uk": "Двомовний інтерфейс для команди, яка працює з польськими та українськими клієнтами",
+      "en": "A bilingual interface for teams serving Polish and Ukrainian clients"
+    },
+    {
+      "t": "p",
+      "uk": "Команда українського бізнесу в Польщі часто складається як з україномовних, так і з польськомовних співробітників, а іноді й з місцевих найманих менеджерів, які не розуміють українську взагалі. CRM під ключ із двомовним інтерфейсом польська плюс українська дозволяє кожному співробітнику працювати мовою, яка йому зручна, не втрачаючи спільного доступу до однієї бази клієнтів і замовлень.",
+      "en": "A Ukrainian business team in Poland often includes both Ukrainian speaking and Polish speaking staff, and sometimes locally hired managers who do not understand Ukrainian at all. A custom CRM with a bilingual Polish plus Ukrainian interface lets every employee work in the language they are comfortable with, without losing shared access to one client and order database."
+    },
+    {
+      "t": "p",
+      "uk": "Це особливо помітно в компаніях, де частина клієнтів польськомовні, а частина спілкується українською: шаблони повідомлень, рахунки та статуси замовлень автоматично формуються мовою клієнта, а внутрішні нотатки менеджера залишаються тією мовою, якою йому зручно вести облік. Новий співробітник, найнятий уже в Польщі без знання української, включається в роботу з першого дня без додаткового навчання щодо структури системи.",
+      "en": "This shows most clearly in companies where some clients are Polish speaking and others communicate in Ukrainian: message templates, invoices and order statuses are automatically generated in the client's language, while a manager's internal notes stay in whichever language they prefer for their own records. A new employee hired locally in Poland with no Ukrainian at all can start working from day one without extra training on the system's structure."
+    },
+    {
+      "t": "p",
+      "uk": "Devlly розробляє такі CRM під ключ саме для українського бізнесу в Польщі: з обліком у злотих, підключенням до InPost і Paczkomaty, оплатами через BLIK і Przelewy24, фактурами з NIP та двомовним інтерфейсом для команди. Система будується під конкретні процеси компанії, а не підганяється під готовий шаблон, розрахований на інший ринок, і разом з CRM ми впроваджуємо Telegram-боти для сповіщень клієнтів та парсинг ринкових даних, коли бізнесу це потрібно.",
+      "en": "Devlly builds exactly this kind of custom CRM for Ukrainian businesses in Poland: accounting in zloty, integration with InPost and Paczkomaty, payments via BLIK and Przelewy24, invoices with NIP and a bilingual interface for the team. The system is built around the company's actual processes rather than adapted from a ready made template designed for a different market, and alongside the CRM we build Telegram bots for client notifications and parsing tools for market data whenever the business needs them."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title_uk": "Чат-бот для продажів: як збільшити конверсію без менеджера",
+  "title_en": "Sales chatbot: how to grow conversion without a manager",
+  "desc_uk": "Як чат-бот для продажів обробляє ліди за секунди, кваліфікує клієнтів, приймає оплату і піднімає конверсію з 2% до 5% без участі менеджера.",
+  "desc_en": "How a sales chatbot handles leads in seconds, qualifies customers, takes payments and lifts conversion from 2% to 5% without a manager involved.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Чат-бот для продажів: автоматизація воронки | Devlly",
+    "te": "Sales chatbot: sales funnel automation | Devlly",
+    "d": "Як чат-бот для продажів обробляє ліди, відповідає на питання і закриває угоди без участі менеджера. Реальні приклади і результати.",
+    "de": "How a sales chatbot processes leads, answers questions and closes deals without a manager. Real examples and results.",
+    "k": "чат-бот для продажів, бот для продажів, автоматизація продажів, кваліфікація лідів, конверсія в продажах, telegram бот для бізнесу"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Чат-бот для продажів - це продавець, який відповідає за три секунди, не бере вихідних і не втомлюється на пʼятдесятому діалозі за день. Поки менеджер обробляє одну заявку, бот паралельно веде десятки розмов: відповідає на типові питання, показує каталог, приймає оплату й передає людині лише тих клієнтів, які справді готові купувати. Для малого бізнесу це часто різниця між конверсією 2 відсотки і 5 відсотків з того самого трафіку, без збільшення бюджету на рекламу. У цій статті розберемо, як саме бот збільшує продажі: від швидкості першої відповіді до допродажів і AI-відповідей на нестандартні питання.",
+      "en": "A sales chatbot is a salesperson who replies in three seconds, takes no days off and does not get tired by the fiftieth conversation of the day. While a manager handles one request, the bot runs dozens of conversations in parallel: it answers typical questions, shows the catalogue, takes payment and passes to a human only those customers who are genuinely ready to buy. For a small business this is often the difference between a 2 percent and a 5 percent conversion rate on the same traffic, with no increase in the ad budget. In this article we will look at exactly how a bot grows sales: from the speed of the first reply to upsells and AI answers to non-standard questions."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому швидкість відповіді вирішує долю продажу",
+      "en": "Why response speed decides the fate of a sale"
+    },
+    {
+      "t": "p",
+      "uk": "Статистика невблаганна: лід остигає за 5-15 хвилин після заявки. Людина, яка щойно залишила номер телефону або написала «скільки коштує», перебуває на піку інтересу, але цей пік короткий. Якщо відповідь приходить через годину, клієнт уже порівнює пропозиції конкурентів, а через день він узагалі не памʼятає, кому писав. Дослідження продажів показують, що звернення, оброблене в перші пʼять хвилин, конвертується в рази краще, ніж те саме звернення через пів години. Менеджер фізично не може тримати такий темп: він на дзвінку, на обіді або вже пішов додому, а заявки продовжують надходити.",
+      "en": "The statistics are merciless: a lead goes cold within 5-15 minutes of the enquiry. A person who has just left their phone number or written 'how much does it cost' is at the peak of interest, but that peak is short. If the reply arrives an hour later, the customer is already comparing competitors' offers, and a day later they no longer remember who they wrote to. Sales research shows that an enquiry handled within the first five minutes converts many times better than the same enquiry handled half an hour later. A manager physically cannot keep that pace: they are on a call, at lunch or already home, while the requests keep coming in."
+    },
+    {
+      "t": "p",
+      "uk": "Бот знімає цю проблему повністю, бо відповідає за 2-3 секунди в будь-який час доби. Пише клієнт о другій ночі - бот вітається, уточнює запит і фіксує заявку, а вранці менеджер бачить уже прогріту розмову, а не холодний пропущений контакт. У нішах з вечірнім трафіком, як-от доставка їжі чи онлайн-курси, до 40 відсотків звернень приходить поза робочими годинами. Без бота цей потік просто згорає. З ботом кожне звернення отримує миттєву реакцію, і саме це, а не хитрі скрипти продажів, дає перший стрибок конверсії.",
+      "en": "A bot removes this problem entirely because it replies within 2-3 seconds at any time of day. A customer writes at two in the morning - the bot greets them, clarifies the request and records the enquiry, and in the morning the manager sees an already warmed-up conversation rather than a cold missed contact. In niches with evening traffic, such as food delivery or online courses, up to 40 percent of enquiries arrive outside working hours. Without a bot that flow simply burns away. With a bot every enquiry gets an instant reaction, and it is this, not clever sales scripts, that delivers the first jump in conversion."
+    },
+    {
+      "t": "h2",
+      "uk": "Як чат-бот кваліфікує лідів: питання, сегментація, передача менеджеру",
+      "en": "How a chatbot qualifies leads: questions, segmentation, handover to a manager"
+    },
+    {
+      "t": "p",
+      "uk": "Друга суперсила бота - кваліфікація. Замість того щоб менеджер витрачав по десять хвилин на зʼясування базових речей, бот ставить три-пʼять коротких питань: що саме цікавить, який бюджет, на коли потрібно, як зручніше звʼязатися. Відповіді одразу сегментують потік: хтось просто цікавиться цінами, хтось збирає інформацію на майбутнє, а хтось готовий оплатити сьогодні. Кожному сегменту бот дає свій сценарій: цікавим пропонує корисний контент і підписку, тим, хто відклав рішення, ставить нагадування через тиждень, а гарячих миттєво передає менеджеру.",
+      "en": "The bot's second superpower is qualification. Instead of a manager spending ten minutes finding out the basics, the bot asks three to five short questions: what exactly interests you, what is the budget, when do you need it, what is the best way to reach you. The answers segment the flow immediately: some people are just curious about prices, some are gathering information for later, and some are ready to pay today. The bot gives each segment its own scenario: the curious get useful content and a subscription, those who postponed the decision get a reminder in a week, and the hot leads are passed to a manager instantly."
+    },
+    {
+      "t": "p",
+      "uk": "Передача гарячого ліда виглядає так: менеджер отримує в Telegram картку з імʼям клієнта, його відповідями й прямим посиланням на діалог. Він вступає в розмову вже підготовленим і говорить по суті, а не починає з «розкажіть, що вас цікавить». Це скорочує цикл угоди й береже час обом сторонам. Холодні ліди при цьому не губляться: вони залишаються в базі з тегами, і бот повертається до них із серією корисних повідомлень. Практика показує, що 15-20 відсотків «просто цікавих» дозрівають до покупки протягом місяця, якщо їх акуратно супроводжувати.",
+      "en": "Handing over a hot lead looks like this: the manager receives a card in Telegram with the customer's name, their answers and a direct link to the conversation. They join the dialogue already prepared and get straight to the point instead of opening with 'tell me what you are interested in.' This shortens the deal cycle and saves time for both sides. Cold leads are not lost either: they stay in the database with tags, and the bot comes back to them with a series of useful messages. Practice shows that 15-20 percent of the 'just curious' mature into a purchase within a month if they are followed up carefully."
+    },
+    {
+      "t": "h2",
+      "uk": "Сценарії продажів через бота: каталог, оплата, допродажі",
+      "en": "Sales scenarios through a bot: catalogue, payment, upsells"
+    },
+    {
+      "t": "p",
+      "uk": "Сучасний бот - це не лише відповіді на питання, а повноцінна вітрина. Клієнт відкриває каталог прямо в чаті: категорії, фото, ціни, наявність. Обирає товар, додає в кошик і оплачує, не виходячи з месенджера, через вбудовані платежі або посилання на оплату. Весь шлях від «привіт» до оплаченого замовлення займає три-чотири хвилини, і на жодному кроці людині не доводиться чекати відповіді оператора. Для послуг сценарій схожий: бот показує пакети, допомагає обрати вільний слот у календарі та бере передоплату для підтвердження запису.",
+      "en": "A modern bot is not just answers to questions but a full storefront. The customer opens the catalogue right in the chat: categories, photos, prices, stock availability. They pick a product, add it to the cart and pay without leaving the messenger, through built-in payments or a payment link. The whole journey from 'hello' to a paid order takes three to four minutes, and at no step does the person have to wait for an operator's reply. For services the scenario is similar: the bot shows packages, helps pick a free slot in the calendar and takes a deposit to confirm the booking."
+    },
+    {
+      "t": "p",
+      "uk": "Окрема стаття доходу - допродажі. Бот памʼятає, що клієнт купив, і в момент оформлення пропонує супутній товар: до кави десерт, до курсу консультацію, до техніки подовжену гарантію. Така пропозиція в один клік дає плюс 10-15 відсотків до середнього чека без жодних зусиль менеджера. Ще один сценарій - покинутий кошик: якщо людина обрала товар, але не оплатила, бот через годину мʼяко нагадує про нього, а через день може запропонувати невеликий бонус. Частина цих майже втрачених замовлень повертається сама, без знижок на весь асортимент і без дзвінків.",
+      "en": "Upsells are a revenue line of their own. The bot remembers what the customer bought and at checkout offers a related item: a dessert with the coffee, a consultation with the course, an extended warranty with the appliance. Such a one-click offer adds 10-15 percent to the average order value with zero effort from the manager. Another scenario is the abandoned cart: if a person picked a product but did not pay, the bot gently reminds them an hour later, and a day later can offer a small bonus. Some of these almost-lost orders come back on their own, without storewide discounts and without phone calls."
+    },
+    {
+      "t": "h2",
+      "uk": "AI у ботах для продажів: коли клієнт питає нестандартне",
+      "en": "AI in sales bots: when the customer asks something non-standard"
+    },
+    {
+      "t": "p",
+      "uk": "Класичний бот на кнопках ламається на першому ж нестандартному питанні на кшталт «а якщо мені потрібна доставка в село під Полтавою в суботу?». Саме тут допомагає AI. Мовна модель, підключена до бази знань компанії, розуміє питання, поставлене своїми словами, і відповідає по суті: перевіряє умови доставки, називає терміни, пропонує альтернативу. Клієнт отримує людську за якістю відповідь за секунди, а не «оператор відповість вам у робочий час». На практиці AI-шар закриває 70-80 відсотків питань, які раніше вимагали живої людини.",
+      "en": "A classic button-based bot breaks on the very first non-standard question, something like 'what if I need delivery to a village near Poltava on Saturday?'. This is exactly where AI helps. A language model connected to the company's knowledge base understands a question asked in the customer's own words and answers it properly: it checks delivery terms, names the timeframe, suggests an alternative. The customer gets a human-quality answer in seconds instead of 'an operator will reply during business hours.' In practice the AI layer covers 70-80 percent of the questions that previously required a live person."
+    },
+    {
+      "t": "p",
+      "uk": "Важливо будувати AI-бота із запобіжниками. Модель відповідає лише на основі затверджених матеріалів: каталогу, умов доставки, політики повернень. Якщо впевненої відповіді немає або клієнт роздратований, бот чесно каже, що передає розмову людині, і тегує менеджера. Такий гібрид «AI плюс людина» працює краще за будь-яку крайність: чистий скрипт дратує обмеженістю, а AI без обмежень може наобіцяти зайвого. Правильно налаштована звʼязка дає швидкість машини й надійність людського контролю, і клієнт навіть не завжди помічає момент передачі.",
+      "en": "It is important to build an AI bot with guardrails. The model answers only on the basis of approved materials: the catalogue, delivery terms, the returns policy. If there is no confident answer or the customer is irritated, the bot honestly says it is handing the conversation over to a person and tags the manager. This 'AI plus human' hybrid works better than either extreme: a pure script annoys with its limitations, while unrestricted AI can promise too much. A properly configured combination gives the speed of a machine and the reliability of human oversight, and the customer does not always even notice the handover."
+    },
+    {
+      "t": "h2",
+      "uk": "Реальні результати: які метрики росту очікувати",
+      "en": "Real results: what growth metrics to expect"
+    },
+    {
+      "t": "p",
+      "uk": "Що показує практика в цифрах. Інтернет-магазин косметики після запуску бота підняв конверсію з заявки в оплату з 2 до 5 відсотків, головним чином завдяки миттєвій відповіді та оплаті прямо в чаті. Онлайн-школа англійської скоротила час первинної обробки ліда з 4 годин до 30 секунд і перестала втрачати вечірні заявки, яких виявилося третина всього потоку. Сервіс доставки води додав автоматичні допродажі й підняв середній чек на 12 відсотків. Це не унікальні кейси, а типовий результат, коли бот закриває найслабше місце воронки.",
+      "en": "What practice shows in numbers. An online cosmetics store lifted its enquiry-to-payment conversion from 2 to 5 percent after launching a bot, mainly thanks to the instant reply and payment right in the chat. An online English school cut initial lead handling time from 4 hours to 30 seconds and stopped losing evening enquiries, which turned out to be a third of the whole flow. A water delivery service added automatic upsells and raised its average order value by 12 percent. These are not unique cases but the typical result when a bot fixes the weakest spot in the funnel."
+    },
+    {
+      "t": "p",
+      "uk": "Щоб оцінити ефект у своєму бізнесі, відстежуйте чотири метрики: час першої відповіді, частку звернень, закритих без менеджера, конверсію з діалогу в оплату та середній чек. Здорові орієнтири такі: відповідь до 5 секунд, 60-80 відсотків діалогів без участі людини, зростання конверсії щонайменше в півтора раза за перші два-три місяці. За таких показників розробка бота зазвичай окупається за один-два місяці роботи. Devlly розробляє такі рішення під замовлення: від простого бота-кваліфікатора до повноцінної воронки з каталогом, оплатою і AI-відповідями під специфіку саме вашого бізнесу.",
+      "en": "To assess the effect in your own business, track four metrics: time to first reply, the share of enquiries closed without a manager, dialogue-to-payment conversion, and average order value. Healthy benchmarks are: a reply within 5 seconds, 60-80 percent of dialogues handled without a human, and conversion growing at least one and a half times within the first two to three months. At those numbers the development of a bot usually pays for itself within one or two months of operation. Devlly builds such solutions to order: from a simple qualifier bot to a complete funnel with a catalogue, payments and AI answers tailored to the specifics of your business."
+    }
+  ]
+}

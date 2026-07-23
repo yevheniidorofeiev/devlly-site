@@ -1,0 +1,122 @@
+{
+  "title_uk": "Автоматизація інтернет-магазину одягу: від замовлення до доставки",
+  "title_en": "Clothing Store Automation: From Order to Delivery",
+  "desc_uk": "Як автоматизувати інтернет-магазин одягу: прийом замовлень, синхронізація залишків, сповіщення клієнтів і робота з постачальниками.",
+  "desc_en": "How to automate a clothing online store: order intake, stock sync by size and color, customer notifications, delivery and supplier workflows.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація інтернет-магазину одягу | Devlly",
+    "te": "Clothing Online Store Automation | Devlly",
+    "d": "Як автоматизувати інтернет-магазин одягу: прийом замовлень, синхронізація залишків, сповіщення клієнтів і робота з постачальниками.",
+    "de": "How to automate a clothing online store: order intake, stock sync by size and color, customer notifications, delivery and supplier workflows.",
+    "k": "автоматизація інтернет-магазину одягу, прийом замовлень, облік залишків, розміри і кольори, сповіщення клієнтів, інтеграція Нової Пошти, робота з постачальниками"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Магазин одягу на 300-500 замовлень на місяць живе одночасно в Instagram, на сайті, у Telegram і в трьох зошитах з залишками. Поки обсяги малі, це працює, але після певної межі менеджер більшу частину дня просто переписує дані з одного місця в інше. Нижче - як виглядає автоматизація інтернет-магазину одягу на практиці: що саме автоматизують, у якому порядку і що це дає.",
+      "en": "A clothing store doing 300-500 orders a month lives in Instagram, on its website, in Telegram and in three notebooks with stock counts at the same time. While volumes are small this works, but past a certain point the manager spends most of the day copying data from one place to another. Below is what clothing store automation looks like in practice: what gets automated, in what order and what it actually gives you."
+    },
+    {
+      "t": "h2",
+      "uk": "З чого починається автоматизація інтернет-магазину одягу",
+      "en": "Where clothing store automation begins"
+    },
+    {
+      "t": "p",
+      "uk": "Починати варто не з вибору програми, а з опису шляху одного замовлення. Візьміть звичайне замовлення і випишіть кожен крок: клієнт написав у Direct, менеджер уточнив розмір, перевірив наявність, виставив реквізити, дочекався оплати, зібрав посилку, створив ТТН, надіслав номер, через тиждень обробив обмін. У середньому такий ланцюжок містить 12-18 дій, і більшість із них - це ручне перенесення тих самих даних.",
+      "en": "Start not by picking software but by describing the path of a single order. Take a typical order and write down every step: the customer messages you on Direct, the manager clarifies the size, checks availability, sends payment details, waits for payment, packs the parcel, creates a waybill, sends the number, and a week later handles an exchange. On average that chain has 12-18 actions, and most of them are manual re-entry of the same data."
+    },
+    {
+      "t": "p",
+      "uk": "Далі поруч із кожним кроком поставте час у хвилинах. Зазвичай виявляється, що 60-70 відсотків часу забирають чотири речі: пошук залишку по розміру, створення накладної, відповіді на питання «де моя посилка» і звірка оплат. Саме ці чотири блоки і треба автоматизувати першими, решта може почекати.",
+      "en": "Then put a time in minutes next to each step. Usually it turns out that 60-70 percent of the time goes to four things: looking up stock for a specific size, creating the waybill, answering «where is my parcel» questions, and reconciling payments. Those four blocks are what you automate first, everything else can wait."
+    },
+    {
+      "t": "p",
+      "uk": "Помилка, яку роблять найчастіше, - спроба одразу купити велику ERP і перенести туди все. Магазин одягу має дуже специфічну модель товару: один артикул, десятки варіацій за розміром і кольором, сезонність, повернення. Універсальні системи це підтримують погано, тому часто дешевше зібрати просту систему під свої процеси, ніж рік підганяти магазин під чужу логіку.",
+      "en": "The most common mistake is buying a big ERP right away and moving everything into it. A clothing store has a very specific product model: one article, dozens of variants by size and color, seasonality, returns. Generic systems handle this poorly, so it is often cheaper to build a simple system around your own processes than to spend a year bending the store to fit a template built for someone else."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом замовлень з Instagram, сайту і Telegram в одному вікні",
+      "en": "Order intake from Instagram, the website and Telegram in one window"
+    },
+    {
+      "t": "p",
+      "uk": "Прийом замовлень - найболючіше місце, бо канали різні, а менеджер один. Рішення завжди однакове: усі джерела складають замовлення в одну базу з єдиною карткою. Сайт віддає замовлення через API, Instagram і Telegram - через бота або інтеграцію з месенджером, телефонні заявки менеджер заводить вручну через коротку форму на пʼять полів.",
+      "en": "Order intake is the most painful spot, because there are many channels and one manager. The solution is always the same: every source drops orders into a single database with one order card. The website sends orders through an API, Instagram and Telegram through a bot or messenger integration, and phone requests are entered manually via a short five-field form."
+    },
+    {
+      "t": "p",
+      "uk": "У картці замовлення мають бути мінімум: товар з варіацією, ціна, канал, статус, спосіб доставки, коментар клієнта і номер ТТН. Статуси не варто плодити - для одягу достатньо шести: новий, підтверджений, чекає оплату, зібраний, відправлений, закритий. Окремими прапорцями йдуть повернення і обмін, бо вони можуть виникнути на будь-якій стадії.",
+      "en": "The order card needs at minimum: product with variant, price, channel, status, delivery method, customer comment and waybill number. Do not multiply statuses - six are enough for clothing: new, confirmed, awaiting payment, packed, shipped, closed. Returns and exchanges live as separate flags, because they can appear at any stage."
+    },
+    {
+      "t": "p",
+      "uk": "Коли всі канали зведені, зʼявляється те, чого не було раніше: чесна статистика. Видно, що Instagram дає, наприклад, 55 відсотків замовлень, але 20 відсотків з них не викуповують, а сайт дає менше, зате майже без відмов. Такі цифри одразу змінюють бюджет на рекламу.",
+      "en": "Once all channels are merged, something new appears: honest statistics. You can see that Instagram brings, say, 55 percent of orders but 20 percent of them are never picked up, while the website brings fewer orders with almost no refusals. Numbers like that change the ad budget immediately."
+    },
+    {
+      "t": "h2",
+      "uk": "Залишки і розміри: синхронізація, яка не бреше",
+      "en": "Stock and sizes: a sync that does not lie"
+    },
+    {
+      "t": "p",
+      "uk": "Для одягу залишок - це не число біля назви товару, а таблиця варіацій. Сукня в трьох кольорах і пʼяти розмірах - це пʼятнадцять окремих позицій, кожна зі своїм штрихкодом і кількістю. Якщо система рахує залишок на рівні моделі, продажі «в мінус» неминучі, і магазин регулярно вибачається перед клієнтами за товар, якого немає.",
+      "en": "For clothing, stock is not a number next to the product name but a table of variants. A dress in three colors and five sizes is fifteen separate positions, each with its own barcode and quantity. If the system counts stock at the model level, overselling is inevitable and the store keeps apologizing to customers for items it does not have."
+    },
+    {
+      "t": "p",
+      "uk": "Друга умова - резервування. Кількість має списуватися в момент підтвердження замовлення, а не в момент відправлення. Інакше два менеджери за десять хвилин продадуть одну й ту саму останню сорочку розміру M. Резерв бажано робити з таймером: якщо клієнт не оплатив за 24 або 48 годин, позиція автоматично повертається у продаж.",
+      "en": "The second requirement is reservation. Quantity must be deducted when the order is confirmed, not when it ships. Otherwise two managers will sell the same last size M shirt within ten minutes. It is best to give the reservation a timer: if the customer has not paid within 24 or 48 hours, the item goes back on sale automatically."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо варто налаштувати автоматичне приховування позицій з нульовим залишком на сайті і позначку «залишилось 1-2» для тих, де кількість менша за три. Це прибирає частину непотрібних питань і водночас підштовхує до покупки. Інвентаризацію після цього достатньо робити раз на місяць, а не щотижня.",
+      "en": "Separately, set up automatic hiding of zero-stock variants on the website and a «only 1-2 left» label for those under three units. This removes a chunk of pointless questions and nudges people to buy. After that, a full stock count once a month is enough instead of every week."
+    },
+    {
+      "t": "h2",
+      "uk": "Сповіщення клієнтів: менше питань, більше довіри",
+      "en": "Customer notifications: fewer questions, more trust"
+    },
+    {
+      "t": "p",
+      "uk": "Сповіщення клієнтів закривають до третини всього листування. Базовий набір простий: підтвердження замовлення, нагадування про оплату, повідомлення про відправлення з номером ТТН, повідомлення про прибуття у відділення і нагадування за день до закінчення терміну зберігання. Останнє особливо цінне, бо саме через прострочене зберігання магазин втрачає гроші на зворотній доставці.",
+      "en": "Customer notifications remove up to a third of all correspondence. The basic set is simple: order confirmation, payment reminder, shipping notice with the waybill number, arrival at the branch, and a reminder one day before the storage period ends. The last one is especially valuable, because expired storage is exactly where the store loses money on return shipping."
+    },
+    {
+      "t": "p",
+      "uk": "Канал варто обирати за поведінкою аудиторії. Telegram і Viber дешевші за SMS і дають більше місця для тексту, але не всі клієнти ними користуються. Робоча схема - надсилати в месенджер, а якщо повідомлення не доставлено за годину, дублювати коротким SMS. Так витрати падають, а доставленість залишається високою.",
+      "en": "Pick the channel based on how your audience behaves. Telegram and Viber are cheaper than SMS and give more room for text, but not everyone uses them. A working scheme is to send to the messenger and, if the message is not delivered within an hour, duplicate it with a short SMS. Costs drop while deliverability stays high."
+    },
+    {
+      "t": "p",
+      "uk": "Сюди ж логічно додати два сценарії після покупки: прохання залишити відгук через три-чотири дні після отримання і нагадування про залишений кошик чи незавершений діалог. Обидва працюють тільки за умови, що система бачить реальний статус посилки, інакше клієнт отримає прохання оцінити товар, який ще їде. Тому сповіщення клієнтів завжди будують поверх даних перевізника, а не за таймером «через стільки днів після замовлення».",
+      "en": "Two post-purchase scenarios belong here as well: a review request three to four days after delivery, and a reminder about an abandoned cart or an unfinished chat. Both only work if the system sees the real parcel status, otherwise the customer gets asked to rate an item still in transit. That is why customer notifications are always built on top of carrier data, not on a «so many days after the order» timer."
+    },
+    {
+      "t": "h2",
+      "uk": "Доставка і постачальники: два потоки, які треба звʼязати",
+      "en": "Delivery and suppliers: two flows that must be connected"
+    },
+    {
+      "t": "p",
+      "uk": "Інтеграція з Новою Поштою або іншим перевізником дає три речі: створення ТТН з картки замовлення в один клік, автоматичне підтягування статусу посилки і масовий друк накладних перед виїздом курʼєра. На 40-50 відправленнях на день ручне створення ТТН забирає близько двох годин, автоматичне - десять хвилин на всю партію.",
+      "en": "Integration with Nova Poshta or another carrier gives you three things: one-click waybill creation from the order card, automatic parcel status updates, and bulk printing of waybills before the courier arrives. At 40-50 shipments a day, creating waybills manually takes about two hours, automatically it is ten minutes for the whole batch."
+    },
+    {
+      "t": "p",
+      "uk": "З постачальниками працює той самий принцип: прайси мають потрапляти в систему файлом або через API, а не переноситись руками. Якщо частина товару йде під замовлення, у картці варто бачити не лише власний залишок, а й наявність у постачальника з датою останнього оновлення. Тоді менеджер не обіцяє клієнту те, чого вже немає на складі партнера.",
+      "en": "The same principle applies to suppliers: price lists should enter the system as a file or through an API, not be retyped by hand. If part of your range is made to order, the product card should show not only your own stock but also the availability at the supplier with the date of the last update. Then the manager stops promising customers items the partner no longer has."
+    },
+    {
+      "t": "p",
+      "uk": "Повернення і обміни варто вести окремим коротким процесом: заявка, причина, стан речі, рішення, повернення позиції на залишок. Причини потім показують, які моделі мають проблему з розмірною сіткою, і це прямо впливає на закупівлю наступної колекції. У Devlly ми збираємо такі системи під конкретний магазин - з тими каналами, перевізниками і правилами обліку, які вже працюють у вашому бізнесі, без спроби перебудувати процеси під чужий шаблон.",
+      "en": "Handle returns and exchanges as a separate short process: request, reason, item condition, decision, item back into stock. The reasons later show which models have sizing problems, and that directly affects what you buy for the next collection. At Devlly we build such systems for a specific store - with the channels, carriers and accounting rules that already work in your business, without trying to rebuild your processes around a template built for another business."
+    }
+  ]
+}

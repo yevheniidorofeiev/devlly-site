@@ -1,0 +1,122 @@
+{
+  "title_uk": "Релокація бізнесу без втрати клієнтів: як зберегти базу",
+  "title_en": "Business Relocation Without Losing Your Client Base",
+  "desc_uk": "Як перенести бізнес за кордон і не втратити клієнтів: міграція бази, збереження історії замовлень і безперервний звʼязок через CRM і Telegram.",
+  "desc_en": "How to move a business abroad without losing clients: database migration, preserving order history and continuous contact through CRM and Telegram.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Релокація бізнесу без втрати клієнтів і бази | Devlly",
+    "te": "Business Relocation Without Losing Clients | Devlly",
+    "d": "Як перенести бізнес за кордон і не втратити клієнтів: міграція бази, збереження історії замовлень і безперервний звʼязок через CRM і Telegram.",
+    "de": "How to move a business abroad without losing clients: database migration, preserving order history and continuous contact through CRM and Telegram.",
+    "k": "релокація бізнесу, перенести бізнес за кордон, міграція клієнтської бази, релокация бизнеса, перенести бизнес за границу, миграция базы клиентов, business relocation abroad, client database migration, CRM для релокації, business relocation checklist"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли власник вирішує перенести бізнес за кордон, головний ризик рідко звучить вголос: не візи, не оренда офісу, а те, що клієнтська база живе в десяти різних місцях і ніхто, крім засновника, не знає, де саме. Excel на ноутбуці, переписка у Viber, домовленості про знижки в голові одного менеджера. Релокація бізнесу без втрати клієнтів це не про удачу, а про послідовний процес переносу даних і звʼязку, який починається задовго до виїзду.",
+      "en": "When an owner decides to move a business abroad, the real risk rarely gets said out loud: not visas, not office rent, but the fact that the client base lives in ten different places and nobody except the founder knows exactly where. Excel on a laptop, chats in Viber, discount agreements stored in one manager's head. Business relocation without losing clients is not about luck, it is a deliberate process of migrating data and contact that starts long before departure."
+    },
+    {
+      "t": "h2",
+      "uk": "Релокація бізнесу за кордон: що ставиться на карту в перші тижні",
+      "en": "Business relocation abroad: what is at stake in the first weeks"
+    },
+    {
+      "t": "p",
+      "uk": "У перші два-три тижні після переїзду компанії найчастіше втрачають частину клієнтів не через якість продукту, а через розрив звʼязку. Номер телефону змінився, менеджер, який вів переписку, ще не адаптувався до нового часового поясу, а клієнт, який писав щотижня, замовк, бо не отримав відповіді вчасно. За практикою компаній, які переїжджали без підготовки, втрати в перший місяць сягають 20 до 30 відсотків активних клієнтів, і повернути їх значно дорожче, ніж утримати.",
+      "en": "In the first two to three weeks after moving, companies most often lose clients not because of product quality but because of a broken connection. The phone number changed, the manager who handled correspondence has not adjusted to the new time zone yet, and a client who used to write weekly goes silent after not getting a reply in time. Based on the experience of companies that relocated without preparation, losses in the first month reach 20 to 30 percent of active clients, and winning them back costs far more than keeping them."
+    },
+    {
+      "t": "p",
+      "uk": "Релокація бізнесу це не тільки юридичне і податкове питання, а насамперед операція з даними. Перед виїздом варто скласти документ, у якому зафіксовано, де саме зберігається інформація про клієнтів: таблиці, чати, записники, картки в бухгалтерській програмі. Без цього списку частина бази просто губиться, коли доступ до старого телефону чи компʼютера обмежується.",
+      "en": "Business relocation is not only a legal and tax matter, it is above all a data operation. Before leaving, it is worth drafting a document that records exactly where client information is stored: spreadsheets, chats, notebooks, cards in accounting software. Without this list, part of the base simply disappears once access to the old phone or computer becomes limited."
+    },
+    {
+      "t": "p",
+      "uk": "Варто одразу окреслити, що саме підлягає переносу: контакти і способи звʼязку, історія замовлень за останній рік, індивідуальні умови і знижки, а також угоди, які перебувають у процесі на момент переїзду. Це чотири окремі шари даних, і кожен вимагає свого способу перенесення, тому змішувати їх в один загальний файл «на потім» не варто.",
+      "en": "It is worth outlining right away what actually needs to be migrated: contacts and communication channels, order history for the past year, individual terms and discounts, and deals that are still in progress at the moment of the move. These are four separate layers of data, and each requires its own way of being transferred, so lumping them into one general file for later is a mistake."
+    },
+    {
+      "t": "h2",
+      "uk": "Перенесення клієнтської бази: з таблиць і месенджерів у CRM",
+      "en": "Migrating the client base: from spreadsheets and messengers into a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Типова стартова точка виглядає так: Google Таблиця з іменами і телефонами, кілька вкладок за роками, чати в Telegram, Viber і WhatsApp, і окремо контакти, збережені просто в телефоні власника. Перед виїздом усе це потрібно звести в одну CRM, поки є час перевірити кожен запис, а не після приземлення в новій країні, коли перевіряти вже нікому.",
+      "en": "The typical starting point looks like this: a Google Sheet with names and phone numbers, several tabs by year, chats in Telegram, Viber and WhatsApp, and separately, contacts saved simply in the owner's phone. All of this needs to be consolidated into a single CRM before departure, while there is time to check every record, not after landing in a new country when nobody has time to check anything."
+    },
+    {
+      "t": "p",
+      "uk": "Практичний процес виглядає так: контакти з таблиць вивантажуються у форматі CSV і завантажуються в CRM з відповідністю полів, наприклад Bitrix24, KeyCRM або amoCRM, імʼя до імені, телефон до телефону, джерело звернення і дата останнього контакту до окремих колонок. Для клієнтів, з якими спілкування велося лише в месенджерах, картку в CRM створюють вручну, з позначкою дати останнього замовлення і статусу відносин: активний, на паузі, разова угода.",
+      "en": "The practical process looks like this: contacts from spreadsheets are exported in CSV format and imported into a CRM with matching fields, for example Bitrix24, KeyCRM or amoCRM, name to name, phone to phone, source of the inquiry and date of last contact into separate columns. For clients who were reached only through messengers, a CRM card is created manually, marked with the date of the last order and the relationship status: active, on pause, one time deal."
+    },
+    {
+      "t": "p",
+      "uk": "Окрему увагу варто приділити самій переписці. Якщо в чаті зафіксовано усну домовленість, підтвердження ціни чи згоду на індивідуальні умови, цю частину переписки треба зберегти як вкладення чи нотатку в картці клієнта до того, як номер зміниться. Скриншот чи експортований файл чату, привʼязаний до конкретного клієнта в CRM, захищає і від суперечок, і від втрати контексту, коли новий менеджер підхопить угоду замість того, хто виїхав.",
+      "en": "Special attention should go to the correspondence itself. If a chat contains a verbal agreement, price confirmation, or consent to individual terms, that part of the conversation should be saved as an attachment or note on the client's card before the number changes. A screenshot or exported chat file linked to a specific client in the CRM protects against disputes and against losing context when a new manager takes over the deal from the one who relocated."
+    },
+    {
+      "t": "h2",
+      "uk": "Як зберегти історію замовлень і домовленостей при переїзді",
+      "en": "How to preserve order history and agreements during the move"
+    },
+    {
+      "t": "p",
+      "uk": "Історія замовлень зазвичай розкидана ще більше, ніж контакти: рахунки лежать у бухгалтерській програмі, частина угод узгоджена усно, а знижки і особливі умови існують лише в памʼяті власника чи менеджера. Перед виїздом варто письмово зафіксувати для кожного активного клієнта чинну ціну чи знижку, умови оплати і графік поставок або надання послуг, бо саме ці деталі найшвидше губляться при зміні команди чи звʼязку.",
+      "en": "Order history is usually scattered even more than contacts: invoices sit in accounting software, some deals were agreed verbally, and discounts or special terms exist only in the owner's or manager's memory. Before departure, it is worth writing down, for every active client, the current price or discount, payment terms, and the delivery or service schedule, because these details are the first to get lost when the team or the contact channel changes."
+    },
+    {
+      "t": "p",
+      "uk": "Далі складається єдина таблиця угод зі статусами: активна, на паузі, завершена, із сумою і датою наступного контакту. Цю таблицю переносять у воронку CRM ще до виїзду, розподіляючи угоди по стадіях, щоб після переїзду не довелося відновлювати картину по памʼяті або зі старих чатів, які вже можуть бути недоступні.",
+      "en": "Next, a single deals table is built with statuses: active, on hold, completed, along with the amount and the date of the next contact. This table is moved into the CRM pipeline before departure, distributing deals across stages, so that after the move nobody has to reconstruct the picture from memory or from old chats that may no longer be accessible."
+    },
+    {
+      "t": "p",
+      "uk": "Фінансова історія клієнта прямо впливає на утримання: клієнт, який замовляв пʼять разів за рік, заслуговує на персональне звернення від менеджера, а не загальну розсилку про переїзд компанії. Саме різниця між формальним «ми переїхали» і персональним «памʼятаємо ваше останнє замовлення і готові продовжити на тих самих умовах» вирішує, чи клієнт залишиться під час релокації бізнесу.",
+      "en": "A client's financial history directly affects retention: a client who placed five orders in a year deserves a personal message from a manager, not a generic broadcast about the company's move. The difference between a formal 'we have relocated' and a personal 'we remember your last order and are ready to continue on the same terms' is exactly what decides whether a client stays through a business relocation."
+    },
+    {
+      "t": "h2",
+      "uk": "Безперервний звʼязок із клієнтами під час переходу",
+      "en": "Continuous contact with clients during the transition"
+    },
+    {
+      "t": "p",
+      "uk": "План безперервного звʼязку варто прописати окремо від плану переїзду речей. Старий номер телефону або зберігають активним із переадресацією на новий, або заздалегідь, за два тижні до зміни, оголошують новий контакт у всіх каналах одразу: в описі Telegram-каналу, у підписі листів, у закріпленому повідомленні в чатах із клієнтами.",
+      "en": "A continuous contact plan should be written separately from the plan for moving belongings. The old phone number is either kept active with forwarding to the new one, or, two weeks in advance, the new contact is announced across all channels at once: in the Telegram channel description, in email signatures, in a pinned message in client chats."
+    },
+    {
+      "t": "p",
+      "uk": "Найнадійніший запасний канал під час переходу, це Telegram-бот, який приймає звернення незалежно від того, де фізично перебуває менеджер і яка в нього роумінг-ситуація з номером. Бот вітає клієнта, відповідає на типові питання про статус замовлення чи графік роботи і одразу пересилає повідомлення відповідальній людині в CRM, тож жодне звернення не губиться навіть у дні активного переїзду.",
+      "en": "The most reliable backup channel during the transition is a Telegram bot, which receives inquiries regardless of where the manager is physically located or what is happening with their phone number and roaming. The bot greets the client, answers common questions about order status or working hours, and immediately forwards the message to the responsible person in the CRM, so no inquiry gets lost even during the busiest moving days."
+    },
+    {
+      "t": "p",
+      "uk": "На всіх каналах, які тимчасово чи назавжди виводяться з ладу, варто увімкнути автовідповідь з новими контактами і орієнтовним часом відповіді. Навіть один-два дні повної тиші після зміни номера чи офісу клієнт часто трактує як ознаку того, що компанія закрилась, тому проміжку без жодного сигналу від бізнесу бути не повинно.",
+      "en": "On every channel that is temporarily or permanently taken out of service, an auto reply with new contacts and an estimated response time should be turned on. Even one or two days of complete silence after a number or office change is often read by a client as a sign the company has closed, so there should never be a gap with no signal from the business at all."
+    },
+    {
+      "t": "h2",
+      "uk": "Переоформлення каналів комунікації і чек-лист релокації",
+      "en": "Reissuing communication channels and a relocation checklist"
+    },
+    {
+      "t": "p",
+      "uk": "Переоформлення каналів охоплює не лише телефон: IP-телефонію під новий номер, робочу пошту, платіжні реквізити під рахунок у новій країні, реквізити для виставлення інвойсів іноземним клієнтам і доступи до соціальних мереж компанії, якщо ними керував конкретний співробітник, який залишається в попередній країні. Кожен із цих пунктів варто переоформити до дати виїзду, а не після.",
+      "en": "Reissuing channels covers more than just the phone: IP telephony under the new number, the work email, payment details tied to an account in the new country, invoicing details for foreign clients, and access to the company's social media accounts if they were managed by a specific employee staying behind in the previous country. Each of these should be reissued before the departure date, not after."
+    },
+    {
+      "t": "p",
+      "uk": "Робочий порядок дій виглядає так: спершу аудит усіх місць, де зберігаються контакти і угоди, потім перенесення всього в одну CRM, далі завчасне сповіщення клієнтів про новий контакт, запуск запасного каналу звʼязку у вигляді бота і лише після цього сам переїзд, з посиленим контролем звернень протягом перших двох тижнів на новому місці.",
+      "en": "The working sequence looks like this: first an audit of every place where contacts and deals are stored, then migrating everything into one CRM, then notifying clients about the new contact in advance, launching a backup contact channel in the form of a bot, and only after that the move itself, with closer monitoring of inquiries during the first two weeks in the new location."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly ми будуємо саме такі переходи: налаштовуємо CRM під структуру конкретного бізнесу, переносимо контакти і історію замовлень з таблиць і месенджерів, підключаємо Telegram-бота як запасний канал звʼязку на час переїзду і перевіряємо, щоб жодна активна угода не загубилась між старим і новим офісом. Релокація бізнесу проходить спокійніше, коли база і звʼязок з клієнтами підготовлені заздалегідь, а не відновлюються по памʼяті вже за кордоном.",
+      "en": "At Devlly we build exactly this kind of transition: we set up a CRM matching the structure of a specific business, migrate contacts and order history from spreadsheets and messengers, connect a Telegram bot as a backup contact channel for the moving period, and check that no active deal gets lost between the old and the new office. Business relocation goes far more smoothly when the client base and communication are prepared in advance, rather than reconstructed from memory once already abroad."
+    }
+  ]
+}

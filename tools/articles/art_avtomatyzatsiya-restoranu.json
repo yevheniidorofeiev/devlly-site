@@ -1,0 +1,122 @@
+{
+ "title_uk": "Автоматизація ресторану: замовлення, кухня і доставка",
+ "title_en": "Restaurant automation: orders, kitchen and delivery",
+ "desc_uk": "Як автоматизувати ресторан: прийом замовлень через Telegram, передача на кухню, доставка і програма лояльності.",
+ "desc_en": "How to automate a restaurant: taking orders via Telegram, routing tickets to the kitchen, delivery and a loyalty program.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Автоматизація роботи ресторану: замовлення, кухня і облік | Devlly",
+  "te": "Restaurant Workflow Automation: Orders, Kitchen and Records | Devlly",
+  "d": "Автоматизуємо ресторан під ключ: прийом замовлень через Telegram, передача на кухню, програма лояльності і аналітика виручки. Без дорогих систем.",
+  "de": "We automate restaurants end to end: taking orders via Telegram, routing them to the kitchen, a loyalty program and revenue analytics. Without costly systems.",
+  "k": "автоматизація ресторану, прийом замовлень, передача на кухню, доставка їжі, програма лояльності, облік фудкосту, аналітика ресторану"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Ресторан втрачає гроші не на кухні, а в тих місцях, де інформація передається голосом. Офіціант забув пробити позицію, кухар не почув модифікатор, курʼєр поїхав не за тією адресою. Автоматизація ресторану прибирає ці розриви: замовлення фіксується один раз і далі йде системою без переказування з рук у руки.",
+   "en": "A restaurant loses money not in the kitchen but in the places where information is passed by voice. A waiter forgets to ring up an item, a cook misses a modifier, a courier drives to the wrong address. Restaurant automation removes these gaps: an order is recorded once and then travels through the system without being retold from hand to hand."
+  },
+  {
+   "t": "h2",
+   "uk": "Автоматизація ресторану починається з єдиного джерела даних",
+   "en": "Restaurant automation starts with a single source of data"
+  },
+  {
+   "t": "p",
+   "uk": "Перше, що варто зробити - звести всі канали в одну базу. Зал, телефон, сайт, агрегатори і месенджери мають писати замовлення в одну систему, а не в пʼять окремих зошитів і чатів. Коли джерело одне, ви бачите реальне завантаження кухні о 19:30 у пʼятницю, а не суму приблизних оцінок від змінних менеджерів. Це база, без якої решта автоматизації тримається на чесному слові персоналу.",
+   "en": "The first thing to do is bring every channel into one database. The dining room, phone, website, aggregators and messengers should all write orders into a single system, not into five separate notebooks and chats. With one source you see the real kitchen load at 7:30 pm on a Friday instead of a sum of rough guesses from shift managers. This is the foundation without which the rest of the automation rests on staff goodwill."
+  },
+  {
+   "t": "p",
+   "uk": "Другий крок - єдиний довідник страв. Одна позиція має один код, одну ціну, одну технологічну картку і один набір модифікаторів. Без цього будь-який звіт розвалиться: у залі «Цезар» коштує 280 гривень, на доставці 310, а у списанні продуктів він проходить як три різні позиції з різними виходами. Наводити лад у меню нудно, але саме це дає точні цифри в аналітиці.",
+   "en": "The second step is a single menu reference. One item has one code, one price, one recipe card and one set of modifiers. Without this any report falls apart: in the dining room a Caesar costs 280 hryvnias, on delivery 310, and in stock write-offs it appears as three different items with different yields. Cleaning up the menu is boring work, but it is exactly what produces accurate numbers in analytics."
+  },
+  {
+   "t": "p",
+   "uk": "Третє - ролі і права доступу. Офіціант бачить свої столи, кухар бачить чергу своєї станції, менеджер бачить зміну цілком, бухгалтер бачить рухи по складу. Це не бюрократія, а спосіб знайти джерело помилки за хвилину замість вечірнього розбору «хто це пробив і навіщо». Кожна дія має автора і час, тому спірних ситуацій стає менше вже в перший місяць.",
+   "en": "Third are roles and access rights. A waiter sees their tables, a cook sees the queue for their station, a manager sees the whole shift, an accountant sees stock movements. This is not bureaucracy but a way to find the source of a mistake in a minute instead of an evening argument about who rang that up and why. Every action has an author and a timestamp, so disputes drop off within the first month."
+  },
+  {
+   "t": "h2",
+   "uk": "Прийом замовлень: зал, телефон і Telegram в одному потоці",
+   "en": "Taking orders: dining room, phone and Telegram in one flow"
+  },
+  {
+   "t": "p",
+   "uk": "У залі прийом замовлень зручно робити з планшета або телефона офіціанта. Позиція обирається зі списку, модифікатори і побажання гостя додаються тут же, а не пишуться на серветці. Замовлення потрапляє на кухню за секунди після того, як офіціант відійшов від столу, і йому не треба бігти до термінала через увесь зал, щоб продублювати те, що він щойно записав.",
+   "en": "In the dining room, order taking is best done from the tablet or phone of the waiter. The item is picked from a list, modifiers and guest notes are added right there instead of on a napkin. The order reaches the kitchen seconds after the waiter leaves the table, and there is no need to run across the room to a terminal to duplicate what was just written down."
+  },
+  {
+   "t": "p",
+   "uk": "Для доставки і самовивозу добре працює Telegram-бот. Гість відкриває меню, бачить актуальні залишки, обирає час, спосіб оплати і адресу, яку бот памʼятає з минулого разу. Оператору не треба диктувати склад страв по телефону і перепитувати номер будинку. Досвід показує, що після запуску бота частина повторних клієнтів перестає дзвонити взагалі: замовити в чаті швидше, ніж чекати на лінії.",
+   "en": "For delivery and pickup a Telegram bot works well. The guest opens the menu, sees current availability, picks a time, payment method and the address the bot remembers from last time. The operator does not have to dictate dish contents over the phone or ask for the house number twice. In practice, after a bot launch a share of repeat customers stops calling altogether: ordering in a chat is faster than waiting on the line."
+  },
+  {
+   "t": "p",
+   "uk": "Телефон нікуди не зникає, тому оператору потрібен зручний екран: пошук клієнта за номером, історія його замовлень, улюблені позиції та збережені адреси. Замовлення на повтор оформлюється за пів хвилини. Важливо, щоб усі три канали писали в одну чергу, інакше кухня отримає три різні пріоритети і почне готувати те, що просто голосніше просять.",
+   "en": "The phone does not disappear, so the operator needs a convenient screen: customer lookup by number, order history, favourite items and saved addresses. A repeat order takes half a minute to place. What matters is that all three channels write into one queue, otherwise the kitchen gets three different priorities and starts cooking whatever is requested loudest."
+  },
+  {
+   "t": "h2",
+   "uk": "Передача на кухню і екран кухаря замість паперових чеків",
+   "en": "Routing to the kitchen and a cook screen instead of paper tickets"
+  },
+  {
+   "t": "p",
+   "uk": "Передача на кухню має бути автоматичною і роздільною за станціями. Гаряче йде на гарячий цех, салати на холодний, напої на бар, піца на свою піч. Кухар бачить лише те, що готує він, з часом очікування і позначкою про модифікатори. Паперові чеки при цьому не потрібні: вони губляться, вигорають і не показують, скільки хвилин страва вже стоїть у черзі.",
+   "en": "Routing to the kitchen should be automatic and split by station. Hot dishes go to the hot line, salads to the cold one, drinks to the bar, pizza to its own oven. A cook sees only what they prepare, with waiting time and a marker for modifiers. Paper tickets are not needed: they get lost, fade and never show how many minutes a dish has been sitting in the queue."
+  },
+  {
+   "t": "p",
+   "uk": "Екран кухаря корисний ще й тим, що дає зворотний звʼязок. Кухар натискає «взяв у роботу» і «готово», а офіціант чи курʼєр отримує сповіщення на телефон. Ніхто не носить страву на перевірку і не питає у вікні, чи вже можна забирати. Середній час віддачі стає вимірюваним показником, а не відчуттям, і його реально скоротити на кілька хвилин без нових людей у зміні.",
+   "en": "A cook screen is also useful because it provides feedback. The cook taps «started» and «ready», and the waiter or courier gets a notification on their phone. Nobody carries a dish over to check or shouts through the window asking whether it can be picked up. Average ticket time becomes a measurable number rather than a feeling, and it can realistically be cut by several minutes without adding people to the shift."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо варто налаштувати логіку курсів. Якщо гість замовив суп і стейк, система має відправити стейк на кухню із затримкою, щоб він не вистигав під лампою. Такі дрібниці не видно в презентаціях, але саме вони формують враження гостя і кількість повернень страв на кухню.",
+   "en": "Course logic deserves separate setup. If a guest orders soup and a steak, the system should send the steak to the kitchen with a delay so it does not sit cooling under a lamp. Such details never show up in presentations, yet they shape the guest experience and the number of dishes sent back."
+  },
+  {
+   "t": "h2",
+   "uk": "Доставка, курʼєри і бронювання столів",
+   "en": "Delivery, couriers and table reservations"
+  },
+  {
+   "t": "p",
+   "uk": "Доставка тримається на трьох речах: коректній адресі, розумному призначенні курʼєра і чесному часі. Адресу краще збирати структуровано, з вулицею, будинком і підʼїздом окремими полями, а не одним рядком тексту. Призначення можна робити напівавтоматично: система пропонує курʼєра за зоною і поточним завантаженням, менеджер підтверджує або змінює вручну за пару секунд.",
+   "en": "Delivery rests on three things: a correct address, smart courier assignment and an honest time estimate. The address is better collected in structured fields for street, building and entrance rather than as one line of text. Assignment can be semi-automatic: the system suggests a courier by zone and current load, and the manager confirms or overrides it in a couple of seconds."
+  },
+  {
+   "t": "p",
+   "uk": "Курʼєру достатньо простого бота або мінімального застосунку: список його замовлень, маршрут, кнопки «забрав», «доставив», сума до оплати і спосіб розрахунку. Наприкінці зміни автоматично рахується інкасація і кількість виконаних доставок. Це знімає щоденну звірку готівки, яка зазвичай зʼїдає у менеджера пів години і псує настрій усім учасникам.",
+   "en": "A courier needs only a simple bot or a minimal app: a list of their orders, the route, «picked up» and «delivered» buttons, the amount due and the payment method. At the end of the shift the cash handover and the number of completed deliveries are calculated automatically. This removes the daily cash reconciliation that usually eats half an hour of manager time each day and sours the mood of everyone involved."
+  },
+  {
+   "t": "p",
+   "uk": "Бронювання столів логічно тримати в тій самій системі. Гість обирає дату, час і кількість осіб, бачить доступні столи, отримує підтвердження і нагадування за дві години до візиту. Хостес відкриває схему залу і бачить, який стіл звільниться о 20:00. Нагадування помітно зменшують кількість тих, хто забронював і не прийшов, а це прямі гроші у вечір пʼятниці.",
+   "en": "Table reservations logically belong in the same system. The guest picks a date, time and party size, sees available tables, receives a confirmation and a reminder two hours before the visit. The host opens the floor plan and sees which table frees up at 8 pm. Reminders noticeably reduce no-shows, and that is direct money on a Friday evening."
+  },
+  {
+   "t": "h2",
+   "uk": "Програма лояльності, склад і аналітика фудкосту",
+   "en": "Loyalty program, stock and food cost analytics"
+  },
+  {
+   "t": "p",
+   "uk": "Програма лояльності працює тоді, коли гість не носить пластикову картку. Достатньо номера телефона або того самого Telegram-бота: бали нараховуються автоматично, баланс видно в чаті, персональна пропозиція приходить туди ж. Корисно розділяти гостей за поведінкою: той, хто замовляє щотижня, і той, хто був один раз пів року тому, потребують різних повідомлень і різних знижок.",
+   "en": "A loyalty program works when the guest does not carry a plastic card. A phone number or the same Telegram bot is enough: points accrue automatically, the balance is visible in the chat, and personal offers arrive in the same place. It helps to segment guests by behaviour: someone ordering weekly and someone who visited once six months ago need different messages and different discounts."
+  },
+  {
+   "t": "p",
+   "uk": "Склад і фудкост варто повʼязати з продажами через технологічні картки. Продали двадцять порцій пасти - система списала борошно, вершки і сир за нормою. Далі порівнюємо норму з фактичною інвентаризацією і бачимо розбіжність у відсотках. Якщо по одній позиції розбіжність стабільно 8-10 відсотків, це не містика, а конкретна станція, конкретна вага порції або конкретне порушення.",
+   "en": "Stock and food cost should be tied to sales through recipe cards. Twenty portions of pasta sold means the system writes off flour, cream and cheese by the norm. Then you compare the norm against the actual inventory count and see the variance in percent. If one item is consistently 8-10 percent off, that is not a mystery but a specific station, a specific portion weight or a specific violation."
+  },
+  {
+   "t": "p",
+   "uk": "Аналітика має відповідати на прості питання: які позиції приносять маржу, а які лише займають меню; о котрій годині падає середній чек; скільки коштує одна доставка з урахуванням оплати курʼєра. Коли ці цифри збираються самі, рішення про зміну меню чи графіка змін ухвалюються за даними, а не за настроєм. У Devlly ми будуємо такі системи під конкретний заклад: із тими каналами, кухнею і процесами, які у вас уже є, а не за універсальним шаблоном.",
+   "en": "Analytics should answer simple questions: which items bring margin and which merely take up menu space; at what hour the average check drops; how much one delivery costs including courier pay. When these numbers collect themselves, decisions about menu or shift schedules are made on data rather than mood. At Devlly we build such systems for a specific venue: with the channels, kitchen and processes you already have, not from a universal template."
+  }
+ ]
+}

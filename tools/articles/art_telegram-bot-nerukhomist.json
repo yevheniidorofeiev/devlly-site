@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram бот для агентства нерухомості: підбір і заявки",
+  "title_en": "Telegram Bot for a Real Estate Agency: Matching and Requests",
+  "desc_uk": "Як Telegram бот для нерухомості автоматизує прийом заявок, підбір обʼєктів і комунікацію з клієнтами без менеджера.",
+  "desc_en": "How a Telegram bot for real estate automates request intake, property matching and client communication without a manager.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram бот для агентства нерухомості | Devlly",
+    "te": "Telegram Bot for a Real Estate Agency | Devlly",
+    "d": "Як Telegram бот для нерухомості автоматизує прийом заявок, підбір обʼєктів і комунікацію з клієнтами без менеджера.",
+    "de": "How a Telegram bot for real estate automates request intake, property matching and client communication without a manager.",
+    "k": "telegram бот для нерухомості, бот для агентства нерухомості, прийом заявок, підбір обʼєктів, кваліфікація лідів, автоматизація нерухомості, чат-бот для рієлтора"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Агентство нерухомості втрачає заявки не тому, що мало реклами, а тому, що менеджер не встигає відповісти за перші пʼятнадцять хвилин. Telegram бот приймає запит цілодобово, ставить уточнюючі питання і показує реальні обʼєкти з фото ще до того, як хтось підніме слухавку. Нижче - як це працює на практиці, скільки коштує часу і що саме отримує бізнес.",
+      "en": "A real estate agency loses leads not because of weak advertising, but because a manager fails to reply within the first fifteen minutes. A Telegram bot takes the request around the clock, asks clarifying questions and shows real properties with photos before anyone picks up the phone. Below is how this works in practice, how much time it takes and what the business actually gets."
+    },
+    {
+      "t": "h2",
+      "uk": "Що робить Telegram бот для нерухомості",
+      "en": "What a Telegram bot for real estate does"
+    },
+    {
+      "t": "p",
+      "uk": "Бот працює як перша лінія: він доступний у будь-який час, відповідає миттєво і не залежить від того, скільки менеджерів сьогодні на зміні. Клієнт заходить у чат з реклами, оголошення або QR-коду на банері біля обʼєкта, натискає «Старт» і одразу потрапляє в діалог, де в нього питають головне: бюджет, район, кількість кімнат і тип угоди - оренда чи купівля.",
+      "en": "The bot works as a first line of contact: it is available at any hour, replies instantly and does not depend on how many managers are on shift today. The client enters the chat from an ad, a listing or a QR code on a banner near the property, taps Start and immediately lands in a dialogue that asks the essentials: budget, district, number of rooms and deal type - rent or purchase."
+    },
+    {
+      "t": "p",
+      "uk": "Уся база обʼєктів підтягується з вашої CRM або таблиці. Бот не просто пересилає посилання на сайт, а показує повноцінні картки: фото, площа, поверх, ціна, короткий опис і кнопки «Записатися на перегляд» та «Показати схожі». Клієнт бачить конкретні пропозиції за 30-40 секунд замість того, щоб чекати відповіді у месенджері пів дня і паралельно писати ще трьом агентствам.",
+      "en": "The whole property database is pulled from your CRM or spreadsheet. The bot does not simply forward a link to the website, it shows full cards: photos, area, floor, price, a short description and buttons for booking a viewing or showing similar options. The client sees concrete offers in 30-40 seconds instead of waiting half a day for a reply while messaging three other agencies in parallel."
+    },
+    {
+      "t": "p",
+      "uk": "Для агентства це означає, що жоден контакт не губиться. Кожен, хто написав боту, вже є в базі з телефоном, критеріями пошуку і історією переглянутих карток. Навіть якщо людина не купила зараз, через три місяці ви точно знаєте, що саме їй пропонувати, і не починаєте розмову з нуля. Це особливо помітно на дорогих обʼєктах, де цикл угоди розтягується на пів року.",
+      "en": "For the agency this means no contact is lost. Everyone who wrote to the bot is already in the database with a phone number, search criteria and a history of viewed cards. Even if the person does not buy now, in three months you know exactly what to offer and do not start the conversation from scratch. This matters most on expensive properties, where the deal cycle stretches over half a year."
+    },
+    {
+      "t": "h2",
+      "uk": "Анкета з фільтрами і підбір обʼєктів",
+      "en": "A filter questionnaire and property matching"
+    },
+    {
+      "t": "p",
+      "uk": "Анкета - серцевина бота. Її роблять короткою: 4-6 питань з кнопками, без вільного вводу там, де можна обійтися вибором. Бюджет задається діапазонами, район - списком або мапою, кількість кімнат - кнопками від однієї до чотирьох плюс. Що менше треба друкувати з телефона, то вищий відсоток тих, хто дійшов до кінця анкети, а не зник на третьому питанні.",
+      "en": "The questionnaire is the heart of the bot. It is kept short: 4-6 questions with buttons, without free text input wherever a choice will do. Budget is set in ranges, district by list or map, room count by buttons from one to four plus. The less a person has to type on a phone, the higher the share of those who reach the end of the form instead of dropping off at question three."
+    },
+    {
+      "t": "p",
+      "uk": "Після відповідей бот робить запит до бази і повертає 3-5 найбільш релевантних варіантів. Показувати більше немає сенсу: людина губиться у списку і закриває чат. Якщо точних збігів немає, бот розширює критерії сам - наприклад, додає сусідній район або піднімає верхню межу бюджету на 10 відсотків - і чесно попереджає, що показує близькі, а не точні збіги.",
+      "en": "After the answers the bot queries the database and returns the 3-5 most relevant options. Showing more makes no sense: the person gets lost in the list and closes the chat. If there are no exact matches, the bot widens the criteria itself - for example, adds a neighbouring district or raises the upper budget limit by 10 percent - and honestly warns that these are close, not exact, matches."
+    },
+    {
+      "t": "p",
+      "uk": "Фільтри легко доповнюються під специфіку агентства: новобудова чи вторинка, стан ремонту, поверх не перший і не останній, дозвіл на тварин, паркінг, готовність до заселення, наявність документів на руках. Кожен додатковий фільтр звужує вибірку, тому в анкету виносять лише ті два-три, що реально впливають на рішення, а решту залишають агенту для уточнення в розмові.",
+      "en": "Filters are easily extended to the agency's specifics: new build or resale, renovation state, not the first or last floor, pets allowed, parking, move-in readiness, documents ready. Every extra filter narrows the selection, so only the two or three that genuinely affect the decision go into the form, while the rest are left for the agent to clarify in conversation."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом заявок на перегляд і передача агенту",
+      "en": "Viewing request intake and handoff to an agent"
+    },
+    {
+      "t": "p",
+      "uk": "Прийом заявок на перегляд - момент, де бот приносить найбільше грошей. Під карткою обʼєкта є кнопка запису: клієнт обирає зручний день і проміжок часу, бот перевіряє вільні слоти агента і фіксує зустріч у календарі. Агент отримує повідомлення з адресою, контактом і критеріями клієнта - без переписки в трьох чатах і без пошуку номера в старих повідомленнях.",
+      "en": "Viewing request intake is where the bot brings in the most money. Under each property card there is a booking button: the client picks a convenient day and time slot, the bot checks the agent's free slots and locks the meeting into the calendar. The agent gets a message with the address, contact and client criteria - no correspondence across three chats and no digging for a phone number in old messages."
+    },
+    {
+      "t": "p",
+      "uk": "За добу до перегляду бот надсилає нагадування з адресою, орієнтиром і кнопками «Підтвердити» або «Перенести». Це проста річ, але вона знімає значну частину порожніх виїздів, коли агент їде через усе місто, а клієнт просто передумав і забув попередити. Перенесення в один дотик люди роблять охоче, а от дзвонити й вибачатися - майже ніколи.",
+      "en": "A day before the viewing the bot sends a reminder with the address, a landmark and Confirm or Reschedule buttons. It is a simple thing, but it removes a large share of wasted trips where the agent drives across the city and the client has simply changed their mind and forgotten to say so. People happily reschedule in one tap, but they almost never call to apologise."
+    },
+    {
+      "t": "p",
+      "uk": "Коли розмова виходить за межі сценарію - питання про іпотеку, торг, юридичну чистоту чи стан комунікацій - бот передає діалог живому агенту. Передача відбувається всередині того самого чату: клієнту не треба нікуди переходити, а агент бачить усю попередню історію, обрані фільтри і переглянуті картки, тому не питає вдруге те, на що вже відповідали.",
+      "en": "When the conversation goes beyond the script - questions about mortgages, price negotiation, legal status or the condition of utilities - the bot hands the dialogue to a live agent. The handoff happens inside the same chat: the client does not have to go anywhere, and the agent sees the full prior history, the chosen filters and the viewed cards, so nothing already answered gets asked twice."
+    },
+    {
+      "t": "h2",
+      "uk": "Сповіщення про новинки і повернення клієнтів",
+      "en": "New listing notifications and bringing clients back"
+    },
+    {
+      "t": "p",
+      "uk": "Більшість покупців не готові до угоди в перший тиждень. Тому бот запамʼятовує критерії і надсилає сповіщення про новинки: щойно в базу додається обʼєкт, який збігається з фільтрами конкретного клієнта, той отримує картку з фото і ціною в день публікації. Це працює краще за будь-яку масову розсилку, бо повідомлення персональне і стосується саме того району й бюджету.",
+      "en": "Most buyers are not ready to close in the first week. So the bot remembers the criteria and sends new listing notifications: as soon as a property matching a specific client's filters is added to the database, they receive a card with photos and price on the day it is published. This works better than any mass mailing, because the message is personal and concerns exactly that district and budget."
+    },
+    {
+      "t": "p",
+      "uk": "Частоту варто обмежувати - не більше одного-двох повідомлень на тиждень, з видимою кнопкою «Призупинити підбір». Агресивні розсилки в Telegram швидко закінчуються блокуванням бота, і ви втрачаєте канал назавжди, разом з усією історією діалогу. Розумний ліміт, навпаки, зберігає базу живою місяцями і робить бот джерелом повторних звернень.",
+      "en": "Frequency should be capped - no more than one or two messages a week, with a visible Pause matching button. Aggressive mailings in Telegram quickly end in the bot being blocked, and you lose the channel forever along with the whole dialogue history. A sensible limit, by contrast, keeps the base alive for months and turns the bot into a source of repeat enquiries."
+    },
+    {
+      "t": "p",
+      "uk": "Так само бот повідомляє про зниження ціни на обʼєкти, які клієнт уже дивився, і про зміну статусу: заброньовано, продано, знову доступно. Ці тригери повертають людей, що, здавалося б, уже випали з воронки - падіння ціни на пʼять відсотків часто виявляється сильнішим аргументом, ніж десять дзвінків менеджера з питанням «ви ще шукаєте?».",
+      "en": "The bot also reports price drops on properties the client already viewed, and status changes: reserved, sold, available again. These triggers bring back people who seemed to have dropped out of the funnel - a five percent price cut often turns out to be a stronger argument than ten manager calls asking whether they are still looking."
+    },
+    {
+      "t": "h2",
+      "uk": "Кваліфікація лідів і налаштування бота",
+      "en": "Lead qualification and setting the bot up"
+    },
+    {
+      "t": "p",
+      "uk": "Кваліфікація лідів відбувається непомітно для клієнта. Бот рахує, чи вказано реальний бюджет, чи є терміновість, чи потрібна іпотека, скільки карток людина відкрила і чи записалася на перегляд. На основі цього лід отримує оцінку, і менеджер бачить у CRM, кому дзвонити першим. Замість обдзвону всіх підряд агент працює з десятком гарячих контактів на день, а холодні дозрівають на автоматичних сповіщеннях без витрат людського часу.",
+      "en": "Lead qualification happens invisibly for the client. The bot tracks whether a realistic budget was given, whether there is urgency, whether a mortgage is needed, how many cards the person opened and whether they booked a viewing. Based on that the lead gets a score and the manager sees in the CRM who to call first. Instead of dialling everyone, the agent works with a dozen hot contacts a day while cold ones mature on automatic notifications at no human cost."
+    },
+    {
+      "t": "p",
+      "uk": "Налаштування займає від двох до чотирьох тижнів, залежно від того, у якому вигляді зберігається база обʼєктів і чи потрібна двостороння інтеграція з CRM. Найдовше зазвичай не програмування, а приведення бази до ладу: фото різного розміру й якості, порожні поля з площею, дублі одного обʼєкта від різних агентів, райони, записані пʼятьма різними способами.",
+      "en": "Setup takes from two to four weeks, depending on the format the property database is stored in and whether two-way CRM integration is needed. The longest part is usually not the programming but cleaning up the data: photos of varying size and quality, empty area fields, duplicates of the same property from different agents, districts spelled in five different ways."
+    },
+    {
+      "t": "p",
+      "uk": "Починати варто з мінімального сценарію: анкета, підбір, запис на перегляд. Решту - сповіщення, скоринг, аналітику по джерелах трафіку - додають уже за даними перших місяців роботи, коли видно, де саме люди виходять з діалогу. У Devlly ми розробляємо такі боти під конкретне агентство: з вашою базою обʼєктів, вашими фільтрами і вашою CRM, а не за універсальним шаблоном.",
+      "en": "It is worth starting with a minimal scenario: questionnaire, matching, viewing booking. Everything else - notifications, scoring, analytics by traffic source - is added later using data from the first months, once it is clear where people actually leave the dialogue. At Devlly we build such bots for a specific agency: with your property database, your filters and your CRM, rather than from a universal template."
+    }
+  ]
+}

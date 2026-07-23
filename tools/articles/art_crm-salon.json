@@ -1,0 +1,97 @@
+{
+  "title_uk": "CRM для салону краси: облік клієнтів і записів",
+  "title_en": "CRM for a beauty salon: client records and bookings",
+  "date_uk": "09 КВІ 2026",
+  "date_en": "APR 9, 2026",
+  "desc_uk": "Як CRM для салону краси допомагає вести картку клієнта, розклад майстрів, облік матеріалів і зарплати. Розбираємо на цифрах, сценаріях і типових помилках.",
+  "desc_en": "How a CRM for a beauty salon handles client cards, stylist schedules, materials and payroll. We break it down with numbers, real scenarios and common mistakes.",
+  "seo": {
+    "t": "CRM для салону краси: облік клієнтів і записів | Devlly",
+    "te": "CRM for a beauty salon: client records and bookings | Devlly",
+    "d": "CRM для салону краси: картка клієнта, онлайн-запис, розклад майстрів, облік матеріалів, зарплати та аналітика. Як автоматизувати салон і повертати клієнтів.",
+    "de": "CRM for a beauty salon: client cards, online booking, stylist schedules, stock tracking, payroll and analytics. How to automate a salon and win clients back.",
+    "k": "crm для салону краси, облік клієнтів салону, програма для запису клієнтів, автоматизація салону краси, срм для салону, аналітика салону"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Салон краси живе на повторних візитах. Клієнтка, яка ходить до свого майстра раз на місяць протягом трьох років, приносить у десятки разів більше, ніж випадкова гостя зі знижкою. Але щоб вона поверталася, хтось має пам'ятати її формулу фарби, алергію на аміак і те, що вона любить записуватися на вечір п'ятниці. Зошит на рецепції цього не пам'ятає, а повідомлення в директі губиться за тиждень. CRM для салону краси - це не «модна програма», а спосіб не втрачати гроші, які вже у вас у руках. Розберімо по кроках, що саме така система має вміти і які цифри вона змінює.",
+      "en": "A beauty salon lives on repeat visits. A client who sees her stylist once a month for three years brings in dozens of times more than a random guest lured in by a discount. But for her to keep coming back, someone has to remember her color formula, her ammonia allergy, and the fact that she likes Friday evening slots. The notebook at the front desk doesn't remember any of that, and a direct message gets lost within a week. A CRM for a beauty salon isn't a “trendy app” - it's a way to stop losing money you already have in hand. Let's walk through what such a system must actually do and which numbers it changes."
+    },
+    {
+      "t": "h2",
+      "uk": "CRM для салону краси: з чого починається порядок",
+      "en": "CRM for a beauty salon: where order begins"
+    },
+    {
+      "t": "p",
+      "uk": "Почніть із простого питання: де зараз живе ваша клієнтська база? Якщо відповідь - «у голові адміністратора», «у зошиті» та «в директі», то бази у вас немає. Є розрізнені шматки, які зникнуть разом із людиною, що звільниться. CRM для салону краси збирає все в одну систему: запис, історію візитів, послуги, суми, майстрів, матеріали і комунікацію з клієнтом. Кожен наступний крок будується на цих даних. Салон на три крісла і мережа з п'яти філій відрізняються масштабом, але логіка однакова: спершу дані, потім автоматизація, потім аналітика. Автоматизувати хаос не вийде - вийде лише швидший хаос.",
+      "en": "Start with a simple question: where does your client base actually live right now? If the answer is “in the receptionist's head,” “in a notebook,” and “in Instagram DMs,” then you don't have a base. You have scattered fragments that will disappear along with the person who quits. A CRM for a beauty salon pulls everything into one system: bookings, visit history, services, amounts, stylists, materials, and client communication. Every next step is built on this data. A three-chair salon and a five-location chain differ in scale, but the logic is the same: data first, then automation, then analytics. You cannot automate chaos - you'll only get faster chaos."
+    },
+    {
+      "t": "p",
+      "uk": "Типова помилка - купити «універсальну» CRM для продажів і намагатися прилаштувати її під салон. У класичній CRM центральна сутність - угода: вона проходить воронку і закривається. У салоні центральна сутність - візит, і він повторюється десятки разів на рік. Воронка «новий лід - перемовини - успіх» тут просто не працює. Потрібна інша модель: клієнт, серія його візитів, послуги в кожному візиті, а до кожної послуги прив'язані майстер, час, матеріали і сума. Саме тому салони або беруть галузеве рішення, або замовляють кастомну систему, де запис і календар - це ядро, а не додатковий модуль, прикручений збоку.",
+      "en": "A typical mistake is buying a “universal” sales CRM and trying to bend it to fit a salon. In a classic CRM the core entity is the deal: it moves through a funnel and closes. In a salon the core entity is the visit, and it repeats dozens of times a year. A “new lead - negotiation - won” funnel simply doesn't work here. You need a different model: the client, the series of her visits, the services within each visit, and attached to every service - the stylist, the time, the materials, and the amount. That's why salons either take an industry-specific solution or commission a custom system where booking and the calendar are the core, not a module bolted on the side."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік клієнтів салону: картка, яка справді пам'ятає все",
+      "en": "Salon client records: a card that truly remembers everything"
+    },
+    {
+      "t": "p",
+      "uk": "Облік клієнтів салону починається з картки, яка справді щось пам'ятає. Мінімум, що економить час і нерви: історія всіх візитів із датами, послугами та сумами; формула фарби з попереднього разу і скільки грамів пішло; алергії та протипоказання; улюблений майстер; звичні дні й години; фото до і після; коментарі на кшталт «любить тишу під час стрижки» або «завжди спізнюється на п'ятнадцять хвилин». Коли клієнтка телефонує і каже «зробіть як минулого разу», адміністратор не перепитує і не панікує - він відкриває картку і бачить точний рецепт разом із усім контекстом.",
+      "en": "Salon client records start with a card that genuinely remembers things. The minimum that saves time and nerves: the history of every visit with dates, services and amounts; the color formula from last time and how many grams were used; allergies and contraindications; the preferred stylist; usual days and hours; before-and-after photos; notes like “likes silence during a haircut” or “always fifteen minutes late.” When a client calls and says “do the same as last time,” the receptionist doesn't have to ask questions or panic - she opens the card and sees the exact recipe along with all the context."
+    },
+    {
+      "t": "p",
+      "uk": "Формула фарби - окремий випадок, який ідеально показує цінність обліку. Колорист змішав 6/1 і 8/0 у пропорції два до одного, додав оксид шість відсотків і витратив дев'яносто грамів. Якщо це записано, наступний візит займе на двадцять хвилин менше, результат буде передбачуваним, а перевитрати матеріалу зникнуть. Якщо не записано - клієнтка незадоволена відтінком, майстер робить корекцію за свій кошт, салон втрачає і час, і фарбу, і настрій. Те саме з алергіями: одна пропущена позначка про реакцію на аміак - і замість повторного візиту ви отримуєте скандал, компенсацію та відгук на одну зірку, який читатимуть наступні півроку.",
+      "en": "The color formula is a special case that perfectly illustrates the value of record-keeping. The colorist mixed 6/1 and 8/0 in a two-to-one ratio, added a six percent developer, and used ninety grams. If that's written down, the next visit takes twenty minutes less, the result is predictable, and material overuse disappears. If it isn't written down, the client is unhappy with the shade, the stylist redoes it at her own expense, and the salon loses time, product, and morale. The same goes for allergies: one missed note about an ammonia reaction, and instead of a repeat visit you get a confrontation, a refund, and a one-star review that people will read for the next six months."
+    },
+    {
+      "t": "h2",
+      "uk": "Програма для запису клієнтів і розклад майстрів",
+      "en": "Client booking software and stylist schedules"
+    },
+    {
+      "t": "p",
+      "uk": "Програма для запису клієнтів має вирішувати не задачу «показати календар», а задачу «заповнити крісла». Це різні речі. Мінімальний робочий функціонал: онлайн-запис із сайту та соцмереж, вибір послуги й конкретного майстра, автоматичний розрахунок тривалості (фарбування - три години, чоловіча стрижка - сорок хвилин), блокування накладок, нагадування клієнту за добу і за дві години до візиту. Нагадування в Telegram або SMS знижують кількість неявок із типових п'ятнадцяти-двадцяти відсотків до п'яти-семи. Для салону, який приймає десять візитів на день, це п'ять-шість врятованих слотів на тиждень - тобто ще одна повна робоча зміна майстра.",
+      "en": "Client booking software should solve the task of “filling the chairs,” not the task of “showing a calendar.” Those are different things. The minimum working feature set: online booking from your website and social media, choice of service and specific stylist, automatic duration calculation (coloring - three hours, a men's haircut - forty minutes), double-booking prevention, and reminders to the client a day before and two hours before the visit. Reminders in Telegram or SMS cut no-shows from a typical fifteen to twenty percent down to five to seven. For a salon taking ten visits a day, that's five or six rescued slots a week - a whole extra shift's worth of work."
+    },
+    {
+      "t": "p",
+      "uk": "Далі - завантаженість. Керівник має бачити не «сьогодні було двадцять два записи», а скільки відсотків робочого часу кожного майстра реально зайнято. Один колорист працює на вісімдесят п'ять відсотках і має чергу на два тижні, інший - на сорок і сидить у телефоні. Це не питання «хто кращий», це питання розкладу: можливо, другий стоїть у зміни, коли потоку немає, або його просто не пропонують першим на онлайн-записі. Коли завантаженість видно в цифрах, зміни ставлять під потік, а не «як кому зручно», і той самий персонал дає на п'ятнадцять-двадцять відсотків більше виручки без жодного нового найму й без підвищення цін.",
+      "en": "Next comes utilization. The owner needs to see not “we had twenty-two bookings today,” but what percentage of each stylist's working hours is actually filled. One colorist runs at eighty-five percent utilization with a two-week waiting list; another sits at forty percent scrolling her phone. This isn't a question of “who's better,” it's a question of scheduling: maybe the second one works shifts with no traffic, or she simply isn't offered first in the online booking flow. Once utilization is visible in numbers, shifts get built around demand rather than around convenience, and the same staff produces fifteen to twenty percent more revenue with no new hires and no price increase."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація салону краси: матеріали, собівартість і зарплати",
+      "en": "Beauty salon automation: materials, cost price and payroll"
+    },
+    {
+      "t": "p",
+      "uk": "Автоматизація салону краси без обліку витратних матеріалів - це половина роботи. Кожна послуга має списувати склад: фарбування - стільки грамів барвника й оксиду, манікюр - базу, гель-лак, топ, пилки. Коли списання прив'язане до конкретного візиту, ви бачите реальну собівартість послуги, а не «приблизно так». Приклад: фарбування продається за тисячу двісті гривень, матеріалів пішло на сто вісімдесят, майстер отримує сорок відсотків - це чотириста вісімдесят. Залишається п'ятсот сорок на оренду, адміністратора, податки й прибуток. Без цих цифр власник упевнений, що заробляє, а насправді фарбування преміальним барвником у нього збиткове, і що більше таких клієнтів - то гірше.",
+      "en": "Beauty salon automation without tracking consumables is only half the job. Every service should deduct from stock: coloring - so many grams of dye and developer; a manicure - base, gel polish, top coat, files. When the write-off is tied to a specific visit, you see the real cost price of the service, not a rough guess. Example: coloring sells for 1,200 hryvnias, materials cost 180, the stylist takes forty percent - that's 480. What's left is 540 for rent, the receptionist, taxes and profit. Without these numbers the owner is convinced he's earning, while in reality coloring with premium dye runs at a loss - and the more such clients he gets, the worse it gets."
+    },
+    {
+      "t": "p",
+      "uk": "Зарплата на відсоток від виручки - стандарт галузі й водночас головне джерело конфліктів. Майстер рахує на папірці, адміністратор - у своєму файлі, наприкінці місяця цифри не сходяться, і хтось іде ображений або звільняється. Система має рахувати автоматично: сума закритих візитів майстра за період, мінус повернення, помножена на його відсоток, плюс бонус за продаж домашнього догляду, мінус перевитрата матеріалів понад норму. Майстер бачить свою цифру в реальному часі, у застосунку або Telegram-боті, - і мотивація починає працювати, бо він розуміє, скільки заробить сьогодні ввечері, а не за тридцять днів.",
+      "en": "Commission-based pay is the industry standard and simultaneously the main source of conflict. The stylist counts on a scrap of paper, the receptionist counts in her own file, at the end of the month the numbers don't match, and someone leaves offended - or just leaves. The system should calculate automatically: the total of the stylist's closed visits for the period, minus refunds, multiplied by her percentage, plus a bonus for retail sales, minus material overuse above the norm. The stylist sees her number in real time, in an app or a Telegram bot - and motivation starts working, because she knows what she'll earn tonight, not in thirty days."
+    },
+    {
+      "t": "h2",
+      "uk": "Що показує аналітика CRM салону краси та як повертати клієнтів",
+      "en": "What beauty salon CRM analytics show and how to win clients back"
+    },
+    {
+      "t": "p",
+      "uk": "Найцінніше, що вміє CRM салону краси, - повертати тих, хто зник. Система щодня сканує базу і знаходить клієнтів, які не приходили шістдесят днів і більше, хоча раніше бували щомісяця. Це не «холодна база», це ваші люди, які просто випали з ритму. Далі - автоматичне повідомлення в Telegram чи Viber: «Олено, ваш останній візит був дванадцятого лютого, у майстра Ірини є вільне вікно в суботу, ваші двісті бонусів активні до кінця місяця». Конверсія такої розсилки - десять-двадцять відсотків: із п'ятисот «сплячих» повертається п'ятдесят-сто людей, і це виручка, за яку ви вже колись заплатили рекламою. Програма лояльності працює в тій самій логіці: бали за візит, статус після п'ятого відвідування, бонус за приведену подругу - усе нараховується автоматично, без табличок і чесного слова адміністратора.",
+      "en": "The most valuable thing a beauty salon CRM does is bring back the ones who vanished. Every day the system scans the base and finds clients who haven't come in for sixty days or more, though they used to visit monthly. This isn't a “cold base” - these are your people who simply fell out of rhythm. Then comes an automatic message in Telegram or Viber: “Olena, your last visit was on February 12, Iryna has an open slot on Saturday, and your 200 bonus points are valid until the end of the month.” Such campaigns convert at ten to twenty percent: out of five hundred dormant clients, fifty to a hundred come back - revenue you already paid for once with advertising. The loyalty program runs on the same logic: points per visit, a status tier after the fifth visit, a bonus for referring a friend - all accrued automatically, without spreadsheets or the receptionist's word of honor."
+    },
+    {
+      "t": "p",
+      "uk": "Цифри, які власник має бачити щотижня: середній чек, LTV (скільки грошей приносить клієнт за весь час), частота візитів, відтік, виручка на майстра і на крісло, частка повторних клієнтів. Якщо філій кілька - усе те саме в розрізі кожної, але з єдиною базою, щоб клієнтка з однієї локації могла записатися в іншу і її історія поїхала разом із нею. І окремо про болючий сценарій: майстер іде і забирає клієнтів. Юридично заборонити спілкування ви не можете, але можете зробити базу справді своєю: контакти, історія й уся комунікація живуть усередині системи, а не в особистому телефоні майстра; доступ до чужих карток обмежений роллю; після звільнення доступ закривається одним кліком, а клієнтів автоматично переводять на іншого майстра з персональною пропозицією замість тиші. Саме такі системи - з онлайн-записом, обліком складу, розрахунком зарплат і Telegram-ботом для клієнтів - ми в Devlly будуємо під конкретний салон, а не намагаємося втиснути його в чужий шаблон.",
+      "en": "The numbers an owner should see weekly: average ticket, LTV (how much a client brings over their entire lifetime), visit frequency, churn, revenue per stylist and per chair, and the share of repeat clients. If you have several locations - all of the same, broken down per location, but on a single shared base, so a client from one salon can book at another and her history travels with her. And a word on the painful scenario: a stylist leaves and takes clients with her. You can't legally forbid people from talking, but you can make the base genuinely yours: contacts, history and all communication live inside the system, not on the stylist's personal phone; access to other people's cards is limited by role; after a resignation, access is revoked in one click, and clients are automatically reassigned to another stylist with a personal offer instead of silence. These are exactly the systems - with online booking, stock tracking, payroll calculation and a Telegram bot for clients - that we build at Devlly for a specific salon, rather than trying to squeeze it into someone else's template."
+    }
+  ]
+}

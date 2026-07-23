@@ -1,0 +1,122 @@
+{
+  "title_uk": "Дропшипінг з Польщі в Україну: як налаштувати процес",
+  "title_en": "Dropshipping from Poland to Ukraine: how to set up the process",
+  "desc_uk": "Як налаштувати дропшипінг з Польщі в Україну: постачальники, прийом замовлень, оплати і трекінг доставки через кордон. Автоматизація без ручної роботи.",
+  "desc_en": "How to set up dropshipping from Poland to Ukraine: finding suppliers, order intake, payments and cross border tracking, without manual work.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Дропшипінг з Польщі в Україну: автоматизація | Devlly",
+    "te": "Dropshipping from Poland to Ukraine: Setup Guide | Devlly",
+    "d": "Як налаштувати дропшипінг з Польщі в Україну: постачальники, прийом замовлень, оплати і трекінг доставки через кордон. Автоматизація без ручної роботи.",
+    "de": "How to set up dropshipping from Poland to Ukraine: finding suppliers, order intake, payments and cross border tracking, without manual work.",
+    "k": "дропшипінг з польщі, дропшипінг польща україна, дропшиппинг из польши, дропшиппинг польша украина, dropshipping from poland to ukraine, польські постачальники дропшипінг, hurtownie дропшипінг, дропшипінг злотий гривня, поставщики из польши для дропшиппинга, автоматизація дропшипінгу польща"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Дропшипінг з Польщі в Україну останні пару років став одним із найзручніших форматів для тих, хто хоче продавати товар без власного складу. Причина проста: до Польщі їде фура кожен день, а асортимент hurtowni охоплює одяг, аксесуари, косметику і товари для дому за цінами, вигіднішими за азійські маршрути через коротшу логістику. Але маршрут через кордон додає свою специфіку: курс злотого до гривні, дві поштові системи, митні ліміти і потреба тримати залишки постачальника в актуальному стані. Розберемо, як побудувати процес так, щоб він не тримався на людині, яка вручну звіряє склад і копіює трек-номери, а працював стабільно навіть при кількох десятках замовлень щодня.",
+      "en": "Dropshipping from Poland to Ukraine has become one of the most convenient formats for selling without holding your own stock. A truck crosses the border daily, and Polish wholesale catalogues cover clothing, accessories, cosmetics and home goods at prices that beat longer Asian shipping routes. But the cross border setup adds its own layer: the zloty to hryvnia rate, two separate postal systems, customs limits and the need to keep supplier stock levels current. Here is how to build a process that does not depend on someone manually checking stock and copying tracking numbers, and that keeps working even at dozens of orders a day."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому дропшипінг з Польщі в Україну обирають частіше за інші напрямки",
+      "en": "Why dropshipping from Poland to Ukraine beats other routes"
+    },
+    {
+      "t": "p",
+      "uk": "Головна перевага маршруту, це швидкість. Товар з польського складу доїжджає до українського отримувача за два-чотири дні, тоді як партія з Китаю йде тижнями. Для ніш, де клієнт очікує покупку швидко, наприклад одяг, взуття чи аксесуари, це критично: менше скасованих замовлень і менше запитів «де моя посилка».",
+      "en": "The main advantage of this route is speed. Goods from a Polish warehouse reach a Ukrainian recipient in two to four days, while a shipment from China takes weeks. For niches where customers expect fast delivery, such as clothing, shoes or accessories, this matters: fewer cancelled orders and fewer where is my parcel messages."
+    },
+    {
+      "t": "p",
+      "uk": "Друга причина, це доступ до великих hurtowni з живими фото товару і адекватною мінімальною партією. Багато польських оптовиків вже працюють з українськими партнерами, розуміють специфіку і дають API або XML фід для вивантаження каталогу, що суттєво спрощує запуск інтернет магазину без ручного перенесення карток товару.",
+      "en": "The second reason is access to large wholesale warehouses with real product photos and reasonable minimum order quantities. Many Polish wholesalers already work with Ukrainian partners, understand the specifics, and provide an API or XML feed to load the catalogue, which simplifies launching an online store without manually entering product cards."
+    },
+    {
+      "t": "p",
+      "uk": "Третя причина, курсова стабільність відносно долара робить розрахунок собівартості прозорішим, ніж при закупівлі в юанях чи доларах з подальшою конвертацією через кілька валют. Продавцю простіше пояснити клієнту ціну і закласти маржу без зайвих припущень, а планування закупівель на тиждень чи місяць наперед стає передбачуванішим.",
+      "en": "The third reason is that the exchange rate is more stable relative to the dollar, which makes cost calculation clearer than buying in yuan or dollars with several currency conversions along the way. It is easier for a seller to explain the price to a customer and set a margin without extra guesswork, and planning purchases a week or a month ahead becomes more predictable."
+    },
+    {
+      "t": "h2",
+      "uk": "Як знайти надійних польських постачальників",
+      "en": "How to find reliable Polish suppliers"
+    },
+    {
+      "t": "p",
+      "uk": "Пошук постачальника варто починати з каталогів hurtowni і B2B платформ, де оптовики публікують умови співпраці, мінімальне замовлення і наявність дропшипінг програми. Окремо варто перевірити маркетплейс Allegro в бізнес режимі, там багато продавців мають гуртовий розділ саме для партнерів, що працюють без власного складу.",
+      "en": "Start the search with wholesale catalogues and B2B platforms where wholesalers publish cooperation terms, minimum order size and whether they have a dropshipping program. It is also worth checking Allegro in business mode, where many sellers have a wholesale section specifically for partners who work without their own warehouse."
+    },
+    {
+      "t": "p",
+      "uk": "Перед підписанням умов перевірте три речі: чи є в постачальника актуальний фід залишків, який можна підключити до магазину або CRM, які терміни обробки замовлення на його складі, і чи готовий він вказувати відправника і опис вкладення так, щоб посилка проходила митницю без затримок. Постачальник без фіда змушує вас вручну звіряти наявність, а це пряма дорога до продажу товару, якого вже немає.",
+      "en": "Before signing terms, check three things: whether the supplier has a live stock feed that can connect to your store or CRM, how long order processing takes at their warehouse, and whether they properly fill in the sender and content description so the parcel clears customs without delays. A supplier without a feed forces you to check availability by hand, which is a direct path to selling something that is already out of stock."
+    },
+    {
+      "t": "p",
+      "uk": "Домовляйтеся про прямий контракт з декількома постачальниками одночасно, а не з одним. Так при затримці відправлення чи вичерпанні складу в одного, замовлення клієнта можна швидко перекинути на іншого без зупинки продажів.",
+      "en": "Negotiate a direct contract with several suppliers at once rather than just one. That way, if one has a delivery delay or runs out of stock, a customer order can quickly be shifted to another supplier without stopping sales."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом замовлень і оплата з урахуванням курсу злотого",
+      "en": "Order intake and payment with the zloty exchange rate in mind"
+    },
+    {
+      "t": "p",
+      "uk": "Замовлення до вас можуть надходити з сайту, з Instagram чи з Telegram каналу, і кожне джерело потребує однакової обробки: клієнт лишає товар, розмір і контакт, дані одразу потрапляють у CRM без копіювання вручну з переписки. Telegram бот тут закриває найбільший обсяг звернень, бо приймає заявку, підтверджує наявність через фід постачальника і одразу формує рахунок.",
+      "en": "Orders can come from a website, Instagram or a Telegram channel, and every source needs the same handling: the customer leaves the item, size and contact, and the data lands in a CRM instantly without manual copying from chat messages. A Telegram bot handles the biggest share of requests here, since it takes the order, confirms availability through the supplier feed and generates an invoice right away."
+    },
+    {
+      "t": "p",
+      "uk": "Оплата зазвичай проходить через LiqPay, Monobank рахунок або передоплату карткою, а ціну в гривні варто перераховувати з польської закупівельної ціни автоматично, з буфером на коливання курсу злотого. Без буфера різниця курсу за день чи два між замовленням і фактичною закупівлею зʼїдає маржу, особливо на товарах з невеликою націнкою.",
+      "en": "Payment usually goes through LiqPay, a Monobank invoice or a card prepayment, and the hryvnia price should be recalculated from the Polish purchase price automatically, with a buffer for zloty rate fluctuations. Without that buffer, a one or two day rate difference between the order and the actual purchase eats into the margin, especially on low markup items."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо ціни на сайті оновлюються вручну, вони швидко розходяться з реальною закупівлею. Автоматичне підтягування курсу разом із фідом постачальника дозволяє тримати ціну актуальною щодня, а не раз на тиждень, коли хтось згадає це зробити.",
+      "en": "If prices on the site are updated manually, they quickly drift from actual purchase costs. Pulling the exchange rate automatically alongside the supplier feed keeps prices current every day, not once a week when someone remembers to do it."
+    },
+    {
+      "t": "h2",
+      "uk": "Трансгранична доставка, митні нюанси і трек-номери",
+      "en": "Cross border delivery, customs rules and tracking numbers"
+    },
+    {
+      "t": "p",
+      "uk": "Товар з Польщі до українського клієнта частіше за все їде комбінованим маршрутом: Poczta Polska або InPost до українського партнера, далі Нова Пошта, Укрпошта чи Meest вже по території України. У більшості випадків посилка доходить за три-пʼять днів, якщо постачальник відправив її вчасно і без помилок у документах.",
+      "en": "Goods from Poland to a Ukrainian customer usually travel a combined route: Poczta Polska or InPost to a Ukrainian partner carrier, then Nova Poshta, Ukrposhta or Meest within Ukraine. In most cases the parcel arrives in three to five days, provided the supplier shipped it on time with correct paperwork."
+    },
+    {
+      "t": "p",
+      "uk": "Митний ліміт для фізичних осіб діє на рівні 150 євро без сплати мита і ПДВ за одну партію, і для дрібних замовлень одягу чи аксесуарів цього зазвичай достатньо. Проблеми виникають, коли постачальник вказує заниженою вартість або невірний опис вкладення, тоді посилка застряє на митниці, а клієнт пише вам, а не постачальнику. Тому опис і вартість у супровідних документах варто перевіряти на етапі підключення постачальника, а не після першої скарги. Якщо обсяг замовлень зростає і партії стають регулярними, варто заздалегідь зʼясувати вимоги до оформлення для юридичної особи, щоб не зупиняти потік посилок через відсутність документів.",
+      "en": "The duty free limit for individuals is 150 euros per shipment, which usually covers small clothing or accessory orders. Problems appear when a supplier understates the value or writes an incorrect content description, and the parcel gets stuck at customs while the customer messages you, not the supplier. So the description and declared value in shipping documents should be checked when onboarding a supplier, not after the first complaint. As order volume grows and shipments become regular, it is worth clarifying the paperwork requirements for a registered business in advance, so a missing document does not stop the flow of parcels."
+    },
+    {
+      "t": "p",
+      "uk": "Кожен перевізник видає свій трек-номер, і без автоматизації клієнт отримує польський номер, який не працює в застосунку української пошти. Правильний варіант, це підвʼязати обидва номери до одного замовлення в CRM і надсилати клієнту єдине посилання чи повідомлення в Telegram з актуальним статусом, замість того щоб він шукав, який номер зараз діє.",
+      "en": "Every carrier issues its own tracking number, and without automation a customer receives a Polish number that does not work in a Ukrainian postal app. The right approach is to link both numbers to one order in the CRM and send the customer a single Telegram message with the current status, instead of leaving them to guess which number is now active."
+    },
+    {
+      "t": "h2",
+      "uk": "Автоматизація: синхронізація залишків і обробка без ручної праці",
+      "en": "Automation: stock sync and hands off order processing"
+    },
+    {
+      "t": "p",
+      "uk": "Без автоматизації дропшипінг з Польщі перетворюється на постійну ручну звірку: перевірити наявність у постачальника, перерахувати ціну по курсу, оформити замовлення на складі, знайти трек-номер і написати клієнту. При кількох постачальниках і десятках замовлень на день це займає години, а помилки в такому темпі неминучі.",
+      "en": "Without automation, dropshipping from Poland turns into constant manual reconciliation: checking supplier stock, recalculating the price by the exchange rate, placing the warehouse order, finding the tracking number and messaging the customer. With several suppliers and dozens of daily orders this eats hours, and mistakes at that pace are inevitable."
+    },
+    {
+      "t": "p",
+      "uk": "Найбільший ефект дає звʼязка з трьох частин: парсинг фідів постачальників для актуальних залишків і цін, CRM, куди автоматично потрапляють заявки з сайту, Instagram і Telegram бота, і автоматичне формування замовлення постачальнику одразу після оплати клієнта. Курс валюти підтягується разом із ціною, а трек-номер привʼязується до картки клієнта без копіювання вручну.",
+      "en": "The biggest effect comes from combining three pieces: parsing supplier feeds for live stock and prices, a CRM that automatically receives requests from the site, Instagram and a Telegram bot, and automatic order placement with the supplier right after customer payment. The exchange rate updates together with the price, and the tracking number attaches to the customer record without manual copying."
+    },
+    {
+      "t": "p",
+      "uk": "У Devlly ми збираємо саме такі звʼязки під конкретного постачальника: Telegram бот для прийому заявок, CRM під ключ з автоматичним розрахунком ціни по курсу і парсинг каталогу hurtowni, щоб залишки і ціни оновлювались без участі людини. Це звільняє власника магазину від рутини і залишає йому лише роботу з клієнтами і асортиментом.",
+      "en": "At Devlly we build exactly this kind of setup around a specific supplier: a Telegram bot for order intake, a turnkey CRM with automatic price calculation by exchange rate, and catalogue parsing for the wholesale feed so stock and prices update without human involvement. This frees the store owner from routine work and leaves only customer relations and assortment decisions."
+    }
+  ]
+}

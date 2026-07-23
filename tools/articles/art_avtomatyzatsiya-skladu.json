@@ -1,0 +1,112 @@
+{
+  "title_uk": "Автоматизація складу: облік залишків і рух товарів",
+  "title_en": "Warehouse Automation: Stock Accounting and Inventory Flow",
+  "desc_uk": "Як автоматизувати склад: облік залишків, прийом і відвантаження товарів, інвентаризація і сповіщення про критичний залишок через Telegram.",
+  "desc_en": "How to automate a warehouse: stock accounting, receiving and shipping goods, inventory counts and Telegram alerts for critical stock levels.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Автоматизація складського обліку: система для складу | Devlly",
+    "te": "Warehouse Accounting Automation: A System for Your Stock | Devlly",
+    "d": "Як автоматизувати склад: облік залишків, прийом і відвантаження товарів, інвентаризація і сповіщення про критичний залишок через Telegram.",
+    "de": "How to automate a warehouse: stock accounting, receiving and shipping goods, inventory counts and Telegram alerts for critical stock levels.",
+    "k": "автоматизація складу, автоматизація складського обліку, облік залишків, система для складу, інвентаризація складу, точка перезамовлення, резервування товару на складі, Telegram-бот для складу, приймання товару на склад"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Власник бізнесу зі складом на кілька сотень позицій рано чи пізно стикається з однією й тією ж проблемою: цифри в таблиці не збігаються з тим, що фізично лежить на полицях. Автоматизація складу вирішує це не магією, а простими правилами обліку кожної операції - прийому, резерву, списання і відвантаження. Нижче - як це працює на практиці, з розрахунками і конкретними сценаріями.",
+      "en": "A business owner with a warehouse of a few hundred items sooner or later runs into the same problem: the numbers in the spreadsheet do not match what is physically sitting on the shelves. Warehouse automation solves this not with magic, but with simple rules for recording every operation - receiving, reserving, writing off and shipping. Below is how this works in practice, with calculations and specific scenarios."
+    },
+    {
+      "t": "h2",
+      "uk": "Чому автоматизація складського обліку стає необхідністю",
+      "en": "Why warehouse accounting automation becomes a necessity"
+    },
+    {
+      "t": "p",
+      "uk": "Excel-таблиця залишків працює, поки склад маленький і за нею стежить одна людина. З ростом обʼєму все ламається: два співробітники одночасно відкривають файл і зберігають різні версії, одна перезаписує іншу. Комірник списав брак, але забув внести зміну до таблиці до кінця зміни. Клієнт повернув товар, і ніхто не додав його назад в залишок, бо повернення оформили окремим документом, який ніхто не звірив із рахунком.",
+      "en": "An Excel spreadsheet of stock works fine while the warehouse is small and one person keeps an eye on it. As volume grows, everything breaks down: two employees open the file at the same time and save different versions, one overwriting the other. A warehouse worker writes off a defective item but forgets to update the spreadsheet before the end of the shift. A customer returns an item and nobody adds it back to stock, because the return was filed as a separate document that nobody reconciled with the invoice."
+    },
+    {
+      "t": "p",
+      "uk": "Додається пересорт: на полиці лежить товар з одним артикулом, а в системі значиться інший, бо хтось переставив коробки під час прибирання. У результаті на складі на 3000 позицій розбіжність між обліком і фактом накопичується щотижня, і раз на квартал доводиться зупиняти роботу на кілька днів для звірки вручну. Автоматизація складу прибирає саме цю причину: кожна дія - прихід, списання, резерв, відвантаження - фіксується одразу як транзакція, а не як пізніший запис у файл. Наприклад, на складі побутової техніки з 1200 позиціями перехід на сканування скоротив час місячної звірки з двох повних робочих днів до трьох годин.",
+      "en": "Then there is mis-shelving: an item with one SKU sits on a shelf where the system lists a different one, because someone moved boxes around during cleanup. On a warehouse with 3000 items the gap between records and reality builds up every week, and once a quarter the business has to stop work for several days for a manual reconciliation. Warehouse automation removes exactly this cause: every action - receiving, writing off, reserving, shipping - is recorded immediately as a transaction, not as a later entry in a file. For example, at a home appliance warehouse with 1200 items, switching to scanning cut the time needed for a monthly reconciliation from two full working days to three hours."
+    },
+    {
+      "t": "p",
+      "uk": "Система не дає двом людям одночасно змінити один і той самий залишок без конфлікту, і кожна зміна залишку має джерело: номер накладної, дату, відповідального. Коли розбіжність все ж зʼявляється, її можна простежити до конкретної операції за хвилини, а не шукати вручну серед сотень рядків.",
+      "en": "The system does not let two people change the same stock figure at once without a conflict, and every change to stock has a source: an invoice number, a date, a person responsible. When a discrepancy does appear, it can be traced to a specific operation in minutes, instead of being searched for by hand among hundreds of rows."
+    },
+    {
+      "t": "h2",
+      "uk": "Прийом товару: звірка з накладною і що робити з недовкладенням",
+      "en": "Receiving goods: matching against the invoice and handling short deliveries"
+    },
+    {
+      "t": "p",
+      "uk": "Прийом - момент, де найлегше зафіксувати помилку постачальника, поки вона ще не розчинилась серед інших залишків. Кожна позиція з накладної сканується штрихкодом при прийманні, а не вводиться вручну за назвою: ручний ввід на 500 рядків накладної дає в середньому 2-4% помилок через схожі назви й одруки, скан штрихкоду - долі відсотка.",
+      "en": "Receiving is the moment where a supplier's mistake is easiest to catch, before it dissolves into the rest of the stock. Every item on the invoice is scanned by barcode on arrival, not typed in manually by name: manual entry across a 500 line invoice produces on average 2 to 4 percent errors from similar names and typos, while barcode scanning brings that down to a fraction of a percent."
+    },
+    {
+      "t": "p",
+      "uk": "Система одразу звіряє кількість за скан-кодами з кількістю в накладній постачальника. Якщо прийшло 480 одиниць замість заявлених 500, недовкладення фіксується актом ще на етапі приймання, і претензія постачальнику йде з конкретним номером партії, а не з памʼяті через два тижні. Брак виводиться в окремий залишок «на списання», а не змішується зі здоровим товаром, інакше він піде на продаж і поверненням клієнта. Такий підхід також дисциплінує постачальників: коли претензії підтверджені конкретними цифрами й фото ще на етапі приймання, кількість повторних недовкладень від того самого партнера падає вже за перші два-три місяці.",
+      "en": "The system immediately checks the scanned quantities against the supplier's invoice. If 480 units arrive instead of the 500 ordered, the shortfall is recorded as a formal report right at receiving, and the claim to the supplier goes out with a specific batch number, not from memory two weeks later. Defective items are moved to a separate write off stock category instead of being mixed with good stock, otherwise they end up sold and coming back as a customer return. This approach also disciplines suppliers: when claims are backed by specific numbers and photos taken right at receiving, the number of repeat shortfalls from the same partner drops within the first two or three months."
+    },
+    {
+      "t": "h2",
+      "uk": "Відвантаження і резерв: чому позицію бронюють у момент замовлення",
+      "en": "Shipping and reservation: why an item is booked at the moment of order"
+    },
+    {
+      "t": "p",
+      "uk": "Класична помилка - резервувати товар лише в момент, коли комірник фізично почав збирати замовлення. Між оформленням замовлення клієнтом і початком збірки може пройти година чи день, і за цей час той самий товар піде в інше замовлення чи на маркетплейс. Клієнт отримує підтвердження, а через день - вибачення, що позиції немає.",
+      "en": "A classic mistake is reserving an item only at the moment a warehouse worker physically starts picking the order. An hour or a day can pass between a customer placing an order and picking beginning, and in that time the same item can go into another order or onto a marketplace. The customer gets a confirmation, and a day later an apology that the item is out of stock."
+    },
+    {
+      "t": "p",
+      "uk": "Правильна логіка: залишок зменшується на суму резерву одразу в момент підтвердження замовлення, ще до фізичної збірки. Вільний залишок, який бачать усі канали продажу, це фактичний залишок мінус резерви за незакритими замовленнями. Так дві точки продажу - інтернет-магазин і Telegram-бот - завжди бачать однакову, актуальну цифру.",
+      "en": "The correct logic is that available stock drops by the reserved amount right at order confirmation, before physical picking even starts. The free stock shown across every sales channel is the actual stock minus reservations from open orders. This way two sales points, an online store and a Telegram bot, always see the same, current number."
+    },
+    {
+      "t": "p",
+      "uk": "Це рятує саме від дорогих помилок: продажу того, чого фактично вже немає, подвійного продажу останньої одиниці і, як наслідок, скасувань і зіпсованої репутації. На складі на 1000-3000 позицій із десятками замовлень на день різниця між «резерв при замовленні» і «резерв при збірці» - це різниця між 1-2 конфліктами на тиждень і жодного.",
+      "en": "This is exactly what saves a business from the expensive mistakes: selling something that is already gone, double selling the last unit, and the cancellations and reputation damage that follow. On a warehouse of 1000 to 3000 items with dozens of orders a day, the difference between reserving at order time and reserving at picking time is the difference between 1 to 2 conflicts a week and none at all."
+    },
+    {
+      "t": "h2",
+      "uk": "Інвентаризація без зупинки складу",
+      "en": "Inventory counts without stopping the warehouse"
+    },
+    {
+      "t": "p",
+      "uk": "Повна інвентаризація раз на рік - це 2-3 дні простою складу, а команда, яка рахує все підряд, втомлюється і починає помилятися сама в останній третині списку. Практичніший підхід - вибіркова звірка по товарних групах: одна група щотижня, за графіком, поки решта складу продовжує працювати. На практиці група з 200-300 позицій перевіряється за 2-3 години силами одного-двох людей, і склад продовжує приймати та відвантажувати замовлення паралельно.",
+      "en": "A full inventory count once a year means 2 to 3 days of warehouse downtime, and a team that counts everything in a row gets tired and starts making its own mistakes by the last third of the list. A more practical approach is a selective count by product group: one group a week, on a schedule, while the rest of the warehouse keeps working. In practice, a group of 200 to 300 items can be checked in 2 to 3 hours by one or two people, while the warehouse keeps receiving and shipping orders in parallel."
+    },
+    {
+      "t": "p",
+      "uk": "Система заздалегідь підказує, які групи мають найбільше розбіжностей за історією списань і повернень, і починати варто саме з них. Якщо певна позиція розходиться з фактом кожного місяця в одну й ту саму сторону, це майже завжди ознака не помилки підрахунку, а системної проблеми: пересорту на полиці, помилки в картці товару або крадіжки на конкретній ділянці.",
+      "en": "The system flags in advance which groups have the most discrepancies based on the history of write offs and returns, and that is where counting should start. If a particular item is off from reality every month in the same direction, it is almost always a sign not of a counting mistake but of a systemic problem: mis-shelving, an error in the item card, or theft in a specific area."
+    },
+    {
+      "t": "h2",
+      "uk": "Точка перезамовлення і Telegram-бот для комірника",
+      "en": "Reorder point and a Telegram bot for the warehouse worker"
+    },
+    {
+      "t": "p",
+      "uk": "Мінімальний залишок, при якому пора замовляти партію, рахується не на око, а за формулою: середній денний продаж, помножений на строк поставки в днях, плюс страховий запас на 3-5 днів. Якщо позиція продається в середньому 8 одиниць на день, а постачальник везе 10 днів, точка перезамовлення - приблизно 100-120 одиниць. Замовили пізніше - товару немає в продажу тиждень, замовили значно раніше - гроші заморожені на складі в неліквіді.",
+      "en": "The minimum stock level at which it is time to order a new batch is not guessed, it is calculated: average daily sales multiplied by the supplier's delivery time in days, plus a safety buffer of 3 to 5 days. If an item sells 8 units a day on average and the supplier takes 10 days to deliver, the reorder point is roughly 100 to 120 units. Order too late and the item is out of stock for a week, order too early and money sits frozen in slow moving stock."
+    },
+    {
+      "t": "p",
+      "uk": "Система рахує це по кожній позиції окремо й автоматично, а не за єдиним правилом «менше 10 штук» для всього асортименту, яке однаково погано працює і для ходового товару, і для повільного. Сповіщення про критичний залишок приходить відповідальному одразу, як тільки залишок перетнув розраховану точку, а не після того, як позиція вже закінчилась.",
+      "en": "The system calculates this for every item separately and automatically, rather than applying one flat rule such as ten units left across the whole assortment, which works equally poorly for fast movers and slow ones. A critical stock alert reaches the person responsible the moment stock crosses the calculated reorder point, not after the item has already run out."
+    },
+    {
+      "t": "p",
+      "uk": "Для щоденної роботи комірника зручний окремий Telegram-бот прямо на складі: скан або введення коду списує позицію з залишку, приймання нової партії заноситься з телефона за хвилину, а поточний залишок по будь-якому артикулу видно без входу в основну систему. Це особливо помітно на складах, де комірники раніше вели облік у блокноті чи паперових бланках і губили частину даних ще до кінця зміни. У Devlly такі рішення для обліку залишків, прийому і резервування товару збирають під конкретний склад і асортимент, з урахуванням того, які саме розбіжності найбільше заважають бізнесу.",
+      "en": "For the warehouse worker's daily routine, a dedicated Telegram bot right on the floor is convenient: a scan or a code entry writes off an item from stock, a new batch is logged from a phone in under a minute, and the current stock level for any item is visible without logging into the main system. This is especially noticeable at warehouses where staff used to track stock in a notebook or paper forms and lost part of the data before the shift even ended. At Devlly, solutions like this for stock accounting, receiving and reservation are built around a specific warehouse and assortment, based on which discrepancies actually cost the business the most."
+    }
+  ]
+}

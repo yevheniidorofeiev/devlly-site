@@ -1,0 +1,97 @@
+{
+  "title_uk": "Telegram-бот для стоматологічної клініки: запис, нагадування, картка пацієнта",
+  "title_en": "A Telegram bot for a dental clinic: booking, reminders, patient records",
+  "date_uk": "24 ЛЮТ 2026",
+  "date_en": "FEB 24, 2026",
+  "desc_uk": "Онлайн-запис до конкретного лікаря з коректними слотами, нагадування за добу проти неявок, післяопераційні інструкції та контроль через півроку. Розбираємо, що бот справді автоматизує в стоматології і які дані в ньому зберігати не можна.",
+  "desc_en": "Online booking with a specific dentist and correct time slots, day-before reminders that cut no-shows, post-op instructions and six-month recalls. What a bot really automates in a dental clinic - and what data must never be stored in it.",
+  "seo": {
+    "t": "Telegram-бот для стоматологічної клініки: запис і нагадування | Devlly",
+    "te": "Telegram bot for a dental clinic: booking and reminders | Devlly",
+    "d": "Як працює Telegram-бот для стоматології: онлайн-запис до лікаря, коректні слоти під тривалість процедури, нагадування, картка пацієнта й безпека даних.",
+    "de": "How a Telegram bot for dentistry works: online booking, slots matched to procedure length, reminders, patient records and data security.",
+    "k": "telegram бот для стоматології, бот для клініки, запис до лікаря онлайн, автоматизація медичної клініки, чат-бот для стоматології, нагадування пацієнтам"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "У стоматології гроші губляться не там, де здається. Не в рекламі й не в ціні пломби, а в порожньому кріслі: пацієнт не прийшов, адміністратор не додзвонився, «контроль через півроку» ніхто не нагадав. Година простою лікаря коштує стільки ж, скільки повноцінний прийом, тільки з мінусом. Telegram-бот тут виступає не модною іграшкою, а дуже прагматичним інструментом: він тримає розклад, дзвонить замість адміністратора текстом, повертає пацієнтів на профілактику й розвантажує рецепцію від дзвінків «а коли мені прийти». Розберімо, що саме має вміти telegram бот для стоматології, як його правильно зв’язати з розкладом і де проходить межа з чутливими даними пацієнтів.",
+      "en": "In dentistry, money is lost where you don’t expect it. Not in advertising, not in the price of a filling, but in an empty chair: the patient didn’t show up, the receptionist couldn’t reach them, nobody reminded them about the six-month check-up. An idle hour for a dentist costs as much as a full appointment, only in the negative. A Telegram bot here isn’t a trendy toy but a very pragmatic tool: it holds the schedule, calls in the receptionist’s place - in text, brings patients back for prevention, and takes the “when should I come in?” calls off the front desk. Let’s go through what a Telegram bot for dentistry must be able to do, how to wire it into the schedule properly, and where the line runs with sensitive patient data."
+    },
+    {
+      "t": "h2",
+      "uk": "Що змінює telegram бот для стоматології в щоденній роботі клініки",
+      "en": "What a Telegram bot for dentistry changes in a clinic’s daily work"
+    },
+    {
+      "t": "p",
+      "uk": "Почніть із простого підрахунку. Адміністратор середньої клініки на три крісла витрачає більшу частину зміни на телефон: прийняти запис, перенести, підтвердити завтрашній візит, відповісти на питання про ціну чистки. Кожен дзвінок - це три-п’ять хвилин, і поки він триває, наступний пацієнт чує гудки й іде до конкурентів. Бот забирає найпростішу й найчисленнішу частину цих звернень: запис, перенесення, скасування, прайс, адреса, графік роботи, підготовка до візиту. У результаті адміністратор перестає бути телефонним автовідповідачем і повертається до того, за що йому справді платять - до людей у холі й до тих випадків, які потребують живої розмови.",
+      "en": "Start with simple arithmetic. In an average three-chair clinic the receptionist spends most of the shift on the phone: taking bookings, rescheduling, confirming tomorrow’s visit, answering questions about the price of a cleaning. Each call is three to five minutes, and while it lasts the next patient hears a busy tone and goes to a competitor. The bot takes over the simplest and most numerous of these requests: booking, rescheduling, cancellation, prices, address, opening hours, how to prepare for a visit. As a result the receptionist stops being a telephone answering machine and goes back to what they’re actually paid for - the people in the waiting room and the cases that need a real conversation."
+    },
+    {
+      "t": "p",
+      "uk": "Друга зміна - клініка перестає працювати «з дев’ятої до сьомої». Значна частина записів робиться ввечері й у вихідні, коли людина нарешті згадала про зуб і має п’ять вільних хвилин. Якщо в цей момент їй треба чекати до понеділка, вона просто відкриє карту й запишеться туди, де можна зробити це зараз. Бот приймає запис о 23:40 у неділю так само спокійно, як о полудні у вівторок. Третя зміна тонша, але важлива: усе спілкування залишається в одному чаті. Пацієнт бачить історію своїх візитів, інструкції після лікування й нагадування в тому самому діалозі, а не шукає в SMS, пошті й розмові з адміністратором, що йому казали три місяці тому.",
+      "en": "The second change is that the clinic stops working “nine to seven.” A large share of bookings happen in the evening and on weekends, when a person finally remembers the tooth and has five free minutes. If at that moment they have to wait until Monday, they’ll simply open a map and book somewhere they can do it right now. A bot takes a booking at 23:40 on a Sunday just as calmly as at noon on a Tuesday. The third change is subtler but important: all communication stays in one chat. The patient sees their visit history, post-treatment instructions, and reminders in that same conversation, instead of hunting through SMS, email, and a half-remembered talk with the receptionist for what they were told three months ago."
+    },
+    {
+      "t": "h2",
+      "uk": "Запис до лікаря онлайн: слоти, тривалість процедур і реальний розклад",
+      "en": "Booking a dentist online: slots, procedure length and the real schedule"
+    },
+    {
+      "t": "p",
+      "uk": "Найчастіша помилка в медичних ботах - робити запис «на годину». У стоматології це не працює: консультація займає 20 хвилин, професійна чистка - 60, лікування кореневих каналів - 90 або 120, імплантація - ще більше, плюс час на прибирання й стерилізацію між пацієнтами. Тому запис до лікаря онлайн має будуватися від послуги: пацієнт спочатку обирає, що саме йому потрібно, потім лікаря, і лише тоді бот показує вільні вікна, які фізично вміщують цю процедуру. Якщо в графіку є проміжок на 30 хвилин, він просто не з’явиться серед варіантів для двогодинного лікування - і не створить ситуації, коли лікар запізнюється на дві години, а черга в холі нервує.",
+      "en": "The most common mistake in medical bots is booking “by the hour.” In dentistry that doesn’t work: a consultation takes 20 minutes, a professional cleaning 60, root canal treatment 90 or 120, an implant even longer - plus time for cleaning and sterilization between patients. So online booking has to be built around the service: the patient first chooses what they need, then the dentist, and only then does the bot show free windows that physically fit that procedure. If there’s a 30-minute gap in the schedule, it simply won’t appear among the options for a two-hour treatment - and it won’t create a situation where the doctor is running two hours late and the waiting room is fuming."
+    },
+    {
+      "t": "p",
+      "uk": "Другий обов’язковий елемент - вибір конкретного лікаря. Стоматологія тримається на довірі: людина, яку рік лікував один терапевт, не хоче потрапити до когось іншого, а ортодонт, хірург і дитячий стоматолог узагалі не взаємозамінні. Бот показує картки лікарів із фото, спеціалізацією й досвідом, а далі підтягує саме їхній графік, відпустки й операційні дні. Розклад при цьому не має жити всередині бота: єдиним джерелом правди залишається ваша медична система або календар клініки, а бот лише читає з неї вільні слоти й записує туди нові. Інакше рано чи пізно двоє пацієнтів опиняться в одному кріслі о 15:00, і жоден скрипт цього вже не виправить.",
+      "en": "The second essential element is choosing a specific doctor. Dentistry runs on trust: someone treated by the same therapist for a year doesn’t want to end up with a stranger, and an orthodontist, a surgeon, and a pediatric dentist aren’t interchangeable at all. The bot shows doctor cards with a photo, specialization, and experience, then pulls that particular doctor’s schedule, vacations, and surgery days. The schedule itself must not live inside the bot: the single source of truth stays your medical system or the clinic’s calendar, and the bot only reads free slots from it and writes new bookings back. Otherwise, sooner or later two patients will end up in the same chair at 3 p.m., and no script will fix that."
+    },
+    {
+      "t": "h2",
+      "uk": "Нагадування, неявки й повернення пацієнтів: де бот для клініки приносить прямі гроші",
+      "en": "Reminders, no-shows and patient recalls: where a clinic bot brings direct money"
+    },
+    {
+      "t": "p",
+      "uk": "Неявки - це найдорожча тиха проблема стоматології. Пацієнт записався за два тижні, забув, не прийшов, крісло стоїть порожнім годину, лікар не заробив нічого, а клініка все одно платить оренду й зарплату. Автоматичне нагадування за добу до візиту з двома кнопками, «Підтверджую» і «Перенести», зменшує кількість неявок у рази - і, що не менш важливо, звільняє слот заздалегідь. Якщо людина натиснула «Перенести» ввечері напередодні, у клініки є цілий вечір, щоб запропонувати це вікно тим, хто чекає в списку очікування, і бот може зробити це сам, одним повідомленням у чергу. Друге нагадування за дві години до прийому додатково страхує від «застряг у пробці й забув».",
+      "en": "No-shows are dentistry’s most expensive quiet problem. A patient books two weeks ahead, forgets, doesn’t come, the chair sits empty for an hour, the dentist earns nothing, and the clinic still pays rent and salaries. An automatic reminder a day before the visit with two buttons, “Confirm” and “Reschedule,” cuts no-shows several times over - and, just as importantly, frees the slot in advance. If someone taps “Reschedule” the evening before, the clinic has a whole evening to offer that window to people on the waiting list, and the bot can do it itself with a single message to the queue. A second reminder two hours before the appointment further insures against “stuck in traffic and forgot.”"
+    },
+    {
+      "t": "p",
+      "uk": "Після візиту робота не закінчується. Бот надсилає післяопераційні інструкції саме під ту процедуру, яку зробили: після видалення - що не можна їсти й пити найближчі години, коли нормально боліти, а коли вже треба телефонувати; після імплантації - режим полоскань і терміни знімання швів; після чистки - прості поради на два дні. Це знімає навантаження з лікаря, який інакше отримує ці питання ввечері у власний месенджер, і суттєво зменшує ускладнення. Далі - контрольні візити: бот пам’ятає, що профілактичний огляд потрібен через шість місяців, і напише про це сам, коли настане час. Саме ця автоматична хвиля повернень зазвичай і окупає бот: клініка перестає втрачати пацієнтів, які нікуди не пішли, а просто забули. Наприкінці ланцюжка - короткий запит відгуку через день після візиту: задоволених ведемо на Google-карти, незадоволених - тихо на керівника, поки вони не написали публічно.",
+      "en": "The work doesn’t end when the visit does. The bot sends post-op instructions tailored to the exact procedure performed: after an extraction - what not to eat or drink for the next few hours, when pain is normal and when to call; after an implant - the rinsing routine and when the stitches come out; after a cleaning - a couple of simple tips for two days. This takes the load off the dentist, who otherwise gets these questions in their personal messenger at night, and it markedly reduces complications. Then come the recalls: the bot remembers that a preventive check-up is due in six months and writes about it itself when the time comes. It’s this automatic wave of returning patients that usually pays for the bot: the clinic stops losing people who never went anywhere - they simply forgot. At the end of the chain is a short review request a day after the visit: happy patients are guided to Google Maps, unhappy ones quietly to the manager, before they post publicly."
+    },
+    {
+      "t": "h2",
+      "uk": "Картка пацієнта, план лікування й кошторис: автоматизація медичної клініки далі за запис",
+      "en": "Patient records, treatment plans and estimates: clinic automation beyond booking"
+    },
+    {
+      "t": "p",
+      "uk": "Запис - це лише вхідні двері. Справжня автоматизація медичної клініки починається тоді, коли бот стає особистим кабінетом пацієнта. У ньому людина бачить свої минулі візити з датами й назвами процедур, які зуби вже ліковані, коли наступний огляд і скільки вона вже сплатила. Історія лікування підтягується з медичної системи, тож пацієнту не треба телефонувати й питати, чи ставили йому пломбу на шістку два роки тому. Для клініки це теж вигідно: людина, яка бачить свою історію, значно охочіше погоджується завершити розпочатий план, ніж та, для якої лікування - це набір випадкових візитів без структури.",
+      "en": "Booking is only the front door. Real clinic automation starts when the bot becomes the patient’s personal account. There they see their past visits with dates and procedure names, which teeth have already been treated, when the next check-up is due, and how much they’ve already paid. Treatment history is pulled from the medical system, so the patient doesn’t have to call and ask whether a filling was placed on the upper-left six two years ago. It pays off for the clinic too: someone who can see their own history is far more likely to agree to finish a treatment plan already begun than someone for whom treatment is a set of random visits without structure."
+    },
+    {
+      "t": "p",
+      "uk": "Окремий сценарій - план лікування й кошторис. Після діагностики лікар складає план: скільки візитів, які етапи, у якій послідовності й скільки це коштує. Замість роздрукованого аркуша, який губиться дорогою додому, пацієнт отримує його в боті: етапи з цінами, загальна сума, можливість поетапної оплати, кнопка «Записатися на наступний етап». Пацієнт може спокійно показати кошторис родині, поставити питання в чаті й повернутися до нього через тиждень - і план не зникне. Практика показує, що прозорий кошторис із розбивкою знімає більшість цінових заперечень: людей лякає не сума, а невідомість. Такі рішення ми в Devlly і будуємо: бот, зв’язаний із розкладом і медичною системою клініки, а не ще один окремий острівець, куди дані переносять руками.",
+      "en": "A separate flow is the treatment plan and estimate. After the diagnosis the dentist puts together a plan: how many visits, which stages, in what order, and how much it all costs. Instead of a printed sheet that gets lost on the way home, the patient receives it in the bot: stages with prices, the total, the option to pay stage by stage, and a “Book the next stage” button. They can calmly show the estimate to their family, ask questions in the chat, and come back to it a week later - the plan won’t disappear. In practice a transparent, itemized estimate removes most price objections: people aren’t scared by the number, they’re scared by uncertainty. These are exactly the kinds of solutions we build at Devlly: a bot wired into the clinic’s schedule and medical system, not another isolated island where data is carried across by hand."
+    },
+    {
+      "t": "h2",
+      "uk": "Чутливі дані пацієнтів: що безпечно зберігати в telegram-боті для клініки",
+      "en": "Sensitive patient data: what is safe to store in a clinic’s Telegram bot"
+    },
+    {
+      "t": "p",
+      "uk": "Тут головне правило: бот - це інтерфейс, а не медичний архів. Діагнози, знімки, результати обстежень і повні медичні картки мають залишатися у вашій медичній системі, на захищеному сервері, з розмежуванням доступу й журналом дій. У боті ж зберігають мінімум, потрібний для роботи: ім’я, телефон, ідентифікатор пацієнта в системі, дати візитів і статуси записів. Усе інше бот показує на льоту, отримуючи з бекенду тільки те, що потрібно саме цьому користувачу саме зараз. І ще одна річ, про яку часто забувають: не надсилайте деталі діагнозу в тексті push-повідомлення. Воно з’являється на екрані блокування, і його бачить будь-хто, хто взяв телефон зі столу. «Нагадуємо про візит завтра о 14:00» - нормально; «Нагадуємо про видалення зуба мудрості» - уже зайве.",
+      "en": "The key rule here: the bot is an interface, not a medical archive. Diagnoses, X-rays, test results, and full medical records must stay in your medical system, on a protected server, with access control and an audit log. The bot stores the minimum needed to work: name, phone number, the patient’s ID in the system, visit dates, and booking statuses. Everything else the bot shows on the fly, fetching from the backend only what this specific user needs right now. And one more thing that’s often forgotten: don’t put diagnosis details into the text of a push notification. It appears on the lock screen, and anyone who picks the phone up off the table can read it. “A reminder about your visit tomorrow at 2 p.m.” is fine; “A reminder about your wisdom tooth extraction” is already too much."
+    },
+    {
+      "t": "p",
+      "uk": "З організаційного боку теж є базовий мінімум. Пацієнт має явно погодитися на обробку персональних даних і на розсилку при першому запуску бота - однією кнопкою, з посиланням на політику конфіденційності. Доступ адміністраторів до даних розмежовується за ролями: реєстратор бачить розклад і контакти, але не має бачити фінансову історію чи медичні деталі. Усі дії з картками логуються, а листування в боті не використовується як юридичний медичний документ. І найважливіше з практичного погляду: якщо питання пацієнта виходить за межі запису й нагадувань, бот має одразу передавати діалог живій людині, а не вдавати, що він лікар. Бот чудово знімає рутину, але діагноз у чаті не ставить ніхто.",
+      "en": "There’s an organizational minimum too. The patient must explicitly consent to the processing of personal data and to messaging on the bot’s first launch - with a single button and a link to the privacy policy. Staff access is separated by role: the front-desk user sees the schedule and contacts but should not see financial history or medical details. All actions on records are logged, and chat correspondence is not treated as a legal medical document. And most importantly in practice: if a patient’s question goes beyond booking and reminders, the bot must hand the conversation to a human immediately, not pretend to be a doctor. A bot is excellent at removing routine, but nobody diagnoses anyone in a chat."
+    }
+  ]
+}

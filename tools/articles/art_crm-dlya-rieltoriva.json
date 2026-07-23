@@ -1,0 +1,112 @@
+{
+  "title_uk": "CRM для ріелторів: як вести угоди і клієнтів",
+  "title_en": "CRM for realtors: how to manage deals and clients",
+  "desc_uk": "Яка CRM потрібна ріелтору: база обʼєктів, клієнти, угоди, нагадування і аналітика. Готові рішення або розробка під ключ.",
+  "desc_en": "What CRM a realtor needs: property database, clients, deals, reminders and analytics. Ready-made tools or custom development.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для ріелторів і агентств нерухомості | Devlly",
+    "te": "CRM for realtors and real estate agencies | Devlly",
+    "d": "Яка CRM потрібна ріелтору: база обʼєктів, клієнти, угоди, нагадування і аналітика. Готові рішення або розробка під ключ.",
+    "de": "What CRM a realtor needs: property database, clients, deals, reminders and analytics. Ready-made tools or custom development.",
+    "k": "CRM для ріелторів, CRM для агентства нерухомості, база обʼєктів нерухомості, підбір обʼєктів клієнту, автоматизація ріелтора, воронка угод нерухомість, облік комісії ріелтора"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Ріелтор тримає в голові десятки обʼєктів, сотні контактів і графік показів, який змінюється щодня. Поки угод пʼять - вистачає таблиці й нотаток у телефоні, але після двадцяти починаються втрачені клієнти, забуті дзвінки й суперечки про те, чий це був покупець. CRM для ріелторів вирішує саме ці задачі: вона тримає базу обʼєктів, базу клієнтів і всі угоди в одному місці й не дає жодному контакту загубитися.",
+      "en": "A realtor keeps dozens of properties, hundreds of contacts and a viewing schedule that changes daily in their head. With five deals a spreadsheet and phone notes are enough, but past twenty you start losing clients, forgetting calls and arguing over whose buyer it was. A CRM for realtors solves exactly this: it holds the property database, the client database and every deal in one place, and it lets no contact slip away."
+    },
+    {
+      "t": "h2",
+      "uk": "Навіщо потрібна CRM для ріелторів",
+      "en": "Why realtors need a CRM"
+    },
+    {
+      "t": "p",
+      "uk": "Головна втрата в агентстві нерухомості - це не реклама, а необроблені звернення. Клієнт залишив заявку на сайті, написав у Telegram або подзвонив у неробочий час, менеджер побачив повідомлення через два дні, а людина за цей час уже подивилася квартиру з іншим агентом. У середньому агентство втрачає таким чином від 15 до 30 відсотків вхідного трафіку, за який уже заплачено. CRM закриває цю дірку: усі звернення з усіх каналів падають в одну воронку, кожне має відповідального й дедлайн на перший контакт.",
+      "en": "The main loss in a real estate agency is not advertising, it is unprocessed inquiries. A client leaves a request on the site, writes on Telegram or calls after hours, the manager sees it two days later, and by then the person has already viewed an apartment with another agent. On average an agency loses 15 to 30 percent of the inbound traffic it already paid for this way. A CRM closes that gap: every inquiry from every channel lands in one funnel, each with an owner and a deadline for first contact."
+    },
+    {
+      "t": "p",
+      "uk": "Друга причина - прозорість. Власник агентства має бачити, скільки заявок прийшло, скільки показів провели, скільки угод дійшло до завдатку і скільки комісії заробив кожен агент. Без системи ця картина збирається вручну раз на місяць і завжди із запізненням. Третя причина - збереження бази. Коли агент іде, разом з ним зазвичай ідуть його контакти в особистому телефоні. У CRM база залишається в компанії, а історія спілкування з клієнтом доступна тому, хто підхоплює угоду.",
+      "en": "The second reason is transparency. The agency owner needs to see how many leads came in, how many viewings took place, how many deals reached a deposit and how much commission each agent earned. Without a system this picture is assembled by hand once a month and always late. The third reason is keeping the database. When an agent leaves, their contacts in a personal phone usually leave with them. In a CRM the database stays with the company, and the client history is available to whoever picks up the deal."
+    },
+    {
+      "t": "h2",
+      "uk": "База обʼєктів: фото, статуси й документи",
+      "en": "Property database: photos, statuses and documents"
+    },
+    {
+      "t": "p",
+      "uk": "База обʼєктів - серце системи. Мінімальна картка містить адресу, тип обʼєкта, площу, кількість кімнат, поверх, стан ремонту, ціну, контакти власника й умови співпраці. До неї кріпляться фото й планування, скан договору, витяг з реєстру та будь-які інші файли. Важливо, щоб фото зберігалися саме в картці, а не в чаті або на диску агента: коли обʼєкт треба показати клієнту через три місяці, шукати папку ніхто не буде.",
+      "en": "The property database is the heart of the system. A minimal card holds the address, property type, area, number of rooms, floor, condition, price, owner contacts and cooperation terms. Photos and floor plans, a scanned contract, a registry extract and any other files attach to it. Photos must live in the card itself, not in a chat or on an agent's drive: when a property needs to be shown to a client three months later, nobody will go hunting for a folder."
+    },
+    {
+      "t": "p",
+      "uk": "Друге, без чого база не працює, - статуси. «В продажу», «на завдатку», «продано», «знято з продажу», «ексклюзив» - агент має за секунду розуміти, чи актуальний обʼєкт. Разом зі статусом варто зберігати історію ціни: якщо квартира стоїть шість місяців і власник двічі знижував ціну, це важливий аргумент у переговорах. Корисно також автоматично позначати обʼєкти, які не оновлювали більше 30 днів, і ставити менеджеру задачу передзвонити власнику.",
+      "en": "The second thing without which the database fails is statuses. On sale, deposit taken, sold, withdrawn, exclusive - an agent must understand in a second whether a property is still relevant. Price history is worth storing alongside the status: if an apartment has been listed for six months and the owner has cut the price twice, that is a strong negotiating argument. It also helps to flag properties untouched for more than 30 days automatically and create a task to call the owner back."
+    },
+    {
+      "t": "p",
+      "uk": "Якщо агентство публікує обʼєкти на майданчиках або на власному сайті, база має віддавати дані туди автоматично. Агент вносить квартиру один раз, а вивантаження на сайт, у канал Telegram і в рекламні оголошення відбувається без ручного копіювання. Це економить кожному агенту приблизно годину на день і прибирає ситуацію, коли на сайті висить продана квартира.",
+      "en": "If the agency publishes properties on portals or its own site, the database should feed them automatically. The agent enters an apartment once, and the export to the website, a Telegram channel and ad listings happens without manual copying. That saves each agent roughly an hour a day and removes the situation where a sold apartment is still live on the site."
+    },
+    {
+      "t": "h2",
+      "uk": "Клієнти і підбір: критерії пошуку та автоматичний матчинг",
+      "en": "Clients and matching: search criteria and automatic matching"
+    },
+    {
+      "t": "p",
+      "uk": "Картка клієнта - це не просто імʼя й телефон, а набір критеріїв: бюджет із вилкою, райони, кількість кімнат, поверх, наявність ліфта, паркінг, готовність до іпотеки, терміни. Чим точніше зафіксовані критерії, тим менше показів наосліп. Окремо варто фіксувати заперечення й реакції на переглянуті обʼєкти: якщо покупець тричі відмовився через перший поверх, більше не треба йому такі варіанти пропонувати.",
+      "en": "A client card is not just a name and a phone number but a set of criteria: a budget range, districts, number of rooms, floor, elevator, parking, mortgage readiness, timing. The more precisely the criteria are recorded, the fewer blind viewings. Objections and reactions to properties already seen deserve their own field: if a buyer has rejected a ground floor three times, stop offering those options."
+    },
+    {
+      "t": "p",
+      "uk": "Найцінніша функція тут - автоматичний підбір. Коли в базу додається новий обʼєкт, система порівнює його з критеріями всіх активних покупців і одразу показує список тих, кому він може підійти. Агент отримує повідомлення в Telegram: «Нова двокімнатна на Печерську, 95 тисяч, підходить трьом клієнтам». Це працює і в зворотний бік: коли заводять нового покупця, система відразу пропонує пʼять-десять обʼєктів із бази.",
+      "en": "The most valuable feature here is automatic matching. When a new property is added, the system compares it with the criteria of every active buyer and immediately shows who it might suit. The agent gets a Telegram message: new two-room flat in Pechersk, 95 thousand, matches three clients. It works in reverse too: when a new buyer is added, the system instantly suggests five to ten properties from the database."
+    },
+    {
+      "t": "h2",
+      "uk": "Угоди і етапи: воронка та нагадування про покази і дзвінки",
+      "en": "Deals and stages: the pipeline plus reminders about viewings and calls"
+    },
+    {
+      "t": "p",
+      "uk": "Угода в нерухомості довга, тому воронка має бути детальною. Робочий набір етапів виглядає так: нова заявка, кваліфікація, підбір варіантів, показ, торг, завдаток, підготовка документів, нотаріус, угода закрита. Кожен етап має свою умову переходу і свій нормативний строк. Якщо угода висить на етапі «показ» більше десяти днів, керівник бачить це у звіті, а не дізнається через місяць.",
+      "en": "A real estate deal is long, so the pipeline must be detailed. A working set of stages looks like this: new lead, qualification, shortlisting, viewing, negotiation, deposit, document preparation, notary, deal closed. Each stage has its own transition condition and its own expected duration. If a deal sits at the viewing stage for more than ten days, the manager sees it in a report instead of finding out a month later."
+    },
+    {
+      "t": "p",
+      "uk": "Головна причина втрачених угод у нерухомості - не поганий обʼєкт, а невчасний дзвінок. CRM має сама ставити задачі: передзвонити після показу, нагадати за годину до зустрічі, повернутися до клієнта, який просив набрати через два місяці. Якщо задача прострочена, вона підсвічується і йде в зведення керівнику. Практика показує, що просте правило «жодна угода не залишається без наступної дії» піднімає конверсію в показ на десятки відсотків.",
+      "en": "The main cause of lost real estate deals is not a bad property but a late call. The CRM should create tasks itself: call back after a viewing, remind an hour before a meeting, return to a client who asked to be reached in two months. Overdue tasks are highlighted and roll up to the manager. In practice, the simple rule that no deal is left without a next action lifts viewing conversion by tens of percent."
+    },
+    {
+      "t": "p",
+      "uk": "Клієнту теж корисно нагадувати. Повідомлення в Telegram або SMS за день і за годину до показу з адресою й контактом агента помітно зменшує кількість зривів зустрічей. Власнику обʼєкта можна автоматично надсилати короткий звіт раз на тиждень: скільки було переглядів оголошення, скільки дзвінків і показів. Це знімає половину незручних розмов і робить продовження ексклюзивного договору набагато простішим.",
+      "en": "Clients benefit from reminders too. A Telegram message or SMS a day and an hour before a viewing, with the address and the agent's contact, noticeably cuts no-shows. The property owner can get an automatic weekly summary: how many listing views, calls and viewings there were. That removes half of the awkward conversations and makes renewing an exclusive agreement much easier."
+    },
+    {
+      "t": "h2",
+      "uk": "Аналітика: комісія, агенти й ефективність каналів",
+      "en": "Analytics: commission, agents and channel performance"
+    },
+    {
+      "t": "p",
+      "uk": "Мінімальний набір звітів для агентства: кількість заявок за каналами, конверсія заявка - показ - завдаток - угода, середній чек, середній строк угоди, сума комісії за період і розподіл комісії між агентом та компанією. Коли ці цифри рахуються автоматично, стає видно неочевидне: наприклад, що дорогий канал дає багато заявок, але майже не дає угод, а рекомендації дають менше контактів, зате закриваються вдвічі частіше.",
+      "en": "The minimum report set for an agency: leads by channel, conversion from lead to viewing to deposit to deal, average ticket, average deal duration, total commission for the period and the split between agent and company. When these numbers are calculated automatically, the non-obvious shows up: an expensive channel may bring many leads but almost no deals, while referrals bring fewer contacts and close twice as often."
+    },
+    {
+      "t": "p",
+      "uk": "Аналітика по агентах потрібна не для контролю заради контролю, а щоб бачити, де саме людина втрачає угоди. Один агент проводить багато показів, але слабо закриває торг, інший добре закриває, але мало дзвонить. Ці два випадки лікуються по-різному, і без цифр відрізнити їх неможливо. Розрахунок комісії теж варто автоматизувати: система сама рахує суму за відсотком угоди, віднімає частку компанії й формує зведення до виплати.",
+      "en": "Per-agent analytics is not control for its own sake, it shows where exactly a person loses deals. One agent runs many viewings but closes negotiations poorly, another closes well but barely calls. Those two cases need different fixes, and without numbers you cannot tell them apart. Commission calculation is worth automating as well: the system computes the amount from the deal percentage, subtracts the company share and produces a payout summary."
+    },
+    {
+      "t": "p",
+      "uk": "Готові CRM закривають базові потреби, але агентства часто впираються в чужу логіку: не той підбір, не ті етапи, немає розрахунку комісії під власну схему або інтеграції з потрібним майданчиком. У Devlly ми розробляємо такі системи під ключ - від бази обʼєктів і автоматичного підбору до Telegram-нагадувань та звітів по комісії, під реальні процеси конкретного агентства.",
+      "en": "Off-the-shelf CRMs cover the basics, but agencies often hit someone else's logic: the wrong matching, the wrong stages, no commission calculation for their own scheme or no integration with the portal they need. At Devlly we build such systems custom - from a property database and automatic matching to Telegram reminders and commission reports, shaped around a specific agency's real processes."
+    }
+  ]
+}

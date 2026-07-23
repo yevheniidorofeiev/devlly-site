@@ -1,0 +1,97 @@
+{
+  "title_uk": "Парсинг цін конкурентів: як моніторити ринок автоматично",
+  "title_en": "Competitor price parsing: how to monitor the market automatically",
+  "date_uk": "15 ЧЕР 2026",
+  "date_en": "JUN 15, 2026",
+  "desc_uk": "Як автоматично збирати ціни конкурентів, зіставляти їх зі своїм прайсом і перетворювати дані на рішення. Технічні бар'єри, законність і головна помилка.",
+  "desc_en": "How to automatically collect competitor prices, match them to your own catalogue and turn the data into decisions. Technical barriers, legality and the main mistake.",
+  "seo": {
+    "t": "Парсинг цін конкурентів: автоматичний моніторинг ринку | Devlly",
+    "te": "Competitor price parsing: automated market monitoring | Devlly",
+    "d": "Як налаштувати парсинг цін конкурентів: матчинг товарів, частота збору, дашборд і алерти в Telegram, технічні бар'єри та законність моніторингу цін.",
+    "de": "How to set up competitor price parsing: product matching, collection frequency, dashboards and Telegram alerts, technical barriers and the legal limits.",
+    "k": "парсинг цін конкурентів, моніторинг цін, автоматичний збір цін, парсинг сайтів, аналіз конкурентів, динамічне ціноутворення"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Ціна - найшвидший важіль впливу на продажі й водночас найпростіший спосіб втратити маржу. Якщо ви на 15% дорожчі за ринок, покупець просто йде до сусіднього магазину. Якщо на 15% дешевші - ви подарували собі збиток там, де могли заробити. Дізнатися вручну, скільки коштує той самий товар у конкурентів, неможливо: сто позицій у десяти магазинах - це тисяча перевірок щодня. Саме тому компанії будують автоматичний збір цін: робот обходить сайти конкурентів, знімає ціни й наявність, зіставляє їх з вашим прайсом і показує, де ви програєте. Розберімо, як це працює на практиці, які пастки чекають на кожному етапі й що тут дозволено законом.",
+      "en": "Price is the fastest lever you have on sales, and at the same time the easiest way to lose your margin. If you are 15% more expensive than the market, the buyer simply goes to the store next door. If you are 15% cheaper, you have handed yourself a loss where you could have earned. Finding out manually what the same product costs at your competitors is impossible: a hundred items across ten stores means a thousand checks every day. That is why companies build automated price collection: a robot walks through competitors’ websites, captures prices and stock status, matches them against your own price list and shows you where you are losing. Let’s look at how this works in practice, what traps await at every stage, and what the law actually allows."
+    },
+    {
+      "t": "h2",
+      "uk": "Навіщо бізнесу парсинг цін конкурентів",
+      "en": "Why a business needs competitor price parsing"
+    },
+    {
+      "t": "p",
+      "uk": "Головна причина - динамічне ціноутворення. Ринок рухається щодня: конкурент запустив акцію, розпродає залишки, підняв ціну через курс або взагалі вивів позицію з асортименту. Без моніторингу цін ви дізнаєтеся про це через тиждень - за падінням замовлень. З моніторингом ви бачите зміну наступного ранку й реагуєте усвідомлено: десь опускаєте ціну на 3%, щоб не втратити трафік, десь навпаки піднімаєте, бо єдиний конкурент з наявністю - це ви. Головний ефект тут не в тому, щоб «продавати дешевше за всіх», а в тому, щоб перестати демпінгувати наосліп. Багато магазинів роками тримають знижку на позиціях, де конкуренти давно дорожчі: кожен такий товар - це втрачені відсотки маржі в кожному чеку.",
+      "en": "The main reason is dynamic pricing. The market moves every day: a competitor launches a promo, clears out leftovers, raises prices because of the exchange rate, or drops an item from their range entirely. Without price monitoring you find out about it a week later - from the drop in orders. With monitoring you see the change the next morning and react deliberately: here you lower the price by 3% so you don’t lose traffic, there you actually raise it, because you are the only competitor with the item in stock. The main effect is not about “selling cheaper than everyone,” but about no longer undercutting blindly. Many stores keep a discount for years on items where competitors have long been more expensive: every such product is a few percent of margin lost in every single order."
+    },
+    {
+      "t": "p",
+      "uk": "Другий сценарій - контроль власного асортименту та цін дилерів. Виробники й дистриб'ютори через автоматичний збір цін перевіряють, чи не порушують партнери рекомендовану ціну й чи не демпінгує хтось один, псуючи ринок усім. Третій сценарій - аналіз конкурентів як стратегія: які категорії вони розширюють, які позиції зникли з їхнього складу, як часто вони змінюють ціни, хто в ніші є лідером зниження. Ці дані потрібні не лише щоб реагувати, а щоб планувати закупівлю. Тільки одразу дайте собі відповідь на просте запитання: яке рішення я ухвалю, побачивши цю цифру? Якщо відповіді немає, збирати цю цифру не варто.",
+      "en": "The second scenario is controlling your own range and your dealers’ prices. Manufacturers and distributors use automated price collection to check whether partners are breaking the recommended price and whether someone is undercutting everyone and spoiling the market for all. The third scenario is competitor analysis as strategy: which categories they are expanding, which items have vanished from their stock, how often they change prices, who is the discount leader in the niche. This data is needed not only to react, but to plan purchasing. Just answer one simple question upfront: what decision will I make once I see this number? If there is no answer, that number is not worth collecting."
+    },
+    {
+      "t": "h2",
+      "uk": "Матчинг товарів - найскладніше в моніторингу цін",
+      "en": "Product matching is the hardest part of price monitoring"
+    },
+    {
+      "t": "p",
+      "uk": "Зняти цифру зі сторінки - легка частина. Складна - довести, що на сторінці конкурента саме ваш товар. Найнадійніший ключ - штрихкод EAN або GTIN: якщо він є в обох каталогах, зіставлення однозначне й ніяких сумнівів немає. Далі йде артикул виробника - теж непогано, але його пишуть по-різному: «SM-A546E/DS», «SM A546E», «SMA546EDS». Найгірший, але найпоширеніший варіант - матчинг за назвою, бо в одного магазину товар називається «Samsung Galaxy A54 5G 8/256GB Black», а в іншого - «Смартфон Самсунг А54 256 Гб чорний». Автоматично зіставити ці рядки «в лоб» неможливо.",
+      "en": "Capturing the number from the page is the easy part. The hard part is proving that the item on the competitor’s page is actually your product. The most reliable key is the EAN or GTIN barcode: if both catalogues have it, the match is unambiguous and there is no room for doubt. Next comes the manufacturer part number - also decent, but it gets written in different ways: “SM-A546E/DS”, “SM A546E”, “SMA546EDS”. The worst but most common option is matching by name, because in one store the product is called “Samsung Galaxy A54 5G 8/256GB Black” and in another “Samsung A54 smartphone 256 GB black.” Matching those strings head-on automatically is impossible."
+    },
+    {
+      "t": "p",
+      "uk": "Тому реальний матчинг - це конвеєр: нормалізація тексту (регістр, транслітерація, одиниці виміру), витягування характеристик (обсяг пам'яті, колір, кількість у пачці), нечітке порівняння назв і перевірка бренду, а потім поріг упевненості. Усе, що вище порогу, зіставляється автоматично; усе, що нижче, потрапляє на ручну модерацію, і людина за пару секунд натискає «так» або «ні». Ці підтвердження обов'язково зберігайте, щоб система не питала про той самий товар удруге. Нормальний очікуваний результат на старті - 60-80% автоматичного покриття, решта добирається руками протягом кількох тижнів. І окрема пастка: пляшка 2 літри та упаковка 2×1 літр - це різні товари, і порівнювати їхні ціни як однакові не можна.",
+      "en": "So real matching is a pipeline: text normalisation (case, transliteration, units of measure), attribute extraction (storage size, colour, units per pack), fuzzy comparison of names, a brand check, and then a confidence threshold. Everything above the threshold is matched automatically; everything below it goes to manual review, where a human clicks “yes” or “no” in a couple of seconds. Always store those confirmations so the system never asks about the same product twice. A realistic result at launch is 60-80% automatic coverage, with the rest filled in by hand over a few weeks. And one separate trap: a 2-litre bottle and a 2×1-litre pack are different products, and comparing their prices as if they were the same is simply wrong."
+    },
+    {
+      "t": "h2",
+      "uk": "Частота автоматичного збору цін і куди складати дані",
+      "en": "How often to run automated price collection and where to store the data"
+    },
+    {
+      "t": "p",
+      "uk": "Для більшості інтернет-магазинів достатньо одного проходу на добу - вночі, коли на сайтах конкурентів найменше навантаження. Ціни в рітейлі рідко змінюються частіше, а щогодинний збір лише збільшує ризик блокування та рахунок за проксі. Годинна або навіть 15-хвилинна частота виправдана там, де ціна справді жива: маркетплейси з автоматичними репрайсерами, електроніка на старті продажів, квитки, паливо. Розумний компроміс - двошвидкісний графік: топ-200 позицій, які дають основну виручку, знімати щогодини, а решту каталогу - раз на добу. Це знижує вартість інфраструктури в рази без утрати сенсу.",
+      "en": "For most online stores a single pass per day is enough - at night, when competitors’ sites are least loaded. Retail prices rarely change more often than that, and hourly collection only increases the risk of being blocked and the size of your proxy bill. Hourly or even 15-minute frequency is justified where the price is genuinely alive: marketplaces with automatic repricers, electronics at launch, tickets, fuel. A sensible compromise is a two-speed schedule: capture the top 200 items that drive most of the revenue every hour, and the rest of the catalogue once a day. That cuts infrastructure cost several times over without losing any of the value."
+    },
+    {
+      "t": "p",
+      "uk": "Дані мають лягати в базу з історією, а не перезаписуватися. Одна ціна - це просто факт, а історія цін - це вже актив: видно сезонність, глибину акцій і реакцію конкурента на ваші кроки. Поверх бази ставлять дашборд: де ми дорожчі за ринок, де дешевші, які позиції випали з наявності у всіх, крім нас (тут можна спокійно підняти ціну). І обов'язково - алерти, бо в дашборд ніхто не заходить щодня. Повідомлення в Telegram на кшталт «Конкурент X знизив ціну на 12% на восьми позиціях вашого топ-асортименту» доходить до категорійного менеджера за секунду й перетворює звіт на дію. Без цього останнього кроку весь збір цін залишається красивою, але марною картинкою.",
+      "en": "Data must land in a database with history, not be overwritten. A single price is just a fact; a price history is already an asset: you can see seasonality, the depth of promotions and how a competitor reacts to your moves. On top of the database you build a dashboard: where we are more expensive than the market, where we are cheaper, which items are out of stock everywhere except at our store (there you can safely raise the price). And alerts are a must, because nobody opens a dashboard every day. A Telegram message like “Competitor X cut prices by 12% on eight items from your top range” reaches the category manager in a second and turns a report into an action. Without that last step, all your price collection stays a pretty but useless picture."
+    },
+    {
+      "t": "h2",
+      "uk": "Технічні бар'єри парсингу сайтів і як їх обходять коректно",
+      "en": "Technical barriers of website parsing and how to work around them properly"
+    },
+    {
+      "t": "p",
+      "uk": "Простий сайт віддає ціну прямо в HTML - тоді достатньо звичайного HTTP-запиту, і збір коштує копійки. Проблеми починаються далі. Багато магазинів рендерять ціну через JavaScript, тож потрібен headless-браузер, а це в десятки разів дорожче за ресурсами. Далі - захист: капча, обмеження кількості запитів з однієї IP-адреси, блокування дата-центрових мереж, антибот-системи, які аналізують поведінку. Плюс сайти постійно змінюють верстку, і парсер, який учора працював, сьогодні тихо збирає порожні значення. Тому обов'язковий елемент системи - моніторинг самого парсера: якщо покриття впало з 95% до 40%, ви маєте дізнатися про це з алерта, а не з хибного звіту через місяць.",
+      "en": "A simple site returns the price straight in the HTML - then a plain HTTP request is enough and collection costs pennies. The problems start after that. Many stores render prices with JavaScript, so you need a headless browser, and that is dozens of times more expensive in resources. Then come the defences: captchas, limits on the number of requests from one IP address, blocks on data-centre networks, anti-bot systems that analyse behaviour. On top of that, sites keep changing their markup, and a parser that worked yesterday quietly collects empty values today. That is why monitoring the parser itself is a mandatory part of the system: if coverage drops from 95% to 40%, you should learn about it from an alert, not from a wrong report a month later."
+    },
+    {
+      "t": "p",
+      "uk": "Коректний збір - це передусім помірність. Обмежуйте темп: один запит на кілька секунд, паралельність у розумних межах, робота вночі, повага до robots.txt і до ресурсів чужого сервера. Ротація проксі та реалістичні заголовки потрібні не для «злому», а щоб один робот не виглядав як DDoS з однієї адреси. Кешуйте те, що не змінюється, і не тягніть картинки - вам потрібна ціна, а не гігабайти графіки. Якщо конкурент має відкритий API, фід для маркетплейсів або публічний прайс у файлі - використовуйте саме їх: це швидше, дешевше й чесніше. Агресивний парсинг сайтів, який кладе чужий ресурс, - це вже не аналіз конкурентів, а шкода, і виправдання їй немає.",
+      "en": "Proper collection is above all about moderation. Throttle the pace: one request every few seconds, sensible parallelism, night-time runs, respect for robots.txt and for the other server’s resources. Proxy rotation and realistic headers are not there for “hacking” but so that a single robot does not look like a DDoS from one address. Cache whatever doesn’t change and don’t download images - you need the price, not gigabytes of graphics. If a competitor has an open API, a marketplace feed or a public price file, use exactly that: it is faster, cheaper and more honest. Aggressive parsing that takes someone else’s site down is no longer competitor analysis, it is damage, and there is no excuse for it."
+    },
+    {
+      "t": "h2",
+      "uk": "Законність моніторингу цін і головна помилка",
+      "en": "The legality of price monitoring and the main mistake"
+    },
+    {
+      "t": "p",
+      "uk": "Тут треба говорити чесно. Ціна товару у відкритому каталозі - це публічна інформація, і сам факт її збирання зазвичай не є чимось забороненим. Але є три межі, які варто тримати в голові. Перша - персональні дані: імена, телефони, відгуки з іменами користувачів. Це вже сфера захисту персональних даних і GDPR, і збирати їх «до купи», бо вони траплялися на сторінці, не можна. Друга - умови користування сайтом: багато ресурсів прямо забороняють автоматизований збір, і хоча це питання договірне, а не кримінальне, конфлікт і блокування цілком реальні. Третя - обхід технічного захисту та надмірне навантаження: зламувати капчі, підбирати доступи до закритих розділів чи створювати ризик для роботи чужого сервісу не можна за жодних умов. Практичне правило просте: беремо лише публічні знеособлені дані, у помірному темпі, для власного аналізу, і не використовуємо чужий контент, фото та описи як свої. Для великого проєкту юридичну оцінку варто отримати заздалегідь, а не після листа від конкурента.",
+      "en": "Here we have to be honest. The price of a product in an open catalogue is public information, and the mere act of collecting it is usually not forbidden. But there are three boundaries worth keeping in mind. The first is personal data: names, phone numbers, reviews with user names. That already falls under data protection law and GDPR, and grabbing it “just because it was on the page” is not acceptable. The second is the site’s terms of use: many resources explicitly forbid automated collection, and although that is a contractual rather than a criminal matter, conflict and blocking are very real. The third is circumventing technical protection and creating excessive load: breaking captchas, guessing your way into closed sections or putting someone else’s service at risk of failure is never acceptable. The practical rule is simple: take only public, depersonalised data, at a moderate pace, for your own analysis, and never reuse someone else’s content, photos and descriptions as your own. For a large project, get a legal review in advance rather than after a letter from a competitor."
+    },
+    {
+      "t": "p",
+      "uk": "І головна помилка, яку ми бачимо найчастіше: компанія витрачає бюджет на парсинг сайтів, накопичує гігабайти цін - і не змінює жодної ціни. Дані самі по собі не приносять грошей; гроші приносить правило, за яким хтось діє. Тому починайте з кінця: визначте 100-300 позицій, які дають більшість виручки, опишіть логіку рішення («якщо ми дорожчі за медіану ринку більш ніж на 5% - сигнал категорійнику»), і лише потім будуйте збір. Саме такі системи ми в Devlly і робимо: збір цін, матчинг товарів, історія в базі, дашборд і алерти в Telegram - щоб моніторинг цін закінчувався рішенням, а не ще одним звітом, який ніхто не відкриває.",
+      "en": "And here is the mistake we see most often: a company spends its budget on website parsing, accumulates gigabytes of prices - and doesn’t change a single price. Data on its own brings no money; money comes from a rule that somebody acts on. So start from the end: pick the 100-300 items that generate most of the revenue, write down the decision logic (“if we are more than 5% above the market median, alert the category manager”), and only then build the collection. These are exactly the systems we build at Devlly: price collection, product matching, history in a database, a dashboard and Telegram alerts - so that price monitoring ends in a decision, not in yet another report nobody opens."
+    }
+  ]
+}

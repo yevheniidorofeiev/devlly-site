@@ -1,0 +1,142 @@
+{
+ "title_uk": "Автоматизація кавʼярні: від замовлень до аналітики",
+ "title_en": "Coffee Shop Automation: From Orders to Analytics",
+ "desc_uk": "Як автоматизувати кавʼярню: облік продажів, залишки, програма лояльності і аналітика через Telegram.",
+ "desc_en": "How to automate a coffee shop: sales accounting, stock levels, a loyalty program and analytics delivered through Telegram.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Автоматизація обліку кавʼярні: продажі, склад і аналітика | Devlly",
+  "te": "Coffee Shop Accounting Automation: Sales, Stock and Analytics | Devlly",
+  "d": "Автоматизуємо облік в кавʼярні: продажі, залишки, витрати і виручка в одному місці. Telegram-бот для персоналу і дашборд для власника.",
+  "de": "We automate coffee shop accounting: sales, stock levels, costs and revenue in one place. A Telegram bot for staff and a dashboard for the owner.",
+  "k": "автоматизація кавʼярні, облік продажів, залишки на складі, програма лояльності, аналітика продажів, звіти в Telegram, система обліку для кофейні"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Кавʼярня живе на дрібницях: скільки зерна лишилось, чому понеділок дав мінус, хто зі змін працює швидше. Поки все тримається на зошиті і памʼяті бариста, власник дізнається про проблему через тиждень, коли гроші вже втрачені. Автоматизація закриває цей розрив і показує реальні цифри щодня.",
+   "en": "A coffee shop lives on small details: how much coffee is left, why Monday ended in the red, which shift works faster. As long as everything sits in a notebook and in the barista's memory, the owner learns about a problem a week later, when the money is already gone. Automation closes that gap and shows real numbers every day."
+  },
+  {
+   "t": "h2",
+   "uk": "Автоматизація кавʼярні: з чого почати",
+   "en": "Coffee shop automation: where to start"
+  },
+  {
+   "t": "p",
+   "uk": "Почніть не з програми, а з опису дня. Хто приймає замовлення, де фіксується оплата, коли списується молоко, хто рахує касу ввечері. Майже завжди виявляється, що половина дій ніде не зберігається: бариста памʼятає, що відкрив нову пачку зерна, але в обліку цього немає. Автоматизація кавʼярні починається з того, щоб кожна така дія лишала слід у системі.",
+   "en": "Start with a description of your day, not with software. Who takes the order, where the payment is recorded, when milk gets written off, who counts the till in the evening. Almost always it turns out that half of these actions are stored nowhere: the barista remembers opening a new bag of beans, but the records show nothing. Coffee shop automation starts by making every such action leave a trace in the system."
+  },
+  {
+   "t": "p",
+   "uk": "Далі оберіть одну точку болю і закрийте її першою. Найчастіше це закриття зміни: воно займає 20-30 хвилин і все одно дає розбіжності по касі. Коли зміна закривається за дві хвилини з телефона, а розбіжність видно одразу, команда сама починає просити автоматизувати наступний шматок роботи.",
+   "en": "Then pick one pain point and close it first. Usually it is the shift close: it takes 20-30 minutes and still ends with cash discrepancies. Once a shift closes in two minutes from a phone and any mismatch is visible right away, the team itself starts asking to automate the next piece of work."
+  },
+  {
+   "t": "p",
+   "uk": "Не намагайтеся замінити все за раз. Робоча послідовність така: продажі, потім залишки, потім лояльність, потім аналітика. Кожен етап - це два-три тижні і окрема користь, яку видно одразу. Якщо запускати все одночасно, бариста не встигають перевчитися і тихо повертаються до зошита, а система залишається порожньою.",
+   "en": "Do not try to replace everything at once. A workable order is: sales, then stock, then loyalty, then analytics. Each stage takes two to three weeks and delivers a separate benefit you can see immediately. If you launch everything at the same time, baristas cannot relearn fast enough, quietly go back to the notebook, and the system stays empty."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо порахуйте, скільки часу зараз іде на рутину. Закриття зміни, зведення виручки за тиждень, замовлення постачальникам, звірка залишків, підрахунок бонусів постійним гостям - разом це легко 8-10 годин на місяць у власника і стільки ж у команди. Це і є бюджет проєкту, виміряний у годинах, який автоматизація повертає вже в перший квартал роботи.",
+   "en": "Separately, count how much time routine work eats today. Closing a shift, totalling weekly revenue, placing supplier orders, reconciling stock, calculating bonuses for regulars - together that is easily 8-10 hours a month for the owner and as much again for the team. That is your project budget measured in hours, and automation pays it back within the first quarter."
+  },
+  {
+   "t": "h2",
+   "uk": "Облік продажів: кожна чашка в системі",
+   "en": "Sales accounting: every cup in the system"
+  },
+  {
+   "t": "p",
+   "uk": "Облік продажів має бути частиною процесу приготування, а не окремою роботою в кінці дня. Бариста натискає позицію в застосунку на планшеті, система сама фіксує час, суму, спосіб оплати і того, хто продав. Ніяких додаткових таблиць, які потім хтось зводить вручну.",
+   "en": "Sales accounting must be part of the preparation process, not extra work at the end of the day. The barista taps an item on the tablet app, and the system records the time, the amount, the payment method and who made the sale. No extra spreadsheets for someone to reconcile by hand later."
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальний набір даних на кожен чек: час до хвилини, склад замовлення, модифікатори (додатковий шот, альтернативне молоко, сироп), сума, готівка чи картка, номер зміни. Цього достатньо, щоб потім побудувати будь-який звіт без ручного перерахунку і без питань «а звідки ця цифра».",
+   "en": "The minimum data set per receipt: time down to the minute, order contents, modifiers (extra shot, alternative milk, syrup), total, cash or card, shift number. That is enough to build any report later without manual recalculation and without questions like «where did this number come from»."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо варто фіксувати скасування і безкоштовні напої. Це не про недовіру, а про цифри: якщо за місяць списано 140 напоїв «на пробу», це реальні витрати, які треба бачити. Система просто просить обрати причину зі списку, і питання закривається саме собою, без розмов і взаємних підозр.",
+   "en": "Cancellations and free drinks deserve their own records. This is not about distrust, it is about numbers: if 140 drinks a month are written off «as tastings», that is a real cost you need to see. The system simply asks the barista to pick a reason from a list, and the question resolves itself without arguments or suspicion."
+  },
+  {
+   "t": "p",
+   "uk": "Друге, що дає облік продажів, - це швидка перевірка каси. У кінці зміни система показує, скільки мало бути готівкою і скільки карткою, бариста вводить фактичну суму з шухляди, різниця рахується автоматично. Якщо мінус 40 гривень трапляється раз на місяць, це округлення решти. Якщо щодня, це вже привід подивитися на конкретну зміну, а не підозрювати всю команду.",
+   "en": "The second thing sales accounting gives you is a fast cash check. At the end of a shift the system shows how much should be in cash and how much on card, the barista enters the actual amount from the drawer, and the difference is calculated automatically. If a 40 hryvnia shortfall happens once a month, that is change rounding. If it happens daily, it is a reason to look at one specific shift rather than suspect the whole team."
+  },
+  {
+   "t": "h2",
+   "uk": "Залишки: зерно, молоко і стакани без сюрпризів",
+   "en": "Stock: beans, milk and cups without surprises"
+  },
+  {
+   "t": "p",
+   "uk": "Залишки рахуються автоматично через технологічні карти. Ви один раз описуєте, що в капучино 250 мл іде 18 г зерна, 150 мл молока, стакан і кришка. Далі кожен проданий напій сам зменшує залишок, а вам лишається тільки вносити прихід від постачальника і списувати брак.",
+   "en": "Stock is calculated automatically from recipe cards. You describe once that a 250 ml cappuccino uses 18 g of beans, 150 ml of milk, a cup and a lid. After that every drink sold reduces the stock by itself, and all you have to do is enter supplier deliveries and write off waste."
+  },
+  {
+   "t": "p",
+   "uk": "Система тримає мінімальний поріг по кожній позиції. Коли зерна лишається менше ніж на два дні роботи, приходить нагадування замовити. Для кавʼярні з обігом 200 чашок на день це економить і гроші, і нерви: не буває ані порожнього бункера в пʼятницю ввечері, ані зайвих десяти літрів молока, які треба встигнути використати.",
+   "en": "The system keeps a minimum threshold for every item. When there are less than two working days of beans left, a reminder to reorder arrives. For a shop doing 200 cups a day this saves both money and nerves: no empty hopper on a Friday evening and no extra ten litres of milk you have to rush to use up."
+  },
+  {
+   "t": "p",
+   "uk": "Раз на тиждень робіть звірку факту з обліком. Розбіжність до 3% по молоку - норма, це проливи і калібрування помолу. Якщо різниця стабільно більша, значить, десь не працює процес: не внесли прихід, не списали брак або технологічна карта не збігається з тим, що реально роблять за баром.",
+   "en": "Once a week compare physical stock with the records. A discrepancy of up to 3% on milk is normal - spillage and grinder calibration. If the gap is consistently larger, some process is broken: a delivery was not entered, waste was not written off, or the recipe card does not match what is actually being made behind the bar."
+  },
+  {
+   "t": "p",
+   "uk": "Списання браку робіть прямо за баром, у два натискання: обрати позицію і вказати причину - перегріли молоко, впав стакан, калібрування помолу після нової пачки. На налаштування нового мішка йде 150-250 г зерна, і ці грами теж мають бути в системі. Інакше в кінці місяця незрозуміло, куди зникло півтора кілограма, і будь-яка версія буде однаково недоведеною.",
+   "en": "Write off waste right at the bar, in two taps: pick the item and give a reason - milk overheated, cup dropped, grinder calibration after a new bag. Dialling in a new bag costs 150-250 g of beans, and those grams belong in the system too. Otherwise at the end of the month nobody can explain where a kilo and a half went, and every theory is equally unprovable."
+  },
+  {
+   "t": "h2",
+   "uk": "Програма лояльності і передзамовлення через бота",
+   "en": "Loyalty program and pre-orders through a bot"
+  },
+  {
+   "t": "p",
+   "uk": "Програма лояльності найпростіше живе в Telegram-боті: гість натискає «Мій рахунок», бачить накопичені бали або відмітки, бариста сканує QR з екрана телефона. Ніяких пластикових карток, які губляться, і паперових штампів, які легко підробити звичайною печаткою.",
+   "en": "A loyalty program is easiest to run in a Telegram bot: the guest taps «My account», sees accumulated points or stamps, and the barista scans a QR code from the phone screen. No plastic cards to lose and no paper stamps that anyone can fake with a cheap stamp."
+  },
+  {
+   "t": "p",
+   "uk": "Робочі механіки для кавʼярні: кожен шостий напій у подарунок, кешбек 5-7% балами, окремі бонуси на ранкові години, коли черга менша. Бот сам нагадує гостю, якщо той не заходив два тижні, і це повертає частину аудиторії без витрат на рекламу.",
+   "en": "Mechanics that work for coffee shops: every sixth drink free, 5-7% cashback in points, extra bonuses during morning hours when the queue is shorter. The bot reminds a guest who has not visited for two weeks, and that brings part of your audience back with no advertising spend."
+  },
+  {
+   "t": "p",
+   "uk": "Передзамовлення знімає пікове навантаження. Гість обирає напій і час, оплачує в боті, забирає без черги. Для локацій біля офісів це дає до 15-20% замовлень у ранковий пік і робить чергу керованою, бо бариста бачить наступні 20 хвилин заздалегідь і готує партіями.",
+   "en": "Pre-orders take the pressure off peak hours. The guest picks a drink and a time, pays in the bot and collects it without queueing. For locations near offices this can account for 15-20% of morning peak orders and makes the queue manageable, because the barista sees the next 20 minutes in advance and prepares in batches."
+  },
+  {
+   "t": "p",
+   "uk": "Важлива деталь: бали мають нараховуватися автоматично за фактом чека, а не окремим натисканням бариста. Будь-який зайвий крок у пік просто пропускають, і програма лояльності перетворюється на мертвий функціонал, на який потім скаржаться гості. Ідентифікація за номером телефона або QR у боті займає три секунди і не ламає темп роботи за баром.",
+   "en": "One important detail: points must be credited automatically from the receipt, not by a separate tap from the barista. Any extra step gets skipped during the rush, and the loyalty program turns into dead functionality that guests then complain about. Identifying a customer by phone number or a QR code in the bot takes three seconds and does not break the rhythm behind the bar."
+  },
+  {
+   "t": "h2",
+   "uk": "Аналітика і звіти: що власник бачить щодня",
+   "en": "Analytics and reports: what the owner sees every day"
+  },
+  {
+   "t": "p",
+   "uk": "Аналітика потрібна не заради графіків, а заради рішень. Три питання, на які система має відповідати миттєво: коли пік і скільки людей треба ставити на зміну, які позиції дають найбільший прибуток, а не просто оборот, і як змінюється середній чек по днях тижня.",
+   "en": "Analytics exist for decisions, not for charts. Three questions the system must answer instantly: when the peak is and how many people to schedule, which items bring the most profit rather than just turnover, and how the average check changes across days of the week."
+  },
+  {
+   "t": "p",
+   "uk": "Звіти по змінах і бариста показують швидкість обслуговування, кількість чеків, середній чек і частку допродажів. Це не контроль заради контролю: коли видно, що один бариста продає десерт до кожного пʼятого напою, а інший до кожного двадцятого, зрозуміло, кого і чому саме треба навчити.",
+   "en": "Shift and barista reports show service speed, receipt count, average check and upsell share. This is not control for its own sake: when you can see that one barista sells a dessert with every fifth drink and another with every twentieth, it is clear who needs training and in what exactly."
+  },
+  {
+   "t": "p",
+   "uk": "Щоденний підсумок приходить власнику в Telegram о 22:00: виручка, кількість чеків, середній чек, топ-5 позицій, залишки нижче порогу, розбіжність по касі. Тридцять секунд читання замість вечірніх дзвінків управителю. Такі системи Devlly збирає під конкретну кавʼярню - з вашими техкартами, вашою механікою лояльності і звітами в тому вигляді, у якому вам зручно приймати рішення.",
+   "en": "The daily summary arrives in the owner's Telegram at 22:00: revenue, receipt count, average check, top five items, stock below threshold, cash discrepancy. Thirty seconds of reading instead of evening calls to the manager. Devlly builds systems like this custom for a specific coffee shop - with your recipe cards, your loyalty mechanics and reports in the form that makes decisions easy for you."
+  }
+ ]
+}

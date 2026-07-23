@@ -1,0 +1,122 @@
+{
+  "title_uk": "Telegram-бот для українців у Європі: бізнес без офісу",
+  "title_en": "Telegram Bot for Ukrainians in Europe: Business Without an Office",
+  "desc_uk": "Як українцям у Європі запустити Telegram-бота для прийому замовлень і клієнтів: працює з будь-якої країни, українською, без привʼязки до офісу.",
+  "desc_en": "How Ukrainians in Europe can launch a Telegram bot to take orders and manage clients: it works from any country, in Ukrainian, without being tied to an office.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram-бот для українців у Європі: автоматизація | Devlly",
+    "te": "Telegram Bot for Ukrainians in Europe: Business Without an Office | Devlly",
+    "d": "Як українцям у Європі запустити Telegram-бота для прийому замовлень і клієнтів: працює з будь-якої країни, українською, без привʼязки до офісу.",
+    "de": "How Ukrainians in Europe can launch a Telegram bot to take orders and manage clients: it works from any country, in Ukrainian, without being tied to an office.",
+    "k": "телеграм бот для українців у європі, бот для бізнесу за кордоном, телеграм бот для украинцев в европе, бизнес за границей бот, telegram bot for ukrainians abroad, business without office, бот для прийому замовлень телеграм, украинский бизнес в европе телеграм, telegram bot for small business europe, автоматизація бізнесу за кордоном, чат-бот для українців за кордоном"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Мільйони українців зараз ведуть свій бізнес не з України, а з Варшави, Берліна, Праги чи Мадрида: пекарні, хендмейд, репетиторство, нейл-сервіс, консультації, невеликий імпорт товарів з України для земляків за кордоном. Орендувати офіс чи наймати колцентр у чужій країні дорого і довго, а сайт іноземною мовою клієнти з діаспори часто просто не відкривають. Telegram-бот запускається за кілька днів, приймає замовлення українською мовою цілодобово і дозволяє керувати бізнесом з телефона з будь-якої країни ЄС, без офісу, персоналу і зайвих витрат на старті. Це особливо актуально для дрібного бізнесу, де кожна хвилина і кожен зайвий рахунок мають значення.",
+      "en": "Millions of Ukrainians now run their businesses not from Ukraine but from Warsaw, Berlin, Prague or Madrid: bakeries, handmade crafts, tutoring, nail services, consulting, small imports of goods from Ukraine for fellow expats abroad. Renting an office or hiring a call center in a foreign country is expensive and slow, and a website in a foreign language is often something diaspora clients simply never open. A Telegram bot launches in a few days, takes orders in Ukrainian around the clock, and lets you run the business from your phone in any EU country, without an office, staff or extra costs at the start. This matters especially for small businesses, where every minute and every extra bill counts."
+    },
+    {
+      "t": "h2",
+      "uk": "Telegram-бот для українців у Європі: чому саме цей месенджер",
+      "en": "Telegram Bot for Ukrainians in Europe: Why This Messenger"
+    },
+    {
+      "t": "p",
+      "uk": "Українська діаспора в Європі вже живе в Telegram: тут родинні чати, чати сусідів по будинку, групи шукачів роботи, спільноти по містах і навіть оголошення про житло чи вакансії. Підприємцю не треба переконувати клієнта завантажити ще один застосунок чи зареєструватися на новому сайті: людина просто пише в чат, який і так відкритий у неї щодня, ще до того, як вона взагалі почула про новий бізнес.",
+      "en": "The Ukrainian diaspora in Europe already lives in Telegram: family chats, chats for neighbors in the same building, job search groups, city communities and even housing or job listings. An entrepreneur does not need to convince a client to download another app or register on a new website: the person simply writes in a chat that is already open every day, even before they have heard about the new business."
+    },
+    {
+      "t": "p",
+      "uk": "Спілкування рідною мовою знімає барʼєр довіри, який часто виникає з іноземними сайтами чи автовідповідачами на чужій мові, коли людина ще тільки освоюється в новій країні. Клієнт бачить знайомий інтерфейс, звичні стікери і швидку відповідь українською, тому охочіше залишає замовлення, ставить уточнювальні питання і повертається знову, навіть якщо поруч є десятки конкурентів з місцевою рекламою.",
+      "en": "Communicating in one's native language removes the trust barrier that often comes with foreign websites or answering machines in an unfamiliar language, especially while someone is still settling into a new country. The client sees a familiar interface, familiar stickers and a fast reply in Ukrainian, so they are more willing to place an order, ask follow up questions and come back again, even when dozens of competitors are running local ads nearby."
+    },
+    {
+      "t": "p",
+      "uk": "Дублювати канали в Instagram, Viber і на сайті не потрібно: достатньо одного бота, куди підприємець веде всю аудиторію одним посиланням у профілі чи візитці. Клієнт завжди знає, де знайти актуальний прайс, оформити нове замовлення чи запитати про наявність товару, а підприємцю не треба стежити за кількома різними месенджерами одночасно. Це заощаджує час і на етапі запуску, і надалі, коли бізнес підростає.",
+      "en": "There is no need to duplicate channels across Instagram, Viber and a website: one bot is enough, and the entrepreneur directs the whole audience there with a single link in a profile or business card. The client always knows where to find the current price list, place a new order or ask about availability, and the entrepreneur does not have to monitor several different messengers at once. This saves time both at launch and later, as the business grows."
+    },
+    {
+      "t": "h2",
+      "uk": "Бот замість сайту: вітрина і приймальня в одному",
+      "en": "A Bot Instead of a Website: Storefront and Order Desk in One"
+    },
+    {
+      "t": "p",
+      "uk": "Каталог товарів чи послуг, ціни, фото і опис умов доставки поміщаються прямо в меню бота: клієнт гортає кнопки, а не чекає, поки завантажиться повільний сайт на мобільному інтернеті десь у дорозі чи на роботі. Це особливо важливо для людей, які замовляють з телефона в обідню перерву або ввечері після зміни. Фото та відео можна оновлювати миттєво, без чекання модерації чи публікації на сторонніх платформах.",
+      "en": "A catalog of products or services, prices, photos and delivery terms fit right into the bot menu: the client taps through buttons instead of waiting for a slow website to load on mobile internet somewhere on the go or at work. This matters especially for people ordering from their phone during a lunch break or in the evening after a shift. Photos and videos can be updated instantly, without waiting for moderation or publishing on third party platforms."
+    },
+    {
+      "t": "p",
+      "uk": "Форма замовлення всередині чату збирає імʼя, контакт, бажаний товар і час доставки без зайвих кроків і переходів на сторонні сторінки. Бот одразу підтверджує клієнту, що заявку прийнято, повідомляє орієнтовний термін виконання і нагадує про самовивіз чи доставку, якщо клієнт забув уточнити деталі.",
+      "en": "An order form inside the chat collects the name, contact, desired item and delivery time without extra steps or redirects to outside pages. The bot instantly confirms to the client that the request was received, states the expected timeframe and reminds about pickup or delivery if the client forgot to specify details."
+    },
+    {
+      "t": "p",
+      "uk": "Такий формат не вимагає хостингу, домену, SSL-сертифіката чи регулярного оновлення сторінок: усі зміни в асортименті чи цінах підприємець вносить сам за кілька хвилин, без розробника і без місячної оплати за підтримку сайту. Це особливо суттєво на старті бізнесу за кордоном, коли кожен зайвий рахунок відчутний.",
+      "en": "This format requires no hosting, domain, SSL certificate or regular page updates: the entrepreneur updates the range or prices in a few minutes, without a developer and without a monthly website support fee. That matters especially at the start of a business abroad, when every extra bill is felt."
+    },
+    {
+      "t": "h2",
+      "uk": "Робота з будь-якої країни і часового поясу",
+      "en": "Working From Any Country and Time Zone"
+    },
+    {
+      "t": "p",
+      "uk": "Бот приймає замовлення цілодобово навіть тоді, коли підприємець спить, працює на іншій роботі чи стоїть у черзі в міграційній службі: заявка не губиться, а чекає на обробку, і клієнт бачить автоматичне підтвердження одразу після відправки, не здогадуючись, що відповідь прийде із затримкою.",
+      "en": "The bot accepts orders around the clock even while the entrepreneur is asleep, working another job or standing in line at the immigration office: the request is not lost, it waits to be processed, and the client sees an automatic confirmation right after sending it, without knowing the reply will actually come later."
+    },
+    {
+      "t": "p",
+      "uk": "Керувати ботом можна з телефона між справами: у трамваї в Кракові, на кухні у Мюнхені чи на дитячому майданчику в Гданську, без привʼязки до конкретного місця чи робочого столу. Достатньо кількох вільних хвилин, щоб відповісти на нові заявки і не втратити клієнта, який чекає підтвердження.",
+      "en": "The bot can be managed from a phone between other tasks: on a tram in Krakow, in a kitchen in Munich or at a playground in Gdansk, without being tied to a specific place or a desk. A few free minutes are enough to answer new requests and not lose a client who is waiting for confirmation."
+    },
+    {
+      "t": "p",
+      "uk": "Одна і та сама розсилка чи бот обслуговує клієнтів одразу з кількох країн, де живе українська діаспора, тому підприємець не втрачає замовлення через різницю в часових поясах між Португалією і Литвою. Це дозволяє масштабувати аудиторію без відкриття нових точок продажу чи додаткового персоналу в кожній країні, а також швидше реагувати на сезонний попит, наприклад перед святами чи літніми виїздами.",
+      "en": "The same broadcast or bot serves clients across several countries where the Ukrainian diaspora lives at once, so the entrepreneur does not lose orders because of time differences between Portugal and Lithuania. This allows the audience to scale without opening new sales points or hiring extra staff in every country, and to react faster to seasonal demand, for example before holidays or summer travel season."
+    },
+    {
+      "t": "h2",
+      "uk": "Оплата в різних валютах без плутанини",
+      "en": "Payments in Different Currencies Without Confusion"
+    },
+    {
+      "t": "p",
+      "uk": "Бот показує ціну одразу в кількох валютах, наприклад в євро, злотих і гривнях, тому клієнт з будь-якої країни розуміє вартість без ручних перерахунків і зайвих запитань перед оформленням замовлення. Це знижує кількість недорозумінь і скасованих замовлень через незрозумілу ціну. Це особливо зручно, коли клієнти живуть у різних країнах єврозони і поза нею.",
+      "en": "The bot displays the price in several currencies at once, for example in euros, zloty and hryvnias, so a client from any country understands the cost without manual conversions or extra questions before placing an order. This reduces misunderstandings and canceled orders caused by an unclear price. It is especially convenient when clients live in different countries, inside and outside the eurozone."
+    },
+    {
+      "t": "p",
+      "uk": "Підтвердження оплати через Revolut, Wise чи звичайний банківський переказ клієнт надсилає скріншотом прямо в чат, а бот фіксує статус замовлення як оплачене, тому підприємцю не потрібно вести окремі таблиці вручну чи звіряти виписки наприкінці дня. Уся історія платежів залишається в переписці з клієнтом.",
+      "en": "Payment confirmation via Revolut, Wise or a regular bank transfer is sent by the client as a screenshot right in the chat, and the bot marks the order status as paid, so the entrepreneur does not need to keep separate spreadsheets or reconcile statements at the end of the day. The whole payment history stays right inside the conversation with the client."
+    },
+    {
+      "t": "p",
+      "uk": "Для постійних клієнтів можна підключити пряме посилання на оплату карткою чи інвойс з чіткою сумою, що зменшує кількість помилок при переказах між країнами і пришвидшує момент, коли гроші реально надходять на рахунок. Так підприємець менше часу витрачає на зʼясування, хто і скільки вже заплатив.",
+      "en": "For repeat clients, a direct card payment link or an invoice with a clear amount can be added, which reduces errors in cross border transfers and speeds up the moment the money actually arrives in the account. This way the entrepreneur spends less time figuring out who has already paid and how much."
+    },
+    {
+      "t": "h2",
+      "uk": "Що потрібно, щоб запустити такого бота",
+      "en": "What It Takes to Launch Such a Bot"
+    },
+    {
+      "t": "p",
+      "uk": "Особисто програмувати не треба: достатньо описати сценарій, каталог товарів, типові запитання клієнтів і те, як мають виглядати підтвердження замовлення, а решту бот виконує автоматично за заданою логікою. Готовий бот можна протестувати самостійно ще до того, як його побачить перший клієнт.",
+      "en": "There is no need to code it personally: it is enough to describe the scenario, the product catalog, typical client questions and how order confirmations should look, and the bot handles the rest automatically according to the set logic. A finished bot can be tested independently even before the first client sees it."
+    },
+    {
+      "t": "p",
+      "uk": "Коли замовлень стає багато, бота варто зʼєднати з простою CRM чи таблицею, щоб бачити історію клієнтів, повторні покупки і завантаженість по днях, а не тримати все в голові чи в переписці. Це допомагає планувати закупівлі і не забувати про постійних клієнтів, коли потік замовлень зростає.",
+      "en": "Once orders start coming in large numbers, it is worth connecting the bot to a simple CRM or spreadsheet to see client history, repeat purchases and daily load instead of keeping everything in your head or scattered across chats. This helps plan restocking and not forget about regular clients as the flow of orders grows."
+    },
+    {
+      "t": "p",
+      "uk": "Команда Devlly збирає такі боти під ключ під конкретну нішу підприємця за кордоном: від меню і форми замовлення до інтеграції з оплатою і сповіщеннями, щоб бізнес запрацював без офісу, сайту і зайвих витрат вже за кілька днів. Логіку бота підлаштовують під конкретний товар, послугу і країну, де живуть клієнти.",
+      "en": "The Devlly team builds such bots turnkey for a specific niche of an entrepreneur abroad: from the menu and order form to payment integration and notifications, so the business starts running without an office, a website or extra costs within just a few days. The bot logic is tailored to the specific product, service and country where the clients live."
+    }
+  ]
+}
