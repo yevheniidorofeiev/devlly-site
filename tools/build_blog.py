@@ -78,6 +78,10 @@ NEW10 = ['telegram-bot-dlya-ukraintsiv-v-yevropi','avtomatyzatsiya-biznesu-za-ko
          'viddalenyi-internet-magazyn-z-ukrainy']
 SLUGS = SLUGS + NEW10
 
+# --- 1 стаття: кальянна (SEO внутри json) ---
+NEW11 = ['avtomatyzatsiya-kalyanoi']
+SLUGS = SLUGS + NEW11
+
 SEO = {
 'crm-or-sheets':{'t':'CRM чи таблиці: коли бізнесу потрібна власна система | Devlly','te':'CRM or spreadsheets: when a business needs its own system | Devlly',
  'd':'Розбираємо коли Google Таблиці вже гальмують бізнес і коли час переходити на CRM. Чіткі ознаки і практичні поради.','de':"We break down when Google Sheets start slowing your business down and when it's time to move to a CRM. Clear signs and practical tips.",
@@ -146,6 +150,7 @@ ISODATE = {
 'relokatsiya-biznesu-bez-vtraty-klientiv':'2026-05-16','dropshipping-z-polshchi-v-ukrainu':'2026-06-12',
 'komanda-za-kordonom-avtomatyzatsiya':'2026-06-27','eksport-v-yevropu-crm':'2026-07-09',
 'viddalenyi-internet-magazyn-z-ukrainy':'2026-07-22',
+'avtomatyzatsiya-kalyanoi':'2026-07-24',
 }
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
@@ -251,6 +256,51 @@ RELATED = {
 'eksport-v-yevropu-crm':['crm-dlya-ukrainskoi-diaspory','b2b-leads','crm-dlya-biznesu-v-polshchi'],
 'viddalenyi-internet-magazyn-z-ukrainy':['viddalene-upravlinnya-biznesom-z-ukrainy','crm-dlya-internet-magazynu','shop-automation'],
 }
+
+# --- Внутрішня перелінковка по тематичних кластерах ---------------------------
+# Кожна стаття кластера лінкує на 3 сусідів ЗІ СВОГО кластера (циклічно): це
+# рівномірно розподіляє ланки (кожна стаття отримує рівно 3 вхідні + 3 вихідні),
+# без сиріт і без міжкластерних «випадкових» зв'язків. Перевизначає RELATED вище
+# лише для статей, що входять у кластери; решта статей лишаються як були.
+CLUSTERS = [
+  # Салон краси
+  ['crm-salon','crm-salon-krasoty','programa-dlya-salonu-krasy','programy-dlya-saloniv-krasy',
+   'salon-krasoty-telegram-zapis','salon-krasoty-nagaduvannya','telegram-bot-salon'],
+  # Юристи
+  ['crm-legal','crm-dlya-yuristov','crm-dlya-yuridychnykh-kompaniy','crm-dlya-yuridychnoi-firmy',
+   'crm-yuridychna-firma-vprovadzhennya','crm-dlya-advokata'],
+  # Нерухомість
+  ['crm-realty','crm-dlya-rieltoriva','telegram-bot-realty','telegram-bot-nerukhomist'],
+  # HR
+  ['hr-automation','hr-bot','hr-bot-small-business','hr-onboarding-automation','hr-telegram-recruitment',
+   'hr-telegram-form','hr-crm-vs-sheets','hr-systema-dlya-malogo-biznesu','avtomatyzatsiya-recruiting',
+   'hr-bot-telegram-nalashtuvannya','hr-bot-functions'],
+  # Кавʼярня / ресторан / громадське харчування (+ кальянна)
+  ['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','telegram-bot-kaviarnya','avtomatyzatsiya-restoranu',
+   'telegram-bot-dostavka-yizhi','avtomatyzatsiya-kalyanoi'],
+  # Інтернет-магазин / дропшипінг
+  ['crm-dlya-internet-magazynu','avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping',
+   'telegram-bot-dropshipping','shop-automation','ai-chatbot-shop','mini-app-shop','telegram-bot-shop'],
+  # Заявки / база клієнтів
+  ['obrobka-zayavok','obrobka-zayavok-klientiv','pryom-zayavok-vid-klientiv','avtomatizaciya-zayavok',
+   'avtomatyzatsiya-zayavok','crm-dlya-obrobky-zayavok','ai-bot-requests','baza-klientiv','vedennya-bazy-klientiv'],
+  # Діаспора / закордон (13)
+  ['telegram-bot-dlya-ukraintsiv-v-yevropi','avtomatyzatsiya-biznesu-za-kordonom',
+   'viddalene-upravlinnya-biznesom-z-ukrainy','crm-dlya-ukrainskoi-diaspory','crm-dlya-biznesu-v-polshchi',
+   'avtomatyzatsiya-ukrainskogo-biznesu-v-nimechchyni','telegram-bot-zamovlennya-z-polshchi',
+   'crm-ukrainskyi-biznes-chehiya','relokatsiya-biznesu-bez-vtraty-klientiv','dropshipping-z-polshchi-v-ukrainu',
+   'komanda-za-kordonom-avtomatyzatsiya','eksport-v-yevropu-crm','viddalenyi-internet-magazyn-z-ukrainy'],
+]
+def _cluster_related(cluster, n=3):
+    L=len(cluster)
+    return {s:[cluster[(i+j)%L] for j in range(1,n+1)] for i,s in enumerate(cluster)}
+for _cl in CLUSTERS:
+    RELATED.update(_cluster_related(_cl))
+# Нова стаття про кальянну - явно на кавʼярня/ресторан кластер (за ТЗ)
+RELATED['avtomatyzatsiya-kalyanoi']=['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','avtomatyzatsiya-restoranu']
+# Кожен slug у кожному кластері й у RELATED має бути в SLUGS (інакше KeyError у ART)
+_missing=sorted({s for cl in CLUSTERS for s in cl} - set(SLUGS))
+assert not _missing, 'cluster slugs not in SLUGS: %s'%_missing
 
 def ea(v): return v.replace('&','&amp;').replace('"','&quot;').replace('<','&lt;').replace('>','&gt;')
 def et(v): return v.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;')

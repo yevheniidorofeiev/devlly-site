@@ -1583,4 +1583,20 @@
     <lastmod>2026-07-22</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://devlly.dev/blog/avtomatyzatsiya-kalyanoi</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/avtomatyzatsiya-kalyanoi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/avtomatyzatsiya-kalyanoi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/avtomatyzatsiya-kalyanoi"/>
+    <lastmod>2026-07-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/avtomatyzatsiya-kalyanoi</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/avtomatyzatsiya-kalyanoi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/avtomatyzatsiya-kalyanoi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/avtomatyzatsiya-kalyanoi"/>
+    <lastmod>2026-07-24</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

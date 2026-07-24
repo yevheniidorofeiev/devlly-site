@@ -9,19 +9,7 @@ BASE = 'https://devlly.dev'
 
 # порядок по дате (зростання), дати - джерело правди
 ITEMS = [
- ('telegram-bot-dlya-ukraintsiv-v-yevropi','2026-01-11','1'),
- ('avtomatyzatsiya-biznesu-za-kordonom','2026-01-24','2'),
- ('viddalene-upravlinnya-biznesom-z-ukrainy','2026-02-08','3'),
- ('crm-dlya-ukrainskoi-diaspory','2026-02-19','4'),
- ('crm-dlya-biznesu-v-polshchi','2026-03-05','1'),
- ('avtomatyzatsiya-ukrainskogo-biznesu-v-nimechchyni','2026-03-16','2'),
- ('telegram-bot-zamovlennya-z-polshchi','2026-04-11','3'),
- ('crm-ukrainskyi-biznes-chehiya','2026-04-23','4'),
- ('relokatsiya-biznesu-bez-vtraty-klientiv','2026-05-16','1'),
- ('dropshipping-z-polshchi-v-ukrainu','2026-06-12','2'),
- ('komanda-za-kordonom-avtomatyzatsiya','2026-06-27','3'),
- ('eksport-v-yevropu-crm','2026-07-09','4'),
- ('viddalenyi-internet-magazyn-z-ukrainy','2026-07-22','1'),
+ ('avtomatyzatsiya-kalyanoi','2026-07-24','2'),
 ]
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
