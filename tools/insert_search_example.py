@@ -8,9 +8,13 @@ SCRATCH = os.environ.get('DEVLLY_ARTICLES', os.path.join(_HERE, 'articles'))
 
 # трёхъязычные ключи как запасной слой поверх seo.k из самих статей
 K = {
-'avtomatyzatsiya-kalyanoi':'автоматизація кальянної, програма для кальянної, crm для кальянної, бронювання столів, облік табаку і вугілля, автоматизация кальянной, программа для кальянной, crm для кальянной, бронирование столов, учет табака, hookah lounge automation, hookah bar software, table booking',
+'crm-systema-dlya-internet-magazynu-porivnyannya':'crm система для інтернет-магазину, яка crm краще для інтернет-магазину, порівняння crm, срм для інтернет-магазину, crm система для интернет-магазина, какая crm лучше для интернет-магазина, сравнение crm, crm for online store, best crm for ecommerce, ecommerce crm comparison',
+'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn':'автоматизація обробки замовлень, обробка замовлень інтернет-магазину, автоматизація інтернет-магазину, прийом замовлень, автоматизация обработки заказов, обработка заказов интернет-магазина, прием заказов, order processing automation, online store order management, ecommerce order automation',
+'internet-magazyn-crm-chy-google-sheets':'crm чи google таблиці для інтернет-магазину, інтернет-магазин таблиці чи crm, коли потрібна crm магазину, срм чи таблиці, crm или google таблицы для интернет-магазина, интернет-магазин таблицы или crm, crm vs google sheets for online store, ecommerce spreadsheet vs crm',
 }
-ORDER = ['avtomatyzatsiya-kalyanoi']
+ORDER = ['crm-systema-dlya-internet-magazynu-porivnyannya',
+         'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
+         'internet-magazyn-crm-chy-google-sheets']
 
 def js(v): return json.dumps(v, ensure_ascii=False)
 entries=[]

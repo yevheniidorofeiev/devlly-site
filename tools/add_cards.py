@@ -9,7 +9,9 @@ BASE = 'https://devlly.dev'
 
 # порядок по дате (зростання), дати - джерело правди
 ITEMS = [
- ('avtomatyzatsiya-kalyanoi','2026-07-24','2'),
+ ('crm-systema-dlya-internet-magazynu-porivnyannya','2026-07-25','3'),
+ ('avtomatyzatsiya-obrobky-zamovlen-internet-magazyn','2026-07-25','4'),
+ ('internet-magazyn-crm-chy-google-sheets','2026-07-25','1'),
 ]
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']

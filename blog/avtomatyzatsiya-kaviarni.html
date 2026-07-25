@@ -88,6 +88,54 @@
   ]
 }
     </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Яка програма для кавʼярні потрібна на старті?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "На старті достатньо обліку продажів і залишків: кожен напій фіксується, зерно і молоко списуються за техкартами, увечері зміна закривається за дві хвилини. Повноцінна POS-система з дорогим залізом маленькій кавʼярні не потрібна - вистачає планшета і застосунку. Лояльність та аналітику додають наступними етапами, коли базовий облік уже працює."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Як вести облік у кавʼярні без бухгалтера?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Облік будується так, щоб дані вносила сама команда під час роботи, а не бухгалтер у кінці місяця. Бариста пробиває продаж, вказує причину списання браку, вносить прихід від постачальника - і система сама зводить виручку, залишки і собівартість. Власнику лишається читати щоденний підсумок у Telegram і раз на тиждень робити звірку факту з обліком."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Що дає автоматизація обліку кавʼярні на практиці?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Три речі: ви бачите реальну виручку і собівартість щодня, а не здогадуєтесь; залишки не закінчуються несподівано і не псуються від надлишку; розбіжності по касі стають видимими одразу і по конкретній зміні. Разом це прибирає щомісячні «куди зникли гроші» і повертає власнику 8-10 годин рутини на місяць."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чи потрібен спеціальний касовий термінал?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Не обовʼязково. Облік і продажі працюють на звичайному планшеті або телефоні, а фіскальний чек за потреби пробивається через програмний РРО. Дороге спеціалізоване залізо має сенс для великого потоку, але маленькій точці воно радше зайва стаття витрат, ніж необхідність."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Скільки часу займає впровадження?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Базовий облік продажів і залишків запускається за два-три тижні: описати техкарти, завести меню, навчити команду. Далі кожен наступний блок - лояльність, передзамовлення, аналітика - додається окремо, теж по два-три тижні. Такий поетапний підхід дає користь одразу і не ламає роботу бару."
+      }
+    }
+  ]
+}
+    </script>
 </head>
 <body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
@@ -383,6 +431,9 @@
                             <p class="tw-text-lg tw-mb-6" data-en="The system keeps a minimum threshold for every item. When there are less than two working days of beans left, a reminder to reorder arrives. For a shop doing 200 cups a day this saves both money and nerves: no empty hopper on a Friday evening and no extra ten litres of milk you have to rush to use up.">Система тримає мінімальний поріг по кожній позиції. Коли зерна лишається менше ніж на два дні роботи, приходить нагадування замовити. Для кавʼярні з обігом 200 чашок на день це економить і гроші, і нерви: не буває ані порожнього бункера в пʼятницю ввечері, ані зайвих десяти літрів молока, які треба встигнути використати.</p>
                             <p class="tw-text-lg tw-mb-6" data-en="Once a week compare physical stock with the records. A discrepancy of up to 3% on milk is normal - spillage and grinder calibration. If the gap is consistently larger, some process is broken: a delivery was not entered, waste was not written off, or the recipe card does not match what is actually being made behind the bar.">Раз на тиждень робіть звірку факту з обліком. Розбіжність до 3% по молоку - норма, це проливи і калібрування помолу. Якщо різниця стабільно більша, значить, десь не працює процес: не внесли прихід, не списали брак або технологічна карта не збігається з тим, що реально роблять за баром.</p>
                             <p class="tw-text-lg tw-mb-6" data-en="Write off waste right at the bar, in two taps: pick the item and give a reason - milk overheated, cup dropped, grinder calibration after a new bag. Dialling in a new bag costs 150-250 g of beans, and those grams belong in the system too. Otherwise at the end of the month nobody can explain where a kilo and a half went, and every theory is equally unprovable.">Списання браку робіть прямо за баром, у два натискання: обрати позицію і вказати причину - перегріли молоко, впав стакан, калібрування помолу після нової пачки. На налаштування нового мішка йде 150-250 г зерна, і ці грами теж мають бути в системі. Інакше в кінці місяця незрозуміло, куди зникло півтора кілограма, і будь-яка версія буде однаково недоведеною.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Cost price and margin: what a cup really costs">Собівартість і націнка: скільки насправді коштує чашка</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="Once you have recipe cards and stock accounting, the cost price of every item is calculated by itself. The system takes the price of beans, milk, cups and syrup from the last delivery and shows how much a specific cappuccino costs today, not at prices from three years ago. This is critical, because beans easily rise 30-40% in a year, and a margin that felt comfortable quietly turns into working at zero. You can only see this in the numbers when the cost price is recalculated automatically with every new delivery.">Коли є техкарти і облік залишків, собівартість кожної позиції рахується сама. Система бере ціну зерна, молока, стакана і сиропу з останнього приходу і показує, скільки коштує конкретний капучино сьогодні, а не за цінами трирічної давнини. Це критично, бо зерно за рік легко дорожчає на 30-40%, і націнка, яка здавалася комфортною, тихо перетворюється на роботу в нуль. Побачити це на цифрах можна тільки тоді, коли собівартість перераховується автоматично з кожним новим приходом.</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="Then the system calculates the margin on each item, not just the revenue. It often turns out that a signature latte with expensive ingredients sells well but brings in less than a plain americano with a negligible cost price. Knowing this, the owner deliberately shapes the menu and promotions: pushing high-margin items rather than the ones that simply «sell well». Without cost accounting these decisions are made by eye and almost always to the owner's detriment - the discount lands on exactly the drink that barely pays for itself.">Далі система рахує маржу по кожній позиції, а не лише виручку. Часто виявляється, що фірмовий раф на дорогих інгредієнтах продається добре, але приносить менше, ніж звичайна американо з копійчаною собівартістю. Знаючи це, власник свідомо будує меню і акції: просуває позиції з високою маржею, а не ті, що просто «добре йдуть». Без обліку собівартості такі рішення приймають на око і майже завжди на свою шкоду - знижку ставлять саме на те, що й так ледь окупається.</p>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="Loyalty program and pre-orders through a bot">Програма лояльності і передзамовлення через бота</h2>
                             <p class="tw-text-lg tw-mb-6" data-en="A loyalty program is easiest to run in a Telegram bot: the guest taps «My account», sees accumulated points or stamps, and the barista scans a QR code from the phone screen. No plastic cards to lose and no paper stamps that anyone can fake with a cheap stamp.">Програма лояльності найпростіше живе в Telegram-боті: гість натискає «Мій рахунок», бачить накопичені бали або відмітки, бариста сканує QR з екрана телефона. Ніяких пластикових карток, які губляться, і паперових штампів, які легко підробити звичайною печаткою.</p>
                             <p class="tw-text-lg tw-mb-6" data-en="Mechanics that work for coffee shops: every sixth drink free, 5-7% cashback in points, extra bonuses during morning hours when the queue is shorter. The bot reminds a guest who has not visited for two weeks, and that brings part of your audience back with no advertising spend.">Робочі механіки для кавʼярні: кожен шостий напій у подарунок, кешбек 5-7% балами, окремі бонуси на ранкові години, коли черга менша. Бот сам нагадує гостю, якщо той не заходив два тижні, і це повертає частину аудиторії без витрат на рекламу.</p>
@@ -392,6 +443,32 @@
                             <p class="tw-text-lg tw-mb-6" data-en="Analytics exist for decisions, not for charts. Three questions the system must answer instantly: when the peak is and how many people to schedule, which items bring the most profit rather than just turnover, and how the average check changes across days of the week.">Аналітика потрібна не заради графіків, а заради рішень. Три питання, на які система має відповідати миттєво: коли пік і скільки людей треба ставити на зміну, які позиції дають найбільший прибуток, а не просто оборот, і як змінюється середній чек по днях тижня.</p>
                             <p class="tw-text-lg tw-mb-6" data-en="Shift and barista reports show service speed, receipt count, average check and upsell share. This is not control for its own sake: when you can see that one barista sells a dessert with every fifth drink and another with every twentieth, it is clear who needs training and in what exactly.">Звіти по змінах і бариста показують швидкість обслуговування, кількість чеків, середній чек і частку допродажів. Це не контроль заради контролю: коли видно, що один бариста продає десерт до кожного пʼятого напою, а інший до кожного двадцятого, зрозуміло, кого і чому саме треба навчити.</p>
                             <p class="tw-text-lg tw-mb-6" data-en="The daily summary arrives in the owner's Telegram at 22:00: revenue, receipt count, average check, top five items, stock below threshold, cash discrepancy. Thirty seconds of reading instead of evening calls to the manager. Devlly builds systems like this custom for a specific coffee shop - with your recipe cards, your loyalty mechanics and reports in the form that makes decisions easy for you.">Щоденний підсумок приходить власнику в Telegram о 22:00: виручка, кількість чеків, середній чек, топ-5 позицій, залишки нижче порогу, розбіжність по касі. Тридцять секунд читання замість вечірніх дзвінків управителю. Такі системи Devlly збирає під конкретну кавʼярню - з вашими техкартами, вашою механікою лояльності і звітами в тому вигляді, у якому вам зручно приймати рішення.</p>
+                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5" data-en="How much coffee shop automation costs">Скільки коштує автоматизація кавʼярні</h2>
+                            <p class="tw-text-lg tw-mb-6" data-en="The price depends not on the «number of modules» but on how many processes you actually automate and how non-standard they are. A single venue with a simple menu, sales accounting and basic loyalty is one budget. A chain of several coffee shops with a shared warehouse, separate prices per location and consolidated analytics is a completely different one. So an honest answer to «how much does it cost» starts with a description of your processes, not with a price list for an abstract «system».">Ціна залежить не від «кількості модулів», а від того, скільки процесів ви реально автоматизуєте і наскільки вони нестандартні. Одна точка з простим меню, обліком продажів і базовою лояльністю - це один бюджет. Мережа з кількох кавʼярень, спільним складом, окремими цінами по локаціях і зведеною аналітикою - зовсім інший. Тому чесна відповідь на «скільки коштує» починається з опису ваших процесів, а не з прайса на абстрактну «систему».</p>
+                            <p class="tw-text-lg tw-mb-6" data-en="There are two fundamental paths. Off-the-shelf accounting services charge a monthly fee per venue and per terminal - it is predictable, but you pay forever, and any non-standard mechanic runs into whatever the service already supports. A custom system costs more upfront but belongs to you: there is no monthly rent for every cup, and the logic is built around your recipe cards and your loyalty program. At Devlly we build exactly these solutions for a specific coffee shop - starting with one painful process, proving the benefit in numbers and gradually growing the system around what already works.">Є два принципові шляхи. Готові сервіси обліку беруть щомісячну плату за кожну точку і термінал - це передбачувано, але платити доводиться постійно, і будь-яка нестандартна механіка впирається в те, що вже закладено в сервісі. Власна система коштує дорожче на старті, зате належить вам: немає щомісячної оренди за кожен стакан, а логіка робиться під ваші техкарти і вашу лояльність. У Devlly ми будуємо саме такі рішення під конкретну кавʼярню - починаємо з одного болючого процесу, показуємо користь на цифрах і поступово нарощуємо систему навколо того, що вже працює.</p>
+                            <div class="tw-mt-15">
+                                <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="Frequently asked questions">Часті питання</h2>
+                                <div class="tw-mb-6">
+                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="What coffee shop software do you need to start with?">Яка програма для кавʼярні потрібна на старті?</h3>
+                                    <p class="tw-text-lg tw-mb-0" data-en="To start, sales and stock accounting is enough: every drink is recorded, beans and milk are written off from recipe cards, and in the evening a shift closes in two minutes. A full POS system with expensive hardware is not needed for a small coffee shop - a tablet and an app are enough. Loyalty and analytics are added in later stages, once the basic accounting is already working.">На старті достатньо обліку продажів і залишків: кожен напій фіксується, зерно і молоко списуються за техкартами, увечері зміна закривається за дві хвилини. Повноцінна POS-система з дорогим залізом маленькій кавʼярні не потрібна - вистачає планшета і застосунку. Лояльність та аналітику додають наступними етапами, коли базовий облік уже працює.</p>
+                                </div>
+                                <div class="tw-mb-6">
+                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="How do you keep coffee shop accounts without an accountant?">Як вести облік у кавʼярні без бухгалтера?</h3>
+                                    <p class="tw-text-lg tw-mb-0" data-en="Accounting is set up so that the team enters data while they work, not an accountant at the end of the month. The barista rings up a sale, gives a reason for a write-off, enters a supplier delivery - and the system totals revenue, stock and cost price by itself. The owner only has to read the daily summary in Telegram and reconcile physical stock with the records once a week.">Облік будується так, щоб дані вносила сама команда під час роботи, а не бухгалтер у кінці місяця. Бариста пробиває продаж, вказує причину списання браку, вносить прихід від постачальника - і система сама зводить виручку, залишки і собівартість. Власнику лишається читати щоденний підсумок у Telegram і раз на тиждень робити звірку факту з обліком.</p>
+                                </div>
+                                <div class="tw-mb-6">
+                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="What does coffee shop accounting automation give you in practice?">Що дає автоматизація обліку кавʼярні на практиці?</h3>
+                                    <p class="tw-text-lg tw-mb-0" data-en="Three things: you see real revenue and cost price every day instead of guessing; stock does not run out unexpectedly or spoil from oversupply; cash discrepancies become visible right away and for a specific shift. Together this removes the monthly «where did the money go» and gives the owner back 8-10 hours of routine a month.">Три речі: ви бачите реальну виручку і собівартість щодня, а не здогадуєтесь; залишки не закінчуються несподівано і не псуються від надлишку; розбіжності по касі стають видимими одразу і по конкретній зміні. Разом це прибирає щомісячні «куди зникли гроші» і повертає власнику 8-10 годин рутини на місяць.</p>
+                                </div>
+                                <div class="tw-mb-6">
+                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="Do you need a special cash terminal?">Чи потрібен спеціальний касовий термінал?</h3>
+                                    <p class="tw-text-lg tw-mb-0" data-en="Not necessarily. Accounting and sales run on an ordinary tablet or phone, and a fiscal receipt is issued through a software-based cash register when required. Expensive specialised hardware makes sense for high traffic, but for a small venue it is an extra expense rather than a necessity.">Не обовʼязково. Облік і продажі працюють на звичайному планшеті або телефоні, а фіскальний чек за потреби пробивається через програмний РРО. Дороге спеціалізоване залізо має сенс для великого потоку, але маленькій точці воно радше зайва стаття витрат, ніж необхідність.</p>
+                                </div>
+                                <div class="tw-mb-6">
+                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="How long does implementation take?">Скільки часу займає впровадження?</h3>
+                                    <p class="tw-text-lg tw-mb-0" data-en="Basic sales and stock accounting launches in two to three weeks: describe the recipe cards, set up the menu, train the team. After that each further block - loyalty, pre-orders, analytics - is added separately, again in two to three weeks. This step-by-step approach delivers value immediately and does not disrupt the work behind the bar.">Базовий облік продажів і залишків запускається за два-три тижні: описати техкарти, завести меню, навчити команду. Далі кожен наступний блок - лояльність, передзамовлення, аналітика - додається окремо, теж по два-три тижні. Такий поетапний підхід дає користь одразу і не ламає роботу бару.</p>
+                                </div>
+                            </div>
                             <div class="tw-mt-15">
                                 <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="Read also">Читайте також</h2>
                                 <ul class="d-flex flex-column tw-gap-4">
@@ -1533,6 +1610,27 @@
     "en": "Hookah Lounge Automation: Booking, Stock and Regulars",
     "url": "/blog/avtomatyzatsiya-kalyanoi",
     "k": "автоматизація кальянної, програма для кальянної, crm для кальянної, бронювання столів, облік табаку і вугілля, автоматизация кальянной, программа для кальянной, crm для кальянной, бронирование столов, учет табака, hookah lounge automation, hookah bar software, table booking"
+  },
+  {
+    "t": "b",
+    "uk": "CRM-система для інтернет-магазину: яку обрати і за чим порівнювати",
+    "en": "CRM for an Online Store: Which to Choose and How to Compare",
+    "url": "/blog/crm-systema-dlya-internet-magazynu-porivnyannya",
+    "k": "crm система для інтернет-магазину, яка crm краще для інтернет-магазину, порівняння crm, срм для інтернет-магазину, crm система для интернет-магазина, какая crm лучше для интернет-магазина, сравнение crm, crm for online store, best crm for ecommerce, ecommerce crm comparison"
+  },
+  {
+    "t": "b",
+    "uk": "Автоматизація обробки замовлень в інтернет-магазині: від заявки до відправлення",
+    "en": "Order Processing Automation for an Online Store: From Request to Shipping",
+    "url": "/blog/avtomatyzatsiya-obrobky-zamovlen-internet-magazyn",
+    "k": "автоматизація обробки замовлень, обробка замовлень інтернет-магазину, автоматизація інтернет-магазину, прийом замовлень, автоматизация обработки заказов, обработка заказов интернет-магазина, прием заказов, order processing automation, online store order management, ecommerce order automation"
+  },
+  {
+    "t": "b",
+    "uk": "Інтернет-магазин: CRM чи Google Таблиці - що обрати",
+    "en": "Online Store: CRM or Google Sheets - What to Choose",
+    "url": "/blog/internet-magazyn-crm-chy-google-sheets",
+    "k": "crm чи google таблиці для інтернет-магазину, інтернет-магазин таблиці чи crm, коли потрібна crm магазину, срм чи таблиці, crm или google таблицы для интернет-магазина, интернет-магазин таблицы или crm, crm vs google sheets for online store, ecommerce spreadsheet vs crm"
   }
 ];
 

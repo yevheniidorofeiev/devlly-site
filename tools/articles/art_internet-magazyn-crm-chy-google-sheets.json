@@ -1,0 +1,117 @@
+{
+ "title_uk": "Інтернет-магазин: CRM чи Google Таблиці - що обрати",
+ "title_en": "Online Store: CRM or Google Sheets - What to Choose",
+ "desc_uk": "Коли інтернет-магазину досить Google Таблиць, а коли пора на CRM: обсяг замовлень, залишки, доставка і кілька каналів продажів.",
+ "desc_en": "When Google Sheets are enough for an online store and when it's time for a CRM: order volume, stock, delivery and multiple sales channels.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Інтернет-магазин: CRM чи Google Таблиці - що обрати | Devlly",
+  "te": "Online Store: CRM or Google Sheets - What to Choose | Devlly",
+  "d": "Коли інтернет-магазину досить Google Таблиць, а коли пора на CRM: обсяг замовлень, залишки, доставка і кілька каналів продажів. Розбір під e-commerce від Devlly.",
+  "de": "When Google Sheets are enough for an online store and when it's time for a CRM: order volume, stock, delivery and multiple sales channels. An e-commerce breakdown by Devlly.",
+  "k": "crm чи google таблиці для інтернет-магазину, інтернет-магазин таблиці чи crm, коли потрібна crm магазину, срм чи таблиці, crm или google таблицы для интернет-магазина, интернет-магазин таблицы или crm, crm vs google sheets for online store, ecommerce spreadsheet vs crm"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "«Нам поки вистачає таблиці» - найчастіша відповідь власника магазину, і часто вона правильна. Google Таблиці безкоштовні, гнучкі й знайомі всім. Але в e-commerce є момент, коли таблиця перестає економити і починає коштувати - втраченими замовленнями, плутаниною в залишках і годинами на зведення. Розберемо саме для інтернет-магазину, коли таблиці ще достатньо, а коли вона вже гальмує продажі.",
+   "en": "«A spreadsheet is enough for now» is the most common answer from a store owner, and often it is the right one. Google Sheets are free, flexible and familiar to everyone. But in e-commerce there comes a moment when a spreadsheet stops saving and starts costing - in lost orders, confusion over stock and hours spent consolidating. Let's look, specifically for an online store, at when a spreadsheet is still enough and when it is already slowing sales down."
+  },
+  {
+   "t": "h2",
+   "uk": "Коли Google Таблиці ще працюють для магазину",
+   "en": "When Google Sheets still work for a store"
+  },
+  {
+   "t": "p",
+   "uk": "Для магазину на старті таблиця - розумний вибір. Поки у вас до 10-15 замовлень на день, один канал продажів і один-два менеджери, таблиця закриває все: список замовлень, контакти, простий облік. Ви нічого не платите, міняєте структуру за хвилину і не залежите від розробника. На цьому етапі впроваджувати CRM - передчасно, це витрати без реальної віддачі.",
+   "en": "For a store at the start a spreadsheet is a smart choice. While you have up to 10-15 orders a day, one sales channel and one or two managers, a spreadsheet covers everything: the order list, contacts, simple accounting. You pay nothing, change the structure in a minute and don't depend on a developer. At this stage rolling out a CRM is premature - it's a cost with no real return."
+  },
+  {
+   "t": "p",
+   "uk": "Таблиця добре тримає й нескладну аналітику: порахувати виручку за місяць, побачити топ товарів, звести витрати. Якщо процеси прості й стабільні, а обсяг не росте вибухово, магазин може роками працювати на таблиці без реальних проблем. Головне - чесно бачити межу, за якою вона перестає справлятися, і не триматися за неї зі звички, коли вже боляче.",
+   "en": "A spreadsheet also handles simple analytics well: totalling monthly revenue, seeing top products, adding up costs. If the processes are simple and stable and the volume does not grow explosively, a store can run on a spreadsheet for years with no real problems. The key is to honestly see the line beyond which it stops coping, and not cling to it out of habit once it already hurts."
+  },
+  {
+   "t": "p",
+   "uk": "Таблиця має ще одну сильну сторону на старті - нульовий поріг входу для команди. Будь-який менеджер уміє працювати з рядками й колонками, не треба нікого навчати й нічого впроваджувати. Для магазину, який щойно запустився і ще шукає свою модель, ця гнучкість цінніша за будь-яку структуру: сьогодні один процес, завтра інший, і таблиця слухняно підлаштовується без переробки системи.",
+   "en": "A spreadsheet has another strong side at the start - a zero entry threshold for the team. Any manager can work with rows and columns, there's no one to train and nothing to roll out. For a store that has just launched and is still searching for its model, this flexibility is worth more than any structure: one process today, another tomorrow, and the spreadsheet obediently adapts without reworking a system."
+  },
+  {
+   "t": "h2",
+   "uk": "Де саме таблиці ламаються в e-commerce",
+   "en": "Where spreadsheets actually break in e-commerce"
+  },
+  {
+   "t": "p",
+   "uk": "Проблеми в магазині зʼявляються не від кількості рядків, а від специфіки. Перше - кілька каналів продажів. Замовлення із сайту, Instagram, маркетплейсу й Telegram в одній таблиці зводяться руками, і рано чи пізно щось дублюється або губиться. Друге - залишки. Таблиця не резервує товар: два менеджери продають останню одиницю одночасно, і хтось із клієнтів отримує відмову вже після оплати.",
+   "en": "Problems in a store appear not from the number of rows but from the specifics. First - multiple sales channels. Orders from the website, Instagram, a marketplace and Telegram are merged into one spreadsheet by hand, and sooner or later something gets duplicated or lost. Second - stock. A spreadsheet does not reserve items: two managers sell the last unit at the same time, and one of the customers gets a refusal after they've already paid."
+  },
+  {
+   "t": "p",
+   "uk": "Третє - статуси й строки. У таблиці не видно, що замовлення висить без обробки третю годину, ніхто не нагадає про неоплачену бронь і не підштовхне клієнта забрати посилку до закінчення терміну зберігання - а це прямі втрати на викупі. Четверте - спільна робота. Коли в одному файлі одночасно правлять кілька людей, зʼявляються затерті рядки, випадкові видалення і версія «а в мене було інакше». На обсязі кожна з цих дрібниць коштує грошей.",
+   "en": "Third - statuses and deadlines. A spreadsheet does not show that an order has sat unprocessed for its third hour, nobody reminds about an unpaid reservation or nudges the customer to collect the parcel before storage expires - and that is a direct loss on redemption. Fourth - collaboration. When several people edit one file at once, you get overwritten rows, accidental deletions and the «but mine looked different» version. At volume each of these trifles costs money."
+  },
+  {
+   "t": "p",
+   "uk": "Показова ознака, що таблиця вже не тягне, - коли команда заводить «таблицю про таблицю»: окремі файли зі статусами, ще один для залишків, третій для повернень, і хтось витрачає півдня, щоб їх звести. Щойно зʼявляється потреба вручну синхронізувати кілька файлів між собою, це вже не облік, а друга робота, і вартість цієї роботи легко перевищує ціну нормальної системи.",
+   "en": "A telling sign that a spreadsheet no longer copes is when the team starts a «spreadsheet about spreadsheets»: separate files for statuses, another for stock, a third for returns, and someone spends half a day consolidating them. The moment a need arises to manually sync several files with each other, it is no longer accounting but a second job, and the cost of that job easily exceeds the price of a proper system."
+  },
+  {
+   "t": "h2",
+   "uk": "Що дає CRM магазину порівняно з таблицею",
+   "en": "What a CRM gives a store compared to a spreadsheet"
+  },
+  {
+   "t": "p",
+   "uk": "CRM закриває саме ті місця, де таблиця протікає. Замовлення з усіх каналів падають в одну систему автоматично, клієнт обʼєднується в одну картку з історією покупок, а не розкиданий по файлах. Статуси мають строки й відповідальних, залишки резервуються при замовленні, а сповіщення клієнту про накладну й оплату йдуть самі, без ручної розсилки.",
+   "en": "A CRM closes exactly the places where a spreadsheet leaks. Orders from all channels land in one system automatically, the customer is merged into a single card with purchase history rather than scattered across files. Statuses have deadlines and owners, stock is reserved at the moment of an order, and notifications to the customer about the waybill and payment go out by themselves, with no manual mailing."
+  },
+  {
+   "t": "p",
+   "uk": "Друга відмінність - контроль і аналітика без ручного зведення. Замість того щоб раз на тиждень зводити виручку формулами, власник бачить актуальні цифри в дашборді: середній чек, відсоток викупу, повторні покупки, топ товарів за маржею. Це вже не «журнал замовлень», а інструмент рішень. Але й коштує CRM більше за безкоштовну таблицю, тому переходити варто тоді, коли справді є що масштабувати.",
+   "en": "The second difference is control and analytics without manual consolidation. Instead of totalling revenue with formulas once a week, the owner sees live numbers on a dashboard: average check, redemption rate, repeat purchases, top products by margin. This is no longer an «order log» but a decision-making tool. But a CRM also costs more than a free spreadsheet, so it is worth moving over when there is genuinely something to scale."
+  },
+  {
+   "t": "p",
+   "uk": "Важлива відмінність і в повторних продажах. Таблиця не нагадає сама, що клієнт купував місяць тому і час запропонувати супутній товар, а CRM будує сегменти й запускає такі сценарії автоматично. Для магазину це прямий дохід: повернути покупця, який уже купував, коштує в рази дешевше, ніж привести нового з реклами, і саме тут таблиця програє найпомітніше.",
+   "en": "There's an important difference in repeat sales too. A spreadsheet won't remind you on its own that a customer bought a month ago and it's time to offer a complementary product, while a CRM builds segments and launches such scenarios automatically. For a store this is direct revenue: bringing back an existing buyer costs several times less than acquiring a new one through ads, and this is exactly where a spreadsheet loses most visibly."
+  },
+  {
+   "t": "h2",
+   "uk": "Скільки коштує перехід і чи варто",
+   "en": "How much the switch costs and whether it's worth it"
+  },
+  {
+   "t": "p",
+   "uk": "Перехід із таблиці на CRM - це не тільки ціна системи, а й час на міграцію даних і перенавчання команди. Дані клієнтів і замовлень імпортуються з таблиці, головне - щоб вони були більш-менш структуровані. Саме тому переходити краще раніше, поки обсяг керований, а не тоді, коли в таблиці вже хаос на десятки тисяч рядків і половина полів заповнена як прийдеться.",
+   "en": "Moving from a spreadsheet to a CRM is not only the price of the system but also the time for data migration and retraining the team. Customer and order data is imported from the spreadsheet - the main thing is that it is reasonably structured. That is exactly why it's better to move earlier, while the volume is manageable, rather than when the spreadsheet is already chaos across tens of thousands of rows with half the fields filled in any which way."
+  },
+  {
+   "t": "p",
+   "uk": "Порахувати вигоду просто: оцініть, скільки замовлень ви втрачаєте через плутанину в каналах і залишках, скільки годин щотижня йде на ручне зведення і скільки посилок не викуповують без нагадувань. Якщо це відчутні гроші - CRM окупиться швидко. Якщо магазин маленький і стабільний, чесна відповідь така: рано, лишайтеся на таблиці ще якийсь час і поверніться до питання, коли обсяг виросте.",
+   "en": "Calculating the benefit is simple: estimate how many orders you lose to confusion across channels and stock, how many hours a week go into manual consolidation and how many parcels go unredeemed without reminders. If that is tangible money - a CRM will pay off quickly. If the store is small and stable, the honest answer is: too early, stay on the spreadsheet a while longer and come back to the question when the volume grows."
+  },
+  {
+   "t": "p",
+   "uk": "Не забувайте і про ризик самих даних. Таблиця, яку ведуть кілька людей, рано чи пізно втрачає частину інформації: хтось випадково відсортував без виділення всього діапазону, хтось затер формулу, хтось видалив рядок. У CRM дані захищені структурою й правами доступу, є історія змін, і відновити, хто що зробив, можна за хвилину. Для бази клієнтів, яку ви збирали роками, це не дрібниця, а страховка від дорогої втрати.",
+   "en": "Don't forget the risk to the data itself. A spreadsheet kept by several people sooner or later loses part of the information: someone sorts by accident without selecting the whole range, someone overwrites a formula, someone deletes a row. In a CRM the data is protected by structure and access rights, there is a change history, and recovering who did what takes a minute. For a customer base you have built up over years, this is not a trifle but insurance against a costly loss."
+  },
+  {
+   "t": "h2",
+   "uk": "Гібрид: таблиця плюс автоматизація як міст",
+   "en": "A hybrid: a spreadsheet plus automation as a bridge"
+  },
+  {
+   "t": "p",
+   "uk": "Між «гола таблиця» і «повноцінна CRM» є проміжний крок, який часто недооцінюють. Таблицю можна залишити як звичний інтерфейс, але прибрати з неї ручну роботу: замовлення з каналів падають у неї автоматично, сповіщення клієнтам відправляє бот, а трек-номери й статуси підтягуються самі. Це дешевше за повну CRM і знімає найгостріший біль, поки ви ще не доросли до окремої системи.",
+   "en": "Between a «bare spreadsheet» and a «full CRM» there is an intermediate step that is often underrated. You can keep the spreadsheet as the familiar interface but remove the manual work from it: orders from channels land in it automatically, a bot sends notifications to customers, and tracking numbers and statuses are pulled in by themselves. This is cheaper than a full CRM and takes away the sharpest pain while you have not yet grown into a separate system."
+  },
+  {
+   "t": "p",
+   "uk": "Такий гібрид - хороший спосіб протестувати, які саме автоматизації дають ефект, перш ніж вкладатися в повноцінну CRM. У Devlly ми часто починаємо саме з нього: дивимося на реальний процес магазину, автоматизуємо найболючіше поверх звичних таблиць, а коли обсяг виправдовує - переносимо все у власну систему без втрати даних і без зупинки продажів.",
+   "en": "Such a hybrid is a good way to test which automations actually make a difference before investing in a full CRM. At Devlly we often start exactly here: we look at the store's real process, automate the most painful part on top of the familiar spreadsheets, and when the volume justifies it, move everything into a custom system without losing data and without stopping sales."
+  }
+ ]
+}

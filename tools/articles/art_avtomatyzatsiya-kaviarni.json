@@ -95,6 +95,21 @@
   },
   {
    "t": "h2",
+   "uk": "Собівартість і націнка: скільки насправді коштує чашка",
+   "en": "Cost price and margin: what a cup really costs"
+  },
+  {
+   "t": "p",
+   "uk": "Коли є техкарти і облік залишків, собівартість кожної позиції рахується сама. Система бере ціну зерна, молока, стакана і сиропу з останнього приходу і показує, скільки коштує конкретний капучино сьогодні, а не за цінами трирічної давнини. Це критично, бо зерно за рік легко дорожчає на 30-40%, і націнка, яка здавалася комфортною, тихо перетворюється на роботу в нуль. Побачити це на цифрах можна тільки тоді, коли собівартість перераховується автоматично з кожним новим приходом.",
+   "en": "Once you have recipe cards and stock accounting, the cost price of every item is calculated by itself. The system takes the price of beans, milk, cups and syrup from the last delivery and shows how much a specific cappuccino costs today, not at prices from three years ago. This is critical, because beans easily rise 30-40% in a year, and a margin that felt comfortable quietly turns into working at zero. You can only see this in the numbers when the cost price is recalculated automatically with every new delivery."
+  },
+  {
+   "t": "p",
+   "uk": "Далі система рахує маржу по кожній позиції, а не лише виручку. Часто виявляється, що фірмовий раф на дорогих інгредієнтах продається добре, але приносить менше, ніж звичайна американо з копійчаною собівартістю. Знаючи це, власник свідомо будує меню і акції: просуває позиції з високою маржею, а не ті, що просто «добре йдуть». Без обліку собівартості такі рішення приймають на око і майже завжди на свою шкоду - знижку ставлять саме на те, що й так ледь окупається.",
+   "en": "Then the system calculates the margin on each item, not just the revenue. It often turns out that a signature latte with expensive ingredients sells well but brings in less than a plain americano with a negligible cost price. Knowing this, the owner deliberately shapes the menu and promotions: pushing high-margin items rather than the ones that simply «sell well». Without cost accounting these decisions are made by eye and almost always to the owner's detriment - the discount lands on exactly the drink that barely pays for itself."
+  },
+  {
+   "t": "h2",
    "uk": "Програма лояльності і передзамовлення через бота",
    "en": "Loyalty program and pre-orders through a bot"
   },
@@ -137,6 +152,56 @@
    "t": "p",
    "uk": "Щоденний підсумок приходить власнику в Telegram о 22:00: виручка, кількість чеків, середній чек, топ-5 позицій, залишки нижче порогу, розбіжність по касі. Тридцять секунд читання замість вечірніх дзвінків управителю. Такі системи Devlly збирає під конкретну кавʼярню - з вашими техкартами, вашою механікою лояльності і звітами в тому вигляді, у якому вам зручно приймати рішення.",
    "en": "The daily summary arrives in the owner's Telegram at 22:00: revenue, receipt count, average check, top five items, stock below threshold, cash discrepancy. Thirty seconds of reading instead of evening calls to the manager. Devlly builds systems like this custom for a specific coffee shop - with your recipe cards, your loyalty mechanics and reports in the form that makes decisions easy for you."
+  },
+  {
+   "t": "h2",
+   "uk": "Скільки коштує автоматизація кавʼярні",
+   "en": "How much coffee shop automation costs"
+  },
+  {
+   "t": "p",
+   "uk": "Ціна залежить не від «кількості модулів», а від того, скільки процесів ви реально автоматизуєте і наскільки вони нестандартні. Одна точка з простим меню, обліком продажів і базовою лояльністю - це один бюджет. Мережа з кількох кавʼярень, спільним складом, окремими цінами по локаціях і зведеною аналітикою - зовсім інший. Тому чесна відповідь на «скільки коштує» починається з опису ваших процесів, а не з прайса на абстрактну «систему».",
+   "en": "The price depends not on the «number of modules» but on how many processes you actually automate and how non-standard they are. A single venue with a simple menu, sales accounting and basic loyalty is one budget. A chain of several coffee shops with a shared warehouse, separate prices per location and consolidated analytics is a completely different one. So an honest answer to «how much does it cost» starts with a description of your processes, not with a price list for an abstract «system»."
+  },
+  {
+   "t": "p",
+   "uk": "Є два принципові шляхи. Готові сервіси обліку беруть щомісячну плату за кожну точку і термінал - це передбачувано, але платити доводиться постійно, і будь-яка нестандартна механіка впирається в те, що вже закладено в сервісі. Власна система коштує дорожче на старті, зате належить вам: немає щомісячної оренди за кожен стакан, а логіка робиться під ваші техкарти і вашу лояльність. У Devlly ми будуємо саме такі рішення під конкретну кавʼярню - починаємо з одного болючого процесу, показуємо користь на цифрах і поступово нарощуємо систему навколо того, що вже працює.",
+   "en": "There are two fundamental paths. Off-the-shelf accounting services charge a monthly fee per venue and per terminal - it is predictable, but you pay forever, and any non-standard mechanic runs into whatever the service already supports. A custom system costs more upfront but belongs to you: there is no monthly rent for every cup, and the logic is built around your recipe cards and your loyalty program. At Devlly we build exactly these solutions for a specific coffee shop - starting with one painful process, proving the benefit in numbers and gradually growing the system around what already works."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q_uk": "Яка програма для кавʼярні потрібна на старті?",
+     "q_en": "What coffee shop software do you need to start with?",
+     "a_uk": "На старті достатньо обліку продажів і залишків: кожен напій фіксується, зерно і молоко списуються за техкартами, увечері зміна закривається за дві хвилини. Повноцінна POS-система з дорогим залізом маленькій кавʼярні не потрібна - вистачає планшета і застосунку. Лояльність та аналітику додають наступними етапами, коли базовий облік уже працює.",
+     "a_en": "To start, sales and stock accounting is enough: every drink is recorded, beans and milk are written off from recipe cards, and in the evening a shift closes in two minutes. A full POS system with expensive hardware is not needed for a small coffee shop - a tablet and an app are enough. Loyalty and analytics are added in later stages, once the basic accounting is already working."
+    },
+    {
+     "q_uk": "Як вести облік у кавʼярні без бухгалтера?",
+     "q_en": "How do you keep coffee shop accounts without an accountant?",
+     "a_uk": "Облік будується так, щоб дані вносила сама команда під час роботи, а не бухгалтер у кінці місяця. Бариста пробиває продаж, вказує причину списання браку, вносить прихід від постачальника - і система сама зводить виручку, залишки і собівартість. Власнику лишається читати щоденний підсумок у Telegram і раз на тиждень робити звірку факту з обліком.",
+     "a_en": "Accounting is set up so that the team enters data while they work, not an accountant at the end of the month. The barista rings up a sale, gives a reason for a write-off, enters a supplier delivery - and the system totals revenue, stock and cost price by itself. The owner only has to read the daily summary in Telegram and reconcile physical stock with the records once a week."
+    },
+    {
+     "q_uk": "Що дає автоматизація обліку кавʼярні на практиці?",
+     "q_en": "What does coffee shop accounting automation give you in practice?",
+     "a_uk": "Три речі: ви бачите реальну виручку і собівартість щодня, а не здогадуєтесь; залишки не закінчуються несподівано і не псуються від надлишку; розбіжності по касі стають видимими одразу і по конкретній зміні. Разом це прибирає щомісячні «куди зникли гроші» і повертає власнику 8-10 годин рутини на місяць.",
+     "a_en": "Three things: you see real revenue and cost price every day instead of guessing; stock does not run out unexpectedly or spoil from oversupply; cash discrepancies become visible right away and for a specific shift. Together this removes the monthly «where did the money go» and gives the owner back 8-10 hours of routine a month."
+    },
+    {
+     "q_uk": "Чи потрібен спеціальний касовий термінал?",
+     "q_en": "Do you need a special cash terminal?",
+     "a_uk": "Не обовʼязково. Облік і продажі працюють на звичайному планшеті або телефоні, а фіскальний чек за потреби пробивається через програмний РРО. Дороге спеціалізоване залізо має сенс для великого потоку, але маленькій точці воно радше зайва стаття витрат, ніж необхідність.",
+     "a_en": "Not necessarily. Accounting and sales run on an ordinary tablet or phone, and a fiscal receipt is issued through a software-based cash register when required. Expensive specialised hardware makes sense for high traffic, but for a small venue it is an extra expense rather than a necessity."
+    },
+    {
+     "q_uk": "Скільки часу займає впровадження?",
+     "q_en": "How long does implementation take?",
+     "a_uk": "Базовий облік продажів і залишків запускається за два-три тижні: описати техкарти, завести меню, навчити команду. Далі кожен наступний блок - лояльність, передзамовлення, аналітика - додається окремо, теж по два-три тижні. Такий поетапний підхід дає користь одразу і не ламає роботу бару.",
+     "a_en": "Basic sales and stock accounting launches in two to three weeks: describe the recipe cards, set up the menu, train the team. After that each further block - loyalty, pre-orders, analytics - is added separately, again in two to three weeks. This step-by-step approach delivers value immediately and does not disrupt the work behind the bar."
+    }
+   ]
   }
  ]
 }

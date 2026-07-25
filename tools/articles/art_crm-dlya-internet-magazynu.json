@@ -100,6 +100,36 @@
   },
   {
    "t": "h2",
+   "uk": "Автоматизація повторних продажів і повернення клієнтів",
+   "en": "Automating repeat sales and winning customers back"
+  },
+  {
+   "t": "p",
+   "uk": "Найдорожчий клієнт - той, якого ви привели рекламою один раз і більше не повернули. CRM для інтернет-магазину закриває цей провал автоматичними сценаріями. Кинутий кошик: людина додала товар, але не оплатила - через годину йде нагадування, ще через день пропозиція з невеликою знижкою. Повторна покупка витратних товарів: якщо клієнт брав корм для собаки на місяць, на 25-й день система сама надсилає нагадування замовити ще. Це не «розсилки заради розсилок», а точкові тригери, привʼязані до реальної поведінки покупця.",
+   "en": "The most expensive customer is the one you brought in through ads once and never brought back. A CRM for an online store closes this gap with automated scenarios. Abandoned cart: the person added an item but did not pay - an hour later a reminder goes out, a day later an offer with a small discount. Repeat purchase of consumables: if a customer bought a month's worth of dog food, on day 25 the system sends a reminder to order more on its own. This is not «mailouts for the sake of mailouts» but precise triggers tied to the buyer's real behaviour."
+  },
+  {
+   "t": "p",
+   "uk": "Другий шар - реактивація «сплячих». Система сама помічає, що постійний покупець не робив замовлень 60-90 днів, і запускає ланцюжок: спершу корисне повідомлення, потім персональна пропозиція за його улюбленою категорією. Усе це працює на сегментах з клієнтської бази і не потребує ручної роботи менеджера. Головне правило - міра: занадто часті розсилки швидше ведуть до відписок, ніж до продажів, тому частоту й привід система контролює автоматично, а не залишає на настрій оператора.",
+   "en": "The second layer is reactivating «sleeping» customers. The system notices on its own that a regular buyer has not ordered for 60-90 days and launches a chain: first a useful message, then a personal offer in their favourite category. All of this runs on segments from the customer base and needs no manual work from a manager. The key rule is moderation: overly frequent mailouts lead to unsubscribes faster than to sales, so the system controls the frequency and the reason automatically rather than leaving it to an operator's mood."
+  },
+  {
+   "t": "h2",
+   "uk": "Скільки коштує CRM для інтернет-магазину",
+   "en": "How much a CRM for an online store costs"
+  },
+  {
+   "t": "p",
+   "uk": "Вартість CRM складається не з «ліцензії», а з трьох речей: скільки у вас нестандартних процесів, скільки потрібно інтеграцій і скільки даних треба перенести зі старої системи. Магазин з одним складом, звичайною доставкою і простими оплатами обійдеться помітно дешевше, ніж проект з дропшипінгом від кількох постачальників, розмірними сітками і роботою у двох країнах. Тому будь-яка чесна оцінка починається з переліку ваших процесів та інтеграцій, а не з абстрактного прайса «за систему».",
+   "en": "The cost of a CRM is made up not of a «licence» but of three things: how many non-standard processes you have, how many integrations you need and how much data has to be migrated from the old system. A store with one warehouse, ordinary shipping and simple payments will cost noticeably less than a project with dropshipping from several suppliers, size grids and operations in two countries. That is why any honest estimate starts with a list of your processes and integrations, not with an abstract price «for a system»."
+  },
+  {
+   "t": "p",
+   "uk": "Готові CRM мають низький поріг входу, але беруть щомісячну плату за кожного користувача і часто доплату за потрібні модулі, тож витрати ростуть разом з командою. Власна система дорожча на старті, зате не має щомісячної оренди за місце і повністю належить вам разом з даними. Практичний орієнтир: якщо готове рішення закриває 80% ваших сценаріїв без дорогих доробок - беріть його; якщо специфіки багато і доробки коштують як половина власної системи - дешевше зробити своє. У Devlly ми саме рахуємо цю розвилку чесно і будуємо систему під конкретний магазин.",
+   "en": "Off-the-shelf CRMs have a low entry threshold but charge a monthly fee per user and often a surcharge for the modules you need, so costs grow together with the team. A custom system is more expensive upfront but has no monthly rent per seat and belongs entirely to you along with the data. A practical benchmark: if an off-the-shelf solution covers 80% of your scenarios without costly customization - take it; if there is a lot of specificity and the customization costs as much as half a custom system - it is cheaper to build your own. At Devlly we work out exactly this fork honestly and build the system for a specific store."
+  },
+  {
+   "t": "h2",
    "uk": "Вибір і налаштування: готове рішення чи власна система",
    "en": "Choosing and setting up: off-the-shelf or a custom system"
   },
@@ -117,6 +147,41 @@
    "t": "p",
    "uk": "Налаштування будь-якої системи варто починати з одного процесу, а не з усіх одразу. Спочатку перенесіть облік замовлень і клієнтську базу, дайте команді два-три тижні попрацювати, зберіть зауваження, і лише потім додавайте аналітику, сповіщення і сегментацію. У Devlly ми будуємо такі системи під конкретний магазин: збираємо реальні процеси, робимо робочу першу версію і поступово нарощуємо її навколо того, що вже приносить результат.",
    "en": "Setting up any system is best started with one process, not all of them at once. First move order tracking and the customer base over, let the team work with it for two or three weeks, collect feedback, and only then add analytics, notifications and segmentation. At Devlly we build such systems for a specific store: we map the real processes, ship a working first version and grow it around what already delivers results."
+  },
+  {
+   "t": "faq",
+   "items": [
+    {
+     "q_uk": "Що таке CRM-система для інтернет-магазину простими словами?",
+     "q_en": "What is a CRM system for an online store in plain terms?",
+     "a_uk": "Це єдине місце, де живуть замовлення, клієнти й уся комунікація з ними. Замість розкиданих таблиць, чатів і записника менеджера ви маєте одну систему: видно статус кожного замовлення, історію покупок клієнта, хто за що відповідає і де застрягла заявка. CRM не «продає замість вас» - вона прибирає хаос і не дає загубити жодне замовлення чи клієнта.",
+     "a_en": "It is the single place where orders, customers and all communication with them live. Instead of scattered spreadsheets, chats and a manager's notebook, you have one system: you can see the status of every order, a customer's purchase history, who is responsible for what and where a request got stuck. A CRM does not «sell for you» - it removes the chaos and keeps you from losing a single order or customer."
+    },
+    {
+     "q_uk": "Яка CRM краще для інтернет-магазину - готова чи власна?",
+     "q_en": "Which CRM is better for an online store - off-the-shelf or custom?",
+     "a_uk": "Залежить від специфіки. Якщо процеси стандартні - один склад, звичайна доставка, прості оплати - готова CRM запуститься швидко і коштуватиме передбачувано. Якщо є дропшипінг, розмірні сітки, робота в кількох країнах або багато інтеграцій, готове рішення доведеться дорого допилювати, і власна система виходить вигіднішою. Правильний підхід - виписати обовʼязкові процеси й інтеграції та подивитись, що з них готова CRM закриває без доробок.",
+     "a_en": "It depends on the specifics. If the processes are standard - one warehouse, ordinary shipping, simple payments - an off-the-shelf CRM launches quickly and costs predictably. If there is dropshipping, size grids, operations in several countries or many integrations, an off-the-shelf solution will need expensive customization and a custom system turns out more cost-effective. The right approach is to list the mandatory processes and integrations and see which of them an off-the-shelf CRM covers without customization."
+    },
+    {
+     "q_uk": "Чи можна перенести дані з Google Таблиці в CRM?",
+     "q_en": "Can you migrate data from a Google Sheet into a CRM?",
+     "a_uk": "Так, і це стандартний перший крок. Клієнти, замовлення й історія імпортуються з таблиці або вивантаження старої системи, головне - щоб дані були більш-менш структуровані. При переїзді варто одразу почистити дублікати й обʼєднати контакти одного клієнта в одну картку. Саме тому міграцію роблять на старті, поки обсяг ще керований.",
+     "a_en": "Yes, and it is the standard first step. Customers, orders and history are imported from a spreadsheet or an export of the old system - the main thing is that the data is reasonably structured. During the move it is worth cleaning up duplicates right away and merging one customer's contacts into a single card. That is exactly why migration is done at the start, while the volume is still manageable."
+    },
+    {
+     "q_uk": "Скільки коштує CRM для інтернет-магазину?",
+     "q_en": "How much does a CRM for an online store cost?",
+     "a_uk": "Готові сервіси беруть щомісячну плату за користувача плюс доплати за модулі, тож витрати ростуть разом з командою. Власна розробка - це разова інвестиція, яка залежить від кількості процесів, інтеграцій та обсягу перенесення даних. Точна цифра зʼявляється тільки після опису ваших процесів, тому серйозну оцінку ніхто не дає «наосліп» за одним рядком запиту.",
+     "a_en": "Off-the-shelf services charge a monthly fee per user plus surcharges for modules, so costs grow together with the team. Custom development is a one-time investment that depends on the number of processes, integrations and the volume of data to migrate. An exact figure only appears after your processes are described, which is why no one gives a serious estimate «blind» from a single line of a request."
+    },
+    {
+     "q_uk": "Коли магазину вже пора переходити з таблиць на CRM?",
+     "q_en": "When is it time for a store to move from spreadsheets to a CRM?",
+     "a_uk": "Головні ознаки: замовлення почали губитися, одному клієнту дзвонять двічі різні менеджери, ніхто не бачить повної історії покупок, а зведення звіту займає піврядка дня. Зазвичай це стається на 30-50 замовленнях на день. Якщо ви впізнали хоча б два пункти - таблиця вже гальмує бізнес, і CRM окупиться швидко.",
+     "a_en": "The main signs: orders have started getting lost, different managers call the same customer twice, no one sees the full purchase history, and putting a report together takes half a working day. This usually happens at 30-50 orders a day. If you recognise at least two of these points - the spreadsheet is already slowing the business down, and a CRM will pay for itself quickly."
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,112 @@
+{
+ "title_uk": "CRM-система для інтернет-магазину: яку обрати і за чим порівнювати",
+ "title_en": "CRM for an Online Store: Which to Choose and How to Compare",
+ "desc_uk": "Порівняння CRM для інтернет-магазину: готова SaaS, галузеве рішення для e-commerce чи власна система. Критерії вибору і чек-лист.",
+ "desc_en": "A comparison of CRM options for an online store: off-the-shelf SaaS, an e-commerce industry solution or a custom system. Selection criteria and a checklist.",
+ "cta_uk": "Потрібна допомога з вибором? Пишіть нам",
+ "cta_en": "Need help choosing? Get in touch",
+ "seo": {
+  "t": "CRM-система для інтернет-магазину: порівняння і вибір | Devlly",
+  "te": "CRM for an Online Store: Comparison and How to Choose | Devlly",
+  "d": "Порівнюємо CRM для інтернет-магазину: готова SaaS, галузева для e-commerce чи власна система. Критерії вибору, плюси і мінуси кожного варіанту від Devlly.",
+  "de": "We compare CRM options for an online store: off-the-shelf SaaS, an e-commerce solution or a custom system. Selection criteria and the pros and cons of each from Devlly.",
+  "k": "crm система для інтернет-магазину, яка crm краще для інтернет-магазину, порівняння crm, срм для інтернет-магазину, crm система для интернет-магазина, какая crm лучше для интернет-магазина, сравнение crm, crm for online store, best crm for ecommerce, ecommerce crm comparison"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Вибір CRM для інтернет-магазину рідко впирається в питання «яка система найкраща». Питання інше: що підходить саме вашому магазину за обсягом замовлень, набором каналів і специфікою товару. Готова SaaS, галузеве рішення для e-commerce і власна система розвʼязують ті самі задачі по-різному і коштують по-різному. Розберемо, за чим їх порівнювати, щоб не переплатити за непотрібне і не впертися в обмеження вже за півроку.",
+   "en": "Choosing a CRM for an online store rarely comes down to «which system is best». The real question is what fits your particular store in terms of order volume, set of channels and product specifics. An off-the-shelf SaaS, an industry e-commerce solution and a custom system solve the same tasks differently and cost differently. Let's break down how to compare them so you neither overpay for what you don't need nor hit a wall of limits within six months."
+  },
+  {
+   "t": "h2",
+   "uk": "За якими критеріями порівнювати CRM для інтернет-магазину",
+   "en": "What criteria to compare online-store CRMs by"
+  },
+  {
+   "t": "p",
+   "uk": "Порівнювати за списком функцій - хибний шлях: у презентації галочки стоять у всіх. Дивитися треба на те, як система витримує саме ваш сценарій. Ключові критерії: скільки замовлень на день вона тримає без гальм, чи обʼєднує канали продажів (сайт, маркетплейс, Instagram) в одну картку клієнта, які інтеграції з доставкою й оплатами вже готові, наскільки гнучкі статуси замовлення і чи можна будь-коли вивантажити свої дані у зрозумілому форматі.",
+   "en": "Comparing by a feature list is the wrong path: in a demo everyone has the checkmarks. What you should look at is how the system holds up under your specific scenario. The key criteria: how many orders a day it handles without lag, whether it merges sales channels (website, marketplace, Instagram) into one customer card, which delivery and payment integrations are already built, how flexible the order statuses are and whether you can export your data at any time in a readable format."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо порахуйте вартість володіння на два роки вперед, а не ціну на старті. Готові сервіси беруть щомісячну плату за кожного користувача, і з ростом команди сума множиться. Додайте сюди платні модулі, інтеграції та доробки під вашу специфіку - часто підсумок виходить зовсім не такий привабливий, як стартовий тариф. Саме ця цифра, а не рекламна ціна першого місяця, і має лягти в основу порівняння.",
+   "en": "Separately, calculate the cost of ownership two years ahead, not the entry price. Off-the-shelf services charge a monthly fee per user, and as the team grows the sum multiplies. Add paid modules, integrations and customizations for your specifics - and the total often turns out far less attractive than the starter plan. It is this figure, not the advertised first-month price, that should form the basis of the comparison."
+  },
+  {
+   "t": "p",
+   "uk": "Не забудьте про людей, які працюватимуть у системі щодня. CRM, у якій менеджеру незручно, тихо саботується: замовлення знову ведуться в блокноті, а система стоїть напівпорожня. Тому серед критеріїв - швидкість щоденних дій: скільки кліків до створення замовлення, чи зручно працювати з телефона, як швидко новий співробітник опановує інтерфейс. Технічно потужна, але незручна система на практиці програє простішій, якою команда реально користується.",
+   "en": "Don't forget the people who will work in the system every day. A CRM the manager finds awkward gets quietly sabotaged: orders go back into a notebook and the system stands half-empty. So among the criteria is the speed of daily actions: how many clicks to create an order, whether it's convenient from a phone, how fast a new employee masters the interface. A technically powerful but inconvenient system loses in practice to a simpler one the team actually uses."
+  },
+  {
+   "t": "h2",
+   "uk": "Готова SaaS-CRM: коли вона підходить",
+   "en": "Off-the-shelf SaaS CRM: when it fits"
+  },
+  {
+   "t": "p",
+   "uk": "Готова SaaS-CRM - це швидкий старт: реєстрація, базове налаштування, і за кілька днів команда вже працює. Вона підходить, якщо ваші процеси стандартні: один склад, звичайна доставка, прості оплати, до кількох тисяч замовлень на місяць. Ви отримуєте готові інтеграції, мобільний застосунок і підтримку, не вкладаючись у розробку і не чекаючи на неї.",
+   "en": "An off-the-shelf SaaS CRM is a fast start: sign up, do the basic setup, and within a few days the team is already working. It fits if your processes are standard: one warehouse, ordinary shipping, simple payments, up to a few thousand orders a month. You get ready integrations, a mobile app and support without investing in development or waiting for it."
+  },
+  {
+   "t": "p",
+   "uk": "Слабкі місця зʼявляються там, де є специфіка. Нестандартна логіка резервів, власна схема знижок, розмірні сітки, робота у двох країнах - усе це або впирається в обмеження, або вимагає дорогих доробок. І головне: ваші дані живуть на чужому сервері за чужими правилами, а щомісячна плата нікуди не зникає, поки ви користуєтесь системою. Для типового магазину це прийнятний компроміс, для нестандартного - постійний тягар.",
+   "en": "The weak points appear where there is specificity. Non-standard reservation logic, a custom discount scheme, size grids, operating in two countries - all of this either runs into limits or requires expensive customization. And the main thing: your data lives on someone else's server under someone else's rules, and the monthly fee never goes away as long as you use the system. For a typical store this is an acceptable trade-off; for a non-standard one it is a constant burden."
+  },
+  {
+   "t": "p",
+   "uk": "Ще один нюанс готових рішень - оновлення й підтримка на боці вендора. Це плюс, поки вас усе влаштовує: виправлення, нові функції й безпека не ваша турбота. Але зворотний бік - ви не керуєте змінами. Сервіс може прибрати потрібну функцію, змінити тариф або умови, і вплинути на це ви не зможете. Для магазину, у якого CRM - критична частина продажів, така залежність від чужих рішень з часом відчувається дедалі гостріше.",
+   "en": "Another nuance of off-the-shelf solutions is that updates and support are on the vendor's side. That's a plus while everything suits you: fixes, new features and security are not your concern. But the flip side is that you don't control the changes. The service may remove a feature you need, change the pricing or the terms, and you won't be able to influence it. For a store where the CRM is a critical part of sales, this dependence on someone else's decisions feels sharper and sharper over time."
+  },
+  {
+   "t": "h2",
+   "uk": "Власна CRM під магазин: коли вигідніше своя",
+   "en": "A custom store CRM: when your own is better value"
+  },
+  {
+   "t": "p",
+   "uk": "Власна CRM коштує дорожче на старті, зате робиться під ваші процеси і належить вам разом з даними. Вона виправдана, коли специфіки багато: складна логіка замовлень, кілька постачальників у дропшипінгу, інтеграції з рідкісними сервісами, потреба у власній аналітиці. Замість того щоб підлаштовувати бізнес під чужу систему, ви отримуєте систему під бізнес - рівно з тими сутностями і статусами, які реально є у вашому процесі.",
+   "en": "A custom CRM costs more upfront but is built around your processes and belongs to you along with the data. It is justified when there is a lot of specificity: complex order logic, several dropshipping suppliers, integrations with rare services, a need for your own analytics. Instead of bending the business to fit someone else's system, you get a system built for the business - with exactly the entities and statuses that actually exist in your process."
+  },
+  {
+   "t": "p",
+   "uk": "Друга перевага - економіка на дистанції. Немає щомісячної оренди за кожне робоче місце, тож на обсязі і великій команді власне рішення часто окупається за один-два роки проти постійних платежів за SaaS. Мінус назвемо чесно: старт довший і потребує партнера, який зробить робочу першу версію і нарощуватиме її поетапно, а не занурить вас у нескінченний «проєкт мрії».",
+   "en": "The second advantage is the economics over time. There is no monthly rent per seat, so at scale and with a large team a custom solution often pays for itself within one to two years against ongoing SaaS payments. Let's name the downside honestly: the start is longer and needs a partner who ships a working first version and grows it step by step rather than dragging you into an endless «dream project»."
+  },
+  {
+   "t": "p",
+   "uk": "За рівнем обсягу орієнтир такий: до кількох тисяч замовлень на місяць і зі стандартними процесами готове рішення майже завжди вигідніше. Коли обсяг більший, команда росте, а процеси мають власну специфіку, чаша терезів схиляється до власної системи - бо щомісячні платежі за десяток користувачів і платні модулі за рік складаються в суму, порівнянну з розробкою. Тому дивитися треба не на ціник першого місяця, а на траєкторію витрат на два-три роки вперед.",
+   "en": "As a volume guideline: up to a few thousand orders a month with standard processes, an off-the-shelf solution is almost always better value. When the volume is larger, the team grows and the processes have their own specifics, the scales tip towards a custom system - because monthly payments for a dozen users and paid modules add up over a year to a sum comparable with development. So you should look not at the first-month price tag but at the cost trajectory two to three years ahead."
+  },
+  {
+   "t": "h2",
+   "uk": "Універсальна CRM чи галузева для e-commerce",
+   "en": "A universal CRM or an e-commerce industry one"
+  },
+  {
+   "t": "p",
+   "uk": "Універсальні CRM (умовний «конструктор угод») гнучкі, але нічого не знають про специфіку магазину: викуп посилок, повернення, залишки та інтеграції з поштою доведеться будувати самому. Галузеві рішення для e-commerce навпаки - з коробки вміють обробляти замовлення, рахувати відсоток викупу і синхронізувати склад, але менш гнучкі за межами свого сценарію.",
+   "en": "Universal CRMs (a sort of «deal builder») are flexible but know nothing about store specifics: parcel redemption, returns, stock and postal integrations you will have to build yourself. Industry e-commerce solutions, on the contrary, handle orders, calculate the redemption rate and sync stock out of the box, but are less flexible beyond their scenario."
+  },
+  {
+   "t": "p",
+   "uk": "Практичне правило просте. Якщо ваш магазин типовий, галузеве рішення дасть більше користі одразу і з меншими зусиллями. Якщо у вас багато нестандартного або ви плануєте швидко змінювати процеси, гнучкість важливіша за готові галузеві функції - і тоді виграють або універсальна платформа з доробками, або власна система, яку не треба «вмовляти» робити те, чого вона не вміє.",
+   "en": "The practical rule is simple. If your store is typical, an industry solution delivers more value right away and with less effort. If you have a lot of non-standard needs or plan to change processes quickly, flexibility matters more than ready industry features - and then either a universal platform with customizations or a custom system wins, one you don't have to «talk into» doing what it wasn't built for."
+  },
+  {
+   "t": "h2",
+   "uk": "Як зробити вибір: покроковий чек-лист",
+   "en": "How to decide: a step-by-step checklist"
+  },
+  {
+   "t": "p",
+   "uk": "Спершу випишіть свої обовʼязкові процеси й інтеграції - те, без чого магазин просто не працює. Потім позначте, скільки замовлень на день у вас зараз і скільки буде за рік. Далі прогоніть кожен варіант CRM по цьому списку: що закриває з коробки, що доробкою, а що взагалі ні. І порахуйте вартість володіння на два роки для кожного варіанта - зі щомісячними платежами, модулями і доробками включно.",
+   "en": "First, write down your mandatory processes and integrations - the things without which the store simply does not work. Then note how many orders a day you have now and how many there will be in a year. Next, run each CRM option through this list: what it covers out of the box, what by customization and what not at all. And calculate the two-year cost of ownership for each option - monthly fees, modules and customizations included."
+  },
+  {
+   "t": "p",
+   "uk": "Якщо готове рішення закриває близько 80% сценаріїв без дорогих доробок - беріть його і не ускладнюйте. Якщо специфіки багато і доробки тягнуть на половину вартості власної системи - дешевше і надійніше зробити своє. У Devlly ми допомагаємо пройти саме цю розвилку чесно: аналізуємо процеси, показуємо, де готове рішення вигідніше, а де окупиться власна CRM, і будуємо систему під конкретний магазин, а не універсальний шаблон.",
+   "en": "If an off-the-shelf solution covers about 80% of your scenarios without costly customization - take it and don't overcomplicate. If there is a lot of specificity and the customizations add up to half the price of a custom system - building your own is cheaper and more reliable. At Devlly we help you work through exactly this fork honestly: we analyse the processes, show where an off-the-shelf solution is better value and where a custom CRM pays off, and build the system for a specific store rather than a generic template."
+  }
+ ]
+}

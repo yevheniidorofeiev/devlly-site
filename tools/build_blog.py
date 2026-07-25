@@ -82,6 +82,12 @@ SLUGS = SLUGS + NEW10
 NEW11 = ['avtomatyzatsiya-kalyanoi']
 SLUGS = SLUGS + NEW11
 
+# --- 3 статті під кластер інтернет-магазин (SEO внутри json) ---
+NEW12 = ['crm-systema-dlya-internet-magazynu-porivnyannya',
+         'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
+         'internet-magazyn-crm-chy-google-sheets']
+SLUGS = SLUGS + NEW12
+
 SEO = {
 'crm-or-sheets':{'t':'CRM чи таблиці: коли бізнесу потрібна власна система | Devlly','te':'CRM or spreadsheets: when a business needs its own system | Devlly',
  'd':'Розбираємо коли Google Таблиці вже гальмують бізнес і коли час переходити на CRM. Чіткі ознаки і практичні поради.','de':"We break down when Google Sheets start slowing your business down and when it's time to move to a CRM. Clear signs and practical tips.",
@@ -151,6 +157,9 @@ ISODATE = {
 'komanda-za-kordonom-avtomatyzatsiya':'2026-06-27','eksport-v-yevropu-crm':'2026-07-09',
 'viddalenyi-internet-magazyn-z-ukrainy':'2026-07-22',
 'avtomatyzatsiya-kalyanoi':'2026-07-24',
+'crm-systema-dlya-internet-magazynu-porivnyannya':'2026-07-25',
+'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn':'2026-07-25',
+'internet-magazyn-crm-chy-google-sheets':'2026-07-25',
 }
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
@@ -280,7 +289,9 @@ CLUSTERS = [
    'telegram-bot-dostavka-yizhi','avtomatyzatsiya-kalyanoi'],
   # Інтернет-магазин / дропшипінг
   ['crm-dlya-internet-magazynu','avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping',
-   'telegram-bot-dropshipping','shop-automation','ai-chatbot-shop','mini-app-shop','telegram-bot-shop'],
+   'telegram-bot-dropshipping','shop-automation','ai-chatbot-shop','mini-app-shop','telegram-bot-shop',
+   'crm-systema-dlya-internet-magazynu-porivnyannya','avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
+   'internet-magazyn-crm-chy-google-sheets'],
   # Заявки / база клієнтів
   ['obrobka-zayavok','obrobka-zayavok-klientiv','pryom-zayavok-vid-klientiv','avtomatizaciya-zayavok',
    'avtomatyzatsiya-zayavok','crm-dlya-obrobky-zayavok','ai-bot-requests','baza-klientiv','vedennya-bazy-klientiv'],
@@ -298,6 +309,25 @@ for _cl in CLUSTERS:
     RELATED.update(_cluster_related(_cl))
 # Нова стаття про кальянну - явно на кавʼярня/ресторан кластер (за ТЗ)
 RELATED['avtomatyzatsiya-kalyanoi']=['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','avtomatyzatsiya-restoranu']
+
+# --- Посилення вхідних лінків на 3 пріоритетні сторінки (Задача 1) -------------
+# Точково перевизначаємо RELATED джерел так, щоб на посилювані сторінки вели
+# додаткові вхідні лінки з їхнього ж кластера (лишається рівно 3 лінки, усі in-cluster).
+# crm-dlya-internet-magazynu <- dropshipping / shop-automation / telegram-bot-dropshipping
+RELATED['avtomatyzatsiya-dropshipping']=['crm-dlya-internet-magazynu','telegram-bot-dropshipping','shop-automation']
+RELATED['shop-automation']=['crm-dlya-internet-magazynu','ai-chatbot-shop','telegram-bot-shop']
+RELATED['telegram-bot-dropshipping']=['crm-dlya-internet-magazynu','avtomatyzatsiya-dropshipping','mini-app-shop']
+# ai-bot-requests <- obrobka-zayavok / obrobka-zayavok-klientiv / avtomatyzatsiya-zayavok
+# (avtomatyzatsiya-zayavok уже лінкує ai-bot-requests через циклічний кластер)
+RELATED['obrobka-zayavok']=['ai-bot-requests','obrobka-zayavok-klientiv','avtomatizaciya-zayavok']
+RELATED['obrobka-zayavok-klientiv']=['ai-bot-requests','pryom-zayavok-vid-klientiv','avtomatyzatsiya-zayavok']
+
+# --- 3 нові статті інтернет-магазину: явний «Читайте також» на ядро кластера (Задача 2) ---
+_shop_core=['crm-dlya-internet-magazynu','avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping']
+for _s in ['crm-systema-dlya-internet-magazynu-porivnyannya',
+           'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
+           'internet-magazyn-crm-chy-google-sheets']:
+    RELATED[_s]=list(_shop_core)
 # Кожен slug у кожному кластері й у RELATED має бути в SLUGS (інакше KeyError у ART)
 _missing=sorted({s for cl in CLUSTERS for s in cl} - set(SLUGS))
 assert not _missing, 'cluster slugs not in SLUGS: %s'%_missing
@@ -368,7 +398,8 @@ def head(slug, en=False):
         {"@type":"ListItem","position":2,"name":blog_n,"item":blog_u},
         {"@type":"ListItem","position":3,"name":headln,"item":url}]}
     ld=('    <script type="application/ld+json">\n'+json.dumps(schema,ensure_ascii=False,indent=2)+'\n    </script>\n'
-        '    <script type="application/ld+json">\n'+json.dumps(crumbs,ensure_ascii=False,indent=2)+'\n    </script>\n')
+        '    <script type="application/ld+json">\n'+json.dumps(crumbs,ensure_ascii=False,indent=2)+'\n    </script>\n'
+        +faq_schema(a,en))
     kw = '' if en else '    <meta name="keywords" content="%s">\n'%ea(s['k'])
     # заголовок/описание уже на нужном языке; data-en оставляем только в UA-версии
     da_t = ' data-en="%s"'%ea(s['te']) if not en else ''
@@ -413,10 +444,35 @@ def head(slug, en=False):
                   A,A,A,A,A,A,A,A,A, ld)
 
 def block_html(b):
-    t,uk,en=b['t'],b['uk'],b['en']; da=' data-en="%s"'%ea(en)
+    t=b['t']
+    if t=='faq':
+        rows=[]
+        for it in b['items']:
+            rows.append(
+                '                                <div class="tw-mb-6">\n'
+                '                                    <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-3" data-en="%s">%s</h3>\n'
+                '                                    <p class="tw-text-lg tw-mb-0" data-en="%s">%s</p>\n'
+                '                                </div>'
+                %(ea(it['q_en']),et(it['q_uk']),ea(it['a_en']),et(it['a_uk'])))
+        return ('                            <div class="tw-mt-15">\n'
+                '                                <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="Frequently asked questions">Часті питання</h2>\n'
+                +'\n'.join(rows)+'\n'
+                '                            </div>')
+    uk,en=b['uk'],b['en']; da=' data-en="%s"'%ea(en)
     if t=='lead': return '                            <p class="tw-text-xl text-heading fw-medium tw-mb-8"%s>%s</p>'%(da,et(uk))
     if t=='h2':   return '                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5"%s>%s</h2>'%(da,et(uk))
     return '                            <p class="tw-text-lg tw-mb-6"%s>%s</p>'%(da,et(uk))
+
+def faq_schema(a, en=False):
+    """FAQPage JSON-LD, якщо у статті є блок t:'faq'. Мова відповідає версії сторінки."""
+    fb=[b for b in a['blocks'] if b['t']=='faq']
+    if not fb: return ''
+    q,ans=('q_en','a_en') if en else ('q_uk','a_uk')
+    schema={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":it[q],
+         "acceptedAnswer":{"@type":"Answer","text":it[ans]}} for it in fb[0]['items']]}
+    return ('    <script type="application/ld+json">\n'
+            +json.dumps(schema,ensure_ascii=False,indent=2)+'\n    </script>\n')
 
 def related(slug):
     items='\n'.join(
@@ -502,7 +558,10 @@ for slug in SLUGS:
     body_en=outside_scripts(to_en(article_main(slug)), _en_links)
     page_en=head(slug,en=True)+TOP_EN+body_en+FOOTER_EN+'\n'+SCRIPTS_EN+'\n</body>\n</html>\n'
     io.open(ROOT+'/en/blog/%s.html'%slug,'w',encoding='utf-8',newline='\n').write(switcher(page_en,slug,True))
-    w=sum(len(b['uk'].split()) for b in ART[slug]['blocks'])
+    def _wc(b):
+        if b['t']=='faq': return sum(len(it['q_uk'].split())+len(it['a_uk'].split()) for it in b['items'])
+        return len(b['uk'].split())
+    w=sum(_wc(b) for b in ART[slug]['blocks'])
     print('built %-26s uk+en words=%d h2=%d'%(slug,w,sum(1 for b in ART[slug]['blocks'] if b['t']=='h2')))
     built+=1
 print('TOTAL built: %d UA + %d EN'%(built,built))

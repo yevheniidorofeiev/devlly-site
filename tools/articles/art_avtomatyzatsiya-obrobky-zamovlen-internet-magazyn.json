@@ -1,0 +1,117 @@
+{
+ "title_uk": "Автоматизація обробки замовлень в інтернет-магазині: від заявки до відправлення",
+ "title_en": "Order Processing Automation for an Online Store: From Request to Shipping",
+ "desc_uk": "Як автоматизувати обробку замовлень в інтернет-магазині: прийом з усіх каналів, розподіл, статуси, сповіщення та інтеграції зі складом і доставкою.",
+ "desc_en": "How to automate order processing in an online store: intake from every channel, routing, statuses, notifications and integrations with warehouse and delivery.",
+ "cta_uk": "Потрібна допомога? Пишіть нам",
+ "cta_en": "Need help? Get in touch",
+ "seo": {
+  "t": "Автоматизація обробки замовлень інтернет-магазину | Devlly",
+  "te": "Online Store Order Processing Automation | Devlly",
+  "d": "Автоматизуємо обробку замовлень інтернет-магазину: прийом, розподіл, статуси, сповіщення та інтеграції зі складом і доставкою. Рішення під ваш процес від Devlly.",
+  "de": "We automate online-store order processing: intake, routing, statuses, notifications and integrations with warehouse and delivery. A solution built for your process by Devlly.",
+  "k": "автоматизація обробки замовлень, обробка замовлень інтернет-магазину, автоматизація інтернет-магазину, прийом замовлень, автоматизация обработки заказов, обработка заказов интернет-магазина, прием заказов, order processing automation, online store order management, ecommerce order automation"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Обробка замовлень - це не «покласти в кошик і оплатити». Реальна робота починається після оплати: підтвердити, зібрати, спакувати, оформити доставку, повідомити клієнта, обробити повернення. Поки замовлень десять на день, усе тримається на менеджері й таблиці. На сотні цей ланцюжок починає протікати: заявки губляться, статуси плутаються, клієнти дзвонять «де моє замовлення». Автоматизація прибирає ручні кроки й робить процес передбачуваним.",
+   "en": "Order processing is not «add to cart and pay». The real work begins after payment: confirm, pick, pack, arrange delivery, notify the customer, handle returns. While there are ten orders a day, everything rests on a manager and a spreadsheet. At a hundred, this chain starts to leak: requests get lost, statuses get confused, customers call asking «where is my order». Automation removes the manual steps and makes the process predictable."
+  },
+  {
+   "t": "h2",
+   "uk": "Де інтернет-магазин втрачає час на обробці замовлень",
+   "en": "Where an online store loses time on order processing"
+  },
+  {
+   "t": "p",
+   "uk": "Найбільше часу зʼїдають не самі дії, а перемикання між ними. Менеджер копіює дані з сайту в таблицю, з таблиці в кабінет пошти, потім вручну пише клієнту номер накладної, потім оновлює статус ще в одному місці. Кожне замовлення - десяток дрібних операцій, і на обсязі це години щодня, які ніде не видно, бо вони «розмазані» по всьому дню.",
+   "en": "The most time is eaten not by the actions themselves but by switching between them. The manager copies data from the site into a spreadsheet, from the spreadsheet into the courier's dashboard, then types the tracking number to the customer by hand, then updates the status in yet another place. Each order is a dozen small operations, and at volume that is hours a day - hours nobody sees, because they are «smeared» across the whole day."
+  },
+  {
+   "t": "p",
+   "uk": "Друге джерело втрат - помилки й простої. Замовлення зависло без відповідального, товару не виявилося на складі вже після підтвердження, накладну оформили з помилкою в адресі. Кожна така дрібниця - це або втрачений клієнт, або повернення, або години на розбір. Автоматизація прибирає саме ці розриви: дані переносяться самі, а система не дає замовленню тихо «зависнути» непоміченим.",
+   "en": "The second source of losses is errors and stalls. An order hangs with no owner, an item turns out to be out of stock after confirmation, a waybill is filled in with a wrong address. Every such trifle is either a lost customer, a return, or hours spent sorting it out. Automation removes exactly these gaps: data transfers itself, and the system does not let an order quietly «hang» unnoticed."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо коштує переключення уваги. Коли менеджер по десять разів на день перемикається між сайтом, таблицею й кабінетом пошти, він не просто витрачає хвилини - він втрачає фокус і робить помилки саме на стику систем. Автоматизація прибирає ці «шви»: замовлення проходить через один інтерфейс, і менеджер бачить усе потрібне в одному місці, а не збирає картину з чотирьох вкладок одночасно.",
+   "en": "Attention-switching has its own cost. When a manager switches between the site, a spreadsheet and the courier dashboard ten times a day, they don't just lose minutes - they lose focus and make mistakes precisely at the seams between systems. Automation removes these «seams»: an order flows through one interface, and the manager sees everything needed in one place instead of piecing the picture together from four tabs at once."
+  },
+  {
+   "t": "h2",
+   "uk": "Автоматичний прийом і розподіл замовлень",
+   "en": "Automatic order intake and routing"
+  },
+  {
+   "t": "p",
+   "uk": "Перший крок - звести всі канали в одну точку. Замовлення із сайту, маркетплейсів, Instagram і Telegram мають падати в одну систему автоматично, а не переписуватись руками. Далі система сама створює картку, підтягує дані клієнта з історії, якщо він уже купував, і призначає відповідального за правилами: за категорією товару, регіоном або просто рівномірно між менеджерами.",
+   "en": "The first step is bringing all channels into one point. Orders from the website, marketplaces, Instagram and Telegram should land in one system automatically rather than being retyped by hand. Then the system creates a card itself, pulls in the customer's data from history if they have bought before, and assigns an owner by rules: by product category, region or simply evenly across managers."
+  },
+  {
+   "t": "p",
+   "uk": "Розподіл за правилами прибирає і хаос «хто перший схопив», і ситуацію, коли заявка нічия. Якщо менеджер не взяв замовлення за визначений час, воно автоматично переходить іншому або підсвічується керівнику. Так жодна оплачена заявка не лишається без уваги навіть у пікові дні розпродажів, коли потік зростає в рази.",
+   "en": "Rule-based routing removes both the «whoever grabbed it first» chaos and the situation where a request belongs to no one. If a manager does not take an order within a set time, it automatically passes to another or is flagged to the supervisor. This way no paid request is left unattended even on peak sale days, when the flow grows several times over."
+  },
+  {
+   "t": "p",
+   "uk": "Важливо, щоб прийом працював і поза робочими годинами. Замовлення, залишене о другій ночі, має так само потрапити в систему, отримати автоматичне підтвердження клієнту й дочекатися менеджера зранку в потрібному статусі. Магазин, який «оживає» лише о девʼятій ранку, втрачає нічні й вечірні заявки на користь тих, хто відповів автоматично й одразу, у момент найвищого інтересу покупця.",
+   "en": "It's important that intake works outside business hours too. An order left at two in the morning should land in the system just the same, get an automatic confirmation to the customer and wait for a manager in the morning in the right status. A store that only «comes alive» at nine a.m. loses its night and evening requests to those who replied automatically and instantly, at the moment of the buyer's peak interest."
+  },
+  {
+   "t": "h2",
+   "uk": "Статуси, строки і сповіщення без ручної роботи",
+   "en": "Statuses, deadlines and notifications without manual work"
+  },
+  {
+   "t": "p",
+   "uk": "Серце автоматизації - воронка статусів зі строками. Новий, підтверджений, у комплектації, відправлений, доставлений, оплачений, повернення. Кожен статус має граничний час: якщо замовлення висить у «новому» понад дві години, система підсвічує його. А перехід між статусами сам запускає потрібні дії - і для клієнта, і для команди, без окремого нагадування комусь щось зробити.",
+   "en": "The heart of automation is a status pipeline with deadlines. New, confirmed, picking, shipped, delivered, paid, returned. Each status has a time limit: if an order sits in «new» for more than two hours, the system flags it. And moving between statuses triggers the needed actions by itself - for both the customer and the team - without a separate reminder for someone to do something."
+  },
+  {
+   "t": "p",
+   "uk": "Клієнт автоматично отримує підтвердження, номер накладної, нагадування про оплату і сповіщення про прибуття посилки у відділення. Найкраще це працює в Telegram і Viber: дешевше за SMS, а прочитання вище. Одне нагадування за день до закінчення терміну зберігання помітно піднімає відсоток викупу - а це прямі гроші, які без автоматизації зазвичай просто губляться на цьому останньому кроці.",
+   "en": "The customer automatically gets a confirmation, a tracking number, a payment reminder and a notice when the parcel arrives at the pickup point. This works best in Telegram and Viber: cheaper than SMS and with higher open rates. A single reminder the day before storage expires noticeably raises the redemption rate - and that is direct money, which without automation is usually simply lost at this final step."
+  },
+  {
+   "t": "p",
+   "uk": "Внутрішні сповіщення не менш важливі за клієнтські. Робочий чат команди отримує сигнал про замовлення на велику суму, про заявку, яку ніхто не взяв за визначений час, про товар, залишок якого впав нижче порогу. Головне - щоб таких повідомлень було в міру: якщо їх занадто багато, команда перестає реагувати вже за тиждень, і сенс сповіщень зникає. Точкові сигнали працюють, суцільний шум - ні.",
+   "en": "Internal notifications matter just as much as customer-facing ones. The team chat gets a signal about a high-value order, about a request nobody picked up within a set time, about a product whose stock dropped below threshold. The key is moderation: if there are too many of them, the team stops reacting within a week and the point of the notifications is lost. Targeted signals work, continuous noise does not."
+  },
+  {
+   "t": "h2",
+   "uk": "Інтеграція зі складом, доставкою і оплатами",
+   "en": "Integration with warehouse, delivery and payments"
+  },
+  {
+   "t": "p",
+   "uk": "Автоматизація обробки замовлень працює тільки тоді, коли система звʼязана з рештою інструментів. Інтеграція зі складом резервує товар у момент замовлення і не дає продати те, чого немає. Інтеграція з доставкою створює накладну в один клік і підтягує трек-номер назад у картку. Інтеграція з оплатами сама змінює статус на «оплачено», щойно надійшли гроші, без ручної звірки виписок.",
+   "en": "Order processing automation only works when the system is connected to the rest of your tools. Warehouse integration reserves the item at the moment of the order and prevents selling what isn't there. Delivery integration creates a waybill in one click and pulls the tracking number back into the card. Payment integration changes the status to «paid» by itself the moment the money arrives, with no manual statement reconciliation."
+  },
+  {
+   "t": "p",
+   "uk": "Саме на інтеграціях економиться найбільше ручної роботи. Замість того щоб менеджер вручну заводив накладну в кабінеті пошти й переписував трек-номер, усе відбувається автоматично за фактом зміни статусу. Це не лише швидше - це прибирає цілий клас помилок з адресами й сумами, які найдорожче обходяться саме на відправленні й поверненнях.",
+   "en": "It is on integrations that the most manual work is saved. Instead of a manager entering a waybill in the courier dashboard by hand and retyping the tracking number, everything happens automatically upon a status change. This is not just faster - it removes a whole class of errors with addresses and amounts, the ones that cost the most precisely at shipping and returns."
+  },
+  {
+   "t": "h2",
+   "uk": "З чого почати автоматизацію обробки замовлень",
+   "en": "Where to start automating order processing"
+  },
+  {
+   "t": "p",
+   "uk": "Не намагайтеся автоматизувати все одразу. Почніть з найболючішого місця - зазвичай це прийом замовлень з різних каналів або оформлення доставки. Закрийте один етап, дайте команді два-три тижні попрацювати, зберіть зауваження, і лише потім беріться за наступний. Так автоматизація дає користь одразу, а не через півроку «впровадження», під час якого всі втомлюються і повертаються до таблиці.",
+   "en": "Do not try to automate everything at once. Start with the most painful spot - usually intake of orders from different channels or arranging delivery. Close one stage, let the team work with it for two or three weeks, collect feedback, and only then take on the next. This way automation delivers value immediately rather than after six months of «rollout», during which everyone gets tired and goes back to the spreadsheet."
+  },
+  {
+   "t": "p",
+   "uk": "Перед стартом опишіть свій реальний шлях замовлення від заявки до відправлення - з усіма винятками на кшталт часткового замовлення чи повернення. Цей опис і є технічним завданням. У Devlly ми будуємо автоматизацію обробки замовлень під конкретний магазин: збираємо ваш процес, підключаємо потрібні інтеграції й робимо так, щоб замовлення проходило шлях від заявки до відправлення без ручного перенесення даних між вікнами.",
+   "en": "Before you start, describe your real order journey from request to shipping - with all the exceptions like a partial order or a return. That description is the specification. At Devlly we build order processing automation for a specific store: we map your process, connect the needed integrations and make sure an order travels from request to shipping without manually moving data between windows."
+  },
+  {
+   "t": "p",
+   "uk": "Ще одна порада - не автоматизуйте хаос. Якщо процес зараз плутаний і в кожного менеджера свій порядок дій, спершу домовтеся про єдиний робочий шлях замовлення, а вже потім закладайте його в систему. Інакше автоматизація просто прискорить безлад. Кілька годин на опис реального процесу окупаються тим, що система з першого дня працює так, як треба, а не так, як випадково склалося.",
+   "en": "One more piece of advice - do not automate chaos. If the process is muddled right now and every manager has their own order of actions, first agree on a single working order journey and only then embed it in the system. Otherwise automation will simply speed up the mess. A few hours spent describing the real process pay off in a system that works the right way from day one, rather than the way it happened to end up."
+  }
+ ]
+}
