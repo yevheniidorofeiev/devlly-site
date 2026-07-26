@@ -8,13 +8,11 @@ SCRATCH = os.environ.get('DEVLLY_ARTICLES', os.path.join(_HERE, 'articles'))
 
 # трёхъязычные ключи как запасной слой поверх seo.k из самих статей
 K = {
-'crm-systema-dlya-internet-magazynu-porivnyannya':'crm система для інтернет-магазину, яка crm краще для інтернет-магазину, порівняння crm, срм для інтернет-магазину, crm система для интернет-магазина, какая crm лучше для интернет-магазина, сравнение crm, crm for online store, best crm for ecommerce, ecommerce crm comparison',
-'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn':'автоматизація обробки замовлень, обробка замовлень інтернет-магазину, автоматизація інтернет-магазину, прийом замовлень, автоматизация обработки заказов, обработка заказов интернет-магазина, прием заказов, order processing automation, online store order management, ecommerce order automation',
-'internet-magazyn-crm-chy-google-sheets':'crm чи google таблиці для інтернет-магазину, інтернет-магазин таблиці чи crm, коли потрібна crm магазину, срм чи таблиці, crm или google таблицы для интернет-магазина, интернет-магазин таблицы или crm, crm vs google sheets for online store, ecommerce spreadsheet vs crm',
+'crm-dlya-skladskogo-obliku':'crm для складу, система складського обліку, програма обліку складу, складська програма, облік залишків, crm для склада, система складского учета, программа учета склада, учет остатков, warehouse accounting system, inventory management software, stock control program',
+'telegram-bot-sklad':'telegram-бот для складу, бот для складу, сканування товару в боті, облік залишків через telegram, сповіщення про залишки, telegram бот для склада, бот для склада, сканирование товара, warehouse telegram bot, warehouse automation bot, stock alerts bot',
 }
-ORDER = ['crm-systema-dlya-internet-magazynu-porivnyannya',
-         'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
-         'internet-magazyn-crm-chy-google-sheets']
+ORDER = ['crm-dlya-skladskogo-obliku',
+         'telegram-bot-sklad']
 
 def js(v): return json.dumps(v, ensure_ascii=False)
 entries=[]

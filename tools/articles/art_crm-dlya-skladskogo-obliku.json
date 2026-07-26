@@ -1,0 +1,107 @@
+{
+  "title_uk": "CRM для складського обліку: залишки, прихід і розхід",
+  "title_en": "CRM for Warehouse Accounting: Stock, Receipts and Write-offs",
+  "desc_uk": "Що таке система складського обліку: облік залишків у реальному часі, прихід і розхід товару, інвентаризація і звʼязок складу з продажами в одній програмі.",
+  "desc_en": "What a warehouse accounting system is: real-time stock tracking, receipts and write-offs, inventory counts and a link between the warehouse and sales in one program.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "CRM для складського обліку: програма обліку складу | Devlly",
+    "te": "CRM for Warehouse Accounting: Stock Tracking Software | Devlly",
+    "d": "Що таке система складського обліку: облік залишків у реальному часі, прихід і розхід товару, інвентаризація і звʼязок складу з продажами в одній програмі.",
+    "de": "What a warehouse accounting system is: real-time stock tracking, receipts and write-offs, inventory counts and a link between the warehouse and sales in one program.",
+    "k": "crm для складу, система складського обліку, програма обліку складу, складська програма, облік залишків, crm для склада, система складского учета, программа учета склада, warehouse accounting system, inventory management software, stock control program"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Коли товару на складі стає більше кількох сотень позицій, звичайна таблиця залишків перестає бути обліком і стає джерелом суперечок: у файлі одна цифра, на полиці інша, а хто і коли її змінив - невідомо. Система складського обліку прибирає саме цю невизначеність: кожен рух товару стає документом із датою, кількістю і відповідальним. Нижче - що така програма реально дає, з яких блоків складається і як не переплатити за зайве.",
+      "en": "Once the warehouse holds more than a few hundred items, an ordinary stock spreadsheet stops being a record and becomes a source of arguments: the file says one number, the shelf shows another, and who changed it and when is anyone's guess. A warehouse accounting system removes exactly this uncertainty: every movement of goods becomes a document with a date, a quantity and a person responsible. Below is what such a program actually delivers, what it is made of, and how not to overpay for extras."
+    },
+    {
+      "t": "h2",
+      "uk": "Що таке система складського обліку і що вона замінює",
+      "en": "What a warehouse accounting system is and what it replaces"
+    },
+    {
+      "t": "p",
+      "uk": "Програма обліку складу - це не просто електронна таблиця з красивим інтерфейсом. Її суть у тому, що залишок не редагується вручну, а завжди є результатом операцій: прийшла партія - залишок виріс, відвантажили замовлення - зменшився, списали брак - теж зменшився, але з окремою причиною. Людина не вписує «було 100, стало 80», а проводить документ на 20 одиниць, і система рахує залишок сама.",
+      "en": "A warehouse accounting program is not just a spreadsheet with a nicer interface. Its whole point is that stock is never edited by hand: it is always the result of operations - a batch arrives and stock goes up, an order ships and it goes down, a defect is written off and it drops too, but with a separate reason. A person does not type «it was 100, now it is 80»; they post a document for 20 units, and the system calculates the balance itself."
+    },
+    {
+      "t": "p",
+      "uk": "Саме тому така система замінює одразу кілька звичних інструментів: таблицю залишків, паперові прибуткові накладні, окремий файл зі списаннями і памʼять комірника про те, «де що лежить». Замість чотирьох джерел, які між собою не звірені, зʼявляється одне, де будь-яку цифру можна розкласти на конкретні операції. Це і є різниця між обліком і просто записами.",
+      "en": "That is exactly why such a system replaces several familiar tools at once: the stock spreadsheet, paper receiving notes, a separate write-off file, and the warehouse worker's memory of «where things are». Instead of four sources that are never reconciled with each other, there is one, where any figure can be broken down into specific operations. That is the difference between accounting and simply keeping notes."
+    },
+    {
+      "t": "h2",
+      "uk": "Прихід і розхід: як документується рух товару",
+      "en": "Receipts and write-offs: how the movement of goods is documented"
+    },
+    {
+      "t": "p",
+      "uk": "Прихід оформлюється на підставі накладної постачальника: позиції скануються або підбираються за артикулом, і система одразу порівнює фактично прийняту кількість із заявленою. Якщо привезли менше, недостача фіксується актом на етапі приймання, а не спливає через два тижні, коли довести провину постачальника вже складно. Кожна прибуткова операція лишає слід: номер партії, дату, ціну закупівлі.",
+      "en": "A receipt is created against the supplier's invoice: items are scanned or picked by SKU, and the system immediately compares the quantity actually received with the quantity ordered. If less arrives, the shortfall is recorded as a report at receiving, rather than surfacing two weeks later when proving the supplier's fault is already hard. Every incoming operation leaves a trail: batch number, date, purchase price."
+    },
+    {
+      "t": "p",
+      "uk": "Розхід працює дзеркально. Відвантаження замовлення, переміщення між складами, списання браку чи внутрішня видача - усе це окремі типи документів, а не один розмитий «мінус» у таблиці. Завдяки цьому наприкінці місяця видно не просто «залишок зменшився на 400 одиниць», а скільки пішло у продаж, скільки списано і скільки переміщено. Коли розбіжність усе ж зʼявляється, її простежують до конкретної операції за хвилини, а не гортаючи сотні рядків вручну.",
+      "en": "Write-offs work as a mirror image. Shipping an order, moving stock between warehouses, writing off defects, or an internal handout - each is a separate document type, not one vague «minus» in a spreadsheet. Because of this, at month end you see not just «stock dropped by 400 units», but how much went to sales, how much was written off, and how much was moved. When a discrepancy does appear, it is traced to a specific operation in minutes, instead of scrolling through hundreds of rows by hand."
+    },
+    {
+      "t": "h2",
+      "uk": "Облік залишків у реальному часі і звʼязок з продажами",
+      "en": "Real-time stock tracking and the link with sales"
+    },
+    {
+      "t": "p",
+      "uk": "Головна цінність системи проявляється тоді, коли склад повʼязаний із продажами. Щойно менеджер підтверджує замовлення в CRM, потрібна кількість резервується на складі - ще до фізичної збірки. Вільний залишок, який бачать усі канали продажу, це фактичний залишок мінус резерви за незакритими замовленнями. Так інтернет-магазин, менеджер по телефону і Telegram-бот завжди спираються на одну й ту саму цифру.",
+      "en": "The system's main value shows up when the warehouse is linked to sales. The moment a manager confirms an order in the CRM, the required quantity is reserved in the warehouse - before physical picking even begins. The free stock that every sales channel sees is the actual stock minus reservations from open orders. This way the online store, the phone manager and the Telegram bot all rely on the very same number."
+    },
+    {
+      "t": "p",
+      "uk": "Без цього звʼязку виникає найдорожча помилка роздрібу - продаж того, чого фізично вже немає. Клієнт отримує підтвердження, а через день - вибачення й скасування. На асортименті в 1000-3000 позицій із десятками замовлень на день інтеграція складу з продажами прибирає саме ці конфлікти: система не дасть продати останню одиницю двічі, бо після першого замовлення її вже немає у вільному залишку.",
+      "en": "Without this link, retail's most expensive mistake appears - selling something that is physically already gone. The customer gets a confirmation, and a day later an apology and a cancellation. On an assortment of 1000 to 3000 items with dozens of orders a day, integrating the warehouse with sales removes exactly these conflicts: the system will not let the last unit be sold twice, because after the first order it is no longer in free stock."
+    },
+    {
+      "t": "p",
+      "uk": "Той самий механізм рятує, коли складів або точок кілька. Якщо товар лежить на основному складі, у роздрібній точці й частково зарезервований під опт, «просто цифра в таблиці» вже нічого не значить - важливо, скільки саме вільно і де. Система показує залишок у розрізі кожного місця зберігання і зводить його в єдиний доступний до продажу обсяг, тож менеджер не обіцяє клієнту товар, який фізично лежить в іншому місті й зарезервований під чуже замовлення.",
+      "en": "The same mechanism helps when there are several warehouses or points of sale. If goods sit in the main warehouse, in a retail point and are partly reserved for a wholesale order, «just a number in a spreadsheet» already means nothing - what matters is exactly how much is free and where. The system shows stock broken down by each storage location and rolls it up into a single sellable quantity, so a manager does not promise a customer goods that physically sit in another city and are reserved for someone else's order."
+    },
+    {
+      "t": "h2",
+      "uk": "Готова програма для складу чи власна система під бізнес",
+      "en": "An off-the-shelf warehouse program or a custom system for the business"
+    },
+    {
+      "t": "p",
+      "uk": "Готові складські програми закривають типові потреби: карток товару, приходу, розходу і базових звітів там зазвичай достатньо. Проблеми починаються там, де в бізнесу є своя специфіка: комплекти й набори, товар у різних одиницях виміру, серійні номери, партійний облік за термінами придатності або нестандартна логіка резервування. У коробковому рішенні це або відсутнє, або доводиться підлаштовувати процеси під програму, а не навпаки.",
+      "en": "Off-the-shelf warehouse programs cover typical needs: item cards, receipts, write-offs and basic reports are usually enough there. The problems start where a business has its own specifics: kits and bundles, goods in different units of measure, serial numbers, batch accounting by expiry dates, or non-standard reservation logic. In a boxed solution this is either missing or you have to bend your processes to fit the program rather than the other way around."
+    },
+    {
+      "t": "p",
+      "uk": "Власна система виправдана тоді, коли склад - серце бізнесу, а не допоміжна функція, і коли готова програма змушує тримати паралельно ще пару таблиць «для того, чого вона не вміє». У Devlly ми найчастіше йдемо середнім шляхом: беремо перевірену основу для обліку залишків, приходу і розходу, а зверху добудовуємо саме ті сценарії, які унікальні для конкретного складу й асортименту. Так бізнес не платить за сотні непотрібних функцій, але отримує ту логіку, якої немає в коробці.",
+      "en": "A custom system is justified when the warehouse is the heart of the business rather than a support function, and when an off-the-shelf program forces you to keep a couple of extra spreadsheets on the side «for what it cannot do». At Devlly we most often take the middle path: we take a proven core for stock, receipts and write-offs, and build exactly the scenarios that are unique to a specific warehouse and assortment on top. That way the business does not pay for hundreds of unneeded features, yet gets the logic a boxed product lacks."
+    },
+    {
+      "t": "h2",
+      "uk": "З чого почати впровадження складського обліку",
+      "en": "Where to start implementing warehouse accounting"
+    },
+    {
+      "t": "p",
+      "uk": "Починати варто не з вибору програми, а з наведення ладу в довіднику товарів. Якщо в одного товару три різні назви й немає єдиного артикулу, жодна система не дасть чистого обліку - вона лише швидше розмножить хаос. Перший крок - єдина картка на кожну позицію з унікальним кодом і штрихкодом. Другий - разова стартова інвентаризація, щоб залишки в системі збіглися з фактом на старті, інакше всі подальші цифри будуть від хибної точки відліку.",
+      "en": "The place to start is not choosing a program but tidying up the product catalogue. If one product has three different names and no single SKU, no system will give clean accounting - it will only multiply the chaos faster. The first step is a single card for every item with a unique code and a barcode. The second is a one-time opening inventory count, so that stock in the system matches reality at the start, otherwise every later figure builds on a false baseline."
+    },
+    {
+      "t": "p",
+      "uk": "Далі облік запускають поетапно: спершу прихід і розхід, потім резервування під продажі, і лише після цього - складніші сценарії на кшталт переміщень і партійного обліку. Такий порядок дозволяє команді звикнути й не кинути систему в перший тиждень. За кілька місяців роботи система накопичує історію, за якою вже видно, які позиції розходяться з фактом регулярно, і це майже завжди вказує не на помилку підрахунку, а на системну проблему - пересорт, крадіжку чи помилку в картці товару.",
+      "en": "From there accounting is rolled out in stages: first receipts and write-offs, then reservations for sales, and only after that the more complex scenarios such as transfers and batch tracking. This order lets the team get used to it and not abandon the system in the first week. After a few months of use the system builds up a history that already shows which items diverge from reality regularly, and that almost always points not to a counting error but to a systemic problem - mis-shelving, theft, or a mistake in the item card."
+    },
+    {
+      "t": "p",
+      "uk": "Щодо строків і вартості орієнтир простий: базовий облік приходу, розходу й залишків запускається за кілька тижнів, а не місяців, якщо довідник товарів уже впорядкований. Основний час забирає не сама програма, а підготовка даних і звичка команди фіксувати кожну операцію одразу, а не наприкінці дня. Тому найдешевший спосіб зіпсувати впровадження - купити складну систему й лишити половину процесів «як було», у блокноті. Найрозумніший старт - автоматизувати спершу той блок, де розбіжності коштують найдорожче, і лише потім розширювати облік на решту складу.",
+      "en": "As for timelines and cost, the guideline is simple: basic accounting of receipts, write-offs and stock is launched in a few weeks, not months, if the product catalogue is already in order. Most of the time is taken not by the program itself but by preparing the data and the team's habit of recording every operation immediately rather than at the end of the day. So the cheapest way to ruin an implementation is to buy a complex system and leave half the processes «as they were», in a notebook. The smartest start is to automate first the block where discrepancies cost the most, and only then extend accounting to the rest of the warehouse."
+    }
+  ]
+}

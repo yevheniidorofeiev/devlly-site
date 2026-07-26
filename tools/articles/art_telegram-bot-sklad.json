@@ -1,0 +1,107 @@
+{
+  "title_uk": "Telegram-бот для складу: залишки, сканування і поповнення",
+  "title_en": "Telegram Bot for the Warehouse: Stock, Scanning and Restocking",
+  "desc_uk": "Як Telegram-бот допомагає складу: сповіщення про низькі залишки, приймання і списання через сканування, заявки на поповнення і статуси відвантажень прямо в телефоні.",
+  "desc_en": "How a Telegram bot helps the warehouse: low-stock alerts, receiving and write-offs via scanning, restock requests and shipment statuses right on the phone.",
+  "cta_uk": "Потрібна допомога? Пишіть нам",
+  "cta_en": "Need help? Get in touch",
+  "seo": {
+    "t": "Telegram-бот для складу: сканування і облік залишків | Devlly",
+    "te": "Telegram Bot for the Warehouse: Scanning and Stock Control | Devlly",
+    "d": "Як Telegram-бот допомагає складу: сповіщення про низькі залишки, приймання і списання через сканування, заявки на поповнення і статуси відвантажень прямо в телефоні.",
+    "de": "How a Telegram bot helps the warehouse: low-stock alerts, receiving and write-offs via scanning, restock requests and shipment statuses right on the phone.",
+    "k": "telegram-бот для складу, бот для складу, сканування товару в боті, облік залишків через telegram, сповіщення про залишки, telegram бот для склада, бот для склада, warehouse telegram bot, warehouse automation, stock alerts bot"
+  },
+  "blocks": [
+    {
+      "t": "lead",
+      "uk": "Комірнику незручно тримати відкритий компʼютер посеред стелажів: щоб внести списання чи перевірити залишок, він іде до столу, а половину операцій відкладає «на потім» - і забуває. Telegram-бот для складу переносить щоденні дії туди, де людина реально працює: у телефон, за кілька натискань. Нижче - які саме завдання він закриває і чому це не окрема система, а зручне вікно в уже наявний облік.",
+      "en": "A warehouse worker finds it awkward to keep a computer open in the middle of the racks: to log a write-off or check stock, they walk to a desk, and half the operations get put off «for later» - and forgotten. A Telegram bot for the warehouse moves daily actions to where the person actually works: onto the phone, in a couple of taps. Below is exactly which tasks it covers and why it is not a separate system but a convenient window into the accounting you already have."
+    },
+    {
+      "t": "h2",
+      "uk": "Навіщо складу окремий Telegram-бот",
+      "en": "Why a warehouse needs a dedicated Telegram bot"
+    },
+    {
+      "t": "p",
+      "uk": "Основна причина проста: чим далі момент операції від моменту її запису, тим більше помилок. Комірник прийняв партію о десятій, а вніс її в систему в обід, бо саме тоді дійшов до компʼютера, - і всі проміжні продажі рахувалися від неправильного залишку. Бот прибирає цю затримку: дію фіксують одразу з телефона, стоячи біля стелажа, а не через годину за столом.",
+      "en": "The main reason is simple: the further the moment of an operation is from the moment it is recorded, the more errors appear. A worker receives a batch at ten but enters it into the system at lunch, because that is when they reached a computer - and every sale in between was counted against the wrong stock. The bot removes this delay: an action is logged straight from the phone, standing by the rack, not an hour later at a desk."
+    },
+    {
+      "t": "p",
+      "uk": "Друга причина - поріг входу. Складному інтерфейсу складської програми доводиться вчити кожного нового працівника, а Telegram уже стоїть у всіх на телефоні і не потребує навчання. Комірник натискає кнопку, а не шукає потрібний пункт меню серед десятків. Для базових операцій - прийняти, списати, перевірити - цього достатньо, а вся складна логіка лишається в системі за ботом.",
+      "en": "The second reason is the barrier to entry. A warehouse program's complex interface has to be taught to every new employee, while Telegram is already on everyone's phone and needs no training. The worker presses a button rather than hunting for the right menu item among dozens. For the basic operations - receive, write off, check - that is enough, and all the complex logic stays in the system behind the bot."
+    },
+    {
+      "t": "h2",
+      "uk": "Сповіщення про низькі залишки і точку перезамовлення",
+      "en": "Low-stock alerts and the reorder point"
+    },
+    {
+      "t": "p",
+      "uk": "Найкорисніше, що бот робить сам, без запиту, - вчасно попереджає, що товар закінчується. Мінімальний залишок для кожної позиції рахується не на око, а за формулою: середній денний продаж, помножений на строк поставки, плюс страховий запас на кілька днів. Щойно залишок перетинає цю точку, відповідальний одразу отримує повідомлення в Telegram - ще до того, як позиція фізично закінчилась.",
+      "en": "The most useful thing the bot does on its own, without being asked, is to warn in time that an item is running out. The minimum stock for each item is not guessed but calculated: average daily sales multiplied by delivery time, plus a safety buffer of a few days. The moment stock crosses this point, the person responsible immediately gets a message in Telegram - before the item has physically run out."
+    },
+    {
+      "t": "p",
+      "uk": "Це принципово інша ситуація, ніж коли про закінчення товару дізнаються від клієнта, який не зміг його купити. Замість єдиного правила «менше десяти штук» для всього асортименту бот орієнтується на реальну швидкість продажу кожної позиції: для ходового товару поріг вищий, для повільного - нижчий. Так гроші не заморожені в надлишку і водночас немає простою через відсутність ходової позиції.",
+      "en": "This is a fundamentally different situation from learning that an item ran out from a customer who could not buy it. Instead of one flat rule such as «fewer than ten units» for the whole assortment, the bot works off the real sales speed of each item: for fast movers the threshold is higher, for slow ones lower. That way money is not frozen in excess stock, and at the same time there is no downtime from a popular item being missing."
+    },
+    {
+      "t": "h2",
+      "uk": "Приймання і списання через сканування в боті",
+      "en": "Receiving and writing off through scanning in the bot"
+    },
+    {
+      "t": "p",
+      "uk": "Камера телефона в боті працює як сканер штрихкодів. Комірник наводить її на код товару - і замість ручного пошуку за назвою відкривається потрібна картка. Приймання нової партії заноситься за хвилину: сканувати позицію, вказати кількість, підтвердити. Ручний ввід на довгу накладну дає в середньому кілька відсотків помилок через схожі назви й одруки, скан коду - долі відсотка.",
+      "en": "The phone camera in the bot works as a barcode scanner. The worker points it at a product code, and instead of searching by name the right card opens. Receiving a new batch takes a minute: scan the item, enter the quantity, confirm. Manual entry on a long invoice produces on average a few percent of errors from similar names and typos, while scanning a code brings it down to a fraction of a percent."
+    },
+    {
+      "t": "p",
+      "uk": "Списання працює так само швидко: відсканував, вказав причину - брак, повернення, внутрішня видача - і залишок оновився миттєво, з відповідальним і часом операції. Саме через простоту списання перестають відкладати, а отже облік лишається чистим протягом дня, а не «звіряється» наприкінці зміни по памʼяті. Це особливо помітно на складах, де раніше комірники вели облік у блокноті й губили частину даних ще до кінця робочого дня.",
+      "en": "Writing off is just as fast: scan, pick a reason - defect, return, internal handout - and stock updates instantly, with the person responsible and the time of the operation. Precisely because write-offs are simple, they stop being postponed, and so records stay clean throughout the day rather than being «reconciled» at the end of the shift from memory. This is especially noticeable at warehouses where staff used to keep records in a notebook and lost part of the data before the workday even ended."
+    },
+    {
+      "t": "p",
+      "uk": "Сканування закриває і звичну проблему пересорту, коли на полиці лежить товар з одним артикулом, а комірник упевнений, що це інший. Бот показує назву й фото картки одразу після скану, тож людина бачить, що взяла саме ту позицію, ще до того, як провести операцію. А оскільки кожен скан лишає слід - хто, коли, скільки, - будь-яку спірну ситуацію можна розібрати за журналом операцій, а не за словами «я точно списував, просто забув».",
+      "en": "Scanning also closes the familiar problem of mis-shelving, when a shelf holds an item with one SKU while the worker is sure it is another. The bot shows the name and the card photo right after the scan, so the person sees they picked the exact item before posting the operation. And since every scan leaves a trail - who, when, how much - any disputed case can be sorted out from the operation log, rather than from a «I definitely wrote it off, I just forgot» account."
+    },
+    {
+      "t": "h2",
+      "uk": "Заявки на поповнення і статуси відвантажень",
+      "en": "Restock requests and shipment statuses"
+    },
+    {
+      "t": "p",
+      "uk": "Коли бот попередив про низький залишок, наступний крок теж робиться в ньому: комірник однією кнопкою формує заявку на поповнення, і вона одразу йде відповідальному за закупівлі з номером позиції, поточним залишком і рекомендованою кількістю. Замість усного «здається, скоро закінчиться скотч» зʼявляється конкретна заявка з цифрами, яку видно і закупнику, і керівнику.",
+      "en": "When the bot has warned about low stock, the next step is also taken inside it: with one button the worker creates a restock request, and it goes straight to the person responsible for purchasing with the item number, the current stock and a recommended quantity. Instead of a verbal «I think we are about to run out of tape», there is a specific request with numbers, visible to both the buyer and the manager."
+    },
+    {
+      "t": "p",
+      "uk": "У зворотному напрямку бот тримає всіх у курсі статусів: замовлення зібрано, передано в доставку, відвантажено. Менеджер бачить рух замовлення без дзвінка на склад, а клієнту за потреби йде автоматичне сповіщення. Так склад перестає бути «чорною скринькою», з якої інформацію витягують телефоном, - актуальний статус видно в чаті одразу.",
+      "en": "In the other direction the bot keeps everyone informed of statuses: order picked, handed to delivery, shipped. A manager sees an order's progress without calling the warehouse, and the customer gets an automatic notification when needed. That way the warehouse stops being a «black box» from which information is pulled by phone - the current status is visible in the chat at once."
+    },
+    {
+      "t": "p",
+      "uk": "Окремо бот зручний для заявок від інших відділів. Менеджеру з продажів не треба йти на склад чи дзвонити, щоб дізнатися, чи є позиція в наявності, - він запитує в боті й одразу бачить вільний залишок. Якщо потрібно зарезервувати товар під конкретного клієнта, це теж робиться в кілька натискань, і резерв одразу враховується в загальному обліку. Дрібні, але часті запити перестають смикати комірника від його основної роботи й водночас не губляться в усних домовленостях.",
+      "en": "Separately, the bot is handy for requests from other departments. A salesperson does not have to walk to the warehouse or call to find out whether an item is in stock - they ask the bot and immediately see the free balance. If an item needs to be reserved for a specific customer, that too takes a couple of taps, and the reservation is instantly reflected in the overall accounting. Small but frequent requests stop pulling the warehouse worker away from their main job and at the same time do not get lost in verbal arrangements."
+    },
+    {
+      "t": "h2",
+      "uk": "Як бот повʼязаний з обліковою системою складу",
+      "en": "How the bot is linked to the warehouse accounting system"
+    },
+    {
+      "t": "p",
+      "uk": "Важливо розуміти: Telegram-бот - це не окремий облік, а зручний інтерфейс до вже наявної системи складського обліку. Усі дані живуть в одній базі, а бот лише читає й записує в неї. Тому залишок, який комірник бачить у чаті, і залишок в CRM менеджера - завжди та сама цифра, оновлена в реальному часі. Двох правд про кількість товару бути не може за визначенням.",
+      "en": "It is important to understand: the Telegram bot is not a separate ledger but a convenient interface to the warehouse accounting system you already have. All the data lives in one database, and the bot only reads from and writes to it. So the stock a worker sees in the chat and the stock in the manager's CRM are always the same figure, updated in real time. Two versions of the truth about quantity cannot exist by definition."
+    },
+    {
+      "t": "p",
+      "uk": "Через це бот не варто розглядати як самостійний продукт - він розкриває користь саме в парі з обліком, який рахує залишки, резерви й точки перезамовлення. У Devlly ми будуємо такий бот під конкретний склад: підключаємо його до наявної або нової облікової системи, лишаємо в інтерфейсі лише ті дії, які потрібні комірнику щодня, і не перевантажуємо його функціями, якими ніхто не користуватиметься. Складне лишається в системі, просте - у телефоні.",
+      "en": "Because of this, the bot should not be seen as a standalone product - it delivers value precisely paired with accounting that tracks stock, reservations and reorder points. At Devlly we build such a bot for a specific warehouse: we connect it to an existing or new accounting system, leave in the interface only the actions a worker needs daily, and do not overload it with features nobody will use. The complex stays in the system, the simple stays on the phone."
+    }
+  ]
+}

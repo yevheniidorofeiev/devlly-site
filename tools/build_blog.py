@@ -88,6 +88,10 @@ NEW12 = ['crm-systema-dlya-internet-magazynu-porivnyannya',
          'internet-magazyn-crm-chy-google-sheets']
 SLUGS = SLUGS + NEW12
 
+# --- 2 статті-компаньйони під кластер склад (SEO внутри json) ---
+NEW13 = ['crm-dlya-skladskogo-obliku','telegram-bot-sklad']
+SLUGS = SLUGS + NEW13
+
 SEO = {
 'crm-or-sheets':{'t':'CRM чи таблиці: коли бізнесу потрібна власна система | Devlly','te':'CRM or spreadsheets: when a business needs its own system | Devlly',
  'd':'Розбираємо коли Google Таблиці вже гальмують бізнес і коли час переходити на CRM. Чіткі ознаки і практичні поради.','de':"We break down when Google Sheets start slowing your business down and when it's time to move to a CRM. Clear signs and practical tips.",
@@ -160,6 +164,7 @@ ISODATE = {
 'crm-systema-dlya-internet-magazynu-porivnyannya':'2026-07-25',
 'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn':'2026-07-25',
 'internet-magazyn-crm-chy-google-sheets':'2026-07-25',
+'crm-dlya-skladskogo-obliku':'2026-07-26','telegram-bot-sklad':'2026-07-26',
 }
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
@@ -295,6 +300,8 @@ CLUSTERS = [
   # Заявки / база клієнтів
   ['obrobka-zayavok','obrobka-zayavok-klientiv','pryom-zayavok-vid-klientiv','avtomatizaciya-zayavok',
    'avtomatyzatsiya-zayavok','crm-dlya-obrobky-zayavok','ai-bot-requests','baza-klientiv','vedennya-bazy-klientiv'],
+  # Склад / складський облік (+ логістика як суміжна тема)
+  ['avtomatyzatsiya-skladu','crm-dlya-skladskogo-obliku','telegram-bot-sklad','avtomatyzatsiya-lohistyky'],
   # Діаспора / закордон (13)
   ['telegram-bot-dlya-ukraintsiv-v-yevropi','avtomatyzatsiya-biznesu-za-kordonom',
    'viddalene-upravlinnya-biznesom-z-ukrainy','crm-dlya-ukrainskoi-diaspory','crm-dlya-biznesu-v-polshchi',

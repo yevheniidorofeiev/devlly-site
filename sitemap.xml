@@ -1647,4 +1647,36 @@
     <lastmod>2026-07-25</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://devlly.dev/blog/crm-dlya-skladskogo-obliku</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-dlya-skladskogo-obliku"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-dlya-skladskogo-obliku"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-dlya-skladskogo-obliku"/>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/crm-dlya-skladskogo-obliku</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/crm-dlya-skladskogo-obliku"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/crm-dlya-skladskogo-obliku"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/crm-dlya-skladskogo-obliku"/>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-bot-sklad</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-sklad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-sklad"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-sklad"/>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-bot-sklad</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-bot-sklad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-bot-sklad"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-bot-sklad"/>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
