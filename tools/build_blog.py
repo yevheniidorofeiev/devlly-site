@@ -370,7 +370,7 @@ def _en_links(x):
     return x
 def rewrite_en(b):
     b=to_en(b)
-    b=re.sub(r'(?<![./\w])assets/', '/assets/', b)          # /en/blog/x - база не /en/, нужен корень
+    b=re.sub(r'(?<![./\w])assets/', '/assets/', b)          # /en/blog/<slug> - база не /en/, нужен корень
     return outside_scripts(b, _en_links)                     # внутрь <script> не лезем
 TOP_EN,FOOTER_EN,SCRIPTS_EN=rewrite_en(RAW_TOP),rewrite_en(RAW_FOOTER),rewrite_en(RAW_SCRIPTS)
 
@@ -387,7 +387,7 @@ def head(slug, en=False):
     s=SEO[slug]; a=ART[slug]
     uk_url='%s/blog/%s'%(BASE,slug); en_url='%s/en/blog/%s'%(BASE,slug)
     url = en_url if en else uk_url
-    A = '/assets' if en else '../assets'          # /en/blog/x: относительные пути не работают
+    A = '/assets' if en else '../assets'          # /en/blog/<slug>: относительные пути не работают
     title  = s['te'] if en else s['t']
     desc   = s['de'] if en else s['d']
     headln = a['title_en'] if en else a['title_uk']

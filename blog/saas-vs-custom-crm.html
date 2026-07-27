@@ -1567,7 +1567,7 @@
   var EMPTY = { uk:'Нічого не знайдено', en:'Nothing found' };
   function lang(){ return document.documentElement.lang === 'en' ? 'en' : 'uk'; }
   // INDEX хранит украинские URL; на /en/* их надо префиксовать.
-  // "/#services" -> "/en#services", "/blog/x" -> "/en/blog/x"
+  // "/#services" -> "/en#services"; путь статьи получает префикс /en
   function urlFor(u){
     if(lang() !== 'en') return u;
     return u.indexOf('/#') === 0 ? '/en' + u.slice(1) : '/en' + u;
