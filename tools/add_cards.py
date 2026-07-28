@@ -9,8 +9,7 @@ BASE = 'https://devlly.dev'
 
 # порядок по дате (зростання), дати - джерело правди
 ITEMS = [
- ('crm-dlya-skladskogo-obliku','2026-07-26','2'),
- ('telegram-bot-sklad','2026-07-26','3'),
+ ('avtomatyzatsiya-pekarni','2026-07-28','4'),
 ]
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']

@@ -92,6 +92,10 @@ SLUGS = SLUGS + NEW12
 NEW13 = ['crm-dlya-skladskogo-obliku','telegram-bot-sklad']
 SLUGS = SLUGS + NEW13
 
+# --- 1 стаття: пекарня, 7-й учасник кластера кавʼярня/ресторан (SEO внутри json) ---
+NEW14 = ['avtomatyzatsiya-pekarni']
+SLUGS = SLUGS + NEW14
+
 SEO = {
 'crm-or-sheets':{'t':'CRM чи таблиці: коли бізнесу потрібна власна система | Devlly','te':'CRM or spreadsheets: when a business needs its own system | Devlly',
  'd':'Розбираємо коли Google Таблиці вже гальмують бізнес і коли час переходити на CRM. Чіткі ознаки і практичні поради.','de':"We break down when Google Sheets start slowing your business down and when it's time to move to a CRM. Clear signs and practical tips.",
@@ -165,6 +169,7 @@ ISODATE = {
 'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn':'2026-07-25',
 'internet-magazyn-crm-chy-google-sheets':'2026-07-25',
 'crm-dlya-skladskogo-obliku':'2026-07-26','telegram-bot-sklad':'2026-07-26',
+'avtomatyzatsiya-pekarni':'2026-07-28',
 }
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
@@ -289,9 +294,9 @@ CLUSTERS = [
   ['hr-automation','hr-bot','hr-bot-small-business','hr-onboarding-automation','hr-telegram-recruitment',
    'hr-telegram-form','hr-crm-vs-sheets','hr-systema-dlya-malogo-biznesu','avtomatyzatsiya-recruiting',
    'hr-bot-telegram-nalashtuvannya','hr-bot-functions'],
-  # Кавʼярня / ресторан / громадське харчування (+ кальянна)
+  # Кавʼярня / ресторан / громадське харчування (+ кальянна, + пекарня)
   ['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','telegram-bot-kaviarnya','avtomatyzatsiya-restoranu',
-   'telegram-bot-dostavka-yizhi','avtomatyzatsiya-kalyanoi'],
+   'telegram-bot-dostavka-yizhi','avtomatyzatsiya-kalyanoi','avtomatyzatsiya-pekarni'],
   # Інтернет-магазин / дропшипінг
   ['crm-dlya-internet-magazynu','avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping',
    'telegram-bot-dropshipping','shop-automation','ai-chatbot-shop','mini-app-shop','telegram-bot-shop',
@@ -316,6 +321,11 @@ for _cl in CLUSTERS:
     RELATED.update(_cluster_related(_cl))
 # Нова стаття про кальянну - явно на кавʼярня/ресторан кластер (за ТЗ)
 RELATED['avtomatyzatsiya-kalyanoi']=['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','avtomatyzatsiya-restoranu']
+# Пекарня - те саме: явно на ядро кластера, а не на випадкових сусідів по ротації
+RELATED['avtomatyzatsiya-pekarni']=['avtomatyzatsiya-kaviarni','avtomatyzatsiya-restoranu','crm-dlya-kaviarni']
+# ...і вхідний лінк на пекарню з головної сторінки кластера (ротація дає його лише
+# restoranu і telegram-bot-dostavka-yizhi). Лишається рівно 3 лінки, усі in-cluster.
+RELATED['avtomatyzatsiya-kaviarni']=['avtomatyzatsiya-pekarni','crm-dlya-kaviarni','telegram-bot-kaviarnya']
 
 # --- Посилення вхідних лінків на 3 пріоритетні сторінки (Задача 1) -------------
 # Точково перевизначаємо RELATED джерел так, щоб на посилювані сторінки вели

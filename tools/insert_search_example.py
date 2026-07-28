@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Добавляет 13 диаспорных статей в поисковый INDEX index.html (uk/ru/en ключевики в поле k)
+# Добавляет новые статьи в поисковый INDEX index.html (uk/ru/en ключевики в поле k)
 import io, json, os, sys
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 _HERE = os.path.dirname(os.path.abspath(__file__))
@@ -8,11 +8,9 @@ SCRATCH = os.environ.get('DEVLLY_ARTICLES', os.path.join(_HERE, 'articles'))
 
 # трёхъязычные ключи как запасной слой поверх seo.k из самих статей
 K = {
-'crm-dlya-skladskogo-obliku':'crm для складу, система складського обліку, програма обліку складу, складська програма, облік залишків, crm для склада, система складского учета, программа учета склада, учет остатков, warehouse accounting system, inventory management software, stock control program',
-'telegram-bot-sklad':'telegram-бот для складу, бот для складу, сканування товару в боті, облік залишків через telegram, сповіщення про залишки, telegram бот для склада, бот для склада, сканирование товара, warehouse telegram bot, warehouse automation bot, stock alerts bot',
+'avtomatyzatsiya-pekarni':'автоматизація обліку в пекарні, програма для пекарні, crm для пекарні, облік сировини в пекарні, планування випічки, попередні замовлення на торти, автоматизация учета в пекарне, программа для пекарни, crm для пекарни, учет сырья в пекарне, планирование выпечки, bakery management software, bakery inventory system, bakery production planning',
 }
-ORDER = ['crm-dlya-skladskogo-obliku',
-         'telegram-bot-sklad']
+ORDER = ['avtomatyzatsiya-pekarni']
 
 def js(v): return json.dumps(v, ensure_ascii=False)
 entries=[]

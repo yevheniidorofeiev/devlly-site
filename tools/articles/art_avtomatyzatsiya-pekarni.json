@@ -1,0 +1,132 @@
+{
+ "title_uk": "Автоматизація обліку в пекарні: сировина, випічка і замовлення",
+ "title_en": "Bakery Accounting Automation: Ingredients, Baking and Orders",
+ "desc_uk": "Як автоматизувати облік у пекарні: сировина з короткими термінами, план випічки під попит, попередні замовлення на торти через Telegram-бота і списання.",
+ "desc_en": "How to automate bakery accounting: short-shelf-life ingredients, a baking plan driven by demand, pre-orders for cakes via a Telegram bot and write-offs.",
+ "cta_uk": "Потрібна автоматизація для вашої пекарні? Пишіть нам",
+ "cta_en": "Need automation for your bakery? Get in touch",
+ "seo": {
+  "t": "Автоматизація обліку в пекарні: програма і CRM | Devlly",
+  "te": "Bakery Accounting Automation: Software and CRM | Devlly",
+  "d": "Автоматизуємо облік у пекарні: сировина і рецептура, план випічки під попит, попередні замовлення на торти, списання і графік змін. Система під ваш заклад від Devlly.",
+  "de": "We automate bakery accounting: ingredients and recipes, a baking plan driven by demand, cake pre-orders, write-offs and shift scheduling. A system built for your bakery by Devlly.",
+  "k": "автоматизація обліку в пекарні, програма для пекарні, crm для пекарні, облік сировини в пекарні, планування випічки, облік списань у пекарні, автоматизация учета в пекарне, программа для пекарни, crm для пекарни, учет сырья в пекарне, bakery management software, bakery inventory system, bakery production planning"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Пекарня втрачає гроші двічі: зранку, коли не вистачило хліба, за яким прийшли люди, і ввечері, коли половина вітрини їде у списання. Обидва випадки виглядають як прикра випадковість, а насправді це один і той самий брак цифр - ніхто точно не знає, скільки чого продається по днях і скільки сировини реально йде на випічку. Автоматизація обліку в пекарні закриває саме цю прогалину.",
+   "en": "A bakery loses money twice: in the morning, when the bread people came for has run out, and in the evening, when half the display goes to write-off. Both look like unfortunate accidents, but they are the same shortage of numbers - nobody knows exactly how much of what sells on which day, or how much raw material actually goes into the baking. Automating bakery accounting closes precisely this gap."
+  },
+  {
+   "t": "h2",
+   "uk": "Автоматизація обліку в пекарні: з чого почати",
+   "en": "Bakery accounting automation: where to start"
+  },
+  {
+   "t": "p",
+   "uk": "Почніть з опису одного дня, а не з вибору програми. Коли приймають борошно, хто його зважує, за яким рецептом замішують тісто, у скільки виходить перша партія, що робити з нерозпроданим на закритті. У більшості пекарень половина цих кроків живе в зошиті пекаря або взагалі в памʼяті, і саме тому облік наприкінці місяця не сходиться.",
+   "en": "Start by describing a single day, not by choosing software. When the flour arrives, who weighs it, which recipe the dough is mixed by, what time the first batch comes out, what happens to the unsold goods at closing. In most bakeries half of these steps live in the baker's notebook or purely in their memory, and that is exactly why the books do not add up at the end of the month."
+  },
+  {
+   "t": "p",
+   "uk": "Далі оберіть одну точку болю і закрийте її першою. Найчастіше це сировина: борошно, дріжджі, масло і вершки з короткими термінами, які то закінчуються посеред зміни, то псуються на складі. Коли залишки видно в цифрах, а не на око, зникає і аварійна закупівля за подвійною ціною, і тихе списання простроченого.",
+   "en": "Then pick one pain point and close it first. Usually it is the ingredients: flour, yeast, butter and cream with short shelf lives, which either run out mid-shift or spoil in storage. Once stock levels are visible as numbers rather than estimated by eye, both the emergency purchase at double the price and the quiet write-off of expired goods disappear."
+  },
+  {
+   "t": "p",
+   "uk": "Не оцифровуйте все одразу. Робоча послідовність така: спершу облік сировини і рецептура, потім план випічки під попит, далі попередні замовлення через бота, і вже наостанок списання та графік змін. Кожен крок - це два-три тижні і окрема користь, яку видно відразу. Програма для пекарні, яку запускають цілком і за один раз, майже завжди повертає команду до паперу.",
+   "en": "Do not digitise everything at once. A workable order is: ingredient tracking and recipes first, then a baking plan driven by demand, then pre-orders through a bot, and write-offs with shift scheduling last. Each step takes two to three weeks and delivers a separate benefit you can see immediately. Bakery software that is launched whole, in one go, almost always sends the team back to paper."
+  },
+  {
+   "t": "h2",
+   "uk": "Облік сировини: борошно, дріжджі і короткі терміни",
+   "en": "Ingredient tracking: flour, yeast and short shelf lives"
+  },
+  {
+   "t": "p",
+   "uk": "Основа обліку в пекарні - рецептура. Ви один раз описуєте, скільки борошна, води, дріжджів, солі й масла йде на замішування партії. Далі кожна випечена партія сама зменшує залишки, і власник бачить не «десь є борошно», а конкретні кілограми по кожній позиції.",
+   "en": "The foundation of bakery accounting is the recipe. You describe once how much flour, water, yeast, salt and butter goes into mixing a batch. After that every baked batch reduces the stock by itself, and the owner sees not «there is flour somewhere», but specific kilograms for every item."
+  },
+  {
+   "t": "p",
+   "uk": "Сировина в пекарні ділиться на дві дуже різні групи, і система має це враховувати. Борошно, цукор і сіль лежать місяцями, а дріжджі, вершки, масло і начинки живуть кілька днів. Тому облік ведеться партіями: кожен прихід має свою дату і термін придатності, а система сама підказує брати в роботу старіше першим.",
+   "en": "Bakery ingredients split into two very different groups, and the system has to account for that. Flour, sugar and salt keep for months, while yeast, cream, butter and fillings live for a few days. So stock is tracked in batches: every delivery carries its own date and expiry, and the system prompts you to use the oldest first."
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальний поріг ставиться окремо на кожну позицію і рахується не в кілограмах, а в днях роботи. Коли дріжджів лишається менше ніж на дві зміни, приходить нагадування замовити. Це прибирає найдорожчу ситуацію в пекарні: тісто не поставили, бо чогось не вистачило, і зранку вітрина напівпорожня.",
+   "en": "A minimum threshold is set for each item separately and counted in days of production rather than in kilograms. When there is less than two shifts' worth of yeast left, a reminder to reorder arrives. This removes the most expensive situation in a bakery: the dough was never set because something ran out, and in the morning the display is half empty."
+  },
+  {
+   "t": "p",
+   "uk": "Раз на тиждень робіть звірку факту з обліком. Невелика розбіжність по борошну - норма: розпил, залишки в діжі, підсипка на стіл. Якщо ж різниця стабільно велика, десь ламається процес: не внесли прихід, пекар відходить від рецептури або списання роблять «оптом» наприкінці дня. Без цифр ця витрата просто розчиняється у виручці.",
+   "en": "Once a week compare physical stock with the records. A small discrepancy on flour is normal - dust, residue in the mixer, dusting the bench. But if the gap is consistently large, some process is broken: a delivery was not entered, the baker deviates from the recipe, or write-offs are done «in bulk» at the end of the day. Without numbers this cost simply dissolves into the revenue."
+  },
+  {
+   "t": "h2",
+   "uk": "Планування випічки під прогноз попиту",
+   "en": "Planning the bake against a demand forecast"
+  },
+  {
+   "t": "p",
+   "uk": "Головне питання пекарні щовечора - скільки чого пекти на завтра. Відповідь «як завжди» коштує дорого: недопекли - втратили продаж, перепекли - віддали товар у списання за собівартістю. CRM для пекарні вирішує це історією продажів: система знає, скільки багетів і скільки булок із маком реально пішло в кожен день тижня.",
+   "en": "The main question in a bakery every evening is how much of what to bake for tomorrow. The answer «the same as always» is expensive: bake too little and you lose the sale, bake too much and you hand the goods to write-off at cost. A bakery CRM solves this with sales history: the system knows how many baguettes and how many poppy-seed buns actually sold on each day of the week."
+  },
+  {
+   "t": "p",
+   "uk": "Прогноз будується на кількох простих факторах: день тижня, погода, свята і події поруч. Пʼятниця і субота дають інший кошик, ніж вівторок, а перед святами різко зростає попит на здобу і торти. Система підставляє ці коефіцієнти сама, а пекар лише коригує план, якщо бачить причину, якої немає в цифрах.",
+   "en": "The forecast rests on a few simple factors: day of the week, weather, holidays and nearby events. Friday and Saturday produce a different basket than Tuesday, and before holidays demand for sweet pastry and cakes rises sharply. The system applies these coefficients itself, and the baker only adjusts the plan when they see a reason the numbers cannot know about."
+  },
+  {
+   "t": "p",
+   "uk": "План випічки зручно розбивати на дві-три хвилі за день замість однієї великої. Ранкова партія закриває базовий попит, денна - обід, вечірня невелика і ставиться вже під фактичні залишки на вітрині. Так свіжий хліб є цілий день, а вечірнє списання скорочується, бо остання хвиля йде за реальними цифрами, а не за прогнозом.",
+   "en": "It is convenient to split the baking plan into two or three waves a day instead of one big one. The morning batch covers baseline demand, the midday one covers lunch, and the evening one is small and set against what is actually left on the display. That way fresh bread is available all day and evening write-offs shrink, because the last wave follows real numbers rather than a forecast."
+  },
+  {
+   "t": "h2",
+   "uk": "Попередні замовлення на торти через Telegram-бота",
+   "en": "Cake pre-orders through a Telegram bot"
+  },
+  {
+   "t": "p",
+   "uk": "Торти, святкова здоба і великі партії для офісів чи кавʼярень - це замовлення, які приймають заздалегідь, і саме тут найбільше плутанини. Вони приходять у Direct, у Viber і телефоном, записуються на стікер, а потім хтось забуває про другу начинку або про час видачі. Telegram-бот прибирає весь цей ланцюжок.",
+   "en": "Cakes, festive pastry and large batches for offices or coffee shops are orders taken in advance, and this is where the confusion is greatest. They arrive by Direct, by Viber and by phone, get written on a sticky note, and then someone forgets the second filling or the pickup time. A Telegram bot removes this whole chain."
+  },
+  {
+   "t": "p",
+   "uk": "У боті клієнт обирає позицію, вагу або кількість, начинку, дату і час видачі, залишає надпис на торт і одразу бачить суму та умови передоплати. Замовлення падає в спільний список із датою видачі, а не в чат. Бот приймає замовлення і в неробочі години, коли пекарня закрита, а людина саме зараз планує свято.",
+   "en": "In the bot the client picks the item, the weight or quantity, the filling, the pickup date and time, adds the inscription for the cake and immediately sees the total and the deposit terms. The order lands in a shared list organised by pickup date, not in a chat. The bot also takes orders outside working hours, when the bakery is closed and the customer is planning a celebration right now."
+  },
+  {
+   "t": "p",
+   "uk": "Далі система працює на два боки. Пекарня отримує зведення на кожен день: скільки тортів і якої ваги видавати, що треба поставити в роботу з вечора, скільки додаткової сировини і начинок замовити під ці замовлення. Клієнту бот нагадує про дату видачі й пише, коли замовлення готове. Забутих тортів і неявок стає майже нуль.",
+   "en": "From there the system works in both directions. The bakery gets a summary for each day: how many cakes and of what weight to hand over, what has to be started the evening before, how much extra raw material and filling to order for those commitments. The client gets a reminder about the pickup date and a message when the order is ready. Forgotten cakes and no-shows drop to almost zero."
+  },
+  {
+   "t": "h2",
+   "uk": "Списання, втрати і графік змін пекарів",
+   "en": "Write-offs, losses and the bakers' roster"
+  },
+  {
+   "t": "p",
+   "uk": "Списання в пекарні - не помилка, а нормальна стаття витрат, яку треба бачити окремо. Обовʼязково фіксуйте чотири різні речі: нерозпродане на закритті, брак випічки, прострочену сировину і бій. Це чотири різні проблеми з різними рішеннями, і поки вони злиті в одну цифру «втрати», зрозуміти з неї нічого не можна.",
+   "en": "A write-off in a bakery is not a mistake but a normal cost line that has to be visible on its own. Record four different things separately: goods unsold at closing, baking defects, expired ingredients and breakage. These are four different problems with different fixes, and as long as they are merged into a single «losses» figure, nothing can be learned from it."
+  },
+  {
+   "t": "p",
+   "uk": "Коли списання рахують по позиціях, картина стає очевидною. Якщо конкретний вид хліба щовечора їде у списання, його просто печуть більше, ніж купують, - потрібна менша партія. Якщо ж брак іде хвилями по одній зміні, питання не в плані, а в процесі: температура, час вистоювання або поспіх наприкінці зміни.",
+   "en": "Once write-offs are counted by item, the picture becomes obvious. If a particular kind of bread goes to write-off every evening, it is simply baked in larger quantity than it sells - the batch needs to be smaller. But if defects come in waves on one shift, the issue is not the plan but the process: temperature, proofing time or a rush at the end of the shift."
+  },
+  {
+   "t": "p",
+   "uk": "Частину нерозпроданого варто не списувати, а планово продавати. Вечірня знижка на хліб останньої партії, набори «вчорашня випічка» або віддача в кавʼярню поруч повертають хоч частину собівартості. Система показує, який обсяг і які саме позиції мають сенс у такій схемі, а що дешевше просто не пекти.",
+   "en": "Part of the unsold stock is worth selling deliberately rather than writing off. An evening discount on the last batch of bread, «yesterday's baking» bundles or handing goods to the coffee shop next door recover at least part of the cost. The system shows which volume and which specific items make sense in such a scheme, and what is cheaper simply not to bake."
+  },
+  {
+   "t": "p",
+   "uk": "Останнє - графік змін. Пекарня починає роботу за кілька годин до відкриття, і розклад тут прямо звʼязаний із планом випічки: більший план - більше рук на замішуванні й формуванні. Система тримає графік змін, години кожного пекаря і виробіток по зміні, тож на пікові дні людей ставлять заздалегідь, а не викликають зранку телефоном. Такі системи Devlly збирає під конкретну пекарню - з вашою рецептурою, вашими термінами і звітами в тому вигляді, у якому вам зручно приймати рішення.",
+   "en": "The last piece is the roster. A bakery starts working several hours before it opens, and the schedule here is directly tied to the baking plan: a bigger plan means more hands on mixing and shaping. The system keeps the shift roster, each baker's hours and output per shift, so on peak days people are scheduled in advance instead of being called in that morning. Devlly builds systems like this for a specific bakery - with your recipes, your shelf lives and reports in the form that makes decisions easy for you."
+  }
+ ]
+}
