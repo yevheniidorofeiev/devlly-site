@@ -85,6 +85,7 @@ def rewrite_root(s):
 
     def links(x):
         x = x.replace('href="blog/', 'href="/en/blog/')
+        x = x.replace('href="/cases/', 'href="/en/cases/')             # карточки портфолио -> EN-страница кейса
         x = x.replace('href="/"', 'href="/en"')                       # логотип и «Головна»
         x = x.replace('data-lang="uk" href="/en"', 'data-lang="uk" href="/"')  # ...кроме UA в переключателе
         return x
