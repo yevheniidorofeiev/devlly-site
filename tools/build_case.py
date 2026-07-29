@@ -54,12 +54,6 @@ CASE = dict(
     stack=['React', 'Vite', 'Tailwind CSS', 'Recharts'],
     stack_uk='Стек: React + Vite, Tailwind CSS для інтерфейсу, Recharts для графіків і діаграм.',
     stack_en='Stack: React with Vite, Tailwind CSS for the interface and Recharts for charts and diagrams.',
-    note_uk='Це фронтенд-демо на тестових даних - воно ілюструє інтерфейс і логіку роботи CRM. '
-            'Цифри, імена, адреси й контакти на скриншотах вигадані й не належать жодному реальному '
-            'клієнту чи угоді.',
-    note_en='This is a front-end demo running on test data - it illustrates the interface and the logic of the CRM. '
-            'The figures, names, addresses and contacts in the screenshots are invented and belong to no real '
-            'client or deal.',
 )
 
 # 6 самых показательных скриншотов из 9
@@ -270,9 +264,6 @@ def main_block():
                             <ul class="d-flex flex-wrap tw-gap-2 tw-mb-10">
 %(badges)s
                             </ul>
-                            <div class="gray--bg tw-rounded-2xl tw-p-8 tw-mb-12">
-                                <p class="tw-text-lg tw-mb-0"><strong data-en="Front-end demo on test data.">Фронтенд-демо на тестових даних.</strong> <span data-en="%(note_en)s">%(note_uk)s</span></p>
-                            </div>
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="How the interface looks">Як виглядає інтерфейс</h2>
 %(shots)s
                             <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-6" data-en="What the system can do">Що вміє система</h2>
