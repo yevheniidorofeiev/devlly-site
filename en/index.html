@@ -4149,7 +4149,6 @@
                 <div class="col-12 text-center tw-mt-5">
                     <button type="button" id="blog-load-more" class="tw-hover-btn bg-main-two-600 cursor-small text-white justify-content-center text-capitalize fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl border-0">
                         <span>Load more</span>
-                        <span id="blog-more-count" class="opacity-75"></span>
                         <span class="tw-hover-btn-circle-dot bg-main-600"></span>
                     </button>
                 </div>
@@ -5451,7 +5450,6 @@
     (function () {
         var INITIAL = 8, CHUNK = 6;
         var btn = document.getElementById('blog-load-more');
-        var counter = document.getElementById('blog-more-count');
         var cards = document.querySelectorAll('#blog .blog-card');
         if (!btn || !cards.length) return;
 
@@ -5460,8 +5458,7 @@
         function left() { return cards.length - shown; }
 
         function sync() {
-            if (left() <= 0) { btn.style.display = 'none'; return; }
-            counter.textContent = '(' + left() + ')';
+            if (left() <= 0) btn.style.display = 'none';
         }
 
         btn.addEventListener('click', function () {

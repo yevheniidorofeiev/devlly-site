@@ -1703,7 +1703,6 @@
     (function () {
         var INITIAL = 8, CHUNK = 6;
         var btn = document.getElementById('blog-load-more');
-        var counter = document.getElementById('blog-more-count');
         var cards = document.querySelectorAll('#blog .blog-card');
         if (!btn || !cards.length) return;
 
@@ -1712,8 +1711,7 @@
         function left() { return cards.length - shown; }
 
         function sync() {
-            if (left() <= 0) { btn.style.display = 'none'; return; }
-            counter.textContent = '(' + left() + ')';
+            if (left() <= 0) btn.style.display = 'none';
         }
 
         btn.addEventListener('click', function () {
