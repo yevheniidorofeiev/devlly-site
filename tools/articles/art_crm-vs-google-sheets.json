@@ -89,6 +89,16 @@
       "en": "There are a few clear signals that the spreadsheet has run its course. More than three managers work on the base at once, and edits have started to conflict. The base has over 1000-2000 clients and the file lags. You catch yourself thinking that leads get lost and reminders rest on people's memory. A need has appeared to split access, because not everyone should see every deal. If you recognize at least two or three of these points, it is the moment to move."
     },
     {
+      "t": "plink",
+      "href": "crm-systema-dlya-internet-magazynu-porivnyannya",
+      "uk_before": "Куди саме переходити - залежить від того, чим ви торгуєте. Якщо у вас інтернет-магазин, до звичних критеріїв додаються синхронізація залишків, статуси доставки й повернення, і вибір системи виглядає інакше. Порівняння варіантів саме для цього випадку зібране тут: ",
+      "uk_anchor": "яку CRM обрати інтернет-магазину",
+      "uk_after": ".",
+      "en_before": "Where exactly to move depends on what you sell. If you run an online store, stock synchronisation, delivery statuses and returns are added to the usual criteria, and the choice of system looks different. The options for that case are compared here: ",
+      "en_anchor": "which CRM to choose for an online store",
+      "en_after": "."
+    },
+    {
       "t": "p",
       "uk": "Перехід не обовʼязково болючий: наявну Google Таблицю з клієнтами можна імпортувати в CRM без втрати даних, зберігши історію. Головне - не тягнути хаос за собою, а налаштувати систему під ваш реальний процес продажу. У Devlly ми будуємо CRM саме під ваш процес, а не навпаки, і акуратно переносимо існуючу таблицю з базою клієнтів у нову систему, щоб команда продовжила роботу без простою. Якщо ваша таблиця вже тріщить по швах - напишіть нам, розберемо ваш випадок.",
       "en": "The move is not necessarily painful: an existing Google Sheet with clients can be imported into a CRM without data loss, keeping the history. The main thing is not to drag the chaos along, but to set the system up around your real sales process. At Devlly we build a CRM around your process rather than the other way round, and carefully migrate your existing client-base spreadsheet into the new system so the team keeps working without downtime. If your spreadsheet is already bursting at the seams, get in touch and we will look at your case."

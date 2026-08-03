@@ -345,6 +345,17 @@ for _s in ['crm-systema-dlya-internet-magazynu-porivnyannya',
            'avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
            'internet-magazyn-crm-chy-google-sheets']:
     RELATED[_s]=list(_shop_core)
+# --- Підсилення crm-systema-dlya-internet-magazynu-porivnyannya (Задача 6) ----
+# Сторінка швидко набирає покази - додаємо їй вхідні лінки з суміжних кластерів
+# (заявки/база клієнтів) і з загальних порівняльних статей.
+# Лінк додається ЧЕТВЕРТИМ, а не замінює наявні: циклічна схема кластерів
+# (кожна стаття -> 3 сусіди) лишається недоторканою, у джерел просто стає 4 лінки.
+# related() рендерить список будь-якої довжини, тож схема це витримує без змін.
+_BOOST = 'crm-systema-dlya-internet-magazynu-porivnyannya'
+for _s in ['obrobka-zayavok','crm-dlya-obrobky-zayavok','baza-klientiv',
+           'crm-or-sheets','crm-vs-google-sheets','crm-vs-excel','crm-vs-trello']:
+    if _BOOST not in RELATED[_s]: RELATED[_s] = RELATED[_s] + [_BOOST]
+
 # Кожен slug у кожному кластері й у RELATED має бути в SLUGS (інакше KeyError у ART)
 _missing=sorted({s for cl in CLUSTERS for s in cl} - set(SLUGS))
 assert not _missing, 'cluster slugs not in SLUGS: %s'%_missing
@@ -475,6 +486,18 @@ def block_html(b):
                 '                                <h2 class="tw-text-7 fw-semibold text-heading tw-mb-6" data-en="Frequently asked questions">Часті питання</h2>\n'
                 +'\n'.join(rows)+'\n'
                 '                            </div>')
+    if t=='plink':
+        # Абзац із контекстним посиланням усередині тексту. Розбитий на три елементи,
+        # бо to_en() підміняє ВЕСЬ вміст тега на значення data-en - вкладений <a> в
+        # одному спільному data-en просто зник би на /en/. Три окремі data-en роблять
+        # переклад коректним і в UA, і в EN.
+        return ('                            <p class="tw-text-lg tw-mb-6">'
+                '<span data-en="%s">%s</span>'
+                '<a class="text-main-two-600 fw-medium text-decoration-underline cursor-small" href="%s" data-en="%s">%s</a>'
+                '<span data-en="%s">%s</span></p>'
+                %(ea(b['en_before']), et(b['uk_before']), b['href'],
+                  ea(b['en_anchor']),  et(b['uk_anchor']),
+                  ea(b['en_after']),   et(b['uk_after'])))
     uk,en=b['uk'],b['en']; da=' data-en="%s"'%ea(en)
     if t=='lead': return '                            <p class="tw-text-xl text-heading fw-medium tw-mb-8"%s>%s</p>'%(da,et(uk))
     if t=='h2':   return '                            <h2 class="tw-text-7 fw-semibold text-heading tw-mt-10 tw-mb-5"%s>%s</h2>'%(da,et(uk))
@@ -577,6 +600,7 @@ for slug in SLUGS:
     io.open(ROOT+'/en/blog/%s.html'%slug,'w',encoding='utf-8',newline='\n').write(switcher(page_en,slug,True))
     def _wc(b):
         if b['t']=='faq': return sum(len(it['q_uk'].split())+len(it['a_uk'].split()) for it in b['items'])
+        if b['t']=='plink': return len((b['uk_before']+b['uk_anchor']+b['uk_after']).split())
         return len(b['uk'].split())
     w=sum(_wc(b) for b in ART[slug]['blocks'])
     print('built %-26s uk+en words=%d h2=%d'%(slug,w,sum(1 for b in ART[slug]['blocks'] if b['t']=='h2')))

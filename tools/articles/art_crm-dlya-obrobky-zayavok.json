@@ -114,6 +114,16 @@
       "en": "A custom CRM is justified when the handling logic is non-standard: complex price calculation, multi-level approvals, specific integrations with production or warehouse, or when the subscription for the whole team already costs more than development. Integration with existing channels usually looks like this: the website and forms send data through an API, messengers connect via a bot, mail and telephony through ready connectors, and every enquiry immediately becomes a card with a source and an owner."
     },
     {
+      "t": "plink",
+      "href": "crm-systema-dlya-internet-magazynu-porivnyannya",
+      "uk_before": "Межа між готовою і власною системою в кожній ніші проходить по-різному. В інтернет-магазині її найчастіше визначають залишки, доставка й повернення - як порівнювати варіанти саме там, ми показали в матеріалі ",
+      "uk_anchor": "CRM-система для інтернет-магазину",
+      "uk_after": ".",
+      "en_before": "The line between an off-the-shelf and a custom system runs differently in every niche. In an online store it is most often drawn by stock, delivery and returns - how to compare the options there we showed in ",
+      "en_anchor": "CRM for an online store",
+      "en_after": "."
+    },
+    {
       "t": "p",
       "uk": "Типові помилки впровадження повторюються з проєкту в проєкт: переносять у систему наявний хаос замість того, щоб спершу описати процес; роблять тридцять обовʼязкових полів, які ніхто не заповнює; запускають без навчання команди й без відповідального за систему всередині компанії. Починати краще з мінімальної версії на один відділ, а розширювати після перших звітів. У Devlly ми проєктуємо й розробляємо такі системи під конкретний процес компанії - від картки заявки й розподілу до звітності та інтеграцій з каналами.",
       "en": "Typical implementation mistakes repeat from project to project: moving the existing chaos into the system instead of describing the process first; creating thirty mandatory fields nobody fills in; launching without training the team and without an internal owner of the system. It is better to start with a minimal version for one department and expand after the first reports. At Devlly we design and build such systems around a company's specific process - from the request card and distribution to reporting and channel integrations."

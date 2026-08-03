@@ -99,6 +99,16 @@
       "en": "Moving over does not have to be a leap into the void. Start simple: describe your sales funnel the way it currently exists on the board - the stages a client moves through. Then export the cards from Trello (it takes a few minutes via export) and transfer them into the CRM as client records. For the first two weeks you can run both systems in parallel so the team gets used to it and nothing is lost."
     },
     {
+      "t": "plink",
+      "href": "crm-systema-dlya-internet-magazynu-porivnyannya",
+      "uk_before": "Якщо ви ведете в Trello не проєкти, а замовлення інтернет-магазину, дошки перестає вистачати вже на залишках і доставці. Що має вміти система в цьому випадку і за чим порівнювати варіанти - розібрали окремо: ",
+      "uk_anchor": "порівняння CRM для інтернет-магазину",
+      "uk_after": ".",
+      "en_before": "If what you keep in Trello is not projects but online-store orders, the board runs out already at stock and delivery. What the system has to handle in that case and how to compare the options we covered separately: ",
+      "en_anchor": "a comparison of CRM systems for an online store",
+      "en_after": "."
+    },
+    {
       "t": "p",
       "uk": "Головне не намагатися одразу впровадити все: почніть з базового обліку клієнтів, історії та нагадувань, а аналітику й автоматизацію додасте пізніше. Саме тут ми в Devlly можемо допомогти: будуємо CRM під ваш реальний процес продажів, а не навпаки, і акуратно переносимо вашу дошку Trello в систему без втрати даних. Якщо відчуваєте, що дошка вже тріщить по швах - напишіть нам, разом розберемося, що вам справді потрібно.",
       "en": "The main thing is not to try to implement everything at once: start with basic client records, history, and reminders, and add analytics and automation later. This is exactly where we at Devlly can help: we build a CRM around your real sales process rather than the other way round, and we carefully migrate your Trello board into the system without losing data. If you feel your board is already bursting at the seams - get in touch, and together we will figure out what you actually need."

@@ -89,6 +89,16 @@
       "en": "It is worth moving when three or more people work with the base, when leads arrive from several channels, or when you catch yourself thinking «someone definitely forgot something». Then comes the choice between an off-the-shelf and a custom CRM. A ready-made system fits if your process is standard and slots easily into someone else's templates. A custom one is worth building when you have an unusual funnel, specific statuses or integrations that off-the-shelf tools have to be painfully bent around."
     },
     {
+      "t": "plink",
+      "href": "crm-systema-dlya-internet-magazynu-porivnyannya",
+      "uk_before": "Вибір ще сильно залежить від ніші: у роздрібу і в послуг таблиця ламається в різних місцях. Інтернет-магазину, наприклад, потрібні залишки на складі, статуси доставки й обробка повернень - там Excel здається найшвидше, і критерії порівняння систем свої. Ми розібрали їх окремо в матеріалі ",
+      "uk_anchor": "CRM-система для інтернет-магазину: яку обрати",
+      "uk_after": ".",
+      "en_before": "The choice also depends a lot on the niche: for retail and for services the spreadsheet breaks in different places. An online store, for example, needs stock levels, delivery statuses and returns handling - that is where Excel gives out fastest, and the criteria for comparing systems are its own. We covered them separately in ",
+      "en_anchor": "CRM for an online store: which one to choose",
+      "en_after": "."
+    },
+    {
       "t": "p",
       "uk": "Головне - не намагатися вмістити зростаючий бізнес у файл, який створювався для однієї людини. Excel відпрацював своє, коли ви дійшли до десятків заявок на день і команди, якій потрібні спільні дані, нагадування та контроль доступу. У Devlly ми розробляємо CRM під конкретний процес, а не навпаки: збираємо заявки з сайту й Telegram, автоматизуємо нагадування та звіти й переносимо вашу базу з таблиць так, щоб ви нічого не втратили. Якщо ваш «клієнти_final_v3_real.xlsx» уже вас гальмує - напишіть нам, і ми покажемо, як має працювати система замість файлу.",
       "en": "The key is not to try to fit a growing business into a file built for one person. Excel has done its job once you reach dozens of leads a day and a team that needs shared data, reminders and access control. At Devlly we build CRM around your specific process, not the other way around: we collect leads from your site and Telegram, automate reminders and reports, and migrate your base from spreadsheets so you lose nothing. If your «clients_final_v3_real.xlsx» is already slowing you down, get in touch and we will show you how a system should work instead of a file."
