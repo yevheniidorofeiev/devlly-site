@@ -55,7 +55,7 @@
     },
     {
       "t": "p",
-      "uk": "Третій крок - онбординг, тобто перші дні нового співробітника. У компанії без HR це майже завжди хаос: новачок сидить і чекає, поки хтось звільниться, щоб показати, де лежать інструкції та як оформити доступи. Три години першого дня людина витрачає на те, що можна пройти за десять хвилин у структурованому вигляді. Бот дає новачку покроковий чек-лист: які документи принести, кому написати за доступом, де знайти правила і графік. Усе в одному чаті, доступне будь-коли, без потреби смикати колег кожні п'ять хвилин.",
+      "uk": "Третій крок - онбординг, тобто перші дні нового співробітника. У компанії без HR це майже завжди хаос: новачок сидить і чекає, поки хтось звільниться, щоб показати, де лежать інструкції та як оформити доступи. Три години першого дня людина витрачає на те, що можна пройти за десять хвилин у структурованому вигляді. Бот дає новачку покроковий чек-лист: які документи принести, кому написати за доступом, де знайти правила і графік. Усе в одному чаті, доступне будь-коли, без потреби смикати колег кожні пʼять хвилин.",
       "en": "The third step is onboarding, that is, the first days of a new employee. In a company without HR this is almost always chaos: the newcomer sits and waits for someone to be free to show where the instructions are and how to set up access. Three hours of the first day are spent on something that could take ten minutes in a structured form. The bot gives the newcomer a step-by-step checklist: which documents to bring, whom to message for access, where to find the rules and the schedule. Everything is in one chat, available anytime, without the need to pull colleagues away every five minutes."
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "t": "p",
-      "uk": "Останній за пріоритетом, але не за важливістю блок - облік відпусток, лікарняних і графіків змін. Його варто автоматизувати тоді, коли базові процеси вже налагоджені, а команда виросла настільки, що узгодження вихідних у месенджері перетворюється на плутанину. Уявіть кав'ярню з дванадцятьма бариста і трьома змінами: хтось просить помінятися, хтось іде у відпустку, і все це живе в одному переповненому чаті. Бот дозволяє співробітнику подати заявку на відпустку чи обмін зміни в кілька натискань, а керівник підтверджує або відхиляє її одним дотиком, бачачи повний графік.",
+      "uk": "Останній за пріоритетом, але не за важливістю блок - облік відпусток, лікарняних і графіків змін. Його варто автоматизувати тоді, коли базові процеси вже налагоджені, а команда виросла настільки, що узгодження вихідних у месенджері перетворюється на плутанину. Уявіть кавʼярню з дванадцятьма бариста і трьома змінами: хтось просить помінятися, хтось іде у відпустку, і все це живе в одному переповненому чаті. Бот дозволяє співробітнику подати заявку на відпустку чи обмін зміни в кілька натискань, а керівник підтверджує або відхиляє її одним дотиком, бачачи повний графік.",
       "en": "The last in priority but not in importance block is tracking leave, sick days and shift schedules. It is worth automating once the basic processes are already in place and the team has grown enough that coordinating days off in a messenger turns into confusion. Imagine a coffee shop with twelve baristas and three shifts: someone asks to swap, someone goes on leave, and all of it lives in one overloaded chat. The bot lets an employee submit a leave request or a shift swap in a few taps, and the manager approves or rejects it with one touch while seeing the full schedule."
     },
     {

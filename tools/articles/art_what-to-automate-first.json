@@ -3,12 +3,12 @@
  "title_en": "5 processes you should automate first",
  "date_uk": "03 ТРА 2025",
  "date_en": "MAY 3, 2025",
- "desc_uk": "Практичний розбір п'яти процесів, які варто автоматизувати першими: ліди, рахунки, нагадування, звіти та перенесення даних між системами.",
+ "desc_uk": "Практичний розбір пʼяти процесів, які варто автоматизувати першими: ліди, рахунки, нагадування, звіти та перенесення даних між системами.",
  "desc_en": "A practical breakdown of five processes worth automating first: leads, invoices, reminders, reports, and moving data between systems.",
  "blocks": [
   {
    "t": "lead",
-   "uk": "Автоматизація часто здається великим і дорогим проєктом, тому власники відкладають її на потім. Насправді починати варто не з масштабної перебудови, а з кількох конкретних процесів, які щодня забирають час і найчастіше стають джерелом помилок. Нижче - п'ять таких процесів. Вони є майже в кожному бізнесі, швидко окупаються й дають відчутний результат уже в перші тижні. Розберемо, чому саме вони, і як виглядає їхня автоматизація на практиці.",
+   "uk": "Автоматизація часто здається великим і дорогим проєктом, тому власники відкладають її на потім. Насправді починати варто не з масштабної перебудови, а з кількох конкретних процесів, які щодня забирають час і найчастіше стають джерелом помилок. Нижче - пʼять таких процесів. Вони є майже в кожному бізнесі, швидко окупаються й дають відчутний результат уже в перші тижні. Розберемо, чому саме вони, і як виглядає їхня автоматизація на практиці.",
    "en": "Automation often feels like a big and expensive project, so owners keep putting it off. In reality, you shouldn't start with a large-scale overhaul, but with a few specific processes that eat up time every day and most often become a source of errors. Below are five such processes. They exist in almost every business, pay off quickly, and deliver a tangible result within the first weeks. Let's look at why exactly these, and what their automation looks like in practice."
   },
   {
@@ -28,7 +28,7 @@
   },
   {
    "t": "p",
-   "uk": "Рахунки, які формуються вручну, - це нудно, повільно й ризиковано: легко помилитися в сумі, реквізитах чи забути виставити взагалі. А потім ще й треба пам'ятати, хто оплатив, а хто ні. Автоматизація дозволяє генерувати рахунок за кілька секунд із даних угоди, надсилати його клієнту й автоматично фіксувати оплату, коли гроші надходять. Система сама підсвічує прострочені платежі та нагадує про них - вам більше не потрібно тримати це в голові чи звіряти виписки вручну. У результаті гроші заходять швидше, а касові розриви стають прогнозованими.",
+   "uk": "Рахунки, які формуються вручну, - це нудно, повільно й ризиковано: легко помилитися в сумі, реквізитах чи забути виставити взагалі. А потім ще й треба памʼятати, хто оплатив, а хто ні. Автоматизація дозволяє генерувати рахунок за кілька секунд із даних угоди, надсилати його клієнту й автоматично фіксувати оплату, коли гроші надходять. Система сама підсвічує прострочені платежі та нагадує про них - вам більше не потрібно тримати це в голові чи звіряти виписки вручну. У результаті гроші заходять швидше, а касові розриви стають прогнозованими.",
    "en": "Invoices created by hand are tedious, slow, and risky: it's easy to make a mistake in the amount or the payment details, or to forget to issue one at all. And then you still have to remember who paid and who didn't. Automation lets you generate an invoice in a few seconds from the deal's data, send it to the client, and automatically record the payment when the money arrives. The system itself highlights overdue payments and reminds you about them - you no longer need to keep this in your head or reconcile statements manually. As a result, money comes in faster and cash gaps become predictable."
   },
   {
@@ -58,7 +58,7 @@
   },
   {
    "t": "p",
-   "uk": "Коли співробітник вручну переписує дані з однієї програми в іншу - із заявки в CRM, із CRM у бухгалтерію, зі складу в таблицю - це чиста втрата часу й гарантоване джерело помилок. Такі рутинні операції ідеально піддаються автоматизації через інтеграції та API: системи обмінюються даними самі, без копіювання вручну. Замовлення автоматично з'являється у складі, клієнт - у базі, а сума - у звіті. Люди звільняються від механічної роботи й займаються тим, що справді потребує їхньої уваги, а дані завжди залишаються синхронними та без дублів.",
+   "uk": "Коли співробітник вручну переписує дані з однієї програми в іншу - із заявки в CRM, із CRM у бухгалтерію, зі складу в таблицю - це чиста втрата часу й гарантоване джерело помилок. Такі рутинні операції ідеально піддаються автоматизації через інтеграції та API: системи обмінюються даними самі, без копіювання вручну. Замовлення автоматично зʼявляється у складі, клієнт - у базі, а сума - у звіті. Люди звільняються від механічної роботи й займаються тим, що справді потребує їхньої уваги, а дані завжди залишаються синхронними та без дублів.",
    "en": "When an employee manually re-types data from one program into another - from a request into the CRM, from the CRM into accounting, from the warehouse into a spreadsheet - it's pure wasted time and a guaranteed source of errors. Such routine operations are ideal for automation through integrations and APIs: the systems exchange data themselves, without manual copying. An order automatically appears in the warehouse, the client in the database, and the amount in the report. People are freed from mechanical work and focus on what truly needs their attention, while the data always stays in sync and free of duplicates."
   },
   {

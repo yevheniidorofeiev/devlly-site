@@ -33,7 +33,7 @@ CASE = dict(
     title_uk='CRM для рієлторів - кейс «Квадратний Метр» | Devlly',
     title_en='CRM for realtors - the Kvadratnyi Metr case study | Devlly',
     desc_uk='Кейс Devlly: CRM-система для рієлторської агенції - облік заявок, воронка продажів, '
-            'канбан угод, каталог об’єктів і аналітика по агентах. Приклад інтерфейсу на React + Recharts.',
+            'канбан угод, каталог обʼєктів і аналітика по агентах. Приклад інтерфейсу на React + Recharts.',
     desc_en='A Devlly case study: a CRM for a real estate agency - request tracking, a sales funnel, '
             'a deal kanban, a property catalogue and per-agent analytics. An interface example built with React and Recharts.',
     keywords_uk='crm для агентства нерухомості приклад, crm для рієлторів, кейс crm нерухомість, '
@@ -47,7 +47,7 @@ CASE = dict(
     lead_en='Kvadratnyi Metr is a CRM for a real estate agency: request tracking, a sales funnel and analytics '
             'by agent and by traffic source. The interface is built around the daily routine of a sales team - '
             'from a client’s first enquiry to a closed deal.',
-    who_uk='Кому підходить: агенціям нерухомості, які ведуть об’єкти й клієнтів у таблицях і втрачають '
+    who_uk='Кому підходить: агенціям нерухомості, які ведуть обʼєкти й клієнтів у таблицях і втрачають '
            'заявки через те, що немає єдиної воронки й видимості, на якій стадії стоїть кожна угода.',
     who_en='Who it fits: real estate agencies that keep properties and clients in spreadsheets and lose '
            'requests because there is no single funnel and no visibility into which stage each deal sits at.',
@@ -68,14 +68,14 @@ SHOTS = [
     dict(f='kanban',
          alt_uk='Канбан-дошка угод у CRM для нерухомості - стадії від нового ліда до закритої угоди',
          alt_en='Deal kanban board in a real estate CRM - stages from a new lead to a closed deal',
-         cap_uk='Канбан-дошка угод: п’ять стадій від нового ліда до закритої угоди. Картку можна перетягнути '
+         cap_uk='Канбан-дошка угод: пʼять стадій від нового ліда до закритої угоди. Картку можна перетягнути '
                 'у наступну стадію, над кожною колонкою - кількість угод і їхня сума.',
          cap_en='Deal kanban: five stages from a new lead to a closed deal. A card can be dragged into the next '
                 'stage, and each column header shows the number of deals and their total value.'),
     dict(f='listings',
-         alt_uk='Каталог об’єктів нерухомості у CRM - картки квартир, будинків і комерції з фільтрами',
+         alt_uk='Каталог обʼєктів нерухомості у CRM - картки квартир, будинків і комерції з фільтрами',
          alt_en='Property catalogue in the CRM - cards for flats, houses and commercial units with filters',
-         cap_uk='Каталог об’єктів: квартири, будинки, комерція й ділянки з фільтрами за типом, статусом продажу, '
+         cap_uk='Каталог обʼєктів: квартири, будинки, комерція й ділянки з фільтрами за типом, статусом продажу, '
                 'площею, поверхом і ціною. На кожній картці - кількість переглядів і відповідальний агент.',
          cap_en='Property catalogue: flats, houses, commercial units and land plots, filtered by type, sale status, '
                 'area, floor and price. Each card shows the view count and the agent in charge.'),
@@ -103,13 +103,13 @@ SHOTS = [
 ]
 
 FEATURES = [
-    ('Єдина воронка заявок: новий лід → перегляд об’єкта → торг → завдаток → угода закрита, '
+    ('Єдина воронка заявок: новий лід → перегляд обʼєкта → торг → завдаток → угода закрита, '
      'з наскрізною конверсією і відсівом на кожному переході',
      'A single request funnel: new lead → viewing → negotiation → deposit → deal closed, with end-to-end '
      'conversion and drop-off at every step'),
     ('Канбан-дошка угод із перетягуванням карток між стадіями та сумою угод по кожній стадії',
      'A deal kanban board with drag-and-drop between stages and the total deal value per stage'),
-    ('Каталог об’єктів: квартири, будинки, комерція, ділянки - з фільтрами, статусами продажу й переглядами',
+    ('Каталог обʼєктів: квартири, будинки, комерція, ділянки - з фільтрами, статусами продажу й переглядами',
      'A property catalogue: flats, houses, commercial units and land plots - with filters, sale statuses and view counts'),
     ('База покупців і продавців: тип клієнта, запит, бюджет, відповідальний агент, дата в базі',
      'A buyer and seller database: client type, request, budget, agent in charge and the date added'),
@@ -271,7 +271,7 @@ def main_block():
 %(feats)s
                             </ul>
                             <div class="gray--bg tw-rounded-2xl tw-p-10 tw-mt-15 text-center">
-                                <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-6" data-en="Want the same system for your business? Get in touch">Хочете таку ж систему для свого бізнесу? Зв’яжіться з нами</h3>
+                                <h3 class="tw-text-3xl fw-semibold text-heading tw-mb-6" data-en="Want the same system for your business? Get in touch">Хочете таку ж систему для свого бізнесу? Звʼяжіться з нами</h3>
                                 <div class="d-flex align-items-center justify-content-center tw-gap-4 flex-wrap">
                                     <a class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/#contact"><span data-en="Send a request">Залишити заявку</span></a>
                                     <a class="tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl" href="https://t.me/devllydev" target="_blank" rel="noopener"><span>Telegram</span></a>
