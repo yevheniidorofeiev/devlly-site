@@ -1,0 +1,127 @@
+{
+ "title_uk": "Автоматизація дропшипінгу з AliExpress: замовлення і трекінг",
+ "title_en": "Automating AliExpress Dropshipping: Orders and Tracking",
+ "desc_uk": "Як автоматизувати дропшипінг з AliExpress: імпорт товарів, перерахунок цін під курс і комісії, оформлення замовлень у постачальника і трекінг довгої доставки.",
+ "desc_en": "How to automate AliExpress dropshipping: importing products, recalculating prices for rates and fees, placing supplier orders and tracking slow deliveries.",
+ "cta_uk": "Потрібна автоматизація для вашого магазину? Пишіть нам",
+ "cta_en": "Need automation for your store? Get in touch",
+ "seo": {
+  "t": "Автоматизація дропшипінгу з AliExpress | Devlly",
+  "te": "AliExpress Dropshipping Automation | Devlly",
+  "d": "Як автоматизувати дропшипінг з AliExpress: імпорт товарів, перерахунок цін під курс і комісії, оформлення замовлень у постачальника і трекінг довгої доставки.",
+  "de": "How to automate AliExpress dropshipping: importing products, recalculating prices for rates and fees, placing supplier orders and tracking slow deliveries.",
+  "k": "автоматизація дропшипінгу з aliexpress, дропшипінг aliexpress україна, імпорт товарів з aliexpress, ціноутворення дропшипінг, трекінг посилок з китаю, оформлення замовлень постачальнику, автоматизация дропшиппинга aliexpress, дропшиппинг с алиэкспресс, импорт товаров алиэкспресс, aliexpress dropshipping automation, product import aliexpress, order tracking china"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Дропшипінг з AliExpress тримається на трьох речах: дешевий товар, широкий асортимент і повна відсутність складу. Розплата за це - гори ручної роботи. Картки товарів копіюються по одній, ціни доводиться перераховувати після кожного стрибка курсу, замовлення оформлюються вручну на сайті постачальника, а доставка йде три тижні, і весь цей час клієнт пише «де посилка». Автоматизувати тут можна майже все, крім самої доставки.",
+   "en": "AliExpress dropshipping rests on three things: cheap goods, a wide range and no warehouse at all. The price for that is mountains of manual work. Product cards are copied one by one, prices have to be recalculated after every exchange-rate jump, orders are placed by hand on the supplier's site, and delivery takes three weeks during which the customer keeps asking «where is my parcel». Almost everything here can be automated, except the delivery itself."
+  },
+  {
+   "t": "h2",
+   "uk": "Що саме забирає час у дропшипінгу з AliExpress",
+   "en": "What actually eats the time in AliExpress dropshipping"
+  },
+  {
+   "t": "p",
+   "uk": "Перш ніж щось автоматизувати, корисно порахувати, куди йде день. У більшості магазинів картина однакова: наповнення каталогу, перевірка цін і наявності, оформлення замовлень у постачальника, збір трек-номерів і відповіді клієнтам про статус доставки. Продажі і реклама - це те, на що часу вже не лишається.",
+   "en": "Before automating anything it helps to count where the day goes. In most shops the picture is the same: filling the catalogue, checking prices and availability, placing orders with the supplier, collecting tracking numbers and answering customers about delivery status. Sales and advertising are what there is no time left for."
+  },
+  {
+   "t": "p",
+   "uk": "Важливо, що всі ці задачі механічні. Тут немає рішень, які вимагають досвіду: скопіювати опис, помножити ціну на коефіцієнт, вставити адресу в форму, переслати трек-номер. Саме тому вони автоматизуються найлегше і дають найшвидшу віддачу.",
+   "en": "Crucially, all these tasks are mechanical. None of them requires judgement: copy a description, multiply a price by a coefficient, paste an address into a form, forward a tracking number. That is precisely why they automate most easily and pay off fastest."
+  },
+  {
+   "t": "p",
+   "uk": "Порядок теж має значення. Спершу закривають ціни і наявність, бо помилка тут коштує грошей і репутації. Потім оформлення замовлень, бо це найбільший обсяг рутини. І тільки потім імпорт карток - він виглядає найнуднішим, але робиться нечасто і партіями.",
+   "en": "The order matters too. Prices and availability come first, because a mistake there costs money and reputation. Then order placement, because that is the biggest volume of routine. And only then card imports - they look like the dullest job, but they happen rarely and in batches."
+  },
+  {
+   "t": "p",
+   "uk": "Ще одна прихована стаття витрат - постійне перемикання між вкладками. Каталог магазину, сторінка постачальника, таблиця замовлень, чат з клієнтом і банківський застосунок відкриті одночасно, і на кожному переході людина губить контекст. У жодному звіті це не видно, але саме через нього тридцять замовлень займають повний день замість двох годин.",
+   "en": "There is another hidden cost: constant switching between tabs. The shop catalogue, the supplier page, the order spreadsheet, the customer chat and a banking app are all open at once, and with every switch a person loses context. It shows up in no report, yet it is exactly why thirty orders take a full day instead of two hours."
+  },
+  {
+   "t": "h2",
+   "uk": "Імпорт товарів і опис карток без ручного копіювання",
+   "en": "Importing products and building cards without manual copying"
+  },
+  {
+   "t": "p",
+   "uk": "Технічно імпорт - це парсинг сторінки товару: назва, характеристики, галерея фото, варіанти розміру і кольору, ціна за кожен варіант. Скрипт забирає ці дані і складає з них чернетку картки у вашому магазині. Далі людині лишається переписати заголовок і перші два речення опису - і це якраз та частина, яку автоматизувати не варто.",
+   "en": "Technically an import is parsing the product page: title, specifications, photo gallery, size and colour variants, the price of each variant. A script pulls this data and assembles a draft card in your shop. What remains for a human is to rewrite the title and the first two sentences of the description - and that is exactly the part not worth automating."
+  },
+  {
+   "t": "p",
+   "uk": "Причина проста: машинний переклад опису з китайського майданчика читається як машинний переклад, а пошук такий текст не любить. Тисячі магазинів імпортують ті самі картки з тими самими фразами, і виграє той, у кого опис написаний по-людськи. Тому імпорт має давати каркас, а не готову сторінку.",
+   "en": "The reason is simple: a machine translation of a description from a Chinese marketplace reads like a machine translation, and search engines do not like such text. Thousands of shops import the same cards with the same phrases, and the winner is whoever writes a human description. So the import should produce a skeleton, not a finished page."
+  },
+  {
+   "t": "p",
+   "uk": "Окрема історія - фото. Галерея з майданчика часто містить кадри з чужими водяними знаками, написами китайською і колажами різного розміру. Мінімальна обробка на імпорті - обрізати до одного формату, прибрати найгірші кадри і зберегти локально, а не тягнути з чужого сервера, який завтра віддасть порожнечу.",
+   "en": "Photos are a separate story. The gallery from the marketplace often contains shots with someone else's watermarks, Chinese captions and collages of different sizes. The minimum processing on import is to crop to a single format, drop the worst shots and store them locally rather than hotlinking a foreign server that will serve nothing tomorrow."
+  },
+  {
+   "t": "h2",
+   "uk": "Ціноутворення: курс, комісії і націнка",
+   "en": "Pricing: exchange rate, fees and markup"
+  },
+  {
+   "t": "p",
+   "uk": "Ціна товару на майданчику вказана в доларах, ви продаєте в гривні, а курс змінюється. Якщо ціни стоять фіксованими цифрами, то через місяць частина асортименту продається майже в нуль. Тому ціна має рахуватися формулою, а не вводитися руками.",
+   "en": "The price on the marketplace is in dollars, you sell in hryvnia, and the rate moves. If prices are fixed numbers, within a month part of the range is being sold at almost no margin. So the price has to be calculated by a formula rather than typed in by hand."
+  },
+  {
+   "t": "p",
+   "uk": "Робоча формула складається з закупівельної ціни у валюті, курсу з невеликим запасом, вартості доставки, комісії платіжної системи і вашої націнки. Націнка при цьому не одна на всіх: на дешеві товари вона у відсотках велика, бо інакше замовлення не окупає роботу, а на дорогих - менша, бо там працює абсолютна сума.",
+   "en": "A workable formula combines the purchase price in currency, the exchange rate with a small buffer, the shipping cost, the payment processing fee and your markup. The markup is not the same for everything: on cheap goods it is high in percentage terms, otherwise the order does not cover the work, while on expensive ones it is lower because the absolute amount does the job."
+  },
+  {
+   "t": "p",
+   "uk": "Далі це перетворюється на просте правило: раз на день система тягне курс, перераховує ціни за формулою і показує список змін. Позиції, де маржа впала нижче порогу, підсвічуються окремо - їх або переоцінюють, або прибирають з реклами. Так асортимент не «протухає» тихо, а тримається в межах заданої прибутковості.",
+   "en": "This turns into a simple rule: once a day the system pulls the rate, recalculates prices by the formula and shows a list of changes. Items whose margin has dropped below a threshold are highlighted separately - they are either repriced or pulled out of advertising. That way the range does not quietly rot but stays inside a defined profitability band."
+  },
+  {
+   "t": "h2",
+   "uk": "Оформлення замовлень у постачальника",
+   "en": "Placing orders with the supplier"
+  },
+  {
+   "t": "p",
+   "uk": "Це найбільш нудна частина дня: відкрити замовлення клієнта, знайти товар у постачальника, вибрати той самий варіант, вставити імʼя, адресу і телефон, оплатити, скопіювати номер замовлення назад у свою таблицю. Пʼять хвилин на замовлення, тридцять замовлень на день - і півтори години просто зникають.",
+   "en": "This is the dullest part of the day: open the customer's order, find the item at the supplier, pick the same variant, paste the name, address and phone number, pay, then copy the order number back into your spreadsheet. Five minutes per order, thirty orders a day - and an hour and a half simply disappears."
+  },
+  {
+   "t": "p",
+   "uk": "Мінімальна автоматизація тут навіть без інтеграції дає багато. Система формує повністю готовий блок даних для вставки: точне посилання на потрібний варіант товару, адреса в правильному форматі, транслітероване імʼя, коректний телефон. Людина лише підтверджує і оплачує, а номер замовлення підтягується назад у картку.",
+   "en": "Even without an integration, minimal automation helps a lot here. The system prepares a fully ready block of data to paste: the exact link to the right product variant, the address in the correct format, the transliterated name, a valid phone number. The person only confirms and pays, and the order number is pulled back into the card."
+  },
+  {
+   "t": "p",
+   "uk": "Друга частина - контроль. Замовлення, яке ви прийняли, але ще не передали постачальнику, має бути видно окремим списком із таймером. Саме тут губляться оплачені клієнтом позиції: заявка прийнята, гроші отримані, а на майданчику замовлення так ніхто і не оформив. Один простий фільтр прибирає цю проблему повністю.",
+   "en": "The second part is control. An order you have accepted but not yet passed to the supplier must be visible as a separate list with a timer. This is exactly where paid items get lost: the request was accepted, the money received, and nobody ever placed the order on the marketplace. One simple filter removes this problem entirely."
+  },
+  {
+   "t": "h2",
+   "uk": "Довга доставка: трекінг і комунікація з клієнтом",
+   "en": "Slow delivery: tracking and talking to the customer"
+  },
+  {
+   "t": "p",
+   "uk": "Доставка з Китаю йде від двох до пʼяти тижнів, і скоротити її ви не можете. Але майже все невдоволення виникає не через строк, а через тишу. Клієнт, який отримав чесне «посилка виїхала, орієнтовно двадцять днів, ось трек» і потім три оновлення дорогою, спокійно чекає. Клієнт без інформації пише щодня і залишає поганий відгук ще до отримання.",
+   "en": "Delivery from China takes two to five weeks and you cannot shorten it. But almost all the frustration comes not from the wait but from the silence. A customer who received an honest «the parcel has left, roughly twenty days, here is the tracking» and then three updates along the way waits calmly. A customer with no information writes every day and leaves a bad review before the parcel even arrives."
+  },
+  {
+   "t": "p",
+   "uk": "Технічно це один скрипт: система раз на добу опитує трек-номери, порівнює новий статус зі збереженим і за зміни надсилає повідомлення в Telegram або SMS. Ключових подій небагато - відправлено, прибуло в країну, передано на локальну доставку, готове до видачі. Чотири повідомлення за три тижні знімають майже всі запитання.",
+   "en": "Technically this is one script: once a day the system polls the tracking numbers, compares the new status with the stored one and sends a message in Telegram or by SMS when it changes. There are only a few key events - shipped, arrived in the country, handed to local delivery, ready for pickup. Four messages over three weeks remove almost every question."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо потрібен список «зависли»: посилки без руху понад десять днів. Їх видно заздалегідь, і ви пишете клієнту першим, а не він вам після місяця мовчання. Це і є різниця між магазином, який виглядає надійним, і магазином, у якому «щось замовив і пропало». Devlly збирає такі системи під конкретний магазин: імпорт карток, формула цін під ваш курс і націнку, підготовка замовлень і автоматичні статуси доставки для клієнта.",
+   "en": "You also need a «stuck» list: parcels with no movement for more than ten days. They are visible in advance, and you write to the customer first rather than hearing from them after a month of silence. That is the difference between a shop that looks reliable and a shop where «I ordered something and it vanished». Devlly builds systems like this for a specific store: card imports, a price formula matching your rate and markup, order preparation and automatic delivery statuses for the customer."
+  }
+ ]
+}

@@ -96,6 +96,11 @@ SLUGS = SLUGS + NEW13
 NEW14 = ['avtomatyzatsiya-pekarni']
 SLUGS = SLUGS + NEW14
 
+# --- 3 статті: розширення підтеми дропшипінгу всередині кластера інтернет-магазину ---
+NEW15 = ['crm-dlya-dropshippingu','dropshipping-postachalnyky-ukraina',
+         'avtomatyzatsiya-dropshipping-aliexpress']
+SLUGS = SLUGS + NEW15
+
 SEO = {
 'crm-or-sheets':{'t':'CRM чи таблиці: коли бізнесу потрібна власна система | Devlly','te':'CRM or spreadsheets: when a business needs its own system | Devlly',
  'd':'Розбираємо коли Google Таблиці вже гальмують бізнес і коли час переходити на CRM. Чіткі ознаки і практичні поради.','de':"We break down when Google Sheets start slowing your business down and when it's time to move to a CRM. Clear signs and practical tips.",
@@ -170,6 +175,8 @@ ISODATE = {
 'internet-magazyn-crm-chy-google-sheets':'2026-07-25',
 'crm-dlya-skladskogo-obliku':'2026-07-26','telegram-bot-sklad':'2026-07-26',
 'avtomatyzatsiya-pekarni':'2026-07-28',
+'crm-dlya-dropshippingu':'2026-07-30','dropshipping-postachalnyky-ukraina':'2026-08-01',
+'avtomatyzatsiya-dropshipping-aliexpress':'2026-08-04',
 }
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
@@ -297,11 +304,14 @@ CLUSTERS = [
   # Кавʼярня / ресторан / громадське харчування (+ кальянна, + пекарня)
   ['avtomatyzatsiya-kaviarni','crm-dlya-kaviarni','telegram-bot-kaviarnya','avtomatyzatsiya-restoranu',
    'telegram-bot-dostavka-yizhi','avtomatyzatsiya-kalyanoi','avtomatyzatsiya-pekarni'],
-  # Інтернет-магазин / дропшипінг
+  # Інтернет-магазин / дропшипінг (дропшипінг лишається ПІДТЕМОЮ цього кластера, а не
+  # окремим: це модель продажу того самого інтернет-магазину, і 3 наявні дропшипінг-статті
+  # вже беруть вхідні лінки звідси. Виносити їх в окреме кільце означало б ці лінки зрізати.)
   ['crm-dlya-internet-magazynu','avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping',
    'telegram-bot-dropshipping','shop-automation','ai-chatbot-shop','mini-app-shop','telegram-bot-shop',
    'crm-systema-dlya-internet-magazynu-porivnyannya','avtomatyzatsiya-obrobky-zamovlen-internet-magazyn',
-   'internet-magazyn-crm-chy-google-sheets'],
+   'internet-magazyn-crm-chy-google-sheets',
+   'crm-dlya-dropshippingu','dropshipping-postachalnyky-ukraina','avtomatyzatsiya-dropshipping-aliexpress'],
   # Заявки / база клієнтів
   ['obrobka-zayavok','obrobka-zayavok-klientiv','pryom-zayavok-vid-klientiv','avtomatizaciya-zayavok',
    'avtomatyzatsiya-zayavok','crm-dlya-obrobky-zayavok','ai-bot-requests','baza-klientiv','vedennya-bazy-klientiv'],
@@ -355,6 +365,26 @@ _BOOST = 'crm-systema-dlya-internet-magazynu-porivnyannya'
 for _s in ['obrobka-zayavok','crm-dlya-obrobky-zayavok','baza-klientiv',
            'crm-or-sheets','crm-vs-google-sheets','crm-vs-excel','crm-vs-trello']:
     if _BOOST not in RELATED[_s]: RELATED[_s] = RELATED[_s] + [_BOOST]
+
+# --- Розширення підтеми «дропшипінг» (Задача 8) -------------------------------
+# 3 нові статті йдуть у кільце інтернет-магазину (L: 11 -> 14). Ротація зсувається
+# лише у 6 статей кластера, і всі 6 і так мають ручні перевизначення нижче/вище,
+# тож перелінковка решти 8 не змінюється взагалі.
+# «Читайте також» нових статей - явно на 3 опорні сторінки теми, а не на випадкових
+# сусідів по ротації: нові сторінки передають вагу вже проіндексованим опорним.
+RELATED['crm-dlya-dropshippingu']=['avtomatyzatsiya-dropshipping','crm-dlya-internet-magazynu','telegram-bot-dropshipping']
+RELATED['dropshipping-postachalnyky-ukraina']=['avtomatyzatsiya-dropshipping','dropshipping-z-polshchi-v-ukrainu','crm-dlya-internet-magazynu']
+RELATED['avtomatyzatsiya-dropshipping-aliexpress']=['avtomatyzatsiya-dropshipping','telegram-bot-dropshipping','dropshipping-z-polshchi-v-ukrainu']
+# ...і зворотні лінки: кожна нова стаття отримує рівно 2 вхідні з наявних сторінок.
+# Лінк додається ЧЕТВЕРТИМ (як у Задачі 6), а не замінює наявний, - інакше донори
+# зрізали б вхідні у shop-automation / mini-app-shop / діаспорних статей.
+for _src, _dst in [('avtomatyzatsiya-dropshipping','crm-dlya-dropshippingu'),
+                   ('crm-dlya-internet-magazynu','crm-dlya-dropshippingu'),
+                   ('telegram-bot-dropshipping','avtomatyzatsiya-dropshipping-aliexpress'),
+                   ('avtomatyzatsiya-internet-magazyn-odyagu','avtomatyzatsiya-dropshipping-aliexpress'),
+                   ('dropshipping-z-polshchi-v-ukrainu','dropshipping-postachalnyky-ukraina'),
+                   ('shop-automation','dropshipping-postachalnyky-ukraina')]:
+    if _dst not in RELATED[_src]: RELATED[_src] = RELATED[_src] + [_dst]
 
 # Кожен slug у кожному кластері й у RELATED має бути в SLUGS (інакше KeyError у ART)
 _missing=sorted({s for cl in CLUSTERS for s in cl} - set(SLUGS))

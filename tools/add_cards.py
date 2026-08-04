@@ -9,7 +9,9 @@ BASE = 'https://devlly.dev'
 
 # порядок по дате (зростання), дати - джерело правди
 ITEMS = [
- ('avtomatyzatsiya-pekarni','2026-07-28','4'),
+ ('crm-dlya-dropshippingu','2026-07-30','3'),
+ ('dropshipping-postachalnyky-ukraina','2026-08-01','4'),
+ ('avtomatyzatsiya-dropshipping-aliexpress','2026-08-04','3'),
 ]
 UA_M = ['СІЧ','ЛЮТ','БЕР','КВІ','ТРА','ЧЕР','ЛИП','СЕР','ВЕР','ЖОВ','ЛИС','ГРУ']
 EN_M = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']

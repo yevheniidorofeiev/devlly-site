@@ -1,0 +1,132 @@
+{
+ "title_uk": "CRM для дропшипінгу: замовлення, постачальники і маржа",
+ "title_en": "CRM for Dropshipping: Orders, Suppliers and Margin",
+ "desc_uk": "Яка CRM потрібна дропшипперу: облік замовлень від кількох постачальників, статуси відправлень, трек-номери і розрахунок маржі по кожному замовленню.",
+ "desc_en": "What CRM a dropshipper needs: orders from several suppliers in one place, shipment statuses, tracking numbers and margin calculated per order.",
+ "cta_uk": "Потрібна CRM під ваш дропшипінг? Пишіть нам",
+ "cta_en": "Need a CRM built for your dropshipping? Get in touch",
+ "seo": {
+  "t": "CRM для дропшипінгу: система обліку замовлень | Devlly",
+  "te": "CRM for Dropshipping: Order Management System | Devlly",
+  "d": "Яка CRM потрібна дропшипперу: облік замовлень від кількох постачальників, статуси відправлень, трек-номери і розрахунок маржі по кожному замовленню.",
+  "de": "What CRM a dropshipper needs: orders from several suppliers in one place, shipment statuses, tracking numbers and margin calculated per order.",
+  "k": "crm для дропшипінгу, система обліку замовлень дропшипінг, облік замовлень без складу, картка замовлення дропшипінг, маржа в дропшипінгу, кілька постачальників crm, crm для дропшиппинга, учет заказов дропшиппинг, система для дропшиппера, маржа в дропшиппинге, dropshipping crm, dropshipping order management, dropshipping profit tracking"
+ },
+ "blocks": [
+  {
+   "t": "lead",
+   "uk": "Дропшипінг виглядає простим, поки замовлень десять на тиждень. Далі починається справжня робота: одне замовлення пішло до одного постачальника, друге до іншого, третє скасували, а четверте зависло без трек-номера. Заявки лежать у Direct, оплати в банківському застосунку, залишки в чужому прайсі. CRM для дропшипінгу потрібна не для краси - вона збирає ці розрізнені шматки в один список, де видно кожне замовлення і скільки ви на ньому заробили.",
+   "en": "Dropshipping looks simple while there are ten orders a week. Then the real work begins: one order went to one supplier, the second to another, the third was cancelled, and the fourth is stuck without a tracking number. Requests sit in Direct, payments in a banking app, stock levels in someone else's price list. A dropshipping CRM is not decoration - it pulls these scattered pieces into one list where you can see every order and how much you actually earned on it."
+  },
+  {
+   "t": "h2",
+   "uk": "Чим CRM для дропшипінгу відрізняється від звичайної",
+   "en": "How a dropshipping CRM differs from a regular one"
+  },
+  {
+   "t": "p",
+   "uk": "Класична CRM побудована навколо угоди з клієнтом: контакт, переговори, оплата. У дропшипінгу центр ваги інший - у вас немає складу, і половина процесу відбувається на боці постачальника. Тому картка замовлення тут має тримати два ланцюжки одразу: що ви пообіцяли клієнту і що реально зробив постачальник.",
+   "en": "A classic CRM is built around a deal with a client: contact, negotiation, payment. In dropshipping the centre of gravity is elsewhere - you have no warehouse, and half of the process happens on the supplier's side. So the order card here has to hold two chains at once: what you promised the customer and what the supplier actually did."
+  },
+  {
+   "t": "p",
+   "uk": "Звідси перша вимога: у кожному замовленні має бути поле «постачальник» і власний статус його частини процесу. Клієнт бачить «замовлення прийнято», а всередині системи це може означати «ще не передано» або «передано, чекаємо відправки». Коли ці два статуси злиті в один, менеджер починає перевіряти все вручну по чатах.",
+   "en": "Hence the first requirement: every order needs a «supplier» field and its own status for that part of the process. The customer sees «order accepted», while inside the system it may mean «not passed on yet» or «passed on, waiting for shipment». When these two statuses are merged into one, the manager ends up checking everything by hand across chats."
+  },
+  {
+   "t": "p",
+   "uk": "Друга відмінність - товар. У звичайному магазині товар ваш, і залишок ви контролюєте. У дропшипінгу залишок чужий і змінюється без попередження. Тому система має зберігати не лише назву позиції, а й посилання на неї в постачальника, його ціну і дату останнього оновлення. Інакше ви продасте те, чого вже немає.",
+   "en": "The second difference is the product. In a regular shop the goods are yours and you control the stock. In dropshipping the stock belongs to someone else and changes without warning. So the system has to store not just the item name, but a link to it at the supplier, their price and the date it was last updated. Otherwise you will sell something that is already gone."
+  },
+  {
+   "t": "p",
+   "uk": "Третя - гроші. Ви отримуєте оплату від клієнта і окремо платите постачальнику, часто в іншій валюті і за іншим графіком. Система, яка не тримає ці дві суми поруч у межах одного замовлення, показує обіг, а не прибуток.",
+   "en": "The third is money. You receive payment from the customer and pay the supplier separately, often in a different currency and on a different schedule. A system that does not keep these two amounts side by side within a single order shows turnover, not profit."
+  },
+  {
+   "t": "h2",
+   "uk": "Картка замовлення: від заявки до трек-номера",
+   "en": "The order card: from request to tracking number"
+  },
+  {
+   "t": "p",
+   "uk": "Основна одиниця обліку в дропшипінгу - замовлення, а не клієнт. Мінімальний набір полів такий: що замовили і скільки, контакт і адреса доставки, постачальник, закупівельна ціна, ціна продажу, статус оплати, статус у постачальника і трек-номер. Цього вистачає, щоб закрити майже всі щоденні питання не відкриваючи листування.",
+   "en": "The basic unit of accounting in dropshipping is the order, not the client. The minimum set of fields is: what was ordered and how much, contact and delivery address, supplier, purchase price, selling price, payment status, supplier-side status and tracking number. That is enough to answer almost every daily question without opening a single chat."
+  },
+  {
+   "t": "p",
+   "uk": "Статуси варто описати один раз і не плодити. Робочий набір: нове, підтверджено, передано постачальнику, відправлено, доставлено, оплачено, скасовано, повернення. Вісім станів покривають усе, і за кожним стоїть конкретна дія - або хтось має щось зробити, або замовлення справді чекає.",
+   "en": "Statuses are worth describing once and then leaving alone. A workable set: new, confirmed, passed to supplier, shipped, delivered, paid, cancelled, returned. Eight states cover everything, and behind each one stands a concrete action - either someone has to do something, or the order genuinely is waiting."
+  },
+  {
+   "t": "p",
+   "uk": "Окремо фіксуйте час, коли замовлення перейшло в «передано постачальнику». Це головна точка, де все зависає. Якщо через добу трек-номера немає, система має підсвітити замовлення сама, а не чекати, поки напише клієнт.",
+   "en": "Record separately the moment an order moved to «passed to supplier». This is the main point where things get stuck. If there is no tracking number after twenty-four hours, the system should flag the order by itself instead of waiting for the customer to write."
+  },
+  {
+   "t": "p",
+   "uk": "Трек-номер має жити в картці, а не тільки в повідомленні клієнту. Тоді на питання «де моє замовлення» відповідає бот або менеджер за кілька секунд, і не треба піднімати листування двотижневої давнини.",
+   "en": "The tracking number has to live in the card, not only in a message to the customer. Then the question «where is my order» is answered by a bot or a manager in seconds, with no need to dig through a two-week-old conversation."
+  },
+  {
+   "t": "h2",
+   "uk": "Кілька постачальників в одній системі",
+   "en": "Several suppliers in one system"
+  },
+  {
+   "t": "p",
+   "uk": "Один постачальник - це початковий етап. Далі зʼявляється другий з кращою ціною на частину позицій, третій зі швидшою відправкою по своєму регіону, четвертий під конкретну категорію. І тут таблиця перестає працювати: у кожного свій прайс, свій формат вивантаження і свої правила.",
+   "en": "One supplier is the starting stage. Then a second appears with better prices on part of the range, a third with faster shipping in its region, a fourth for a specific category. And here a spreadsheet stops working: each of them has their own price list, their own export format and their own rules."
+  },
+  {
+   "t": "p",
+   "uk": "У CRM це вирішується довідником постачальників. Для кожного зберігаються умови: як передавати замовлення, за скільки годин відправляє, які дні вихідні, яка мінімальна сума, як рахує доставку і що робить з поверненнями. Ці дані потрібні не для звіту, а щоб система сама ставила в замовленні реальний строк, а не оптимістичний.",
+   "en": "In a CRM this is solved with a supplier directory. For each one you store the terms: how orders are passed on, how many hours until dispatch, which days are off, the minimum order value, how shipping is calculated and what happens with returns. This data is not for a report - it lets the system put a realistic deadline on the order instead of an optimistic one."
+  },
+  {
+   "t": "p",
+   "uk": "Коли одна позиція є у двох постачальників, зафіксуйте пріоритет: основний і запасний. Тоді при відсутності товару менеджер не шукає альтернативу заново, а бачить готовий варіант із ціною і строком. Плюс потрібен простий зріз по постачальниках: скільки відправлено вчасно, скільки скасовано через відсутність товару, скільки повернень. Через два-три місяці стає очевидно, з ким працювати далі.",
+   "en": "When one item is available from two suppliers, record a priority: primary and backup. Then, when something is out of stock, the manager does not search for an alternative from scratch but sees a ready option with its price and lead time. You also need a simple breakdown by supplier: how many shipped on time, how many were cancelled for lack of stock, how many came back. After two or three months it becomes obvious who is worth keeping."
+  },
+  {
+   "t": "h2",
+   "uk": "Маржа по кожному замовленню, а не «в середньому»",
+   "en": "Margin per order, not «on average»"
+  },
+  {
+   "t": "p",
+   "uk": "Найчастіша помилка дропшиппера - рахувати націнку у відсотках і вважати це прибутком. Реальна маржа замовлення - це ціна продажу мінус закупівля, мінус доставка, мінус комісія платіжної системи, мінус вартість реклами на це замовлення, мінус втрати на поверненнях. Кожен з цих пунктів окремо виглядає дрібницею, а разом вони зʼїдають половину.",
+   "en": "The most common dropshipper mistake is to count the markup as a percentage and treat it as profit. The real margin on an order is the selling price minus the purchase, minus shipping, minus the payment processing fee, minus the advertising cost attributable to that order, minus losses on returns. Each of these looks like small change on its own, and together they eat half of it."
+  },
+  {
+   "t": "p",
+   "uk": "Тому в картці замовлення тримайте всі складові: закупівельну ціну, доставку і комісії. Реклама рахується не на замовлення, а на канал за період, і потім розподіляється, - але навіть груба оцінка краща за її відсутність.",
+   "en": "So keep every component in the order card: the purchase price, the shipping and the fees. Advertising is counted per channel over a period rather than per order, and then distributed - but even a rough estimate beats having none."
+  },
+  {
+   "t": "p",
+   "uk": "Коли маржа рахується по кожній позиції, зʼявляються неочевидні речі. Частина товарів дає гарний обіг і майже нульовий прибуток. Окремі категорії мають високий відсоток повернень, який зʼїдає всю націнку. Один напрямок доставки стабільно збитковий через відмови на пошті. Саме цей звіт відповідає, що прибрати з асортименту, а що масштабувати рекламою.",
+   "en": "Once margin is counted per item, non-obvious things surface. Some products deliver good turnover and almost zero profit. Certain categories carry a high return rate that swallows the entire markup. One delivery direction is consistently loss-making because of refusals at the post office. This is exactly the report that tells you what to drop from the range and what to scale with advertising."
+  },
+  {
+   "t": "h2",
+   "uk": "Коли таблиць уже мало і що обрати",
+   "en": "When spreadsheets are no longer enough and what to choose"
+  },
+  {
+   "t": "p",
+   "uk": "Google Таблиці чесно тримають перші сто замовлень. Ознаки, що межа пройдена: ви відкриваєте кілька вкладок, щоб зібрати одне замовлення; двоє людей правлять один файл і затирають рядки; ви не памʼятаєте, які замовлення чекають трек-номера; звіт по маржі збирається руками наприкінці місяця і тому не збирається взагалі.",
+   "en": "Google Sheets honestly hold the first hundred orders. The signs that the limit has passed: you open several tabs to assemble one order; two people edit the same file and overwrite each other's rows; you cannot remember which orders are waiting for a tracking number; the margin report is assembled by hand at the end of the month and therefore never assembled at all."
+  },
+  {
+   "t": "p",
+   "uk": "Готові CRM закривають частину задач, але майже всі побудовані під класичні продажі. Поля постачальника, закупівельної ціни і статусу відправлення туди доводиться доліплювати кастомними полями, а автоматичну передачу замовлення постачальнику - взагалі писати збоку.",
+   "en": "Off-the-shelf CRMs cover part of the job, but almost all of them are built for classic sales. Supplier, purchase price and shipment status have to be bolted on as custom fields, and automatic hand-off of the order to the supplier has to be written on the side anyway."
+  },
+  {
+   "t": "p",
+   "uk": "Практичний шлях - рухатися кроками: спершу єдиний список замовлень із повним набором полів, потім бот або форма прийому, далі автоматична передача постачальнику і трекінг, наостанок звіт по маржі. Кожен крок закриває конкретний біль і окупається окремо. Devlly збирає такі системи під конкретну схему роботи: ваші постачальники, ваші статуси і ваш розрахунок прибутку, без модулів, які в дропшипінгу ніколи не відкриють.",
+   "en": "The practical path is to move in steps: first a single order list with the full set of fields, then a bot or an intake form, then automatic hand-off to the supplier and tracking, and a margin report last. Each step closes a specific pain and pays for itself on its own. Devlly builds systems like this around a specific way of working: your suppliers, your statuses and your profit calculation, without modules that nobody in dropshipping will ever open."
+  }
+ ]
+}
