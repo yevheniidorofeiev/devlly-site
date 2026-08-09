@@ -19,7 +19,6 @@
   ('list', [(uk, en), ...])        список со стрелками
   ('shots', wrap, [ключи])         скриншоты; wrap=None - лентой во всю ширину,
                                    иначе bootstrap-колонка ('col-6 col-xl-3' и т.п.)
-  ('note', t_uk, t_en, p_uk, p_en) серая плашка с заголовком и абзацем
 """
 import io, os, re, sys, json
 
@@ -345,12 +344,6 @@ CASES['zapys-salon-krasy']['body'] = [
         ('Google Таблиця замість адмінки: дані салону лишаються в його власному акаунті',
          'A Google Sheet instead of an admin panel: the salon’s data stays in the salon’s own account'),
     ]),
-
-    ('note', 'Це працюючий продукт, а не макет', 'This is a working product, not a mock-up',
-     'На скриншотах - жива система: Mini App працює з бекендом, записи справді пишуться в Google Таблицю, '
-     'а нагадування надсилає шедулер за розкладом. Демонстраційні тут лише дані самого салону.',
-     'The screenshots show a live system: the Mini App talks to a back end, bookings really are written into the Google Sheet '
-     'and the reminders are sent by a scheduler on a timer. The only thing made up here is the salon’s own data.'),
 ]
 
 
@@ -497,12 +490,6 @@ def main_block(slug):
                     first_shot[0] = False
                     add('                                </div>\n')
                 add('                            </div>\n')
-        elif kind == 'note':
-            add('                            <div class="gray--bg tw-rounded-2xl tw-p-8 tw-mt-10">\n'
-                '                                <h3 class="tw-text-2xl fw-semibold text-heading tw-mb-3" '
-                'data-en="%s">%s</h3>\n'
-                '                                <p class="tw-text-lg text-heading mb-0" data-en="%s">%s</p>\n'
-                '                            </div>\n' % (blk[2], blk[1], blk[4], blk[3]))
         else:
             raise ValueError('unknown block %r' % kind)
 
