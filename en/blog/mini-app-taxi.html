@@ -87,6 +87,28 @@
   ]
 }
     </script>
+    <!-- Google tag (gtag.js) - Google Ads AW-18358717051 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18358717051"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18358717051');
+    </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18358717051/rS0ACJT4494cEPuUj7JE',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
 </head>
 <body class="home-three tw-magic-cursor loaded">
     <!--==================== Preloader Start ====================-->
@@ -703,7 +725,11 @@
       });
     })
     .then(function(res){
-      if(res.ok){ form.reset(); show('ok', '#198754'); }
+      if(res.ok){
+        // Google Ads: lead-form conversion, fired on a real successful submit
+        try { if(typeof gtag_report_conversion === 'function') gtag_report_conversion(); } catch(e){}
+        form.reset(); show('ok', '#198754');
+      }
       else if(res.status === 429){ show('toomany', '#dc3545'); }
       else { show('fail', '#dc3545'); }
     })

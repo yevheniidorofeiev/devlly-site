@@ -11,7 +11,34 @@ BASE = 'https://devlly.dev'
 OGIMG = BASE + '/assets/images/thumbs/feature-three-thumb.png'
 EMAIL = 'devlly.official@gmail.com'
 TG = 'https://t.me/devllydev'
-PILL = 'fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small'
+
+# Google Ads gtag.js: тот же блок стоит в <head> index.html и всех остальных страниц.
+# Правится в одном месте - и в index.html, и здесь, и в build_case.py (три шаблона head).
+GADS = """    <!-- Google tag (gtag.js) - Google Ads AW-18358717051 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18358717051"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18358717051');
+    </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18358717051/rS0ACJT4494cEPuUj7JE',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+"""
+
+PILL ='fw-medium text-heading text-uppercase border border-neutral-200 tw-py-1 tw-px-7 tw-rounded-md hover-bg-main-two-600 hover-text-white hover-border-main-two-600 cursor-small'
 BTN = 'tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl'
 BTN2 = 'tw-hover-btn bg-black text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-px-8 d-inline-flex align-items-center tw-gap-3 hover-text-white tw-rounded-xl'
 
@@ -497,9 +524,10 @@ def head(slug, en=False):
     '    <link rel="stylesheet" href="%s/css/aos.css">\n'
     '    <link rel="stylesheet" href="%s/css/phosphor.css">\n'
     '%s'
+    '%s'
     '</head>\n')%('en' if en else 'uk', da_t, et(title), ea(desc), da_d, kw, url, hreflang,
                   ea(title), ea(desc), url, OGIMG, 'en_US' if en else 'uk_UA',
-                  A,A,A,A,A,A,A,A,A, ld)
+                  A,A,A,A,A,A,A,A,A, ld, GADS)
 
 def block_html(b):
     t=b['t']

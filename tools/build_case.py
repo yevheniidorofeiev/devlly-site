@@ -32,6 +32,32 @@ SHELL = ROOT + '/blog/crm-realty.html'      # донор оболочки
 SHELL_UK_HREF = '/blog/crm-realty'          # что стоит в переключателе языка донора
 SHELL_EN_HREF = '/en/blog/crm-realty'
 
+# Google Ads gtag.js: тот же блок стоит в <head> index.html и всех остальных страниц.
+# Правится в одном месте - и в index.html, и здесь, и в build_blog.py (три шаблона head).
+GADS = """    <!-- Google tag (gtag.js) - Google Ads AW-18358717051 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18358717051"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18358717051');
+    </script>
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18358717051/rS0ACJT4494cEPuUj7JE',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
+"""
+
 # геометрия скриншотов по классам (см. tools/README.md): натуральный размер
 # крупного варианта + ширины в srcset + sizes под верстку конкретного блока
 GEOM = {
@@ -427,9 +453,9 @@ def head(slug, en=False):
     <script type="application/ld+json">
 %(crumbs)s
     </script>
-</head>
+%(gads)s</head>
 """ % dict(lang='en' if en else 'uk', title=title, desc=desc, kw=kw, url=url,
-           uk_url=uk_url, en_url=en_url, og=og, A=A,
+           uk_url=uk_url, en_url=en_url, og=og, A=A, gads=GADS,
            locale='en_US' if en else 'uk_UA', schema=J(schema), crumbs=J(crumbs))
 
 
