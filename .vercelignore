@@ -1,3 +1,7 @@
 _backup
 Session.txt
 .claude
+
+# Генератори контенту - потрібні лише локально, у продакшн не деплояться.
+# Без цього /tools/build_blog.py і /tools/articles/*.json віддавалися публічно з кодом 200.
+tools/
