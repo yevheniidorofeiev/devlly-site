@@ -558,13 +558,10 @@ CASES['dropunion-app']['body'] = [
           'The moment a buyer places an order, the seller receives a card with the contacts, the items, the city '
           'and the delivery method - plus the payment screenshot if that option is on. Statuses change with '
           'buttons right under the card, and every change automatically notifies the buyer on behalf of the shop.'),
-    ('p', 'Якщо підключено MyDrop, статуси синхронізуються в обидва боки, а номер накладної підтягується сам. '
-          'Скріншот оплати додатково перевіряє AI-модель і підказує продавцю, чи сходяться сума й отримувач - '
-          'саме підказує: рішення лишається за людиною, а замовлення створюється в будь-якому разі.',
-          'With MyDrop connected, statuses sync both ways and the waybill number is pulled in automatically. '
-          'The payment screenshot is additionally checked by an AI model that tells the seller whether the amount '
-          'and the recipient match - it only advises: the decision stays with the human and the order is created '
-          'either way.'),
+    ('p', 'Якщо підключено MyDrop, статуси синхронізуються в обидва боки, а номер накладної підтягується сам - '
+          'продавцю не треба переносити замовлення руками ні туди, ні назад.',
+          'With MyDrop connected, statuses sync both ways and the waybill number is pulled in automatically - '
+          'the seller never moves an order between systems by hand.'),
 
     ('h3', '5. Підписка як бізнес-модель', '5. The subscription as the business model'),
     ('p', 'Платформа заробляє на підписці: перші дні безкоштовні й без картки, далі вмикається автосписання '
@@ -593,10 +590,6 @@ CASES['dropunion-app']['body'] = [
          'доступності зовнішнього API',
          'Nova Poshta branches are stored locally and refreshed on a schedule - checkout does not depend on an '
          'external API being up'),
-        ('AI-перевірка скріншота оплати ніколи не блокує замовлення: якщо модель недоступна, крок просто '
-         'пропускається',
-         'The AI check of the payment screenshot never blocks an order: if the model is unavailable, the step is '
-         'simply skipped'),
     ]),
 
     ('h2', 'Що вміє платформа', 'What the platform can do'),
@@ -617,8 +610,6 @@ CASES['dropunion-app']['body'] = [
          'Orders with statuses new → confirmed → shipped → delivered and automatic buyer notifications'),
         ('Двобічна синхронізація статусів і накладних з MyDrop',
          'Two-way synchronisation of statuses and waybills with MyDrop'),
-        ('Обовʼязковий скріншот оплати з мʼякою AI-перевіркою суми й отримувача',
-         'A mandatory payment screenshot with a soft AI check of the amount and the recipient'),
         ('Налаштування вигляду вітрини з бота: акцентний колір, банер і текст під назвою магазину',
          'Storefront styling from the bot: accent colour, banner and the line under the shop name'),
         ('Підписка з безкоштовним періодом, автосписанням WayForPay, повторними спробами і скасуванням у два кліки',
