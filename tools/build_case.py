@@ -66,12 +66,15 @@ GEOM = {
     'app':   dict(w=476, h=906, ws=[320, 476], sizes='(max-width: 1199px) 45vw, 270px'),
     'bot':   dict(w=696, h=878, ws=[480, 696], sizes='(max-width: 767px) 92vw, (max-width: 1199px) 45vw, 565px'),
     'bot1':  dict(w=696, h=878, ws=[480, 696], sizes='(max-width: 767px) 92vw, (max-width: 1199px) 45vw, 470px'),
+    # снимки экрана телефона и Mini App: высота у каждого своя, передаётся через override
+    'phone': dict(w=476, h=1030, ws=[320, 476], sizes='(max-width: 1199px) 45vw, 270px'),
 }
 
 
-def shot(f, cls, alt_uk, alt_en, cap_uk, cap_en):
+def shot(f, cls, alt_uk, alt_en, cap_uk, cap_en, **over):
     d = dict(GEOM[cls])
     d.update(f=f, alt_uk=alt_uk, alt_en=alt_en, cap_uk=cap_uk, cap_en=cap_en)
+    d.update(over)          # w/h под нестандартный размер конкретного снимка
     return d
 
 
@@ -369,6 +372,259 @@ CASES['zapys-salon-krasy']['body'] = [
          'Statistics per period: bookings by status, unique clients, revenue, top services and top specialists'),
         ('Google Таблиця замість адмінки: дані салону лишаються в його власному акаунті',
          'A Google Sheet instead of an admin panel: the salon’s data stays in the salon’s own account'),
+    ]),
+]
+
+
+# ------------------------------------------------------------------- DropUnion App
+CASES['dropunion-app'] = dict(
+    date='2026-08-23',
+    tag_uk='Ecommerce і дропшипінг', tag_en='Ecommerce and dropshipping',
+    cta_uk='Хочете свій магазин або таку саму платформу? Звʼяжіться з нами',
+    cta_en='Want your own store or the same platform? Get in touch',
+    h1_uk='DropUnion App - магазин у Telegram для продавців одягу',
+    h1_en='DropUnion App - a Telegram store for clothing sellers',
+    title_uk='Telegram-магазин з Mini App - кейс DropUnion App | Devlly',
+    title_en='A Telegram store with a Mini App - the DropUnion App case study | Devlly',
+    desc_uk='Кейс Devlly: SaaS-платформа, у якій продавець за кілька хвилин отримує власний магазин '
+            'у Telegram - вітрина Mini App, каталог з MyDrop або Google Sheets, замовлення зі статусами, '
+            'Нова пошта і підписка з автосписанням.',
+    desc_en='A Devlly case study: a SaaS platform where a seller gets their own Telegram store in minutes - '
+            'a Mini App storefront, a catalogue from MyDrop or Google Sheets, orders with statuses, '
+            'Nova Poshta delivery and a recurring subscription.',
+    keywords_uk='telegram магазин, mini app інтернет-магазин, бот для продажу одягу, дропшипінг у телеграм, '
+                'інтеграція mydrop, telegram mini app магазин приклад, кейс telegram магазину, '
+                'saas платформа для продавців',
+    keywords_en='telegram store, mini app online store, bot for selling clothes, dropshipping in telegram, '
+                'mydrop integration, telegram mini app store example, telegram store case study, '
+                'saas platform for sellers',
+    lead_uk='DropUnion App - це не один магазин, а платформа, з якої їх виростає скільки завгодно. '
+            'Продавець реєструється в боті, отримує персональне посилання - і покупець, відкривши його, '
+            'потрапляє у вітрину саме цього магазину прямо в Telegram. Каталог можна вести руками, '
+            'а можна підтягнути з MyDrop чи Google Таблиці; замовлення, статуси, доставка Новою поштою '
+            'і оплата підписки працюють автоматично.',
+    lead_en='DropUnion App is not a single store but a platform that grows any number of them. '
+            'A seller registers in the bot and receives a personal link - and a buyer who opens it lands '
+            'in that specific storefront right inside Telegram. The catalogue can be kept by hand or pulled '
+            'from MyDrop or a Google Sheet; orders, statuses, Nova Poshta delivery and subscription billing '
+            'run on their own.',
+    who_uk='Кому підходить: продавцям одягу, взуття й аксесуарів, які торгують з Instagram і Telegram та '
+           'приймають замовлення в директі; дропшиперам, що працюють на чужому складі; а також тим, хто хоче '
+           'запустити власну платформу з підпискою, а не один магазин.',
+    who_en='Who it fits: clothing, footwear and accessory sellers who trade through Instagram and Telegram and '
+           'take orders in direct messages; dropshippers working off somebody else’s stock; and anyone who wants '
+           'to launch a subscription platform of their own rather than a single store.',
+    stack=['Python', 'aiogram', 'FastAPI', 'PostgreSQL', 'React', 'Telegram Mini App',
+           'MyDrop API', 'Nova Poshta API', 'WayForPay'],
+    stack_uk='Стек: Python і aiogram для бота, FastAPI і PostgreSQL на бекенді, React + Vite для Mini App, '
+             'інтеграції з MyDrop, Google Sheets, Новою поштою і WayForPay.',
+    stack_en='Stack: Python with aiogram for the bot, FastAPI and PostgreSQL on the back end, React with Vite '
+             'for the Mini App, and integrations with MyDrop, Google Sheets, Nova Poshta and WayForPay.',
+    shots={},
+)
+
+for _f, _h, _a_uk, _a_en, _c_uk, _c_en in [
+    ('app-home', 1015,
+     'Вітрина Telegram-магазину одягу - головний екран Mini App з банером і категоріями',
+     'A Telegram clothing store front - the Mini App home screen with a banner and categories',
+     'Головна вітрини: банер із власним фото і текстом магазину, категорії, які збираються з категорій '
+     'товарів, і блок популярного. Акцентний колір кнопок продавець задає сам у боті.',
+     'The storefront home: a banner with the shop’s own photo and text, categories assembled from the '
+     'product categories, and a popular block. The seller picks the accent colour in the bot.'),
+    ('app-catalog', 1014,
+     'Каталог товарів у Telegram Mini App - пошук, фільтри і картки з цінами',
+     'Product catalogue in a Telegram Mini App - search, filters and cards with prices',
+     'Каталог: пошук, фільтри «Новинки», «Популярне» і «Знижки», підвантаження порціями. У цього магазину '
+     '4 849 позицій - каталог підтягнутий з MyDrop, а не заведений руками.',
+     'The catalogue: search, the New, Popular and Sale filters, and paged loading. This shop holds 4,849 '
+     'items - the catalogue is pulled from MyDrop rather than typed in by hand.'),
+    ('app-product', 1014,
+     'Картка товару в Telegram-магазині - фото, ціна, вибір розміру і кнопки купівлі',
+     'Product page in a Telegram store - photo, price, size picker and purchase buttons',
+     'Картка товару: фото, ціна, вибір розміру з тих, що є в наявності, кількість і дві дії - «Купити зараз» '
+     'одразу на оформлення або «Додати в кошик». Якщо на товар є знижка, стара ціна показується закресленою.',
+     'The product page: photos, price, a size picker limited to what is in stock, quantity and two actions - '
+     'buy now, straight to checkout, or add to cart. If the item is on sale, the old price is struck through.'),
+    ('app-cart', 1016,
+     'Кошик у Telegram Mini App - список товарів, доставка і сума замовлення',
+     'Cart in a Telegram Mini App - the item list, delivery and the order total',
+     'Кошик: обраний розмір і колір видно в кожному рядку, кількість змінюється на місці, доставка й сума '
+     'перераховуються одразу. Далі - чекаут з автокомплітом міста і відділення Нової пошти.',
+     'The cart: the chosen size and colour show in every row, quantity changes in place, delivery and the total '
+     'are recalculated at once. Checkout follows, with autocomplete for the Nova Poshta city and branch.'),
+    ('bot-menu', 1030,
+     'Бот продавця Telegram-магазину - головне меню з товарами і замовленнями',
+     'Seller bot of a Telegram store - the main menu with products and orders',
+     'Головне меню продавця: товари, замовлення, персональне посилання на магазин, налаштування і довідка. '
+     'У вітанні - скільки днів лишилось до кінця оплаченого періоду.',
+     'The seller’s main menu: products, orders, the personal shop link, settings and the manual. The greeting '
+     'shows how many days are left in the paid period.'),
+    ('bot-settings', 1030,
+     'Налаштування магазину в Telegram-боті - реквізити, вітрина, інтеграції та підписка',
+     'Store settings in a Telegram bot - payment details, storefront, integrations and subscription',
+     'Налаштування магазину: реквізити, на які покупці переказують оплату, вигляд вітрини (акцентний колір, '
+     'банер і текст під назвою), джерела каталогу та підписка. Зміни у вітрині покупці бачать одразу.',
+     'Store settings: the payment details buyers transfer to, the storefront look (accent colour, banner and the '
+     'line under the name), the catalogue sources and the subscription. Storefront changes reach buyers at once.'),
+    ('bot-link', 1030,
+     'Персональне посилання на Telegram-магазин продавця у боті платформи',
+     'The seller’s personal Telegram store link inside the platform bot',
+     'Персональне посилання магазину. Один бот обслуговує всіх продавців: токен усередині посилання й вирішує, '
+     'чию вітрину відкриє покупець. На знімку токен приховано - посилання робоче.',
+     'The shop’s personal link. One bot serves every seller: the token inside the link decides whose storefront '
+     'the buyer opens. The token is masked in the screenshot because the link is live.'),
+    ('bot-guide', 1030,
+     'Вбудована інструкція для продавця в Telegram-боті - розділи довідки',
+     'The built-in seller manual in the Telegram bot - the help sections',
+     'Довідка вбудована в бот і розбита на розділи - від першого запуску до оплати. Ціни й тривалість періодів '
+     'у ній підставляються з тих самих налаштувань, за якими списуються гроші, тож розійтись вони не можуть.',
+     'The manual is built into the bot and split into sections - from the first launch to billing. The prices and '
+     'periods in it come from the very settings the charges run on, so the two cannot drift apart.'),
+]:
+    CASES['dropunion-app']['shots'][_f] = shot(_f, 'phone', _a_uk, _a_en, _c_uk, _c_en, h=_h)
+
+CASES['dropunion-app']['body'] = [
+    ('h2', 'Як влаштована платформа', 'How the platform is put together'),
+    ('p', 'Ключове рішення - один бот на всіх. Продавець не отримує окремого бота, якого треба реєструвати, '
+          'хостити й оновлювати: він реєструється в спільному боті платформи і отримує посилання зі своїм '
+          'токеном. Покупець відкриває це посилання і бачить вітрину саме цього магазину - з його товарами, '
+          'банером і кольорами. Магазинів у системі може бути скільки завгодно, і жоден не знає про інші.',
+          'The key decision is a single bot for everyone. A seller does not get a separate bot to register, host '
+          'and update: they sign up in the platform’s shared bot and receive a link carrying their own token. '
+          'A buyer opens that link and sees exactly that shop - its products, its banner, its colours. The system '
+          'can hold any number of stores, and none of them knows about the others.'),
+    ('p', 'Далі система розпадається на дві половини, які працюють з однією базою: вітрина, у якій купує клієнт, '
+          'і бот, у якому продавець веде магазин. Ані клієнту, ані продавцю не треба ставити застосунок чи '
+          'відкривати сайт - усе відбувається всередині Telegram.',
+          'From there the system splits into two halves working on one database: the storefront where the client '
+          'buys and the bot where the seller runs the shop. Neither side installs an app or opens a website - it '
+          'all happens inside Telegram.'),
+
+    ('h3', '1. Вітрина покупця', '1. The buyer’s storefront'),
+    ('p', 'Вітрина - це Telegram Mini App на React: головна з банером і категоріями, каталог з пошуком і '
+          'фільтрами, картка товару з розмірами й кольорами, кошик і чекаут. Категорії окремо ніхто не заводить - '
+          'вони збираються з категорій самих товарів, тож список у вітрині завжди відповідає тому, що є в '
+          'наявності.',
+          'The storefront is a React Telegram Mini App: a home screen with a banner and categories, a catalogue '
+          'with search and filters, a product page with sizes and colours, a cart and checkout. Nobody maintains '
+          'the category list separately - it is assembled from the products themselves, so it always matches '
+          'what is actually in stock.'),
+    ('p', 'Оформлення замовлення враховує українську специфіку: місто й відділення Нової пошти підказуються з '
+          'локальної бази відділень, а не запитом до чужого API на кожну літеру. Якщо продавець увімкнув '
+          'підтвердження оплати, покупець зобовʼязаний прикріпити скріншот переказу - без нього замовлення '
+          'просто не створиться.',
+          'Checkout is built for the Ukrainian market: the Nova Poshta city and branch are suggested from a local '
+          'copy of the branch database rather than an external API call on every keystroke. If the seller has '
+          'turned on payment confirmation, the buyer must attach a screenshot of the transfer - without it the '
+          'order is simply not created.'),
+    ('shots', 'col-6 col-xl-3', ['app-home', 'app-catalog', 'app-product', 'app-cart']),
+
+    ('h3', '2. Бот продавця замість адмінки', '2. The seller bot instead of an admin panel'),
+    ('p', 'Окремої адмінки в системі немає - магазин повністю керується з бота. Товари додаються покроково '
+          '(назва, опис, ціна, категорія, фото, розміри, кольори, наявність), будь-який крок можна пропустити, '
+          'а вже додану картку - відредагувати по одному полю, сховати з вітрини або видалити.',
+          'There is no separate admin panel - the shop is run entirely from the bot. Products are added step by '
+          'step (name, description, price, category, photos, sizes, colours, availability), any step can be '
+          'skipped, and an existing card can be edited field by field, hidden from the storefront or deleted.'),
+    ('p', 'Вигляд вітрини теж налаштовується з бота: акцентний колір кнопок, фото банера і рядок під назвою '
+          'магазину. Змінили - покупці бачать це одразу, нічого перезапускати не треба. Довідка теж живе '
+          'усередині бота, тож продавцю не доводиться шукати інструкцію деінде.',
+          'The storefront look is configured from the bot as well: the accent colour of the buttons, the banner '
+          'photo and the line under the shop name. Change it and buyers see the result at once, with nothing to '
+          'restart. The manual lives inside the bot too, so the seller never has to look for instructions '
+          'elsewhere.'),
+    ('shots', 'col-6 col-xl-3', ['bot-menu', 'bot-settings', 'bot-link', 'bot-guide']),
+
+    ('h3', '3. Звідки береться каталог', '3. Where the catalogue comes from'),
+    ('p', 'Каталог можна вести руками, але сенс платформи в іншому: підключити готове джерело і не займатися '
+          'товарами взагалі. Джерел три - MyDrop у ролі постачальника (свій склад), MyDrop у ролі дропшипера '
+          '(чужий склад плюс ваша націнка у відсотках або фіксованою сумою), YML-фід і звичайна Google Таблиця, '
+          'у якій бот сам визначає, де яка колонка.',
+          'The catalogue can be kept by hand, but the point of the platform is different: connect a ready source '
+          'and stop dealing with products at all. There are three sources - MyDrop as a vendor (your own stock), '
+          'MyDrop as a dropshipper (somebody else’s stock plus your markup, as a percentage or a fixed amount), '
+          'a YML feed and an ordinary Google Sheet in which the bot works out the columns by itself.'),
+    ('p', 'Активним може бути лише одне джерело, і при перемиканні попередній імпорт видаляється, щоб у вітрині '
+          'не лишалося товарів, яких уже ніхто не постачає. Товари, додані руками, при цьому лишаються на місці. '
+          'Каталог і залишки оновлюються самі раз на пів години.',
+          'Only one source can be active at a time, and switching wipes the previous import so the storefront '
+          'never keeps items nobody supplies any more. Manually added products stay where they are. The catalogue '
+          'and stock levels refresh themselves every half hour.'),
+
+    ('h3', '4. Замовлення, доставка й гроші', '4. Orders, delivery and money'),
+    ('p', 'Щойно покупець оформив замовлення, продавцю приходить картка з контактами, переліком товарів, містом '
+          'і способом доставки - і скріншотом оплати, якщо той увімкнений. Статуси змінюються кнопками просто '
+          'під карткою, і на кожній зміні покупець автоматично отримує повідомлення від імені магазину.',
+          'The moment a buyer places an order, the seller receives a card with the contacts, the items, the city '
+          'and the delivery method - plus the payment screenshot if that option is on. Statuses change with '
+          'buttons right under the card, and every change automatically notifies the buyer on behalf of the shop.'),
+    ('p', 'Якщо підключено MyDrop, статуси синхронізуються в обидва боки, а номер накладної підтягується сам. '
+          'Скріншот оплати додатково перевіряє AI-модель і підказує продавцю, чи сходяться сума й отримувач - '
+          'саме підказує: рішення лишається за людиною, а замовлення створюється в будь-якому разі.',
+          'With MyDrop connected, statuses sync both ways and the waybill number is pulled in automatically. '
+          'The payment screenshot is additionally checked by an AI model that tells the seller whether the amount '
+          'and the recipient match - it only advises: the decision stays with the human and the order is created '
+          'either way.'),
+
+    ('h3', '5. Підписка як бізнес-модель', '5. The subscription as the business model'),
+    ('p', 'Платформа заробляє на підписці: перші дні безкоштовні й без картки, далі вмикається автосписання '
+          'через WayForPay. Якщо платіж не пройшов, система пробує ще, до трьох разів, і пише продавцю причину; '
+          'після скасування магазин працює до кінця вже оплаченого періоду, а не вимикається тієї ж хвилини.',
+          'The platform earns from subscriptions: the first days are free and require no card, after which '
+          'recurring billing through WayForPay kicks in. If a payment fails, the system retries up to three times '
+          'and tells the seller why; after a cancellation the shop keeps working until the end of the period '
+          'already paid for rather than shutting down on the spot.'),
+
+    ('h2', 'Ключова логіка', 'The logic that matters'),
+    ('list', [
+        ('Мультитенантність на одному боті: токен у посиланні визначає магазин, тому запуск нового продавця '
+         'не потребує ані нового бота, ані окремого деплою',
+         'Multi-tenancy on a single bot: the token in the link identifies the shop, so onboarding a new seller '
+         'needs neither a new bot nor a separate deployment'),
+        ('Ручні й імпортовані товари розділені: зміна або скидання джерела каталогу не чіпає те, що продавець '
+         'завів сам',
+         'Manual and imported products are kept apart: changing or resetting the catalogue source never touches '
+         'what the seller entered by hand'),
+        ('Автосписання з повторними спробами і зрозумілим повідомленням про причину відмови замість тихого '
+         'відключення магазину',
+         'Recurring billing with retries and a clear message about why a charge failed, instead of silently '
+         'switching the shop off'),
+        ('Відділення Нової пошти зберігаються локально й оновлюються за розкладом - чекаут не залежить від '
+         'доступності зовнішнього API',
+         'Nova Poshta branches are stored locally and refreshed on a schedule - checkout does not depend on an '
+         'external API being up'),
+        ('AI-перевірка скріншота оплати ніколи не блокує замовлення: якщо модель недоступна, крок просто '
+         'пропускається',
+         'The AI check of the payment screenshot never blocks an order: if the model is unavailable, the step is '
+         'simply skipped'),
+    ]),
+
+    ('h2', 'Що вміє платформа', 'What the platform can do'),
+    ('list', [
+        ('Власний магазин у Telegram для кожного продавця - вітрина Mini App за персональним посиланням',
+         'A personal Telegram store for every seller - a Mini App storefront behind their own link'),
+        ('Каталог з пошуком, фільтрами новинок, популярного і знижок та підвантаженням порціями',
+         'A catalogue with search, filters for new, popular and discounted items, and paged loading'),
+        ('Картка товару з кількома фото, розмірами, кольорами, залишками і закресленою старою ціною при знижці',
+         'A product page with multiple photos, sizes, colours, stock levels and a struck-through old price on sale'),
+        ('Кошик і чекаут з автокомплітом міста та відділення Нової пошти',
+         'A cart and checkout with autocomplete for the Nova Poshta city and branch'),
+        ('Імпорт каталогу з MyDrop (постачальник або дропшипер з націнкою), YML-фіда чи Google Таблиці',
+         'Catalogue import from MyDrop (vendor or dropshipper with a markup), a YML feed or a Google Sheet'),
+        ('Автооновлення цін і залишків кожні 30 хвилин без участі продавця',
+         'Automatic price and stock updates every 30 minutes with no seller involvement'),
+        ('Замовлення зі статусами нове → підтверджено → відправлено → доставлено і автосповіщенням покупцю',
+         'Orders with statuses new → confirmed → shipped → delivered and automatic buyer notifications'),
+        ('Двобічна синхронізація статусів і накладних з MyDrop',
+         'Two-way synchronisation of statuses and waybills with MyDrop'),
+        ('Обовʼязковий скріншот оплати з мʼякою AI-перевіркою суми й отримувача',
+         'A mandatory payment screenshot with a soft AI check of the amount and the recipient'),
+        ('Налаштування вигляду вітрини з бота: акцентний колір, банер і текст під назвою магазину',
+         'Storefront styling from the bot: accent colour, banner and the line under the shop name'),
+        ('Підписка з безкоштовним періодом, автосписанням WayForPay, повторними спробами і скасуванням у два кліки',
+         'A subscription with a free period, WayForPay recurring billing, retries and a two-click cancellation'),
+        ('Вбудована довідка в боті, де ціни й строки підставляються з фактичних налаштувань біллінгу',
+         'A built-in manual in the bot where prices and periods are pulled from the actual billing settings'),
     ]),
 ]
 

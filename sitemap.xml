@@ -1696,6 +1696,22 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://devlly.dev/cases/dropunion-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/cases/dropunion-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/cases/dropunion-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/cases/dropunion-app"/>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/cases/dropunion-app</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/cases/dropunion-app"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/cases/dropunion-app"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/cases/dropunion-app"/>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://devlly.dev/cases/zapys-salon-krasy</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/cases/zapys-salon-krasy"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/cases/zapys-salon-krasy"/>
