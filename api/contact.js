@@ -78,11 +78,15 @@ module.exports = async (req, res) => {
     return res.status(400).json({ ok: false, error: 'Занадто довгий текст' });
   }
 
-  const text =
-    '🔔 <b>Нова заявка з сайту Devlly!</b>\n\n' +
-    '👤 <b>Ім\'я:</b> ' + esc(name) + '\n' +
-    '📬 <b>Контакт:</b> ' + esc(contact) + '\n' +
-    '💬 <b>Завдання:</b> ' + esc(message);
+  // Форма розсилки в офканвас-меню шле topic=subscribe — щоб підписка не губилася
+  // серед заявок, у неї окремий шаблон повідомлення.
+  const text = String(body.topic || '') === 'subscribe'
+    ? '📩 <b>Нова підписка на розсилку</b>\n\n' +
+      '📬 <b>Email:</b> ' + esc(contact)
+    : '🔔 <b>Нова заявка з сайту Devlly!</b>\n\n' +
+      '👤 <b>Ім\'я:</b> ' + esc(name) + '\n' +
+      '📬 <b>Контакт:</b> ' + esc(contact) + '\n' +
+      '💬 <b>Завдання:</b> ' + esc(message);
 
   try {
     const tg = await fetch('https://api.telegram.org/bot' + token + '/sendMessage', {

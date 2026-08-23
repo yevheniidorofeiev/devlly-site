@@ -14307,3 +14307,92 @@ body.tw-magic-cursor #magic-cursor {
     transition: color .2s;
 }
 .lead-toast__cta:hover { color: #b03318; }
+/* ===== Слайдер відгуків =====================================================
+   9 карток сіткою розтягнули б секцію на три екрани, тому — горизонтальна
+   стрічка на нативному scroll-snap: свайп пальцем працює сам, без бібліотек. */
+.testimonial-slider { position: relative; }
+
+.testimonial-slider__track {
+    display: flex;
+    column-gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* scroll-behavior: smooth НЕ ставимо: GSAP ScrollSmoother на цій сторінці глушить
+       нативну плавну прокрутку — стрічку анімує сам скрипт (rAF). */
+    scrollbar-width: none;              /* Firefox */
+    -ms-overflow-style: none;           /* старий Edge */
+    -webkit-overflow-scrolling: touch;
+}
+.testimonial-slider__track::-webkit-scrollbar { display: none; }
+.testimonial-slider__track:focus-visible {
+    outline: 2px solid var(--main-two-600);
+    outline-offset: 6px;
+    border-radius: 16px;
+}
+
+.testimonial-slider__slide {
+    flex: 0 0 calc((100% - 30px) / 2);
+    scroll-snap-align: start;
+    display: flex;
+}
+.testimonial-slider__slide > * { width: 100%; }
+
+@media (max-width: 991px) {
+    .testimonial-slider__track { column-gap: 20px; }
+    .testimonial-slider__slide { flex-basis: 100%; }
+}
+
+.testimonial-slider__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 45px;
+}
+
+.testimonial-slider__arrow {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid #E5E5EA;
+    border-radius: 50%;
+    background: #fff;
+    color: #16161a;
+    cursor: pointer;
+    transition: background .25s, color .25s, border-color .25s, opacity .25s;
+}
+.testimonial-slider__arrow:hover:not(:disabled) {
+    background: #16161a;
+    border-color: #16161a;
+    color: #fff;
+}
+.testimonial-slider__arrow:disabled { opacity: .3; cursor: default; }
+
+.testimonial-slider__dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.testimonial-slider__dot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #D6D6DB;
+    cursor: pointer;
+    transition: background .25s, width .25s, border-radius .25s;
+}
+.testimonial-slider__dot:hover { background: #ADADB5; }
+.testimonial-slider__dot[aria-current="true"] {
+    width: 26px;
+    border-radius: 5px;
+    background: var(--main-two-600);
+}
+
+/* статус підписки в офканвас-меню */
+#subscribe-status { line-height: 1.4; }

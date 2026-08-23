@@ -270,13 +270,19 @@
             <div class="tpoffcanvas__input-title">
                 <p data-en="Get updates">Розсилка</p>
             </div>
-            <form action="#">
+            <form action="/api/contact" method="post" id="subscribe-form" novalidate>
                 <div class="position-relative">
-                    <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Ваш email" data-en-ph="Your email">
-                    <button aria-label="Підписатися">
+                    <input class="focus-tw-placeholder-text-hidden" type="email" name="email" autocomplete="email" placeholder="Ваш email" data-en-ph="Your email" aria-label="Email для розсилки" data-en-aria="Email for the newsletter">
+                    <button type="submit" aria-label="Підписатися" data-en-aria="Subscribe">
                         <i class="ph ph-paper-plane-tilt"></i>
                     </button>
                 </div>
+                <!-- Honeypot: живі люди його не бачать, тож будь-який текст тут = бот. -->
+                <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+                    <label for="sub-website">Website</label>
+                    <input type="text" id="sub-website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <p id="subscribe-status" class="tw-text-sm tw-mt-3 mb-0" role="status" aria-live="polite" hidden></p>
             </form>
         </div>
         <div class="tpoffcanvas__social">
@@ -742,6 +748,177 @@
     .catch(function(){ show('fail', '#dc3545'); })
     .finally(function(){ if(btn) btn.disabled = false; });
   });
+})();
+</script>
+<!-- Newsletter (offcanvas) -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('subscribe-form');
+  if(!form) return;
+  var status = document.getElementById('subscribe-status');
+  var input  = form.querySelector('input[name="email"]');
+  var btn    = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Готово! Ви підписані.', en: 'Done! You are subscribed.' },
+    empty:   { uk: 'Вкажіть коректний email.', en: 'Please enter a valid email.' },
+    toomany: { uk: 'Забагато спроб. Спробуйте пізніше.', en: 'Too many attempts. Please try again later.' },
+    fail:    { uk: 'Не вдалося підписати. Напишіть нам у Telegram.', en: 'Could not subscribe. Please message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email = String((input && input.value) || '').trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#9a9aa0');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      // api/contact ждёт три поля; topic отличает подписку от обычной заявки
+      body: JSON.stringify({
+        topic: 'subscribe',
+        name: 'Підписка на розсилку',
+        contact: email,
+        message: 'Підписка на розсилку з сайту',
+        website: String((form.querySelector('input[name="website"]') || {}).value || '')
+      })
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){
+        return { status: r.status, ok: r.ok && d.ok };
+      });
+    })
+    .then(function(res){
+      if(res.ok){ form.reset(); show('ok', '#198754'); }
+      else if(res.status === 429){ show('toomany', '#dc3545'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
+<!-- Testimonials carousel: нативный scroll-snap, без сторонних слайдеров -->
+<script>
+(function(){
+  var root = document.querySelector('[data-testimonial-slider]');
+  if(!root) return;                       // секция есть только на главной
+  var track = root.querySelector('[data-track]');
+  var dotsBox = root.querySelector('[data-dots]');
+  var prev = root.querySelector('[data-prev]');
+  var next = root.querySelector('[data-next]');
+  var slides = track ? Array.prototype.slice.call(track.children) : [];
+  if(!track || !slides.length) return;
+
+  function gap(){
+    var g = parseFloat(getComputedStyle(track).columnGap);
+    return isNaN(g) ? 0 : g;
+  }
+  // «Страница» = столько карточек, сколько помещается в видимую часть трека.
+  function perView(){
+    var w = slides[0].getBoundingClientRect().width;
+    if(!w) return 1;
+    return Math.max(1, Math.round((track.clientWidth + gap()) / (w + gap())));
+  }
+  function pages(){ return Math.max(1, Math.ceil(slides.length / perView())); }
+  function step(){ return track.clientWidth + gap(); }
+  function index(){
+    var st = step();
+    return st ? Math.min(pages() - 1, Math.max(0, Math.round(track.scrollLeft / st))) : 0;
+  }
+
+  var dots = [];
+  function buildDots(){
+    if(!dotsBox) return;
+    var n = pages();
+    if(dots.length === n) return;         // ширина поменялась, но страниц столько же
+    dotsBox.innerHTML = '';
+    dots = [];
+    for(var i = 0; i < n; i++){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'testimonial-slider__dot cursor-small';
+      // имя автора отзыва как метка: на /en оно уже переведено разметкой
+      var h = (slides[i * perView()] || slides[0]).querySelector('h3');
+      b.setAttribute('aria-label', h ? h.textContent : String(i + 1));
+      b.addEventListener('click', (function(idx){
+        return function(){ slideTo(idx * step()); };
+      })(i));
+      dotsBox.appendChild(b);
+      dots.push(b);
+    }
+  }
+
+  function sync(){
+    var i = index(), last = pages() - 1;
+    for(var k = 0; k < dots.length; k++){
+      if(k === i) dots[k].setAttribute('aria-current', 'true');
+      else dots[k].removeAttribute('aria-current');
+    }
+    if(prev) prev.disabled = i <= 0;
+    if(next) next.disabled = i >= last;
+  }
+
+  // Нативний smooth-скрол тут не працює: ScrollSmoother перехоплює прокрутку,
+  // тому анімуємо стрічку самі. На час анімації знімаємо snap, інакше браузер
+  // кожен кадр притягує її назад до найближчої картки.
+  var REDUCED = window.matchMedia ? matchMedia('(prefers-reduced-motion: reduce)').matches : false;
+  var anim = 0, guard = 0;
+  function settle(left){
+    // snap не дає виставити позицію точно, тому знімаємо його на час присвоєння
+    track.style.scrollSnapType = 'none';
+    track.scrollLeft = left;
+    track.style.scrollSnapType = '';
+    sync();
+  }
+  function slideTo(left){
+    var max = Math.max(0, track.scrollWidth - track.clientWidth);
+    left = Math.max(0, Math.min(max, left));
+    cancelAnimationFrame(anim);
+    clearTimeout(guard);
+    if(REDUCED){ settle(left); return; }
+    var from = track.scrollLeft, dist = left - from, t0 = 0;
+    track.style.scrollSnapType = 'none';
+    // Якщо вкладка не малює кадри, rAF не спрацює зовсім — тоді дотягуємо стрічку таймером.
+    guard = setTimeout(function(){ cancelAnimationFrame(anim); settle(left); }, 700);
+    anim = requestAnimationFrame(function frame(ts){
+      if(!t0) t0 = ts;
+      var k = Math.min(1, (ts - t0) / 420);
+      track.scrollLeft = from + dist * (1 - Math.pow(1 - k, 3));
+      if(k < 1) anim = requestAnimationFrame(frame);
+      else { clearTimeout(guard); settle(left); }
+    });
+  }
+
+  function move(dir){ slideTo((index() + dir) * step()); }
+  if(prev) prev.addEventListener('click', function(){ move(-1); });
+  if(next) next.addEventListener('click', function(){ move(1); });
+
+  var raf = 0;
+  track.addEventListener('scroll', function(){
+    if(raf) return;
+    raf = requestAnimationFrame(function(){ raf = 0; sync(); });
+  }, { passive: true });
+
+  var rt = 0;
+  window.addEventListener('resize', function(){
+    clearTimeout(rt);
+    rt = setTimeout(function(){ buildDots(); sync(); }, 150);
+  });
+
+  buildDots();
+  sync();
 })();
 </script>
 <!-- Site search (magnifier in the header) -->

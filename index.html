@@ -252,13 +252,19 @@
             <div class="tpoffcanvas__input-title">
                 <p data-en="Get updates">Розсилка</p>
             </div>
-            <form action="#">
+            <form action="/api/contact" method="post" id="subscribe-form" novalidate>
                 <div class="position-relative">
-                    <input class="focus-tw-placeholder-text-hidden" type="text" placeholder="Ваш email" data-en-ph="Your email">
-                    <button aria-label="Підписатися">
+                    <input class="focus-tw-placeholder-text-hidden" type="email" name="email" autocomplete="email" placeholder="Ваш email" data-en-ph="Your email" aria-label="Email для розсилки" data-en-aria="Email for the newsletter">
+                    <button type="submit" aria-label="Підписатися" data-en-aria="Subscribe">
                         <i class="ph ph-paper-plane-tilt"></i>
                     </button>
                 </div>
+                <!-- Honeypot: живі люди його не бачать, тож будь-який текст тут = бот. -->
+                <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+                    <label for="sub-website">Website</label>
+                    <input type="text" id="sub-website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <p id="subscribe-status" class="tw-text-sm tw-mt-3 mb-0" role="status" aria-live="polite" hidden></p>
             </form>
         </div>
         <div class="tpoffcanvas__social">
@@ -545,9 +551,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We design systems to manage clients, sales and business processes tailored to you.">Проєктуємо системи керування клієнтами, продажами та бізнес-процесами під ваш бізнес.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Sales funnel and tasks">Воронка продажів і задачі</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Roles and access rights">Ролі та права доступу</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Reports and dashboards">Звіти й дашборди</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Автоматизація бізнесу · CRM / ERP" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -562,9 +568,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Bots for sales, support and automation, plus full-featured apps inside Telegram.">Боти для продажів, підтримки й автоматизації та повноцінні застосунки всередині Telegram.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Catalogue and cart in the bot">Каталог і кошик у боті</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Payments and delivery">Оплата й доставка</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Admin panel in Google Sheets">Адмінка в Google Таблиці</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Telegram-боти та Mini Apps" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -579,9 +585,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Apps for Windows and macOS: accounting, workplace automation, database-driven tools.">Програми для Windows і macOS: облік, автоматизація робочих місць, робота з базами даних.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Works offline">Робота без інтернету</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Printing documents and invoices">Друк документів і накладних</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Local database and backups">Локальна база й бекапи</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Десктопні застосунки" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -596,9 +602,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Web apps, admin panels and SaaS products built from scratch for your needs.">Вебдодатки, адмін-панелі та SaaS-продукти з нуля під ваші задачі.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Plans and subscriptions">Тарифи й підписки</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Multi-user access">Багатокористувацький доступ</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Hosting and scaling">Хостинг і масштабування</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Вебсервіси та SaaS" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -613,9 +619,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We collect and track data from sites and services, alerting you to changes automatically.">Збираємо й відстежуємо дані з сайтів і сервісів, сповіщаємо про зміни автоматично.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Competitor prices and stock">Ціни та залишки конкурентів</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Export to Excel and databases">Вивантаження в Excel і БД</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Change alerts">Сповіщення про зміни</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Парсинг даних і моніторинг" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -630,9 +636,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We embed GPT into your workflows: smart assistants, request handling and content generation.">Впроваджуємо GPT у ваші процеси: розумні асистенти, обробка звернень і генерація контенту.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Answers from your knowledge base">Відповіді за вашою базою знань</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Parsing requests and emails">Розбір заявок і листів</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Generating descriptions and copy">Генерація описів і текстів</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: AI-інтеграції та чат-боти з GPT" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -647,9 +653,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Collecting applications, screening candidates and onboarding - without manual routine.">Збір анкет, відбір кандидатів та онбординг - без ручної рутини для вашої команди.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Application forms and test tasks">Анкети й тестові завдання</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Automatic screening by criteria">Автовідсів за критеріями</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Onboarding new hires">Онбординг новачків</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: HR-автоматизація" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -664,9 +670,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We set up automated sales funnels and campaigns across messengers and email.">Налаштовуємо автоматичні воронки продажів і розсилки в месенджерах та пошті.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Message sequences">Ланцюжки повідомлень</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Audience segmentation">Сегментація бази</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Open and click stats">Статистика відкриттів і кліків</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Автоворонки і розсилки" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -681,9 +687,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="We connect your services into one system: CRM, payments, APIs and Google Sheets.">Поєднуємо ваші сервіси в єдину систему: CRM, платіжки, API та Google-таблиці.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Real-time data exchange">Обмін даними в реальному часі</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Webhooks and queues">Вебхуки та черги</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Sync without duplicates">Синхронізація без дублів</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Інтеграції з CRM, API та Google Sheets" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -698,9 +704,9 @@
           <p class="service-three-paragraph tw-text-lg tw-mb-6 text-heading" data-en="Portals with authentication, payments and personal data for your clients.">Кабінети з авторизацією, оплатами й персональними даними для ваших клієнтів.</p>
         </div>
         <div class="service-three-list"><ul>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Tailored to your processes">Під ваші процеси</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Service integrations">Інтеграції з сервісами</span></li>
-          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Post-launch support">Підтримка після запуску</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Login and password recovery">Вхід і відновлення пароля</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Order and payment history">Історія замовлень і оплат</span></li>
+          <li class="d-inline-flex align-items-center tw-gap-205 tw-text-2xl text-heading tw-mb-2"><span><img loading="lazy" decoding="async" width="20" height="20" src="assets/images/icons/service-three-pluse.svg" alt="pluse"></span> <span data-en="Document uploads">Завантаження документів</span></li>
         </ul></div>
       </div>
       <div class="service-three-button"><a aria-label="Обговорити: Особисті кабінети клієнтів" class="service-three-btn hover-bg-main-two-600 hover-text-white cursor-small" href="#contact"><i class="ph ph-arrow-up-right"></i></a></div>
@@ -775,6 +781,45 @@
         <div class="row justify-content-center" style="--bs-gutter-x: 2.5rem; --bs-gutter-y: 2.5rem;">
             <div class="col-xl-6 col-lg-6 col-md-6">
                 <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h3 class="tw-text-3xl tw-mb-5" data-en="Velvet Studio - beauty salon booking">Velvet Studio - запис у салон краси</h3>
+                    <p class="tw-text-lg text-heading tw-mb-6" data-en="A Telegram Mini App for booking a beauty salon: choosing a service, a specialist and a free slot, a Google Sheet instead of an admin panel, an owner bot with statistics and automatic client reminders.">Telegram Mini App для запису в бʼюті-салон: вибір послуги, майстра і вільного часу, Google Таблиця замість адмінки, бот власника зі статистикою і автоматичні нагадування клієнтам.</p>
+                    <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Python</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">aiogram</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">FastAPI</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Telegram Mini App</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Google Sheets API</span></li>
+                    </ul>
+                    <div class="tw-mt-auto">
+                        <a aria-label="Детальніше про Telegram Mini App для запису в салон краси" data-en-aria="More about the Telegram Mini App for beauty salon booking" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/cases/zapys-salon-krasy">
+                            <span data-en="Learn more">Детальніше</span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <h3 class="tw-text-3xl tw-mb-5" data-en="The Kvadratnyi Metr CRM">CRM «Квадратний Метр»</h3>
+                    <p class="tw-text-lg text-heading tw-mb-6" data-en="A CRM for a real estate agency - request tracking, a sales funnel, analytics by agent and by traffic source.">CRM-система для рієлторської агенції - облік заявок, воронка продажів, аналітика по агентах і джерелах трафіку.</p>
+                    <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">React</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Vite</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Tailwind CSS</span></li>
+                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Recharts</span></li>
+                    </ul>
+                    <div class="tw-mt-auto">
+                        <a aria-label="Детальніше про CRM «Квадратний Метр»" data-en-aria="More about the Kvadratnyi Metr CRM" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/cases/kvadratnyi-metr">
+                            <span data-en="Learn more">Детальніше</span>
+                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
+                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <h3 class="tw-text-3xl tw-mb-5">SalesIntel AI</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="A B2B platform for finding advertisers in Telegram channels. The agent finds companies, enriches contacts and sends personalised outreach automatically.">B2B платформа для пошуку рекламодавців у Telegram-каналах. Агент знаходить компанії, збагачує контакти і надсилає персоналізований аутрич автоматично.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
@@ -794,7 +839,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <h3 class="tw-text-3xl tw-mb-5">ShopBot UA</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="A SaaS platform for clothing sellers with a Telegram Mini App. Supplier sync, a markup system and a personal dropshipper dashboard.">SaaS-платформа для продавців одягу з Telegram Mini App. Синхронізація з постачальниками, система націнки, особистий кабінет дропшипера.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
@@ -814,7 +859,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <h3 class="tw-text-3xl tw-mb-5" data-en="HR bot">HR-бот</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="Recruitment automation via Telegram - collecting applications, screening candidates and pushing data into Google Sheets with no manager involved.">Автоматизація найму через Telegram - збір анкет, відбір кандидатів і передача даних у Google Sheets без участі менеджера.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
@@ -832,7 +877,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                     <h3 class="tw-text-3xl tw-mb-5" data-en="CRM for a clothing online store">CRM для інтернет-магазину одягу</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="An order, client and stock management system tailored to a specific sales process. Automatic reports, client history and supplier integration.">Система керування замовленнями, клієнтами та залишками товару під конкретний процес продажів. Автоматичні звіти, історія клієнтів і інтеграція з постачальниками.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
@@ -851,7 +896,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                     <h3 class="tw-text-3xl tw-mb-5" data-en="Agent SRM - Analytics for Coffee Shop Chain">Agent SRM - аналітика для мережі кавʼярень</h3>
                     <p class="tw-text-lg text-heading tw-mb-6" data-en="Automated analytics for a coffee shop chain: sales from Key CRM, Facebook and Google Ads spend, inventory and customer comments - all in one dashboard.">Автоматизована аналітика для мережі кавʼярень: продажі з Key CRM, витрати на рекламу Facebook і Google Ads, залишки складу і коментарі клієнтів - все в одному дашборді.</p>
                     <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
@@ -864,45 +909,6 @@
                     </ul>
                     <div class="tw-mt-auto">
                         <a aria-label="Детальніше про Agent SRM" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="#contact">
-                            <span data-en="Learn more">Детальніше</span>
-                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
-                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                    <h3 class="tw-text-3xl tw-mb-5" data-en="The Kvadratnyi Metr CRM">CRM «Квадратний Метр»</h3>
-                    <p class="tw-text-lg text-heading tw-mb-6" data-en="A CRM for a real estate agency - request tracking, a sales funnel, analytics by agent and by traffic source.">CRM-система для рієлторської агенції - облік заявок, воронка продажів, аналітика по агентах і джерелах трафіку.</p>
-                    <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">React</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Vite</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Tailwind CSS</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Recharts</span></li>
-                    </ul>
-                    <div class="tw-mt-auto">
-                        <a aria-label="Детальніше про CRM «Квадратний Метр»" data-en-aria="More about the Kvadratnyi Metr CRM" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/cases/kvadratnyi-metr">
-                            <span data-en="Learn more">Детальніше</span>
-                            <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
-                            <span class="tw-hover-btn-circle-dot bg-main-600"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="project-three-wrapper gray--bg tw-rounded-2xl tw-p-10 h-100 d-flex flex-column" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                    <h3 class="tw-text-3xl tw-mb-5" data-en="Velvet Studio - beauty salon booking">Velvet Studio - запис у салон краси</h3>
-                    <p class="tw-text-lg text-heading tw-mb-6" data-en="A Telegram Mini App for booking a beauty salon: choosing a service, a specialist and a free slot, a Google Sheet instead of an admin panel, an owner bot with statistics and automatic client reminders.">Telegram Mini App для запису в бʼюті-салон: вибір послуги, майстра і вільного часу, Google Таблиця замість адмінки, бот власника зі статистикою і автоматичні нагадування клієнтам.</p>
-                    <ul class="d-flex flex-wrap tw-gap-2 tw-mb-8">
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Python</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">aiogram</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">FastAPI</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Telegram Mini App</span></li>
-                            <li><span class="tw-text-sm fw-medium text-heading border border-neutral-200 tw-py-1 tw-px-4 tw-rounded-md">Google Sheets API</span></li>
-                    </ul>
-                    <div class="tw-mt-auto">
-                        <a aria-label="Детальніше про Telegram Mini App для запису в салон краси" data-en-aria="More about the Telegram Mini App for beauty salon booking" class="tw-hover-btn bg-main-two-600 text-white justify-content-center text-capitalize cursor-small fw-semibold tw-py-4 tw-ps-8 tw-pe-6 d-inline-flex align-items-center tw-gap-3 hover-text-white hover-border-main-600 tw-rounded-xl" href="/cases/zapys-salon-krasy">
                             <span data-en="Learn more">Детальніше</span>
                             <span><img loading="lazy" decoding="async" width="36" height="12" src="assets/images/icons/h3-arrow-btn.svg" alt="btn"></span>
                             <span class="tw-hover-btn-circle-dot bg-main-600"></span>
@@ -1095,54 +1101,122 @@
                     </div> 
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 tw-mb-705 h-100 position-relative z-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                        <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They built ShopBot UA - a full platform for our clothing store with a Telegram Mini App. Supplier sync runs automatically, and the managers no longer enter data by hand.">Розробили ShopBot UA - повноцінну платформу для нашого магазину одягу з Telegram Mini App. Синхронізація з постачальниками працює автоматично, менеджери більше не вводять дані вручну.</p>
-                        <div class="d-flex align-items-center tw-gap-4">
-                            <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#6C63FF;font-size:20px;" data-en="AK">ОК</span>
-                            <div>
-                                <h3 class="tw-text-2xl tw-mb-1" data-en="Alex K.">Олександр К.</h3>
-                                <p class="tw-text-lg text-heading mb-0" data-en="Online store owner">Власник інтернет-магазину</p>
+            <!-- Відгуки їдуть горизонтально: 9 карток сіткою розтягли б секцію на три екрани. -->
+            <div class="testimonial-slider" data-testimonial-slider data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="testimonial-slider__track" data-track tabindex="0" role="group" aria-label="Відгуки клієнтів" data-en-aria="Client testimonials">
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They built ShopBot UA - a full platform for our clothing store with a Telegram Mini App. Supplier sync runs automatically, and the managers no longer enter data by hand.">Розробили ShopBot UA - повноцінну платформу для нашого магазину одягу з Telegram Mini App. Синхронізація з постачальниками працює автоматично, менеджери більше не вводять дані вручну.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#6C63FF;font-size:20px;" data-en="AK">ОК</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Alex K.">Олександр К.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Online store owner">Власник інтернет-магазину</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They built SalesIntel AI - the platform finds advertisers on its own, enriches contacts and sends personalised outreach. It saves us dozens of hours of manual work every week.">Побудували SalesIntel AI - платформа сама знаходить рекламодавців, збагачує контакти і надсилає персоналізований аутрич. Заощадили десятки годин ручної роботи щотижня.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#FF6584;font-size:20px;" data-en="VK">ВК</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Vadym K.">Вадим К.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Media founder">Засновник медіа</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They automated hiring with a Telegram bot - candidates fill in the form in the bot, the data lands straight in Google Sheets, and the manager only makes the final pick. Processing time halved.">Автоматизували найм через Telegram-бота - кандидати заповнюють анкету в боті, дані одразу в Google Sheets, менеджер тільки фінально відбирає. Час на обробку заявок скоротився вдвічі.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#43B89C;font-size:20px;" data-en="IL">ІЛ</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Iryna L.">Ірина Л.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="HR manager">HR-менеджер</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They implemented a CRM tailored to our sales process - orders, clients and stock are now in one system. Reports build themselves, and the full client history is always at the manager’s fingertips.">Впровадили CRM під наш процес продажів - замовлення, клієнти та залишки тепер в одній системі. Звіти формуються самі, а вся історія клієнта завжди під рукою в менеджера.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#4C8DFF;font-size:20px;" data-en="MS">МС</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Maryna S.">Марина С.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Head of sales">Керівниця відділу продажів</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="Salon booking moved into a Telegram Mini App: clients pick the service, the specialist and the time themselves, even at night. Reminders cut no-shows, and the administrator no longer keeps a paper diary.">Запис у салон переїхав у Telegram Mini App: клієнтки обирають послугу, майстра і час самі, навіть уночі. Нагадування скоротили неявки, а адміністратор більше не веде паперовий журнал.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#F2994A;font-size:20px;" data-en="YR">ЮР</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Yuliia R.">Юлія Р.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Beauty salon owner">Власниця салону краси</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="Sales, ad spend and stock levels now live in a single dashboard. We used to spend half a day reconciling numbers across spreadsheets - now the report arrives in a bot every morning.">Продажі, витрати на рекламу і залишки складу зібрані в одному дашборді. Раніше зводили цифри по кількох таблицях пів дня - тепер звіт приходить у бота щоранку.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#8E6BEF;font-size:20px;" data-en="DP">ДП</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Dmytro P.">Дмитро П.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Coffee shop chain owner">Власник мережі кавʼярень</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="A CRM built for a real estate agency: we can see where each enquiry came from and which agent is handling it. Nothing gets lost any more, and the director sees the funnel in real time.">CRM під агенцію нерухомості: видно, з якого джерела прийшла заявка і хто з агентів її веде. Жодна заявка більше не губиться, а керівник бачить воронку в реальному часі.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#2D9CDB;font-size:20px;" data-en="OV">ОВ</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Oleh V.">Олег В.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Real estate agency director">Керівник агенції нерухомості</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="Competitor price monitoring runs around the clock and changes land in Telegram. We stopped selling below market and lifted our margin within the first month.">Моніторинг цін конкурентів працює цілодобово, зміни приходять у Telegram. Перестали продавати нижче ринку і підняли маржу вже за перший місяць.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#EB5757;font-size:20px;" data-en="KB">КБ</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Kateryna B.">Катерина Б.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="E-commerce lead">Керівниця e-commerce</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slider__slide">
+                        <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 h-100 position-relative z-1">
+                            <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="A GPT chatbot answers routine questions from our knowledge base. Support handles half as many tickets, and clients get an answer in seconds instead of an hour.">Чат-бот з GPT відповідає на типові питання за нашою базою знань. Підтримка розбирає вдвічі менше звернень, а клієнт отримує відповідь за секунди, а не за годину.</p>
+                            <div class="d-flex align-items-center tw-gap-4">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#27AE60;font-size:20px;" data-en="AH">АГ</span>
+                                <div>
+                                    <h3 class="tw-text-2xl tw-mb-1" data-en="Artem H.">Артем Г.</h3>
+                                    <p class="tw-text-lg text-heading mb-0" data-en="Head of support">Керівник підтримки</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 tw-mb-705 h-100 position-relative z-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They built SalesIntel AI - the platform finds advertisers on its own, enriches contacts and sends personalised outreach. It saves us dozens of hours of manual work every week.">Побудували SalesIntel AI - платформа сама знаходить рекламодавців, збагачує контакти і надсилає персоналізований аутрич. Заощадили десятки годин ручної роботи щотижня.</p>
-                        <div class="d-flex align-items-center tw-gap-4">
-                            <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#FF6584;font-size:20px;" data-en="VK">ВК</span>
-                            <div>
-                                <h3 class="tw-text-2xl tw-mb-1" data-en="Vadym K.">Вадим К.</h3>
-                                <p class="tw-text-lg text-heading mb-0" data-en="Media founder">Засновник медіа</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 tw-mb-705 h-100 position-relative z-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They automated hiring with a Telegram bot - candidates fill in the form in the bot, the data lands straight in Google Sheets, and the manager only makes the final pick. Processing time halved.">Автоматизували найм через Telegram-бота - кандидати заповнюють анкету в боті, дані одразу в Google Sheets, менеджер тільки фінально відбирає. Час на обробку заявок скоротився вдвічі.</p>
-                        <div class="d-flex align-items-center tw-gap-4">
-                            <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#43B89C;font-size:20px;" data-en="IL">ІЛ</span>
-                            <div>
-                                <h3 class="tw-text-2xl tw-mb-1" data-en="Iryna L.">Ірина Л.</h3>
-                                <p class="tw-text-lg text-heading mb-0" data-en="HR manager">HR-менеджер</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="testimonial-three-item gray--bg tw-rounded-2xl tw-p-10 tw-mb-705 h-100 position-relative z-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        <p class="tw-text-xl fw-medium text-heading tw-mb-8" data-en="They implemented a CRM tailored to our sales process - orders, clients and stock are now in one system. Reports build themselves, and the full client history is always at the manager’s fingertips.">Впровадили CRM під наш процес продажів - замовлення, клієнти та залишки тепер в одній системі. Звіти формуються самі, а вся історія клієнта завжди під рукою в менеджера.</p>
-                        <div class="d-flex align-items-center tw-gap-4">
-                            <span class="d-inline-flex align-items-center justify-content-center rounded-circle text-white fw-bold flex-shrink-0" style="width:56px;height:56px;background:#4C8DFF;font-size:20px;" data-en="MS">МС</span>
-                            <div>
-                                <h3 class="tw-text-2xl tw-mb-1" data-en="Maryna S.">Марина С.</h3>
-                                <p class="tw-text-lg text-heading mb-0" data-en="Head of sales">Керівниця відділу продажів</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="testimonial-slider__nav">
+                    <button type="button" class="testimonial-slider__arrow cursor-small" data-prev aria-label="Попередній відгук" data-en-aria="Previous testimonial"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                    <div class="testimonial-slider__dots" data-dots></div>
+                    <button type="button" class="testimonial-slider__arrow cursor-small" data-next aria-label="Наступний відгук" data-en-aria="Next testimonial"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
                 </div>
             </div>
             <div class="row">
@@ -4598,6 +4672,177 @@
     .catch(function(){ show('fail', '#dc3545'); })
     .finally(function(){ if(btn) btn.disabled = false; });
   });
+})();
+</script>
+<!-- Newsletter (offcanvas) -> /api/contact -> Telegram -->
+<script>
+(function(){
+  var form = document.getElementById('subscribe-form');
+  if(!form) return;
+  var status = document.getElementById('subscribe-status');
+  var input  = form.querySelector('input[name="email"]');
+  var btn    = form.querySelector('button[type="submit"]');
+
+  var MSG = {
+    sending: { uk: 'Надсилаємо…', en: 'Sending…' },
+    ok:      { uk: 'Готово! Ви підписані.', en: 'Done! You are subscribed.' },
+    empty:   { uk: 'Вкажіть коректний email.', en: 'Please enter a valid email.' },
+    toomany: { uk: 'Забагато спроб. Спробуйте пізніше.', en: 'Too many attempts. Please try again later.' },
+    fail:    { uk: 'Не вдалося підписати. Напишіть нам у Telegram.', en: 'Could not subscribe. Please message us on Telegram.' }
+  };
+  function show(key, color){
+    if(!status) return;
+    var lang = document.documentElement.lang === 'en' ? 'en' : 'uk';
+    status.textContent = MSG[key][lang];
+    status.style.color = color;
+    status.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email = String((input && input.value) || '').trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('empty', '#dc3545'); return; }
+
+    if(btn) btn.disabled = true;
+    show('sending', '#9a9aa0');
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      // api/contact ждёт три поля; topic отличает подписку от обычной заявки
+      body: JSON.stringify({
+        topic: 'subscribe',
+        name: 'Підписка на розсилку',
+        contact: email,
+        message: 'Підписка на розсилку з сайту',
+        website: String((form.querySelector('input[name="website"]') || {}).value || '')
+      })
+    })
+    .then(function(r){
+      return r.json().catch(function(){ return {}; }).then(function(d){
+        return { status: r.status, ok: r.ok && d.ok };
+      });
+    })
+    .then(function(res){
+      if(res.ok){ form.reset(); show('ok', '#198754'); }
+      else if(res.status === 429){ show('toomany', '#dc3545'); }
+      else { show('fail', '#dc3545'); }
+    })
+    .catch(function(){ show('fail', '#dc3545'); })
+    .finally(function(){ if(btn) btn.disabled = false; });
+  });
+})();
+</script>
+<!-- Testimonials carousel: нативный scroll-snap, без сторонних слайдеров -->
+<script>
+(function(){
+  var root = document.querySelector('[data-testimonial-slider]');
+  if(!root) return;                       // секция есть только на главной
+  var track = root.querySelector('[data-track]');
+  var dotsBox = root.querySelector('[data-dots]');
+  var prev = root.querySelector('[data-prev]');
+  var next = root.querySelector('[data-next]');
+  var slides = track ? Array.prototype.slice.call(track.children) : [];
+  if(!track || !slides.length) return;
+
+  function gap(){
+    var g = parseFloat(getComputedStyle(track).columnGap);
+    return isNaN(g) ? 0 : g;
+  }
+  // «Страница» = столько карточек, сколько помещается в видимую часть трека.
+  function perView(){
+    var w = slides[0].getBoundingClientRect().width;
+    if(!w) return 1;
+    return Math.max(1, Math.round((track.clientWidth + gap()) / (w + gap())));
+  }
+  function pages(){ return Math.max(1, Math.ceil(slides.length / perView())); }
+  function step(){ return track.clientWidth + gap(); }
+  function index(){
+    var st = step();
+    return st ? Math.min(pages() - 1, Math.max(0, Math.round(track.scrollLeft / st))) : 0;
+  }
+
+  var dots = [];
+  function buildDots(){
+    if(!dotsBox) return;
+    var n = pages();
+    if(dots.length === n) return;         // ширина поменялась, но страниц столько же
+    dotsBox.innerHTML = '';
+    dots = [];
+    for(var i = 0; i < n; i++){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'testimonial-slider__dot cursor-small';
+      // имя автора отзыва как метка: на /en оно уже переведено разметкой
+      var h = (slides[i * perView()] || slides[0]).querySelector('h3');
+      b.setAttribute('aria-label', h ? h.textContent : String(i + 1));
+      b.addEventListener('click', (function(idx){
+        return function(){ slideTo(idx * step()); };
+      })(i));
+      dotsBox.appendChild(b);
+      dots.push(b);
+    }
+  }
+
+  function sync(){
+    var i = index(), last = pages() - 1;
+    for(var k = 0; k < dots.length; k++){
+      if(k === i) dots[k].setAttribute('aria-current', 'true');
+      else dots[k].removeAttribute('aria-current');
+    }
+    if(prev) prev.disabled = i <= 0;
+    if(next) next.disabled = i >= last;
+  }
+
+  // Нативний smooth-скрол тут не працює: ScrollSmoother перехоплює прокрутку,
+  // тому анімуємо стрічку самі. На час анімації знімаємо snap, інакше браузер
+  // кожен кадр притягує її назад до найближчої картки.
+  var REDUCED = window.matchMedia ? matchMedia('(prefers-reduced-motion: reduce)').matches : false;
+  var anim = 0, guard = 0;
+  function settle(left){
+    // snap не дає виставити позицію точно, тому знімаємо його на час присвоєння
+    track.style.scrollSnapType = 'none';
+    track.scrollLeft = left;
+    track.style.scrollSnapType = '';
+    sync();
+  }
+  function slideTo(left){
+    var max = Math.max(0, track.scrollWidth - track.clientWidth);
+    left = Math.max(0, Math.min(max, left));
+    cancelAnimationFrame(anim);
+    clearTimeout(guard);
+    if(REDUCED){ settle(left); return; }
+    var from = track.scrollLeft, dist = left - from, t0 = 0;
+    track.style.scrollSnapType = 'none';
+    // Якщо вкладка не малює кадри, rAF не спрацює зовсім — тоді дотягуємо стрічку таймером.
+    guard = setTimeout(function(){ cancelAnimationFrame(anim); settle(left); }, 700);
+    anim = requestAnimationFrame(function frame(ts){
+      if(!t0) t0 = ts;
+      var k = Math.min(1, (ts - t0) / 420);
+      track.scrollLeft = from + dist * (1 - Math.pow(1 - k, 3));
+      if(k < 1) anim = requestAnimationFrame(frame);
+      else { clearTimeout(guard); settle(left); }
+    });
+  }
+
+  function move(dir){ slideTo((index() + dir) * step()); }
+  if(prev) prev.addEventListener('click', function(){ move(-1); });
+  if(next) next.addEventListener('click', function(){ move(1); });
+
+  var raf = 0;
+  track.addEventListener('scroll', function(){
+    if(raf) return;
+    raf = requestAnimationFrame(function(){ raf = 0; sync(); });
+  }, { passive: true });
+
+  var rt = 0;
+  window.addEventListener('resize', function(){
+    clearTimeout(rt);
+    rt = setTimeout(function(){ buildDots(); sync(); }, 150);
+  });
+
+  buildDots();
+  sync();
 })();
 </script>
 <!-- Site search (magnifier in the header) -->
