@@ -476,10 +476,10 @@ for _f, _h, _a_uk, _a_en, _c_uk, _c_en in [
     ('bot-guide', 1030,
      'Вбудована інструкція для продавця в Telegram-боті - розділи довідки',
      'The built-in seller manual in the Telegram bot - the help sections',
-     'Довідка вбудована в бот і розбита на розділи - від першого запуску до оплати. Ціни й тривалість періодів '
-     'у ній підставляються з тих самих налаштувань, за якими списуються гроші, тож розійтись вони не можуть.',
-     'The manual is built into the bot and split into sections - from the first launch to billing. The prices and '
-     'periods in it come from the very settings the charges run on, so the two cannot drift apart.'),
+     'Довідка вбудована в бот і розбита на розділи - початок роботи, налаштування магазину, товари, інтеграції, '
+     'замовлення й підписка. Продавцю не треба шукати інструкцію деінде.',
+     'The manual is built into the bot and split into sections - getting started, store settings, products, '
+     'integrations, orders and the subscription. The seller never has to look for instructions elsewhere.'),
 ]:
     CASES['dropunion-app']['shots'][_f] = shot(_f, 'phone', _a_uk, _a_en, _c_uk, _c_en, h=_h)
 
@@ -614,8 +614,6 @@ CASES['dropunion-app']['body'] = [
          'Storefront styling from the bot: accent colour, banner and the line under the shop name'),
         ('Підписка з безкоштовним періодом, автосписанням WayForPay, повторними спробами і скасуванням у два кліки',
          'A subscription with a free period, WayForPay recurring billing, retries and a two-click cancellation'),
-        ('Вбудована довідка в боті, де ціни й строки підставляються з фактичних налаштувань біллінгу',
-         'A built-in manual in the bot where prices and periods are pulled from the actual billing settings'),
     ]),
 ]
 
