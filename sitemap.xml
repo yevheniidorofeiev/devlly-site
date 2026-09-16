@@ -1791,4 +1791,20 @@
     <lastmod>2026-08-04</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://devlly.dev/blog/telegram-mini-app-pid-klyuch</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-mini-app-pid-klyuch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-mini-app-pid-klyuch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-mini-app-pid-klyuch"/>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devlly.dev/en/blog/telegram-mini-app-pid-klyuch</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://devlly.dev/blog/telegram-mini-app-pid-klyuch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devlly.dev/en/blog/telegram-mini-app-pid-klyuch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devlly.dev/blog/telegram-mini-app-pid-klyuch"/>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
