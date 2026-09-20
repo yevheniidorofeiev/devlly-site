@@ -618,6 +618,231 @@ CASES['dropunion-app']['body'] = [
 ]
 
 
+# ---------------------------------------------------------------- NovaFit Ads Dashboard
+CASES['novafit-ads-dashboard'] = dict(
+    date='2026-09-20',
+    tag_uk='Маркетинг і аналітика', tag_en='Marketing and analytics',
+    cta_uk='Хочете такий самий контроль над своєю рекламою? Звʼяжіться з нами',
+    cta_en='Want the same control over your ad spend? Get in touch',
+    h1_uk='NovaFit - моніторинг реклами Google Ads і Meta Ads',
+    h1_en='NovaFit - Google Ads and Meta Ads performance monitoring',
+    title_uk='Моніторинг реклами з алертами в Telegram - кейс NovaFit | Devlly',
+    title_en='Ad performance monitoring with Telegram alerts - the NovaFit case study | Devlly',
+    desc_uk='Кейс Devlly: дашборд ефективності реклами Google Ads і Meta Ads у Google Таблиці, автоматична '
+            'детекція відхилень CPA і ROAS за ковзною медіаною та Telegram-бот зі щоденним звітом і алертами.',
+    desc_en='A Devlly case study: a Google Ads and Meta Ads performance dashboard in a Google Sheet, automatic '
+            'CPA and ROAS anomaly detection against a rolling median, and a Telegram bot with a daily report and alerts.',
+    keywords_uk='моніторинг реклами, дашборд google ads meta ads, алерти cpa roas, контроль рекламного бюджету, '
+                'звіт по рекламі в telegram, аналітика реклами в google таблиці, автоматизація маркетингу кейс',
+    keywords_en='ad performance monitoring, google ads meta ads dashboard, cpa roas alerts, ad budget control, '
+                'telegram ad report, ad analytics in google sheets, marketing automation case study',
+    lead_uk='NovaFit крутить рекламу одночасно в Google Ads і Meta Ads, і до цієї системи стан кампаній перевірявся '
+            'руками - у двох кабінетах, по черзі, коли до цього доходили руки. Тепер щоранку система сама забирає '
+            'вчорашні цифри, кладе їх у Google Таблицю з готовим дашбордом, порівнює кожну кампанію з її ж '
+            'медіаною за тиждень і, якщо CPA чи ROAS вийшли за поріг, пише про це в Telegram. Дорогий день видно '
+            'наступного ранку, а не в кінці місяця.',
+    lead_en='NovaFit runs ads on Google Ads and Meta Ads at the same time, and before this system the campaigns were '
+            'checked by hand - in two ad accounts, one after the other, whenever somebody found the time. Now every '
+            'morning the system pulls yesterday’s numbers on its own, drops them into a Google Sheet with a ready-made '
+            'dashboard, compares every campaign with its own median for the week and, if CPA or ROAS crossed a '
+            'threshold, says so in Telegram. An expensive day shows up the next morning, not at the end of the month.',
+    who_uk='Кому підходить: будь-якому бізнесу, що витрачає на рекламу відчутні гроші у двох і більше каналах - '
+           'інтернет-магазинам, фітнес-клубам, школам, клінікам, сервісам за підпискою. Особливо тим, у кого немає '
+           'штатного аналітика, а підрядник надсилає звіт раз на місяць.',
+    who_en='Who it fits: any business spending real money on ads across two or more channels - online stores, '
+           'fitness clubs, schools, clinics, subscription services. Especially those with no analyst on staff whose '
+           'agency sends a report once a month.',
+    stack=['Python', 'Google Sheets API', 'aiogram', 'APScheduler', 'Google Ads', 'Meta Ads'],
+    stack_uk='Стек: Python, Google Sheets API як сховище й дашборд, aiogram для Telegram-бота, APScheduler для '
+             'щоденного запуску. Джерело даних винесене за окремий інтерфейс.',
+    stack_en='Stack: Python, the Google Sheets API as both storage and dashboard, aiogram for the Telegram bot and '
+             'APScheduler for the daily run. The data source sits behind its own interface.',
+    shots={},
+)
+
+_TG = dict(w=664, h=855, ws=[480, 664], sizes='(max-width: 767px) 92vw, (max-width: 1199px) 45vw, 370px')
+for _f, _cls, _over, _a_uk, _a_en, _c_uk, _c_en in [
+    ('dash-top', 'wide', dict(h=819),
+     'Дашборд ефективності реклами Google Ads і Meta Ads у Google Таблиці - KPI, канали, кампанії',
+     'Google Ads and Meta Ads performance dashboard in a Google Sheet - KPIs, channels, campaigns',
+     'Верх дашборда: пʼять KPI за вчора з відхиленням від медіани за 7 днів, зведення по каналах і таблиця кампаній '
+     'зі статусом. Кампанія, що вийшла за поріг, підсвічується червоним прямо в рядку.',
+     'The top of the dashboard: five KPIs for yesterday with the deviation from the 7-day median, a channel summary '
+     'and a campaign table with a status. A campaign that crossed a threshold is highlighted red right in its row.'),
+    ('dash-charts', 'wide', dict(h=819),
+     'Графіки динаміки витрат, CPA, ROAS і конверсій по днях та журнал останніх алертів',
+     'Daily charts of spend, CPA, ROAS and conversions plus the log of recent alerts',
+     'Низ дашборда: чотири графіки по днях - витрати, CPA, ROAS і конверсії в розрізі каналів - і останні алерти '
+     'за тиждень з рівнем, метрикою, значенням проти медіани і текстом повідомлення.',
+     'The bottom of the dashboard: four daily charts - spend, CPA, ROAS and conversions by channel - and the alerts '
+     'for the week, each with its level, metric, value against the median and message text.'),
+    ('sheet-data', 'sheet', dict(h=710),
+     'Аркуш «Дані» - рядки по кампаніях за кожен день з витратами, конверсіями, CPA та ROAS',
+     'The data sheet - one row per campaign per day with spend, conversions, CPA and ROAS',
+     'Аркуш «Дані»: один рядок на кампанію на день - витрати, покази, кліки, CTR, конверсії, CPA і ROAS. Дохід '
+     'і позначка алерту рахуються формулами, тож таблицю можна фільтрувати й перевіряти як звичайну.',
+     'The data sheet: one row per campaign per day - spend, impressions, clicks, CTR, conversions, CPA and ROAS. '
+     'Revenue and the alert flag are formulas, so the sheet can be filtered and checked like any other.'),
+    ('sheet-incident', 'sheet', dict(h=710),
+     'Інцидент у таблиці: кампанія Meta Ads три дні поспіль підсвічена як критична за CPA і ROAS',
+     'An incident in the sheet: a Meta Ads campaign flagged critical on CPA and ROAS three days in a row',
+     'Так виглядає інцидент у даних: у «Холодної аудиторії» 9 вересня CPA піднявся на 67 % до медіани - жовта '
+     '«Увага», а з 10 по 12 вересня тримався на +130…+190 % при ROAS нижче 1,3x - три червоні «Критично» поспіль.',
+     'This is what an incident looks like in the data: on 9 September the cold-audience campaign’s CPA rose 67 % '
+     'above its median - a yellow warning - and from 10 to 12 September it stayed at +130…+190 % with ROAS below '
+     '1.3x - three red criticals in a row.'),
+    ('tg-start', 'bot', _TG,
+     'Telegram-бот моніторингу реклами - команди, підписка на алерти й перше критичне сповіщення',
+     'The ad monitoring Telegram bot - commands, alert subscription and the first critical notification',
+     'Після /start чат підписується на алерти. Кожне сповіщення - рівень, канал, кампанія, значення проти медіани '
+     'і посилання на дашборд.',
+     'After /start the chat is subscribed to alerts. Every notification carries the level, the channel, the campaign, '
+     'the value against the median and a link to the dashboard.'),
+    ('tg-report', 'bot', _TG,
+     'Щоденний звіт по рекламі в Telegram - витрати, конверсії, CPA і ROAS по каналах з відхиленням від медіани',
+     'The daily ad report in Telegram - spend, conversions, CPA and ROAS by channel with deviation from the median',
+     '/report - зведення за вчора по кожному каналу: витрати, покази, кліки, CTR, конверсії, CPA, ROAS з ✅ або ⚠️ '
+     'проти медіани, найбільша кампанія і кількість алертів за день.',
+     '/report - yesterday’s summary per channel: spend, impressions, clicks, CTR, conversions, CPA and ROAS marked ✅ or '
+     '⚠️ against the median, the biggest campaign and the number of alerts for the day.'),
+    ('tg-alerts', 'bot', _TG,
+     'Список відхилень CPA і ROAS за 14 днів у Telegram-боті з рівнями «Увага» і «Критично»',
+     'The 14-day list of CPA and ROAS anomalies in the Telegram bot with warning and critical levels',
+     '/alerts - усі відхилення за 14 днів у зворотному порядку, з рівнем і поясненням. Внизу - правила, за якими '
+     'вони спрацьовують, щоб не треба було памʼятати пороги.',
+     '/alerts - every anomaly from the last 14 days, newest first, with its level and explanation. The rules they fire '
+     'on are printed at the bottom so nobody has to remember the thresholds.'),
+]:
+    CASES['novafit-ads-dashboard']['shots'][_f] = shot(_f, _cls, _a_uk, _a_en, _c_uk, _c_en, **_over)
+
+CASES['novafit-ads-dashboard']['body'] = [
+    ('h2', 'Як влаштована система', 'How the system is put together'),
+    ('p', 'Три частини, одна таблиця. Google Таблиця - і сховище, і дашборд: у неї лягають денні рядки по кампаніях, '
+          'а оформлення, формули й графіки живуть прямо в ній. Модуль детекції читає ці ж рядки й вирішує, чи є '
+          'відхилення. Telegram-бот показує зведення на запит і розсилає нові алерти. Щоранку о 09:00 за Києвом '
+          'планувальник проганяє весь ланцюжок: забрати вчорашній день - записати - перерахувати - перевірити - '
+          'сповістити.',
+          'Three parts, one sheet. The Google Sheet is both the storage and the dashboard: the daily campaign rows land '
+          'in it, and the styling, formulas and charts live right there. The detection module reads those same rows and '
+          'decides whether anything deviates. The Telegram bot shows summaries on request and sends out new alerts. '
+          'Every morning at 09:00 Kyiv time the scheduler runs the whole chain: fetch yesterday - write - recalculate - '
+          'check - notify.'),
+    ('p', 'Джерело даних навмисно відокремлене від усього іншого інтерфейсом з одним методом - віддати рядки метрик '
+          'за період. Конектор до Google Ads API чи Meta Marketing API підключається окремим класом, а сховище, '
+          'детекція, бот і оформлення таблиці при цьому не змінюються.',
+          'The data source is deliberately separated from everything else by an interface with a single method - '
+          'return the metric rows for a period. A connector to the Google Ads API or the Meta Marketing API plugs in as '
+          'its own class, while the storage, detection, bot and sheet styling stay untouched.'),
+
+    ('h3', '1. Дашборд у Google Таблиці', '1. The dashboard in a Google Sheet'),
+    ('p', 'Аркуш «Дашборд» зверстаний під екран 1920x1080, щоб його можна було відкрити на моніторі чи телевізорі '
+          'в офісі і не гортати. Зверху - пʼять KPI за вчора (витрати, конверсії, CPA, ROAS, CTR), кожен з '
+          'відхиленням від медіани за 7 днів. Нижче - зведення по каналах і таблиця кампаній: витрати, кліки, CTR, '
+          'конверсії, CPA, ROAS, зміна до попереднього тижня і статус «У нормі» або «Критично».',
+          'The dashboard sheet is laid out for a 1920x1080 screen so it can be opened on an office monitor or TV '
+          'without scrolling. At the top - five KPIs for yesterday (spend, conversions, CPA, ROAS, CTR), each with its '
+          'deviation from the 7-day median. Below - a channel summary and a campaign table: spend, clicks, CTR, '
+          'conversions, CPA, ROAS, the change against the previous week and a status of either normal or critical.'),
+    ('p', 'Далі чотири графіки по днях - витрати, CPA, ROAS і конверсії, кожен у розрізі Google / Meta / разом - і '
+          'журнал останніх алертів. Окремого BI-інструмента й ліцензії немає: клієнт відкриває звичайну таблицю у '
+          'своєму акаунті, може відфільтрувати, скопіювати чи вивантажити що завгодно. Локаль - українська: суми в '
+          'гривнях, десяткова кома, дати дд.мм.рррр.',
+          'Then four daily charts - spend, CPA, ROAS and conversions, each split into Google / Meta / total - and the '
+          'log of recent alerts. There is no separate BI tool and no licence: the client opens an ordinary sheet in '
+          'their own account and can filter, copy or export whatever they need. The locale is Ukrainian: amounts in '
+          'hryvnia, a decimal comma, dd.mm.yyyy dates.'),
+    ('shots', None, ['dash-top', 'dash-charts']),
+
+    ('h3', '2. Дані та формули', '2. Data and formulas'),
+    ('p', 'Під дашбордом - три робочі аркуші. «Дані» тримає один рядок на кампанію на день з усіма метриками; дохід '
+          'і позначка алерту в ньому рахуються формулами, а не записуються кодом, тож будь-яке число можна '
+          'перевірити кліком. «Щоденно» згортає ті самі рядки в денні агрегати по Google, Meta і разом. «Алерти» - '
+          'журнал відхилень з датою, рівнем, значенням, медіаною і текстом повідомлення.',
+          'Under the dashboard sit three working sheets. The data sheet holds one row per campaign per day with every '
+          'metric; revenue and the alert flag are calculated by formulas rather than written by code, so any figure can '
+          'be checked with a click. The daily sheet rolls those same rows up into per-day aggregates for Google, Meta '
+          'and both. The alerts sheet is the anomaly log with the date, level, value, median and message text.'),
+    ('shots', None, ['sheet-data']),
+
+    ('h3', '3. Як ловляться відхилення', '3. How anomalies are caught'),
+    ('p', 'Для кожної кампанії і кожного дня береться медіана CPA і ROAS за 7 попередніх днів - поточний день у '
+          'вікно не входить - і поточне значення порівнюється з нею. Саме медіана, а не середнє: один аномальний '
+          'день усередині вікна не зсуває базу, тож система не звикає до поганого.',
+          'For every campaign and every day the system takes the median CPA and ROAS of the 7 previous days - the '
+          'current day is left out of the window - and compares the current value against it. The median rather than '
+          'the mean on purpose: one anomalous day inside the window does not shift the baseline, so the system never '
+          'gets used to bad numbers.'),
+    ('p', 'Пороги два. «Увага» - CPA на 60 % вище медіани або ROAS на 40 % нижче, і лише якщо це тримається два дні '
+          'поспіль: один поганий день - ще не інцидент. «Критично» - CPA на 120 % вище або ROAS на 60 % нижче, '
+          'спрацьовує одразу; нуль конверсій при витратах теж критично. На кампанію за день формується один алерт: '
+          'CPA основна метрика, ROAS додаткова.',
+          'There are two thresholds. Warning - CPA 60 % above the median or ROAS 40 % below, and only if it holds for '
+          'two days in a row: one bad day is not yet an incident. Critical - CPA 120 % above or ROAS 60 % below, fires '
+          'immediately; zero conversions with spend is critical too. One alert per campaign per day: CPA is the primary '
+          'metric, ROAS the secondary.'),
+    ('shots', None, ['sheet-incident']),
+
+    ('h3', '4. Telegram-бот', '4. The Telegram bot'),
+    ('p', 'Бот - те, що власник бачить щодня. Після /start чат підписується на алерти й отримує їх автоматично після '
+          'ранкового оновлення. /report показує зведення за вчора по кожному каналу з позначками ✅ і ⚠️ проти '
+          'медіани, /alerts - усі відхилення за 14 днів. У кожному повідомленні є посилання «Відкрити дашборд», '
+          'тож від алерту до таблиці - один дотик.',
+          'The bot is what the owner sees every day. After /start the chat is subscribed to alerts and receives them '
+          'automatically after the morning update. /report shows yesterday’s summary per channel with ✅ and ⚠️ marks '
+          'against the median, /alerts lists every anomaly from the last 14 days. Every message carries an "Open the '
+          'dashboard" link, so it is one tap from an alert to the sheet.'),
+    ('shots', 'col-md-6 col-xl-4', ['tg-start', 'tg-report', 'tg-alerts']),
+
+    ('h2', 'Ключова логіка', 'The logic that matters'),
+    ('list', [
+        ('База порівняння - медіана за 7 попередніх днів по кожній кампанії окремо, а не середнє по акаунту: '
+         'дорога кампанія не маскується дешевою',
+         'The baseline is the 7-day median of each campaign on its own, not the account average: an expensive '
+         'campaign cannot hide behind a cheap one'),
+        ('Два рівні з різною чутливістю: «Увага» вимагає підтвердження другим днем, «Критично» спрацьовує одразу - '
+         'менше шуму, але серйозне не пропускається',
+         'Two levels with different sensitivity: a warning needs a second day to confirm, a critical fires at once - '
+         'less noise, yet nothing serious slips through'),
+        ('Дедуплікація за датою і кампанією: розсилаються лише нові алерти, повторний запуск не спамить старими',
+         'Deduplication by date and campaign: only new alerts are sent, a re-run never spams old ones'),
+        ('Google Таблиця замість BI: жодних ліцензій, дані лишаються в акаунті клієнта, формули можна перевірити',
+         'A Google Sheet instead of BI: no licences, the data stays in the client’s account, the formulas can be audited'),
+        ('Формули пишуться в коді в en_US-синтаксисі й перекладаються під локаль таблиці перед записом - таблиця '
+         'лишається українською',
+         'Formulas are written in code in en_US syntax and translated to the sheet’s locale before writing - the sheet '
+         'stays Ukrainian'),
+        ('Джерело даних за інтерфейсом: конектор до рекламного кабінету підключається без змін у решті системи',
+         'The data source sits behind an interface: an ad-account connector plugs in with no changes elsewhere'),
+    ]),
+
+    ('h2', 'Що вміє система', 'What the system can do'),
+    ('list', [
+        ('Щоденне автоматичне оновлення даних о 09:00 за Києвом без участі людини',
+         'Automatic daily data refresh at 09:00 Kyiv time with nobody involved'),
+        ('Дашборд у Google Таблиці під екран 1920x1080: KPI, канали, кампанії, чотири графіки, останні алерти',
+         'A Google Sheet dashboard laid out for 1920x1080: KPIs, channels, campaigns, four charts, recent alerts'),
+        ('Порівняння кожного показника з медіаною за 7 днів прямо в KPI-плитках і таблицях',
+         'Every metric compared with its 7-day median right in the KPI tiles and tables'),
+        ('Статус кампанії «У нормі» або «Критично» з підсвіткою рядка',
+         'A campaign status of normal or critical with the row highlighted'),
+        ('Аркуш даних з одним рядком на кампанію на день і формулами доходу та алерту',
+         'A data sheet with one row per campaign per day and formulas for revenue and the alert flag'),
+        ('Денні агрегати по Google, Meta і разом на окремому аркуші',
+         'Daily aggregates for Google, Meta and both on a separate sheet'),
+        ('Журнал алертів з рівнем, метрикою, значенням, медіаною, відхиленням і часом фіксації',
+         'An alert log with the level, metric, value, median, deviation and the time it was recorded'),
+        ('Детекція відхилень CPA і ROAS за ковзною медіаною з двома рівнями і правилом двох днів для «Уваги»',
+         'CPA and ROAS anomaly detection against a rolling median with two levels and a two-day rule for warnings'),
+        ('Telegram-бот: /report за вчора по каналах, /alerts за 14 днів, підписка й відписка від сповіщень',
+         'A Telegram bot: /report for yesterday by channel, /alerts for 14 days, subscribe and unsubscribe'),
+        ('Автоматична розсилка лише нових алертів після кожного оновлення',
+         'Automatic delivery of new alerts only, after every refresh'),
+        ('CLI для ручних операцій: завантажити історію, додати день, перевірити, розіслати',
+         'A CLI for manual operations: load history, add a day, check, send'),
+    ]),
+]
+
+
 # ------------------------------------------------------------------- сборка head
 def head(slug, en=False):
     C = CASES[slug]
