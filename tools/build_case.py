@@ -638,12 +638,12 @@ CASES['novafit-ads-dashboard'] = dict(
                 'telegram ad report, ad analytics in google sheets, marketing automation case study',
     lead_uk='NovaFit крутить рекламу одночасно в Google Ads і Meta Ads, і до цієї системи стан кампаній перевірявся '
             'руками - у двох кабінетах, по черзі, коли до цього доходили руки. Тепер щоранку система сама забирає '
-            'вчорашні цифри, кладе їх у Google Таблицю з готовим дашбордом, порівнює кожну кампанію з її ж '
+            'вчорашні цифри з обох рекламних кабінетів, кладе їх у Google Таблицю з готовим дашбордом, порівнює кожну кампанію з її ж '
             'медіаною за тиждень і, якщо CPA чи ROAS вийшли за поріг, пише про це в Telegram. Дорогий день видно '
             'наступного ранку, а не в кінці місяця.',
     lead_en='NovaFit runs ads on Google Ads and Meta Ads at the same time, and before this system the campaigns were '
             'checked by hand - in two ad accounts, one after the other, whenever somebody found the time. Now every '
-            'morning the system pulls yesterday’s numbers on its own, drops them into a Google Sheet with a ready-made '
+            'morning the system pulls yesterday’s numbers from both ad accounts on its own, drops them into a Google Sheet with a ready-made '
             'dashboard, compares every campaign with its own median for the week and, if CPA or ROAS crossed a '
             'threshold, says so in Telegram. An expensive day shows up the next morning, not at the end of the month.',
     who_uk='Кому підходить: будь-якому бізнесу, що витрачає на рекламу відчутні гроші у двох і більше каналах - '
@@ -652,11 +652,11 @@ CASES['novafit-ads-dashboard'] = dict(
     who_en='Who it fits: any business spending real money on ads across two or more channels - online stores, '
            'fitness clubs, schools, clinics, subscription services. Especially those with no analyst on staff whose '
            'agency sends a report once a month.',
-    stack=['Python', 'Google Sheets API', 'aiogram', 'APScheduler', 'Google Ads', 'Meta Ads'],
-    stack_uk='Стек: Python, Google Sheets API як сховище й дашборд, aiogram для Telegram-бота, APScheduler для '
-             'щоденного запуску. Джерело даних винесене за окремий інтерфейс.',
-    stack_en='Stack: Python, the Google Sheets API as both storage and dashboard, aiogram for the Telegram bot and '
-             'APScheduler for the daily run. The data source sits behind its own interface.',
+    stack=['Python', 'Google Ads API', 'Meta Marketing API', 'Google Sheets API', 'aiogram', 'APScheduler'],
+    stack_uk='Стек: Python, конектори до Google Ads API і Meta Marketing API, Google Sheets API як сховище й '
+             'дашборд, aiogram для Telegram-бота, APScheduler для щоденного запуску.',
+    stack_en='Stack: Python, connectors to the Google Ads API and the Meta Marketing API, the Google Sheets API as '
+             'both storage and dashboard, aiogram for the Telegram bot and APScheduler for the daily run.',
     shots={},
 )
 
@@ -720,19 +720,21 @@ CASES['novafit-ads-dashboard']['body'] = [
     ('p', 'Три частини, одна таблиця. Google Таблиця - і сховище, і дашборд: у неї лягають денні рядки по кампаніях, '
           'а оформлення, формули й графіки живуть прямо в ній. Модуль детекції читає ці ж рядки й вирішує, чи є '
           'відхилення. Telegram-бот показує зведення на запит і розсилає нові алерти. Щоранку о 09:00 за Києвом '
-          'планувальник проганяє весь ланцюжок: забрати вчорашній день - записати - перерахувати - перевірити - '
+          'планувальник проганяє весь ланцюжок: забрати вчорашній день з Google Ads і Meta Ads - записати - перерахувати - перевірити - '
           'сповістити.',
           'Three parts, one sheet. The Google Sheet is both the storage and the dashboard: the daily campaign rows land '
           'in it, and the styling, formulas and charts live right there. The detection module reads those same rows and '
           'decides whether anything deviates. The Telegram bot shows summaries on request and sends out new alerts. '
-          'Every morning at 09:00 Kyiv time the scheduler runs the whole chain: fetch yesterday - write - recalculate - '
+          'Every morning at 09:00 Kyiv time the scheduler runs the whole chain: fetch yesterday from Google Ads and Meta Ads - write - recalculate - '
           'check - notify.'),
-    ('p', 'Джерело даних навмисно відокремлене від усього іншого інтерфейсом з одним методом - віддати рядки метрик '
-          'за період. Конектор до Google Ads API чи Meta Marketing API підключається окремим класом, а сховище, '
-          'детекція, бот і оформлення таблиці при цьому не змінюються.',
-          'The data source is deliberately separated from everything else by an interface with a single method - '
-          'return the metric rows for a period. A connector to the Google Ads API or the Meta Marketing API plugs in as '
-          'its own class, while the storage, detection, bot and sheet styling stay untouched.'),
+    ('p', 'Цифри беруться напряму з рекламних кабінетів: конектор до Google Ads API забирає денні метрики по '
+          'кампаніях з Google, конектор до Meta Marketing API - з Meta. Обидва ховаються за одним інтерфейсом з '
+          'єдиним методом - віддати рядки метрик за період, - тому третій канал, скажімо TikTok Ads, додається '
+          'ще одним класом, а сховище, детекція, бот і оформлення таблиці при цьому не змінюються.',
+          'The numbers come straight from the ad accounts: a Google Ads API connector pulls the daily campaign '
+          'metrics from Google, a Meta Marketing API connector pulls them from Meta. Both sit behind one interface '
+          'with a single method - return the metric rows for a period - so a third channel, say TikTok Ads, is one '
+          'more class, while the storage, detection, bot and sheet styling stay untouched.'),
 
     ('h3', '1. Дашборд у Google Таблиці', '1. The dashboard in a Google Sheet'),
     ('p', 'Аркуш «Дашборд» зверстаний під екран 1920x1080, щоб його можна було відкрити на моніторі чи телевізорі '
@@ -811,14 +813,16 @@ CASES['novafit-ads-dashboard']['body'] = [
          'лишається українською',
          'Formulas are written in code in en_US syntax and translated to the sheet’s locale before writing - the sheet '
          'stays Ukrainian'),
-        ('Джерело даних за інтерфейсом: конектор до рекламного кабінету підключається без змін у решті системи',
-         'The data source sits behind an interface: an ad-account connector plugs in with no changes elsewhere'),
+        ('Google Ads і Meta Ads за одним інтерфейсом: конектори до обох API взаємозамінні, новий канал - ще один '
+         'клас без змін у решті системи',
+         'Google Ads and Meta Ads behind one interface: the two API connectors are interchangeable, and a new channel '
+         'is one more class with no changes elsewhere'),
     ]),
 
     ('h2', 'Що вміє система', 'What the system can do'),
     ('list', [
-        ('Щоденне автоматичне оновлення даних о 09:00 за Києвом без участі людини',
-         'Automatic daily data refresh at 09:00 Kyiv time with nobody involved'),
+        ('Щоденне автоматичне вивантаження метрик з Google Ads API і Meta Marketing API о 09:00 за Києвом',
+         'Automatic daily metric pull from the Google Ads API and the Meta Marketing API at 09:00 Kyiv time'),
         ('Дашборд у Google Таблиці під екран 1920x1080: KPI, канали, кампанії, чотири графіки, останні алерти',
          'A Google Sheet dashboard laid out for 1920x1080: KPIs, channels, campaigns, four charts, recent alerts'),
         ('Порівняння кожного показника з медіаною за 7 днів прямо в KPI-плитках і таблицях',
