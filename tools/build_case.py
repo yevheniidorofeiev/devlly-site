@@ -68,6 +68,8 @@ GEOM = {
     'bot1':  dict(w=696, h=878, ws=[480, 696], sizes='(max-width: 767px) 92vw, (max-width: 1199px) 45vw, 470px'),
     # снимки экрана телефона и Mini App: высота у каждого своя, передаётся через override
     'phone': dict(w=476, h=1030, ws=[320, 476], sizes='(max-width: 1199px) 45vw, 270px'),
+    # окно десктопной программы: крупный вариант = нативная ширина, апскейл только мылит текст
+    'win':   dict(w=1196, h=819, ws=[800, 1196], sizes='(max-width: 1199px) 100vw, 1150px'),
 }
 
 
@@ -843,6 +845,336 @@ CASES['novafit-ads-dashboard']['body'] = [
          'Automatic delivery of new alerts only, after every refresh'),
         ('CLI для ручних операцій: завантажити історію, додати день, перевірити, розіслати',
          'A CLI for manual operations: load history, add a day, check, send'),
+    ]),
+]
+
+
+# ------------------------------------------------------------------- MarginTracker
+CASES['margintracker'] = dict(
+    date='2026-10-05',
+    tag_uk='Фінанси та аналітика', tag_en='Finance and analytics',
+    cta_uk='Зводите звіт руками? Розкажіть про свої дані - подивимось, що можна автоматизувати',
+    cta_en='Still building the report by hand? Tell us about your data and we will see what can be automated',
+    h1_uk='MarginTracker - звіт по маржі з трьох CRM і Нової Пошти',
+    h1_en='MarginTracker - a margin report from three CRMs and Nova Poshta',
+    title_uk='Програма для звіту по маржі з CRM - кейс MarginTracker | Devlly',
+    title_en='A desktop app for margin reporting from CRMs - the MarginTracker case study | Devlly',
+    desc_uk='Кейс Devlly: десктопна програма, що збирає замовлення з двох CRM-систем, додає собівартість '
+            'і вартість зворотної доставки Новою Поштою та записує фінансовий звіт по кожному сайту '
+            'у Google Таблицю.',
+    desc_en='A Devlly case study: a desktop app that collects orders from two CRM systems, adds product cost '
+            'and the price of return shipping with Nova Poshta, and writes a per-site financial report into '
+            'a Google Sheet.',
+    keywords_uk='звіт по маржі, автоматизація фінансового звіту, облік собівартості товарів, вивантаження '
+                'замовлень з crm, інтеграція lp-crm salesdrive, вартість повернення нова пошта, '
+                'десктопна програма для бізнесу, звіт у google таблицю',
+    keywords_en='margin report, financial report automation, product cost accounting, exporting orders from crm, '
+                'lp-crm salesdrive integration, nova poshta return cost, desktop app for business, '
+                'report into google sheets',
+    lead_uk='MarginTracker - програма для Windows, яка раз на місяць робить те, на що раніше йшли робочі дні. '
+            'Вона збирає замовлення з двох CRM-систем, у які падають заявки з кількох інтернет-магазинів, '
+            'підставляє собівартість товарів, витягує з Нової Пошти вартість доставки по кожному поверненню '
+            'і записує готовий звіт у Google Таблицю - рядок на кожен сайт плюс підсумковий «РАЗОМ».',
+    lead_en='MarginTracker is a Windows app that does in one pass what used to take working days. It collects '
+            'orders from the two CRM systems the online stores feed into, fills in product cost, pulls the '
+            'shipping cost of every return out of Nova Poshta, and writes the finished report into a Google '
+            'Sheet - one row per store plus a grand total.',
+    who_uk='Кому підходить: товарному бізнесу з кількома магазинами, у якого замовлення живуть у різних CRM, '
+           'частина посилок повертається, а маржу досі зводять в Excel руками. Чим більше замовлень за місяць, '
+           'тим дорожча ручна робота і тим дешевше обходиться помилка, якої не сталося.',
+    who_en='Who it fits: product businesses running several stores whose orders live in different CRMs, where '
+           'some parcels come back and the margin is still pieced together in Excel by hand. The more orders a '
+           'month, the more the manual work costs - and the more an avoided mistake is worth.',
+    stack=['Python 3', 'CustomTkinter', 'requests', 'openpyxl', 'gspread', 'PyInstaller'],
+    stack_uk='Стек: Python 3, CustomTkinter для інтерфейсу, requests для роботи з API, openpyxl для локального '
+             'сховища собівартості, gspread і google-auth для запису в таблицю. Збірка в один exe через '
+             'PyInstaller - у замовника на машині нічого ставити не треба.',
+    stack_en='Stack: Python 3, CustomTkinter for the interface, requests for the APIs, openpyxl for the local '
+             'cost storage, gspread and google-auth for writing to the sheet. Packaged into a single exe with '
+             'PyInstaller - nothing to install on the client’s machine.',
+    shots={},
+)
+
+_WARN = dict(w=656, h=579, ws=[480, 656], sizes='(max-width: 767px) 92vw, 640px')
+for _f, _cls, _over, _a_uk, _a_en, _c_uk, _c_en in [
+    ('step1-collecting', 'win', {},
+     'Програма для звіту по маржі - крок збору замовлень з CRM, прогрес і журнал виконання',
+     'Margin reporting app - the order collection step with a progress bar and an execution log',
+     'Крок 1 під час збору: обраний період, прогрес і журнал по кожному джерелу. Поки триває збір, навігація '
+     'заблокована - на наступний крок не можна піти з напівзібраними даними.',
+     'Step 1 while collecting: the chosen period, the progress bar and a log per source. While the collection '
+     'runs the navigation is locked - you cannot move on with half the data.'),
+    ('step1-done', 'win', {},
+     'Підсумок збору замовлень: кількість замовлень по кожному акаунту CRM, сайтів і унікальних товарів',
+     'Collection summary: the order count for each CRM account, the number of stores and unique products',
+     'Той самий екран після збору: скільки замовлень віддало кожне джерело окремо - два акаунти LP-CRM і '
+     'SalesDrive - плюс кількість сайтів і унікальних товарів за період.',
+     'The same screen once collection is done: how many orders each source returned on its own - two LP-CRM '
+     'accounts and SalesDrive - plus the number of stores and unique products for the period.'),
+    ('step2-costs', 'win', {},
+     'Таблиця собівартості товарів: заповнені позиції з минулих місяців і нові підсвічені жовтим',
+     'The product cost table: items carried over from previous months and new ones highlighted in yellow',
+     'Крок 2: редагована таблиця собівартості. Товари, які вже заповнювали раніше, підтягуються самі, нові '
+     'підсвічені жовтим. Є пошук, фільтр «лише без собівартості» і лічильник незаповнених у правому куті.',
+     'Step 2: the editable cost table. Items filled in before are pulled in automatically, new ones are '
+     'highlighted yellow. There is a search box, a "missing cost only" filter and a counter in the corner.'),
+    ('step2-collisions-btn', 'win', {},
+     'Кнопка «Колізії: 2 потребують уваги» на екрані собівартості',
+     'The "Collisions: 2 need attention" button on the cost screen',
+     'Той самий екран з кнопкою «Колізії: 2 потребують уваги». Вона зʼявляється тоді, коли CRM віддала під '
+     'одним номером замовлення не повністю - про це нижче.',
+     'The same screen with a "Collisions: 2 need attention" button. It appears when the CRM returned only part '
+     'of what lives under one order number - more on that below.'),
+    ('collisions-window', 'win', dict(w=1136, h=659, ws=[800, 1136]),
+     'Ручний етап для колізій order_id: версії замовлень під одним номером і форма введення',
+     'The manual stage for order_id collisions: the versions living under one number and the input form',
+     'Ручний етап для колізій. Зліва по кожному номеру видно, що саме віддало API, і чого бракує. Справа - '
+     'картка вже отриманого замовлення і форма, у якій поля змінюються залежно від обраного статусу: для '
+     'продажу це сайт, товар, кількість і сума.',
+     'The manual stage for collisions. On the left, for every number, what the API actually returned and what '
+     'is missing. On the right, the order already received and a form whose fields change with the chosen '
+     'status: for a sale that is the store, the product, the quantity and the amount.'),
+    ('step3-report', 'win', {},
+     'Порахований фінансовий звіт: виручка, собівартість, розділена маржа і доставка по поверненнях',
+     'The calculated financial report: revenue, cost, split margin and delivery costs on returns',
+     'Крок 3: звіт порахований. Виручка, собівартість, маржа окремо по основному товару і по допродажах, '
+     'кількість повернень і те, скільки зʼїла доставка по них. Нижче - зауваження, які програма знайшла сама.',
+     'Step 3: the report is calculated. Revenue, cost, margin split between the main product and upsells, the '
+     'number of returns and how much their delivery ate. Below it - the remarks the program found by itself.'),
+    ('step3-sheet-preview', 'win', {},
+     'Попередній перегляд вмісту Google Таблиці: рядок на кожен сайт і підсумковий «РАЗОМ»',
+     'A preview of the Google Sheet contents: one row per store plus a grand total row',
+     'Той самий екран, прокручений донизу: попередження про подвійний облік ТТН і точний вміст, який піде в '
+     'Google Таблицю - рядок на кожен сайт і підсумковий «РАЗОМ» з усіма колонками звіту.',
+     'The same screen scrolled down: a warning about double-counted waybills and the exact content that will '
+     'go into the Google Sheet - one row per store and a grand total with every column of the report.'),
+    ('report-warnings', 'win', _WARN,
+     'Вікно зауважень до звіту: товари без собівартості й необроблені колізії з прикладами',
+     'The report remarks dialog: products without a cost and unprocessed collisions with examples',
+     'Розбір проблем перед записом. Розрахунок не зупиняється - програма показує, що саме може зробити цифри '
+     'неточними, з конкретними прикладами, і дає вибір: прийняти як є або повернутись і виправити.',
+     'The problem review before writing. The calculation does not stop - the program shows exactly what could '
+     'make the figures inaccurate, with concrete examples, and offers a choice: accept as is, or go back and fix.'),
+]:
+    CASES['margintracker']['shots'][_f] = shot(_f, _cls, _a_uk, _a_en, _c_uk, _c_en, **_over)
+
+CASES['margintracker']['body'] = [
+    ('h2', 'Яка була задача', 'The problem'),
+    ('p', 'Замовник - товарний бізнес із кількома інтернет-магазинами. Заявки з лендінгів падають у дві різні '
+          'CRM-системи, товар їде Новою Поштою, частина посилок повертається. Щоб зрозуміти, скільки реально '
+          'заробили за місяць, звіт зводили руками: вивантажували замовлення з кожної CRM окремо, зліплювали в '
+          'Excel, підставляли собівартість і окремо рахували, скільки зʼїли повернення. На кілька тисяч '
+          'замовлень це займало робочі дні, і кожен перенос цифри був шансом на помилку.',
+          'The client is a product business running several online stores. Leads from landing pages fall into two '
+          'different CRM systems, the goods travel with Nova Poshta and some parcels come back. To find out what '
+          'the month actually earned, the report was assembled by hand: export the orders from each CRM, glue '
+          'them together in Excel, fill in the cost and work out separately how much the returns ate. For a few '
+          'thousand orders that took working days, and every number carried over by hand was a chance to slip.'),
+    ('p', 'Складність тут не в арифметиці. Вона в тому, що дані треба зібрати з трьох різних API з різними '
+          'обмеженнями, звести докупи різні написання одного й того ж товару та сайту - і дістати вартість '
+          'зворотної доставки, якої немає ні в CRM, ні в жодному звіті перевізника.',
+          'The hard part is not the arithmetic. It is that the data has to be collected from three different APIs '
+          'with different limits, that the same product and the same store are spelled differently in each of '
+          'them, and that the cost of return shipping exists neither in the CRM nor in any report the carrier '
+          'provides.'),
+
+    ('h2', 'Як це працює', 'How it works'),
+    ('p', 'Програма веде користувача трьома кроками, і перейти далі, не закривши поточний, не можна. Збір - '
+          'собівартість - звіт. Усе локально, у вікні на робочому столі: один exe, зібраний PyInstaller, '
+          'нічого встановлювати не треба.',
+          'The app walks the user through three steps, and you cannot move on before the current one is done. '
+          'Collect - cost - report. Everything runs locally in a desktop window: a single exe built with '
+          'PyInstaller, nothing to install.'),
+    ('p', 'Усі цифри, сайти, товари й номери на знімках нижче - вигадані. Це демо-режим програми, у якому можна '
+          'пройти всі три кроки без жодного ключа API: інтерфейс і розрахунки справжні, дані згенеровані '
+          'спеціально для портфоліо і не перетинаються з даними замовника.',
+          'Every figure, store, product and number in the screenshots below is invented. This is the app’s demo '
+          'mode, where all three steps can be walked through without a single API key: the interface and the '
+          'calculations are real, the data was generated for this portfolio and has nothing to do with the '
+          'client’s own.'),
+
+    ('h3', '1. Збір замовлень', '1. Collecting the orders'),
+    ('p', 'Користувач обирає період і тисне «Зібрати». Програма по черзі опитує джерела і показує, що саме '
+          'зараз робить. LP-CRM віддає дані в три заходи: спочатку довідник статусів, потім по кожному статусу '
+          'список номерів, потім самі замовлення пачками по сто. У SalesDrive жорсткі ліміти - порядку сотні '
+          'запитів на годину, - тому збір іде з паузами і контролем залишку квоти, а назви кастомних полів '
+          'мапляться через конфіг, бо в кожного акаунта вони свої.',
+          'The user picks a period and presses "Collect". The app queries the sources one by one and shows what '
+          'it is doing. LP-CRM gives up its data in three passes: the status reference first, then the list of '
+          'order numbers per status, then the orders themselves in batches of a hundred. SalesDrive has hard '
+          'limits - on the order of a hundred requests an hour - so collection runs with pauses and a quota '
+          'check, and the custom field names are mapped through a config because every account names them '
+          'differently.'),
+    ('shots', None, ['step1-collecting', 'step1-done']),
+
+    ('h3', '2. Собівартість товарів', '2. Product cost'),
+    ('p', 'Другий крок - редагована таблиця всіх товарів періоду. Те, що заповнювали минулого місяця, '
+          'підставляється саме; нові позиції підсвічені жовтим, щоб їх не можна було пропустити. Введені ціни '
+          'лягають у локальний xlsx і живуть між запусками, а запис у файли атомарний: обрив на півдорозі не '
+          'псує сховище.',
+          'The second step is an editable table of every product in the period. Whatever was filled in last month '
+          'is pre-filled; new items are highlighted yellow so they cannot be missed. The entered prices go into a '
+          'local xlsx and survive between runs, and writes to the local files are atomic: an interruption '
+          'halfway through does not corrupt the storage.'),
+    ('shots', None, ['step2-costs', 'step2-collisions-btn']),
+
+    ('h3', '3. Звіт', '3. The report'),
+    ('p', 'На третьому кроці програма рахує метрики, підтягує вартість доставки по поверненнях і показує '
+          'точний вміст, який піде в таблицю. Рядок на кожен сайт і підсумковий «РАЗОМ»: кількість заявок і '
+          'забраних, виручка, собівартість, маржа допродаж, маржа основна, кількість повернень і доставка по '
+          'них, а також скільки ТТН не пораховано і скільки товарів лишилось без собівартості.',
+          'On the third step the app calculates the metrics, pulls in the delivery cost of the returns and shows '
+          'the exact content that will go into the sheet. One row per store plus a grand total: the number of '
+          'leads and of collected orders, revenue, cost, upsell margin, main margin, the number of returns and '
+          'their delivery cost, plus how many waybills went uncounted and how many products are still missing a '
+          'cost.'),
+    ('p', 'Маржа розділена на дві навмисно. Основний товар продає реклама, допродаж продає оператор - для '
+          'бізнесу це різні гроші, і дивляться на них окремо. Статуси замовлень зводяться у три групи через '
+          'конфіг: успішні йдуть у виручку, повернення рахуються окремо, решта свідомо не враховується. Статус, '
+          'якого немає в жодній групі, нічого не ламає: програма дорахує звіт і покаже список нових статусів '
+          'окремим зауваженням.',
+          'The margin is split in two on purpose. Advertising sells the main product, the operator sells the '
+          'upsell - for the business these are different money and they are looked at separately. Order statuses '
+          'are folded into three groups through a config: successful ones go into revenue, returns are counted '
+          'separately, the rest is deliberately ignored. A status that belongs to no group breaks nothing: the '
+          'app finishes the report and lists the new statuses as a separate remark.'),
+    ('p', 'Запис у Google Таблицю йде через службовий акаунт і пакетно - кілька запитів на весь звіт, а не '
+          'рядок за рядком, інакше впираєшся в квоту API. Таблицю можна щомісяця створювати нову або дописувати '
+          'в наявну.',
+          'Writing into the Google Sheet goes through a service account and in batches - a few requests for the '
+          'whole report rather than row by row, otherwise you hit the API quota. The sheet can be created fresh '
+          'every month or appended to.'),
+    ('shots', None, ['step3-report', 'step3-sheet-preview']),
+
+    ('h2', 'Дві задачі, яких немає в документації API',
+           'Two problems the API documentation does not mention'),
+    ('p', 'Найцінніше в цьому проєкті - не інтерфейс. Це дві речі, на які немає ні методу в API, ні рядка в '
+          'документації, і які довелось розбирати з нуля.',
+          'The most valuable part of this project is not the interface. It is two things with no API method and '
+          'no line of documentation behind them, which had to be worked out from scratch.'),
+
+    ('h3', 'Зникаючі замовлення: колізії order_id', 'Disappearing orders: order_id collisions'),
+    ('p', 'Симптом: клієнт стверджував, що в звіті щомісяця бракує кількох замовлень. Розбір логів показав, що '
+          'API CRM справді віддає менше записів, ніж у нього просили.',
+          'The symptom: the client kept saying a few orders were missing from the report every month. Going '
+          'through the logs showed the CRM API really did return fewer records than it was asked for.'),
+    ('p', 'Причина виявилась у генераторі номерів на лендінгу: номер складається з часу з точністю до десятої '
+          'секунди. Два замовлення, оформлені в ту саму десяту секунди, отримують однаковий номер, і API віддає '
+          'під ним лише одне. Гірше того - у пачці зі ста номерів таке замовлення детерміновано «зʼїдає» ще '
+          'один запис, найбільший номер у пачці, через те як у CRM стоїть обмеження вибірки після зʼєднання '
+          'таблиць.',
+          'The cause turned out to be the number generator on the landing page: the number is built from the '
+          'timestamp down to a tenth of a second. Two orders placed within the same tenth of a second get the '
+          'same number, and the API returns only one of them. Worse - inside a batch of a hundred numbers such '
+          'an order deterministically eats one more record, the largest number in the batch, because of how the '
+          'CRM limits the selection after joining its tables.'),
+    ('p', 'Що зроблено. «Зʼїдений» запис відловлюється повторним запитом меншими пачками. Для справжніх дублів '
+          'зроблено ручний етап: програма сама визначає, скільки замовлень живе під одним номером, і показує '
+          'вікно, де менеджер вписує те, чого API не віддало. Вписане зберігається назавжди і підставляється в '
+          'наступних прогонах - але лише якщо колізія на місці, статус зниклого замовлення збігається і API '
+          'віддає те саме замовлення, що й під час заповнення. Якщо хоч щось із цього змінилось, запис '
+          'відкладається і показується менеджеру знову, замість того щоб тихо підставити стару цифру. Причину '
+          'передали клієнту: на частині лендінгів генератор номера вже містить випадковий суфікс, і колізій там '
+          'рівно нуль.',
+          'What was done. The eaten record is caught by repeating the request in smaller batches. For genuine '
+          'duplicates there is a manual stage: the app works out how many orders live under one number and opens '
+          'a window where the manager types in what the API withheld. What is typed is kept forever and reused in '
+          'later runs - but only while the collision is still there, the missing order’s status still matches and '
+          'the API still returns the same order as it did when the form was filled. If any of that changed, the '
+          'record is set aside and shown to the manager again instead of quietly reusing a stale figure. The '
+          'cause was passed back to the client: on some of the landing pages the number generator already adds a '
+          'random suffix, and there the collision count is exactly zero.'),
+    ('shots', None, ['collisions-window']),
+
+    ('h3', 'Вартість зворотної доставки', 'The cost of return shipping'),
+    ('p', 'У CRM цієї суми немає взагалі, а перевізник не віддає її жодним окремим методом. Перевірили три '
+          'місця: заявки на повернення, список власних накладних і калькулятор ціни. У перших двох поле '
+          'вартості порожнє, третій не приймає номер накладної.',
+          'The CRM does not hold this figure at all, and the carrier exposes it through no dedicated method. '
+          'Three places were checked: the return requests, the list of own waybills and the price calculator. In '
+          'the first two the cost field is empty, the third does not accept a waybill number.'),
+    ('p', 'Робоча схема виявилась такою: вартість лежить у картці накладної, а повна сума повернення - це пряме '
+          'плече плюс зворотне плюс платне зберігання на відділенні, яке нараховується після семи безкоштовних '
+          'днів. Зберігання в кабінеті перевізника показується на обох накладних, тому рахувати його треба один '
+          'раз на посилку, інакше сума подвоюється. Схему звірили по контрольній вибірці накладних з точністю '
+          'до копійки.',
+          'The scheme that works is this: the cost sits in the waybill card, and the full price of a return is '
+          'the outbound leg plus the return leg plus the paid storage at the branch, which starts after seven '
+          'free days. The carrier’s dashboard shows that storage on both waybills, so it has to be counted once '
+          'per parcel or the sum doubles. The scheme was reconciled against a control sample of waybills down to '
+          'the kopeck.'),
+
+    ('h2', 'Програма не вдає, що дані ідеальні', 'The app does not pretend the data is clean'),
+    ('p', 'Перед записом звіту програма показує те, що може зробити цифри неточними: товари без собівартості, '
+          'замовлення без товарів, повернення без ТТН або з ТТН, якої немає в перевізника, один і той самий ТТН '
+          'у двох замовленнях, нові статуси, незаповнені колізії. Розрахунок при цьому не зупиняється - можна '
+          'подивитись приклади, прийняти як є або повернутись і виправити.',
+          'Before writing the report the app shows whatever could make the figures inaccurate: products without a '
+          'cost, orders without products, returns with no waybill or with one the carrier does not know, the same '
+          'waybill on two orders, new statuses, unfilled collisions. The calculation does not stop - you can look '
+          'at the examples, accept them as they are, or go back and fix them.'),
+    ('p', 'Сенс простий: звіт на кілька тисяч замовлень або правильний, або нічого не вартий. Тому користувач '
+          'має бачити, де саме цифра може бути кривою, а не отримувати мовчазне «порахувалось».',
+          'The reasoning is simple: a report over a few thousand orders is either right or worthless. So the user '
+          'should see exactly where a number may be off, rather than get a silent "done".'),
+    ('shots', 'col-12 col-md-10 col-xl-8 mx-auto', ['report-warnings']),
+
+    ('h2', 'Ключова логіка', 'The logic that matters'),
+    ('list', [
+        ('Ручні записи по колізіях перевіряються щоразу заново: змінився статус або відповідь API - запис '
+         'відкладається і показується людині, а не підставляється тихо',
+         'Manual collision entries are re-validated on every run: if the status or the API response changed, the '
+         'entry is set aside and shown to a human instead of being reused silently'),
+        ('Платне зберігання на відділенні рахується один раз на посилку, хоча перевізник показує його на обох '
+         'накладних - інакше сума повернення подвоюється',
+         'Paid storage at the branch is counted once per parcel even though the carrier shows it on both '
+         'waybills - otherwise the cost of a return doubles'),
+        ('Маржа розділена на основну й допродажну: їх створюють різні люди, тож і дивляться на них окремо',
+         'The margin is split into main and upsell: different people generate them, so they are looked at '
+         'separately'),
+        ('Невідомий статус замовлення не ламає розрахунок - звіт дораховується, а список нових статусів іде '
+         'в зауваження',
+         'An unknown order status does not break the calculation - the report is finished and the new statuses '
+         'go into the remarks'),
+        ('Запис у Google Таблицю пакетний: кілька запитів на весь звіт замість рядка за рядком, інакше квота API',
+         'Writing to the Google Sheet is batched: a few requests for the whole report instead of row by row, '
+         'otherwise the API quota bites'),
+        ('Атомарний запис локальних файлів: обрив посеред збереження не псує сховище собівартості й ручних записів',
+         'Atomic writes to the local files: an interruption mid-save does not corrupt the cost storage or the '
+         'manual entries'),
+        ('Помилки API доходять до користувача людською мовою, а не трейсбеком, і запит повторюється з паузою',
+         'API errors reach the user in plain language rather than as a traceback, and the request is retried '
+         'after a pause'),
+    ]),
+
+    ('h2', 'Що вміє програма', 'What the app can do'),
+    ('list', [
+        ('Збір замовлень за період з двох CRM-систем - двох акаунтів LP-CRM і SalesDrive - в одному проході',
+         'Collecting a period’s orders from two CRM systems - two LP-CRM accounts and SalesDrive - in one pass'),
+        ('Дотримання лімітів запитів з паузами й контролем залишку квоти',
+         'Respecting request limits with pauses and a check on the remaining quota'),
+        ('Мапінг кастомних полів замовлення через конфіг - під назви конкретного акаунта',
+         'Mapping custom order fields through a config, to the names of the specific account'),
+        ('Редагована таблиця собівартості з пошуком, фільтром незаповнених і підсвіткою нових товарів',
+         'An editable cost table with search, a missing-only filter and new products highlighted'),
+        ('Перенесення собівартості між місяцями: заповнене раніше підставляється автоматично',
+         'Carrying cost between months: whatever was filled in before is applied automatically'),
+        ('Ручний етап для колізій order_id з перевіркою записів при кожному наступному прогоні',
+         'A manual stage for order_id collisions, with the entries re-validated on every later run'),
+        ('Розрахунок вартості доставки по кожному поверненню з накладних Нової Пошти',
+         'Calculating the delivery cost of every return from the Nova Poshta waybills'),
+        ('Фінансовий звіт по кожному сайту й підсумковий, з розділеною маржею та повну статистику повернень',
+         'A financial report per store and in total, with the margin split and the full return statistics'),
+        ('Зауваження до даних перед записом - з прикладами й вибором «прийняти як є» чи виправити',
+         'Data remarks before writing - with examples and a choice between accepting them and fixing them'),
+        ('Запис у Google Таблицю з форматуванням: нова таблиця щомісяця або дозапис у наявну',
+         'Writing into a formatted Google Sheet: a fresh sheet every month or an append to an existing one'),
+        ('Демо-режим: усі три кроки проходяться на згенерованих даних без жодного ключа API',
+         'A demo mode: all three steps can be walked through on generated data without a single API key'),
+        ('Власний набір самоперевірок на 354 перевірки, що проганяється однією командою і ловить регресії '
+         'в розрахунках, мапінгу статусів і логіці ручних записів',
+         'An in-house self-test suite of 354 checks, run with a single command, that catches regressions in the '
+         'calculations, the status mapping and the manual-entry logic'),
     ]),
 ]
 
